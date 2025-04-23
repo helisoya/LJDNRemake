@@ -1,0 +1,1205 @@
+# -----------------------------------------------------------
+# --------------- Characters --------------------------------
+# -----------------------------------------------------------
+
+
+Char_Harold = Harold
+Char_Rickey = Rickey
+Char_Boyardee = Boyardee
+Char_Runcan = Chevalier de Runan
+Char_Waldo = Waldo
+Char_??? = ???
+Char_Dragon = Dragon
+Char_Katsumoto = Katsumoto
+Char_Touriste = Touriste
+Char_Foule = Foule
+Char_Natasha = Natasha
+Char_Ogre = Ogre
+Char_Archer = Archer
+Char_Mage = Sorcier
+Char_GUARD = GARDE
+Char_Braise = Braise
+Char_OldMan = Vieillard
+Char_OlWoman = Vieillarde
+Char_Marcel = Chasseur
+Char_Adrian = Adrien
+Char_Security = Securité
+Char_Horse = Cheval
+Char_Salesman = Marchand
+Char_Elk = Cerf
+
+# -----------------------------------------------------------
+# --------------- Choices -----------------------------------
+# -----------------------------------------------------------
+
+Choice_Generic = Que faire ?
+Choice_Chat = De quoi parler ?
+Choice_Road = Quel chemin prendre ?
+
+Choice_Map = Carte
+Choice_Harold = Parler à Harold
+Choice_CheckArea = Vérifier les alentours
+Choice_Nothing = Rien (Partir)
+Choice_MoveOut = Continuer
+
+Choice_Ideas = Des idées ?
+Choice_AboutRegion = A propos de la région
+Choice_AboutYou = A propos de vous
+Choice_AboutJob = A propos de votre travail
+Choice_AboutEmber = A propos du dragon
+Choice_AboutAssassin = A propos de l'assassin
+Choice_AboutPark = A propos du parc
+Choice_AboutRickey = A propos de Rickey
+Choice_AboutArcher = A propos de l'archer
+Choice_WhyMe = Pourquoi moi ?
+Choice_Guild = A propos de la guilde
+Choice_AboutSect = A propos de la secte
+Choice_LastYear = A propos de l'année dernière
+Choice_Grimoire = A propos du grimoire
+Choice_AboutLastNight = A propos de la nuit dernière
+Choice_AboutRickeyLand = A propos de RickeyLand
+Choice_Play = Essayer l'attraction
+Choice_Rules = Quelles sont les règles ?
+
+
+Choice_Left = Aller à Gauche
+Choice_Right = Aller à Droite
+
+Choice_Accept = Accepter
+Choice_Refuse = Refuser
+
+Choice_ScaleWall = Escalader le mur
+Choice_GoBack = Retourner en arrière
+
+Choice_RunAway = Fuir
+
+Choice_Products = A propos des produits
+
+
+# ---------------------------------------------------------
+# ------------------- Intro -------------------------------
+# ---------------------------------------------------------
+
+
+Intro_1 = La province de Vlatyr, paisible constituante des provinces Unis de Kosky.
+Intro_2 = Elle est si calme, qu'on pourrait croire qu'il ne s'y passe jamais rien.
+Intro_3 = Cependant, dans les montagnes reculées, un mystère se prépare.
+Intro_4 = Ce qui était auparavant le domaine d'un terrible dragon, est maintenant abandonnée.
+Intro_5 = Certains ont tenté de se l'approprier, mais ont échoué.
+Intro_6 = Les rumeurs disent qu'un individu est venu, et les a tous vaincus.
+Intro_7 = Personne ne sait qui il était, ni ce à quoi il ressemblait.
+Intro_8 = Mais grâce à lui, l'ancien domaine du dragon et son trésor restèrent intacts.
+Intro_9 = Cependant, les choses ne se sont pas arrêtées ici.
+Intro_10 = Des rumeurs ont refait surface. Elles parlaient d'une étrange secte résidant dans la vieille forteresse.
+Intro_11 = Qui étaient-ils ? Quel était leur but ? Les gens ne pouvaient que spéculer...
+Intro_12 = Ils semblaient vénérer un dieu dangereux, le Seigneur Cerf.
+Intro_13 = Dans la foi locale, il est le dieu du chaos et de la destruction.
+Intro_14 = Les légendes racontent qu'il parcourait cette terre, semant le chaos aux quatre coins du continent.
+Intro_15 = Un jour, il fut arrêté par le Dieu des dieux, Le Grand Caribou.
+Intro_16 = Il scella le Cerf démoniaque dans les tréprofonds, l'empêchant ainsi de semer le chaos.
+Intro_17 = Enfin, c'est ce que disaient les légendes...
+Intro_18 = Au cours des siècles, nombreux furent ceux qui tentèrent, en vain, de faire revenir le Seigneur Cerf.
+Intro_19 = Cette secte semblait être une nouvelle tentative de ramener à la vie une entitié disparue depuis longtemps.
+Intro_20 = Les rumeurs s'éteignirent. Qui s'intéresse à une étrange secte dans les montagnes de toute manière.
+Intro_21 = Jusqu'a...
+Intro_22 = ...Ce que la vieille forteresse explose sans raison.
+Intro_23 = La province tomba dans la confusion. Personne ne réclama l'attaque.
+Intro_24 = Certains disent que la secte avait échoué dans leur invocation du Seigneur Cerf.
+Intro_25 = D'autres parlent d'un héro venu mettre un terme à leur opération.
+Intro_26 = Au final, personne n'est vraiment sûr. Ça aurait pu être l'un des deux. Peut-être même les deux en même temps.
+Intro_27 = Mais ce n'était qu'un interlude pour une tempête à venir.
+Intro_28 = Une tempête si forte, qu'elle pourrait englober le monde entier. 
+Intro_29 = Et en son centre, une seule personne.
+Intro_30 = Elle sera capable d'y mettre un terme.
+Intro_31 = Elle pourra résoudre les mystères paralysant la province.
+Intro_32 = Son nom ? [MC].
+Intro_33 = Bientôt, il lui appartiendra de faire sens de tout cela.
+Intro_34 = Les ennemis viendront de partout, même de l'intérieur.
+Intro_35 = Cette quête dangereuse pourrait bien être sa dernière.
+Intro_36 = ........
+Intro_37 = ........
+Intro_38 = Ou- Ou suis-je ?
+Intro_39 = J'ai eu un rêve étrange... Qu'est ce que c'était ?
+Intro_40 = Attend... Je suis de retour, pas vrai ?
+Intro_41 = C'est Vlatyr, Harold m'a invoqué à nouveau.
+Intro_42 = Je pensais que c'était fini. Je n'ai pas le droit d'avoir une pause ?
+Intro_43 = ...... En fait, ou suis-je ?
+Intro_44 = Ce n'est pas la maison d'Harold. C'est un lac.
+Intro_45 = Comment vais-je retrouver sa maison ? Je ne me souviens pas de son emplacement.
+Intro_46 = Une ombre attire mon attention.
+Intro_47 = Qui va là ?!
+Intro_48 = .......
+Intro_49 = On dirait que je me suis trom-
+Intro_50 = Eh gaillard. Tu connais la différence entre un humain et une galinette cendrée ?
+Intro_51 = ...Le ...Les humains ne peuvent pas voler ?
+Intro_52 = Quoi ? Tu ne connais pas la différence ? Moi non plus !
+Intro_53 = Donc ça fait de toi une galinette cendrée. Et j'adore chasser les galinettes cendrées !
+Intro_54 = Attendez, quoi ?
+Intro_55 = Meurt, petit oiseau !
+Intro_56 = Le chasseur me vise avec son fusil. Je commence à fuir.
+
+Intro_57 = ...... Je crois que j'ai réussi à fuir....
+Intro_58 = Qui était ce fou ?
+Intro_59 = Attend... C'est la maison d'Harold, non ?
+Intro_60 = Bien. Il a des explications à me donner...
+Intro_61 = Je m'approche de la maison, et toque à la porte.
+Intro_62 = .....
+Intro_63 = Après quelques minutes, la porte s'ouvre.
+Intro_64 = Qui toque à une heure pareille ?
+Intro_65 = [MC] ?! C'est vous ?
+Intro_66 = Oui, c'est moi.
+Intro_67 = Ah ! Je suis heureux de voir revoir !
+Intro_68 = J'ai cru que l'invocation avait échouée... Je commençais à m'inquiéter, vous voyez.
+Intro_69 = La dernière fois que j'ai échoué une invocation, eh bien...
+Intro_70 = ...Ce n'est plus important, je suis ici maintenant.
+Intro_71 = Donc, quelle est la situation ? Pourquoi m'avez-vous invoqué à nouveau ?
+Intro_72 = Je croyais que nous étions d'accord sur le fait que je reste dans mon monde.
+Intro_73 = Oui, bien... Je suis navré, vraiment.
+Intro_74 = C'est juste que j'ai des problèmes. Et je me suis dit que vous seul pouvait m'aider !
+Intro_75 = D'accord, d'accord... Dites-moi ce qui est arrivé cette fois...
+Intro_76 = Mais par pitié, pas de mensonges. Je ne vais pas risquer ma vie pour des clés à nouveau.
+Intro_77 = Hmm.... Dans ce cas, j'ai une bonne et une mauvaise nouvelle.
+Intro_78 = Mais nous en parlerons à l'intérieur. Venez.
+Intro_79 = Je suis Harold à l'intérieur de sa maison.
+Intro_80 = Elle n'a pas changé. Je me demande combien de temps s'est passé depuis la dernière fois.
+Intro_81 = Combi-
+Intro_82 = Cela fait un an, [MC]. Une longue année.
+Intro_83 = Tout est devenu silencieux dans la province après que vous ayez vaincu le dragon.
+Intro_84 = Nous avons eu des problèmes mineurs environ une semaine après votre départ.
+Intro_85 = Mais j'ai réussi à les résoudre. C'était simple.
+Intro_86 = Vous ? Vous êtes parti accomplir une quête seul ?
+Intro_87 = Et bien... Disons que j'ai eu un peu d'aide.
+Intro_88 = Oui... Maintenant, à propos de cette bonne et mauvaise nouvelle ?
+Intro_89 = Oh, bien sûr. Voyons...
+Intro_90 = La mauvaise nouvelle est qu'on m'a volé mes affaires à nouveau.
+Intro_91 = Et la bonne nouvelle ?
+Intro_92 = Et bien, cette fois, ce ne sont pas mes clés. C'est un livre !
+Intro_93 = .......
+Intro_94 = .......
+Intro_95 = J'ai dit quelque chose de ridicule une fois de plus, pas vrai ?
+Intro_96 = Oh ça oui...
+Intro_97 = Oh, mais attendez ! Ce n'est pas n'importe quel livre !
+Intro_98 = C'est un grimoire ! Mon grimoire d'invocation !
+Intro_99 = A l'intérieur de ses pages se cachent les secrets permettant d'invoquer des entités dans notre monde.
+Intro_100 = Vous comprenez la gravité de la situation, pas vrai ?
+Intro_101 = S'il tombe entre de mauvaises mains, il pourrait être utilisé pour invoquer de terribles créatures.
+Intro_102 = Oh. Je vois. C'est assez problématique, en effet...
+Intro_103 = Et qui a volé votre grimoire ? Est-ce qu'ils l'ont toujours ?
+Intro_104 = Et bien... Comment devrais-je vous l'expliquer ?
+Intro_105 = Peut-être que vous devriez le voir par vous-même...
+Intro_106 = Harold me guide vers sa télévision.
+Intro_107 = Il l'allume, and change la chaine. Et elle est... particulière...
+
+Intro_108 = Avez-vous déjà rêvé d'aller dans un parc somptueux ?
+Intro_109 = Et bien ne rêvez plus ! RickeyLand est fait pour vous !
+Intro_110 = Nous avons tout pour la famille ici ! Venez voir nos attractions.
+Intro_111 = La maison hantée ! Trouverez-vous la sortie dans cet endroit effrayant ?
+Intro_112 = Le quiz de Waldo ! Répondez aux questions de mon assistant et gagnez des prix !
+Intro_113 = La course de chevaux ! Arriverez-vous à battre mes gardes à la course ?
+Intro_114 = Le tir sur marchand ! Amusez-vous à tirer sur cette ordure qui a tenté de me vendre un aspirateur !
+Intro_115 = AU SECOURS !
+Intro_116 = LA FERME !
+Intro_117 = Quelles magnifiques attractions ! Tout le monde les adore !
+Intro_118 = Mais ce n'est pas fini !
+Intro_119 = La première personne à finir les 4 attractions gagnera un prix !
+Intro_120 = Regardez ce livre que j'ai vo-... obtenu d'un vieillard. Quel prix magnifique !
+Intro_121 = Je vais même vous donner mon autographe, car je suis un si gentil PDG !
+Intro_122 = Alors, venez au parc ! RickeyLand vous attend !
+Intro_123 = Oh, et avant que j'oublie. 
+Intro_124 = Venez à la boutique de souvenirs ! C'est si sympa ! On a toutes les couleurs dont vous avez besoin !
+Intro_125 = Et si je ne vous y vois pas.... JE VAIS VOUS A-
+
+Intro_126 = .......
+Intro_127 = Qu'est ce que je viens de voir ?
+Intro_128 = C'est RickeyLand. Vous y étiez allé la dernière fois, pas vrai ?
+Intro_129 = Et... Le livre qu'il vient de montrer, le prix... C'est mon grimoire.
+Intro_130 = Donc vous voulez que j'aille le gagner pour vous ?
+Intro_131 = S'il vous plait, [MC]. Vous êtes mon seul espoir !
+Intro_132 = Ok, Ok. Mais qu'est-ce que vous avez fait pour l'énerver ?
+Intro_133 = Et bien... C'est une longue histoire.
+Intro_134 = Mais tout ce que vous devez savoir, c'est que Rickey, PDG de RickeyLand, est devenu fou.
+Intro_135 = Son parc n'allait pas bien financièrement l'année dernière, et a décliné.
+Intro_136 = Il y a une semaine, il est devenu fou, et a "invité" tous les habitants de la province à venir dans son parc.
+Intro_137 = C'est sans doute une dernière tentative pour faire de l'argent.
+Intro_138 = Et le bijou de son plan est le prix, mon grimoire.
+Intro_139 = On dirait qu'il ne connait pas ses secrets. En tout cas pour le moment.
+Intro_140 = Donc je vais devoir le gagner avant que Rickey ne découvre qu'il ne s'agit pas d'un simple livre.
+Intro_141 = Oui. Mais vous allez devoir attendre l'aube avant d'accéder au parc.
+Intro_142 = N'hésitez pas à utiliser ma chambre pour la nuit.
+Intro_143 = Je vous dois au moins ça.
+Intro_144 = Merci, Harold.
+Intro_145 = Et ainsi, j'ai décidé de dormir pour la nuit.
+Intro_146 = Une fois le matin arrivé, j'ai décidé de commencer ma quête.
+Intro_147 = Bien, au moins il fait plus chaud qu'hier soir...
+Intro_148 = Je devrais aller à RickeyLand maintenant. Le plus tôt j'aurais fini cette quête, le plus tôt je pourrais rentrer chez moi.
+Intro_149 = Je peux interagir avec les objets bleus. Pour bouger, je peux interagir avec le bas de l'écran.
+
+
+# ---------------------------------------------------------
+# ------------- Chez Harold -------------------------------
+# ---------------------------------------------------------
+
+ChezHarold_Car_1 = La voiture d'Harold. Dire que j'ai dû retrouver ses clés...
+
+ChezHarold_Harold_LastTime_1 = Vous êtes venu ici la dernière fois il y a un an.
+ChezHarold_Harold_LastTime_2 = A l'époque, je vous avais demandé de retrouver mes clés de voiture.
+ChezHarold_Harold_LastTime_3 = Une expédition idiote, j'en suis vraiment navré.
+ChezHarold_Harold_LastTime_4 = Peu de temps après votre départ, un nouvel incident est arrivé.
+ChezHarold_Harold_LastTime_5 = Des criminels ont tenté de prendre le contrôle de la forteresse, dont Rickey.
+ChezHarold_Harold_LastTime_6 = Je savais que je ne pouvais pas vous faire revenir, pas aussi tôt en tout cas...
+ChezHarold_Harold_LastTime_7 = Donc j'ai décidé de tout gérer moi-même. Et j'ai réussi !
+ChezHarold_Harold_LastTime_8 = La province est redevenu paisible pendant un an, jusqu'à la semaine dernière.
+ChezHarold_Harold_LastTime_9 = La vieille forteresse a explosé, et Rickey a volé mon grimoire.
+ChezHarold_Harold_LastTime_10 = Je savais que j'avais besoin d'aide. Je vous ai donc invoqué à nouveau.
+
+ChezHarold_Harold_Grimoire_1 = Mon grimoire est rempli de secrets magiques.
+ChezHarold_Harold_Grimoire_2 = Avec lui, un individu peut facilement invoquer n'importe quoi dans ce monde.
+ChezHarold_Harold_Grimoire_3 = Donc vous vous douter ce que pourrait faire un PDG fou avec un tel grimoire.
+ChezHarold_Harold_Grimoire_4 = Il pourrait invoquer des horreurs, et conquérir le monde à tout moment.
+ChezHarold_Harold_Grimoire_5 = C'est une bonne chose que je me souviens de l'incantation pour vous invoquer. Sinon, j'aurais eu des problèmes.
+
+
+ChezHarold_Harold_MainQuest0_1 = Vous devez entrer dans RickeyLand, [MC].
+ChezHarold_Harold_MainQuest0_2 = Finir les 4 attractions principales est la seule manière d'obtenir mon grimoire.
+
+ChezHarold_Harold_MainQuest1_1 = Vous avez besoin d'une invitation pour rentrer dans le parc ?
+ChezHarold_Harold_MainQuest1_2 = Et bien... Je n'en ai pas reçu alors. Rickey doit me détester.
+ChezHarold_Harold_MainQuest1_3 = Vous allez devoir improviser. Peut-être que quelqu'un peut vous donner leur invitation.
+
+
+ChezHarold_Harold_Default = [MC] ! Avez-vous besoin d'aide ?
+
+ChezHarold_Harold_MainQuest6_1 = [MC] ! Vous avez réussi !
+ChezHarold_Harold_MainQuest6_2 = Oui... J'ai obtenu votre grimoire.
+ChezHarold_Harold_MainQuest6_3 = Avez-vous eu des problèmes pour le récupérer ?
+ChezHarold_Harold_MainQuest6_4 = Euh... Pas vraiment.
+ChezHarold_Harold_MainQuest6_5 = C'est bon à savoir !
+ChezHarold_Harold_MainQuest6_6 = Si Rickey avait compris son potentiel, nous aurions tous été en danger.
+ChezHarold_Harold_MainQuest6_7 = Mais je suis heureux de savoir que vous avez sauvé mon grimoire.
+ChezHarold_Harold_MainQuest6_8 = Bien sûr, je suis aussi content de savoir que vous allez bien !
+ChezHarold_Harold_MainQuest6_9 = Merci.
+ChezHarold_Harold_MainQuest6_10 = Bien... J'ai fini ce que j'avais à faire.
+ChezHarold_Harold_MainQuest6_11 = Je suppose que c'est le moment où vous me renvoyez dans mon monde ?
+ChezHarold_Harold_MainQuest6_12 = ............
+ChezHarold_Harold_MainQuest6_13 = Eh Eh Eh !
+ChezHarold_Harold_MainQuest6_14 = Hein ?
+ChezHarold_Harold_MainQuest6_15 = Vous voulez que je vous renvoie dans votre monde ?
+ChezHarold_Harold_MainQuest6_16 = Avez-vous la moindre idée de ce que vous venez de faire ?
+ChezHarold_Harold_MainQuest6_17 = Euh... Harold ?
+ChezHarold_Harold_MainQuest6_18 = Vous m'êtes toujours utile, [MC]. Vous ne repartirez pas.
+ChezHarold_Harold_MainQuest6_19 = Quoi ?! Harold me menace avec une arme ?
+ChezHarold_Harold_MainQuest6_20 = Attendez, attendez ! Qu'est c-
+ChezHarold_Harold_MainQuest6_21 = Harold me frappe avec son arme. Je tombe dans l'inconscience immédiatement.
+ChezHarold_Harold_MainQuest6_22 = ............
+
+
+# ---------------------------------------------------------
+# ------------------- Vlatyr ------------------------------
+# ---------------------------------------------------------
+
+Vlatyr_ChezBoyardee_Done_1 = C'est fermé.
+
+Vlatyr_ShopQuest1_1 = Eh, toi !
+Vlatyr_ShopQuest1_2 = Un visage familier m'accueille.
+Vlatyr_ShopQuest1_3 = Oh, vous êtes le Chevalier de Runan ? J'ai une boîte pour vous.
+Vlatyr_ShopQuest1_4 = Je me souviens que cet homme a posé problème au parc l'année dernière.
+Vlatyr_ShopQuest1_5 = Je me demande si c'est pour cela qu'il n'est pas venu à la boutique.
+Vlatyr_ShopQuest1_6 = C'est bien moi. Donc tu as la boîte, bien.
+Vlatyr_ShopQuest1_7 = Je lui donne la boîte. Il s'empresse de l'inspecter.
+Vlatyr_ShopQuest1_8 = Hmm... On dirait que tout est en ordre.
+Vlatyr_ShopQuest1_9 = Bien. Je m'en vais. Dis bonjour au grand gaillard pour moi. 
+Vlatyr_ShopQuest1_10 = Le Chevalier disparait dans une rue adjacente. C'était gênant.
+Vlatyr_ShopQuest1_11 = Je devrais retourner voir Waldo.
+
+Vlatyr_GUARD_Normal = Oh, salut !
+
+Vlatyr_GUARD_QuestStart_1 = Oh ! Eh, vous !
+Vlatyr_GUARD_QuestStart_2 = vous êtes le type de l'année dernière, pas vrai ?
+Vlatyr_GUARD_QuestStart_3 = Oh, oui. Je me souviens de vous.
+Vlatyr_GUARD_QuestStart_4 = C'était quoi son nom déjà ? GARDE ou un truc du genre ?
+Vlatyr_GUARD_QuestStart_5 = Il protégeait la forteresse du dragon. Je lui ai menti pour entrer à l'intérieur.
+Vlatyr_GUARD_QuestStart_6 = J'espère qu'il ne m'en veut pas pour avoir tué le dragon.
+Vlatyr_GUARD_QuestStart_7 = C'était décevant, vraiment.
+Vlatyr_GUARD_QuestStart_8 = ... Oui...
+Vlatyr_GUARD_QuestStart_9 = Vous étiez venu rendre hommage au Seigneur Braise. Et il a été tué par ce vil samurai.
+Vlatyr_GUARD_QuestStart_10 = Quoi ? Il croit que je suis innocent ? Parfait !
+Vlatyr_GUARD_QuestStart_11 = Enfin bon. J'ai décidé après ça de partir dans une petite aventure.
+Vlatyr_GUARD_QuestStart_12 = En fait, vous pourriez même m'aider si ça vous intéresse.
+Vlatyr_GUARD_QuestStart_13 = Ca se peut. Qu'avez-vous en tête ?
+Vlatyr_GUARD_QuestStart_14 = Vous vous souvenez du politicien dont je vous avais parlé ? Celui qui avait été tué ?
+Vlatyr_GUARD_QuestStart_15 = J'ai décidé de mener l'enquête sur ce culte qu'il poursuivait.
+Vlatyr_GUARD_QuestStart_16 = J'ai voyagé dans le continent, allant jusqu'à la lointaine ville de Kalia.
+Vlatyr_GUARD_QuestStart_17 = Au final, j'ai réussi à localiser le culte dans la vieille forteresse du dragon.
+Vlatyr_GUARD_QuestStart_18 = J'ai, enfin... il je suppose, a ensuite décidé d'en finir avec ce culte une bonne fois pour toutes.
+Vlatyr_GUARD_QuestStart_19 = Il ? 
+Vlatyr_GUARD_QuestStart_20 = Un ami que j'ai rencontré à Kalia.
+Vlatyr_GUARD_QuestStart_21 = Mais plus important. Vous voulez dire que vous avez...
+Vlatyr_GUARD_QuestStart_22 = Causé la destruction de la forteresse ? Oui.
+Vlatyr_GUARD_QuestStart_23 = Les cultistes étaient tous regroupés pour une sorte de congrès.
+Vlatyr_GUARD_QuestStart_24 = On est rentré discrètement, et on a fait exploser une bombe.
+Vlatyr_GUARD_QuestStart_25 = On a réussi à tous les tuer. Enfin, c'est ce qu'on pensait...
+Vlatyr_GUARD_QuestStart_26 = Certains ont survécu ?
+Vlatyr_GUARD_QuestStart_27 = C'est ce que je pense.
+Vlatyr_GUARD_QuestStart_28 = Il y a quelques jours, une de leurs entreprises de façade a soudainement été relocalisée.
+Vlatyr_GUARD_QuestStart_29 = Et les morts ne peuvent pas faire ça aux dernières nouvelles.
+Vlatyr_GUARD_QuestStart_30 = Donc c'est là que vous entrez en jeu.
+Vlatyr_GUARD_QuestStart_31 = Je dois garder un oeil sur ces entreprises. Mais j'ai aussi besoin de vérifier quelque chose.
+Vlatyr_GUARD_QuestStart_32 = Comme il semblerait que nous ayons raté des cultistes. J'aimerais que vous enquetiez à la vieille forteresse.
+Vlatyr_GUARD_QuestStart_33 = Si vous trouvez quelque chose hors de l'ordinaire, dites-le moi. N'importe quel indice peut être vital.
+Vlatyr_GUARD_QuestStart_34 = Très bien. J'ai ma propre mission, mais je vais voir ce que je peux faire pour vous.
+Vlatyr_GUARD_QuestStart_35 = Merci ! J'apprécie votre geste.
+
+Vlatyr_GUARD_AboutYou_1 = Je suis GARDE. J'étais un simple garde du corps il y a un an.
+Vlatyr_GUARD_AboutYou_2 = L'usuel. Protéger un politicien, un dragon...
+Vlatyr_GUARD_AboutYou_3 = Mais les choses ont changé après que j'ai échoué mes missions.
+Vlatyr_GUARD_AboutYou_4 = J'ai échoué, et j'ai été moqué pour mon incompétence.
+Vlatyr_GUARD_AboutYou_5 = Mais ce n'est pas important. J'ai une autre mission maintenant. Je dois stopper ce culte.
+
+Vlatyr_GUARD_AboutSect_1 = Le culte que je poursuis est spécialisé dans l'invocation.
+Vlatyr_GUARD_AboutSect_2 = Ils sont derrière une série d'attaques et de meurtres dans la région.
+Vlatyr_GUARD_AboutSect_3 = Leur but est le chaos purement et simplement.
+Vlatyr_GUARD_AboutSect_4 = Pourquoi donc ? Ils prient le dieu local du chaos : Le Seigneur Cerf.
+Vlatyr_GUARD_AboutSect_5 = Ils avaient l'air de vouloir le réinvoquer dans ce monde.
+Vlatyr_GUARD_AboutSect_6 = Mais bon. Maintenant qu'ils sont pour la plupart mort, nous devrions être en sécurité.
+
+Vlatyr_GUARD_QuestEnd_1 = Oh, salut ! Vous avez eu de la chance ?
+Vlatyr_GUARD_QuestEnd_2 = Oui. J'ai trouvé qu'au moins un des cultistes a réussi à fuir.
+Vlatyr_GUARD_QuestEnd_3 = Ah, c'est ce que je craignais...
+Vlatyr_GUARD_QuestEnd_4 = Autre chose ?
+Vlatyr_GUARD_QuestEnd_5 = J'ai aussi trouvé cet étrange collier. Je me suis dit que vous saviez peut-être ce que c'était.
+Vlatyr_GUARD_QuestEnd_6 = Voyons voir.
+Vlatyr_GUARD_QuestEnd_7 = Hmm.......
+Vlatyr_GUARD_QuestEnd_8 = Je vois.... Curieux....
+Vlatyr_GUARD_QuestEnd_9 = On dirait un collier de rituel.
+Vlatyr_GUARD_QuestEnd_10 = J'ai entendu dire qu'il empêchait l'invocation d'entités.
+Vlatyr_GUARD_QuestEnd_11 = Vous le mettez, et les invocateurs au alentour ne pourront plus invoquer quoi que ce soit.
+Vlatyr_GUARD_QuestEnd_12 = En fait, vous pouvez le garder. J'ai l'impression que vous en aurez besoin un jour.
+Vlatyr_GUARD_QuestEnd_13 = Et vous ?
+Vlatyr_GUARD_QuestEnd_14 = Une façade du culte a commencé à se relocaliser. Je vais intervenir.
+Vlatyr_GUARD_QuestEnd_15 = Je suppose que je vais y aller maintenant. C'était sympa de vous revoir.
+Vlatyr_GUARD_QuestEnd_16 = De même. C'était intéressant.
+Vlatyr_GUARD_QuestEnd_17 = GARDE me dit au revoir, et quitte la rue.
+Vlatyr_GUARD_QuestEnd_18 = Quel étrange personnage. Mais je suppose qu'il y a sa propre mission à remplir.
+Vlatyr_GUARD_QuestEnd_19 = Je regarde le collier. Mais que vais-je faire avec ?
+Vlatyr_GUARD_QuestEnd_20 = Peut-être que je peux le mettre pour qu'Harold ne puisse pas m'invoquer une troisième fois.
+Vlatyr_GUARD_QuestEnd_21 = ... Ça ne marcherait pas... Dans tous les cas, je devrais y aller. 
+Vlatyr_GUARD_QuestEnd_22 = Je mets le collier pour l'instant.
+
+
+# ---------------------------------------------------------
+# -------------- Chez Marcel ------------------------------
+# ---------------------------------------------------------
+
+ChezMarcel_Marcel_Default_1 = Eh, gaillard. Tu as trouvé une galinette cendrée ?
+
+ChezMarcel_Marcel_AboutYou_1 = Je suis juste un chasseur local. Rien de plus.
+ChezMarcel_Marcel_AboutYou_2 = J'aime chasser les galinettes et boire des bières avec mes amis.
+ChezMarcel_Marcel_AboutYou_3 = Tu connais le bon vieux Harold ? Je bois avec lui de temps en temps.
+ChezMarcel_Marcel_AboutYou_4 = Même si, il ne chasse pas. Il dit qu'il n'aime pas les armes. Je me demande pourquoi...
+
+ChezMarcel_Marcel_LastNight_1 = On s'est vus la nuit dernière ?
+ChezMarcel_Marcel_LastNight_2 = C'est bizarre, j'ai chassé une galinette cendrée toute la nuit.
+ChezMarcel_Marcel_LastNight_3 = Elle courait vite maintenant que j'y pense.
+ChezMarcel_Marcel_LastNight_4 = Et elle criait en français. Quel oiseau étrange.
+
+ChezMarcel_Marcel_MainQuest1_1 = RickeyLand ? C'est quoi, un oiseau ?
+ChezMarcel_Marcel_MainQuest1_2 = Non, c'est un parc d'attractions situé à quelques minutes d'ici.
+ChezMarcel_Marcel_MainQuest1_3 = Ils ont envoyé une invitation il y a environ une semaine.
+ChezMarcel_Marcel_MainQuest1_4 = ? ... Attendez...
+ChezMarcel_Marcel_MainQuest1_5 = Le chasseur cherche dans ses poches, et sort un papier.
+ChezMarcel_Marcel_MainQuest1_6 = Je me souviens maintenant ! J'ai reçu ça il y a une semaine, comme vous l'avez dit.
+ChezMarcel_Marcel_MainQuest1_7 = J'ai cru que c'était une carte montrant ou niche les galinettes cendrées.
+ChezMarcel_Marcel_MainQuest1_8 = Mais je n'ai pas réussi à trouver ou je me situais sur la carte, donc j'ai abandonné.
+ChezMarcel_Marcel_MainQuest1_9 = Puis-je vous l'emprunter ? J'en ai besoin pour quelque chose.
+ChezMarcel_Marcel_MainQuest1_10 = Allez-y. Je n'en ai pas d'utilité dans tous les cas.
+ChezMarcel_Marcel_MainQuest1_11 = Super. Je peux maintenant accéder à RickeyLand.
+
+
+# ---------------------------------------------------------
+# ------------- Intersection ------------------------------
+# ---------------------------------------------------------
+
+
+# ---------------------------------------------------------
+# --------------- Rickeyland - Entrée ---------------------
+# ---------------------------------------------------------
+
+RickeyLandEntrance_Door_No_1 = Je n'ai pas besoin d'entrer dans le parc.
+
+RickeyLandEntrance_MainQuest0_1 = Eh, attendez !
+RickeyLandEntrance_MainQuest0_2 = Un garde de sécurité m'empêche d'entrer dans le parc.
+RickeyLandEntrance_MainQuest0_3 = Vous devez me montrer votre invitation avant d'entrer.
+RickeyLandEntrance_MainQuest0_4 = Mon invitation ?
+RickeyLandEntrance_MainQuest0_5 = Oui, vous devriez l'avoir reçu dans votre boîte aux lettres.
+RickeyLandEntrance_MainQuest0_6 = Enfin, sauf si vous vous appelez Harold. Le PDG déteste Harold.
+RickeyLandEntrance_MainQuest0_7 = Oh... Je vois. Je crois l'avoir oublié chez moi.
+RickeyLandEntrance_MainQuest0_8 = Je vais aller la chercher, monsieur.
+RickeyLandEntrance_MainQuest0_9 = Super... J'ai besoin d'une invitation pour entrer dans RickeyLand. Et je suppose qu'Harold n'en a pas reçu.
+RickeyLandEntrance_MainQuest0_10 = Je vais peut-être devoir explorer un peu, voir si quelqu'un pourrait me prêter la sienne.
+
+RickeyLandEntrance_MainQuest1_1 = Eh ! Pas d'invitation, pas d'entrée !
+
+RickeyLandEntrance_MainQuest2_1 = Eh, attendez !
+RickeyLandEntrance_MainQuest2_2 = Le garde m'empêche à nouveau d'entrer.
+RickeyLandEntrance_MainQuest2_3 = Pourquoi avoir besoin d'autant de sécurité de toute façon ?
+RickeyLandEntrance_MainQuest2_4 = J'ai réussi à retrouver mon invitation. La voilà.
+RickeyLandEntrance_MainQuest2_5 = ...
+RickeyLandEntrance_MainQuest2_6 = C'est bon. Bienvenue à RickeyLand.
+RickeyLandEntrance_MainQuest2_7 = Merci, monsieur.
+RickeyLandEntrance_MainQuest2_8 = Enfin.... Entrons.
+RickeyLandEntrance_MainQuest2_9 = J'entre dans le parc. J'espère que ça ne prendra pas trop de temps.
+RickeyLandEntrance_MainQuest2_10 = Donc voici RickeyLand. Je dois dire, je n'ai pas vraiment fait attention au décor la dernière fois.
+RickeyLandEntrance_MainQuest2_11 = Ce parc est gigantesque. Je dois essayer de ne pas me perdre.
+RickeyLandEntrance_MainQuest2_12 = Un stand m'intrigue. Il offre des cartes du parc.
+RickeyLandEntrance_MainQuest2_13 = Parfait. Avec cette carte, je vais pouvoir me retrouver dans le parc.
+RickeyLandEntrance_MainQuest2_14 = Ma première tache est de finir les quatre attractions de RickeyLand.
+RickeyLandEntrance_MainQuest2_15 = Après ça, je dois obtenir le grimoire d'Harold avant que quelqu'un d'autre l'obtienne. Ou pire, que Rickey découvre son secret.
+RickeyLandEntrance_MainQuest2_16 = Je peux sortir de RickeyLand en interagissant avec la porte d'entrée.
+
+# ---------------------------------------------------------
+# ------------------ Rickeyland - Gate --------------------
+# ---------------------------------------------------------
+
+Gate_NoExit_1 = Je ne peux pas partir maintenant.
+
+# ---------------------------------------------------------
+# ------------------ Rickeyland - Plaza -------------------
+# ---------------------------------------------------------
+
+Plaza_Horse_1 = Ah ! Voilà le cheval !
+Plaza_Horse_2 = ???
+Plaza_Horse_3 = Viens par ici, je ne vais pas te faire de mal.
+Plaza_Horse_4 = J'arrive à attraper le cheval.
+Plaza_Horse_5 = Bien sûr, je le ramène à l'attraction.
+Plaza_Horse_6 = Merci, merci !
+Plaza_Horse_7 = Je ne vais pas me faire gronder par le PDG maintenant.
+Plaza_Horse_8 = Si vous voulez, vous pouvez dès à présent participer à l'attraction.
+
+
+
+# ---------------------------------------------------------
+# ----------------- Rickeyland - Quiz ---------------------
+# ---------------------------------------------------------
+
+Quiz_Waldo_Default_1 = Bonjour ! Voulez-vous essayer le quiz ?
+
+Quiz_Waldo_Done_1 = Vous avez déjà fini cette attraction !
+
+Quiz_Waldo_Rules_1 = Votre but est de répondre correctement à mes questions.
+Quiz_Waldo_Rules_2 = Ce sont des questions simples. L'histoire du parc, la géographie...
+Quiz_Waldo_Rules_3 = Laissez-moi savoir quand vous êtes prêt. Je commencerai le quiz.
+
+Quiz_Waldo_Play_1 = Très bien ! Commençons le quiz !
+
+Quiz_Waldo_End_1 = Bravo ! Vous avez réussi à répondre à toutes mes questions !
+Quiz_Waldo_End_2 = Vous avez officiellement réussi le "Quiz de Waldo" !
+
+Quiz_Waldo_End_Done_1 = Et incroyable ! Vous avez fini les 4 attractions du parc. Bravo !
+Quiz_Waldo_End_Done_2 = Rendez-vous au palais pour obtenir un prix incroyable !
+
+Quiz_Waldo_End_Normal_1 = Pour obtenir le prix, vous devez encore finir quelques attractions.
+Quiz_Waldo_End_Normal_2 = Allez-y. Je suis sûr que vous y arriverez facilement.
+
+Quiz_Waldo_End_Souvenir_1 = Oh, et avant que j'oublie !
+Quiz_Waldo_End_Souvenir_2 = N'hésitez pas à passer à la boutique de souvenirs si vous avez le temps.
+Quiz_Waldo_End_Souvenir_3 = Nous avons des produits... "spéciaux" à vous proposer.
+Quiz_Waldo_End_Souvenir_4 = Mais de quoi est-ce qu'il parle ?
+Quiz_Waldo_End_Souvenir_5 = Je suppose que je pourrais y jeter un oeil plus tard...
+
+
+# ---------------------------------------------------------
+# ----------- Rickeyland - Horse Race ---------------------
+# ---------------------------------------------------------
+
+Horse_Waldo_Default_1 = Bonjour ! Voulez-vous essayer la course de chevaux ?
+
+Horse_Waldo_Rules_1 = Votre but est de finir premier à la course.
+Horse_Waldo_Rules_2 = Vous devrez esquiver les obstacles, ainsi que vos adversaires.
+Horse_Waldo_Rules_3 = Ah oui. J'aimerais aussi vous prévenir que vos adversaires seront les gardes du parc.
+Horse_Waldo_Rules_4 = Ils seront peut-être... "violents"...
+
+Horse_Waldo_Play_1 = Très bien ! Commençons la course !
+
+Horse_Waldo_Lost_1 = Oh ! On dirait que vous avez perdu, dommage !
+Horse_Waldo_Lost_2 = Si vous voulez réessayer, dites-le-moi.
+
+Horse_Waldo_RunAway_1 = ?!
+Horse_Waldo_RunAway_2 = Le cheval a l'air... agité.
+Horse_Waldo_RunAway_3 = Qu'est-ce qui va pas ? Tu ne veux pas courir ?
+Horse_Waldo_RunAway_4 = !!!
+Horse_Waldo_RunAway_5 = Hein ? Eh ! Reviens !
+Horse_Waldo_RunAway_6 = Le cheval a pris la fuite. Qui sait où il est allé.
+Horse_Waldo_RunAway_7 = Oh non... Que faire...
+Horse_Waldo_RunAway_8 = Hmm... Monsieur, puis-je vous demander une faveur ?
+Horse_Waldo_RunAway_9 = Vous voulez que je trouve le cheval ?
+Horse_Waldo_RunAway_10 = Oui. Pour être sincère, je ne peux pas quitter l'attraction.
+Horse_Waldo_RunAway_11 = Le PDG aura ma tête si je la laisse sans surveillance...
+Horse_Waldo_RunAway_12 = Je comprends. Je vais trouver le cheval.
+Horse_Waldo_RunAway_13 = Merci ! Je suis sûr qu'il est toujours dans le parc, quelque part.
+
+Horse_Waldo_NoHorse_1 = Vous devez trouver le cheval avant de pouvoir participer à la course.
+
+Horse_Waldo_End_1 = Bravo ! Vous avez réussi à finir premier à la course !
+Horse_Waldo_End_2 = Vous avez officiellement réussi la "Course de chevaux" !
+
+Horse_Horse_1 = Un cheval.
+
+# ---------------------------------------------------------
+# ----------- Rickeyland - Haunted House ------------------
+# ---------------------------------------------------------
+
+HauntedHouse_Waldo_Default_1 = Bonjour ! Vous voulez entrer dans cette maison effrayante ?
+
+HauntedHouse_Waldo_Rules_1 = Votre but ici est simple.
+HauntedHouse_Waldo_Rules_2 = Trouvez la sortie de la maison hantée, et vous avez gagné !
+HauntedHouse_Waldo_Rules_3 = Faites juste attention. Nous avons des choses TRÈS effrayantes à l'intérieur.
+HauntedHouse_Waldo_Rules_4 = Pas du tout le PDG sous un drap blanc...
+
+HauntedHouse_Waldo_Play_1 = Très bien ! Vous pouvez entrer dans la maison hantée.
+
+HauntedHouse_Waldo_End_1 = Super ! Vous avez réussi à trouver la sortie !
+HauntedHouse_Waldo_End_2 = Vous avez officiellement réussi la "Maison Hantée" !
+
+# ---------------------------------------------------------
+# ------------ Rickeyland - Shoot the salesma--------------
+# ---------------------------------------------------------
+
+Salesman_Salesman_Default_1 = Oh non... Quoi encore ?
+
+Salesman_Salesman_Done_1 = S'il vous plait ! Non !
+
+Salesman_Salesman_Rules_1 = Votre but est de me jeter des couteaux dessus.
+Salesman_Salesman_Rules_2 = Vous gagnez des points si vous ne me toucher pas.
+Salesman_Salesman_Rules_3 = Donc, par pitié... Ne me touchez pas.
+
+Salesman_Salesman_You_1 = Moi ? Je ne suis qu'un simple vendeur.
+Salesman_Salesman_You_2 = J'ai tenté de vendre un aspirateur au PDG.
+Salesman_Salesman_You_3 = Mais il avait d'autres plans, et m'a attaché ici.
+Salesman_Salesman_You_4 = Maintenant je suis une attraction, et je dois même expliquer les règles aux gens.
+Salesman_Salesman_You_5 = J'ai tenté de fuir. Mais avec tout les gardes, c'est quasiment impossible.
+
+Salesman_Salesman_Play_1 = Oh non... Ok... Ok...
+
+Salesman_Salesman_End_1 = .... On dirait que j'ai survécu...
+Salesman_Salesman_End_2 = Vous avez maintenant fini l'attraction "Tir sur Marchand".
+
+Salesman_Salesman_End_Done_1 = On dirait que vous avez aussi réussi toutes les autres attractions. Bon boulot ?
+Salesman_Salesman_End_Done_2 = Le PDG m'a dit de vous dire d'aller chercher votre prix au palais.
+
+Salesman_Salesman_End_Normal_1 = Vous devez encore finir quelques attractions pour gagner le prix.
+Salesman_Salesman_End_Normal_2 = Mais par pitié... Ne retentez plus cette attraction.
+
+Salesman_Salesman_End_Souvenir_1 = Oh, et j'ai un message du grand gars bleu.
+Salesman_Salesman_End_Souvenir_2 = "N'hésitez pas à passer à la boutique de souvenirs si vous avez le temps."
+Salesman_Salesman_End_Souvenir_3 = "Nous avons des produits... spéciaux à vous proposer."
+Salesman_Salesman_End_Souvenir_4 = De quoi il parle ?
+Salesman_Salesman_End_Souvenir_5 = Aucune idée. Mais je suppose que vous pouvez toujours aller voir.
+
+# ---------------------------------------------------------
+# ------------ Rickeyland - Souvenir shop -----------------
+# ---------------------------------------------------------
+
+Souvenir_Waldo_Normal = Salut ! Comment puis-je vous aider ?
+
+Souvenir_Waldo_AboutYou_1 = Je suis Waldo, l'unique employé du parc.
+Souvenir_Waldo_AboutYou_2 = Mon travail est de m'assurer que les visiteurs aient la meilleure expérience possible.
+Souvenir_Waldo_AboutYou_3 = Pour cette raison, je m'occupe de la plupart des attractions, ainsi que cette boutique.
+Souvenir_Waldo_AboutYou_4 = Mais ouf... C'est vraiment difficile.
+Souvenir_Waldo_AboutYou_5 = Je tenais mon propre parc d'attractions il y a pas si longtemps. C'était moins fatigant.
+
+Souvenir_Waldo_AboutRickey_1 = Le PDG ? Eh bien, que puis-je dire sur lui ?
+Souvenir_Waldo_AboutRickey_2 = Je veux dire... Qu'ais-je le droit de dire ?
+Souvenir_Waldo_AboutRickey_3 = Je vais être honnête, je ne suis pas content à 100% avec ses façons de faire.
+Souvenir_Waldo_AboutRickey_4 = Nous sommes endetté, personne ne veux venir, et que fait-il ?
+Souvenir_Waldo_AboutRickey_5 = Il engage plus de gardes et commence une campagne de publicité agressive.
+Souvenir_Waldo_AboutRickey_6 = ... Au moins ma paie est correcte. Pour le moment.
+
+Souvenir_Waldo_ShopQuest0_1 = J'ai entendu dire que vous avez des produits "spéciaux" ?
+Souvenir_Waldo_ShopQuest0_2 = Oh, oui ! J'ai d'excellents produits à vous proposer.
+Souvenir_Waldo_ShopQuest0_3 = Armes, tanks, drogues, vous en voulez, je l'ai.
+Souvenir_Waldo_ShopQuest0_4 = Euh, quoi ?
+Souvenir_Waldo_ShopQuest0_5 = Je suis désolé, je ne suis pas intéressé dans de tels produits.
+Souvenir_Waldo_ShopQuest0_6 = Et je suis sûr qu'ils soient légaux.
+Souvenir_Waldo_ShopQuest0_7 = Et puis, je n'ai pas assez d'argent pour les acheter.
+Souvenir_Waldo_ShopQuest0_8 = Oh... Eh bien, ça va être problématique...
+Souvenir_Waldo_ShopQuest0_9 = Pourquoi ? 
+Souvenir_Waldo_ShopQuest0_10 = Et bien... Le PDG déteste quand les gens n'achètent pas nos produits.
+Souvenir_Waldo_ShopQuest0_11 = Il y a une possibilité que vous ayez des... problèmes, si vous n'achetez rien.
+Souvenir_Waldo_ShopQuest0_12 = Mais j'ai une idée, et ça ne va rien vous couter.
+Souvenir_Waldo_ShopQuest0_13 = J'ai une livraison à faire dans la ville de Vlatyr.
+Souvenir_Waldo_ShopQuest0_14 = C'est pour un homme appelé le "Chevalier de Runan".
+Souvenir_Waldo_ShopQuest0_15 = Il a commandé cette boîte, mais je ne peux pas la livrer à cause de mes autres obligations.
+Souvenir_Waldo_ShopQuest0_16 = Pourriez-vous le faire pour moi ? Je vous donnerai un cachet prouvant que vous avez "acheté" un produit.
+Souvenir_Waldo_ShopQuest0_17 = Très bien, je vais voir ce que je peux faire.
+Souvenir_Waldo_ShopQuest0_18 = Merci ! Oh, et ne regardez pas ce qu'il y a dans la boîte. C'est confidentiel.
+
+Souvenir_Waldo_ShopQuest1_1 = Vous devez livrer la boîte au Chevalier de Runan, dans la ville de Vlatyr.
+
+Souvenir_Waldo_ShopQuest2_1 = J'ai livré la boîte. Le chevalier avait l'air ravi.
+Souvenir_Waldo_ShopQuest2_2 = Ah, bon travail. Vous m'avez vraiment aidé.
+Souvenir_Waldo_ShopQuest2_3 = Le Chevalier est un de mes meilleurs clients. Il achète beaucoup de produits.
+Souvenir_Waldo_ShopQuest2_4 = Mais les affaires sont un peu compliquées avec le PDG.
+Souvenir_Waldo_ShopQuest2_5 = Apparement, ils se détestent. Je ne sais pas pourquoi exactement.
+Souvenir_Waldo_ShopQuest2_6 = Ça a peut-être à voir avec le concours de l'année dernière...
+Souvenir_Waldo_ShopQuest2_7 = Dans tous les cas ! Comme vous m'avez aidé, je vais vous aider aussi.
+Souvenir_Waldo_ShopQuest2_8 = Prenez ce cachet. C'est une preuve que vous avez fait un "achat" dans la boutique.
+Souvenir_Waldo_ShopQuest2_9 = Vous n'aurez pas de problème si vous allez au palais du PDG maintenant.
+
+# ---------------------------------------------------------
+# --------------- Rickeyland - Palace ---------------------
+# ---------------------------------------------------------
+
+Palace_Done = Je n'ai plus besoin d'entrer dans le palais.
+
+Palace_AttractionsNotDone_1 = Eh ! Vous devez finir toutes les attractions avant d'entrer dans le palais.
+
+Palace_AttractionsDone_1 = Le voilà. Le palais du PDG.
+Palace_AttractionsDone_2 = Le livre d'Harold devrait m'attendre à l'intérieur.
+Palace_AttractionsDone_3 = Suis-je sûr de vouloir entrer ? Ça pourrait prendre du temps.
+
+Palace_AttractionsDone_4 = Très bien. Allons-y ! Qu'est-ce qui pourrait mal se passer ?
+Palace_AttractionsDone_5 = Eh ! Stop !
+Palace_AttractionsDone_6 = Avez-vous finit les attractions ?
+Palace_AttractionsDone_7 = Oui, monsieur.
+Palace_AttractionsDone_8 = Ok, je regrette un peu...
+Palace_AttractionsDone_9 = Très bien. Une dernière vérification et vous pourrez entrer.
+Palace_AttractionsDone_10 = Avez-vous acheté quelque chose à la boutique de souvenirs ? Montrez-moi votre cachet.
+
+Palace_AttractionsDone_Stamp_1 = Bien sûr. Le voici.
+Palace_AttractionsDone_Stamp_2 = Waldo parlait donc de ça...
+Palace_AttractionsDone_Stamp_3 = ....
+Palace_AttractionsDone_Stamp_4 = Bien. Vous pouvez entrer.
+Palace_AttractionsDone_Stamp_5 = Passez un agréable moment dans le palais de notre grandiose PDG.
+Palace_AttractionsDone_Stamp_6 = Merci...
+
+Palace_AttractionsDone_NoStamp_1 = Mon quoi ?
+Palace_AttractionsDone_NoStamp_2 = Vous n'êtes pas allé à la boutique de souvenirs ?
+Palace_AttractionsDone_NoStamp_3 = Euh...
+Palace_AttractionsDone_NoStamp_4 = Comment osez-vous ! Vous allez aller en prison, maintenant !
+Palace_AttractionsDone_NoStamp_5 = Ne pas acheter un produit de notre beau PDG, c'est comme si on lui crachait au visage !
+Palace_AttractionsDone_NoStamp_6 = Vous méritez la mort pour une telle insulte !
+Palace_AttractionsDone_NoStamp_7 = Quoi ?!
+Palace_AttractionsDone_NoStamp_8 = Le garde me vise avec son arme. Je dois agir, et vite !
+
+Palace_AttractionsDone_NoStamp_9 = .... J'ai réussi à assommer le garde.
+Palace_AttractionsDone_NoStamp_10 = Donc acheter des souvenirs c'est obligatoire ici ?
+Palace_AttractionsDone_NoStamp_11 = Quel endroit étrange...
+Palace_AttractionsDone_NoStamp_12 = Au moins je peux entrer à l'intérieur et en finir, maintenant.
+
+Palace_MainQuest4_1 = J'entre dans le palais. Il est temps de trouver Rickey.
+Palace_MainQuest4_2 = L'endroit est immense. C'est assez compliqué de trouver le PDG.
+Palace_MainQuest4_3 = Mais j'arrive à le trouver dans une sorte de salle du trône.
+Palace_MainQuest4_4 = Qui êtes-vous ?
+Palace_MainQuest4_5 = J-
+Palace_MainQuest4_6 = Ne dites rien ! Vous avez réussi à finir mes magnifiques attractions ?
+Palace_MainQuest4_7 = Euh... Oui !
+Palace_MainQuest4_8 = Incroyable ! Vous êtes un visiteur d'exception ! Ah Ah !
+Palace_MainQuest4_9 = Comme décrit dans les règles, vous avez gagné le prix ! Bravo !
+Palace_MainQuest4_10 = Vous avez gagné ce magnifique livre.
+Palace_MainQuest4_11 = Je n'ai aucune idée de ce que c'est. Mais je suis sûr que c'est une bonne lecture. Ah Ah !
+Palace_MainQuest4_12 = Le grimoire d'Harold. J'ai enfin réussi à l'obtenir...
+Palace_MainQuest4_13 = Très bien ! Je vais même vous donner mon autographe.
+Palace_MainQuest4_14 = A qui vais-je le dédicacer ?
+Palace_MainQuest4_15 = Oh ! Euh... Harold je suppose ?
+Palace_MainQuest4_16 = Je ne veux pas que mon nom soit sur le livre d'Harold. Ça pourrait me maudire à jamais.
+Palace_MainQuest4_17 = HAROLD ?!
+Palace_MainQuest4_18 = Q- Quoi ?!
+Palace_MainQuest4_19 = JE DETESTE HAROLD ! IL M'A HUMILIE !
+Palace_MainQuest4_20 = Oh....
+Palace_MainQuest4_21 = J'aurais dû m'en douter... J'ai fait une bêtise...
+Palace_MainQuest4_22 = Comment osez-vous prononcer son nom devant moi !
+Palace_MainQuest4_23 = Je comprends maintenant. Harold t'a envoyé récupérer son livre !
+Palace_MainQuest4_24 = Et bien... Je veux dire...
+Palace_MainQuest4_25 = Ah Ah ! Ça va être marrant !
+Palace_MainQuest4_26 = A- Attendez un instant !
+Palace_MainQuest4_27 = Je vais te torturer. Et ensuite, je vais te renvoyer à Harold en pièces !
+Palace_MainQuest4_28 = J'AURAIS MA VENGEANCE !
+Palace_MainQuest4_29 = Il est fou !
+Palace_MainQuest4_30 = Je dois m'échapper, vite !
+Palace_MainQuest4_31 = Tu essais de fuir ? TROP TARD !
+Palace_MainQuest4_32 = Rickey me frappe si fort, que je tombe dans l'inconscience immédiatement.
+Palace_MainQuest4_33 = .........
+Palace_MainQuest4_34 = J'ouvre mes yeux. Je suis attaché à une sorte de machine de torture.
+Palace_MainQuest4_35 = Reveillé ? Bien.
+Palace_MainQuest4_36 = Tu vois, j'ai quelque chose que j'aimerais savoir sur Harold.
+Palace_MainQuest4_37 = En fait, il y en a beaucoup de choses que j'aimerais savoir.
+Palace_MainQuest4_38 = Qui est Harold ?
+Palace_MainQuest4_39 = Ou vit Harold ?
+Palace_MainQuest4_40 = Comment est-il aussi fort ?
+Palace_MainQuest4_41 = Et le plus important : Comment a-t-il vieilli aussi rapidement.
+Palace_MainQuest4_42 = L'année dernière, nous nous sommes battus. J'ai été vaincu par un maléfique acrobate.
+Palace_MainQuest4_43 = Plus tard, nous nous sommes battus à nouveau. Mais cette fois, il était vieux.
+Palace_MainQuest4_44 = Je veux savoir son secret ! Comment a-t-il fait cela ?!
+Palace_MainQuest4_45 = Je pourrais utiliser cette information pour améliorer mes robots;
+Palace_MainQuest4_46 = Quoi ? Vos robots ?
+Palace_MainQuest4_47 = La ferme ! Tu dois répondre à mes questions, pas en poser.
+Palace_MainQuest4_48 = Donc répond ! Quels sont les secrets d'Harold ?
+Palace_MainQuest4_49 = Je n'ai aucune idée de ce que vous voulez dire !
+Palace_MainQuest4_50 = Grr... Je vais devoir te zapper quelques fois.
+Palace_MainQuest4_51 = Je serais bientôt de retour ! Ne bouge pas...
+Palace_MainQuest4_52 = .........
+Palace_MainQuest4_53 = Oh non... Que vais-je faire ?
+Palace_MainQuest4_54 = Je ne peux pas me sortir d'ici. Est-ce la fin ?
+Palace_MainQuest4_55 = ... Ah ! Vous voilà !
+Palace_MainQuest4_56 = Waldo entre dans la salle. Pourquoi est-il là ?
+Palace_MainQuest4_57 = Vite ! Le PDG va bientôt revenir. Allons-y.
+Palace_MainQuest4_58 = Pourquoi m'aider ?
+Palace_MainQuest4_59 = Plus tard ! Nous devons sortir de cet endroit.
+Palace_MainQuest4_60 = Je suis Harold à l'extérieur.
+Palace_MainQuest4_61 = J'ai extrêmement mal. Rickey a dû me frapper très fort.
+Palace_MainQuest4_62 = Waldo me guide jusqu'à la boutique de souvenir.
+Palace_MainQuest4_63 = Bien. Nous devrions être en sécurité ici. Il n'y a pas de gardes et pas de caméras.
+Palace_MainQuest4_64 = Je suppose que je vous dois quelques explications, pas vrai ?
+Palace_MainQuest4_65 = Oui... C'était quoi ça ?
+Palace_MainQuest4_66 = Le PDG déteste un type nommé Harold. Je ne sais pas pourquoi cependant.
+Palace_MainQuest4_67 = Vu la façon dont il en parle, il doit confondre deux personnes.
+Palace_MainQuest4_68 = Vous avez dû mentionner Harold devant lui ? Ou alors vous vous appelez Harold ?
+Palace_MainQuest4_69 = Non, non. Je viens de la part d'un vieillard appelé Harold.
+Palace_MainQuest4_70 = Ah... Harold. Je n'ai pas vu ce bon vieillard depuis quelque temps.
+Palace_MainQuest4_71 = Vous le connaissez ?
+Palace_MainQuest4_72 = Nous étions partenaires il y a quelques années. Il m'a aidé quand j'avais des problèmes.
+Palace_MainQuest4_73 = Je vois...
+Palace_MainQuest4_74 = Mais que faire maintenant ? Je dois obtenir le livre, et les gardes sont surement en train de me chercher.
+Palace_MainQuest4_75 = Oui, eh bien... Je pense pouvoir vous aider avec ça.
+Palace_MainQuest4_76 = J'ai assez d'autorité pour rediriger les gardes loin du palais.
+Palace_MainQuest4_77 = Comme ça, vous pourrez entrer à l'intérieur sans avoir à vous préoccuper d'eux.
+Palace_MainQuest4_78 = Mais sinon, pourquoi m'aidez-vous ?
+Palace_MainQuest4_79 = Et bien... La gestion du parc laisse à désirer.
+Palace_MainQuest4_80 = Et puis, je n'aime pas l'idée de torturer notre seul visiteur de la journée...
+Palace_MainQuest4_81 = Donc je cherche plus à sauvegarder l'image du parc. Enfin, ce qu'il en reste...
+Palace_MainQuest4_82 = Je vois... Et bien, merci pour l'aide.
+Palace_MainQuest4_83 = Si vous avez besoin de quelque chose, je serais ici.
+
+Palace_MainQuest5_1 = Très bien, il est temps d'en finir.
+Palace_MainQuest5_2 = Waldo n'a pas menti. Il n'y a plus de gardes par ici.
+Palace_MainQuest5_3 = J'ai juste besoin de trouver Rickey, et lui reprendre le grimoire.
+Palace_MainQuest5_4 = Enfin, j'espère ne pas me faire assommer en un coup comme la dernière fois.
+Palace_MainQuest5_5 = J'entre dans le palais une fois de plus.
+Palace_MainQuest5_6 = Cette fois, je vais directement à la salle du trône.
+Palace_MainQuest5_7 = Et bien sûr, Rickey y est.
+Palace_MainQuest5_8 = Il a l'air... bizarre ?
+Palace_MainQuest5_9 = Eh ! Il est temps d'en finir une bonne fois pour toutes !
+Palace_MainQuest5_10 = ........
+Palace_MainQuest5_11 = Euh... Vous m'avez entendu ?
+Palace_MainQuest5_12 = !
+Palace_MainQuest5_13 = BOOOOOOOOOONNNNJOUR !
+Palace_MainQuest5_14 = Quoi ? C'est quoi ce truc ?!
+Palace_MainQuest5_15 = J- J- Je suis Rick- ! The P- Ah Ah Ah Ah !
+Palace_MainQuest5_16 = Bienvenue à Ri- Gagnez prix !
+Palace_MainQuest5_17 = AH AH AH A- AH AH AH AH AH !
+Palace_MainQuest5_18 = Mais qu'est-ce qu'il se passe ?!
+Palace_MainQuest5_19 = Scan du visiteur...
+Palace_MainQuest5_20 = ID trouvé... Vérification des crimes...
+Palace_MainQuest5_21 = ALERTE ! Visiteur est criminel !
+Palace_MainQuest5_22 = Debu-
+Palace_MainQuest5_23 = Err- AH AH AH AH !
+Palace_MainQuest5_24 = Bian- Bianven o Ri- Ah Ah !
+Palace_MainQuest5_25 = J- Ri- Pro !
+Palace_MainQuest5_26 = Autagroph ? 
+Palace_MainQuest5_27 = Quoi ? Euh, oui ?
+Palace_MainQuest5_28 = Dedic- Labr ! Ou nom ?
+Palace_MainQuest5_29 = AH AH AH AH AH AH AH AH !
+Palace_MainQuest5_30 = Je suis supposé faire quoi ?
+Palace_MainQuest5_31 = Est-ce le fameux robot de Rickey ? Qu'est-ce que ce truc est supposé faire ?
+Palace_MainQuest5_32 = Vous pouvez l'autographier pour [MC], je suppose ?
+Palace_MainQuest5_33 = Vérification BASE DE DONNEES...
+Palace_MainQuest5_34 = Raton [MC] vers Harold : 67%.
+Palace_MainQuest5_35 = Seuil atteint. Début de la destroction.
+Palace_MainQuest5_36 = Il essait encore de me tuer... Est-ce qu'il va casser une fois de plus ?
+Palace_MainQuest5_37 = Premier Parag- ? 
+Palace_MainQuest5_38 = Hein ?
+Palace_MainQuest5_39 = IMPOSSIBLE !
+Palace_MainQuest5_40 = ERREUR CRITIQUE !
+Palace_MainQuest5_41 = AH AH AH AH AH AH AH AH AHA AAAAAAAAAAAAAAAAAAAA- !
+Palace_MainQuest5_42 = BIENVENUE A- -NUE RI- BIO- BONJOUR !
+Palace_MainQuest5_43 = ...........
+Palace_MainQuest5_44 = C'était quoi ça ?
+Palace_MainQuest5_45 = Le robot vient de mourir. Je suppose que j'ai gagné ?
+Palace_MainQuest5_46 = Comment oses-tu détruire mon Robot PDG parfait !
+Palace_MainQuest5_47 = Je regarde au-dessus de moi. Rickey est au balcon.
+Palace_MainQuest5_48 = Grr ! Je savais que tu sortirais ! Je comprends tout maintenant !
+Palace_MainQuest5_49 = Tu EST Harold ! Tu es en réalité un maitre espion !
+Palace_MainQuest5_50 = Tu as le pouvoir de changer d'apparence. C'est ça ton secret !
+Palace_MainQuest5_51 = Quoi ? Non !
+Palace_MainQuest5_52 = LA FERME !
+Palace_MainQuest5_53 = Maintenant que tu as vu mon prototype Rick0. Je vais devoir te tuer.
+Palace_MainQuest5_54 = Il s'est suicidé !
+Palace_MainQuest5_55 = Peut-être ! Mais tu es allé trop loin, vil brigand !
+Palace_MainQuest5_56 = Mes PDG robots sont des créatures fragiles. Ils ne peuvent pas encore fonctionner proprement.
+Palace_MainQuest5_57 = Un problème mineur tu vois. Je dois simplement trouver un moyen de leur donner un système d'IA fonctionnel.
+Palace_MainQuest5_58 = Donc ils ne marchent pas du tout...
+Palace_MainQuest5_59 = Mais pourquoi les avoir construits. 
+Palace_MainQuest5_60 = Insolent ! Toujours à poser des questions...
+Palace_MainQuest5_61 = Mais je suppose que je peux répondre au moins à celle-là. C'est ta dernière question après tout...
+Palace_MainQuest5_62 = Mon but est simple : Créer une armée de Cyber-PDGs pour prendre le contrôle du monde.
+Palace_MainQuest5_63 = Imagine ! Ils pourront traverser le monde, et créer de nouveaux RickeyLands !
+Palace_MainQuest5_64 = Les gens du monde entier viendront dans mes parcs. Et je serais riche !
+Palace_MainQuest5_65 = Ça a l'air terriblement compliqué. Pourquoi pas pay-
+Palace_MainQuest5_66 = Non ! Tu ne comprends pas ! Je suis le seul avec la vision !
+Palace_MainQuest5_67 = Moi seul peut créer un RickeyLand prospère ! Moi seul !
+Palace_MainQuest5_68 = Je veux dire... Je pense que l'état actuel du parc parle de lui-même...
+Palace_MainQuest5_69 = Mais c'est fini avec questions ! Il est temps de mourir !
+Palace_MainQuest5_70 = Mais comment te tuer ? Les balles sont une mort trop douce...
+Palace_MainQuest5_71 = Je sais ! Je vais chanter un rap si beau qu'il va te tuer !
+Palace_MainQuest5_72 = Quoi ?
+Palace_MainQuest5_73 = Je n'ai pas le temps de comprendre ce qu'il vient de dire. Rickey commence déjà à chanter.
+
+Palace_MainQuest5_74 = RHA ! ARRETES DE RUINER MON RAP !
+Palace_MainQuest5_75 = Je vais te briser ! Je vais te tuer, Harold !
+Palace_MainQuest5_76 = Je v-
+Palace_MainQuest5_77 = AH ! NOOOOOOOOOOOOOOOOOOOOOOOONNNN !
+Palace_MainQuest5_78 = Qu-
+Palace_MainQuest5_79 = Rickey a trébuché sur la rambarde du balcon et est tombé tête la première sur le sol.
+Palace_MainQuest5_80 = ..... Uhm....
+Palace_MainQuest5_81 = Il est... mort ?
+Palace_MainQuest5_82 = Oh....... Oops ?
+Palace_MainQuest5_83 = Je... Je suppose que ça veut dire que je peux reprendre le grimoire ?
+Palace_MainQuest5_84 = Je cherche le corps de Rickey. Et bien sûr, je trouve le grimoire.
+Palace_MainQuest5_85 = J'ai l'impression de faire quelque chose de mal...
+Palace_MainQuest5_86 = Qu'est ce que je fais ? Je pourrais finir en prison pour ça.
+Palace_MainQuest5_87 = Qu'est ce qu'il se passe ici ?
+Palace_MainQuest5_88 = Waldo ! Je.. Je veux dire... Le PDG...
+Palace_MainQuest5_89 = Oh... Oh non.
+Palace_MainQuest5_90 = Bien... Je suppose que je vais devoir prendre les rênes de RickeyLand pour le moment.
+Palace_MainQuest5_91 = Je suppose que c'était un accident ? Ça ne me surprend pas, honnêtement.
+Palace_MainQuest5_92 = .. Il m'a cru...
+Palace_MainQuest5_93 = Vous avez obtenu ce que vous vouliez ?
+Palace_MainQuest5_94 = Oui. J'ai trouvé le livre que voulait Harold.
+Palace_MainQuest5_95 = Bien. Vous devriez aller le lui donner.
+Palace_MainQuest5_96 = Je suis sûr qu'il vous attend.
+Palace_MainQuest5_97 = Oui. Je suis désolé d'avoir causé autant de problèmes...
+Palace_MainQuest5_98 = Meh, pas d'inquiétudes. Je m'étais un peu préparé à ça.
+Palace_MainQuest5_99 = Rickey a toujours été arrogant. C'était juste une question de temps.
+Palace_MainQuest5_100 = Malheureusement, je vais devoir vous demander de partir. Je vais fermer le parc pour le moment.
+Palace_MainQuest5_101 = Je dois nettoyer ce bazar. Et redorer l'image du parc.
+Palace_MainQuest5_102 = Je vais peut-être changer le nom ? On verra.
+Palace_MainQuest5_103 = Très bien, je vais m'en aller alors. C'était un plaisir de vous rencontrer.
+Palace_MainQuest5_104 = De même.
+Palace_MainQuest5_105 = Je dis au revoir, plus je quitte le palais.
+Palace_MainQuest5_106 = Une fois dehors, je quitte le parc.
+Palace_MainQuest5_107 = C'est enfin fini...
+Palace_MainQuest5_108 = Je dois encore donner le livre à Harold. Et ensuite, il me renverra chez moi.
+Palace_MainQuest5_109 = Allons-y !
+
+# ---------------------------------------------------------
+# ------------------- Marais ------------------------------
+# ---------------------------------------------------------
+
+
+# ---------------------------------------------------------
+# ------------------ Swamtyr ------------------------------
+# ---------------------------------------------------------
+
+
+# ---------------------------------------------------------
+# ---------------- Montagnes ------------------------------
+# ---------------------------------------------------------
+
+
+Mountains_Sign_Default_1 = "Demeure du grand sorcier de Vlatyr"
+Mountains_Sign_Default_2 = Ou est la maison ?
+
+Mountains_Car_1 = Comment est-ce que cette voiture a finie là ?
+
+# ---------------------------------------------------------
+# ---------------- Mines ------------------------------
+# ---------------------------------------------------------
+
+
+
+# ---------------------------------------------------------
+# --------------- Forteresse ------------------------------
+# ---------------------------------------------------------
+
+Fortress_Done = Je n'ai pas besoin d'entrer à nouveau dans la forteresse.
+
+Fortress_GUARDQuest0_1 = Et dire que GARDE a causé tout ça...
+Fortress_GUARDQuest0_2 = Le pont est détruit. Je vais devoir contourner.
+Fortress_GUARDQuest0_3 = Je commence à descendre la colline. Ce n'est pas difficile, mais très long.
+Fortress_GUARDQuest0_4 = Quelques minutes plus tard, j'arrive à atteindre la forteresse.
+Fortress_GUARDQuest0_5 = Je ne peux pas passer par la porte d'entrée, donc j'entre par une fenêtre.
+Fortress_GUARDQuest0_6 = La forteresse a été complètement détruite. Le sol est même incliné.
+Fortress_GUARDQuest0_7 = Peu importe, il faut que je cherche des indices ici.
+Fortress_GUARDQuest0_8 = Mais où chercher ? Cet endroit est grand...
+Fortress_GUARDQuest0_9 = Enfin...
+Fortress_GUARDQuest0_10 = Peut-être que cette porte me mènera à un indice ?
+Fortress_GUARDQuest0_11 = Les autres chemins semblent inaccessibles de toute façon.
+Fortress_GUARDQuest0_12 = J'ouvre la porte et entre dans une nouvelle pièce.
+Fortress_GUARDQuest0_13 = Attend... Je reconnais cet endroit.
+Fortress_GUARDQuest0_14 = C'est ici que j'ai vaincu le dragon.
+Fortress_GUARDQuest0_15 = La pièce est salement endommagée maintenant...
+Fortress_GUARDQuest0_16 = Peut-être que je peux trouver un indice ici.
+Fortress_GUARDQuest0_17 = Je cherche dans la pièce détruite.
+Fortress_GUARDQuest0_18 = Euh ?
+Fortress_GUARDQuest0_19 = Je trouve un collier étrange sur le sol.
+Fortress_GUARDQuest0_20 = C'était peut-être celui d'un cultiste.
+Fortress_GUARDQuest0_21 = Je devrais l'apporter à GARDE. Il pourra peut-être me dire ce que c'est.
+Fortress_GUARDQuest0_22 = Je trouve aussi des traces de ce qui ressemble à du sang.
+Fortress_GUARDQuest0_23 = Elle semble dater d'au moins une semaine. Cela pourrait indiquer qu'un cultiste a survécu.
+Fortress_GUARDQuest0_24 = Je décide de suivre les traces. Elle pourrait mener à d'autres indices.
+Fortress_GUARDQuest0_25 = Je les suis jusqu'à l'entrée de la forteresse.
+Fortress_GUARDQuest0_26 = Leur propriétaire a réussi à fuir en sautant du balcon.
+Fortress_GUARDQuest0_27 = Je prends un chemin plus sûr. Je ne devrais pas me blesser ici.
+Fortress_GUARDQuest0_28 = Je suis les traces jusqu'au pont. Mais elles s'arrêtent net.
+Fortress_GUARDQuest0_29 = ... Peut-être que la personne a soigné sa blessure ?
+Fortress_GUARDQuest0_30 = Et bien, je vais devoir m'arrêter là. Je devrais retourner voir GARDE.
+Fortress_GUARDQuest0_31 = Il devrait déjà être content avec le collier que j'ai trouvé.
+
+
+# ---------------------------------------------------------
+# ---------------------- End ------------------------------
+# ---------------------------------------------------------
+
+
+End_Part1_1 = .............
+End_Part1_2 = J'ouvre les yeux. Ou suis-je ?
+End_Part1_3 = Ce n'est définitivement pas la maison d'Harold.
+End_Part1_4 = En parlant de lui... Il m'a trahi...
+End_Part1_5 = Mais pourquoi ? Il veut me forcer à travailler pour lui à jamais ?
+End_Part1_6 = Je veux dire. Il a déjà brisé sa promesse une fois... Et il m'a menti dans le passé, donc...
+End_Part1_7 = ...
+End_Part1_8 = Je peux entendre quelqu'un venir.
+End_Part1_9 = Oh ! Vous êtes réveillé, [MC].
+End_Part1_10 = Harold ! Mais pourquoi ?
+End_Part1_11 = Eh Eh Eh ! Vous ne pouvez pas comprendre.
+End_Part1_12 = Vous venez de me donner la dernière pièce pour démarrer mon plan.
+End_Part1_13 = Quel plan ? Quelle pièce ?
+End_Part1_14 = Eh Eh Eh ! Comprenez-vous seulement la puissance contenue dans le grimoire ?
+End_Part1_15 = ........
+End_Part1_16 = Eh ! Vous comprenez maintenant ?
+End_Part1_17 = Notre culte des invocateurs est dans un sale état, vous voyez.
+End_Part1_18 = Ce stupide Kalien et son acolyte étrange nous ont vaincus à la forteresse.
+End_Part1_19 = Ils l'ont même fait exploser ! Mon culte tout entier a disparu en un jour !
+End_Part1_20 = Est-ce que vous savez combien de temps ça m'a pris pour le bâtir ?
+End_Part1_21 = Un empire dans l'ombre, s'étendant jusqu'aux ports distants de Kalia.
+End_Part1_22 = Tout cela au nom de notre maitre. Le très grand Seigneur Cerf.
+End_Part1_23 = Dans tous les cas. Quand la forteresse a été détruite, j'ai perdu tout mon matériel d'invocation.
+End_Part1_24 = J'ai même perdu cet autre gamin que j'ai manipulé après votre départ.
+End_Part1_25 = Je n'ai plus rien, à part quelques sbires. Pas assez pour le géniallissime plan de notre maître.
+End_Part1_26 = Pour cela, j'ai décidé de lancer une nouvelle opération : Récupérer le grimoire que Rickey m'avait volé.
+End_Part1_27 = C'est le dernier livre en état, décrivant les arts anciens de l'invocation.
+End_Part1_28 = Avec lui, je peux invoquer de nouveaux pions pour concevoir un nouvel empire !
+End_Part1_29 = Et quand nous serons prêts. J'invoquerais le Seigneur Cerf dans ce monde.
+End_Part1_30 = Il le détruira, et le culte régnera en maître.
+End_Part1_31 = C'est de la folie !
+End_Part1_32 = Eh Eh Eh ! Et vous venez de m'aider à mettre tout cela en place !
+End_Part1_33 = Vous étiez suffisamment naïf pour m'aider. C'était simple.
+End_Part1_34 = Oui, vous n'êtes pas aussi idiot que l'autre gamin. Mais je ferais de vous le cultiste parfait un jour.
+End_Part1_35 = Je n'accepterais jamais.
+End_Part1_36 = Eh ! Vous n'avez pas le choix, [MC].
+End_Part1_37 = Bien, je dois y aller. J'ai un empire à reconstruire.
+End_Part1_38 = ............
+End_Part1_39 = Harold était le chef d'un culte ? Depuis le début ?
+End_Part1_40 = Je suppose que tuer le dragon n'était qu'un test alors.
+End_Part1_41 = Il voulait savoir s'il pouvait faire de moi son pion.
+End_Part1_42 = Mais je n'accepterai jamais ça !
+End_Part1_43 = Je vais m'évader. Je vais vaincre Harold !
+End_Part1_44 = Peut importe si je ne retrouve jamais mon monde originel. Je peux mourir, ici.
+End_Part1_45 = Et je ne peux pas juste m'enfuir. Harold est trop puissant pour que je le laisse en liberté.
+End_Part1_46 = ..... Mais comment m'évader ?
+End_Part1_47 = J'examine la porte de la cellule. Peut-être que je peux trouver un moyen de l'ouvrir de l'intérieur.
+End_Part1_48 = ......
+End_Part1_49 = La porte... est ouverte ?
+End_Part1_50 = Je veux dire... Harold est toujours Harold. Même s'il est maléfique, il est toujours un peu bête.
+End_Part1_51 = Très bien. Il est temps de trouver mon vieil ami et de lui donner une bonne leçon.
+End_Part1_52 = Je m'aventure dans cet endroit étrange à la recherche d'Harold.
+End_Part1_53 = L'endroit est immense. On dirait une sorte de forteresse, mais différente de celle du dragon.
+End_Part1_54 = Maintenant que j'y pense. Suis-je toujours à Vlatyr ?
+End_Part1_55 = Je pourrais être n'importe ou, du sous sol secret d'Harold à une forteresse dans les cieux.
+End_Part1_56 = .....
+End_Part1_57 = Après quelques minutes, j'entends une faible voix venir d'une salle voisine.
+End_Part1_58 = Mais qui invoquer en premier ?
+End_Part1_59 = Felix ? Non... Je dois toujours trouver une chef capable de faire des burgers avant ça.
+End_Part1_60 = Axel ? Hmm.... Peut être ? ..... En y repensant, peut-être pas.
+End_Part1_61 = Harold à l'air d'essayer de trouver le pion parfait on dirait.
+End_Part1_62 = Il est l'heure d'en finir.
+End_Part1_63 = J'entre dans la salle. Harold regarde à la fenêtre en marmonnant dans sa barbe.
+End_Part1_64 = Et Juno ? .... Non, le changement de paysage serait trop brutal.
+End_Part1_65 = Harold !
+End_Part1_66 = Hein ?! Qu- ! Comment ?!
+End_Part1_67 = Comment êtes-vous sorti de votre cellule ?!
+End_Part1_68 = Elle était ouverte...
+End_Part1_69 = Oh...
+End_Part1_70 = Je veux dire, d'habitude, ce sont mes sbires qui le font pour moi, donc...
+End_Part1_71 = Dans tous les cas ! Ça n'a pas d'importance ! Vous ne pouvez pas me battre !
+End_Part1_72 = Oh vraiment ? Vous n'êtes qu'il simple vieillard.
+End_Part1_73 = J'ai tué un dragon, vous vous souvenez ?
+End_Part1_74 = Eh Eh Eh ! Idiot !
+End_Part1_75 = Je ne suis pas n'importe quel vieillard, [MC] !
+End_Part1_76 = Waldo ne vous a pas parlé du temps où nous étions partenaires ?
+End_Part1_77 = Hein ?
+End_Part1_78 = Il n'y a pas si longtemps, je me battais contre des ennemis puissants dans la province de Runan.
+End_Part1_79 = Le Chevalier de Runan, l'autre clown, le foutu chef ! Je les ai tous vaincus !
+End_Part1_80 = J'aurais pu vaincre le dragon à n'importe quel moment. Mais j'ai choisi de ne pas le faire.
+End_Part1_81 = Je voulais vous tester. Voir si vous étiez suffisamment fort pour devenir mon pion.
+End_Part1_82 = Vous avez réussi. Mais à mes yeux, vous êtes toujours un apprenti.
+End_Part1_83 = Ah ! J'aimerais vous y voir !
+End_Part1_84 = Vous m'avez déjà menti dans le passé. C'est surement un de vos tours.
+End_Part1_85 = Eh Eh Eh ! Très bien !
+End_Part1_86 = PREPAREZ-VOUS !
+End_Part1_87 = POUR !
+End_Part1_88 = LE !
+End_Part1_89 = PLUS GRAND DANCEUR DU MONDE !
+End_Part1_90 = Qu'est ce-
+End_Part1_91 = Eh Eh Eh ! Vous ne le saviez pas, mais je porte toujours mes habits de combat sous mes vêtements.
+End_Part1_92 = Je vais vous faire mordre la poussière !
+End_Part1_93 = Et une fois cela fait, vous comprendrez enfin qui est le véritable maître, ici.
+End_Part1_94 = Harold se prépare. C'est la fin.
+
+End_Part2_1 = Quoi ?!
+End_Part2_2 = Comment ai-je pu perdre à la danse ?!
+End_Part2_3 = Vous m'avez sous-estimé.
+End_Part2_4 = Jamais ! Je suis le plus fort ! Je le sais !
+End_Part2_5 = Je ne perdrais jamais face à un gamin.
+End_Part2_6 = Il n'y a qu'une seule réponse à cela... Vous avez triché !
+End_Part2_7 = Vous avez eu de l'aide, pas vrai ? Quelqu'un vous a aidé à danser !
+End_Part2_8 = Non, vous êtes juste nul.
+End_Part2_9 = Rha ! Il est l'heure pour vous de mourir, [MC] !
+End_Part2_10 = Harold me saute dessus. Mais cette fois, je suis prêt.
+End_Part2_11 = J'esquive facilement l'attaque d'Harold.
+End_Part2_12 = Pui, je le pousse par terre.
+End_Part2_13 = Ah !
+End_Part2_14 = Soyez maudit, [MC]...
+End_Part2_15 = Prendre avantage de mon vieux corps comme ça...
+End_Part2_16 = Vous ne m'aurez pas deux fois de suite avec la même technique.
+End_Part2_17 = Grr....
+End_Part2_18 = Donc on en est arrivé la...
+End_Part2_19 = D'accord ! Vous m'avez vaincu...
+End_Part2_20 = Hein ? C'était aussi facile ?
+End_Part2_21 = Vous êtes supérieur à moi. Je le comprends maintenant...
+End_Part2_22 = Je me relâche un peu, c'est enfin fini.
+End_Part2_23 = Très bien, si vous le dites. Mais maintenant, vous allez devoir arrêter cette folie.
+End_Part2_24 = D'accord, d'accord...
+End_Part2_25 = Je le jure. Je ne vais plus faire de manigances.
+End_Part2_26 = Je ne vais faire que des choses simples ! Comme boire du café.
+End_Part2_27 = Et vous allez me renvoyer dans mon monde.
+End_Part2_28 = Grr.... Très bien ! Je suppose que je n'ai pas le choix...
+End_Part2_29 = Je vais vous renvoyer dans votre monde. Je vais dissoudre le culte. Vous avez gagné, [MC].
+End_Part2_30 = ... Vous êtes heureux ?
+End_Part2_31 = Vous avez ruiné ma vie entière en une journée.
+End_Part2_32 = .....
+End_Part2_33 = On garde le silence, hein ?
+End_Part2_34 = Très bien... Je comprends... J'ai perdu.
+End_Part2_35 = Vous invoquer était une erreur. J'aurais dû faire plus attention...
+End_Part2_36 = ....
+End_Part2_37 = Pou... Pouvez-vous m'aider à me relever ?
+End_Part2_38 = Je suis vieux... Je ne peux plus le faire moi-même.
+End_Part2_39 = Et puis, je ne peux pas vous renvoyer comme ça. Je dois vous concocter une potion.
+End_Part2_40 = D'accord, d'accord.
+End_Part2_41 = Je tends ma main à Harold, pour l'aider à se relever.
+End_Part2_42 = ... Eh ! Idiot !
+End_Part2_43 = Hein ?!
+End_Part2_44 = Harold se relève d'un coup, et m'envoie voler.
+End_Part2_45 = J'ai été trompé ! Ce n'est donc pas qu'un simple vieillard.
+End_Part2_46 = Attaque surprise, [MC] !
+End_Part2_47 = Eh Eh Eh ! Vous pensiez vraiment que je ne pouvais pas me relever ?
+End_Part2_48 = Serieusement, démanteler le culte ? Quelle blague !
+End_Part2_49 = Même moi ne peut pas le faire. Le culte est éternel !
+End_Part2_50 = Après ma mort, mon maître choisira le nouveau chef du culte.
+End_Part2_51 = Par la suite, il redonnera au culte sa gloire d'antan.
+End_Part2_52 = Donc comme vous pouvez le constater. Vous ne pouvez pas nous vaincre.
+End_Part2_53 = Vous pouvez me tuer. Mais vous ne détruirez jamais le culte. Jamais !
+End_Part2_54 = Je vais quand même essayer !
+End_Part2_55 = Eh ! Si vous êtes aussi sûr de vous. Pourquoi ne pas vaincre mon maître ?
+End_Part2_56 = Si je peux vous battre, pourquoi ne pourrais-je pas le vaincre ?
+End_Part2_57 = Donc vous pensez pouvoir vaincre notre maître, le Seigneur Cerf. Dieu du Chaos.
+End_Part2_58 = Amusant, je dois le dire.
+End_Part2_59 = Ca me donne une idée. Une façon de me débarrasser de vous.
+End_Part2_60 = Je comprends que je ne peux pas vous vaincre. Nous sommes à forces égales.
+End_Part2_61 = Mais mon maître peut et va vous tuer.
+End_Part2_62 = Je vais donc l'invoquer !
+End_Part2_63 = Eh Eh Eh ! Etes-vous prêt à mourir, [MC] ?
+End_Part2_64 = Vous n'êtes pas sérieux...
+End_Part2_65 = Eh Eh Eh ! Invoquer mon maître va surement me tuer. Mais si je peux me débarrasser de vous comme ça...
+End_Part2_66 = Vous êtes prêt à mourir juste pour me tuer ?
+End_Part2_67 = Nos plans sont plus importants que ma vie, [MC].
+End_Part2_68 = Nous ne pouvons pas nous arrêter. Le monde doit être englouti par le chaos.
+End_Part2_69 = Très bien. Commençons le rituel !
+End_Part2_70 = Non !
+End_Part2_71 = Eh Eh Eh !
+End_Part2_72 = Mon maître, Seigneur Cerf ! Ecoutez-moi !
+End_Part2_73 = Je vous invoque ! Je vous invoque pour détruire nos ennemies !
+End_Part2_74 = Utilisez mon corps ! Utilisez mon âme ! Revenez en ce monde !
+
+End_Part2_Elk_1 = Eh Eh Eh ! Ah Ah Ah !
+End_Part2_Elk_2 = Eh... Eh... Eh...
+End_Part2_Elk_3 = La salle se remplit d'un brouillard noir et épais.
+End_Part2_Elk_4 = Je ne peux même plus entendre le rire d'Harold.
+End_Part2_Elk_5 = Qu'est-ce qu'il se passe ?!
+End_Part2_Elk_6 = Le brouillard se dissipe, mais....
+End_Part2_Elk_7 = Euh ?
+End_Part2_Elk_8 = Un... cerf ?
+End_Part2_Elk_9 = Est-ce le cerf démoniaque dont Harold a parlé ?
+End_Part2_Elk_10 = Il n'a pas l'air très méchant.
+End_Part2_Elk_11 = .........
+End_Part2_Elk_12 = Stupide mortel.
+End_Part2_Elk_13 = Quoi ?! Le cerf s'est levé ?!
+End_Part2_Elk_14 = Tu penses pouvoir me vaincre, le Seigneur Cerf ?
+End_Part2_Elk_15 = Et bien, euh...
+End_Part2_Elk_16 = Je dois dire, Harold m'a déçu.
+End_Part2_Elk_17 = Cet idiot aurait dû te tuer.
+End_Part2_Elk_18 = Et maintenant, je vais devoir trouver un nouveau pion pour mon plan.
+End_Part2_Elk_19 = Je suppose que je pourrais te laver le cerveau pour cela.
+End_Part2_Elk_20 = Mais après t'avoir vu te débattre. Ce n'est pas une sage décision.
+End_Part2_Elk_21 = Donc je vais simplement te tuer.
+End_Part2_Elk_22 = Attendez, attendez... Vous n'êtes pas réel, c'est ça ?
+End_Part2_Elk_23 = C'est juste un nouveau tour d'Harold, oui ?   
+End_Part2_Elk_24 = Harold est mort. Et tu vas bientôt le rejoindre.
+End_Part2_Elk_25 = Une dernière volonté, mortel ?
+End_Part2_Elk_26 = Hein ? Euh... Je...
+End_Part2_Elk_27 = Comme tu veux. Maintenant, meurt.
+End_Part2_Elk_28 = Non !
+End_Part2_Elk_29 = Le brouillard s'épaissit à nouveau.
+End_Part2_Elk_30 = Ca devient de plus en plus dur de respirer.
+End_Part2_Elk_31 = C'est comme... ça que... ça... finit... ?
+End_Part2_Elk_32 = ...........
+End_Part2_Elk_33 = ...........
+End_Part2_Elk_34 = Stupide mortel.
+End_Part2_Elk_35 = Cette finalité aurait été différente si tu avais été dans la forteresse.
+End_Part2_Elk_36 = Mais tu ne l'as pas fait. Et maintenant ton destin est scellé.
+End_Part2_Elk_37 = ...........
+End_Part2_Elk_38 = FIN.
+End_Part2_Elk_39 = (Mauvaise fin)
+End_Part2_Elk_40 = Merci d'avoir joué à Harold's Quest - RickeyLand !
+
+
+End_Part2_Good_1 = Eh Eh Eh ! Ah Ah... Ah ?
+End_Part2_Good_2 = Quoi ? Pourquoi ça ne marche pas ?
+End_Part2_Good_3 = Mon maître aurait dû être invoqué ! Vous devriez être mort !
+End_Part2_Good_4 = .... Est-ce à cause du collier que j'ai trouvé dans la forteresse ?
+End_Part2_Good_5 = Je... Une minute... Non...
+End_Part2_Good_6 = Bon sang ! Vous avez le collier !
+End_Part2_Good_7 = Je ne peux rien invoquer s'il est près de moi !
+End_Part2_Good_8 = Grr.... Je fais quoi maintenant ?
+End_Part2_Good_9 = Je suppose qu'il est temps de battre en retraite, pour le moment.
+End_Part2_Good_10 = Harold s'approche de la fenêtre.
+End_Part2_Good_11 = Considérez cela comme votre victoire pour le moment, [MC] !
+End_Part2_Good_12 = Mais souvenez-vous ! Ce n'est pas fini !
+End_Part2_Good_13 = Je vais m'entrainer ! Je vais vous détruire !
+End_Part2_Good_14 = Vous ne pouvez pas gagner contre les Invocateurs ! C'est impossible !
+End_Part2_Good_15 = Harold ouvre la fenêtre. Il va sauter ?!
+End_Part2_Good_16 = Mais que fa-
+End_Part2_Good_17 = Eh Eh Eh ! Une chute comme ça ne va pas me tuer, [MC] !
+End_Part2_Good_18 = N'oubliez pas que je suis le vrai maître ici !
+End_Part2_Good_19 = Vivez dans la peur, car je serais toujours tapi dans l'ombre.
+End_Part2_Good_20 = Je reviendrais bientôt. Je serais assez fort pour vous tuer 10 fois !
+End_Part2_Good_21 = Et maintenant. Adieux !
+End_Part2_Good_22 = Harold saute de la fenêtre. Je cours.
+End_Part2_Good_23 = Je regarde par la fenêtre, mais je ne vois pas Harold. Ou est-il ?
+End_Part2_Good_24 = Il s'est téléporté ? Ou est-ce qu'il a grimpé jusqu'au toit ?
+End_Part2_Good_25 = Bien... Ce n'est plus important.
+End_Part2_Good_26 = Comme il l'a dit, j'ai gagné. Enfin, pour le moment.
+End_Part2_Good_27 = Il va s'entrainer dans l'ombre. Il reviendra un jour.
+End_Part2_Good_28 = Je dois faire de même. Je dois être prêt pour notre prochaine rencontre.
+End_Part2_Good_29 = Quand ? Je ne sais pas.
+End_Part2_Good_30 = Mais je dois m'entrainer. Je dois être prêt.
+End_Part2_Good_31 = .... Maintenant que j'y pense.
+End_Part2_Good_32 = Où vais-je vivre ? Je suis coincé dans ce monde maintenant.
+End_Part2_Good_33 = .... Je suppose que je vais improviser.
+End_Part2_Good_34 = Peut-être que je peux demander de l'aide à Waldo ? Il avait l'air assez gentil.
+End_Part2_Good_35 = Mais bon. Je peux aussi voyager. Voir ce que cet étrange monde a à m'offrir.
+End_Part2_Good_36 = Jusqu'au retour d'Harold... Allons-y !
+End_Part2_Good_37 = .........
+End_Part2_Good_38 = FIN.
+End_Part2_Good_39 = (Bonne fin)
+End_Part2_Good_40 = Merci d'avoir joué à Harold's Quest - RickeyLand !

@@ -1,0 +1,15 @@
+# Game Items
+# KEY DEFAULT_VALUE
+
+playerName Ramos
+random 0
+
+mainQuest 0
+rain 0
+hauntedHouseQuest -1
+waldoQuizQuest -1
+horseRaceQuest -1
+shootSalesmanQuest -1
+shopQuest -1
+guardQuest -1
+shopAvailable 0

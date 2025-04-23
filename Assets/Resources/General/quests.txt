@@ -1,0 +1,7 @@
+mainQuest
+hauntedHouseQuest
+waldoQuizQuest
+horseRaceQuest
+shootSalesmanQuest
+shopQuest
+guardQuest

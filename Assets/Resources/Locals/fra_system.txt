@@ -1,0 +1,274 @@
+# ------------------------------------------------------------------------
+# -------------------- Title Screen & Settings ---------------------------
+# ------------------------------------------------------------------------
+
+
+title_preMenu = Cliquez pour jouer
+title_newGame = Nouvelle partie
+title_continue = Continuer
+title_quit = Quitter
+title_settings = Paramètres
+settings_audio = Audio
+settings_bgm = BGM
+settings_sfx = SFX
+settings_voice = Voix
+settings_screen = Ecran
+settings_fullscreen = Plein Ecran
+title_enterText = Entrez votre nom...
+title_finishText = Continuer
+title_descName = Entrez votre nom
+end_thanks = Merci d'avoir joué !
+
+
+# ------------------------------------------------------------------------
+# ---------------------- Background --------------------------------------
+# ------------------------------------------------------------------------
+
+Background_Vlatyr_BoyardeeSign = Chez Boyardee
+
+# ------------------------------------------------------------------------
+# ----------------------- Minigames --------------------------------------
+# ------------------------------------------------------------------------
+
+rules_name = Règles
+rules_continue = Continuer
+rules_goal = Objectif
+rules_controls = Contrôles
+
+rules_DK_goal = Survivez 30 secondes. Esquivez dans la direction opposée des dagues.
+rules_DK_controls = Flèches : Esquive dans la direction de la flèche
+
+rules_SR_goal = Echappez à l'ogre en évitant les obstacles.
+rules_SR_controls = Flèches : Déplacement dans la direction de la flèche
+
+rules_PPR_goal = Obtenez au moins 20 points pour gagner. Devinez quels mots Rickey préfère.
+rules_PPR_controls = Cliquez sur un mot pour l'utiliser
+
+rules_CM_goal = Survivez 60 secondes. Esquivez les rochers.
+rules_CM_controls = Flèches : Déplacement dans la direction de la flèche
+
+rules_FM_goal = Trouvez la bonne porte pour retrouver Katsumoto et le dragon.
+rules_FM_controls = Cliquez sur une porte pour la traverser
+
+rules_CF_goal = Charmez le dragon en appuyant sur les touches correspondantes au notes.
+rules_CF_controls = Flèches : Déclencher une note
+
+
+rules_BC_goal = Cuisinez les plats commandés en utilisant les bons ingrédients.
+rules_BC_controls = Clickez sur un ingrédient pour l'utiliser <br>Cliquez sur la cloche pour envoyer la pizza
+
+rules_TA_goal = Trouvez et tirer sur l'arche avant qu'il ne vous tue.
+rules_TA_controls = Utilisez la souris pour vous déplacer<br>Utilisez le clic gauche pour tirer
+
+rules_BBR_goal = Battez Rickey.
+rules_BBA_goal = Battez l'Archer.
+rules_BBR_controls = Attaquez pour infliger des dégats. <br>Parez pour regagner de la vie
+
+rules_PR_goal = Battez Rickey.
+rules_PR_controls = Flêche bas : Bloquer<br>Flêche haute : Attaquer
+
+rules_MM_goal = Trouvez du quartz dans la mine
+rules_MM_controls = Droite / Gauche : Tourner<br>Haut / Bas : Se déplacer
+
+
+
+rules_RFM_goal = Survivez 60 secondes. Sautez par dessus les troncs, et evitez les balles.
+rules_RFM_controls = Flèches : Déplacement dans la direction de la flèche<br>Espace : Sauter
+
+rules_QW_goal = Répondez aux questions.
+rules_Qw_controls = Cliquez sur la réponse correcte.
+
+rules_HR_goal = Finissez la course en première position.
+rules_HR_controls = Gauche/Droite : Alterner pour avancer<br>Espace : Sauter
+
+rules_HH_goal = Trouvez la sortie dans la maison hantée.
+rules_HH_controls = Droite / Gauche : Tourner<br>Haut / Bas : Se déplacer
+
+rules_STS_goal = Obtenez au moins 300 points. Vous gagnez des points en ne touchant pas le marchand.
+rules_STS_controls = Cliquez pour jeter un couteau.
+
+rules_QTG_goal = Empechez le garde de vous tirer dessus.
+rules_QTG_controls = Cliquez sur la cible pour gagner
+
+rules_BRR_goal = Dérangez le rap de Rickey.
+rules_BRR_controls = Espace : Crier
+
+rules_JDH_goal = Battez Harold en appuyant sur la touche affichée à l'écran quand elle arrive dans le cercle vert.
+rules_JDH_controls = Flèches : Dancer
+
+
+game_life = HP : 
+game_player = Joueur :
+
+LFB_Wrong = Faux !
+
+PPR_Parc = Parc
+PPR_Amour = Amour
+PPR_Argent = Argent
+PPR_Arme = Arme
+PPR_Visiteur = Visiteur
+PPR_Impot = Impot
+PPR_Employes = Employés
+PPR_Garde = Garde
+PPR_BoutiqueDeSouvenir = Boutique de Souvenir
+PPR_Chateau = Chateau
+PPR_Amitié = Amitié
+PPR_Rap = Rap
+PPR_Panzer = Panzer
+PPR_Intrus = Intrus
+PPR_DisneyLand = DisneyLand
+PPR_Rickey = Rickey
+PPR_Beaute = Beauté
+PPR_Artifices = Artifices
+PPR_Harold = Harold
+PPR_SeigneurBraise = Seigneur Braise
+
+
+WQ_Question1 = Qui tient le Quiz ?
+WQ_Question1_1 = Waldo
+WQ_Question1_2 = Rickey
+WQ_Question1_3 = Harold
+WQ_Question1_4 = Le Seigneur Braise
+
+WQ_Question2 = Quel est le nom du parc ?
+WQ_Question2_1 = Rigoland
+WQ_Question2_2 = RickeyLand
+WQ_Question2_3 = DisneyLand
+WQ_Question2_4 = Harold's Park
+
+WQ_Question3 = Qui est le PDG du parc ?
+WQ_Question3_1 = Waldo
+WQ_Question3_2 = Me
+WQ_Question3_3 = Rickey
+WQ_Question3_4 = Harold
+
+WQ_Question4 = Combien y a-t-il d'attractions au parc ?
+WQ_Question4_1 = 4
+WQ_Question4_2 = 10
+WQ_Question4_3 = 7
+WQ_Question4_4 = 3
+
+WQ_Question5 = Quel est le nom de la province ?
+WQ_Question5_1 = Kosky
+WQ_Question5_2 = Vlatyr
+WQ_Question5_3 = Forestyr
+WQ_Question5_4 = Runan
+
+WQ_Question6 = Que prix peut-on gagner en finissant toutes les attractions ?
+WQ_Question6_1 = Un panzer
+WQ_Question6_2 = Un repas gratuit
+WQ_Question6_3 = De l'argent
+WQ_Question6_4 = Un livre
+
+
+BRR_0 = Je suis le plus grand PDG !
+BRR_1 = Beau, cool, et bien sûr, riche !
+BRR_2 = Contrairement à toi, j'ai un superbe parc !
+
+BRR_3 = Magnifique, Magnifique RickeyLand !
+BRR_4 = Quelle création parfaite !
+BRR_5 = Sous la magnifique direction de moi, Rickey !
+BRR_6 = Je vais devenir riche en un rien de temps, regarde !
+
+BRR_7 = Première étape vers la richesse : Les coupes.
+BRR_8 = Vires tout le monde ! C'est moins cher !
+BRR_9 = Natasha, dégage ! Je n'ai besoin que de Waldo de toute façon.
+BRR_10 = Besoin de bras ? Utilise les gardes !
+BRR_11 = Ce sont les seuls êtres importants de ce parc !
+BRR_12 = Mon plan est parfait. Je deviens déjà plus riche !
+
+BRR_13 = Magnifique, Magnifique RickeyLand !
+BRR_14 = Quelle création parfaite !
+BRR_15 = Sous la magnifique direction de moi, Rickey !
+BRR_16 = Je vais devenir riche en un rien de temps, regarde !
+
+BRR_17 = Deuxième étape : Des prix.
+BRR_18 = Les gens ne veulent pas venir ?
+BRR_19 = Ton parc est dis "à éviter" ?
+BRR_20 = Promet une récompense s'ils viennent !
+BRR_21 = Regardes les, venir courir juste pour un vieux bouquin !
+BRR_22 = Je suis un génie ! Un génie riche !
+
+BRR_23 = Magnifique, Magnifique RickeyLand !
+BRR_24 = Quelle création parfaite !
+BRR_25 = Sous la magnifique direction de moi, Rickey !
+BRR_26 = Je vais devenir riche en un rien de temps, regarde !
+
+BRR_27 = Troisième étape : Les panzers !
+BRR_28 = Soyons sérieux deux minutes. Ils sont trop cool !
+BRR_29 = Non seulement on peut conduire vite, mais on peut aussi tirer !
+BRR_30 = Plus de détracteurs ! Ils sont tous morts !
+BRR_31 = Et sans détracteurs, je deviens plus riche !
+
+BRR_32 = Magnifique, Magnifique RickeyLand !
+BRR_33 = Quelle création parfaite !
+BRR_34 = Sous la magnifique direction de moi, Rickey !
+BRR_35 = Je vais devenir riche en un rien de temps, regarde !
+
+BRR_36 = Dernière étape : Les cyber-PDGs !
+BRR_37 = Avec eux, je vais pouvoir conquérir le monde !
+BRR_38 = Tout le monde va venir à RickeyLand !
+BRR_39 = Je vais même créer le parc ultime : RickeyWorld !
+BRR_40 = Ah Ah ! Je suis si grand ! Je suis si cool !
+
+
+# ------------------------------------------------------------------------
+# ----------------------------- Map --------------------------------------
+# ------------------------------------------------------------------------
+
+ChezHarold = Maison d'Harold
+Intersection = Intersection
+RickeyLand = RickeyLand
+Swamp = Marais
+Swamtyr = Swamtyr
+BraiseFortress = Forteresse Braise
+Mountains = Montagnes
+Mines = Mines
+Vlatyr = Vlatyr
+ChezMarcel = Maison du chasseur
+
+Gate = Entrée
+Plaza = Place centrale
+Quiz = Quiz de Waldo
+Horse = Course de chevaux
+HauntedHouse = Maison hantée
+Palace = Palais de Rickey
+Salesman = Tir sur marchand
+SouvenirShop = Boutique de souvenir
+
+# ------------------------------------------------------------------------
+# -------------------------- Quests --------------------------------------
+# ------------------------------------------------------------------------
+
+mainQuest = Le grimoire et le PDG
+mainQuest_0 = Entrer à RickeyLand
+mainQuest_1 = Trouver un pass
+mainQuest_2 = Entrer à RickeyLand
+mainQuest_3 = Finir les 4 attractions
+mainQuest_4 = Entrer dans le palace de Rickey
+mainQuest_5 = Reprendre le grimoire à Rickey
+mainQuest_6 = Retourner voir Harold
+
+
+hauntedHouseQuest = La maison hantée
+hauntedHouseQuest_0 = Finir l'attraction "Maison hantée"
+
+waldoQuizQuest = Le quiz
+waldoQuizQuest_0 = Finir "le quiz de Waldo"
+
+horseRaceQuest = La course
+horseRaceQuest_0 = Finir la "course de chevaux"
+horseRaceQuest_1 = Trouver le cheval
+horseRaceQuest_2 = Finir la "course de chevaux"
+
+shootSalesmanQuest = L'attraction questionable
+shootSalesmanQuest_0 = Finir l'attraction "Tir sur marchand"
+
+shopQuest = La boutique de souvenir
+shopQuest_0 = Aller voir la boutique de souvenir
+shopQuest_1 = Livrer la boite du Chevalier à Vlatyr
+shopQuest_2 = Retourner voir Waldo à la boutique de souvenir
+
+guardQuest = Le retour d'un viel ami
+guardQuest_0 = Mener l'enquête à la forteresse
+guardQuest_1 = Retourner voir GARDE

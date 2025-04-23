@@ -1,0 +1,277 @@
+# ------------------------------------------------------------------------
+# -------------------- Title Screen & Settings ---------------------------
+# ------------------------------------------------------------------------
+
+
+title_preMenu = Click to play
+title_newGame = New Game
+title_continue = Continue
+title_quit = Quit
+title_settings = Settings
+settings_audio = Audio
+settings_bgm = BGM
+settings_sfx = SFX
+settings_voice = Voice
+settings_screen = Screen
+settings_fullscreen = Fullscreen
+title_enterText = Enter your name...
+title_finishText = Continue
+title_descName = Enter your name
+end_thanks = Thanks for playing !
+
+
+# ------------------------------------------------------------------------
+# ---------------------- Background --------------------------------------
+# ------------------------------------------------------------------------
+
+Background_Vlatyr_BoyardeeSign = Boyardee's
+
+
+# ------------------------------------------------------------------------
+# ----------------------- Minigames --------------------------------------
+# ------------------------------------------------------------------------
+
+rules_name = Rules
+rules_continue = Continue
+rules_goal = Objective
+rules_controls = Controls
+
+rules_DK_goal = Survive for 30 seconds. Dodge in the opposite direction to the daggers.
+rules_DK_controls = Arrow keys : Dodge in the arrow's direction
+
+rules_SR_goal = Escape the ogre by dodging the obstacles. 
+rules_SR_controls = Arrow keys : Move in the arrow's direction
+
+rules_PPR_goal = Score at least 20 points to win. Find out which words Rickey prefers.
+rules_PPR_controls = Click on a word to use it
+
+rules_CM_goal = Survive for 60 seconds. Evade the falling rocks.
+rules_CM_controls = Arrow keys : Move in the arrow's direction
+
+rules_FM_goal = Find the correct door to catch up with Katsumoto and the dragon.
+rules_FM_controls = Click on a door to enter it
+
+rules_CF_goal = Charm the dragon by hitting a note's corresponding key.
+rules_CF_controls = Arrow keys : Trigger a note
+
+
+rules_BC_goal = Cook the ordererd meals by using the correct ingredients.
+rules_BC_controls = Click on an ingredient to use it <br>Click on the bell to send the pizza
+
+rules_TA_goal = Find and shoot the archer before he kills you.
+rules_TA_controls = Use the mouse to move <br>Use left click to shoot
+
+rules_BBR_goal = Defeat Rickey.
+rules_BBA_goal = Defeat the Archer.
+rules_BBR_controls = Attack to deal damage. <br>Guard to gain HP back
+
+rules_PR_goal = Defeat Rickey.
+rules_PR_controls = Down Arrow : Block<br>Up Arrow : Attack
+
+rules_MM_goal = Find quartz in the maze.
+rules_MM_controls = Right / Left : Turn<br>Up / Down : Move
+
+rules_BW_goal = Survive for 60 seconds. Evade the rocks.
+rules_BW_controls = Arrow keys : Move in the arrow's direction
+
+
+
+rules_RFM_goal = Survive for 60 seconds. Jump over the logs, and dodge the bullets.
+rules_RFM_controls = Arrow keys : Move in the arrow's direction<br>Space : Jump
+
+rules_QW_goal = Answer the questions.
+rules_QW_controls = Click on the correct answer.
+
+rules_HR_goal = Finish the race in the first position.
+rules_HR_controls = Left/Right : Alternate to move<br>Space : Jump
+
+rules_HH_goal = Find exit in the haunted house.
+rules_HH_controls = Right / Left : Turn<br>Up / Down : Move
+
+rules_STS_goal = Score at least 300 points. You gain points by not hitting the salesman.
+rules_STS_controls = Click to shoot a knife
+
+rules_QTG_goal = Prevent the guard from killing you.
+rules_QTG_controls = Click on the target to win
+
+rules_BRR_goal = Disrupt Rickey's rap.
+rules_BRR_controls = Space : Yell
+
+rules_JDH_goal = Defeat Harold by pressing the required key when it's in the green circle.
+rules_JDH_controls = Arrow keys : Dance
+
+
+
+game_life = HP : 
+game_player = Player :
+
+LFB_Wrong = Wrong !
+
+PPR_Parc = Park
+PPR_Amour = Love
+PPR_Argent = Money
+PPR_Arme = Weapon
+PPR_Visiteur = Visitor
+PPR_Impot = Taxes
+PPR_Employes = Employees
+PPR_Garde = Guard
+PPR_BoutiqueDeSouvenir = Souvenir Shop
+PPR_Chateau = Castle
+PPR_Amitié = Friendship
+PPR_Rap = Rap
+PPR_Panzer = Panzer
+PPR_Intrus = Intruder
+PPR_DisneyLand = DisneyLand
+PPR_Rickey = Rickey
+PPR_Beaute = Beauty
+PPR_Artifices = Fireworks
+PPR_Harold = Harold
+PPR_SeigneurBraise = Lord Ember
+
+WQ_Question1 = Who is hosting the Quiz ?
+WQ_Question1_1 = Waldo
+WQ_Question1_2 = Rickey
+WQ_Question1_3 = Harold
+WQ_Question1_4 = Lord Ember
+
+WQ_Question2 = What is the name of the park ?
+WQ_Question2_1 = Rigoland
+WQ_Question2_2 = RickeyLand
+WQ_Question2_3 = DisneyLand
+WQ_Question2_4 = Harold's Park
+
+WQ_Question3 = Who is the CEO of the park ?
+WQ_Question3_1 = Waldo
+WQ_Question3_2 = Me
+WQ_Question3_3 = Rickey
+WQ_Question3_4 = Harold
+
+WQ_Question4 = How many attractions are there in the park ? 
+WQ_Question4_1 = 4
+WQ_Question4_2 = 10
+WQ_Question4_3 = 7
+WQ_Question4_4 = 3
+
+WQ_Question5 = What is the name of the province ?
+WQ_Question5_1 = Kosky
+WQ_Question5_2 = Vlatyr
+WQ_Question5_3 = Forestyr
+WQ_Question5_4 = Runan
+
+WQ_Question6 = What prize can you earn by completing all attractions ?
+WQ_Question6_1 = A panzer
+WQ_Question6_2 = A free meal
+WQ_Question6_3 = Money
+WQ_Question6_4 = A book
+
+BRR_0 = I'm the greatest CEO !
+BRR_1 = Handsome, cool, and of course, rich !
+BRR_2 = Unlike you, I got a superb park !
+
+BRR_3 = Wonderful, Wonderful RickeyLand !
+BRR_4 = What a perfect creation !
+BRR_5 = Under the beautiful leadership of me, Rickey !
+BRR_6 = I'll get richer in no time, just you watch !
+
+BRR_7 = Step one to becoming rich : Cuts.
+BRR_8 = Just fire everyone ! It's cheaper !
+BRR_9 = Natasha, gone ! I only need Waldo anyway.
+BRR_10 = Need helping hands ? Use the security guards !
+BRR_11 = Only them are necessary here !
+BRR_12 = My plan is perfect, I'm already becoming richer !
+
+BRR_13 = Wonderful, Wonderful RickeyLand !
+BRR_14 = What a perfect creation !
+BRR_15 = Under the beautiful leadership of me, Rickey !
+BRR_16 = I'll get richer in no time, just you watch !
+
+BRR_17 = Step two : Prizes.
+BRR_18 = People don't want to come ?
+BRR_19 = Your park is deemed "unfriendly" ?
+BRR_20 = Just promise a reward if they come !
+BRR_21 = Look at them, rushing here just to get some old book !
+BRR_22 = I'm a genius ! A rich genius !
+
+BRR_23 = Wonderful, Wonderful RickeyLand !
+BRR_24 = What a perfect creation !
+BRR_25 = Under the beautiful leadership of me, Rickey !
+BRR_26 = I'll get richer in no time, just you watch !
+
+BRR_27 = Step three : Panzers !
+BRR_28 = Let's be real, aren't they cool ?
+BRR_29 = Not only you can drive fast, but you can also fire !
+BRR_30 = No more haters ! They're all dead !
+BRR_31 = And with no haters, come more money !
+
+BRR_32 = Wonderful, Wonderful RickeyLand !
+BRR_33 = What a perfect creation !
+BRR_34 = Under the beautiful leadership of me, Rickey !
+BRR_35 = I'll get richer in no time, just you watch !
+
+BRR_36 = Final step : The Cyber-CEOs !
+BRR_37 = With them, I'll be able to take of the world !
+BRR_38 = Everyone will come to RickeyLand !
+BRR_39 = I'll even create the ultimate park : RickeyWorld !
+BRR_40 = Ah Ah ! I'm so great ! I'm so cool !
+ 
+
+
+# ------------------------------------------------------------------------
+# ----------------------------- Map --------------------------------------
+# ------------------------------------------------------------------------
+
+ChezHarold = Harold's House
+Intersection = Intersection
+RickeyLand = RickeyLand
+Swamp = Swamp
+Swamtyr = Swamtyr
+BraiseFortress = Ember Fortress
+Mountains = Mountains
+Mines = Mines
+Vlatyr = Vlatyr
+ChezMarcel = Hunter's House
+
+Gate = Entrance
+Plaza = Plaza
+Quiz = Waldo's Quiz
+Horse = The Horse Race
+HauntedHouse = The Haunted House
+Palace = Rickey's Palace
+Salesman = Shoot the Salesman
+SouvenirShop = The souvenir shop
+
+# ------------------------------------------------------------------------
+# -------------------------- Quests --------------------------------------
+# ------------------------------------------------------------------------
+
+mainQuest = The grimoire and the CEO
+mainQuest_0 = Enter RickeyLand
+mainQuest_1 = Find a pass
+mainQuest_2 = Enter RickeyLand
+mainQuest_3 = Beat the 4 attractions
+mainQuest_4 = Enter Rickey's palace
+mainQuest_5 = Get the grimoire from Rickey
+mainQuest_6 = Return to Harold
+
+hauntedHouseQuest = The Haunted House
+hauntedHouseQuest_0 = Complete the "Haunted House" attraction
+
+waldoQuizQuest = The Quiz
+waldoQuizQuest_0 = Complete "Waldo's quiz"
+
+horseRaceQuest = The Race
+horseRaceQuest_0 = Complete "The horse race"
+horseRaceQuest_1 = Find the horse
+horseRaceQuest_2 = Complete "The horse race"
+
+shootSalesmanQuest = The Questionable One
+shootSalesmanQuest_0 = Complete the "Shoot the salesman" attraction
+
+shopQuest = The Souvenir Shop
+shopQuest_0 = Investigate the souvenir shop
+shopQuest_1 = Deliver the knight's box in Vlatyr
+shopQuest_2 = Report back to Waldo at the souvenir shop
+
+guardQuest = An old friend returns
+guardQuest_0 = Investigate the fortress
+guardQuest_1 = Report back to GUARD
