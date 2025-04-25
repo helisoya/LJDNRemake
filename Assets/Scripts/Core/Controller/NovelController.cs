@@ -23,6 +23,7 @@ public class NovelController : MonoBehaviour
     private Choice currentChoice;
     private bool waitingForUserToEndDialog;
     private bool inInteractionMode;
+    private bool loadedAutoSave;
 
     public void Next()
     {
@@ -35,7 +36,7 @@ public class NovelController : MonoBehaviour
         print("Is Loading Save : " + GameManager.instance.IsLoadingSave());
         if (GameManager.instance.IsLoadingSave())
         {
-            LoadGameFile();
+            LoadGameFile(GameManager.instance.GetSaveToLoad());
         }
         else
         {
@@ -43,10 +44,10 @@ public class NovelController : MonoBehaviour
         }
     }
 
-    public void LoadGameFile()
+    public void LoadGameFile(string saveName = "save")
     {
-        GameManager.instance.SetIsLoadingSave(true);
-        GAMEFILE activeGameFile = GameManager.GetSaveManager().Load();
+        GameManager.instance.SetSaveToLoad(saveName);
+        GAMEFILE activeGameFile = GameManager.GetSaveManager().Load(saveName);
 
         VNGUI.instance.ForceBgTo(activeGameFile.fadeBg);
         VNGUI.instance.ForceFgTo(activeGameFile.fadeFg);
@@ -93,10 +94,12 @@ public class NovelController : MonoBehaviour
                 activeGameFile.currentTextsIds);
         }
 
+        loadedAutoSave = saveName.Equals("auto");
+
         LoadChapterFile(activeGameFile.chapterName, activeGameFile.chapterProgress);
     }
 
-    public void SaveGameFile()
+    public void SaveGameFile(string saveName)
     {
         GAMEFILE activeGameFile = GameManager.GetSaveManager().saveFile;
 
@@ -128,7 +131,7 @@ public class NovelController : MonoBehaviour
 
         activeGameFile.skyData = LightingManager.instance.GetCurrentDataName();
 
-        GameManager.GetSaveManager().Save();
+        GameManager.GetSaveManager().Save(saveName);
     }
 
     public void LoadChapterFile(string filename, int chapterProgress = 0)
@@ -155,7 +158,7 @@ public class NovelController : MonoBehaviour
     {
         if (GameManager.instance.IsLoadingSave())
         {
-            GameManager.instance.SetIsLoadingSave(false);
+            GameManager.instance.SetSaveToLoad(null);
 
             if (currentChoice != null)
             {
@@ -165,7 +168,7 @@ public class NovelController : MonoBehaviour
             {
                 yield return HandleInteraction();
             }
-            else
+            else if (!loadedAutoSave)
             {
                 waitingForUserToEndDialog = true;
                 next = false;

@@ -19,6 +19,13 @@ title_finishText = Continue
 title_descName = Enter your name
 end_thanks = Thanks for playing !
 
+saves_title_save = Select a save slot
+saves_title_load = Select a load slot
+saves_none = No Data
+saves_confirmDesc = Use this slot ?
+saves_confirm = Confirm
+saves_back = Back
+
 
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------

@@ -8,15 +8,19 @@ using UnityEngine;
 /// </summary>
 public class SaveManager
 {
-    private string savePath = FileManager.savPath + "save.txt";
-    public GAMEFILE saveFile { get; private set; }
+    private string savePath = FileManager.savPath + "Saves/";
     private List<GAMEFILE.ITEM> items;
-    public bool saveFileExistsOnDisk
+    public GAMEFILE saveFile { get; private set; }
+
+
+    /// <summary>
+    /// Checks if a savefile exists on disk
+    /// </summary>
+    /// <param name="saveName">The save's name</param>
+    /// <returns>True if the savefile exists on disk</returns>
+    public bool SaveFileExists(string saveName)
     {
-        get
-        {
-            return System.IO.File.Exists(savePath);
-        }
+        return File.Exists(savePath + saveName + ".txt");
     }
 
     public SaveManager()
@@ -58,28 +62,29 @@ public class SaveManager
 
     /// <summary>
     /// Saves the current save file
+    /// <param name="saveName">The save's name</param>
     /// </summary>
-    public void Save()
+    public void Save(string saveName = "save")
     {
-        FileManager.SaveJSON(savePath, saveFile);
+        FileManager.SaveJSON(savePath + saveName + ".txt", saveFile);
     }
 
     /// <summary>
     /// Loads the save file from disk
     /// </summary>
+    /// <param name="saveName">The save's name</param>
     /// <returns>The new save file</returns>
-    public GAMEFILE Load()
+    public GAMEFILE Load(string saveName)
     {
-        if (saveFileExistsOnDisk)
+        if (SaveFileExists(saveName))
         {
-            saveFile = FileManager.LoadJSON<GAMEFILE>(savePath);
+            saveFile = FileManager.LoadJSON<GAMEFILE>(savePath + saveName + ".txt");
             foreach (GAMEFILE.ITEM item in items)
             {
                 GAMEFILE.ITEM inSave = saveFile.items.Find(x => x.name == item.name);
                 item.value = inSave == null ? item.defaultValue : inSave.value;
             }
         }
-
 
         return saveFile;
     }
@@ -139,5 +144,40 @@ public class SaveManager
     public string GetItem(string key)
     {
         return items[GetIndexOfItem(key)].value;
+    }
+
+    public SaveInfo[] GetAvailableSaves()
+    {
+        GAMEFILE temp;
+        string[] toTest = { "auto", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
+        SaveInfo[] list = new SaveInfo[toTest.Length];
+
+        for (int i = 0; i < toTest.Length; i++)
+        {
+            if (SaveFileExists(toTest[i]))
+            {
+                temp = FileManager.LoadJSON<GAMEFILE>(savePath + toTest[i] + ".txt");
+
+                GAMEFILE.ITEM item = temp.items.Find(item => item.name.Equals("playerName"));
+                string playerName = item != null ? item.value : items.Find(item => item.name.Equals("playerName")).value;
+                list[i] = new SaveInfo
+                {
+                    slot = toTest[1],
+                    playerName = playerName,
+                    playerLevel = -1,
+                    location = temp.locationName,
+                };
+            }
+        }
+
+        return list;
+    }
+
+    public class SaveInfo
+    {
+        public string slot;
+        public string playerName;
+        public int playerLevel;
+        public string location;
     }
 }

@@ -33,6 +33,8 @@ public class GAMEFILE
     public Vector3 cameraRotation;
     public string skyData;
 
+    public string locationName;
+
     public GAMEFILE()
     {
         this.chapterName = "test2";
@@ -49,6 +51,7 @@ public class GAMEFILE
         this.cameraPosition = new Vector3(0, 0, -10);
         this.cameraRotation = Vector3.zero;
         this.skyData = "Default";
+        this.locationName = "NO_DATA";
     }
 
     [System.Serializable]

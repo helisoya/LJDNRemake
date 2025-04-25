@@ -22,6 +22,7 @@ public class VNGUI : MonoBehaviour
 
     [Header("Pause")]
     [SerializeField] private PauseMenu pauseMenu;
+    [SerializeField] private SaveMenu saveMenu;
 
     [Header("Interaction Mode")]
     [SerializeField] private GameObject interactionModeRoot;
@@ -122,7 +123,7 @@ public class VNGUI : MonoBehaviour
     {
         if (!NovelController.instance.isReadyForSaving) return;
 
-        NovelController.instance.SaveGameFile();
+        saveMenu.Open(true);
     }
 
     /// <summary>
@@ -130,13 +131,7 @@ public class VNGUI : MonoBehaviour
     /// </summary>
     public void Load()
     {
-        if (GameManager.GetSaveManager().saveFileExistsOnDisk)
-        {
-            ResetCursor();
-            NovelController.instance.LoadGameFile();
-        }
-
-
+        saveMenu.Open(false);
     }
 
     /// <summary>
@@ -210,7 +205,7 @@ public class VNGUI : MonoBehaviour
             button.interactable = NovelController.instance.isReadyForSaving;
         }
 
-        bool saveFileExists = GameManager.GetSaveManager().saveFileExistsOnDisk;
+        bool saveFileExists = true;// GameManager.GetSaveManager().saveFileExistsOnDisk;
 
         foreach (Button button in loadButtons)
         {

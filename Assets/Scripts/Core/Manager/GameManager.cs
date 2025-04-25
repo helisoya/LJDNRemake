@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
 
     private string chapterToLoad;
-    private bool loadSave;
+    private string loadSaveName = null;
     [Header("General Informations")]
     [SerializeField] private AudioMixer mixer;
 
@@ -61,12 +61,21 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Sets if the player is loading a save
+    /// Sets the savefile to load
     /// </summary>
-    /// <param name="value">Is the player loading a save ?</param>
-    public void SetIsLoadingSave(bool value)
+    /// <param name="value">The savefile's name</param>
+    public void SetSaveToLoad(string value)
     {
-        loadSave = value;
+        loadSaveName = value;
+    }
+
+    /// <summary>
+    /// Gets the savefile to load
+    /// </summary>
+    /// <returns>The savefile to load</returns>
+    public string GetSaveToLoad()
+    {
+        return loadSaveName;
     }
 
     /// <summary>
@@ -75,7 +84,7 @@ public class GameManager : MonoBehaviour
     /// <returns>Is the player loading a save ?</returns>
     public bool IsLoadingSave()
     {
-        return loadSave;
+        return loadSaveName != null;
     }
 
     /// <summary>

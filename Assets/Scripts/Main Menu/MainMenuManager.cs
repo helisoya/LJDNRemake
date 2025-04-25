@@ -17,7 +17,7 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Main Screen")]
     [SerializeField] private GameObject mainScreenRoot;
-    [SerializeField] private Button continueButton;
+    [SerializeField] private SaveMenu saveMenu;
 
 
     [Header("Name Input")]
@@ -26,12 +26,17 @@ public class MainMenuManager : MonoBehaviour
 
     private Coroutine fading;
 
+    public static MainMenuManager instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
 
 
     void Start()
     {
         AudioManager.instance.PlaySong(menuMusic);
-        continueButton.interactable = GameManager.GetSaveManager().saveFileExistsOnDisk;
         fade.ForceAlphaTo(1);
         fade.FadeTo(0);
     }
@@ -53,7 +58,7 @@ public class MainMenuManager : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(nameInput.text))
         {
-            GameManager.instance.SetIsLoadingSave(false);
+            GameManager.instance.SetSaveToLoad(null);
             GameManager.instance.SetNextChapter("Intro/Intro");
             GameManager.GetSaveManager().ResetItems();
             GameManager.GetSaveManager().EditItem("playerName", nameInput.text);
@@ -68,10 +73,7 @@ public class MainMenuManager : MonoBehaviour
     /// </summary>
     public void Event_Continue()
     {
-        if (fading != null) return;
-        GameManager.instance.SetIsLoadingSave(true);
-        GameManager.instance.SetNextChapter("");
-        StartTransitionToVN();
+        saveMenu.Open(false);
     }
 
     /// <summary>
@@ -95,7 +97,7 @@ public class MainMenuManager : MonoBehaviour
     /// <summary>
     /// Starts the transition to the VN Scene
     /// </summary>
-    private void StartTransitionToVN()
+    public void StartTransitionToVN()
     {
         if (fading != null) return;
 

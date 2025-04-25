@@ -19,6 +19,12 @@ title_finishText = Continuer
 title_descName = Entrez votre nom
 end_thanks = Merci d'avoir joué !
 
+saves_title_save = Choisissez un slot de sauvegarde
+saves_title_load = Choisissez quel slot charger
+saves_none = Pas de données
+saves_confirmDesc = Utiliser ce slot ?
+saves_confirm = Confirmer
+saves_back = Retour
 
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------
