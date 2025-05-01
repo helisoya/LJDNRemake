@@ -6,8 +6,7 @@ using UnityEngine.UI;
 [System.Serializable]
 public class GAMEFILE
 {
-    public string chapterName;
-    public int chapterProgress = 0;
+    public List<NovelController.StackEntry> stack;
 
     public List<string> currentTextsIds;
     public string currentTextSystemSpeakerDisplayText = "";
@@ -37,8 +36,7 @@ public class GAMEFILE
 
     public GAMEFILE()
     {
-        this.chapterName = "test2";
-        this.chapterProgress = 0;
+        this.stack = new List<NovelController.StackEntry>();
         this.characterInScene = new List<CHARACTERDATA>();
         this.background = null;
         this.music = null;

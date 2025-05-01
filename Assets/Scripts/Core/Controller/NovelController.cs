@@ -25,14 +25,39 @@ public class NovelController : MonoBehaviour
     private bool inInteractionMode;
     private bool loadedAutoSave;
 
+    private List<StackEntry> stack;
+
+    /// <summary>
+    /// Represents an entry in the chapters stack
+    /// </summary>
+    [System.Serializable]
+    public class StackEntry
+    {
+        public string chapterName = "";
+        public int currentChapterProgress = 0;
+    }
+
+
+
     public void Next()
     {
         next = true;
     }
 
+    public void EnableLock()
+    {
+        handlingChapterFile = null;
+    }
+
+    public void ClearStack()
+    {
+        while (stack.Count > 1) stack.RemoveAt(0);
+    }
+
     void Start()
     {
         instance = this;
+        stack = new List<StackEntry>();
         print("Is Loading Save : " + GameManager.instance.IsLoadingSave());
         if (GameManager.instance.IsLoadingSave())
         {
@@ -60,8 +85,11 @@ public class NovelController : MonoBehaviour
 
         LightingManager.instance.ChangeData(activeGameFile.skyData);
 
-        data = FileManager.ReadTextAsset(Resources.Load<TextAsset>($"Story/{activeGameFile.chapterName}"));
-        activeChapterFile = activeGameFile.chapterName;
+        stack = activeGameFile.stack;
+        StackEntry currentChapter = stack[stack.Count - 1];
+
+        data = FileManager.ReadTextAsset(Resources.Load<TextAsset>($"Story/{currentChapter.chapterName}"));
+        activeChapterFile = currentChapter.chapterName;
 
         CharacterManager.instance.RemoveAllCharacters();
         List<GAMEFILE.CHARACTERDATA> characters = activeGameFile.characterInScene;
@@ -96,15 +124,15 @@ public class NovelController : MonoBehaviour
 
         loadedAutoSave = saveName.Equals("auto");
 
-        LoadChapterFile(activeGameFile.chapterName, activeGameFile.chapterProgress);
+        LoadChapterFile(currentChapter.chapterName, currentChapter.currentChapterProgress);
     }
 
     public void SaveGameFile(string saveName)
     {
         GAMEFILE activeGameFile = GameManager.GetSaveManager().saveFile;
 
-        activeGameFile.chapterName = activeChapterFile;
-        activeGameFile.chapterProgress = chapterProgress;
+        activeGameFile.stack = stack;
+
         activeGameFile.currentTextsIds = DialogSystem.instance.currentTextsIds;
         activeGameFile.currentTextSystemSpeakerDisplayText = DialogSystem.instance.speakerNameText.text;
 
@@ -136,18 +164,29 @@ public class NovelController : MonoBehaviour
 
     public void LoadChapterFile(string filename, int chapterProgress = 0)
     {
-        if (!GameManager.instance.IsLoadingSave()) inInteractionMode = false;
+        StopAllCoroutines();
+
+        if (!GameManager.instance.IsLoadingSave())
+        {
+            inInteractionMode = false;
+            stack.Add(new StackEntry { chapterName = filename, currentChapterProgress = chapterProgress });
+            while (stack.Count > 10)
+            {
+                stack.RemoveAt(0);
+            }
+        }
+        print("Current Stack :");
+        foreach (StackEntry entry in stack)
+        {
+            print("- " + entry.chapterName + " : " + entry.currentChapterProgress);
+        }
         activeChapterFile = filename;
         this.chapterProgress = chapterProgress;
 
         print("Loading chapter : " + $"Story/{filename}");
         data = FileManager.ReadTextAsset(Resources.Load<TextAsset>($"Story/{filename}"));
 
-        if (handlingChapterFile != null)
-        {
-            StopCoroutine(handlingChapterFile);
-            StopAllCoroutines();
-        }
+
         handlingChapterFile = StartCoroutine(HandlingChapterFile());
     }
 
@@ -180,12 +219,15 @@ public class NovelController : MonoBehaviour
                 waitingForUserToEndDialog = false;
             }
             chapterProgress++;
+            stack[stack.Count - 1].currentChapterProgress++;
         }
 
         ChoiceScreen.instance.Hide();
 
         while (chapterProgress < data.Count)
         {
+            if (handlingChapterFile == null) yield break;
+
             string line = data[chapterProgress];
 
             if (line.Equals("interact"))
@@ -205,6 +247,19 @@ public class NovelController : MonoBehaviour
                 yield return HandlingLine(line);
             }
             chapterProgress++;
+            stack[stack.Count - 1].currentChapterProgress++;
+        }
+
+        if (handlingChapterFile == null) yield break;
+
+        print("Removign from stack");
+        stack.RemoveAt(stack.Count - 1);
+        if (stack.Count > 0)
+        {
+            print("Reload previous entry");
+            StackEntry entry = stack[stack.Count - 1];
+            stack.RemoveAt(stack.Count - 1);
+            LoadChapterFile(entry.chapterName, entry.currentChapterProgress);
         }
 
         handlingChapterFile = null;
@@ -213,6 +268,7 @@ public class NovelController : MonoBehaviour
     IEnumerator HandleInteraction()
     {
         print("Starting interaction mode");
+        ClearStack();
         inInteractionMode = true;
         InteractionManager.instance.SetActive(true);
         while (InteractionManager.instance.active)
@@ -257,6 +313,8 @@ public class NovelController : MonoBehaviour
             }
             else
             {
+                handlingChapterFile = null;
+                stack[stack.Count - 1].currentChapterProgress++;
                 LoadChapterFile(split[2]);
             }
         }
@@ -293,7 +351,7 @@ public class NovelController : MonoBehaviour
         currentChoice = new Choice(line.Split(' ')[1]);
 
         int i = chapterProgress + 1;
-        while (i < data.Count && !string.IsNullOrEmpty(data[i]))
+        while (i < data.Count && !string.IsNullOrEmpty(data[i]) && !string.IsNullOrWhiteSpace(data[i]) && data[i].StartsWith("\t"))
         {
             string choiceLine = data[i].Replace("\t", "");
             string[] split = choiceLine.Split(' ');
@@ -301,6 +359,8 @@ public class NovelController : MonoBehaviour
             currentChoice.answers.Add(new Choice.ChoiceAnswer(split[0], split[1]));
             i++;
         }
+
+        stack[stack.Count - 1].currentChapterProgress = i;
 
         if (currentChoice.answers.Count > 0)
         {
@@ -329,6 +389,7 @@ public class NovelController : MonoBehaviour
         }
         else
         {
+            handlingChapterFile = null;
             LoadChapterFile(action);
         }
     }
@@ -355,7 +416,6 @@ public class NovelController : MonoBehaviour
                 DialogSystem.instance.Say(parameters[3], parameters[0], parameters[1].Equals("_") ? null : parameters[1], bool.Parse(parameters[2]));
 
                 TextArchitect architect = DialogSystem.instance.textArchitect;
-
 
                 while (architect.isConstructing)
                 {
@@ -392,6 +452,10 @@ public class NovelController : MonoBehaviour
 
             case "playMusic":
                 AudioManager.instance.PlaySong(parameters[0]);
+                break;
+
+            case "clearStack":
+                ClearStack();
                 break;
 
             case "removeAllCharacters":
@@ -604,6 +668,7 @@ public class NovelController : MonoBehaviour
 
             case "load":
                 if (isQuickCommand) break;
+                stack[stack.Count - 1].currentChapterProgress++;
                 LoadChapterFile(parameters[0]);
                 break;
 

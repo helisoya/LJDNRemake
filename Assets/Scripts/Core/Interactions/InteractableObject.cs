@@ -76,6 +76,7 @@ public class InteractableObject : MonoBehaviour
             }
             else
             {
+                NovelController.instance.EnableLock();
                 NovelController.instance.LoadChapterFile(nextChapter);
             }
 

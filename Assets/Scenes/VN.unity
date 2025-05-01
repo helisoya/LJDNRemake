@@ -2344,7 +2344,7 @@ PrefabInstance:
     - target: {fileID: 7510254453066846891, guid: a7331b40c3ddb484cba6d066cbd710a2,
         type: 3}
       propertyPath: debug_nextChapter
-      value: Intro/Intro
+      value: ChezHarold/Arrive
       objectReference: {fileID: 0}
     - target: {fileID: 8277262889586435242, guid: a7331b40c3ddb484cba6d066cbd710a2,
         type: 3}
