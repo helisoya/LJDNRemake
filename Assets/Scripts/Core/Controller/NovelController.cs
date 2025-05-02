@@ -165,6 +165,7 @@ public class NovelController : MonoBehaviour
     public void LoadChapterFile(string filename, int chapterProgress = 0)
     {
         StopAllCoroutines();
+        handlingChapterFile = null;
 
         if (!GameManager.instance.IsLoadingSave())
         {
@@ -195,6 +196,12 @@ public class NovelController : MonoBehaviour
 
     IEnumerator HandlingChapterFile()
     {
+        while (handlingChapterFile == null)
+        {
+            yield return new WaitForEndOfFrame();
+            // Wait for the game to actually register the routine
+        }
+
         if (GameManager.instance.IsLoadingSave())
         {
             GameManager.instance.SetSaveToLoad(null);
@@ -226,7 +233,6 @@ public class NovelController : MonoBehaviour
 
         while (chapterProgress < data.Count)
         {
-            if (handlingChapterFile == null) yield break;
 
             string line = data[chapterProgress];
 
@@ -246,6 +252,9 @@ public class NovelController : MonoBehaviour
             {
                 yield return HandlingLine(line);
             }
+
+            if (handlingChapterFile == null) yield break;
+
             chapterProgress++;
             stack[stack.Count - 1].currentChapterProgress++;
         }
@@ -270,6 +279,7 @@ public class NovelController : MonoBehaviour
         print("Starting interaction mode");
         ClearStack();
         inInteractionMode = true;
+        stack[stack.Count - 1].currentChapterProgress++;
         InteractionManager.instance.SetActive(true);
         while (InteractionManager.instance.active)
         {
@@ -707,6 +717,11 @@ public class NovelController : MonoBehaviour
             case "map":
                 if (isQuickCommand) break;
                 Map.instance.OpenMap(parameters[0], parameters[1]);
+                yield return new WaitForEndOfFrame();
+                while (Map.instance.open)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
                 break;
 
             case "variable":

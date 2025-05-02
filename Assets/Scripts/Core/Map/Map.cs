@@ -26,6 +26,8 @@ public class Map : MonoBehaviour
     [SerializeField] private GameObject questPrefab;
     private List<string> questsId;
 
+    public bool open { get { return root.activeInHierarchy; } }
+
     void Awake()
     {
         instance = this;
