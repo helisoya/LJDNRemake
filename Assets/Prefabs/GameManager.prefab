@@ -162,6 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8277262889586435242}
   - component: {fileID: 7510254453066846891}
+  - component: {fileID: 5455355520057103133}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -198,5 +199,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 3551b16b330043746990206565e1fa27, type: 2}
+  rpgManager: {fileID: 5455355520057103133}
   debug: 0
   debug_nextChapter: 
+--- !u!114 &5455355520057103133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665731747268475590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f68a637c5b607740a6528b2e0ecc33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCharacters:
+  - ID: PLAYER
+    stats:
+      _serializedList:
+      - Key: 0
+        Value: 5
+      - Key: 1
+        Value: 4
+      - Key: 2
+        Value: 2
+      - Key: 3
+        Value: 3
+      - Key: 4
+        Value: 2
+      - Key: 5
+        Value: 0
+    weapon: 
+    armor: 
+    level: 1
+    currentHP: 25

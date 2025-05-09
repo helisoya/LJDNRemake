@@ -122,6 +122,8 @@ public class NovelController : MonoBehaviour
                 activeGameFile.currentTextsIds);
         }
 
+        GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
+
         loadedAutoSave = saveName.Equals("auto");
 
         LoadChapterFile(currentChapter.chapterName, currentChapter.currentChapterProgress);
@@ -158,6 +160,8 @@ public class NovelController : MonoBehaviour
         activeGameFile.cameraRotation = CameraController.instance.targetRotation;
 
         activeGameFile.skyData = LightingManager.instance.GetCurrentDataName();
+
+        activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
 
         GameManager.GetSaveManager().Save(saveName);
     }
@@ -725,11 +729,11 @@ public class NovelController : MonoBehaviour
                 break;
 
             case "variable":
-                GameManager.GetSaveManager().EditItem(parameters[0], parameters[1]);
+                GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;
 
             case "random":
-                GameManager.GetSaveManager().EditItem("random",
+                GameManager.GetSaveManager().EditVariable("random",
                 Random.Range(int.Parse(parameters[0]), int.Parse(parameters[1])).ToString());
                 break;
 

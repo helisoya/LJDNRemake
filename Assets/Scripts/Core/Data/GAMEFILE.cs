@@ -19,7 +19,7 @@ public class GAMEFILE
 
     public Choice currentChoice;
 
-    public List<ITEM> items;
+    public List<VARIABLE> variables;
 
     public float fadeBg;
     public float fadeFg;
@@ -34,6 +34,8 @@ public class GAMEFILE
 
     public string locationName;
 
+    public List<RPGCharacterData> rpgCharacters;
+
     public GAMEFILE()
     {
         this.stack = new List<NovelController.StackEntry>();
@@ -41,7 +43,7 @@ public class GAMEFILE
         this.background = null;
         this.music = null;
         this.currentChoice = null;
-        this.items = new List<ITEM>();
+        this.variables = new List<VARIABLE>();
         this.fadeBg = 0;
         this.fadeFg = 0;
         this.interactionMode = false;
@@ -50,6 +52,7 @@ public class GAMEFILE
         this.cameraRotation = Vector3.zero;
         this.skyData = "Default";
         this.locationName = "NO_DATA";
+        this.rpgCharacters = new List<RPGCharacterData>();
     }
 
     [System.Serializable]
@@ -91,13 +94,13 @@ public class GAMEFILE
     }
 
     [System.Serializable]
-    public class ITEM
+    public class VARIABLE
     {
         public string name;
         public string value;
         public string defaultValue;
 
-        public ITEM(string key, string defaultValue)
+        public VARIABLE(string key, string defaultValue)
         {
             this.name = key;
             this.value = defaultValue;

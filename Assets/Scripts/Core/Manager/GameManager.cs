@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour
     private string loadSaveName = null;
     [Header("General Informations")]
     [SerializeField] private AudioMixer mixer;
+    [SerializeField] private RPGManager rpgManager;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             Locals.Init();
             saveManager = new SaveManager();
+            rpgManager.Init();
 
             if (debug)
             {
@@ -53,10 +56,20 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Returns the save manager
     /// </summary>
-    /// <returns></returns>
+    /// <returns>The save manager</returns>
     public static SaveManager GetSaveManager()
     {
         if (instance != null) return instance.saveManager;
+        return null;
+    }
+
+    /// <summary>
+    /// Returns the RPG Manager
+    /// </summary>
+    /// <returns>The RPG Manager</returns>
+    public static RPGManager GetRPGManager()
+    {
+        if (instance != null) return instance.rpgManager;
         return null;
     }
 

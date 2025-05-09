@@ -9,7 +9,7 @@ using UnityEngine;
 public class SaveManager
 {
     private string savePath = FileManager.savPath + "Saves/";
-    private List<GAMEFILE.ITEM> items;
+    private List<GAMEFILE.VARIABLE> items;
     public GAMEFILE saveFile { get; private set; }
 
 
@@ -34,7 +34,7 @@ public class SaveManager
     private void InitSaveFile()
     {
         saveFile = new GAMEFILE();
-        items = new List<GAMEFILE.ITEM>();
+        items = new List<GAMEFILE.VARIABLE>();
 
         List<string> lines = FileManager.ReadTextAsset(Resources.Load<TextAsset>("General/items"));
         foreach (string line in lines)
@@ -42,7 +42,7 @@ public class SaveManager
             if (!string.IsNullOrEmpty(line) && !line.StartsWith('#'))
             {
                 string[] split = line.Split(' ');
-                items.Add(new GAMEFILE.ITEM(split[0], split[1]));
+                items.Add(new GAMEFILE.VARIABLE(split[0], split[1]));
             }
         }
     }
@@ -50,14 +50,14 @@ public class SaveManager
     /// <summary>
     /// Resets the items to their default values
     /// </summary>
-    public void ResetItems()
+    public void ResetVariables()
     {
-        foreach (GAMEFILE.ITEM item in items)
+        foreach (GAMEFILE.VARIABLE item in items)
         {
             item.value = item.defaultValue;
         }
 
-        saveFile.items.Clear();
+        saveFile.variables.Clear();
     }
 
     /// <summary>
@@ -79,9 +79,9 @@ public class SaveManager
         if (SaveFileExists(saveName))
         {
             saveFile = FileManager.LoadJSON<GAMEFILE>(savePath + saveName + ".txt");
-            foreach (GAMEFILE.ITEM item in items)
+            foreach (GAMEFILE.VARIABLE item in items)
             {
-                GAMEFILE.ITEM inSave = saveFile.items.Find(x => x.name == item.name);
+                GAMEFILE.VARIABLE inSave = saveFile.variables.Find(x => x.name == item.name);
                 item.value = inSave == null ? item.defaultValue : inSave.value;
             }
         }
@@ -111,7 +111,7 @@ public class SaveManager
     /// </summary>
     /// <param name="key">The item's key</param>
     /// <param name="value">The item's new value</param>
-    public void EditItem(string key, string value)
+    public void EditVariable(string key, string value)
     {
         int index = GetIndexOfItem(key);
 
@@ -126,13 +126,13 @@ public class SaveManager
 
         items[index].value = value;
 
-        if (items[index].value != items[index].defaultValue && !saveFile.items.Contains(items[index]))
+        if (items[index].value != items[index].defaultValue && !saveFile.variables.Contains(items[index]))
         {
-            saveFile.items.Add(items[index]);
+            saveFile.variables.Add(items[index]);
         }
-        else if (items[index].value == items[index].defaultValue && saveFile.items.Contains(items[index]))
+        else if (items[index].value == items[index].defaultValue && saveFile.variables.Contains(items[index]))
         {
-            saveFile.items.Remove(items[index]);
+            saveFile.variables.Remove(items[index]);
         }
     }
 
@@ -158,7 +158,7 @@ public class SaveManager
             {
                 temp = FileManager.LoadJSON<GAMEFILE>(savePath + toTest[i] + ".txt");
 
-                GAMEFILE.ITEM item = temp.items.Find(item => item.name.Equals("playerName"));
+                GAMEFILE.VARIABLE item = temp.variables.Find(item => item.name.Equals("playerName"));
                 string playerName = item != null ? item.value : items.Find(item => item.name.Equals("playerName")).value;
                 list[i] = new SaveInfo
                 {

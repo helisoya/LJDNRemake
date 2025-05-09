@@ -60,8 +60,9 @@ public class MainMenuManager : MonoBehaviour
         {
             GameManager.instance.SetSaveToLoad(null);
             GameManager.instance.SetNextChapter("Intro/Intro");
-            GameManager.GetSaveManager().ResetItems();
-            GameManager.GetSaveManager().EditItem("playerName", nameInput.text);
+            GameManager.GetRPGManager().Reset();
+            GameManager.GetSaveManager().ResetVariables();
+            GameManager.GetSaveManager().EditVariable("playerName", nameInput.text);
             AudioManager.instance.PlaySong(null);
 
             StartTransitionToVN();
