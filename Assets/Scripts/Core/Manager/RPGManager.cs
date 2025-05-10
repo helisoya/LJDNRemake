@@ -9,15 +9,15 @@ using UnityEngine;
 public class RPGManager : MonoBehaviour
 {
     [Header("Characters")]
-    [SerializeField] private List<RPGCharacterData> defaultCharacters;
-    private List<RPGCharacterData> characters;
+    [SerializeField] private RPGCharacterDataInterface[] defaultCharacters;
+    private List<RPGCharacter> characters;
 
     /// <summary>
     /// Initalize the manager
     /// </summary>
     public void Init()
     {
-        characters = new List<RPGCharacterData>();
+        characters = new List<RPGCharacter>();
         Reset();
     }
 
@@ -27,9 +27,9 @@ public class RPGManager : MonoBehaviour
     public void Reset()
     {
         characters.Clear();
-        foreach (RPGCharacterData character in defaultCharacters)
+        foreach (RPGCharacterDataInterface character in defaultCharacters)
         {
-            characters.Add(character.Clone());
+            characters.Add(new RPGCharacter(character.data.Clone()));
         }
     }
 
@@ -39,18 +39,36 @@ public class RPGManager : MonoBehaviour
     /// <returns>The characters</returns>
     public List<RPGCharacterData> GetCharacters()
     {
-        return characters;
+        List<RPGCharacterData> datas = new List<RPGCharacterData>();
+        foreach (RPGCharacter character in characters)
+        {
+            datas.Add(character.GetData());
+        }
+        return datas;
+    }
+
+    /// <summary>
+    /// Gets an RPG Character 
+    /// </summary>
+    /// <param name="ID">The Character's ID</param>
+    /// <returns>The character if it exists</returns>
+    public RPGCharacter GetCharacter(string ID)
+    {
+        RPGCharacter character = characters.Find(c => c.GetData().ID.Equals(ID));
+        if (character != null) return character;
+
+        return null;
     }
 
     /// <summary>
     /// Loads the game's character from a list
     /// </summary>
-    /// <param name="characters">The list</param>
-    public void LoadCharactersFromList(List<RPGCharacterData> characters)
+    /// <param name="list">The list</param>
+    public void LoadCharactersFromList(List<RPGCharacterData> list)
     {
-        foreach (RPGCharacterData character in characters)
+        foreach (RPGCharacterData character in list)
         {
-            characters.Find(other => other.ID.Equals(character.ID))?.Copy(character);
+            characters.Find(other => other.GetData().ID.Equals(character.ID))?.GetData().Copy(character);
         }
     }
 }

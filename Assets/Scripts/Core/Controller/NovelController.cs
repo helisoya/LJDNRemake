@@ -550,6 +550,10 @@ public class NovelController : MonoBehaviour
 
                 break;
 
+            case "autosave":
+                SaveGameFile("auto");
+                break;
+
             case "flash":
 
                 VNGUI.instance.FlashTo(1, 10);

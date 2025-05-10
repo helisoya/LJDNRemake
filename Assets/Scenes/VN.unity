@@ -2336,16 +2336,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5455355520057103133, guid: a7331b40c3ddb484cba6d066cbd710a2,
-        type: 3}
-      propertyPath: defaultCharacters.Array.data[0].stats._serializedList.Array.data[6].Key
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5455355520057103133, guid: a7331b40c3ddb484cba6d066cbd710a2,
-        type: 3}
-      propertyPath: defaultCharacters.Array.data[0].stats._serializedList.Array.data[7].Key
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 7510254453066846891, guid: a7331b40c3ddb484cba6d066cbd710a2,
         type: 3}
       propertyPath: debug

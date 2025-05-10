@@ -215,22 +215,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultCharacters:
-  - ID: PLAYER
-    stats:
-      _serializedList:
-      - Key: 0
-        Value: 5
-      - Key: 1
-        Value: 4
-      - Key: 2
-        Value: 2
-      - Key: 3
-        Value: 3
-      - Key: 4
-        Value: 2
-      - Key: 5
-        Value: 0
-    weapon: 
-    armor: 
-    level: 1
-    currentHP: 25
+  - {fileID: 11400000, guid: f518f5910bd416a47ae55c94f512759a, type: 2}

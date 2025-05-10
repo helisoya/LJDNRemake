@@ -12,6 +12,7 @@ public class RPGCharacter
     #region STATS CONSTANTS
     private const int HEALTH_BASE = 25;
     private const float HEALTH_MULT_LEVEL = 5;
+    private const float HEALTH_MULT_BONUS = 2.5f;
 
     private const int ATTACK_BASE = 5;
     private const float ATTACK_MULT_LEVEL = 5.0f;
@@ -21,8 +22,8 @@ public class RPGCharacter
     private const float EVASION_MULT_AGILITY = 105.0f;
 
     private const int SP_BASE = 5;
-    private const float SP_MULT_LEVEL = 2;
-    private const float SP_MULT_STRATEGY = 0.5f;
+    private const float SP_MULT_LEVEL = 1.25f;
+    private const float SP_MULT_STRATEGY = 0.75f;
 
     private const float PRICE_BASE = 1.0f;
     private const float PRICE_MULT_CHARISMA = 175.0f;
@@ -45,6 +46,11 @@ public class RPGCharacter
     public int defense { get; private set; }
     public int nextExpCap { get; private set; }
     public bool canLevelUp { get { return baseData.exp >= nextExpCap; } }
+
+    public RPGCharacter(RPGCharacterData data)
+    {
+        SetData(data);
+    }
 
     /// <summary>
     /// Gets the character's savable data
@@ -70,7 +76,7 @@ public class RPGCharacter
     /// </summary>
     public void UpdateComputedStats()
     {
-        // Heath = BASE + LVL * MULT_LVL
+        // Heath = BASE + LVL * MULT_LVL + BONUS * MULT_BONUS
         // Attack = BASE + (1.0f + LVL / MULT_LVL + FORCE / MULT_FORCE) * WEAPON_ATTACK
         // evasion = BASE + AGILITY / MULT_AGILITY
         // SP = BASE + LVL * MULT_LEVEL + STRATEGY * MULT_STRATEGY
@@ -78,7 +84,7 @@ public class RPGCharacter
         // Price = BASE - CHARISMA * MULT_CHARISMA
         // Next EXP = BASE + (LVL*2)**2
 
-        maxHealth = HEALTH_BASE + Mathf.FloorToInt(HEALTH_MULT_LEVEL * baseData.level);
+        maxHealth = HEALTH_BASE + Mathf.FloorToInt(HEALTH_MULT_LEVEL * baseData.level + HEALTH_MULT_BONUS * baseData.GetRawStat(RPGCharacterData.StatType.BONUSHP));
         attack = Mathf.FloorToInt(
             (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.FORCE) / ATTACK_MULT_FORCE + baseData.level / ATTACK_MULT_LEVEL)
             * (ATTACK_BASE + (string.IsNullOrEmpty(baseData.weapon) ? 0.0f : 1.0f)));
@@ -125,10 +131,31 @@ public class RPGCharacter
         baseData.level++;
         baseData.exp -= nextExpCap;
 
-        for (int i = 0; i < 4; i++)
+
+
+        List<int> possibilities = new List<int>();
+        for (int i = 0; i < 6; i++)
         {
-            int selectedStat = Random.Range(0, 6);
+            if (baseData.stats[(RPGCharacterData.StatType)i] < 99) possibilities.Add(i);
+        }
+
+
+        int awarded = 0;
+        bool canContinue = possibilities.Count > 0;
+
+        while (awarded < 4 && canContinue)
+        {
+            int selectedIdx = Random.Range(0, possibilities.Count);
+
+            int selectedStat = possibilities[selectedIdx];
             baseData.stats[(RPGCharacterData.StatType)selectedStat]++;
+            if (baseData.stats[(RPGCharacterData.StatType)selectedStat] >= 99)
+            {
+                possibilities.RemoveAt(selectedIdx);
+                if (possibilities.Count == 0) canContinue = false;
+            }
+
+            awarded++;
         }
 
         UpdateComputedStats();

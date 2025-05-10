@@ -14,6 +14,14 @@
 		],
 		"description": "Clears the dialog stack"
 	},
+	"Automatic Save": {
+		"scope": "ansl",
+		"prefix": "autosave",
+		"body": [
+			"autosave()"
+		],
+		"description": "Automatic save"
+	},
 	"Change the current music": {
 		"scope": "ansl",
 		"prefix": "playMusic",
