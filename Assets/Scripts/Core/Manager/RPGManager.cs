@@ -12,12 +12,18 @@ public class RPGManager : MonoBehaviour
     [SerializeField] private RPGCharacterDataInterface[] defaultCharacters;
     private List<RPGCharacter> characters;
 
+    [Header("Items")]
+    [SerializeField] private string itemsPath = "RPG/Items/";
+    private Dictionary<string, RPGItem> items;
+
+
     /// <summary>
     /// Initalize the manager
     /// </summary>
     public void Init()
     {
         characters = new List<RPGCharacter>();
+        items = new Dictionary<string, RPGItem>();
         Reset();
     }
 
@@ -70,5 +76,20 @@ public class RPGManager : MonoBehaviour
         {
             characters.Find(other => other.GetData().ID.Equals(character.ID))?.GetData().Copy(character);
         }
+    }
+
+    /// <summary>
+    /// Gets an RPG item, load to memory if needed
+    /// </summary>
+    /// <param name="ID">The Item's ID</param>
+    /// <returns>The item</returns>
+    public RPGItem GetItem(string ID)
+    {
+        RPGItem item;
+        if (items.TryGetValue(ID, out item)) return item;
+
+        item = Resources.Load<RPGItem>(itemsPath + ID);
+        items.Add(ID, item);
+        return item;
     }
 }
