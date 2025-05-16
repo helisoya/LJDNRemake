@@ -14,6 +14,7 @@ public class RPGManager : MonoBehaviour
 
     [Header("Items")]
     [SerializeField] private string itemsPath = "RPG/Items/";
+    private List<InventorySlot> inventory;
     private Dictionary<string, RPGItem> items;
 
 
@@ -24,6 +25,7 @@ public class RPGManager : MonoBehaviour
     {
         characters = new List<RPGCharacter>();
         items = new Dictionary<string, RPGItem>();
+        inventory = new List<InventorySlot>();
         Reset();
     }
 
@@ -91,5 +93,65 @@ public class RPGManager : MonoBehaviour
         item = Resources.Load<RPGItem>(itemsPath + ID);
         items.Add(ID, item);
         return item;
+    }
+
+    /// <summary>
+    /// Gets the current inventory
+    /// </summary>
+    /// <returns>The inventory</returns>
+    public List<InventorySlot> GetInventory()
+    {
+        return inventory;
+    }
+
+    /// <summary>
+    /// Sets the inventory's value
+    /// </summary>
+    /// <param name="newInventory">The new inventory</param>
+    public void SetInventory(List<InventorySlot> newInventory)
+    {
+        inventory = newInventory;
+    }
+
+    /// <summary>
+    /// Adds an item to the inventory
+    /// </summary>
+    /// <param name="ID">The item's ID</param>
+    /// <param name="amount">The amount to add</param>
+    public void AddItemToInventory(string ID, int amount)
+    {
+        if (amount == 0) return; // Nothing to add / remove
+
+        int idx = inventory.FindIndex(c => c.itemID.Equals(ID));
+        InventorySlot slot = inventory[idx];
+        if (slot == null && amount < 0) return; // Not in inventory & Trying to remove
+        if (slot == null)
+        {
+            // Not in inventory & trying to add
+            slot = new InventorySlot
+            {
+                itemID = ID,
+                itemAmount = amount
+            };
+            inventory.Add(slot);
+        }
+        else
+        {
+            // Adding / Removing from an existing slot
+            slot.itemAmount = Mathf.Clamp(slot.itemAmount + amount, 0, 999);
+            if (slot.itemAmount == 0 && amount < 0) inventory.RemoveAt(idx);
+        }
+    }
+
+    /// <summary>
+    /// Gets an item's amount in inventory
+    /// </summary>
+    /// <param name="ID">The item's ID</param>
+    /// <returns>The amount in inventory. 0 if not in inventory</returns>
+    public int GetAmountInInventory(string ID)
+    {
+        InventorySlot slot = inventory.Find(c => c.itemID.Equals(ID));
+        if (slot != null) return slot.itemAmount;
+        return 0;
     }
 }

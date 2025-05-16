@@ -35,6 +35,7 @@ public class GAMEFILE
     public string locationName;
 
     public List<RPGCharacterData> rpgCharacters;
+    public List<InventorySlot> inventory;
 
     public GAMEFILE()
     {
@@ -53,6 +54,7 @@ public class GAMEFILE
         this.skyData = "Default";
         this.locationName = "NO_DATA";
         this.rpgCharacters = new List<RPGCharacterData>();
+        this.inventory = new List<InventorySlot>();
     }
 
     [System.Serializable]

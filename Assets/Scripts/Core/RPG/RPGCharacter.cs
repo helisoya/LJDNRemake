@@ -87,12 +87,12 @@ public class RPGCharacter
         maxHealth = HEALTH_BASE + Mathf.FloorToInt(HEALTH_MULT_LEVEL * baseData.level + HEALTH_MULT_BONUS * baseData.GetRawStat(RPGCharacterData.StatType.BONUSHP));
         attack = Mathf.FloorToInt(
             (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.FORCE) / ATTACK_MULT_FORCE + baseData.level / ATTACK_MULT_LEVEL)
-            * (ATTACK_BASE + (string.IsNullOrEmpty(baseData.weapon) ? 0.0f : 1.0f)));
+            * (ATTACK_BASE + (string.IsNullOrEmpty(baseData.weapon) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.weapon).statsValue)));
         evasion = EVASION_BASE + baseData.GetRawStat(RPGCharacterData.StatType.AGILITY) / EVASION_MULT_AGILITY;
         maxSP = SP_BASE + Mathf.FloorToInt(baseData.level * SP_MULT_LEVEL + baseData.GetRawStat(RPGCharacterData.StatType.STRATEGY) * SP_MULT_STRATEGY);
         defense = Mathf.FloorToInt(
             (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.RESILIENCE) / DEFENSE_MULT_RESILIENCE + baseData.level / DEFENSE_MULT_LEVEL)
-            * (DEFENSE_BASE + (string.IsNullOrEmpty(baseData.armor) ? 0.0f : 1.0f)));
+            * (DEFENSE_BASE + (string.IsNullOrEmpty(baseData.armor) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.armor).statsValue)));
         priceMultiplier = PRICE_BASE - baseData.GetRawStat(RPGCharacterData.StatType.CHARISMA) / PRICE_MULT_CHARISMA;
         nextExpCap = EXP_BASE + Mathf.FloorToInt(Mathf.Pow(baseData.level * 2, 2));
 

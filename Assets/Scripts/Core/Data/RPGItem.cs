@@ -42,3 +42,13 @@ public class RPGItem : ScriptableObject
         ARMOR
     }
 }
+
+/// <summary>
+/// Represents an inventory slot
+/// </summary>
+[System.Serializable]
+public class InventorySlot
+{
+    public string itemID;
+    public int itemAmount;
+}

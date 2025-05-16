@@ -124,6 +124,8 @@ public class NovelController : MonoBehaviour
 
         GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
 
+        GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+
         loadedAutoSave = saveName.Equals("auto");
 
         LoadChapterFile(currentChapter.chapterName, currentChapter.currentChapterProgress);
@@ -162,6 +164,7 @@ public class NovelController : MonoBehaviour
         activeGameFile.skyData = LightingManager.instance.GetCurrentDataName();
 
         activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
+        activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
 
         GameManager.GetSaveManager().Save(saveName);
     }
