@@ -12,8 +12,12 @@ public class RPGItem : ScriptableObject
     public int sellValue;
     public ItemType type;
     public TargetType targetType;
-    public float attackMultiplier;
-    public float defenseMultiplier;
+    public DamageType damageType;
+    public EquationType attackEquation;
+    public EquationType defenseEquation;
+    public float attackValue;
+    public float defenseValue;
+    public float costSP;
     public WeaponType weaponType;
     public int statsValue;
 
@@ -31,6 +35,18 @@ public class RPGItem : ScriptableObject
         ONEHANDED,
         TWOHANDED,
         GUN
+    }
+
+    public enum EquationType
+    {
+        MULTIPLY,
+        REPLACE
+    }
+
+    public enum DamageType
+    {
+        DAMAGE,
+        HEAL
     }
 
     public enum ItemType

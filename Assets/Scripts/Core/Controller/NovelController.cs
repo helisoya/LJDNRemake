@@ -123,7 +123,7 @@ public class NovelController : MonoBehaviour
         }
 
         GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
-
+        GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
 
         loadedAutoSave = saveName.Equals("auto");
@@ -165,6 +165,7 @@ public class NovelController : MonoBehaviour
 
         activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
+        activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
 
         GameManager.GetSaveManager().Save(saveName);
     }

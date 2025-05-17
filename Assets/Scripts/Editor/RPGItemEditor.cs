@@ -16,8 +16,13 @@ public class RPGItemEditor : Editor
     SerializedProperty m_targetType;
     SerializedProperty m_weaponType;
     SerializedProperty m_stats;
-    SerializedProperty m_attackMultiplier;
-    SerializedProperty m_defenseMultiplier;
+    SerializedProperty m_attackValue;
+    SerializedProperty m_defenseValue;
+    SerializedProperty m_damageType;
+    SerializedProperty m_attackEquation;
+    SerializedProperty m_defenseEquation;
+    SerializedProperty m_costSP;
+
 
     void OnEnable()
     {
@@ -27,8 +32,12 @@ public class RPGItemEditor : Editor
         m_targetType = serializedObject.FindProperty("targetType");
         m_weaponType = serializedObject.FindProperty("weaponType");
         m_stats = serializedObject.FindProperty("statsValue");
-        m_attackMultiplier = serializedObject.FindProperty("attackMultiplier");
-        m_defenseMultiplier = serializedObject.FindProperty("defenseMultiplier");
+        m_attackValue = serializedObject.FindProperty("attackValue");
+        m_defenseValue = serializedObject.FindProperty("defenseValue");
+        m_damageType = serializedObject.FindProperty("damageType");
+        m_attackEquation = serializedObject.FindProperty("attackEquation");
+        m_defenseEquation = serializedObject.FindProperty("defenseEquation");
+        m_costSP = serializedObject.FindProperty("costSP");
     }
 
 
@@ -41,6 +50,9 @@ public class RPGItemEditor : Editor
         if ((RPGItem.ItemType)m_type.enumValueIndex == RPGItem.ItemType.WEAPON ||
             (RPGItem.ItemType)m_type.enumValueIndex == RPGItem.ItemType.ARMOR)
         {
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
             if ((RPGItem.ItemType)m_type.enumValueIndex == RPGItem.ItemType.WEAPON)
             {
                 EditorGUILayout.PropertyField(m_weaponType, new GUIContent("Weapon type"));
@@ -50,9 +62,20 @@ public class RPGItemEditor : Editor
         }
         else if ((RPGItem.ItemType)m_type.enumValueIndex != RPGItem.ItemType.NO_USE)
         {
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
+            EditorGUILayout.PropertyField(m_costSP, new GUIContent("Cost (SP)"));
             EditorGUILayout.PropertyField(m_targetType, new GUIContent("Target type"));
-            EditorGUILayout.PropertyField(m_attackMultiplier, new GUIContent("Attack Multiplier"));
-            EditorGUILayout.PropertyField(m_defenseMultiplier, new GUIContent("Defense Multiplier"));
+            EditorGUILayout.PropertyField(m_damageType, new GUIContent("Attack type"));
+
+            EditorGUILayout.Space();
+            EditorGUILayout.PropertyField(m_attackEquation, new GUIContent("Attack equation"));
+            EditorGUILayout.PropertyField(m_attackValue, new GUIContent("Attack value"));
+
+            EditorGUILayout.Space();
+            EditorGUILayout.PropertyField(m_defenseEquation, new GUIContent("Defense equation"));
+            EditorGUILayout.PropertyField(m_defenseValue, new GUIContent("Defense value"));
         }
 
         serializedObject.ApplyModifiedProperties();

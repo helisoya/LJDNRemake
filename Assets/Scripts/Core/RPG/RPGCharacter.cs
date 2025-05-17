@@ -78,7 +78,7 @@ public class RPGCharacter
     {
         // Heath = BASE + LVL * MULT_LVL + BONUS * MULT_BONUS
         // Attack = BASE + (1.0f + LVL / MULT_LVL + FORCE / MULT_FORCE) * WEAPON_ATTACK
-        // evasion = BASE + AGILITY / MULT_AGILITY
+        // Evasion = BASE + AGILITY / MULT_AGILITY
         // SP = BASE + LVL * MULT_LEVEL + STRATEGY * MULT_STRATEGY
         // DEFENSE = BASE + (1.0f + LVL / MULT_LVL + RESILIENCE / MULT_RESILIENCE) * ARMOR_VALUE
         // Price = BASE - CHARISMA * MULT_CHARISMA

@@ -36,6 +36,7 @@ public class GAMEFILE
 
     public List<RPGCharacterData> rpgCharacters;
     public List<InventorySlot> inventory;
+    public List<int> followers;
 
     public GAMEFILE()
     {
@@ -55,6 +56,7 @@ public class GAMEFILE
         this.locationName = "NO_DATA";
         this.rpgCharacters = new List<RPGCharacterData>();
         this.inventory = new List<InventorySlot>();
+        this.followers = new List<int>();
     }
 
     [System.Serializable]

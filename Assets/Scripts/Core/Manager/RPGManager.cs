@@ -11,6 +11,7 @@ public class RPGManager : MonoBehaviour
     [Header("Characters")]
     [SerializeField] private RPGCharacterDataInterface[] defaultCharacters;
     private List<RPGCharacter> characters;
+    private List<int> followers;
 
     [Header("Items")]
     [SerializeField] private string itemsPath = "RPG/Items/";
@@ -23,6 +24,7 @@ public class RPGManager : MonoBehaviour
     /// </summary>
     public void Init()
     {
+        followers = new List<int>();
         characters = new List<RPGCharacter>();
         items = new Dictionary<string, RPGItem>();
         inventory = new List<InventorySlot>();
@@ -34,11 +36,55 @@ public class RPGManager : MonoBehaviour
     /// </summary>
     public void Reset()
     {
+        followers.Clear();
+        followers.Add(0);
         characters.Clear();
         foreach (RPGCharacterDataInterface character in defaultCharacters)
         {
             characters.Add(new RPGCharacter(character.data.Clone()));
         }
+    }
+
+    /// <summary>
+    /// Gets the current followers (player included)
+    /// </summary>
+    /// <returns>The current followers</returns>
+    public List<int> GetFollowers()
+    {
+        return followers;
+    }
+
+    /// <summary>
+    /// Sets the current followers
+    /// </summary>
+    /// <param name="followers">The new followers</param>
+    public void SetFollowers(List<int> followers)
+    {
+        this.followers = followers;
+    }
+
+    /// <summary>
+    /// Adds a new follower
+    /// </summary>
+    /// <param name="characterID">The follower's ID</param>
+    public void AddFollower(string characterID)
+    {
+        int characterIndex = characters.FindIndex(character => character.GetData().ID.Equals(characterID));
+        if (characterIndex == -1) return;
+
+        if (!followers.Contains(characterIndex)) followers.Add(characterIndex);
+    }
+
+    /// <summary>
+    /// Removes a follower
+    /// </summary>
+    /// <param name="characterID">The follower's ID</param>
+    public void RemoveFollower(string characterID)
+    {
+        int characterIndex = characters.FindIndex(character => character.GetData().ID.Equals(characterID));
+        if (characterIndex <= 0) return;
+
+        if (followers.Contains(characterIndex)) followers.Remove(characterIndex);
     }
 
     /// <summary>
@@ -66,6 +112,17 @@ public class RPGManager : MonoBehaviour
         if (character != null) return character;
 
         return null;
+    }
+
+    /// <summary>
+    /// Gets an RPG Character 
+    /// </summary>
+    /// <param name="index">The Character's index</param>
+    /// <returns>The character if it exists</returns>
+    public RPGCharacter GetCharacter(int index)
+    {
+        if (characters.Count < index) return null;
+        return characters[index];
     }
 
     /// <summary>

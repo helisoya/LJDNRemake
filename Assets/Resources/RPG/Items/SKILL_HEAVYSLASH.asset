@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61bf3ace21a563142a072badf6cfa261, type: 3}
-  m_Name: ITEM_POTION
+  m_Name: SKILL_HEAVYSLASH
   m_EditorClassIdentifier: 
-  ID: ITEM_POTION
-  sellValue: 15
-  type: 1
-  targetType: 1
-  damageType: 1
-  attackEquation: 1
-  defenseEquation: 1
-  attackValue: 20
-  defenseValue: 0
+  ID: SKILL_SLASH
+  sellValue: 0
+  type: 2
+  targetType: 4
+  damageType: 0
+  attackEquation: 0
+  defenseEquation: 0
+  attackValue: 1
+  defenseValue: 1
+  costSP: 3
   weaponType: 0
   statsValue: 5
