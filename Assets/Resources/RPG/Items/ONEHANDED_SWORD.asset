@@ -16,5 +16,14 @@ MonoBehaviour:
   sellValue: 15
   type: 3
   targetType: 0
+  damageType: 0
+  attackEquation: 0
+  defenseEquation: 0
+  attackValue: 0
+  defenseValue: 0
+  costSP: 0
   weaponType: 0
   statsValue: 5
+  weaponSkills:
+  - SKILL_SLASH
+  - SKILL_HEAVYSLASH

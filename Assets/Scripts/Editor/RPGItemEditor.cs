@@ -22,6 +22,7 @@ public class RPGItemEditor : Editor
     SerializedProperty m_attackEquation;
     SerializedProperty m_defenseEquation;
     SerializedProperty m_costSP;
+    SerializedProperty m_weaponSkills;
 
 
     void OnEnable()
@@ -38,6 +39,7 @@ public class RPGItemEditor : Editor
         m_attackEquation = serializedObject.FindProperty("attackEquation");
         m_defenseEquation = serializedObject.FindProperty("defenseEquation");
         m_costSP = serializedObject.FindProperty("costSP");
+        m_weaponSkills = serializedObject.FindProperty("weaponSkills");
     }
 
 
@@ -56,6 +58,7 @@ public class RPGItemEditor : Editor
             if ((RPGItem.ItemType)m_type.enumValueIndex == RPGItem.ItemType.WEAPON)
             {
                 EditorGUILayout.PropertyField(m_weaponType, new GUIContent("Weapon type"));
+                EditorGUILayout.PropertyField(m_weaponSkills, new GUIContent("Weapon skills"));
             }
 
             EditorGUILayout.PropertyField(m_stats, new GUIContent("Weapon/Armor value"));

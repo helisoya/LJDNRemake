@@ -180,7 +180,7 @@ public class RPGManager : MonoBehaviour
         if (amount == 0) return; // Nothing to add / remove
 
         int idx = inventory.FindIndex(c => c.itemID.Equals(ID));
-        InventorySlot slot = inventory[idx];
+        InventorySlot slot = idx == -1 ? null : inventory[idx];
         if (slot == null && amount < 0) return; // Not in inventory & Trying to remove
         if (slot == null)
         {

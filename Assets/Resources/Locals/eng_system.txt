@@ -26,6 +26,16 @@ saves_confirmDesc = Use this slot ?
 saves_confirm = Confirm
 saves_back = Back
 
+# ------------------------------------------------------------------------
+# ------------------------- Battles --------------------------------------
+# ------------------------------------------------------------------------
+
+battle_attack = Attack
+battle_defend = Block
+battle_items = Items
+battle_back = Back
+
+battle_target_multiple = Multiple
 
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------

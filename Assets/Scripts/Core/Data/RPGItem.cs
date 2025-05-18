@@ -20,10 +20,12 @@ public class RPGItem : ScriptableObject
     public float costSP;
     public WeaponType weaponType;
     public int statsValue;
+    public string[] weaponSkills;
 
     public enum TargetType
     {
         ALL,
+        SELF,
         ONEALLY,
         ALLALLY,
         ONEFOE,
