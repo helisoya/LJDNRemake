@@ -39,9 +39,13 @@ public class RPGManager : MonoBehaviour
         followers.Clear();
         followers.Add(0);
         characters.Clear();
+        RPGCharacter ch;
         foreach (RPGCharacterDataInterface character in defaultCharacters)
         {
-            characters.Add(new RPGCharacter(character.data.Clone()));
+            ch = new RPGCharacter(character.data.Clone());
+            ch.SetHealthToMax();
+            ch.SetSPToMax();
+            characters.Add(ch);
         }
     }
 

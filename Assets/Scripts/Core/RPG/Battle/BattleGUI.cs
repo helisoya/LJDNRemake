@@ -10,6 +10,11 @@ public class BattleGUI : MonoBehaviour
     [Header("Data")]
     [SerializeField] private BattleManager manager;
 
+    [Header("Player Icons")]
+    [SerializeField] private BattlePlayerIcon prefabIcon;
+    [SerializeField] private Transform iconsRoot;
+    private List<BattlePlayerIcon> playerIcons;
+
     [Header("Skills")]
     [SerializeField] private BattleSkillButton prefabSkillButton;
     [SerializeField] private Transform skillButtonsRoot;
@@ -31,6 +36,49 @@ public class BattleGUI : MonoBehaviour
 
     private RPGItem currentItem;
     private bool usingSkill;
+
+    void Awake()
+    {
+        playerIcons = new List<BattlePlayerIcon>();
+    }
+
+    /// <summary>
+    /// Set the player icons
+    /// </summary>
+    /// <param name="datas">The data linked to the icons</param>
+    public void SetPlayerIcons(List<BattleManager.CharacterData> datas)
+    {
+        playerIcons.Clear();
+        foreach (BattleManager.CharacterData character in datas)
+        {
+            BattlePlayerIcon icon = Instantiate(prefabIcon, iconsRoot);
+            icon.Init(character);
+            playerIcons.Add(icon);
+        }
+    }
+
+    /// <summary>
+    /// Sets the currently active icon
+    /// </summary>
+    /// <param name="index">The icon's index</param>
+    public void SetPlayerIconActive(int index)
+    {
+        for (int i = 0; i < playerIcons.Count; i++)
+        {
+            playerIcons[i].SetFocus(index == i);
+        }
+    }
+
+    /// <summary>
+    /// Updates all player icons
+    /// </summary>
+    public void UpdateAllPlayerIcons()
+    {
+        for (int i = 0; i < playerIcons.Count; i++)
+        {
+            playerIcons[i].UpdateIcon();
+        }
+    }
 
     /// <summary>
     /// Sets if the player menu is visible or not

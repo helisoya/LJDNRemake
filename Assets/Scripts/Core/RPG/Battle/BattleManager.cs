@@ -118,6 +118,7 @@ public class BattleManager : MonoBehaviour
 
         if (data.isPlayer)
         {
+            gui.SetPlayerIconActive(players.FindIndex(ch => ch == data));
             List<RPGItem> skills = new List<RPGItem>();
             skills.Add(defaultAttack);
             if (!string.IsNullOrEmpty(data.characterData.GetData().weapon))
@@ -217,6 +218,8 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void EndTurn()
     {
+        gui.UpdateAllPlayerIcons();
+        gui.SetPlayerIconActive(-1);
         gui.SetPlayerScreenActive(false);
         currentOrderIdx = (currentOrderIdx + 1) % order.Count;
         NextTurn();
@@ -284,6 +287,8 @@ public class BattleManager : MonoBehaviour
         foreach (RPGCharacterDataInterface dataInterface in data.ennemies)
         {
             character = new RPGCharacter(dataInterface.data.Clone());
+            character.SetHealthToMax();
+            character.SetSPToMax();
             visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / data.ennemies.Length);
@@ -304,6 +309,8 @@ public class BattleManager : MonoBehaviour
         order.AddRange(players);
         order.AddRange(ennemies);
         order.Sort((c1, c2) => -c1.characterData.evasion.CompareTo(c2.characterData.evasion));
+
+        gui.SetPlayerIcons(players);
     }
 
     public class CharacterData
