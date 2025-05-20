@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// Represents an item button in the battle GUI
 /// </summary>
-public class BattleItemButton : MonoBehaviour
+public class BattleItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] private LocalizedText skillNameText;
-    [SerializeField] private TextMeshProUGUI amountText;
-    private RPGItem linkedItem;
+    [SerializeField] private LocalizedTextAdditive itemNameText;
+    private BattleManager.ItemData linkedItem;
     private BattleGUI gui;
 
     /// <summary>
@@ -18,18 +18,44 @@ public class BattleItemButton : MonoBehaviour
     /// </summary>
     /// <param name="item">The linked item</param>
     /// <param name="gui">The gui</param>
-    public void Init(RPGItem item, BattleGUI gui)
+    public void Init(BattleManager.ItemData item, BattleGUI gui)
     {
         this.linkedItem = item;
         this.gui = gui;
-        skillNameText.SetNewKey(item.ID + "_name");
-        skillNameText.GetText().ForceMeshUpdate(true);
-        amountText.fontSize = skillNameText.GetText().fontSize;
-        amountText.text = "- " + GameManager.GetRPGManager().GetAmountInInventory(item.ID).ToString();
+
+        Refresh();
+    }
+
+    /// <summary>
+    /// Refreshs the component
+    /// </summary>
+    public void Refresh()
+    {
+        itemNameText.SetValue(linkedItem.amountInInventory, false);
+        itemNameText.SetNewKey(linkedItem.item.ID + "_name");
+    }
+
+    /// <summary>
+    /// Gets the button's linked item
+    /// </summary>
+    /// <returns>Its linked item</returns>
+    public BattleManager.ItemData GetLinkedItem()
+    {
+        return linkedItem;
     }
 
     public void Click()
     {
         gui.SelectItem(linkedItem);
+    }
+    
+        public void OnPointerEnter(PointerEventData eventData)
+    {
+        gui.SetItemDescription(linkedItem);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        gui.SetItemDescription(null);
     }
 }

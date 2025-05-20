@@ -59,14 +59,14 @@ public class BattleManager : MonoBehaviour
         order.Clear();
         currentOrderIdx = 0;
 
-        List<RPGItem> items = new List<RPGItem>();
+        List<ItemData> items = new List<ItemData>();
         RPGItem item;
         foreach (InventorySlot slot in GameManager.GetRPGManager().GetInventory())
         {
             item = GameManager.GetRPGManager().GetItem(slot.itemID);
             if (item.type == RPGItem.ItemType.USABLE_COMBAT || item.type == RPGItem.ItemType.USABLE_ALL)
             {
-                items.Add(item);
+                items.Add(new ItemData{item = item, amountInInventory = slot.itemAmount});
             }
         }
 
@@ -148,6 +148,12 @@ public class BattleManager : MonoBehaviour
     /// <param name="isFromInventory">True if the item is from the inventory</param>
     public void UseItemOn(RPGItem item, List<CharacterData> targets, bool isFromInventory)
     {
+        if (isFromInventory)
+        {
+            GameManager.GetRPGManager().AddItemToInventory(item.ID, -1);
+        }
+
+
         EndTurn();
     }
 
@@ -309,6 +315,8 @@ public class BattleManager : MonoBehaviour
         order.AddRange(players);
         order.AddRange(ennemies);
         order.Sort((c1, c2) => -c1.characterData.evasion.CompareTo(c2.characterData.evasion));
+        players.Sort((c1, c2) => -c1.characterData.evasion.CompareTo(c2.characterData.evasion));
+        ennemies.Sort((c1, c2) => -c1.characterData.evasion.CompareTo(c2.characterData.evasion));
 
         gui.SetPlayerIcons(players);
     }
@@ -322,4 +330,9 @@ public class BattleManager : MonoBehaviour
         public bool blocking;
     }
 
+    public class ItemData
+    {
+        public RPGItem item;
+        public int amountInInventory;
+    }
 }

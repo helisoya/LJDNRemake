@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// Represents a skill button in the battle GUI
 /// </summary>
-public class BattleSkillButton : MonoBehaviour
+public class BattleSkillButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private LocalizedText skillNameText;
     private RPGItem linkedSkill;
@@ -26,5 +27,15 @@ public class BattleSkillButton : MonoBehaviour
     public void Click()
     {
         gui.SelectSkill(linkedSkill);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        gui.SetSkillDescription(linkedSkill);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        gui.SetSkillDescription(null);
     }
 }

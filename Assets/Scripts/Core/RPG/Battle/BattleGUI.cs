@@ -18,10 +18,16 @@ public class BattleGUI : MonoBehaviour
     [Header("Skills")]
     [SerializeField] private BattleSkillButton prefabSkillButton;
     [SerializeField] private Transform skillButtonsRoot;
+    [SerializeField] private GameObject skillDescRoot;
+    [SerializeField] private LocalizedText skillDescText;
+    [SerializeField] private LocalizedText skillNameText;
 
     [Header("Items")]
     [SerializeField] private BattleItemButton prefabItemButton;
     [SerializeField] private Transform itemsButtonsRoot;
+    [SerializeField] private GameObject itemDescRoot;
+    [SerializeField] private LocalizedText itemDescText;
+    [SerializeField] private LocalizedTextAdditive itemNameText;
 
     [Header("Targets")]
     [SerializeField] private BattleTargetButton prefabTargetButton;
@@ -35,6 +41,7 @@ public class BattleGUI : MonoBehaviour
     [SerializeField] private GameObject itemsScreen;
 
     private RPGItem currentItem;
+    private BattleManager.ItemData currentItemData;
     private bool usingSkill;
 
     void Awake()
@@ -135,6 +142,7 @@ public class BattleGUI : MonoBehaviour
     /// <param name="skill">The selected skill</param>
     public void SelectSkill(RPGItem skill)
     {
+        SetSkillDescription(null);
         currentItem = skill;
         usingSkill = true;
 
@@ -143,12 +151,47 @@ public class BattleGUI : MonoBehaviour
     }
 
     /// <summary>
+    /// Sets the current skill's description
+    /// </summary>
+    /// <param name="item">The skill</param>
+    public void SetSkillDescription(RPGItem item)
+    {
+        if (item == null)
+        {
+            skillDescRoot.SetActive(false);
+            return;
+        }
+        skillDescRoot.SetActive(true);
+        skillDescText.SetNewKey(item.ID + "_desc");
+        skillNameText.SetNewKey(item.ID + "_name");
+    }
+
+    /// <summary>
+    /// Sets the current item's desciption
+    /// </summary>
+    /// <param name="item">The item</param>
+    public void SetItemDescription(BattleManager.ItemData item)
+    {
+        if (item == null)
+        {
+            itemDescRoot.SetActive(false);
+            return;
+        }
+        itemDescRoot.SetActive(true);
+        itemNameText.SetValue(item.amountInInventory, false);
+        itemNameText.SetNewKey(item.item.ID + "_desc");
+        skillNameText.SetNewKey(item.item.ID + "_name");
+    }
+
+    /// <summary>
     /// Callback for selecting an item
     /// </summary>
     /// <param name="skill">The selected item</param>
-    public void SelectItem(RPGItem item)
+    public void SelectItem(BattleManager.ItemData item)
     {
-        currentItem = item;
+        SetItemDescription(null);
+        currentItem = item.item;
+        currentItemData = item;
         usingSkill = false;
 
         itemsScreen.SetActive(false);
@@ -187,6 +230,28 @@ public class BattleGUI : MonoBehaviour
     public void SelectTarget(List<BattleManager.CharacterData> target)
     {
         manager.UseItemOn(currentItem, target, !usingSkill);
+
+        if (!usingSkill)
+        {
+            currentItemData.amountInInventory--;
+            BattleItemButton button;
+            foreach (Transform child in itemsButtonsRoot)
+            {
+                button = child.GetComponent<BattleItemButton>();
+                if (button != null && button.GetLinkedItem() == currentItemData)
+                {
+                    if (currentItemData.amountInInventory == 0)
+                    {
+                        Destroy(child.gameObject);
+                    }
+                    else
+                    {
+                        button.Refresh();
+                    }
+                    break;
+                }
+            }
+        }
     }
 
     /// <summary>
@@ -225,14 +290,14 @@ public class BattleGUI : MonoBehaviour
     /// Sets the currently displayed items
     /// </summary>
     /// <param name="items">The items</param>
-    public void SetCurrentItems(List<RPGItem> items)
+    public void SetCurrentItems(List<BattleManager.ItemData> items)
     {
         foreach (Transform child in itemsButtonsRoot)
         {
             Destroy(child.gameObject);
         }
 
-        foreach (RPGItem item in items)
+        foreach (BattleManager.ItemData item in items)
         {
             Instantiate(prefabItemButton, itemsButtonsRoot).Init(item, this);
         }
