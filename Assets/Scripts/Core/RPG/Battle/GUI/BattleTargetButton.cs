@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BattleTargetButton : MonoBehaviour
+public class BattleTargetButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private LocalizedText targetNameText;
     private List<BattleManager.CharacterData> linkedTarget;
@@ -25,5 +26,33 @@ public class BattleTargetButton : MonoBehaviour
     public void Click()
     {
         gui.SelectTarget(linkedTarget);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        foreach (BattleManager.CharacterData character in linkedTarget)
+        {
+            character.characterVisual.SetHealthBarVisible(true);
+            character.characterVisual.setHealthBarFillAmount(character.characterData.currentHealth / (float)character.characterData.maxHealth);
+        }
+
+        if (linkedTarget.Count == 1) gui.manager.SetCameraTarget(linkedTarget[0].characterVisual.transform);
+        else
+        {
+            Vector3 position = Vector3.zero;
+            foreach (BattleManager.CharacterData character in linkedTarget)
+            {
+                position += character.characterVisual.transform.position;
+            }
+            gui.manager.SetCameraTarget(position / linkedTarget.Count);
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        foreach (BattleManager.CharacterData character in linkedTarget)
+        {
+            character.characterVisual.SetHealthBarVisible(false);
+        }
     }
 }

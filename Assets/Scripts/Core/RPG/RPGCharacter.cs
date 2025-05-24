@@ -122,6 +122,24 @@ public class RPGCharacter
     }
 
     /// <summary>
+    /// Adds health
+    /// </summary>
+    /// <param name="amount">The amount to add</param>
+    public void AddHealth(int amount)
+    {
+        baseData.currentHP = Mathf.Clamp(baseData.currentHP + amount, 0, maxHealth);
+    }
+
+    /// <summary>
+    /// Adds SP
+    /// </summary>
+    /// <param name="amount">The amount of SP to add</param>
+    public void AddSP(int amount)
+    {
+        baseData.currentSP = Mathf.Clamp(baseData.currentSP + amount, 0, maxSP);
+    }
+
+    /// <summary>
     /// Level up the character
     /// </summary>
     public void LevelUp()

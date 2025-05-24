@@ -33,4 +33,14 @@ public class LocalizedTextAdditive : LocalizedText
         if (isSuffix) text.text += stringValue;
         else text.text = stringValue + text.text;
     }
+
+    /// <summary>
+    /// Reset the additive component
+    /// </summary>
+    public void ResetAdditive()
+    {
+        objectPrefix = "";
+        objectSuffix = "";
+        value = null;
+    }
 }

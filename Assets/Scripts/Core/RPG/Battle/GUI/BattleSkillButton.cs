@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 /// <summary>
 /// Represents a skill button in the battle GUI
 /// </summary>
 public class BattleSkillButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] private LocalizedText skillNameText;
+    [SerializeField] private LocalizedTextAdditive skillNameText;
+    [SerializeField] private Button button;
     private RPGItem linkedSkill;
     private BattleGUI gui;
 
@@ -21,7 +23,12 @@ public class BattleSkillButton : MonoBehaviour, IPointerEnterHandler, IPointerEx
     {
         this.linkedSkill = item;
         this.gui = gui;
+
+        if (item.costSP == 0) skillNameText.ResetAdditive();
+        else skillNameText.SetValue((int)item.costSP, false);
+
         skillNameText.SetNewKey(item.ID + "_name");
+        button.interactable = gui.manager.CurrentPlayerHasMoreSPThan((int)item.costSP);
     }
 
     public void Click()

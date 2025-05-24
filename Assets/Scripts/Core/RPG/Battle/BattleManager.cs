@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.U2D.IK;
+using Cinemachine;
 
 /// <summary>
 /// Handles the game's battles
@@ -11,6 +11,16 @@ public class BattleManager : MonoBehaviour
     [Header("Battles")]
     [SerializeField] private RPGItem defaultAttack;
     [SerializeField] private BattleGUI gui;
+
+    [Header("Camera")]
+    [SerializeField] private CinemachineVirtualCamera virtualCamera;
+    [SerializeField] private Transform freeLookTransform;
+
+    [Header("Placements")]
+    [SerializeField] private float posStart = 0;
+    [SerializeField] private float posEnd = 40;
+    [SerializeField] private float ennemyDistance = 10;
+    [SerializeField] private float cameraUpDistance = 5;
 
     [Header("DEBUG")]
     [SerializeField] private BattleData data;
@@ -48,6 +58,43 @@ public class BattleManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Checks if the current player has more SP than the specified amount
+    /// </summary>
+    /// <param name="amount">The amount of SP to check</param>
+    /// <returns>True if the current player has more SP than the amount given</returns>
+    public bool CurrentPlayerHasMoreSPThan(int amount)
+    {
+        return order[currentOrderIdx].characterData.currentSP >= amount;
+    }
+
+    /// <summary>
+    /// Sets the current camera target
+    /// </summary>
+    /// <param name="target">The new target</param>
+    public void SetCameraTarget(Transform target)
+    {
+        virtualCamera.LookAt = target;
+    }
+
+    /// <summary>
+    /// Sets the current camera target
+    /// </summary>
+    /// <param name="position">The new target's position</param>
+    public void SetCameraTarget(Vector3 position)
+    {
+        freeLookTransform.position = position;
+        SetCameraTarget(freeLookTransform);
+    }
+
+    /// <summary>
+    /// Sets the current camera target to the current player
+    /// </summary>
+    public void SetCameraTargetToCurrentPlayer()
+    {
+        SetCameraTarget(order[currentOrderIdx].characterVisual.transform);
+    }
+
+    /// <summary>
     /// Loads a new battle
     /// </summary>
     /// <param name="data">The battle's data</param>
@@ -66,7 +113,7 @@ public class BattleManager : MonoBehaviour
             item = GameManager.GetRPGManager().GetItem(slot.itemID);
             if (item.type == RPGItem.ItemType.USABLE_COMBAT || item.type == RPGItem.ItemType.USABLE_ALL)
             {
-                items.Add(new ItemData{item = item, amountInInventory = slot.itemAmount});
+                items.Add(new ItemData { item = item, amountInInventory = slot.itemAmount });
             }
         }
 
@@ -115,6 +162,7 @@ public class BattleManager : MonoBehaviour
         }
 
         data.blocking = false;
+        SetCameraTarget(data.characterVisual.transform);
 
         if (data.isPlayer)
         {
@@ -153,6 +201,35 @@ public class BattleManager : MonoBehaviour
             GameManager.GetRPGManager().AddItemToInventory(item.ID, -1);
         }
 
+        bool isHealing = item.damageType == RPGItem.DamageType.HEAL;
+        order[currentOrderIdx].characterData.AddSP(-(int)item.costSP);
+
+
+        int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
+            (int)item.attackValue // Attack is set
+            : Mathf.FloorToInt(order[currentOrderIdx].characterData.attack * item.attackValue); // Defense is set
+        if (isHealing) damage = -damage;
+
+        int defense;
+
+        foreach (CharacterData data in targets)
+        {
+            // Evasion
+            if (!isHealing && Random.Range(0.0f, 1.0f) <= data.characterData.evasion) continue;
+
+            if (isHealing) defense = 0; // No resistance on heal
+            else if (item.defenseEquation == RPGItem.EquationType.REPLACE) defense = (int)item.defenseValue; // Defense is set
+            else defense = Mathf.FloorToInt(data.characterData.defense * item.defenseValue); // Defense is normal
+
+            int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
+            print(actualDamage + "(" + damage + "/" + defense + ")");
+            data.characterData.AddHealth(-actualDamage);
+
+            if (data.characterData.currentHealth == 0)
+            {
+                data.dead = true;
+            }
+        }
 
         EndTurn();
     }
@@ -256,12 +333,14 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     private void GenerateCharacters()
     {
+        virtualCamera.transform.position = new Vector3(posStart + posEnd / 2.0f, cameraUpDistance, ennemyDistance / 2.0f);
+
         List<int> playersIndex = GameManager.GetRPGManager().GetFollowers();
         RPGCharacter character;
         BattleCharacter visual;
 
-        Vector3 from = new Vector3(0, 0, 0);
-        Vector3 to = new Vector3(40, 0, 0);
+        Vector3 from = new Vector3(posStart, 0, 0);
+        Vector3 to = new Vector3(posEnd, 0, 0);
         int i = 0;
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
 
@@ -285,8 +364,8 @@ public class BattleManager : MonoBehaviour
             });
         }
 
-        from = new Vector3(0, 0, 10);
-        to = new Vector3(40, 0, 10);
+        from = new Vector3(posStart, 0, ennemyDistance);
+        to = new Vector3(posEnd, 0, ennemyDistance);
         i = 0;
         rotation = Quaternion.Euler(0, 180, 0);
 

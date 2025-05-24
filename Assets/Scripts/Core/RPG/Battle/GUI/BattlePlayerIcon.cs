@@ -14,6 +14,7 @@ public class BattlePlayerIcon : MonoBehaviour
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private Image spFill;
     [SerializeField] private TextMeshProUGUI spText;
+    [SerializeField] private Animator animator;
 
     private BattleManager.CharacterData data;
 
@@ -45,6 +46,6 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <param name="value">True if focused</param>
     public void SetFocus(bool value)
     {
-
+        animator.SetBool("Selected", value);
     }
 }

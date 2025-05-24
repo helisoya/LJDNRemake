@@ -28,7 +28,7 @@ MonoBehaviour:
         Value: 4
       - Key: 5
         Value: 0
-    weapon: 
+    weapon: ONEHANDED_SWORD
     armor: 
     level: 1
     currentHP: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
   damageType: 0
   attackEquation: 0
   defenseEquation: 0
-  attackValue: 1
+  attackValue: 0.75
   defenseValue: 1
   costSP: 3
   weaponType: 0

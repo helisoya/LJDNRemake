@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e5212f1c4ade94093a5297447a462d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillNameText: {fileID: 5205716333563539977}
+  skillNameText: {fileID: 2954864929809266268}
+  button: {fileID: 5749274545393182876}
 --- !u!1 &8626071754743299884
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +160,7 @@ GameObject:
   - component: {fileID: 8425903545338141307}
   - component: {fileID: 850062132125970699}
   - component: {fileID: 6636225283275985926}
-  - component: {fileID: 5205716333563539977}
+  - component: {fileID: 2954864929809266268}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -243,7 +244,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -285,7 +286,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5205716333563539977
+--- !u!114 &2954864929809266268
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,8 +295,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8626071754743299884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 566a8fdb7d5b0ed4cbe6cba7e31a4283, type: 3}
+  m_Script: {fileID: 11500000, guid: d4818647b4044774d82c3bdcb80f566f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 6636225283275985926}
   localKey: 
+  isSuffix: 1
+  objectPrefix: ' ('
+  objectSuffix: )

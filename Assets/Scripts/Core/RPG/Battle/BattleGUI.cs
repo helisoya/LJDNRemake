@@ -8,7 +8,7 @@ using UnityEngine;
 public class BattleGUI : MonoBehaviour
 {
     [Header("Data")]
-    [SerializeField] private BattleManager manager;
+    public BattleManager manager;
 
     [Header("Player Icons")]
     [SerializeField] private BattlePlayerIcon prefabIcon;
@@ -179,8 +179,8 @@ public class BattleGUI : MonoBehaviour
         }
         itemDescRoot.SetActive(true);
         itemNameText.SetValue(item.amountInInventory, false);
-        itemNameText.SetNewKey(item.item.ID + "_desc");
-        skillNameText.SetNewKey(item.item.ID + "_name");
+        itemDescText.SetNewKey(item.item.ID + "_desc");
+        itemNameText.SetNewKey(item.item.ID + "_name");
     }
 
     /// <summary>
@@ -259,6 +259,7 @@ public class BattleGUI : MonoBehaviour
     /// </summary>
     public void CloseTargetScreen()
     {
+        manager.SetCameraTargetToCurrentPlayer();
         targetScreen.SetActive(false);
         if (usingSkill) skillsScreen.SetActive(true);
         else itemsScreen.SetActive(true);

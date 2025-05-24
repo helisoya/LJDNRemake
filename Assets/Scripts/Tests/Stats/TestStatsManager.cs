@@ -16,6 +16,8 @@ public class TestStatsManager : MonoBehaviour
     [SerializeField] private TestStatsSlider resilienceSlider;
     [SerializeField] private TestStatsSlider strategySlider;
     [SerializeField] private TestStatsSlider bonusHPSlider;
+    [SerializeField] private RPGItem weapon;
+    [SerializeField] private RPGItem armor;
 
     [Header("Output")]
     [SerializeField] private TextMeshProUGUI attackText;
@@ -57,6 +59,8 @@ public class TestStatsManager : MonoBehaviour
 
     public void UpdateAll()
     {
+        character.GetData().weapon = weapon == null ? null : weapon.ID;
+        character.GetData().armor = armor == null ? null : armor.ID;
         character.GetData().stats[RPGCharacterData.StatType.FORCE] = forceSlider.value;
         character.GetData().stats[RPGCharacterData.StatType.AGILITY] = agilitySlider.value;
         character.GetData().stats[RPGCharacterData.StatType.CHARISMA] = charismaSlider.value;
