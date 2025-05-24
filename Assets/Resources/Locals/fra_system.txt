@@ -37,6 +37,9 @@ battle_back = Retour
 
 battle_target_multiple = Plusieurs
 
+battle_action_block = bloque les attaques
+battle_action_attack = utilise
+
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------
 # ------------------------------------------------------------------------

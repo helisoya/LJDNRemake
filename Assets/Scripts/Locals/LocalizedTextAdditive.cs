@@ -35,6 +35,19 @@ public class LocalizedTextAdditive : LocalizedText
     }
 
     /// <summary>
+    /// Changes the additive parameters
+    /// </summary>
+    /// <param name="isSuffix">Is the value a suffix or not</param>
+    /// <param name="prefix">The value's prefix</param>
+    /// <param name="suffix">The value's suffix</param>
+    public void SetParameters(bool isSuffix, string prefix, string suffix)
+    {
+        this.isSuffix = isSuffix;
+        objectPrefix = prefix;
+        objectSuffix = suffix;
+    }
+
+    /// <summary>
     /// Reset the additive component
     /// </summary>
     public void ResetAdditive()

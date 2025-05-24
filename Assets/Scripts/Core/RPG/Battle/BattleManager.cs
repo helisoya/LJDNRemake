@@ -29,6 +29,7 @@ public class BattleManager : MonoBehaviour
     private List<CharacterData> ennemies;
     private List<CharacterData> order;
     private int currentOrderIdx;
+    private Coroutine routineAttack = null;
 
     void Start()
     {
@@ -189,6 +190,24 @@ public class BattleManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Routine for blocking
+    /// </summary>
+    private IEnumerator Routine_Block()
+    {
+        // Play animation
+        SetCameraTargetToCurrentPlayer();
+        gui.GetActionText().SetParameters(false, "", " ");
+        gui.GetActionText().SetValue(Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name"), false);
+        gui.GetActionText().SetNewKey("battle_action_block");
+        gui.SetActionTextVisible(true);
+
+        yield return new WaitForSeconds(1.0f);
+
+        routineAttack = null;
+        EndTurn();
+    }
+
+    /// <summary>
     /// Use an item on multiple targets
     /// </summary>
     /// <param name="item">The item to use</param>
@@ -196,13 +215,37 @@ public class BattleManager : MonoBehaviour
     /// <param name="isFromInventory">True if the item is from the inventory</param>
     public void UseItemOn(RPGItem item, List<CharacterData> targets, bool isFromInventory)
     {
+        StopAllCoroutines();
+        routineAttack = StartCoroutine(Routine_UseItemOn(item, targets, isFromInventory));
+    }
+
+    /// <summary>
+    /// Use an item on multiple targets (Internal routine)
+    /// </summary>
+    /// <param name="item">The item to use</param>
+    /// <param name="targets">The targets</param>
+    /// <param name="isFromInventory">True if the item is from the inventory</param>
+    private IEnumerator Routine_UseItemOn(RPGItem item, List<CharacterData> targets, bool isFromInventory)
+    {
         if (isFromInventory)
         {
             GameManager.GetRPGManager().AddItemToInventory(item.ID, -1);
         }
 
+
         bool isHealing = item.damageType == RPGItem.DamageType.HEAL;
         order[currentOrderIdx].characterData.AddSP(-(int)item.costSP);
+
+        gui.GetActionText().SetParameters(true, " ", "");
+        gui.GetActionText().SetValue(Locals.GetLocal(item.ID + "_name"), false);
+        gui.GetActionText().SetNewKey("battle_action_attack");
+        gui.GetActionText().GetText().text = Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name") + " " + gui.GetActionText().GetText().text;
+        gui.SetActionTextVisible(true);
+
+        SetCameraTargetToCurrentPlayer();
+        gui.UpdateAllPlayerIcons();
+        yield return new WaitForSeconds(1f);
+        // Play and wait for attack animation
 
 
         int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
@@ -219,11 +262,21 @@ public class BattleManager : MonoBehaviour
 
             if (isHealing) defense = 0; // No resistance on heal
             else if (item.defenseEquation == RPGItem.EquationType.REPLACE) defense = (int)item.defenseValue; // Defense is set
-            else defense = Mathf.FloorToInt(data.characterData.defense * item.defenseValue); // Defense is normal
+            else defense = Mathf.FloorToInt(data.characterData.defense * item.defenseValue) * (data.blocking ? 2 : 1); // Defense is normal
 
             int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
             print(actualDamage + "(" + damage + "/" + defense + ")");
             data.characterData.AddHealth(-actualDamage);
+
+            if (data.isPlayer) gui.UpdateAllPlayerIcons();
+            SetCameraTarget(data.characterVisual.transform);
+            data.characterVisual.SetHealthBarVisible(true);
+            data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth);
+
+            yield return new WaitForSeconds(1f);
+
+            data.characterVisual.SetHealthBarVisible(false);
+            // Play damage animation
 
             if (data.characterData.currentHealth == 0)
             {
@@ -231,6 +284,7 @@ public class BattleManager : MonoBehaviour
             }
         }
 
+        routineAttack = null;
         EndTurn();
     }
 
@@ -301,6 +355,7 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void EndTurn()
     {
+        gui.SetActionTextVisible(false);
         gui.UpdateAllPlayerIcons();
         gui.SetPlayerIconActive(-1);
         gui.SetPlayerScreenActive(false);
@@ -315,7 +370,8 @@ public class BattleManager : MonoBehaviour
     public void BlockForTurn()
     {
         order[currentOrderIdx].blocking = true;
-        EndTurn();
+        StopAllCoroutines();
+        routineAttack = StartCoroutine(Routine_Block());
     }
 
     /// <summary>
@@ -324,7 +380,54 @@ public class BattleManager : MonoBehaviour
     /// <param name="data">The AI's data</param>
     private void HandleAI(CharacterData data)
     {
-        EndTurn();
+        if (Random.Range(0.0f, 1.0f) <= 0.1f)
+        {
+            BlockForTurn();
+            return;
+        }
+
+        RPGItem selectedItem = null;
+        List<CharacterData> targets = null;
+        List<RPGItem> skills = new List<RPGItem>();
+        skills.Add(defaultAttack);
+        if (!string.IsNullOrEmpty(data.characterData.GetData().weapon))
+        {
+            RPGItem weapon = GameManager.GetRPGManager().GetItem(data.characterData.GetData().weapon);
+            RPGItem skillInstance;
+            foreach (string skill in weapon.weaponSkills)
+            {
+                skillInstance = GameManager.GetRPGManager().GetItem(skill);
+                if (data.characterData.currentSP >= skillInstance.costSP) skills.Add(skillInstance);
+            }
+        }
+
+        selectedItem = skills[Random.Range(0, skills.Count)];
+        List<List<CharacterData>> allTargets = GetAvailableTargets(selectedItem);
+
+        if (allTargets.Count == 1) targets = allTargets[0];
+        else
+        {
+            int healthScore = int.MaxValue;
+            int currentScore;
+
+            foreach (List<CharacterData> possibleTarget in allTargets)
+            {
+                currentScore = 0;
+                foreach (CharacterData ch in possibleTarget)
+                {
+                    currentScore += ch.characterData.currentHealth;
+                }
+                print(currentScore + " " + healthScore);
+                if (currentScore < healthScore || (currentScore == healthScore && Random.Range(0, 2) == 0))
+                {
+                    healthScore = currentScore;
+                    targets = possibleTarget;
+                }
+            }
+        }
+
+        print("AI Selected " + selectedItem.ID);
+        UseItemOn(selectedItem, targets, false);
     }
 
 

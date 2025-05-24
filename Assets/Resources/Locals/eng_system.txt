@@ -37,6 +37,9 @@ battle_back = Back
 
 battle_target_multiple = Multiple
 
+battle_action_block = is blocking attacks
+battle_action_attack = is using
+
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------
 # ------------------------------------------------------------------------

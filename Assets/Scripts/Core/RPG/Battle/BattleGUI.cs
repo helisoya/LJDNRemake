@@ -10,6 +10,9 @@ public class BattleGUI : MonoBehaviour
     [Header("Data")]
     public BattleManager manager;
 
+    [Header("General")]
+    [SerializeField] private LocalizedTextAdditive actionText;
+
     [Header("Player Icons")]
     [SerializeField] private BattlePlayerIcon prefabIcon;
     [SerializeField] private Transform iconsRoot;
@@ -47,6 +50,24 @@ public class BattleGUI : MonoBehaviour
     void Awake()
     {
         playerIcons = new List<BattlePlayerIcon>();
+    }
+
+    /// <summary>
+    /// Gets the action text
+    /// </summary>
+    /// <returns>The action text</returns>
+    public LocalizedTextAdditive GetActionText()
+    {
+        return actionText;
+    }
+
+    /// <summary>
+    /// Changes if the action text is visible or not
+    /// </summary>
+    /// <param name="visible">True if visible</param>
+    public void SetActionTextVisible(bool visible)
+    {
+        actionText.gameObject.SetActive(visible);
     }
 
     /// <summary>
@@ -124,6 +145,7 @@ public class BattleGUI : MonoBehaviour
     /// </summary>
     public void Block()
     {
+        SetPlayerScreenActive(false);
         manager.BlockForTurn();
     }
 
@@ -229,7 +251,7 @@ public class BattleGUI : MonoBehaviour
     /// <param name="target">The target</param>
     public void SelectTarget(List<BattleManager.CharacterData> target)
     {
-        manager.UseItemOn(currentItem, target, !usingSkill);
+        SetPlayerScreenActive(false);
 
         if (!usingSkill)
         {
@@ -252,6 +274,8 @@ public class BattleGUI : MonoBehaviour
                 }
             }
         }
+
+        manager.UseItemOn(currentItem, target, !usingSkill);
     }
 
     /// <summary>
