@@ -40,6 +40,10 @@ battle_target_multiple = Multiple
 battle_action_block = is blocking attacks
 battle_action_attack = is using
 
+battle_lost = You lose
+battle_won = You won !
+battle_levelUp = has leveled up !
+
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------
 # ------------------------------------------------------------------------

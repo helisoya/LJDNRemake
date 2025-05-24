@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Handles the game's battles
@@ -25,6 +27,7 @@ public class BattleManager : MonoBehaviour
     [Header("DEBUG")]
     [SerializeField] private BattleData data;
 
+    private BattleData currentData;
     private List<CharacterData> players;
     private List<CharacterData> ennemies;
     private List<CharacterData> order;
@@ -42,12 +45,91 @@ public class BattleManager : MonoBehaviour
         LoadBattle(data);
     }
 
+
+    /// <summary>
+    /// Routine for losing a battle
+    /// </summary>   
+    IEnumerator Routine_Lose()
+    {
+        gui.GetActionText().ResetAdditive();
+        gui.GetActionText().SetNewKey("battle_lost");
+        gui.SetActionTextVisible(true);
+        yield return new WaitForSeconds(1);
+
+        gui.FadeTo(1);
+        yield return new WaitForEndOfFrame();
+        while (gui.fading)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    /// <summary>
+    /// Routine for winning a battle
+    /// </summary>
+    IEnumerator Routine_Win()
+    {
+        gui.GetActionText().ResetAdditive();
+        gui.GetActionText().SetNewKey("battle_won");
+        gui.SetActionTextVisible(true);
+        yield return new WaitForSeconds(1);
+
+        foreach (CharacterData ennemy in ennemies)
+        {
+            foreach (CharacterData follower in players)
+            {
+                follower.characterData.GetData().exp += ennemy.characterData.GetData().exp;
+            }
+        }
+
+        foreach (CharacterData follower in players)
+        {
+            bool doneOnce = false;
+            while (follower.characterData.canLevelUp)
+            {
+                if (!doneOnce)
+                {
+                    doneOnce = true;
+                    string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+                    gui.GetActionText().SetParameters("", " ", "", "");
+                    gui.GetActionText().SetValue(playerName, null, false);
+                    gui.GetActionText().SetNewKey("battle_levelUp");
+                    gui.SetActionTextVisible(true);
+                    yield return new WaitForSeconds(1.0f);
+                }
+
+                follower.characterData.LevelUp();
+            }
+        }
+
+        gui.SetActionTextVisible(false);
+        gui.FadeTo(1);
+        yield return new WaitForEndOfFrame();
+        while (gui.fading)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+
+        if (data.closeType == BattleData.CloseType.VN)
+        {
+            GameManager.instance.SetNextChapter(data.nextChapter);
+            SceneManager.LoadScene("VN");
+        }
+        else
+        {
+            SceneManager.UnloadSceneAsync("Battle");
+        }
+    }
+
     /// <summary>
     /// Wins the battle
     /// </summary>
     public void WinBattle()
     {
-
+        StopAllCoroutines();
+        routineAttack = StartCoroutine(Routine_Win());
     }
 
     /// <summary>
@@ -55,7 +137,8 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void LoseBattle()
     {
-
+        StopAllCoroutines();
+        routineAttack = StartCoroutine(Routine_Lose());
     }
 
     /// <summary>
@@ -101,7 +184,7 @@ public class BattleManager : MonoBehaviour
     /// <param name="data">The battle's data</param>
     public void LoadBattle(BattleData data)
     {
-        this.data = data;
+        this.currentData = data;
         players.Clear();
         ennemies.Clear();
         order.Clear();
@@ -196,8 +279,9 @@ public class BattleManager : MonoBehaviour
     {
         // Play animation
         SetCameraTargetToCurrentPlayer();
-        gui.GetActionText().SetParameters(false, "", " ");
-        gui.GetActionText().SetValue(Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name"), false);
+        string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+        gui.GetActionText().SetParameters("", " ", "", "");
+        gui.GetActionText().SetValue(playerName, null, false);
         gui.GetActionText().SetNewKey("battle_action_block");
         gui.SetActionTextVisible(true);
 
@@ -236,10 +320,11 @@ public class BattleManager : MonoBehaviour
         bool isHealing = item.damageType == RPGItem.DamageType.HEAL;
         order[currentOrderIdx].characterData.AddSP(-(int)item.costSP);
 
-        gui.GetActionText().SetParameters(true, " ", "");
-        gui.GetActionText().SetValue(Locals.GetLocal(item.ID + "_name"), false);
+
+        string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+        gui.GetActionText().SetParameters("", " ", " ", "");
+        gui.GetActionText().SetValue(playerName, Locals.GetLocal(item.ID + "_name"), false);
         gui.GetActionText().SetNewKey("battle_action_attack");
-        gui.GetActionText().GetText().text = Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name") + " " + gui.GetActionText().GetText().text;
         gui.SetActionTextVisible(true);
 
         SetCameraTargetToCurrentPlayer();
@@ -250,7 +335,7 @@ public class BattleManager : MonoBehaviour
 
         int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
             (int)item.attackValue // Attack is set
-            : Mathf.FloorToInt(order[currentOrderIdx].characterData.attack * item.attackValue); // Defense is set
+            : Mathf.FloorToInt(order[currentOrderIdx].characterData.attack * (item.attackValue + Random.Range(-0.1f, 0.1f))); // Defense is set
         if (isHealing) damage = -damage;
 
         int defense;
@@ -472,14 +557,14 @@ public class BattleManager : MonoBehaviour
         i = 0;
         rotation = Quaternion.Euler(0, 180, 0);
 
-        foreach (RPGCharacterDataInterface dataInterface in data.ennemies)
+        foreach (RPGCharacterDataInterface dataInterface in currentData.ennemies)
         {
             character = new RPGCharacter(dataInterface.data.Clone());
             character.SetHealthToMax();
             character.SetSPToMax();
             visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
-            visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / data.ennemies.Length);
+            visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / currentData.ennemies.Length);
             visual.transform.rotation = rotation;
 
             i++;

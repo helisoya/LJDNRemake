@@ -25,7 +25,7 @@ public class BattleSkillButton : MonoBehaviour, IPointerEnterHandler, IPointerEx
         this.gui = gui;
 
         if (item.costSP == 0) skillNameText.ResetAdditive();
-        else skillNameText.SetValue((int)item.costSP, false);
+        else skillNameText.SetValue(null, (int)item.costSP, false);
 
         skillNameText.SetNewKey(item.ID + "_name");
         button.interactable = gui.manager.CurrentPlayerHasMoreSPThan((int)item.costSP);

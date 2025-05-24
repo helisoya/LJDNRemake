@@ -299,6 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 6636225283275985926}
   localKey: 
-  isSuffix: 1
-  objectPrefix: ' - '
-  objectSuffix: 
+  suffixPrefix: ' ('
+  suffixSuffix: )
+  prefixPrefix: 
+  prefixSuffix: 

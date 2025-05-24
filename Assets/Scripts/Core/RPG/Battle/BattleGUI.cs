@@ -12,6 +12,9 @@ public class BattleGUI : MonoBehaviour
 
     [Header("General")]
     [SerializeField] private LocalizedTextAdditive actionText;
+    [SerializeField] private Fade fade;
+
+    public bool fading { get { return fade.fading; } }
 
     [Header("Player Icons")]
     [SerializeField] private BattlePlayerIcon prefabIcon;
@@ -50,6 +53,17 @@ public class BattleGUI : MonoBehaviour
     void Awake()
     {
         playerIcons = new List<BattlePlayerIcon>();
+        fade.ForceAlphaTo(1);
+        fade.FadeTo(0);
+    }
+
+    /// <summary>
+    /// Fades to a set alpha
+    /// </summary>
+    /// <param name="alpha">The alpha target</param>
+    public void FadeTo(float alpha)
+    {
+        fade.FadeTo(alpha);
     }
 
     /// <summary>
@@ -200,7 +214,7 @@ public class BattleGUI : MonoBehaviour
             return;
         }
         itemDescRoot.SetActive(true);
-        itemNameText.SetValue(item.amountInInventory, false);
+        itemNameText.SetValue(null, item.amountInInventory, false);
         itemDescText.SetNewKey(item.item.ID + "_desc");
         itemNameText.SetNewKey(item.item.ID + "_name");
     }

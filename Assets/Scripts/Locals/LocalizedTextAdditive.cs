@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
 
 /// <summary>
@@ -7,19 +8,23 @@ using UnityEngine;
 /// </summary>
 public class LocalizedTextAdditive : LocalizedText
 {
-    [SerializeField] private bool isSuffix = true;
-    [SerializeField] private string objectPrefix;
-    [SerializeField] private string objectSuffix;
-    private object value;
+    [SerializeField] private string suffixPrefix;
+    [SerializeField] private string suffixSuffix;
+    [SerializeField] private string prefixPrefix;
+    [SerializeField] private string prefixSuffix;
+    private object prefixValue;
+    private object suffixValue;
 
     /// <summary>
     /// Sets a new value
     /// </summary>
-    /// <param name="newValue">The new value</param>
+    /// <param name="prefix">The new prefix</param>
+    /// <param name="suffix">The new suffix</param>
     /// <param name="reload">Should the text be reloaded ?</param>
-    public void SetValue(object newValue, bool reload)
+    public void SetValue(object prefix, object suffix, bool reload)
     {
-        value = newValue;
+        prefixValue = prefix;
+        suffixValue = suffix;
         if (reload) ReloadText();
     }
 
@@ -27,24 +32,31 @@ public class LocalizedTextAdditive : LocalizedText
     {
         base.ReloadText();
 
-        if (value == null) return;
+        if (suffixValue != null)
+        {
+            string value = suffixPrefix + suffixValue + suffixSuffix;
+            text.text += value;
+        }
 
-        string stringValue = objectPrefix + value + objectSuffix;
-        if (isSuffix) text.text += stringValue;
-        else text.text = stringValue + text.text;
+        if (prefixValue != null)
+        {
+            string value = prefixPrefix + prefixValue + prefixSuffix;
+            text.text = value + text.text;
+        }
     }
 
     /// <summary>
     /// Changes the additive parameters
     /// </summary>
-    /// <param name="isSuffix">Is the value a suffix or not</param>
     /// <param name="prefix">The value's prefix</param>
     /// <param name="suffix">The value's suffix</param>
-    public void SetParameters(bool isSuffix, string prefix, string suffix)
+    public void SetParameters(string prefixPrefix, string prefixSuffix, string suffixPrefix, string suffixSuffix)
     {
-        this.isSuffix = isSuffix;
-        objectPrefix = prefix;
-        objectSuffix = suffix;
+        ;
+        this.prefixPrefix = prefixPrefix;
+        this.prefixSuffix = prefixSuffix;
+        this.suffixPrefix = suffixPrefix;
+        this.suffixSuffix = suffixSuffix;
     }
 
     /// <summary>
@@ -52,8 +64,11 @@ public class LocalizedTextAdditive : LocalizedText
     /// </summary>
     public void ResetAdditive()
     {
-        objectPrefix = "";
-        objectSuffix = "";
-        value = null;
+        prefixPrefix = "";
+        prefixSuffix = "";
+        suffixPrefix = "";
+        suffixSuffix = "";
+        suffixValue = null;
+        prefixValue = null;
     }
 }

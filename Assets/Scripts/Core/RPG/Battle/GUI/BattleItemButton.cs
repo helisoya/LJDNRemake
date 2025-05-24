@@ -31,7 +31,7 @@ public class BattleItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExi
     /// </summary>
     public void Refresh()
     {
-        itemNameText.SetValue(linkedItem.amountInInventory, false);
+        itemNameText.SetValue(null, linkedItem.amountInInventory, false);
         itemNameText.SetNewKey(linkedItem.item.ID + "_name");
     }
 
@@ -48,8 +48,8 @@ public class BattleItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         gui.SelectItem(linkedItem);
     }
-    
-        public void OnPointerEnter(PointerEventData eventData)
+
+    public void OnPointerEnter(PointerEventData eventData)
     {
         gui.SetItemDescription(linkedItem);
     }

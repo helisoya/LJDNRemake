@@ -40,6 +40,10 @@ battle_target_multiple = Plusieurs
 battle_action_block = bloque les attaques
 battle_action_attack = utilise
 
+battle_lost = Vous avez perdu
+battle_won = Vous avez gagné !
+battle_levelUp = a gagné un niveau !
+
 # ------------------------------------------------------------------------
 # ---------------------- Background --------------------------------------
 # ------------------------------------------------------------------------
