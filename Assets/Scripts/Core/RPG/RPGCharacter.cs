@@ -47,6 +47,8 @@ public class RPGCharacter
     public int nextExpCap { get; private set; }
     public bool canLevelUp { get { return baseData.exp >= nextExpCap; } }
 
+    public int availableFreePoints = 0;
+
     public RPGCharacter(RPGCharacterData data)
     {
         SetData(data);
@@ -175,6 +177,8 @@ public class RPGCharacter
 
             awarded++;
         }
+
+        availableFreePoints += 2;
 
         UpdateComputedStats();
         SetHealthToMax();

@@ -72,7 +72,7 @@ public class RPGCharacterData
         AGILITY,
         CHARISMA,
         STRATEGY,
-        BONUSHP,
+        BONUSHP
     }
 
 }

@@ -86,21 +86,20 @@ public class BattleManager : MonoBehaviour
 
         foreach (CharacterData follower in players)
         {
-            bool doneOnce = false;
-            while (follower.characterData.canLevelUp)
+            if (follower.characterData.canLevelUp)
             {
-                if (!doneOnce)
-                {
-                    doneOnce = true;
-                    string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
-                    gui.GetActionText().SetParameters("", " ", "", "");
-                    gui.GetActionText().SetValue(playerName, null, false);
-                    gui.GetActionText().SetNewKey("battle_levelUp");
-                    gui.SetActionTextVisible(true);
-                    yield return new WaitForSeconds(1.0f);
-                }
 
-                follower.characterData.LevelUp();
+                SetCameraTarget(follower.characterVisual.transform);
+                string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+                gui.GetActionText().SetParameters("", " ", "", "");
+                gui.GetActionText().SetValue(playerName, null, false);
+                gui.GetActionText().SetNewKey("battle_levelUp");
+                gui.SetActionTextVisible(true);
+                yield return new WaitForSeconds(1.0f);
+
+                gui.OpenLevelUpMenu(follower.characterData);
+                yield return new WaitForEndOfFrame();
+                while (gui.levelingUp) yield return new WaitForEndOfFrame();
             }
         }
 
@@ -328,14 +327,14 @@ public class BattleManager : MonoBehaviour
         gui.SetActionTextVisible(true);
 
         SetCameraTargetToCurrentPlayer();
-        gui.UpdateAllPlayerIcons();
+        if (order[currentOrderIdx].isPlayer) gui.GetPlayerIcon(order[currentOrderIdx].characterData.GetData().ID).UpdateIcon();
         yield return new WaitForSeconds(1f);
         // Play and wait for attack animation
 
 
         int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
             (int)item.attackValue // Attack is set
-            : Mathf.FloorToInt(order[currentOrderIdx].characterData.attack * (item.attackValue + Random.Range(-0.1f, 0.1f))); // Defense is set
+            : Mathf.RoundToInt(order[currentOrderIdx].characterData.attack * (item.attackValue + Random.Range(-0.1f, 0.1f))); // Defense is set
         if (isHealing) damage = -damage;
 
         int defense;
@@ -343,20 +342,31 @@ public class BattleManager : MonoBehaviour
         foreach (CharacterData data in targets)
         {
             // Evasion
-            if (!isHealing && Random.Range(0.0f, 1.0f) <= data.characterData.evasion) continue;
+            if (!isHealing && Random.Range(0.0f, 1.0f) <= data.characterData.evasion)
+            {
+                SetCameraTarget(data.characterVisual.transform);
+                // Play animation
+                yield return new WaitForSeconds(1f);
+                continue;
+            }
 
             if (isHealing) defense = 0; // No resistance on heal
             else if (item.defenseEquation == RPGItem.EquationType.REPLACE) defense = (int)item.defenseValue; // Defense is set
-            else defense = Mathf.FloorToInt(data.characterData.defense * item.defenseValue) * (data.blocking ? 2 : 1); // Defense is normal
+            else defense = Mathf.RoundToInt(data.characterData.defense * item.defenseValue) * (data.blocking ? 2 : 1); // Defense is normal
 
             int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
             print(actualDamage + "(" + damage + "/" + defense + ")");
             data.characterData.AddHealth(-actualDamage);
 
-            if (data.isPlayer) gui.UpdateAllPlayerIcons();
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
             SetCameraTarget(data.characterVisual.transform);
             data.characterVisual.SetHealthBarVisible(true);
-            data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth);
+            data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth, false);
+            yield return new WaitForEndOfFrame();
+            while (data.characterVisual.healthBarFilling)
+            {
+                yield return new WaitForEndOfFrame();
+            }
 
             yield return new WaitForSeconds(1f);
 
@@ -441,7 +451,6 @@ public class BattleManager : MonoBehaviour
     public void EndTurn()
     {
         gui.SetActionTextVisible(false);
-        gui.UpdateAllPlayerIcons();
         gui.SetPlayerIconActive(-1);
         gui.SetPlayerScreenActive(false);
         currentOrderIdx = (currentOrderIdx + 1) % order.Count;
@@ -536,6 +545,7 @@ public class BattleManager : MonoBehaviour
         {
             character = GameManager.GetRPGManager().GetCharacter(index);
             visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
+            visual.setHealthBarFillAmount(character.currentHealth, true);
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / playersIndex.Count);
             visual.transform.rotation = rotation;

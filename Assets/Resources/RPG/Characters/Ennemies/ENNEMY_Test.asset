@@ -28,9 +28,9 @@ MonoBehaviour:
         Value: 4
       - Key: 5
         Value: 0
-    weapon: ONEHANDED_SWORD
+    weapon: 
     armor: ARMOR_LEATHER
     level: 1
     currentHP: 0
     currentSP: 0
-    exp: 0
+    exp: 50

@@ -13,8 +13,10 @@ public class BattleGUI : MonoBehaviour
     [Header("General")]
     [SerializeField] private LocalizedTextAdditive actionText;
     [SerializeField] private Fade fade;
+    [SerializeField] private LevelUpMenu levelUp;
 
     public bool fading { get { return fade.fading; } }
+    public bool levelingUp { get { return levelUp.open; } }
 
     [Header("Player Icons")]
     [SerializeField] private BattlePlayerIcon prefabIcon;
@@ -67,6 +69,15 @@ public class BattleGUI : MonoBehaviour
     }
 
     /// <summary>
+    /// Opens the level up menu for a character
+    /// </summary>
+    /// <param name="character">The character to level up</param>
+    public void OpenLevelUpMenu(RPGCharacter character)
+    {
+        levelUp.Open(character);
+    }
+
+    /// <summary>
     /// Gets the action text
     /// </summary>
     /// <returns>The action text</returns>
@@ -110,6 +121,21 @@ public class BattleGUI : MonoBehaviour
             playerIcons[i].SetFocus(index == i);
         }
     }
+
+    /// <summary>
+    /// Gets a player icon
+    /// </summary>
+    /// <param name="ID">The player's ID</param>
+    /// <returns>The player's icon</returns>
+    public BattlePlayerIcon GetPlayerIcon(string ID)
+    {
+        for (int i = 0; i < playerIcons.Count; i++)
+        {
+            if (playerIcons[i].GetID().Equals(ID)) return playerIcons[i];
+        }
+        return null;
+    }
+
 
     /// <summary>
     /// Updates all player icons

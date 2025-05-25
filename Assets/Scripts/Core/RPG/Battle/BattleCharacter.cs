@@ -13,7 +13,9 @@ public class BattleCharacter : MonoBehaviour
     [SerializeField] private Transform[] weaponRoots;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject healthBarCanvas;
-    [SerializeField] private Image healthBarFill;
+    [SerializeField] private BattleBarFill healthBar;
+
+    public bool healthBarFilling { get { return healthBar.filling; } }
 
     /// <summary>
     /// Gets the character's ID
@@ -62,8 +64,9 @@ public class BattleCharacter : MonoBehaviour
     /// Sets the health bar's fill amount
     /// </summary>
     /// <param name="fillAmount">Its new fill amount</param>
-    public void setHealthBarFillAmount(float fillAmount)
+    /// <param name="immediate">True if the changes should be immediate</param>
+    public void setHealthBarFillAmount(float fillAmount, bool immediate)
     {
-        healthBarFill.fillAmount = fillAmount;
+        healthBar.SetValue(fillAmount, immediate);
     }
 }

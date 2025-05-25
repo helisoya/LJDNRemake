@@ -33,7 +33,7 @@ public class BattleTargetButton : MonoBehaviour, IPointerEnterHandler, IPointerE
         foreach (BattleManager.CharacterData character in linkedTarget)
         {
             character.characterVisual.SetHealthBarVisible(true);
-            character.characterVisual.setHealthBarFillAmount(character.characterData.currentHealth / (float)character.characterData.maxHealth);
+            character.characterVisual.setHealthBarFillAmount(character.characterData.currentHealth / (float)character.characterData.maxHealth, true);
         }
 
         if (linkedTarget.Count == 1) gui.manager.SetCameraTarget(linkedTarget[0].characterVisual.transform);
