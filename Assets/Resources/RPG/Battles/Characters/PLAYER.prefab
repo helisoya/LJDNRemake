@@ -514,4 +514,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 3738760642843614100}
   additive: {fileID: 4769950215706902976}
-  speed: 1
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.28918195, g: 0.79622644, b: 0.24487713, a: 1}
+  upwardColor: {r: 0.6404149, g: 0.7660377, b: 0.62872905, a: 1}
+  downwardColor: {r: 0.7660377, g: 0.3396582, b: 0.36322287, a: 1}

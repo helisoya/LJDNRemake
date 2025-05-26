@@ -10,10 +10,19 @@ public class BattleBarFill : MonoBehaviour
 {
     [SerializeField] private Image fill;
     [SerializeField] private Image additive;
-    [SerializeField] private float speed = 2.0f;
+    [SerializeField] private float fasterSpeed = 2.0f;
+    [SerializeField] private float slowerSpeed = 1.0f;
+    [SerializeField] private Color barColor;
+    [SerializeField] private Color upwardColor;
+    [SerializeField] private Color downwardColor;
     private float currentTarget = 1f;
     private bool upward;
     public bool filling { get; private set; }
+
+    void Start()
+    {
+        fill.color = barColor;
+    }
 
     /// <summary>
     /// Sets the value of the bar
@@ -38,13 +47,16 @@ public class BattleBarFill : MonoBehaviour
             // downward
             upward = false;
             fill.fillAmount = targetValue;
+            additive.color = downwardColor;
         }
         else
         {
             // upward
             upward = true;
             additive.fillAmount = targetValue;
+            additive.color = upwardColor;
         }
+
 
         currentTarget = targetValue;
     }
@@ -55,14 +67,22 @@ public class BattleBarFill : MonoBehaviour
         {
             if (upward)
             {
-                fill.fillAmount = Mathf.Clamp(fill.fillAmount + speed * Time.deltaTime, 0f, currentTarget);
+                if (additive.fillAmount != currentTarget)
+                {
+                    additive.fillAmount = Mathf.Clamp(additive.fillAmount + fasterSpeed * Time.deltaTime, 0f, currentTarget);
+                }
+                fill.fillAmount = Mathf.Clamp(fill.fillAmount + slowerSpeed * Time.deltaTime, 0f, currentTarget);
             }
             else
             {
-                additive.fillAmount = Mathf.Clamp(additive.fillAmount - speed * Time.deltaTime, currentTarget, 1f);
+                if (fill.fillAmount != currentTarget)
+                {
+                    fill.fillAmount = Mathf.Clamp(fill.fillAmount - fasterSpeed * Time.deltaTime, currentTarget, 1f);
+                }
+                additive.fillAmount = Mathf.Clamp(additive.fillAmount - slowerSpeed * Time.deltaTime, currentTarget, 1f);
             }
 
-            if (fill.fillAmount == additive.fillAmount)
+            if (fill.fillAmount == currentTarget && additive.fillAmount == currentTarget)
             {
                 filling = false;
             }

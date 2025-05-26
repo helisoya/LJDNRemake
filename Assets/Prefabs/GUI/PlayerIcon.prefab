@@ -726,7 +726,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7289958529086371122}
   additive: {fileID: 4095495507635908379}
-  speed: 2
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.20613028, g: 0.4549584, b: 0.83396226, a: 1}
+  upwardColor: {r: 0.65780705, g: 0.7360832, b: 0.85660374, a: 1}
+  downwardColor: {r: 0.8037735, g: 0.2775293, b: 0.31985012, a: 1}
 --- !u!1 &7756013787027780537
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +886,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 2867885006577606429}
   additive: {fileID: 17875983799173960}
-  speed: 2
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.37110808, g: 0.8113208, b: 0.34749022, a: 1}
+  upwardColor: {r: 0.7872842, g: 0.90943396, b: 0.78074044, a: 1}
+  downwardColor: {r: 0.8117647, g: 0.35755274, b: 0.3490196, a: 1}
 --- !u!1 &9195953219887189802
 GameObject:
   m_ObjectHideFlags: 0

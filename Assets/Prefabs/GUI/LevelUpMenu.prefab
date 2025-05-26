@@ -1497,7 +1497,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707844913568873}
   additive: {fileID: 7327707845943974525}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707845241629202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2590,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707846669014144}
   additive: {fileID: 7327707845537318533}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707845537318531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3052,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707845366520886}
   additive: {fileID: 7327707845013647411}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707845693772382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4063,7 +4075,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707844897333424}
   additive: {fileID: 7327707844759251621}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707846001080871
 GameObject:
   m_ObjectHideFlags: 0
@@ -4160,7 +4176,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707844803455308}
   additive: {fileID: 7327707845431348594}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707846014659299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4391,7 +4411,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 7327707845451254968}
   additive: {fileID: 7327707844803433605}
-  speed: 0.5
+  fasterSpeed: 2
+  slowerSpeed: 1
+  barColor: {r: 0.25871834, g: 0.51237804, b: 0.7660377, a: 1}
+  upwardColor: {r: 0.6164684, g: 0.7184527, b: 0.81886786, a: 1}
+  downwardColor: {r: 0.7647059, g: 0.2588235, b: 0.27372944, a: 1}
 --- !u!1 &7327707846089557320
 GameObject:
   m_ObjectHideFlags: 0
