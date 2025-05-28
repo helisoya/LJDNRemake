@@ -23,6 +23,8 @@ public class RPGItemEditor : Editor
     SerializedProperty m_defenseEquation;
     SerializedProperty m_costSP;
     SerializedProperty m_weaponSkills;
+    SerializedProperty m_animationName;
+    SerializedProperty m_linkedAnimatior;
 
 
     void OnEnable()
@@ -40,6 +42,8 @@ public class RPGItemEditor : Editor
         m_defenseEquation = serializedObject.FindProperty("defenseEquation");
         m_costSP = serializedObject.FindProperty("costSP");
         m_weaponSkills = serializedObject.FindProperty("weaponSkills");
+        m_animationName = serializedObject.FindProperty("animationName");
+        m_linkedAnimatior = serializedObject.FindProperty("linkedAnimatior");
     }
 
 
@@ -59,6 +63,7 @@ public class RPGItemEditor : Editor
             {
                 EditorGUILayout.PropertyField(m_weaponType, new GUIContent("Weapon type"));
                 EditorGUILayout.PropertyField(m_weaponSkills, new GUIContent("Weapon skills"));
+                EditorGUILayout.PropertyField(m_linkedAnimatior, new GUIContent("Linked animator"));
             }
 
             EditorGUILayout.PropertyField(m_stats, new GUIContent("Weapon/Armor value"));
@@ -71,6 +76,7 @@ public class RPGItemEditor : Editor
             EditorGUILayout.PropertyField(m_costSP, new GUIContent("Cost (SP)"));
             EditorGUILayout.PropertyField(m_targetType, new GUIContent("Target type"));
             EditorGUILayout.PropertyField(m_damageType, new GUIContent("Attack type"));
+            EditorGUILayout.PropertyField(m_animationName, new GUIContent("Animation name"));
 
             EditorGUILayout.Space();
             EditorGUILayout.PropertyField(m_attackEquation, new GUIContent("Attack equation"));

@@ -18,9 +18,11 @@ public class RPGItem : ScriptableObject
     public float attackValue;
     public float defenseValue;
     public float costSP;
+    public string animationName;
     public WeaponType weaponType;
     public int statsValue;
     public string[] weaponSkills;
+    public string linkedAnimatior;
 
     public enum TargetType
     {

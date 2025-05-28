@@ -32,6 +32,9 @@ public class BattleCharacter : MonoBehaviour
     /// <param name="weaponID">The weapon's ID</param>
     public void SetWeapon(string weaponID)
     {
+        RPGItem item = GameManager.GetRPGManager().GetItem(weaponID);
+        if (!string.IsNullOrEmpty(item.linkedAnimatior)) animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("Animations/Battles/" + item.linkedAnimatior);
+
         GameObject weapon = Resources.Load<GameObject>("RPG/Battles/Weapons/" + weaponID);
 
         foreach (Transform root in weaponRoots)
@@ -68,5 +71,31 @@ public class BattleCharacter : MonoBehaviour
     public void setHealthBarFillAmount(float fillAmount, bool immediate)
     {
         healthBar.SetValue(fillAmount, immediate);
+    }
+
+    /// <summary>
+    /// Changes if the character is visually blocking or not
+    /// </summary>
+    /// <param name="blocking">True if the character is blocking</param>
+    public void SetBlocking(bool blocking)
+    {
+        animator.SetBool("Blocking", blocking);
+    }
+
+    /// <summary>
+    /// Triggers visual damage
+    /// </summary>
+    public void TriggerDamage()
+    {
+        animator.SetTrigger("Damage");
+    }
+
+    /// <summary>
+    /// Plays an animation
+    /// </summary>
+    /// <param name="animation">The animation's name</param>
+    public void PlayAnimation(string animation)
+    {
+        animator.CrossFade(animation, 0.1f);
     }
 }

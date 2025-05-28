@@ -244,7 +244,11 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
-        data.blocking = false;
+        if (data.blocking)
+        {
+            data.blocking = false;
+            data.characterVisual.SetBlocking(false);
+        }
         SetCameraTarget(data.characterVisual.transform);
 
         if (data.isPlayer)
@@ -328,8 +332,8 @@ public class BattleManager : MonoBehaviour
 
         SetCameraTargetToCurrentPlayer();
         if (order[currentOrderIdx].isPlayer) gui.GetPlayerIcon(order[currentOrderIdx].characterData.GetData().ID).UpdateIcon();
+        order[currentOrderIdx].characterVisual.PlayAnimation(item.animationName);
         yield return new WaitForSeconds(1f);
-        // Play and wait for attack animation
 
 
         int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
@@ -360,6 +364,8 @@ public class BattleManager : MonoBehaviour
 
             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
             SetCameraTarget(data.characterVisual.transform);
+            if (!isHealing) data.characterVisual.TriggerDamage();
+
             data.characterVisual.SetHealthBarVisible(true);
             data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth, false);
             yield return new WaitForEndOfFrame();
@@ -371,7 +377,6 @@ public class BattleManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
 
             data.characterVisual.SetHealthBarVisible(false);
-            // Play damage animation
 
             if (data.characterData.currentHealth == 0)
             {
@@ -464,6 +469,7 @@ public class BattleManager : MonoBehaviour
     public void BlockForTurn()
     {
         order[currentOrderIdx].blocking = true;
+        order[currentOrderIdx].characterVisual.SetBlocking(true);
         StopAllCoroutines();
         routineAttack = StartCoroutine(Routine_Block());
     }
