@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61bf3ace21a563142a072badf6cfa261, type: 3}
-  m_Name: ITEM_POISON
+  m_Name: ITEM_SLEEP
   m_EditorClassIdentifier: 
-  ID: ITEM_POISON
+  ID: ITEM_SLEEP
   sellValue: 15
   type: 2
   targetType: 4
@@ -23,7 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: Attack1
-  linkedStatus: 0
+  linkedStatus: 1
   statusEffect: 1
   statusLength: 3
   statusChance: 1

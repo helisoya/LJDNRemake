@@ -16,7 +16,7 @@ MonoBehaviour:
   sellValue: 15
   type: 2
   targetType: 2
-  damageType: 0
+  damageType: 1
   attackEquation: 1
   defenseEquation: 1
   attackValue: 0

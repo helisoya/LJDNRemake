@@ -46,6 +46,10 @@ public class BattleManager : MonoBehaviour
         GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
         GameManager.GetRPGManager().AddItemToInventory("ITEM_POISON", 4);
         GameManager.GetRPGManager().AddItemToInventory("ITEM_CURE", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_SLEEP", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_ATTACK_UP", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_DEFENSE_UP", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_CONFUSE", 4);
         LoadBattle(data);
     }
 
@@ -487,17 +491,22 @@ public class BattleManager : MonoBehaviour
 
         gui.SetActionTextVisible(false);
 
-        CharacterData character = null;
-        int idx;
         List<CharacterData> data = new List<CharacterData>();
-        while (character == null)
+        List<CharacterData> candidates = new List<CharacterData>();
+        foreach (CharacterData entity in order)
         {
-            idx = Random.Range(0, order.Count);
-            if (!order[idx].dead && idx == currentOrderIdx) character = order[idx];
+            if (!entity.dead && entity != order[currentOrderIdx]) candidates.Add(entity);
         }
-        data.Add(character);
 
-        UseItemOn(defaultAttack, data, false);
+        if (candidates.Count > 0)
+        {
+            data.Add(candidates[Random.Range(0, candidates.Count)]);
+            UseItemOn(defaultAttack, data, false);
+        }
+        else
+        {
+            BlockForTurn();
+        }
     }
 
     /// <summary>
@@ -625,7 +634,7 @@ public class BattleManager : MonoBehaviour
                 if (data.status[i].status == RPGCharacterData.StatusType.SLEEP) data.characterVisual.PlayAnimation("Idle");
 
                 gui.GetActionText().SetParameters("", " ", " ", "");
-                gui.GetActionText().SetValue(playerName, Locals.GetLocal("ailement_" + data.status[i].ToString().ToLower()), false);
+                gui.GetActionText().SetValue(playerName, Locals.GetLocal("ailement_" + data.status[i].status.ToString().ToLower()), false);
                 gui.GetActionText().SetNewKey("battle_action_cured");
                 gui.SetActionTextVisible(true);
 
