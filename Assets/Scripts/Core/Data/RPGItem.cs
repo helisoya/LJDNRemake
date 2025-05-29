@@ -19,6 +19,10 @@ public class RPGItem : ScriptableObject
     public float defenseValue;
     public float costSP;
     public string animationName;
+    public RPGCharacterData.StatusType linkedStatus;
+    public StatusEffect statusEffect;
+    public int statusLength;
+    public float statusChance;
     public WeaponType weaponType;
     public int statsValue;
     public string[] weaponSkills;
@@ -61,6 +65,13 @@ public class RPGItem : ScriptableObject
         USABLE_COMBAT,
         WEAPON,
         ARMOR
+    }
+
+    public enum StatusEffect
+    {
+        NOTHING,
+        INFLICT,
+        CURE
     }
 }
 

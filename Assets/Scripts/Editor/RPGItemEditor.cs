@@ -25,6 +25,10 @@ public class RPGItemEditor : Editor
     SerializedProperty m_weaponSkills;
     SerializedProperty m_animationName;
     SerializedProperty m_linkedAnimatior;
+    SerializedProperty m_linkedStatus;
+    SerializedProperty m_statusEffect;
+    SerializedProperty m_statusLength;
+    SerializedProperty m_statusChance;
 
 
     void OnEnable()
@@ -44,6 +48,10 @@ public class RPGItemEditor : Editor
         m_weaponSkills = serializedObject.FindProperty("weaponSkills");
         m_animationName = serializedObject.FindProperty("animationName");
         m_linkedAnimatior = serializedObject.FindProperty("linkedAnimatior");
+        m_linkedStatus = serializedObject.FindProperty("linkedStatus");
+        m_statusEffect = serializedObject.FindProperty("statusEffect");
+        m_statusLength = serializedObject.FindProperty("statusLength");
+        m_statusChance = serializedObject.FindProperty("statusChance");
     }
 
 
@@ -85,6 +93,19 @@ public class RPGItemEditor : Editor
             EditorGUILayout.Space();
             EditorGUILayout.PropertyField(m_defenseEquation, new GUIContent("Defense equation"));
             EditorGUILayout.PropertyField(m_defenseValue, new GUIContent("Defense value"));
+
+            EditorGUILayout.Space();
+            EditorGUILayout.PropertyField(m_statusEffect, new GUIContent("Status effect"));
+
+            if ((RPGItem.StatusEffect)m_statusEffect.enumValueIndex != RPGItem.StatusEffect.NOTHING)
+            {
+                EditorGUILayout.PropertyField(m_linkedStatus, new GUIContent("Status"));
+                EditorGUILayout.PropertyField(m_statusChance, new GUIContent("Status chance"));
+                if ((RPGItem.StatusEffect)m_statusEffect.enumValueIndex == RPGItem.StatusEffect.INFLICT)
+                {
+                    EditorGUILayout.PropertyField(m_statusLength, new GUIContent("Status length"));
+                }
+            }
         }
 
         serializedObject.ApplyModifiedProperties();

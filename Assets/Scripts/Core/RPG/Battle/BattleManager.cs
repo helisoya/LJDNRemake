@@ -4,6 +4,7 @@ using UnityEngine;
 using Cinemachine;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 /// <summary>
 /// Handles the game's battles
@@ -43,6 +44,8 @@ public class BattleManager : MonoBehaviour
 
         GameManager.GetRPGManager().AddItemToInventory("ITEM_POTION", 4);
         GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_POISON", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_CURE", 4);
         LoadBattle(data);
     }
 
@@ -252,6 +255,19 @@ public class BattleManager : MonoBehaviour
         }
         SetCameraTarget(data.characterVisual.transform);
 
+        if (data.status.Find(entry => entry.status == RPGCharacterData.StatusType.SLEEP) != null)
+        {
+            StopAllCoroutines();
+            routineAttack = StartCoroutine(Routine_Sleep());
+            return;
+        }
+        else if (data.status.Find(entry => entry.status == RPGCharacterData.StatusType.CONFUSED) != null)
+        {
+            StopAllCoroutines();
+            routineAttack = StartCoroutine(Routine_Confused());
+            return;
+        }
+
         if (data.isPlayer)
         {
             gui.SetPlayerIconActive(players.FindIndex(ch => ch == data));
@@ -291,6 +307,7 @@ public class BattleManager : MonoBehaviour
 
         yield return new WaitForSeconds(1.0f);
 
+        yield return Routine_Status(true);
         routineAttack = null;
         EndTurn();
     }
@@ -341,6 +358,10 @@ public class BattleManager : MonoBehaviour
         int damage = item.attackEquation == RPGItem.EquationType.REPLACE ?
             (int)item.attackValue // Attack is set
             : Mathf.RoundToInt(order[currentOrderIdx].characterData.attack * (item.attackValue + Random.Range(-0.1f, 0.1f))); // Defense is set
+
+        int refValue = damage;
+        if (order[currentOrderIdx].status.Find(status => status.status == RPGCharacterData.StatusType.ATTACK_UP) != null) damage += Mathf.RoundToInt(refValue * 0.5f);
+        if (order[currentOrderIdx].status.Find(status => status.status == RPGCharacterData.StatusType.ATTACK_DOWN) != null) damage -= Mathf.RoundToInt(refValue * 0.5f);
         if (isHealing) damage = -damage;
 
         int defense;
@@ -361,6 +382,10 @@ public class BattleManager : MonoBehaviour
             else if (item.defenseEquation == RPGItem.EquationType.REPLACE) defense = (int)item.defenseValue; // Defense is set
             else defense = Mathf.RoundToInt(data.characterData.defense * item.defenseValue) * (data.blocking ? 2 : 1); // Defense is normal
 
+            refValue = defense;
+            if (data.status.Find(status => status.status == RPGCharacterData.StatusType.DEFENSE_UP) != null) defense += Mathf.RoundToInt(refValue * 0.5f);
+            if (data.status.Find(status => status.status == RPGCharacterData.StatusType.DEFENSE_DOWN) != null) defense -= Mathf.RoundToInt(refValue * 0.5f);
+
             int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
             print(actualDamage + "(" + damage + "/" + defense + ")");
 
@@ -373,9 +398,10 @@ public class BattleManager : MonoBehaviour
                 data.characterVisual.PlayAnimation("Idle");
             }
 
+            // Actual Attack
             data.characterData.AddHealth(-actualDamage);
             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
-            if (!isHealing) data.characterVisual.TriggerDamage();
+            if (!isHealing && data.status.Find(entry => entry.status == RPGCharacterData.StatusType.SLEEP) == null) data.characterVisual.TriggerDamage();
 
             data.characterVisual.SetHealthBarVisible(true);
             data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth, false);
@@ -385,21 +411,113 @@ public class BattleManager : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
 
+            // Death
             if (data.characterData.currentHealth == 0)
             {
                 data.dead = true;
                 data.blocking = false;
+                data.status.Clear();
                 data.characterVisual.SetBlocking(false);
                 data.characterVisual.TriggerDeath();
+                if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
+            }
+            else
+            {
+                // Status 
+                if (item.statusEffect != RPGItem.StatusEffect.NOTHING && Random.Range(0.0f, 1.0f) <= item.statusChance)
+                {
+                    int index = data.status.FindIndex(entry => entry.status == item.linkedStatus);
+                    string otherName = data.characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(data.characterData.GetData().ID + "_name");
+
+                    if (item.statusEffect == RPGItem.StatusEffect.CURE)
+                    {
+                        if (index != -1)
+                        {
+                            data.status.RemoveAt(index);
+
+                            gui.GetActionText().SetParameters("", " ", " ", "");
+                            gui.GetActionText().SetValue(otherName, Locals.GetLocal("ailement_" + item.linkedStatus.ToString().ToLower()), false);
+                            gui.GetActionText().SetNewKey("battle_action_cured");
+                            yield return new WaitForSeconds(1.0f);
+                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
+                        }
+                    }
+                    else
+                    {
+                        if (index != -1) data.status[index].remainingTurns += item.statusLength;
+                        else
+                        {
+                            if (item.linkedStatus == RPGCharacterData.StatusType.SLEEP) data.characterVisual.TriggerDeath();
+                            data.status.Add(new StatusData { status = item.linkedStatus, remainingTurns = item.statusLength });
+                        }
+
+                        gui.GetActionText().SetParameters("", " ", " ", "");
+                        gui.GetActionText().SetValue(otherName, Locals.GetLocal("ailement_" + item.linkedStatus.ToString().ToLower()), false);
+                        gui.GetActionText().SetNewKey("battle_action_ailement");
+                        yield return new WaitForSeconds(1.0f);
+                        if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
+                    }
+                }
             }
 
             yield return new WaitForSeconds(1f);
 
             data.characterVisual.SetHealthBarVisible(false);
-
-
         }
 
+        yield return Routine_Status(false);
+        routineAttack = null;
+        EndTurn();
+    }
+
+    /// <summary>
+    /// Routine for confusion
+    /// </summary>
+    private IEnumerator Routine_Confused()
+    {
+        string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+
+        yield return new WaitForSeconds(0.25f);
+        gui.GetActionText().SetParameters("", " ", " ", "");
+        gui.GetActionText().SetValue(playerName, null, false);
+        gui.GetActionText().SetNewKey("battle_action_confused");
+        gui.SetActionTextVisible(true);
+
+        yield return new WaitForSeconds(1f);
+
+        gui.SetActionTextVisible(false);
+
+        CharacterData character = null;
+        int idx;
+        List<CharacterData> data = new List<CharacterData>();
+        while (character == null)
+        {
+            idx = Random.Range(0, order.Count);
+            if (!order[idx].dead && idx == currentOrderIdx) character = order[idx];
+        }
+        data.Add(character);
+
+        UseItemOn(defaultAttack, data, false);
+    }
+
+    /// <summary>
+    /// Routine for sleeping
+    /// </summary>
+    private IEnumerator Routine_Sleep()
+    {
+        string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+
+        yield return new WaitForSeconds(0.25f);
+        gui.GetActionText().SetParameters("", " ", " ", "");
+        gui.GetActionText().SetValue(playerName, null, false);
+        gui.GetActionText().SetNewKey("battle_action_sleep");
+        gui.SetActionTextVisible(true);
+
+        yield return new WaitForSeconds(1f);
+
+        gui.SetActionTextVisible(false);
+
+        yield return Routine_Status(false);
         routineAttack = null;
         EndTurn();
     }
@@ -421,9 +539,11 @@ public class BattleManager : MonoBehaviour
         {
             case RPGItem.TargetType.ALL:
                 current = new List<CharacterData>();
-                foreach (CharacterData character in allies) if (!character.dead) current.Add(character);
-                foreach (CharacterData character in foes) if (!character.dead) current.Add(character);
-                result.Add(current);
+                foreach (CharacterData character in allies) if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD)) current.Add(character);
+                foreach (CharacterData character in foes) if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD)) current.Add(character);
+                if (current.Count > 0) result.Add(current);
                 break;
             case RPGItem.TargetType.ONEALLY:
                 foreach (CharacterData character in allies)
@@ -439,8 +559,9 @@ public class BattleManager : MonoBehaviour
                 break;
             case RPGItem.TargetType.ALLALLY:
                 current = new List<CharacterData>();
-                foreach (CharacterData character in allies) if (!character.dead) current.Add(character);
-                result.Add(current);
+                foreach (CharacterData character in allies) if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD)) current.Add(character);
+                if (current.Count > 0) result.Add(current);
                 break;
             case RPGItem.TargetType.ONEFOE:
                 foreach (CharacterData character in foes)
@@ -456,16 +577,112 @@ public class BattleManager : MonoBehaviour
                 break;
             case RPGItem.TargetType.ALLFOE:
                 current = new List<CharacterData>();
-                foreach (CharacterData character in foes) if (!character.dead) current.Add(character);
-                result.Add(current);
+                foreach (CharacterData character in foes) if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD)) current.Add(character);
+                if (current.Count > 0) result.Add(current);
                 break;
             case RPGItem.TargetType.SELF:
-                current = new List<CharacterData>();
-                current.Add(order[currentOrderIdx]);
-                result.Add(current);
+
+                if ((!order[currentOrderIdx].dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (order[currentOrderIdx].dead && item.damageType == RPGItem.DamageType.HEAL_DEAD))
+                {
+                    current = new List<CharacterData>();
+                    current.Add(order[currentOrderIdx]);
+                    result.Add(current);
+                }
+
                 break;
         }
         return result;
+    }
+
+    /// <summary>
+    /// Routine for status effects at the end of a turn
+    /// </summary>
+    /// <param name="alreadyLookingAtTarget">True if the camera is already looking a the current player</param>
+    private IEnumerator Routine_Status(bool alreadyLookingAtTarget)
+    {
+        string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+
+
+        CharacterData data = order[currentOrderIdx];
+        int i = 0;
+        bool poisoned = false;
+        bool lookingAtTarget = alreadyLookingAtTarget;
+        while (i < data.status.Count)
+        {
+            data.status[i].remainingTurns--;
+            if (data.status[i].remainingTurns <= 0)
+            {
+
+                if (!lookingAtTarget)
+                {
+                    lookingAtTarget = true;
+                    SetCameraTargetToCurrentPlayer();
+                    yield return new WaitForSeconds(0.25f);
+                }
+
+                if (data.status[i].status == RPGCharacterData.StatusType.SLEEP) data.characterVisual.PlayAnimation("Idle");
+
+                gui.GetActionText().SetParameters("", " ", " ", "");
+                gui.GetActionText().SetValue(playerName, Locals.GetLocal("ailement_" + data.status[i].ToString().ToLower()), false);
+                gui.GetActionText().SetNewKey("battle_action_cured");
+                gui.SetActionTextVisible(true);
+
+                yield return new WaitForSeconds(1.0f);
+
+                data.status.RemoveAt(i);
+            }
+            else
+            {
+                if (data.status[i].status == RPGCharacterData.StatusType.POISON)
+                {
+                    poisoned = true;
+                }
+                i++;
+            }
+        }
+
+        if (poisoned)
+        {
+            if (!lookingAtTarget)
+            {
+                lookingAtTarget = true;
+                SetCameraTargetToCurrentPlayer();
+                yield return new WaitForSeconds(0.25f);
+            }
+
+            gui.GetActionText().SetParameters("", " ", " ", "");
+            gui.GetActionText().SetValue(playerName, null, false);
+            gui.GetActionText().SetNewKey("battle_action_poison");
+            gui.SetActionTextVisible(true);
+
+            data.characterData.AddHealth(-Mathf.RoundToInt(data.characterData.maxHealth * 0.1f));
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
+            data.characterVisual.SetHealthBarVisible(true);
+            data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth, false);
+            yield return new WaitForEndOfFrame();
+            while (data.characterVisual.healthBarFilling)
+            {
+                yield return new WaitForEndOfFrame();
+            }
+
+            if (data.characterData.currentHealth == 0)
+            {
+                data.dead = true;
+                data.blocking = false;
+                data.status.Clear();
+                data.characterVisual.SetBlocking(false);
+                data.characterVisual.TriggerDeath();
+                if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
+            }
+
+            yield return new WaitForSeconds(1f);
+
+            data.characterVisual.SetHealthBarVisible(false);
+        }
+
+        gui.SetActionTextVisible(false);
     }
 
     /// <summary>
@@ -473,6 +690,8 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void EndTurn()
     {
+
+
         gui.SetActionTextVisible(false);
         gui.SetPlayerIconActive(-1);
         gui.SetPlayerScreenActive(false);
@@ -565,6 +784,8 @@ public class BattleManager : MonoBehaviour
         int i = 0;
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
 
+        int avgLevel = 0;
+
         foreach (int index in playersIndex)
         {
             character = GameManager.GetRPGManager().GetCharacter(index);
@@ -573,6 +794,8 @@ public class BattleManager : MonoBehaviour
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / playersIndex.Count);
             visual.transform.rotation = rotation;
+
+            avgLevel += character.GetData().level;
 
             i++;
 
@@ -586,6 +809,8 @@ public class BattleManager : MonoBehaviour
             });
         }
 
+        avgLevel = Mathf.RoundToInt(avgLevel / (float)playersIndex.Count);
+
         from = new Vector3(posStart, 0, ennemyDistance);
         to = new Vector3(posEnd, 0, ennemyDistance);
         i = 0;
@@ -594,6 +819,8 @@ public class BattleManager : MonoBehaviour
         foreach (RPGCharacterDataInterface dataInterface in currentData.ennemies)
         {
             character = new RPGCharacter(dataInterface.data.Clone());
+            character.GetData().level = avgLevel;
+            character.UpdateComputedStats();
             character.SetHealthToMax();
             character.SetSPToMax();
             visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
@@ -629,6 +856,18 @@ public class BattleManager : MonoBehaviour
         public bool dead;
         public bool isPlayer;
         public bool blocking;
+        public List<StatusData> status;
+
+        public CharacterData()
+        {
+            status = new List<StatusData>();
+        }
+    }
+
+    public class StatusData
+    {
+        public RPGCharacterData.StatusType status;
+        public int remainingTurns;
     }
 
     public class ItemData

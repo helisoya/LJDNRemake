@@ -30,6 +30,15 @@ saves_back = Back
 # ------------------------- Battles --------------------------------------
 # ------------------------------------------------------------------------
 
+ailement_poison = poison
+ailement_sleep = sleep
+ailement_confused = confusion
+ailement_attack_up = attack up
+ailement_defense_up = defense up
+ailement_defense_down = defense down
+ailement_attack_down = attack down
+
+
 battle_attack = Attack
 battle_defend = Block
 battle_items = Items
@@ -39,6 +48,11 @@ battle_target_multiple = Multiple
 
 battle_action_block = is blocking attacks
 battle_action_attack = is using
+battle_action_poison = is suffering from poison
+battle_action_confused = is confused
+battle_action_sleep = is sleeping
+battle_action_cured = is no longer affected by :
+battle_action_ailement = is affected by :
 
 battle_lost = You lose
 battle_won = You won !

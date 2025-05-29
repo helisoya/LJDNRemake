@@ -75,4 +75,15 @@ public class RPGCharacterData
         BONUSHP
     }
 
+    public enum StatusType
+    {
+        POISON,
+        SLEEP,
+        CONFUSED,
+        DEFENSE_UP,
+        ATTACK_UP,
+        DEFENSE_DOWN,
+        ATTACK_DOWN
+    }
+
 }

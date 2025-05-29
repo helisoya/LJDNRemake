@@ -52,6 +52,9 @@ public class LevelUpMenu : MonoBehaviour
     /// </summary>
     public void Close()
     {
+        currentCharacter.UpdateComputedStats();
+        currentCharacter.SetHealthToMax();
+        currentCharacter.SetSPToMax();
         SetVisible(false);
     }
 
