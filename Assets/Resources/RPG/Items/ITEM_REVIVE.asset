@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61bf3ace21a563142a072badf6cfa261, type: 3}
-  m_Name: ITEM_POTION
+  m_Name: ITEM_REVIVE
   m_EditorClassIdentifier: 
-  ID: ITEM_POTION
+  ID: ITEM_REVIVE
   sellValue: 15
   type: 1
   targetType: 2
-  damageType: 1
+  damageType: 2
   attackEquation: 1
   defenseEquation: 1
-  attackValue: 20
+  attackValue: 10
   defenseValue: 0
   costSP: 0
-  animationName: Drink1
+  animationName: Attack1
   weaponType: 0
   statsValue: 5
   weaponSkills: []

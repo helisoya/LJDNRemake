@@ -50,7 +50,8 @@ public class RPGItem : ScriptableObject
     public enum DamageType
     {
         DAMAGE,
-        HEAL
+        HEAL,
+        HEAL_DEAD
     }
 
     public enum ItemType

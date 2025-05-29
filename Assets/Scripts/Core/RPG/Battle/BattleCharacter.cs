@@ -91,6 +91,22 @@ public class BattleCharacter : MonoBehaviour
     }
 
     /// <summary>
+    /// Triggers visual evasion
+    /// </summary>
+    public void TriggerEvassion()
+    {
+        animator.SetTrigger("Evasion");
+    }
+
+    /// <summary>
+    /// Triggers visual death
+    /// </summary>
+    public void TriggerDeath()
+    {
+        animator.SetTrigger("Die");
+    }
+
+    /// <summary>
     /// Plays an animation
     /// </summary>
     /// <param name="animation">The animation's name</param>

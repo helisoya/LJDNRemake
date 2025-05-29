@@ -42,6 +42,7 @@ public class BattleManager : MonoBehaviour
         gui.SetPlayerScreenActive(false);
 
         GameManager.GetRPGManager().AddItemToInventory("ITEM_POTION", 4);
+        GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
         LoadBattle(data);
     }
 
@@ -320,7 +321,8 @@ public class BattleManager : MonoBehaviour
         }
 
 
-        bool isHealing = item.damageType == RPGItem.DamageType.HEAL;
+        bool isHealing = item.damageType == RPGItem.DamageType.HEAL || item.damageType == RPGItem.DamageType.HEAL_DEAD;
+        bool canResurect = item.damageType == RPGItem.DamageType.HEAL_DEAD;
         order[currentOrderIdx].characterData.AddSP(-(int)item.costSP);
 
 
@@ -349,7 +351,8 @@ public class BattleManager : MonoBehaviour
             if (!isHealing && Random.Range(0.0f, 1.0f) <= data.characterData.evasion)
             {
                 SetCameraTarget(data.characterVisual.transform);
-                // Play animation
+                yield return new WaitForSeconds(0.25f);
+                data.characterVisual.TriggerEvassion();
                 yield return new WaitForSeconds(1f);
                 continue;
             }
@@ -360,10 +363,18 @@ public class BattleManager : MonoBehaviour
 
             int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
             print(actualDamage + "(" + damage + "/" + defense + ")");
-            data.characterData.AddHealth(-actualDamage);
 
-            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
             SetCameraTarget(data.characterVisual.transform);
+            yield return new WaitForSeconds(0.25f);
+
+            if (data.dead && canResurect)
+            {
+                data.dead = false;
+                data.characterVisual.PlayAnimation("Idle");
+            }
+
+            data.characterData.AddHealth(-actualDamage);
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
             if (!isHealing) data.characterVisual.TriggerDamage();
 
             data.characterVisual.SetHealthBarVisible(true);
@@ -374,14 +385,19 @@ public class BattleManager : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
 
+            if (data.characterData.currentHealth == 0)
+            {
+                data.dead = true;
+                data.blocking = false;
+                data.characterVisual.SetBlocking(false);
+                data.characterVisual.TriggerDeath();
+            }
+
             yield return new WaitForSeconds(1f);
 
             data.characterVisual.SetHealthBarVisible(false);
 
-            if (data.characterData.currentHealth == 0)
-            {
-                data.dead = true;
-            }
+
         }
 
         routineAttack = null;
@@ -412,7 +428,8 @@ public class BattleManager : MonoBehaviour
             case RPGItem.TargetType.ONEALLY:
                 foreach (CharacterData character in allies)
                 {
-                    if (!character.dead)
+                    if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD))
                     {
                         current = new List<CharacterData>();
                         current.Add(character);
@@ -428,7 +445,8 @@ public class BattleManager : MonoBehaviour
             case RPGItem.TargetType.ONEFOE:
                 foreach (CharacterData character in foes)
                 {
-                    if (!character.dead)
+                    if ((!character.dead && item.damageType != RPGItem.DamageType.HEAL_DEAD) ||
+                    (character.dead && item.damageType == RPGItem.DamageType.HEAL_DEAD))
                     {
                         current = new List<CharacterData>();
                         current.Add(character);
