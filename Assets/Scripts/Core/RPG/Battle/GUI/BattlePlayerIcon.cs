@@ -15,6 +15,7 @@ public class BattlePlayerIcon : MonoBehaviour
     [SerializeField] private BattleBarFill spFill;
     [SerializeField] private TextMeshProUGUI spText;
     [SerializeField] private Animator animator;
+    [SerializeField] private BattleStatusIconHandler statusIcons;
 
     public bool fillingSP { get { return spFill.filling; } }
     public bool fillingHealth { get { return healthFill.filling; } }
@@ -39,6 +40,26 @@ public class BattlePlayerIcon : MonoBehaviour
         this.data = data;
         playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.characterData.GetData().ID);
         UpdateIcon(true);
+    }
+
+    /// <summary>
+    /// Adds a new status icon
+    /// </summary>
+    /// <param name="status">The status</param>
+    public void AddStatusIcon(RPGCharacterData.StatusType status)
+    {
+        statusIcons.AddIcon(status);
+    }
+
+    /// <summary>
+    /// Updates a status icon
+    /// </summary>
+    /// <param name="status">The icon's status</param>
+    /// <param name="target">The target</param>
+    /// <param name="immediate">True </param>
+    public void UpdateStatusIcon(RPGCharacterData.StatusType status, float target, bool immediate)
+    {
+        statusIcons.UpdateIcon(status, target, immediate);
     }
 
     /// <summary>

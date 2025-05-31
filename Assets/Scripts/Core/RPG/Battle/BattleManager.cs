@@ -373,7 +373,7 @@ public class BattleManager : MonoBehaviour
         foreach (CharacterData data in targets)
         {
             // Evasion
-            if (!isHealing && Random.Range(0.0f, 1.0f) <= data.characterData.evasion)
+            if (!isHealing && CanEvade(data) && Random.Range(0.0f, 1.0f) <= data.characterData.evasion)
             {
                 SetCameraTarget(data.characterVisual.transform);
                 yield return new WaitForSeconds(0.25f);
@@ -420,7 +420,7 @@ public class BattleManager : MonoBehaviour
             {
                 data.dead = true;
                 data.blocking = false;
-                data.status.Clear();
+                ClearStatus(data);
                 data.characterVisual.SetBlocking(false);
                 data.characterVisual.TriggerDeath();
                 if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
@@ -438,6 +438,7 @@ public class BattleManager : MonoBehaviour
                         if (index != -1)
                         {
                             data.status.RemoveAt(index);
+                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(item.linkedStatus, 0, false);
 
                             gui.GetActionText().SetParameters("", " ", " ", "");
                             gui.GetActionText().SetValue(otherName, Locals.GetLocal("ailement_" + item.linkedStatus.ToString().ToLower()), false);
@@ -448,11 +449,18 @@ public class BattleManager : MonoBehaviour
                     }
                     else
                     {
-                        if (index != -1) data.status[index].remainingTurns += item.statusLength;
+                        if (index != -1)
+                        {
+                            data.status[index].remainingTurns += item.statusLength;
+                            data.status[index].totalTurns += item.statusLength;
+                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(item.linkedStatus, data.status[index].remainingTurns / (float)data.status[index].totalTurns, false);
+
+                        }
                         else
                         {
                             if (item.linkedStatus == RPGCharacterData.StatusType.SLEEP) data.characterVisual.TriggerDeath();
-                            data.status.Add(new StatusData { status = item.linkedStatus, remainingTurns = item.statusLength });
+                            data.status.Add(new StatusData { status = item.linkedStatus, remainingTurns = item.statusLength, totalTurns = item.statusLength });
+                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).AddStatusIcon(item.linkedStatus);
                         }
 
                         gui.GetActionText().SetParameters("", " ", " ", "");
@@ -621,6 +629,7 @@ public class BattleManager : MonoBehaviour
         while (i < data.status.Count)
         {
             data.status[i].remainingTurns--;
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(data.status[i].status, data.status[i].remainingTurns / (float)data.status[i].totalTurns, false);
             if (data.status[i].remainingTurns <= 0)
             {
 
@@ -680,7 +689,7 @@ public class BattleManager : MonoBehaviour
             {
                 data.dead = true;
                 data.blocking = false;
-                data.status.Clear();
+                ClearStatus(data);
                 data.characterVisual.SetBlocking(false);
                 data.characterVisual.TriggerDeath();
                 if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
@@ -692,6 +701,37 @@ public class BattleManager : MonoBehaviour
         }
 
         gui.SetActionTextVisible(false);
+    }
+
+    /// <summary>
+    /// Checks if a character can evade
+    /// </summary>
+    /// <param name="data">The character's data</param>
+    /// <returns>True if they can evade</returns>
+    private bool CanEvade(CharacterData data)
+    {
+        foreach (StatusData status in data.status)
+        {
+            if (status.status == RPGCharacterData.StatusType.SLEEP) return false;
+        }
+        return true;
+    }
+
+    /// <summary>
+    /// Clears the status for a character data
+    /// </summary>
+    /// <param name="data">The character data</param>
+    private void ClearStatus(CharacterData data)
+    {
+        int size = data.status.Count;
+        RPGCharacterData.StatusType status;
+        while (size > 0)
+        {
+            status = data.status[size - 1].status;
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(status, 0f, false);
+            data.status.RemoveAt(size - 1);
+            size--;
+        }
     }
 
     /// <summary>
@@ -877,6 +917,7 @@ public class BattleManager : MonoBehaviour
     {
         public RPGCharacterData.StatusType status;
         public int remainingTurns;
+        public int totalTurns;
     }
 
     public class ItemData
