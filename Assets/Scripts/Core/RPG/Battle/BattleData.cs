@@ -9,8 +9,6 @@ using UnityEngine;
 public class BattleData : ScriptableObject
 {
     public RPGCharacterDataInterface[] ennemies;
-    public CloseType closeType;
-    public string nextChapter;
 
     public enum CloseType
     {

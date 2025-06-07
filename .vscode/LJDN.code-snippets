@@ -306,7 +306,7 @@
 		"scope": "ansl",
 		"prefix": "battle",
 		"body": [
-			"battle(ENCOUNTER;BACKGROUND)"
+			"battle(ENCOUNTER;BACKGROUND;NEXTCHAPTER)"
 		],
 		"description": "Starts a Battle Encounter"
 	}

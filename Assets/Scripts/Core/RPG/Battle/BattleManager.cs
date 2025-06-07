@@ -140,14 +140,14 @@ public class BattleManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        if (data.closeType == BattleData.CloseType.VN)
+        if (GameManager.GetRPGManager().battleCloseType == BattleData.CloseType.VN)
         {
-            GameManager.instance.SetNextChapter(data.nextChapter);
+            GameManager.instance.SetNextChapter(GameManager.GetRPGManager().battleNextChapter);
             SceneManager.LoadScene("VN");
         }
         else
         {
-            SceneManager.UnloadSceneAsync("Battle");
+            DungeonManager.instance.EndBattle();
         }
     }
 

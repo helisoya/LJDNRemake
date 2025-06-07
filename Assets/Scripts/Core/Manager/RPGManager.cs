@@ -20,6 +20,8 @@ public class RPGManager : MonoBehaviour
 
     public BattleData battleData { get; private set; }
     public string battleBackground { get; private set; }
+    public BattleData.CloseType battleCloseType { get; private set; }
+    public string battleNextChapter { get; private set; }
 
 
     /// <summary>
@@ -57,10 +59,14 @@ public class RPGManager : MonoBehaviour
     /// </summary>
     /// <param name="data">The battle's data</param>
     /// <param name="backgroundName">The battle's background</param>
-    public void SetNextBattleEncounter(BattleData data, string backgroundName)
+    /// <param name="closeType">The close type/param>
+    /// <param name="nextChapter">The next chapter (VN Only)/param>
+    public void SetNextBattleEncounter(BattleData data, string backgroundName, BattleData.CloseType closeType, string nextChapter)
     {
         battleData = data;
         battleBackground = backgroundName;
+        battleCloseType = closeType;
+        battleNextChapter = nextChapter;
     }
 
     /// <summary>

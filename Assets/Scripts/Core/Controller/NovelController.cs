@@ -739,7 +739,11 @@ public class NovelController : MonoBehaviour
             case "battle":
                 if (isQuickCommand) break;
 
-                GameManager.GetRPGManager().SetNextBattleEncounter(Resources.Load<BattleData>("RPG/Battles/Data/" + parameters[0]), parameters[1]);
+                GameManager.GetRPGManager().SetNextBattleEncounter(
+                    Resources.Load<BattleData>("RPG/Battles/Data/" + parameters[0]),
+                    parameters[1],
+                    BattleData.CloseType.VN,
+                    parameters[2]);
 
                 VNGUI.instance.FadeFgTo(1);
                 yield return new WaitForEndOfFrame();
