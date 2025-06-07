@@ -301,5 +301,13 @@
 			"random(A;B)"
 		],
 		"description": "Generates a random number between A and B (not inclusive of B) in the 'random' variable"
+	},
+	"Battle": {
+		"scope": "ansl",
+		"prefix": "battle",
+		"body": [
+			"battle(ENCOUNTER;BACKGROUND)"
+		],
+		"description": "Starts a Battle Encounter"
 	}
 }

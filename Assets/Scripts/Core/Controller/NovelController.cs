@@ -736,6 +736,21 @@ public class NovelController : MonoBehaviour
                 }
                 break;
 
+            case "battle":
+                if (isQuickCommand) break;
+
+                GameManager.GetRPGManager().SetNextBattleEncounter(Resources.Load<BattleData>("RPG/Battles/Data/" + parameters[0]), parameters[1]);
+
+                VNGUI.instance.FadeFgTo(1);
+                yield return new WaitForEndOfFrame();
+                while (VNGUI.instance.fadingFg)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
+
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Battle");
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;

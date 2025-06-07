@@ -26,7 +26,9 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private float cameraUpDistance = 5;
 
     [Header("DEBUG")]
+    [SerializeField] private bool useDebug = true;
     [SerializeField] private BattleData data;
+    [SerializeField] private string backgroundName;
 
     private BattleData currentData;
     private List<CharacterData> players;
@@ -42,15 +44,34 @@ public class BattleManager : MonoBehaviour
         order = new List<CharacterData>();
         gui.SetPlayerScreenActive(false);
 
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_POTION", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_POISON", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_CURE", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_SLEEP", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_ATTACK_UP", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_DEFENSE_UP", 4);
-        GameManager.GetRPGManager().AddItemToInventory("ITEM_CONFUSE", 4);
-        LoadBattle(data);
+        if (useDebug)
+        {
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_POTION", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_POISON", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_CURE", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_SLEEP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_ATTACK_UP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_DEFENSE_UP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_CONFUSE", 4);
+            SetBackground(backgroundName);
+            LoadBattle(data);
+        }
+        else
+        {
+            SetBackground(GameManager.GetRPGManager().battleBackground);
+            LoadBattle(GameManager.GetRPGManager().battleData);
+        }
+
+    }
+
+    /// <summary>
+    /// Sets the background
+    /// </summary>
+    /// <param name="backgroundName">The background's name</param>
+    public void SetBackground(string backgroundName)
+    {
+        Instantiate(Resources.Load<GameObject>("RPG/Battles/Backgrounds/" + backgroundName), Vector3.zero, Quaternion.identity);
     }
 
 

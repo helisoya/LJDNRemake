@@ -18,6 +18,9 @@ public class RPGManager : MonoBehaviour
     private List<InventorySlot> inventory;
     private Dictionary<string, RPGItem> items;
 
+    public BattleData battleData { get; private set; }
+    public string battleBackground { get; private set; }
+
 
     /// <summary>
     /// Initalize the manager
@@ -47,6 +50,17 @@ public class RPGManager : MonoBehaviour
             ch.SetSPToMax();
             characters.Add(ch);
         }
+    }
+
+    /// <summary>
+    /// Sets the values for the next battle encounter
+    /// </summary>
+    /// <param name="data">The battle's data</param>
+    /// <param name="backgroundName">The battle's background</param>
+    public void SetNextBattleEncounter(BattleData data, string backgroundName)
+    {
+        battleData = data;
+        battleBackground = backgroundName;
     }
 
     /// <summary>

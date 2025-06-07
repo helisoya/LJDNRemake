@@ -96,7 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3969b7a6214c51c489fb0b5d5da4ff35,
+    type: 2}
   m_LightingSettings: {fileID: 1900075166}
 --- !u!196 &4
 NavMeshSettings:
@@ -4058,6 +4059,7 @@ MonoBehaviour:
   posEnd: 30
   ennemyDistance: 20
   cameraUpDistance: 5
+  useDebug: 0
   data: {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   backgroundName: Grass
 --- !u!4 &1707510431
