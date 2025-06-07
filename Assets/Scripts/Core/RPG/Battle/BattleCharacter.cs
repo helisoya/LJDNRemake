@@ -14,6 +14,7 @@ public class BattleCharacter : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject healthBarCanvas;
     [SerializeField] private BattleBarFill healthBar;
+    [SerializeField] private BattleStatusIconHandler icons;
 
     public bool healthBarFilling { get { return healthBar.filling; } }
 
@@ -113,5 +114,35 @@ public class BattleCharacter : MonoBehaviour
     public void PlayAnimation(string animation)
     {
         animator.CrossFade(animation, 0.1f);
+    }
+
+
+    /// <summary>
+    /// Adds an icon
+    /// </summary>
+    /// <param name="type">The icon's status</param>
+    public void AddIcon(RPGCharacterData.StatusType type)
+    {
+        icons.AddIcon(type);
+    }
+
+    /// <summary>
+    /// Updates an icon
+    /// </summary>
+    /// <param name="type">The icon's status</param>
+    /// <param name="target">The icon's target</param>
+    /// <param name="immediate">True if the change must be immediate</param>
+    public void UpdateIcon(RPGCharacterData.StatusType type, float target, bool immediate)
+    {
+        icons.UpdateIcon(type, target, immediate);
+    }
+
+    /// <summary>
+    /// Removes an icon
+    /// </summary>
+    /// <param name="type">The icon's status</param>
+    public void RemoveIcon(RPGCharacterData.StatusType type)
+    {
+        icons.RemoveIcon(type);
     }
 }

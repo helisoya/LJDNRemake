@@ -438,6 +438,7 @@ public class BattleManager : MonoBehaviour
                         if (index != -1)
                         {
                             data.status.RemoveAt(index);
+                            data.characterVisual.UpdateIcon(item.linkedStatus, 0f, false);
                             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(item.linkedStatus, 0, false);
 
                             gui.GetActionText().SetParameters("", " ", " ", "");
@@ -453,13 +454,16 @@ public class BattleManager : MonoBehaviour
                         {
                             data.status[index].remainingTurns += item.statusLength;
                             data.status[index].totalTurns += item.statusLength;
-                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(item.linkedStatus, data.status[index].remainingTurns / (float)data.status[index].totalTurns, false);
+                            float fillAmount = data.status[index].remainingTurns / (float)data.status[index].totalTurns;
+                            data.characterVisual.UpdateIcon(item.linkedStatus, fillAmount, false);
+                            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(item.linkedStatus, fillAmount, false);
 
                         }
                         else
                         {
                             if (item.linkedStatus == RPGCharacterData.StatusType.SLEEP) data.characterVisual.TriggerDeath();
                             data.status.Add(new StatusData { status = item.linkedStatus, remainingTurns = item.statusLength, totalTurns = item.statusLength });
+                            data.characterVisual.AddIcon(item.linkedStatus);
                             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).AddStatusIcon(item.linkedStatus);
                         }
 
@@ -626,10 +630,13 @@ public class BattleManager : MonoBehaviour
         int i = 0;
         bool poisoned = false;
         bool lookingAtTarget = alreadyLookingAtTarget;
+        float fillAmount;
         while (i < data.status.Count)
         {
             data.status[i].remainingTurns--;
-            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(data.status[i].status, data.status[i].remainingTurns / (float)data.status[i].totalTurns, false);
+            fillAmount = data.status[i].remainingTurns / (float)data.status[i].totalTurns;
+            data.characterVisual.UpdateIcon(data.status[i].status, fillAmount, false);
+            if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(data.status[i].status, fillAmount, false);
             if (data.status[i].remainingTurns <= 0)
             {
 
@@ -728,6 +735,7 @@ public class BattleManager : MonoBehaviour
         while (size > 0)
         {
             status = data.status[size - 1].status;
+            data.characterVisual.UpdateIcon(status, 0f, false);
             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateStatusIcon(status, 0f, false);
             data.status.RemoveAt(size - 1);
             size--;
