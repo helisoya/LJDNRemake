@@ -8,6 +8,18 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "LJDN/Dungeon Data")]
 public class DungeonData : ScriptableObject
 {
+    [Header("Informations")]
+    public string ID;
+    public int floorsAmount;
+    public string endChapter;
+
+    [Header("Encounters")]
     public BattleData[] encounters;
     public string battleBackground;
+
+    [Header("Generation")]
+    public Vector2Int size;
+    public int roomCount;
+    public Vector2Int roomMaxSize;
+    public DungeonCell cellPrefab;
 }

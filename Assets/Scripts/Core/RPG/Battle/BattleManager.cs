@@ -39,6 +39,8 @@ public class BattleManager : MonoBehaviour
 
     void Start()
     {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Battle"));
+
         players = new List<CharacterData>();
         ennemies = new List<CharacterData>();
         order = new List<CharacterData>();

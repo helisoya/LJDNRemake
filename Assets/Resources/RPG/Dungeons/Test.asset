@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a054cacc03761b40be47bb0c9a48b98, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
+  ID: Test
+  floorsAmount: 3
+  endChapter: Test/After
   encounters:
   - {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   - {fileID: 11400000, guid: f11008e1ef905bd43accf45625ac03ef, type: 2}
   battleBackground: Grass
+  size: {x: 40, y: 40}
+  roomCount: 10
+  roomMaxSize: {x: 8, y: 8}
+  cellPrefab: {fileID: 8148160245439542551, guid: e7d1e29523ccaa8479f642e9071b954f,
+    type: 3}

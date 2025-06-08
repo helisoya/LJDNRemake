@@ -10,11 +10,15 @@ public class DungeonManager : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Behaviour[] disableOnBattle;
+    [SerializeField] private Generator2D generator;
+    [SerializeField] private DungeonGUI gui;
+    private int currentFloor;
 
     public static DungeonManager instance;
     private bool inBattle = false;
     private DungeonData data;
-
+    private Coroutine routineNextFloor;
+    public bool changingFloor { get { return routineNextFloor != null; } }
 
 
 
@@ -28,7 +32,6 @@ public class DungeonManager : MonoBehaviour
         instance = this;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         if (useDebug) LoadDungeon(debugData);
@@ -41,6 +44,45 @@ public class DungeonManager : MonoBehaviour
     void LoadDungeon(DungeonData data)
     {
         this.data = data;
+        currentFloor = -1;
+        NextFloor();
+    }
+
+    /// <summary>
+    /// Loads the next floor
+    /// </summary>
+    public void NextFloor()
+    {
+        if (routineNextFloor != null)
+        {
+            StopCoroutine(routineNextFloor);
+        }
+        routineNextFloor = StartCoroutine(Routine_TransitionToNextFloor());
+    }
+
+    /// <summary>
+    /// Routine for loading the next floor
+    /// </summary>
+    /// <returns>IEnumerator</returns>
+    private IEnumerator Routine_TransitionToNextFloor()
+    {
+        gui.FadeTo(1f);
+        yield return new WaitForEndOfFrame();
+        while (gui.fading) yield return new WaitForEndOfFrame();
+
+        currentFloor++;
+        if (currentFloor == data.floorsAmount)
+        {
+            GameManager.instance.SetNextChapter(data.endChapter);
+            SceneManager.LoadScene("VN");
+        }
+        else
+        {
+            generator.Generate(data);
+            yield return new WaitForEndOfFrame();
+            gui.FadeTo(0f);
+        }
+        routineNextFloor = null;
     }
 
     /// <summary>
@@ -67,6 +109,7 @@ public class DungeonManager : MonoBehaviour
 
         SceneManager.UnloadSceneAsync("Battle").completed += _ =>
         {
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("Dungeon"));
             inBattle = false;
             EnableBattleRequirements(true);
         };
@@ -86,11 +129,15 @@ public class DungeonManager : MonoBehaviour
 
     void Update()
     {
-        if (inBattle) return;
+        if (inBattle || changingFloor) return;
 
         if (Input.GetKeyDown(KeyCode.P))
         {
             StartRandomEncounter();
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            NextFloor();
         }
     }
 }

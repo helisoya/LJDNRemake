@@ -711,6 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellsRoot: {fileID: 125426587}
+  cellsOffset: {x: 0, y: -50, z: 0}
 --- !u!1 &1824115891
 GameObject:
   m_ObjectHideFlags: 0
