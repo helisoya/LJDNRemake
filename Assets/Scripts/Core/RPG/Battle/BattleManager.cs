@@ -121,7 +121,7 @@ public class BattleManager : MonoBehaviour
             {
 
                 SetCameraTarget(follower.characterVisual.transform);
-                string playerName = order[currentOrderIdx].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+                string playerName = follower.characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
                 gui.GetActionText().SetParameters("", " ", "", "");
                 gui.GetActionText().SetValue(playerName, null, false);
                 gui.GetActionText().SetNewKey("battle_levelUp");

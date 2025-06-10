@@ -8,6 +8,21 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class DungeonManager : MonoBehaviour
 {
+    [Header("Player")]
+    [SerializeField] private Rigidbody playerRigidbody;
+    [SerializeField] private Animator playerAnimator;
+    [SerializeField] private Transform playerModel;
+    [SerializeField] private Transform cameraTransform;
+    [SerializeField] private Vector3 cameraOffset;
+    [SerializeField] private float playerSpeed;
+
+    [Header("Stairs")]
+    [SerializeField] private DungeonStairs stairs;
+
+    [Header("Encounters")]
+    [SerializeField] private float averageMeterstoEncounter = 15f;
+    public float currentMetersRemainingToEncounter;
+
     [Header("Components")]
     [SerializeField] private Behaviour[] disableOnBattle;
     [SerializeField] private Generator2D generator;
@@ -18,6 +33,7 @@ public class DungeonManager : MonoBehaviour
     private bool inBattle = false;
     private DungeonData data;
     private Coroutine routineNextFloor;
+    private Vector3 moveVector;
     public bool changingFloor { get { return routineNextFloor != null; } }
 
 
@@ -44,6 +60,7 @@ public class DungeonManager : MonoBehaviour
     void LoadDungeon(DungeonData data)
     {
         this.data = data;
+        stairs.active = false;
         currentFloor = -1;
         NextFloor();
     }
@@ -79,10 +96,20 @@ public class DungeonManager : MonoBehaviour
         else
         {
             generator.Generate(data);
+            stairs.active = true;
+            ComputeMetersToNextEncounter();
             yield return new WaitForEndOfFrame();
             gui.FadeTo(0f);
         }
         routineNextFloor = null;
+    }
+
+    /// <summary>
+    /// Computes the meters to the next encounter
+    /// </summary>
+    private void ComputeMetersToNextEncounter()
+    {
+        currentMetersRemainingToEncounter = Random.Range(averageMeterstoEncounter - 5f, averageMeterstoEncounter + 5f);
     }
 
     /// <summary>
@@ -91,6 +118,7 @@ public class DungeonManager : MonoBehaviour
     public void StartRandomEncounter()
     {
         inBattle = true;
+        ComputeMetersToNextEncounter();
         GameManager.GetRPGManager().SetNextBattleEncounter(
             data.encounters[Random.Range(0, data.encounters.Length)],
             data.battleBackground,
@@ -131,6 +159,19 @@ public class DungeonManager : MonoBehaviour
     {
         if (inBattle || changingFloor) return;
 
+        cameraTransform.position = playerRigidbody.position + cameraOffset;
+        moveVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+        bool moving = moveVector != Vector3.zero;
+        if (moving)
+        {
+            playerModel.forward = moveVector;
+            currentMetersRemainingToEncounter -= (Mathf.Abs(moveVector.x) + Mathf.Abs(moveVector.z)) * Time.deltaTime;
+
+            if (currentMetersRemainingToEncounter <= 0) StartRandomEncounter();
+        }
+        playerAnimator.SetBool("Move", moving);
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             StartRandomEncounter();
@@ -139,5 +180,17 @@ public class DungeonManager : MonoBehaviour
         {
             NextFloor();
         }
+    }
+
+    void FixedUpdate()
+    {
+        if (inBattle || changingFloor)
+        {
+            playerRigidbody.velocity = Vector3.zero;
+            return;
+        }
+
+        playerRigidbody.velocity = moveVector * playerSpeed;
+
     }
 }

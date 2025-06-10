@@ -31,6 +31,7 @@ public class Generator2D : MonoBehaviour
 
     [SerializeField] private Transform cellsRoot;
     [SerializeField] private Vector3 cellsOffset;
+    [SerializeField] private Transform[] objectsToPlace;
 
     private Random random;
     private Grid2D<CellType> grid;
@@ -51,6 +52,27 @@ public class Generator2D : MonoBehaviour
         PathfindHallways(data.size);
 
         InstantiateDungeon(data.size, data.cellPrefab);
+        PlaceObjects();
+    }
+
+    private void PlaceObjects()
+    {
+        List<Room> tempRooms = new List<Room>(rooms);
+        Room room;
+        int selectedIdx;
+
+        foreach (Transform obj in objectsToPlace)
+        {
+            if (tempRooms.Count == 0) return;
+            selectedIdx = random.Next(0, tempRooms.Count);
+            room = tempRooms[selectedIdx];
+            obj.position = new Vector3(
+                room.bounds.center.x * 4 + cellsOffset.x,
+                cellsOffset.y,
+                room.bounds.center.y * 4 + cellsOffset.z);
+            tempRooms.RemoveAt(selectedIdx);
+        }
+
     }
 
     void PlaceRooms(Vector2Int size, int roomCount, Vector2Int roomMaxSize)
