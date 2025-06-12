@@ -9,6 +9,7 @@ public class DungeonGUI : MonoBehaviour
 {
     [Header("Other")]
     [SerializeField] private Fade fade;
+    [SerializeField] private PauseMenu pauseMenu;
     public bool fading { get { return fade.fading; } }
 
     void Start()
@@ -17,6 +18,14 @@ public class DungeonGUI : MonoBehaviour
         fade.FadeTo(0f);
     }
 
+    /// <summary>
+    /// Toggles the pause menu
+    /// </summary>
+    public void TogglePauseMenu()
+    {
+        if (pauseMenu.open) pauseMenu.Close();
+        else pauseMenu.Show();
+    }
     /// <summary>
     /// Starts fading the screen
     /// </summary>

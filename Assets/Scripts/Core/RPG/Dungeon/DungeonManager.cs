@@ -172,6 +172,12 @@ public class DungeonManager : MonoBehaviour
         }
         playerAnimator.SetBool("Move", moving);
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            gui.TogglePauseMenu();
+        }
+
+#if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.P))
         {
             StartRandomEncounter();
@@ -180,6 +186,7 @@ public class DungeonManager : MonoBehaviour
         {
             NextFloor();
         }
+#endif
     }
 
     void FixedUpdate()
