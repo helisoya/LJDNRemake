@@ -23,6 +23,9 @@ public class RPGManager : MonoBehaviour
     public BattleData.CloseType battleCloseType { get; private set; }
     public string battleNextChapter { get; private set; }
 
+    public DungeonData dungeonData { get; private set; }
+    public int dungeonFloorStart { get; private set; }
+
 
     /// <summary>
     /// Initalize the manager
@@ -67,6 +70,17 @@ public class RPGManager : MonoBehaviour
         battleBackground = backgroundName;
         battleCloseType = closeType;
         battleNextChapter = nextChapter;
+    }
+
+    /// <summary>
+    /// Sets the values for the next dungeon
+    /// </summary>
+    /// <param name="data">The dungeon's data</param>
+    /// <param name="startFloor">The dungeon's starting floor</param>
+    public void SetNextDungeon(DungeonData data, int startFloor = 0)
+    {
+        dungeonFloorStart = startFloor;
+        dungeonData = data;
     }
 
     /// <summary>

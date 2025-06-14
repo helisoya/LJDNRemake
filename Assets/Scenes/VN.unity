@@ -1896,7 +1896,7 @@ MonoBehaviour:
     type: 3}
   buttonsRoot: {fileID: 1583212025}
   buttons: []
-  isInGame: 1
+  currentScene: 1
   scrollbar: {fileID: 421141909}
   confirmRoot: {fileID: 1469343131}
   confirmWidget: {fileID: 1389688482}

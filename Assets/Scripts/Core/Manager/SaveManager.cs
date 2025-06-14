@@ -162,9 +162,9 @@ public class SaveManager
                 string playerName = item != null ? item.value : items.Find(item => item.name.Equals("playerName")).value;
                 list[i] = new SaveInfo
                 {
-                    slot = toTest[1],
+                    slot = toTest[i],
                     playerName = playerName,
-                    playerLevel = -1,
+                    playerLevel = temp.rpgCharacters[0].level,
                     location = temp.locationName,
                 };
             }

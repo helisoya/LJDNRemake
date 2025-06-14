@@ -16,9 +16,6 @@ public class DungeonManager : MonoBehaviour
     [SerializeField] private Vector3 cameraOffset;
     [SerializeField] private float playerSpeed;
 
-    [Header("Stairs")]
-    [SerializeField] private DungeonStairs stairs;
-
     [Header("Encounters")]
     [SerializeField] private float averageMeterstoEncounter = 15f;
     public float currentMetersRemainingToEncounter;
@@ -27,6 +24,7 @@ public class DungeonManager : MonoBehaviour
     [SerializeField] private Behaviour[] disableOnBattle;
     [SerializeField] private Generator2D generator;
     [SerializeField] private DungeonGUI gui;
+    private DungeonStairs stairs;
     private int currentFloor;
 
     public static DungeonManager instance;
@@ -34,6 +32,7 @@ public class DungeonManager : MonoBehaviour
     private DungeonData data;
     private Coroutine routineNextFloor;
     private Vector3 moveVector;
+    private Vector2Int playerPosition;
     public bool changingFloor { get { return routineNextFloor != null; } }
 
 
@@ -50,18 +49,74 @@ public class DungeonManager : MonoBehaviour
 
     void Start()
     {
+        SetupGUI();
         if (useDebug) LoadDungeon(debugData);
+        else LoadDungeon(GameManager.GetRPGManager().dungeonData, GameManager.GetRPGManager().dungeonFloorStart);
+    }
+
+    public void SaveGame(string slot)
+    {
+        GAMEFILE activeGameFile = GameManager.GetSaveManager().saveFile;
+
+        activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
+        activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
+        activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
+
+        activeGameFile.inDungeon = true;
+        activeGameFile.dungeonID = data.ID;
+        activeGameFile.dungeonFloor = currentFloor;
+
+        GameManager.GetSaveManager().Save(slot);
+    }
+
+    public void LoadGame(string slot)
+    {
+        GAMEFILE activeGameFile = GameManager.GetSaveManager().Load(slot);
+
+        if (!activeGameFile.inDungeon)
+        {
+            GameManager.instance.SetSaveToLoad(slot);
+            GameManager.instance.SetNextChapter("");
+            gui.ChangeScene("VN");
+            return;
+        }
+
+        gui.ClosePauseMenu();
+        GameManager.instance.SetSaveToLoad(null);
+        GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
+        GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
+        GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+        LoadDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
+    }
+
+    /// <summary>
+    /// Setups the GUI
+    /// </summary>
+    private void SetupGUI()
+    {
+        List<int> followers = GameManager.GetRPGManager().GetFollowers();
+        List<RPGCharacter> players = new List<RPGCharacter>();
+        foreach (int follower in followers)
+        {
+            players.Add(GameManager.GetRPGManager().GetCharacter(follower));
+        }
+
+        gui.SetPlayerIcons(players);
     }
 
     /// <summary>
     /// Loads a new dungeon
     /// </summary>
     /// <param name="data">The dungeon's data</param>
-    void LoadDungeon(DungeonData data)
+    public void LoadDungeon(DungeonData data, int startFloor = 0)
     {
         this.data = data;
+        if (stairs) Destroy(stairs.gameObject);
+        stairs = Instantiate(data.stairsPrefab);
+        generator.ResetEntitiesToPlace();
+        generator.AddEntityToPlace(stairs.transform);
         stairs.active = false;
-        currentFloor = -1;
+        currentFloor = startFloor - 1;
         NextFloor();
     }
 
@@ -75,6 +130,13 @@ public class DungeonManager : MonoBehaviour
             StopCoroutine(routineNextFloor);
         }
         routineNextFloor = StartCoroutine(Routine_TransitionToNextFloor());
+    }
+
+    private Vector2Int ComputePlayerPosition()
+    {
+        return new Vector2Int(
+            Mathf.FloorToInt(playerRigidbody.position.x / 8.0f),
+            Mathf.FloorToInt(playerRigidbody.position.z / 8.0f));
     }
 
     /// <summary>
@@ -97,6 +159,8 @@ public class DungeonManager : MonoBehaviour
         {
             generator.Generate(data);
             stairs.active = true;
+            playerPosition = ComputePlayerPosition();
+            gui.UpdateMiniMap(generator.grid, playerPosition);
             ComputeMetersToNextEncounter();
             yield return new WaitForEndOfFrame();
             gui.FadeTo(0f);
@@ -134,7 +198,7 @@ public class DungeonManager : MonoBehaviour
     /// </summary>
     public void EndBattle()
     {
-
+        gui.RefreshPlayerIcons();
         SceneManager.UnloadSceneAsync("Battle").completed += _ =>
         {
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("Dungeon"));
@@ -157,7 +221,7 @@ public class DungeonManager : MonoBehaviour
 
     void Update()
     {
-        if (inBattle || changingFloor) return;
+        if (inBattle || changingFloor || gui.isChangingScene) return;
 
         cameraTransform.position = playerRigidbody.position + cameraOffset;
         moveVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -172,9 +236,16 @@ public class DungeonManager : MonoBehaviour
         }
         playerAnimator.SetBool("Move", moving);
 
+        Vector2Int newPosition = ComputePlayerPosition();
+        if (newPosition != playerPosition)
+        {
+            playerPosition = newPosition;
+            gui.UpdateMiniMap(generator.grid, playerPosition);
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            gui.TogglePauseMenu();
+            gui.OpenPauseMenu();
         }
 
 #if UNITY_EDITOR
@@ -191,7 +262,7 @@ public class DungeonManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (inBattle || changingFloor)
+        if (inBattle || changingFloor || gui.isChangingScene)
         {
             playerRigidbody.velocity = Vector3.zero;
             return;

@@ -38,6 +38,10 @@ public class GAMEFILE
     public List<InventorySlot> inventory;
     public List<int> followers;
 
+    public bool inDungeon;
+    public string dungeonID;
+    public int dungeonFloor;
+
     public GAMEFILE()
     {
         this.stack = new List<NovelController.StackEntry>();
@@ -57,6 +61,9 @@ public class GAMEFILE
         this.rpgCharacters = new List<RPGCharacterData>();
         this.inventory = new List<InventorySlot>();
         this.followers = new List<int>();
+        this.inDungeon = false;
+        this.dungeonID = null;
+        this.dungeonFloor = 0;
     }
 
     [System.Serializable]

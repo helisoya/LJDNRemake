@@ -26,6 +26,13 @@ saves_confirmDesc = Utiliser ce slot ?
 saves_confirm = Confirmer
 saves_back = Retour
 
+pause_title = Pause
+pause_resume = Continuer
+pause_save = Sauvegarder
+pause_load = Charger
+pause_settings = Paramètres
+pause_quit = Quitter
+
 # ------------------------------------------------------------------------
 # ------------------------- Battles --------------------------------------
 # ------------------------------------------------------------------------

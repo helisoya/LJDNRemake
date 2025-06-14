@@ -1,16 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// Represents the dungeon's GUI
 /// </summary>
 public class DungeonGUI : MonoBehaviour
 {
+    [Header("Players")]
+    [SerializeField] private BattlePlayerIcon playerIconPrefab;
+    [SerializeField] private Transform playerIconsRoot;
+    private List<BattlePlayerIcon> playersIcons;
+
+    [Header("MiniMap")]
+    [SerializeField] private Transform miniMapRoot;
+
+    [Header("Pause")]
+    [SerializeField] private GameObject pauseRoot;
+
+
     [Header("Other")]
     [SerializeField] private Fade fade;
+    [SerializeField] private SaveMenu saveMenu;
     [SerializeField] private PauseMenu pauseMenu;
     public bool fading { get { return fade.fading; } }
+    private Coroutine chaningScene;
+    public bool isChangingScene { get { return chaningScene != null; } }
 
     void Start()
     {
@@ -19,13 +37,136 @@ public class DungeonGUI : MonoBehaviour
     }
 
     /// <summary>
+    /// Updates the minimap
+    /// </summary>
+    /// <param name="grid">The grid</param>
+    /// <param name="playerPos">The player position</param>
+    public void UpdateMiniMap(Grid2D<Generator2D.CellType> grid, Vector2Int playerPos)
+    {
+        int gridSize = 5;
+        int x;
+        int y;
+        Color color;
+        for (int i = 0; i < gridSize * gridSize; i++)
+        {
+            y = i / gridSize;
+            x = i % gridSize;
+            if (x == 2 && y == 2) continue;
+            x = playerPos.x + (x - 2);
+            y = playerPos.y - (y - 2);
+
+
+            if (x < 0 || y < 0 || y > grid.Size.y - 1 || x > grid.Size.x - 1) color = Color.black;
+            else color = grid[x, y] == Generator2D.CellType.None ? Color.black : Color.gray;
+            miniMapRoot.GetChild(i).GetComponent<Image>().color = color;
+        }
+    }
+
+    /// <summary>
+    /// Sets the current players on GUI
+    /// </summary>
+    /// <param name="players">The list of players</param>
+    public void SetPlayerIcons(List<RPGCharacter> players)
+    {
+        playersIcons = new List<BattlePlayerIcon>();
+        foreach (RPGCharacter character in players)
+        {
+            BattlePlayerIcon icon = Instantiate(playerIconPrefab, playerIconsRoot);
+            icon.Init(character);
+            playersIcons.Add(icon);
+        }
+    }
+
+    /// <summary>
+    /// Refreshs the player icons
+    /// </summary>
+    public void RefreshPlayerIcons()
+    {
+        foreach (BattlePlayerIcon icon in playersIcons)
+        {
+            icon.UpdateIcon(true);
+        }
+    }
+
+    /// <summary>
     /// Toggles the pause menu
     /// </summary>
-    public void TogglePauseMenu()
+    public void OpenPauseMenu()
     {
-        if (pauseMenu.open) pauseMenu.Close();
-        else pauseMenu.Show();
+        Time.timeScale = 0;
+        pauseRoot.SetActive(true);
     }
+
+    /// <summary>
+    /// Closes the pause menu
+    /// </summary>
+    public void ClosePauseMenu()
+    {
+        if (isChangingScene) return;
+
+        Time.timeScale = 1;
+        pauseRoot.SetActive(false);
+    }
+
+    /// <summary>
+    /// Opens the settings
+    /// </summary>
+    public void OpenSettings()
+    {
+        pauseMenu.Show();
+    }
+
+    /// <summary>
+    /// Opens the save menu
+    /// </summary>
+    public void OpenSave()
+    {
+        saveMenu.Open(true);
+    }
+
+    /// <summary>
+    /// Opens the load menu
+    /// </summary>
+    public void OpenLoad()
+    {
+        saveMenu.Open(false);
+    }
+
+    /// <summary>
+    /// Closes the game
+    /// </summary>    
+    public void QuitGame()
+    {
+        if (isChangingScene) return;
+        ChangeScene("MainMenu");
+    }
+
+    /// <summary>
+    /// Changes the scene
+    /// </summary>
+    /// <param name="scene">The new scene</param>
+    public void ChangeScene(string scene)
+    {
+        if (isChangingScene) return;
+        chaningScene = StartCoroutine(Routine_ChangeScene(scene));
+    }
+
+    /// <summary>
+    /// Routine for changing scenes
+    /// </summary>
+    /// <param name="scene">The new scene</param>
+    /// <returns>IEnumerator</returns>
+    private IEnumerator Routine_ChangeScene(string scene)
+    {
+        Time.timeScale = 1f;
+        FadeTo(1);
+        yield return new WaitForEndOfFrame();
+        while (fading) yield return new WaitForEndOfFrame();
+
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
+
+
     /// <summary>
     /// Starts fading the screen
     /// </summary>

@@ -21,6 +21,8 @@ MonoBehaviour:
   battleBackground: Grass
   size: {x: 40, y: 40}
   roomCount: 10
-  roomMaxSize: {x: 8, y: 8}
+  roomMaxSize: {x: 4, y: 4}
   cellPrefab: {fileID: 8148160245439542551, guid: e7d1e29523ccaa8479f642e9071b954f,
+    type: 3}
+  stairsPrefab: {fileID: 2695139049142173575, guid: 1bef9f48b7e797d4090d4d335f8219dd,
     type: 3}

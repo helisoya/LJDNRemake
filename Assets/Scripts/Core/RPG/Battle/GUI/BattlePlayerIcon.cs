@@ -20,7 +20,7 @@ public class BattlePlayerIcon : MonoBehaviour
     public bool fillingSP { get { return spFill.filling; } }
     public bool fillingHealth { get { return healthFill.filling; } }
 
-    private BattleManager.CharacterData data;
+    private RPGCharacter data;
 
     /// <summary>
     /// Gets the component's character ID
@@ -28,7 +28,7 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <returns>Its character ID</returns>
     public string GetID()
     {
-        return data.characterData.GetData().ID;
+        return data.GetData().ID;
     }
 
     /// <summary>
@@ -37,8 +37,17 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <param name="data">Its linked data</param>
     public void Init(BattleManager.CharacterData data)
     {
+        Init(data.characterData);
+    }
+
+    /// <summary>
+    /// Initialize the component
+    /// </summary>
+    /// <param name="data">Its linked data</param>
+    public void Init(RPGCharacter data)
+    {
         this.data = data;
-        playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.characterData.GetData().ID);
+        playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.GetData().ID);
         UpdateIcon(true);
     }
 
@@ -68,10 +77,10 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <param name="immediateForBars">True if the health bar changes should be immediate</param>
     public void UpdateIcon(bool immediateForBars = false)
     {
-        healthFill.SetValue((float)data.characterData.currentHealth / data.characterData.maxHealth, immediateForBars);
-        spFill.SetValue((float)data.characterData.currentSP / data.characterData.maxSP, immediateForBars);
-        healthText.text = data.characterData.currentHealth + "/" + data.characterData.maxHealth;
-        spText.text = data.characterData.currentSP + "/" + data.characterData.maxSP;
+        healthFill.SetValue((float)data.currentHealth / data.maxHealth, immediateForBars);
+        spFill.SetValue((float)data.currentSP / data.maxSP, immediateForBars);
+        healthText.text = data.currentHealth + "/" + data.maxHealth;
+        spText.text = data.currentSP + "/" + data.maxSP;
     }
 
     /// <summary>

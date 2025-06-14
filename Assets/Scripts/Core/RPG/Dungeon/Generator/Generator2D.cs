@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 using Graphs;
+using Unity.VisualScripting;
 
 public class Generator2D : MonoBehaviour
 {
-    enum CellType
+    public enum CellType
     {
         None,
         Room,
@@ -29,16 +30,39 @@ public class Generator2D : MonoBehaviour
         }
     }
 
+    [SerializeField] private Vector2 cellSize = new Vector2(8, 8);
     [SerializeField] private Transform cellsRoot;
     [SerializeField] private Vector3 cellsOffset;
-    [SerializeField] private Transform[] objectsToPlace;
+    [SerializeField] private List<Transform> objectsToPlace;
+    private List<Transform> defaultList;
 
     private Random random;
-    private Grid2D<CellType> grid;
+    public Grid2D<CellType> grid { get; private set; }
     private List<Room> rooms;
     private Delaunay2D delaunay;
     private HashSet<Prim.Edge> selectedEdges;
 
+    private void Awake()
+    {
+        defaultList = new List<Transform>(objectsToPlace);
+    }
+
+    /// <summary>
+    /// Adds an object to the list of objects to add on generation
+    /// </summary>
+    /// <param name="obj">The object</param>
+    public void AddEntityToPlace(Transform obj)
+    {
+        objectsToPlace.Add(obj);
+    }
+
+    /// <summary>
+    /// Resets the entities to place
+    /// </summary>
+    public void ResetEntitiesToPlace()
+    {
+        objectsToPlace = new List<Transform>(defaultList);
+    }
 
     public void Generate(DungeonData data)
     {
@@ -67,9 +91,9 @@ public class Generator2D : MonoBehaviour
             selectedIdx = random.Next(0, tempRooms.Count);
             room = tempRooms[selectedIdx];
             obj.position = new Vector3(
-                room.bounds.center.x * 4 + cellsOffset.x,
+                room.bounds.center.x * cellSize.x + cellsOffset.x,
                 cellsOffset.y,
-                room.bounds.center.y * 4 + cellsOffset.z);
+                room.bounds.center.y * cellSize.y + cellsOffset.z);
             tempRooms.RemoveAt(selectedIdx);
         }
 
@@ -236,7 +260,7 @@ public class Generator2D : MonoBehaviour
                 pos.y = y;
                 if (grid[pos] != CellType.None)
                 {
-                    DungeonCell cell = Instantiate(cellPrefab, new Vector3(x * 4 + cellsOffset.x, cellsOffset.y, y * 4 + cellsOffset.z), Quaternion.identity, cellsRoot);
+                    DungeonCell cell = Instantiate(cellPrefab, new Vector3(x * cellSize.x + cellsOffset.x, cellsOffset.y, y * cellSize.y + cellsOffset.z), Quaternion.identity, cellsRoot);
                     pos.x = x - 1;
                     leftOpen = x > 0 ? (grid[pos] == CellType.None ? false : true) : false;
                     pos.x = x + 1;

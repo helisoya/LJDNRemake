@@ -14,12 +14,19 @@ public class SaveMenu : MonoBehaviour
     [SerializeField] private SaveButton prefabButton;
     [SerializeField] private Transform buttonsRoot;
     [SerializeField] private SaveButton[] buttons;
-    [SerializeField] private bool isInGame = true;
+    [SerializeField] private CurrentScene currentScene;
     [SerializeField] private Scrollbar scrollbar;
 
     [Header("Confirm choice")]
     [SerializeField] private GameObject confirmRoot;
     [SerializeField] private SaveButton confirmWidget;
+
+    public enum CurrentScene
+    {
+        MAINMENU,
+        VN,
+        DUNGEON
+    }
 
 
     private int currentSlot;
@@ -94,7 +101,8 @@ public class SaveMenu : MonoBehaviour
 
             if (isInSavingMode && info == null)
             {
-                NovelController.instance.SaveGameFile(slot.ToString());
+                if (currentScene == CurrentScene.VN) NovelController.instance.SaveGameFile(slot.ToString());
+                else if (currentScene == CurrentScene.DUNGEON) DungeonManager.instance.SaveGame(slot.ToString());
                 Open(isInSavingMode, false);
             }
             else
@@ -114,24 +122,30 @@ public class SaveMenu : MonoBehaviour
         confirmRoot.SetActive(false);
         if (isInSavingMode)
         {
-            NovelController.instance.SaveGameFile(currentSlot.ToString());
+            if (currentScene == CurrentScene.VN) NovelController.instance.SaveGameFile(currentSlot.ToString());
+            else if (currentScene == CurrentScene.DUNGEON) DungeonManager.instance.SaveGame(currentSlot.ToString());
             Open(isInSavingMode, false);
         }
         else
         {
-            if (isInGame)
+            Time.timeScale = 1;
+            if (currentScene == CurrentScene.VN)
             {
                 NovelController.instance.LoadGameFile(currentInfo.slot);
                 Close(true);
             }
-            else
+            else if (currentScene == CurrentScene.MAINMENU)
             {
                 GameManager.instance.SetSaveToLoad(currentInfo.slot);
                 GameManager.instance.SetNextChapter("");
                 MainMenuManager.instance.StartTransitionToVN();
                 Close(true);
             }
-
+            else if (currentScene == CurrentScene.DUNGEON)
+            {
+                DungeonManager.instance.LoadGame(currentInfo.slot);
+                Close(true);
+            }
         }
     }
 

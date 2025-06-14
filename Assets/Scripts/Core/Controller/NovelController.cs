@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NovelController : MonoBehaviour
 {
@@ -71,8 +72,21 @@ public class NovelController : MonoBehaviour
 
     public void LoadGameFile(string saveName = "save")
     {
-        GameManager.instance.SetSaveToLoad(saveName);
         GAMEFILE activeGameFile = GameManager.GetSaveManager().Load(saveName);
+
+        if (activeGameFile.inDungeon)
+        {
+            GameManager.instance.SetSaveToLoad(null);
+            GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
+            GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
+            GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+            GameManager.GetRPGManager().SetNextDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
+            SceneManager.LoadScene("Dungeon");
+            return;
+        }
+
+
+        GameManager.instance.SetSaveToLoad(saveName);
 
         VNGUI.instance.ForceBgTo(activeGameFile.fadeBg);
         VNGUI.instance.ForceFgTo(activeGameFile.fadeFg);
@@ -166,6 +180,8 @@ public class NovelController : MonoBehaviour
         activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
         activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
+
+        activeGameFile.inDungeon = false;
 
         GameManager.GetSaveManager().Save(saveName);
     }

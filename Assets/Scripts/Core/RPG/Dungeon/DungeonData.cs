@@ -22,4 +22,5 @@ public class DungeonData : ScriptableObject
     public int roomCount;
     public Vector2Int roomMaxSize;
     public DungeonCell cellPrefab;
+    public DungeonStairs stairsPrefab;
 }

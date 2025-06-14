@@ -18,6 +18,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private TMP_Dropdown resolutionDropdown;
     [SerializeField] private Toggle fullscreenToggle;
     [SerializeField] private TMP_Dropdown qualityDropdown;
+    [SerializeField] private bool pauseTime = true;
     public bool open { get { return root.activeInHierarchy; } }
 
     /// <summary>
@@ -61,7 +62,7 @@ public class PauseMenu : MonoBehaviour
     /// </summary>
     public void Show()
     {
-        Time.timeScale = 0;
+        if (pauseTime) Time.timeScale = 0;
         ResetValues();
         root.SetActive(true);
     }
@@ -123,7 +124,7 @@ public class PauseMenu : MonoBehaviour
     /// </summary>
     public void Close()
     {
-        Time.timeScale = 1;
+        if (pauseTime) Time.timeScale = 1;
         root.SetActive(false);
     }
 
