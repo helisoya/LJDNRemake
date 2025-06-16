@@ -309,5 +309,13 @@
 			"battle(ENCOUNTER;BACKGROUND;NEXTCHAPTER)"
 		],
 		"description": "Starts a Battle Encounter"
+	},
+	"Dungeon": {
+		"scope": "ansl",
+		"prefix": "dungeon",
+		"body": [
+			"dungeon(DUNGEON;STARTFLOOR)"
+		],
+		"description": "Starts a Dungeon"
 	}
 }

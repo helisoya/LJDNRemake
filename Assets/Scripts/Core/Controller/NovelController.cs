@@ -771,6 +771,23 @@ public class NovelController : MonoBehaviour
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Battle");
                 break;
 
+            case "dungeon":
+                if (isQuickCommand) break;
+
+                GameManager.GetRPGManager().SetNextDungeon(
+                    Resources.Load<DungeonData>("RPG/Dungeons/" + parameters[0]),
+                    int.Parse(parameters[1]));
+
+                VNGUI.instance.FadeFgTo(1);
+                yield return new WaitForEndOfFrame();
+                while (VNGUI.instance.fadingFg)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
+
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Dungeon");
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;
