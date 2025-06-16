@@ -24,14 +24,17 @@ public class DungeonGUI : MonoBehaviour
 
     [Header("Other")]
     [SerializeField] private Fade fade;
+    [SerializeField] private FadeShader fadeShader;
     [SerializeField] private SaveMenu saveMenu;
     [SerializeField] private PauseMenu pauseMenu;
     public bool fading { get { return fade.fading; } }
+    public bool fadingShader { get { return fadeShader.fading; } }
     private Coroutine chaningScene;
     public bool isChangingScene { get { return chaningScene != null; } }
 
     void Start()
     {
+        fadeShader.ForceAlphaTo(0.0f);
         fade.ForceAlphaTo(1f);
         fade.FadeTo(0f);
     }
@@ -174,5 +177,14 @@ public class DungeonGUI : MonoBehaviour
     public void FadeTo(float alpha)
     {
         fade.FadeTo(alpha);
+    }
+
+    /// <summary>
+    /// Starts fading the screen (shader version)
+    /// </summary>
+    /// <param name="alpha">The alpha target</param>
+    public void ShaderFadeTo(float alpha)
+    {
+        fadeShader.FadeTo(alpha);
     }
 }

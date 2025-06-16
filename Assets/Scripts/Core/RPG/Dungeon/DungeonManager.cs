@@ -169,6 +169,20 @@ public class DungeonManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Routine for starting a battle
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator Routine_TransitionToBattle()
+    {
+        gui.ShaderFadeTo(1.0f);
+        yield return new WaitForEndOfFrame();
+        while (gui.fadingShader) yield return new WaitForEndOfFrame();
+
+        SceneManager.LoadScene("Battle", LoadSceneMode.Additive);
+        EnableBattleRequirements(false);
+    }
+
+    /// <summary>
     /// Computes the meters to the next encounter
     /// </summary>
     private void ComputeMetersToNextEncounter()
@@ -189,8 +203,7 @@ public class DungeonManager : MonoBehaviour
             BattleData.CloseType.UNLOAD,
             null
         );
-        SceneManager.LoadScene("Battle", LoadSceneMode.Additive);
-        EnableBattleRequirements(false);
+        StartCoroutine(Routine_TransitionToBattle());
     }
 
     /// <summary>
@@ -201,6 +214,7 @@ public class DungeonManager : MonoBehaviour
         gui.RefreshPlayerIcons();
         SceneManager.UnloadSceneAsync("Battle").completed += _ =>
         {
+            gui.ShaderFadeTo(0.0f);
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("Dungeon"));
             inBattle = false;
             EnableBattleRequirements(true);
