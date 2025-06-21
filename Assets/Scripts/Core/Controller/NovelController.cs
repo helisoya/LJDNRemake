@@ -80,6 +80,7 @@ public class NovelController : MonoBehaviour
             GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
             GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
             GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+            GameManager.GetRPGManager().SetMoney(activeGameFile.money);
             GameManager.GetRPGManager().SetNextDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
             SceneManager.LoadScene("Dungeon");
             return;
@@ -139,6 +140,7 @@ public class NovelController : MonoBehaviour
         GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
         GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+        GameManager.GetRPGManager().SetMoney(activeGameFile.money);
 
         loadedAutoSave = saveName.Equals("auto");
 
@@ -180,6 +182,7 @@ public class NovelController : MonoBehaviour
         activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
         activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
+        activeGameFile.money = GameManager.GetRPGManager().money;
 
         activeGameFile.inDungeon = false;
 

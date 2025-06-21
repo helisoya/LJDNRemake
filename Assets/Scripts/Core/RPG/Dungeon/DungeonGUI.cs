@@ -27,6 +27,7 @@ public class DungeonGUI : MonoBehaviour
     [SerializeField] private FadeShader fadeShader;
     [SerializeField] private SaveMenu saveMenu;
     [SerializeField] private PauseMenu pauseMenu;
+    [SerializeField] private PartyMenu partyMenu;
     public bool fading { get { return fade.fading; } }
     public bool fadingShader { get { return fadeShader.fading; } }
     private Coroutine chaningScene;
@@ -108,6 +109,7 @@ public class DungeonGUI : MonoBehaviour
         if (isChangingScene) return;
 
         Time.timeScale = 1;
+        RefreshPlayerIcons();
         pauseRoot.SetActive(false);
     }
 
@@ -133,6 +135,14 @@ public class DungeonGUI : MonoBehaviour
     public void OpenLoad()
     {
         saveMenu.Open(false);
+    }
+
+    /// <summary>
+    /// Opens the party menu
+    /// </summary>
+    public void OpenParty()
+    {
+        partyMenu.Open();
     }
 
     /// <summary>

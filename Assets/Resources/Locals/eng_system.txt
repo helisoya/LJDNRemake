@@ -31,7 +31,38 @@ pause_resume = Resume
 pause_save = Save Game
 pause_load = Load Game
 pause_settings = Settings
+pause_party = Party
 pause_quit = Quit
+
+party_title = Party
+party_status = Status
+party_equip = Equip
+party_items = Items
+party_back = Back
+
+party_status_title = Status
+party_status_gold = Gold :
+party_status_hp = HP : 
+party_status_sp = SP :
+party_status_exp = Exp :
+party_status_data = /
+party_status_weapon = Weapon :
+party_status_armor = Armor :
+party_status_attack = Atk :
+party_status_defense = Def :
+party_status_evasion = Eva :
+party_status_charisma = Cha :
+party_status_none = None
+
+party_equip_title = Equip
+party_equip_weapon = Weapon
+party_equip_armor = Armor
+party_equip_data = -
+
+party_items_title = Items
+party_items_usables = Consumables
+party_items_key = Key items
+party_items_use = Use item on
 
 # ------------------------------------------------------------------------
 # ------------------------- Battles --------------------------------------
@@ -64,6 +95,8 @@ battle_action_ailement = is affected by :
 battle_lost = You lose
 battle_won = You won !
 battle_levelUp = has leveled up !
+battle_gold = Gold earned :
+battle_exp = Exp Earned :
 
 # ------------------------------------------------------------------------
 # ------------------------ Level up --------------------------------------

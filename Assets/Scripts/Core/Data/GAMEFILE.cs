@@ -37,6 +37,7 @@ public class GAMEFILE
     public List<RPGCharacterData> rpgCharacters;
     public List<InventorySlot> inventory;
     public List<int> followers;
+    public int money;
 
     public bool inDungeon;
     public string dungeonID;
@@ -64,6 +65,7 @@ public class GAMEFILE
         this.inDungeon = false;
         this.dungeonID = null;
         this.dungeonFloor = 0;
+        this.money = 0;
     }
 
     [System.Serializable]

@@ -50,7 +50,18 @@ public class DungeonManager : MonoBehaviour
     void Start()
     {
         SetupGUI();
-        if (useDebug) LoadDungeon(debugData);
+        if (useDebug)
+        {
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_POTION", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_REVIVE", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_POISON", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_CURE", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_SLEEP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_ATTACK_UP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_DEFENSE_UP", 4);
+            GameManager.GetRPGManager().AddItemToInventory("ITEM_CONFUSE", 4);
+            LoadDungeon(debugData);
+        }
         else LoadDungeon(GameManager.GetRPGManager().dungeonData, GameManager.GetRPGManager().dungeonFloorStart);
     }
 
@@ -61,6 +72,7 @@ public class DungeonManager : MonoBehaviour
         activeGameFile.rpgCharacters = GameManager.GetRPGManager().GetCharacters();
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
         activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
+        activeGameFile.money = GameManager.GetRPGManager().money;
 
         activeGameFile.inDungeon = true;
         activeGameFile.dungeonID = data.ID;
@@ -86,6 +98,7 @@ public class DungeonManager : MonoBehaviour
         GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
         GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
+        GameManager.GetRPGManager().SetMoney(activeGameFile.money);
         LoadDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
     }
 

@@ -9,6 +9,7 @@ using UnityEngine;
 public class BattleData : ScriptableObject
 {
     public RPGCharacterDataInterface[] ennemies;
+    public int goldReward;
 
     public enum CloseType
     {

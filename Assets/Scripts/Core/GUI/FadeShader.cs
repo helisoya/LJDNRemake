@@ -46,6 +46,7 @@ public class FadeShader : MonoBehaviour
     public void ForceAlphaTo(float alpha)
     {
         this.alpha = alpha;
+        fadeImg.material.SetFloat("_State", alpha);
         if (routineFading != null)
         {
             StopCoroutine(routineFading);

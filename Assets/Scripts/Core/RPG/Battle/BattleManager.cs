@@ -107,13 +107,34 @@ public class BattleManager : MonoBehaviour
         gui.SetActionTextVisible(true);
         yield return new WaitForSeconds(1);
 
+        GameManager.GetRPGManager().AddMoney(data.goldReward);
+
+        gui.GetActionText().SetParameters("", "", " ", "");
+        gui.GetActionText().SetValue(null, data.goldReward, false);
+        gui.GetActionText().SetNewKey("battle_gold");
+        gui.SetActionTextVisible(true);
+        yield return new WaitForSeconds(1);
+
+        foreach (CharacterData follower in players)
+        {
+            if (follower.dead) follower.characterData.AddHealth(1);
+        }
+
+        int totalExp = 0;
         foreach (CharacterData ennemy in ennemies)
         {
+            totalExp += ennemy.characterData.GetData().exp;
             foreach (CharacterData follower in players)
             {
                 follower.characterData.GetData().exp += ennemy.characterData.GetData().exp;
             }
         }
+
+        gui.GetActionText().SetParameters("", "", " ", "");
+        gui.GetActionText().SetValue(null, totalExp, false);
+        gui.GetActionText().SetNewKey("battle_exp");
+        gui.SetActionTextVisible(true);
+        yield return new WaitForSeconds(1);
 
         foreach (CharacterData follower in players)
         {
@@ -121,7 +142,7 @@ public class BattleManager : MonoBehaviour
             {
 
                 SetCameraTarget(follower.characterVisual.transform);
-                string playerName = follower.characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(order[currentOrderIdx].characterData.GetData().ID + "_name");
+                string playerName = follower.characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(follower.characterData.GetData().ID + "_name");
                 gui.GetActionText().SetParameters("", " ", "", "");
                 gui.GetActionText().SetValue(playerName, null, false);
                 gui.GetActionText().SetNewKey("battle_levelUp");
@@ -331,6 +352,12 @@ public class BattleManager : MonoBehaviour
         gui.GetActionText().SetValue(playerName, null, false);
         gui.GetActionText().SetNewKey("battle_action_block");
         gui.SetActionTextVisible(true);
+        order[currentOrderIdx].characterData.GetData().currentSP = Mathf.CeilToInt(Mathf.Clamp(
+            order[currentOrderIdx].characterData.GetData().currentSP + order[currentOrderIdx].characterData.maxSP / 10.0f,
+            0,
+            order[currentOrderIdx].characterData.maxSP
+        ));
+        if (order[currentOrderIdx].isPlayer) gui.GetPlayerIcon(order[currentOrderIdx].characterData.GetData().ID).UpdateIcon();
 
         yield return new WaitForSeconds(1.0f);
 

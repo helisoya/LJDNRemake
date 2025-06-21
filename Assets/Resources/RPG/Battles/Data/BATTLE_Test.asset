@@ -15,5 +15,4 @@ MonoBehaviour:
   ennemies:
   - {fileID: 11400000, guid: aa01f7ce14e548542a85366e37d2502a, type: 2}
   - {fileID: 11400000, guid: aa01f7ce14e548542a85366e37d2502a, type: 2}
-  closeType: 0
-  nextChapter: Test/After
+  goldReward: 10

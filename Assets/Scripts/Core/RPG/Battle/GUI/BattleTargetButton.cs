@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class BattleTargetButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] private LocalizedText targetNameText;
+    [SerializeField] private TextMeshProUGUI targetNameText;
     private List<BattleManager.CharacterData> linkedTarget;
     private BattleGUI gui;
 
@@ -19,8 +21,18 @@ public class BattleTargetButton : MonoBehaviour, IPointerEnterHandler, IPointerE
         this.linkedTarget = target;
         this.gui = gui;
 
-        if (target.Count == 1) targetNameText.SetNewKey(target[0].characterData.GetData().ID + "_name");
-        else targetNameText.SetNewKey("battle_target_multiple");
+        string text = "";
+        if (target.Count == 1)
+        {
+            text = target[0].characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(target[0].characterData.GetData().ID + "_name");
+        }
+        else
+        {
+            text = Locals.GetLocal("battle_target_multiple");
+        }
+        targetNameText.text = text;
+
+
     }
 
     public void Click()

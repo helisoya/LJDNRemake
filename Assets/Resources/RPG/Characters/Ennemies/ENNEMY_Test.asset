@@ -33,4 +33,4 @@ MonoBehaviour:
     level: 1
     currentHP: 0
     currentSP: 0
-    exp: 50
+    exp: 10

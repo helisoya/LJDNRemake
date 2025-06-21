@@ -17,6 +17,7 @@ public class RPGManager : MonoBehaviour
     [SerializeField] private string itemsPath = "RPG/Items/";
     private List<InventorySlot> inventory;
     private Dictionary<string, RPGItem> items;
+    public int money { get; private set; }
 
     public BattleData battleData { get; private set; }
     public string battleBackground { get; private set; }
@@ -36,6 +37,7 @@ public class RPGManager : MonoBehaviour
         characters = new List<RPGCharacter>();
         items = new Dictionary<string, RPGItem>();
         inventory = new List<InventorySlot>();
+        money = 0;
         Reset();
     }
 
@@ -44,6 +46,7 @@ public class RPGManager : MonoBehaviour
     /// </summary>
     public void Reset()
     {
+        money = 0;
         followers.Clear();
         followers.Add(0);
         characters.Clear();
@@ -55,6 +58,24 @@ public class RPGManager : MonoBehaviour
             ch.SetSPToMax();
             characters.Add(ch);
         }
+    }
+
+    /// <summary>
+    /// Sets the current money count
+    /// </summary>
+    /// <param name="amount">The new money count</param>
+    public void SetMoney(int amount)
+    {
+        money = amount;
+    }
+
+    /// <summary>
+    /// Adds money
+    /// </summary>
+    /// <param name="amount">The amount to add</param>
+    public void AddMoney(int amount)
+    {
+        money = Mathf.Clamp(money + amount, 0, 999999);
     }
 
     /// <summary>
