@@ -317,5 +317,53 @@
 			"dungeon(DUNGEON;STARTFLOOR)"
 		],
 		"description": "Starts a Dungeon"
+	},
+	"Add an item": {
+		"scope": "ansl",
+		"prefix": "addItem",
+		"body": [
+			"addItem(ITEM;AMOUNT)"
+		],
+		"description": "Adds an item to the inventory"
+	},
+	"Add a follower": {
+		"scope": "ansl",
+		"prefix": "addFollower",
+		"body": [
+			"addFollower(ID)"
+		],
+		"description": "Adds a follower"
+	},
+	"Remove a follower": {
+		"scope": "ansl",
+		"prefix": "removeFollower",
+		"body": [
+			"removeFollower(ID)"
+		],
+		"description": "Removes a follower"
+	},
+	"Add gold": {
+		"scope": "ansl",
+		"prefix": "addGold",
+		"body": [
+			"addGold(AMOUNT)"
+		],
+		"description": "Adds gold"
+	},
+	"Add EXP to a character": {
+		"scope": "ansl",
+		"prefix": "addExp",
+		"body": [
+			"addExp(ID;AMOUNT)"
+		],
+		"description": "Adds EXP to a character"
+	},
+	"Add EXP to all followers": {
+		"scope": "ansl",
+		"prefix": "addExpToAll",
+		"body": [
+			"addExpToAll(AMOUNT)"
+		],
+		"description": "Adds EXP to all followers"
 	}
 }

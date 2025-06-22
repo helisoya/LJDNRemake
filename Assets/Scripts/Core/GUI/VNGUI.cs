@@ -27,6 +27,9 @@ public class VNGUI : MonoBehaviour
     [Header("Interaction Mode")]
     [SerializeField] private GameObject interactionModeRoot;
 
+    [Header("Level Up")]
+    [SerializeField] private LevelUpMenu levelUpMenu;
+
     private Coroutine routineExit;
 
     public bool fadingBg { get { return fadeBg.fading; } }
@@ -36,6 +39,8 @@ public class VNGUI : MonoBehaviour
     public Color fadeBgColor { get { return fadeBg.currenColor; } }
     public Color fadeFgColor { get { return fadeFg.currenColor; } }
     public bool fadingFlash { get { return flash.fading; } }
+
+    public bool levelingUp { get { return levelUpMenu.open; } }
 
     void Awake()
     {
@@ -47,6 +52,15 @@ public class VNGUI : MonoBehaviour
         fadeBg.FadeTo(0);
 
         flash.ForceAlphaTo(0);
+    }
+
+    /// <summary>
+    /// Opens the level up menu for a character
+    /// </summary>
+    /// <param name="character">The character</param>
+    public void OpenLevelUpMenu(RPGCharacter character)
+    {
+        levelUpMenu.Open(character);
     }
 
     /// <summary>

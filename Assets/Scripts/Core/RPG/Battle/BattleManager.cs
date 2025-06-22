@@ -165,6 +165,7 @@ public class BattleManager : MonoBehaviour
 
         if (GameManager.GetRPGManager().battleCloseType == BattleData.CloseType.VN)
         {
+            AudioManager.instance.PlaySong(null);
             GameManager.instance.SetNextChapter(GameManager.GetRPGManager().battleNextChapter);
             SceneManager.LoadScene("VN");
         }
@@ -240,6 +241,8 @@ public class BattleManager : MonoBehaviour
         ennemies.Clear();
         order.Clear();
         currentOrderIdx = 0;
+
+        AudioManager.instance.PlaySong(data.music);
 
         List<ItemData> items = new List<ItemData>();
         RPGItem item;

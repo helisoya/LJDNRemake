@@ -12,6 +12,7 @@ public class DungeonData : ScriptableObject
     public string ID;
     public int floorsAmount;
     public string endChapter;
+    public string musicName;
 
     [Header("Encounters")]
     public BattleData[] encounters;

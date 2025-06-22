@@ -99,6 +99,7 @@ public class DungeonManager : MonoBehaviour
         GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
         GameManager.GetRPGManager().SetMoney(activeGameFile.money);
+        gui.RefreshPlayerIcons();
         LoadDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
     }
 
@@ -130,6 +131,7 @@ public class DungeonManager : MonoBehaviour
         generator.AddEntityToPlace(stairs.transform);
         stairs.active = false;
         currentFloor = startFloor - 1;
+        AudioManager.instance.PlaySong(data.musicName);
         NextFloor();
     }
 
@@ -163,6 +165,7 @@ public class DungeonManager : MonoBehaviour
         while (gui.fading) yield return new WaitForEndOfFrame();
 
         currentFloor++;
+        gui.SetFloor(currentFloor + 1);
         if (currentFloor == data.floorsAmount)
         {
             GameManager.instance.SetNextChapter(data.endChapter);
@@ -208,10 +211,12 @@ public class DungeonManager : MonoBehaviour
     /// </summary>
     public void StartRandomEncounter()
     {
+        BattleData chosenData = data.encounters[Random.Range(0, data.encounters.Length)];
+        AudioManager.instance.PlaySong(chosenData.music);
         inBattle = true;
         ComputeMetersToNextEncounter();
         GameManager.GetRPGManager().SetNextBattleEncounter(
-            data.encounters[Random.Range(0, data.encounters.Length)],
+            chosenData,
             data.battleBackground,
             BattleData.CloseType.UNLOAD,
             null
@@ -227,6 +232,7 @@ public class DungeonManager : MonoBehaviour
         gui.RefreshPlayerIcons();
         SceneManager.UnloadSceneAsync("Battle").completed += _ =>
         {
+            AudioManager.instance.PlaySong(data.musicName);
             gui.ShaderFadeTo(0.0f);
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("Dungeon"));
             inBattle = false;

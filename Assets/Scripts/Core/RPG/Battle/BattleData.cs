@@ -10,6 +10,7 @@ public class BattleData : ScriptableObject
 {
     public RPGCharacterDataInterface[] ennemies;
     public int goldReward;
+    public string music;
 
     public enum CloseType
     {

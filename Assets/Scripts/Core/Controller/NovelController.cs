@@ -791,6 +791,50 @@ public class NovelController : MonoBehaviour
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Dungeon");
                 break;
 
+            case "addItem":
+                GameManager.GetRPGManager().AddItemToInventory(parameters[0], int.Parse(parameters[1]));
+                break;
+
+            case "addFollower":
+                GameManager.GetRPGManager().AddFollower(parameters[0]);
+                break;
+
+            case "removeFollower":
+                GameManager.GetRPGManager().RemoveFollower(parameters[0]);
+                break;
+
+            case "addGold":
+                GameManager.GetRPGManager().AddMoney(int.Parse(parameters[0]));
+                break;
+
+            case "addExp":
+                RPGCharacter character = GameManager.GetRPGManager().GetCharacter(parameters[0]);
+                character.GetData().exp += int.Parse(parameters[1]);
+                if (character.canLevelUp)
+                {
+                    VNGUI.instance.OpenLevelUpMenu(character);
+                    yield return new WaitForEndOfFrame();
+                    while (VNGUI.instance.levelingUp) yield return new WaitForEndOfFrame();
+                }
+
+                break;
+
+            case "addExpToAll":
+                List<int> followers = GameManager.GetRPGManager().GetFollowers();
+                RPGCharacter follower;
+                foreach (int idxFollower in followers)
+                {
+                    follower = GameManager.GetRPGManager().GetCharacter(idxFollower);
+                    follower.GetData().exp += int.Parse(parameters[0]);
+                    if (follower.canLevelUp)
+                    {
+                        VNGUI.instance.OpenLevelUpMenu(follower);
+                        yield return new WaitForEndOfFrame();
+                        while (VNGUI.instance.levelingUp) yield return new WaitForEndOfFrame();
+                    }
+                }
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;

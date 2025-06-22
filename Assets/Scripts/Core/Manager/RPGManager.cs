@@ -190,9 +190,15 @@ public class RPGManager : MonoBehaviour
     /// <param name="list">The list</param>
     public void LoadCharactersFromList(List<RPGCharacterData> list)
     {
+        RPGCharacter other;
         foreach (RPGCharacterData character in list)
         {
-            characters.Find(other => other.GetData().ID.Equals(character.ID))?.GetData().Copy(character);
+            other = characters.Find(other => other.GetData().ID.Equals(character.ID));
+            if (other != null)
+            {
+                other.GetData().Copy(character);
+                other.UpdateComputedStats();
+            }
         }
     }
 

@@ -21,6 +21,9 @@ public class DungeonGUI : MonoBehaviour
     [Header("Pause")]
     [SerializeField] private GameObject pauseRoot;
 
+    [Header("Floor")]
+    [SerializeField] private LocalizedTextAdditive currentFloorText;
+
 
     [Header("Other")]
     [SerializeField] private Fade fade;
@@ -38,6 +41,15 @@ public class DungeonGUI : MonoBehaviour
         fadeShader.ForceAlphaTo(0.0f);
         fade.ForceAlphaTo(1f);
         fade.FadeTo(0f);
+    }
+
+    /// <summary>
+    /// Sets the current floor on GUI
+    /// </summary>
+    /// <param name="floor">The current floor</param>
+    public void SetFloor(int floor)
+    {
+        currentFloorText.SetValue(null, floor, true);
     }
 
     /// <summary>
