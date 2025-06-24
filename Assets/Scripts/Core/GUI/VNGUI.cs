@@ -30,6 +30,9 @@ public class VNGUI : MonoBehaviour
     [Header("Level Up")]
     [SerializeField] private LevelUpMenu levelUpMenu;
 
+    [Header("Party Menu")]
+    [SerializeField] private PartyMenu partyMenu;
+
     private Coroutine routineExit;
 
     public bool fadingBg { get { return fadeBg.fading; } }
@@ -52,6 +55,14 @@ public class VNGUI : MonoBehaviour
         fadeBg.FadeTo(0);
 
         flash.ForceAlphaTo(0);
+    }
+
+    /// <summary>
+    /// Opens the party menu
+    /// </summary>
+    public void OpenPartyMenu()
+    {
+        partyMenu.Open();
     }
 
     /// <summary>
