@@ -21,17 +21,13 @@ public class Map : MonoBehaviour
     private MapData currentMap;
 
     [Header("Quests")]
-    [SerializeField] private GameObject questRoot;
-    [SerializeField] private Transform questsParent;
-    [SerializeField] private GameObject questPrefab;
-    private List<string> questsId;
+    [SerializeField] private QuestsMenu questsMenu;
 
     public bool open { get { return root.activeInHierarchy; } }
 
     void Awake()
     {
         instance = this;
-        InitQuestIds();
     }
 
     void Start()
@@ -44,45 +40,10 @@ public class Map : MonoBehaviour
     /// </summary>
     public void ClickQuestButton()
     {
-        if (questRoot.activeInHierarchy) CloseQuests();
-        else OpenQuests();
+        questsMenu.Open();
     }
 
-    /// <summary>
-    /// Closes the quests tab
-    /// </summary>
-    void CloseQuests()
-    {
-        questRoot.SetActive(false);
-    }
 
-    /// <summary>
-    /// Opens the quests tab
-    /// </summary>
-    void OpenQuests()
-    {
-        questRoot.SetActive(true);
-        foreach (Transform child in questsParent)
-        {
-            Destroy(child.gameObject);
-        }
-
-        int nbQuestShown = 0;
-        foreach (string questId in questsId)
-        {
-            string value = GameManager.GetSaveManager().GetItem(questId);
-            if (value != "-1" && value != "100")
-            {
-                Instantiate(questPrefab, questsParent).GetComponent<QuestInfo>().Init(questId, value);
-                nbQuestShown++;
-            }
-        }
-
-        questsParent.GetComponent<RectTransform>().sizeDelta = new UnityEngine.Vector2(
-            questsParent.GetComponent<RectTransform>().sizeDelta.x,
-            (questPrefab.GetComponent<RectTransform>().sizeDelta.y + 5) * nbQuestShown
-        );
-    }
 
     /// <summary>
     /// Shows informations on the tooltip
@@ -103,7 +64,6 @@ public class Map : MonoBehaviour
     {
 
         root.SetActive(true);
-        CloseQuests();
 
         if (currentMap != null) currentMap.Hide();
 
@@ -139,23 +99,6 @@ public class Map : MonoBehaviour
         InteractionManager.instance.SetActive(false);
         CloseMap();
         NovelController.instance.LoadChapterFile(filename);
-    }
-
-    /// <summary>
-    /// Reads which variables are quests
-    /// </summary>
-    private void InitQuestIds()
-    {
-        questsId = new List<string>();
-
-        List<string> lines = FileManager.ReadTextAsset(Resources.Load<TextAsset>("General/quests"));
-        foreach (string line in lines)
-        {
-            if (!string.IsNullOrEmpty(line) && !line.StartsWith('#'))
-            {
-                questsId.Add(line);
-            }
-        }
     }
 
     /// <summary>

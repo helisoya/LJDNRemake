@@ -1,7 +1,14 @@
+[mainQuest]
 mainQuest
+
+[arcQuest]
 hauntedHouseQuest
 waldoQuizQuest
 horseRaceQuest
 shootSalesmanQuest
+
+[factionQuest]
 shopQuest
+
+[secondaryQuest]
 guardQuest

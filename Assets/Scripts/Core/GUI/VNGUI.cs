@@ -33,6 +33,9 @@ public class VNGUI : MonoBehaviour
     [Header("Party Menu")]
     [SerializeField] private PartyMenu partyMenu;
 
+    [Header("Quests")]
+    [SerializeField] private QuestsMenu questsMenu;
+
     private Coroutine routineExit;
 
     public bool fadingBg { get { return fadeBg.fading; } }
@@ -63,6 +66,14 @@ public class VNGUI : MonoBehaviour
     public void OpenPartyMenu()
     {
         partyMenu.Open();
+    }
+
+    /// <summary>
+    /// Opens the quests menu
+    /// </summary>
+    public void OpenQuests()
+    {
+        questsMenu.Open();
     }
 
     /// <summary>
@@ -239,7 +250,7 @@ public class VNGUI : MonoBehaviour
 
 
 
-        if (NovelController.instance.isReadyForSaving && !partyMenu.open && Input.GetKeyDown(KeyCode.Escape))
+        if (NovelController.instance.isReadyForSaving && !partyMenu.open && !questsMenu.open && Input.GetKeyDown(KeyCode.Escape))
         {
             if (pauseMenu.open) pauseMenu.Close();
             else pauseMenu.Show();

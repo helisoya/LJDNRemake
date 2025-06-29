@@ -18,6 +18,14 @@ public class QuestInfo : MonoBehaviour
     public void Init(string id, string value)
     {
         questName.SetNewKey(id);
-        questObjective.SetNewKey(id + "_" + value);
+        if (value.Equals("100"))
+        {
+            questObjective.SetNewKey(null);
+        }
+        else
+        {
+            questObjective.SetNewKey(id + "_" + value);
+        }
+
     }
 }
