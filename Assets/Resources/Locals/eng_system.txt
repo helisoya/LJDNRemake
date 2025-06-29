@@ -51,7 +51,13 @@ party_status_armor = Armor :
 party_status_attack = Atk :
 party_status_defense = Def :
 party_status_evasion = Eva :
+party_status_priceReduction = Buy :
+party_status_strength = Str :
+party_status_resilience = Res :
+party_status_agility = Agi :
 party_status_charisma = Cha :
+party_status_strategy = Sty :
+party_status_bonusHP = BHP :
 party_status_none = None
 
 party_equip_title = Equip

@@ -239,7 +239,7 @@ public class VNGUI : MonoBehaviour
 
 
 
-        if (NovelController.instance.isReadyForSaving && Input.GetKeyDown(KeyCode.Escape))
+        if (NovelController.instance.isReadyForSaving && !partyMenu.open && Input.GetKeyDown(KeyCode.Escape))
         {
             if (pauseMenu.open) pauseMenu.Close();
             else pauseMenu.Show();
