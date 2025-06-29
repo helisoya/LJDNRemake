@@ -32,7 +32,8 @@ pause_save = Save Game
 pause_load = Load Game
 pause_settings = Settings
 pause_party = Party
-pause_quit = Quit
+pause_exitDungeon = Quit Dungeon
+pause_quit = Main Menu
 
 party_title = Party
 party_status = Status

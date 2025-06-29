@@ -13,6 +13,8 @@ public class DungeonData : ScriptableObject
     public int floorsAmount;
     public string endChapter;
     public string musicName;
+    public bool canExitEarly;
+    public string earlyExitChapter;
 
     [Header("Encounters")]
     public BattleData[] encounters;

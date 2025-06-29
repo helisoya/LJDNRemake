@@ -132,6 +132,7 @@ public class DungeonManager : MonoBehaviour
         stairs.active = false;
         currentFloor = startFloor - 1;
         AudioManager.instance.PlaySong(data.musicName);
+        gui.SetCanExitDungeon(data.canExitEarly, data.earlyExitChapter);
         NextFloor();
     }
 

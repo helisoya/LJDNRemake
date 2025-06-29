@@ -20,6 +20,7 @@ public class DungeonGUI : MonoBehaviour
 
     [Header("Pause")]
     [SerializeField] private GameObject pauseRoot;
+    [SerializeField] private GameObject exitDungeonButton;
 
     [Header("Floor")]
     [SerializeField] private LocalizedTextAdditive currentFloorText;
@@ -35,6 +36,7 @@ public class DungeonGUI : MonoBehaviour
     public bool fadingShader { get { return fadeShader.fading; } }
     private Coroutine chaningScene;
     public bool isChangingScene { get { return chaningScene != null; } }
+    private string nextChapterIfExiting;
 
     void Start()
     {
@@ -42,6 +44,19 @@ public class DungeonGUI : MonoBehaviour
         fade.ForceAlphaTo(1f);
         fade.FadeTo(0f);
     }
+
+    /// <summary>
+    /// Sets if the dungeon exit button is available or not
+    /// </summary>
+    /// <param name="canExit">True if the player can exit the dungeon</param>
+    /// <param name="nextChapterIfExiting">The next chapter if the dungeon is exited early</param>
+    public void SetCanExitDungeon(bool canExit, string nextChapterIfExiting)
+    {
+        exitDungeonButton.SetActive(canExit);
+        this.nextChapterIfExiting = nextChapterIfExiting;
+    }
+
+
 
     /// <summary>
     /// Sets the current floor on GUI
@@ -164,6 +179,18 @@ public class DungeonGUI : MonoBehaviour
     {
         if (isChangingScene) return;
         ChangeScene("MainMenu");
+    }
+
+    /// <summary>
+    /// Exits the dungeon early
+    /// </summary>
+    public void ExitDungeonEarly()
+    {
+        if (isChangingScene) return;
+
+        GameManager.instance.SetSaveToLoad(null);
+        GameManager.instance.SetNextChapter(nextChapterIfExiting);
+        chaningScene = StartCoroutine(Routine_ChangeScene("VN"));
     }
 
     /// <summary>

@@ -32,7 +32,8 @@ pause_save = Sauvegarder
 pause_load = Charger
 pause_settings = Paramètres
 pause_party = Equipe
-pause_quit = Quitter
+pause_exitDungeon = Fuir Donjon
+pause_quit = Ecran Titre
 
 party_title = Equipe
 party_status = Statut
