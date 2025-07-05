@@ -15,6 +15,7 @@ public class DungeonData : ScriptableObject
     public string musicName;
     public bool canExitEarly;
     public string earlyExitChapter;
+    public string locationName;
 
     [Header("Encounters")]
     public BattleData[] encounters;

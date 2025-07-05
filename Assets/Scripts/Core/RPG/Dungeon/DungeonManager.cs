@@ -73,6 +73,8 @@ public class DungeonManager : MonoBehaviour
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
         activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
         activeGameFile.money = GameManager.GetRPGManager().money;
+        activeGameFile.locationName = GameManager.instance.currentLocation;
+
 
         activeGameFile.inDungeon = true;
         activeGameFile.dungeonID = data.ID;
@@ -99,6 +101,7 @@ public class DungeonManager : MonoBehaviour
         GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
         GameManager.GetRPGManager().SetMoney(activeGameFile.money);
+        GameManager.instance.SetCurrentLocation(activeGameFile.locationName);
         gui.RefreshPlayerIcons();
         LoadDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
     }
@@ -126,6 +129,7 @@ public class DungeonManager : MonoBehaviour
     {
         this.data = data;
         if (stairs) Destroy(stairs.gameObject);
+        GameManager.instance.SetCurrentLocation(data.locationName);
         stairs = Instantiate(data.stairsPrefab);
         generator.ResetEntitiesToPlace();
         generator.AddEntityToPlace(stairs.transform);

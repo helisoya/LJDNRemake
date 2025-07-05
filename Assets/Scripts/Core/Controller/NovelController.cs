@@ -77,6 +77,7 @@ public class NovelController : MonoBehaviour
         if (activeGameFile.inDungeon)
         {
             GameManager.instance.SetSaveToLoad(null);
+            GameManager.instance.SetCurrentLocation(activeGameFile.locationName);
             GameManager.GetRPGManager().LoadCharactersFromList(activeGameFile.rpgCharacters);
             GameManager.GetRPGManager().SetFollowers(activeGameFile.followers);
             GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
@@ -88,6 +89,7 @@ public class NovelController : MonoBehaviour
 
 
         GameManager.instance.SetSaveToLoad(saveName);
+        GameManager.instance.SetCurrentLocation(activeGameFile.locationName);
 
         VNGUI.instance.ForceBgTo(activeGameFile.fadeBg);
         VNGUI.instance.ForceFgTo(activeGameFile.fadeFg);
@@ -183,6 +185,7 @@ public class NovelController : MonoBehaviour
         activeGameFile.inventory = GameManager.GetRPGManager().GetInventory();
         activeGameFile.followers = GameManager.GetRPGManager().GetFollowers();
         activeGameFile.money = GameManager.GetRPGManager().money;
+        activeGameFile.locationName = GameManager.instance.currentLocation;
 
         activeGameFile.inDungeon = false;
 
@@ -846,6 +849,10 @@ public class NovelController : MonoBehaviour
 
             case "changeSkybox":
                 LightingManager.instance.ChangeData(parameters[0]);
+                break;
+
+            case "setLocation":
+                GameManager.instance.SetCurrentLocation(parameters[0]);
                 break;
 
             case "wait":

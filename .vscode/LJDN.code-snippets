@@ -365,5 +365,13 @@
 			"addExpToAll(AMOUNT)"
 		],
 		"description": "Adds EXP to all followers"
+	},
+	"Set the location (save info)": {
+		"scope": "ansl",
+		"prefix": "setLocation",
+		"body": [
+			"setLocation(LOCATION)"
+		],
+		"description": "Sets the location (save info)"
 	}
 }

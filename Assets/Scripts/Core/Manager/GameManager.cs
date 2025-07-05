@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
 
     private string chapterToLoad;
     private string loadSaveName = null;
+
+    public string currentLocation { get; private set; }
+
+
     [Header("General Informations")]
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private RPGManager rpgManager;
@@ -33,6 +37,7 @@ public class GameManager : MonoBehaviour
             Locals.Init();
             saveManager = new SaveManager();
             rpgManager.Init();
+            currentLocation = "NO_DATA";
 
             if (debug)
             {
@@ -51,6 +56,11 @@ public class GameManager : MonoBehaviour
         {
             Settings.Init();
         }
+    }
+
+    public void SetCurrentLocation(string locationName)
+    {
+        currentLocation = locationName;
     }
 
     /// <summary>
