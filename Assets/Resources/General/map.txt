@@ -28,3 +28,12 @@ HauntedHouse HauntedHouse/Arrive ALWAYS
 Palace Palace/Arrive ALWAYS
 Salesman Salesman/Arrive ALWAYS
 SouvenirShop SouvenirShop/Arrive shopAvailable 1
+
+
+[Test1]
+Location Test/map1_location ALWAYS
+ToMap2 Test/map2_map ALWAYS
+
+[Test2]
+Location Test/map2_location ALWAYS
+ToMap1 Test/map1_map ALWAYS
