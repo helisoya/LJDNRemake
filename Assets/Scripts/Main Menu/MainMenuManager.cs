@@ -14,6 +14,7 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private string menuMusic;
     [SerializeField] private PauseMenu pauseMenu;
     [SerializeField] private Fade fade;
+    [SerializeField] private string defaultBackground;
 
     [Header("Main Screen")]
     [SerializeField] private GameObject mainScreenRoot;
@@ -36,8 +37,19 @@ public class MainMenuManager : MonoBehaviour
 
     void Start()
     {
+        GameManager.instance.inMainMenu = true;
         AudioManager.instance.PlaySong(menuMusic);
         fade.ForceAlphaTo(1);
+
+        string selectedBackground = null;
+        if (GameManager.GetSaveManager().SaveFileExists("auto"))
+        {
+            selectedBackground = GameManager.GetSaveManager().Load("auto").background;
+        }
+
+        if (selectedBackground == null || string.IsNullOrEmpty(selectedBackground)) selectedBackground = defaultBackground;
+        Instantiate(Resources.Load<GameObject>("Backgrounds/" + selectedBackground));
+
         fade.FadeTo(0);
     }
 
@@ -56,7 +68,7 @@ public class MainMenuManager : MonoBehaviour
     /// </summary>
     public void Event_ConfirmName()
     {
-        if (!string.IsNullOrEmpty(nameInput.text))
+        if (!string.IsNullOrEmpty(nameInput.text) && nameInput.text.Length <= 12)
         {
             GameManager.instance.SetSaveToLoad(null);
             GameManager.instance.SetNextChapter("Intro/Intro");
@@ -119,6 +131,7 @@ public class MainMenuManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
+        GameManager.instance.inMainMenu = false;
         SceneManager.LoadScene("VN");
     }
 }

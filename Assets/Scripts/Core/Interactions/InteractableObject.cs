@@ -23,7 +23,7 @@ public class InteractableObject : MonoBehaviour
 
     void Awake()
     {
-        InteractionManager.instance.RegisterObject(ID, this);
+        if (!GameManager.instance.inMainMenu) InteractionManager.instance.RegisterObject(ID, this);
     }
 
     /// <summary>

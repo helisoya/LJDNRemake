@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private string loadSaveName = null;
 
     public string currentLocation { get; private set; }
+    public bool inMainMenu { get; set; }
 
 
     [Header("General Informations")]
