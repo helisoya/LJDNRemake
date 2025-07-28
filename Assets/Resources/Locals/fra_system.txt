@@ -203,3 +203,9 @@ shopQuest_2 = Retourner voir Waldo à la boutique de souvenir
 guardQuest = Le retour d'un viel ami
 guardQuest_0 = Mener l'enquête à la forteresse
 guardQuest_1 = Retourner voir GARDE
+
+# ------------------------------------------------------------------------
+# -------------------------- Save Locations ------------------------------
+# ------------------------------------------------------------------------
+
+Location_WhiteForest = Forêt Blanche

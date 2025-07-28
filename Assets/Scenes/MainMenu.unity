@@ -12122,7 +12122,7 @@ MonoBehaviour:
   menuMusic: Menu
   pauseMenu: {fileID: 2034229874}
   fade: {fileID: 1244236509}
-  defaultBackground: Lake
+  defaultBackground: Kosky/Lake
   mainScreenRoot: {fileID: 1713994231}
   saveMenu: {fileID: 679016832}
   nameInputRoot: {fileID: 796062075}
@@ -12631,7 +12631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048836419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

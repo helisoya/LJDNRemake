@@ -205,3 +205,10 @@ shopQuest_2 = Report back to Waldo at the souvenir shop
 guardQuest = An old friend returns
 guardQuest_0 = Investigate the fortress
 guardQuest_1 = Report back to GUARD
+
+
+# ------------------------------------------------------------------------
+# -------------------------- Save Locations ------------------------------
+# ------------------------------------------------------------------------
+
+Location_WhiteForest = White Forest

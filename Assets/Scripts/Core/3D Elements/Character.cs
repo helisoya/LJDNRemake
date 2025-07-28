@@ -37,6 +37,24 @@ public class Character : MonoBehaviour
     public string mouthAnimationSet { get; private set; }
     public float characterAlpha { get; private set; }
 
+
+    /// <summary>
+    /// Initialize the component (Editor Script)
+    /// </summary>
+    public void EditorInit(string charName, Transform charRoot, Animator bodyAnim,
+        Animator eyeAnim, Animator mouthAnim, Renderer[] renderer, float fadeSpeed,
+        InteractableObject interactableObject)
+    {
+        characterName = charName;
+        root = charRoot;
+        bodyAnimator = bodyAnim;
+        eyeAnimator = eyeAnim;
+        mouthAnimator = mouthAnim;
+        renderers = renderer;
+        this.fadeSpeed = fadeSpeed;
+        this.interactableObject = interactableObject;
+    }
+
     void Awake()
     {
         RegisterMaterials();

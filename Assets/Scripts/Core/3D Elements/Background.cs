@@ -8,6 +8,7 @@ public class Background : MonoBehaviour
     [SerializeField] public string backgroundName;
     [SerializeField] private Transform markersRoot;
     [SerializeField] private SkyData skyData;
+    [SerializeField] private Transform rotatablesRoot;
     private Dictionary<string, Transform> markers;
 
 
@@ -80,6 +81,19 @@ public class Background : MonoBehaviour
         foreach (InteractableObject interactable in interactables)
         {
             interactable.Unregister();
+        }
+    }
+
+    /// <summary>
+    /// Rotates the rotatable items
+    /// </summary>
+    public void RotateItems()
+    {
+        if (!rotatablesRoot) return;
+
+        foreach (Transform child in rotatablesRoot)
+        {
+            child.rotation = Quaternion.Euler(0, Random.Range(0f, 360f), 0);
         }
     }
 }

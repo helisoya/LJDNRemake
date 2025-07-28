@@ -21,6 +21,16 @@ public class InteractableObject : MonoBehaviour
     private bool active;
     public bool hidden { get; private set; }
 
+    /// <summary>
+    /// Initialize the component (Editor Script)
+    /// </summary>
+    public void EditorInit(string charID, Texture2D icon, Renderer[] renderers)
+    {
+        ID = charID;
+        this.icon = icon;
+        objectRenderers = renderers;
+    }
+
     void Awake()
     {
         if (!GameManager.instance.inMainMenu) InteractionManager.instance.RegisterObject(ID, this);
