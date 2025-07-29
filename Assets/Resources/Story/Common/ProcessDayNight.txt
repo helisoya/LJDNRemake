@@ -1,0 +1,7 @@
+# Increment the day / night cycle
+variable(nightIncrement;++)
+if(nightIncrement = 10){
+variable(nightIncrement;0)
+if(night = 1) variable(night;0)
+else variable(night;1)
+}

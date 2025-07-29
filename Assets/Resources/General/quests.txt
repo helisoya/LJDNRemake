@@ -1,14 +1,12 @@
 [mainQuest]
-mainQuest
+mainQuest_1
+mainQuest_2
 
 [arcQuest]
-hauntedHouseQuest
-waldoQuizQuest
-horseRaceQuest
-shootSalesmanQuest
+arcQuest_Guard_1
 
 [factionQuest]
-shopQuest
+factionQuest_Kalia_1
 
 [secondaryQuest]
-guardQuest
+secondaryQuest_Iberty_Catacombs

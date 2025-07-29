@@ -1,0 +1,6 @@
+# Process chance of rain / stop rain
+random(0;20)
+if(random < 5){
+if(rain = 1) variable(rain;0)
+else variable(rain;1)
+}

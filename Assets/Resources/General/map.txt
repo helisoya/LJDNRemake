@@ -30,10 +30,19 @@ Salesman Salesman/Arrive ALWAYS
 SouvenirShop SouvenirShop/Arrive shopAvailable 1
 
 
-[Test1]
-Location Test/map1_location ALWAYS
-ToMap2 Test/map2_map ALWAYS
+[City_Iberty]
+City_Iberty_ToRegion TODO canTravel_City_Iberty_Region 1
+City_Iberty_Doctor TODO canTravel_City_Iberty_Doctor 1
+City_Iberty_Shop TODO canTravel_City_Iberty_Shop 1
+City_Iberty_CityHall TODO canTravel_City_Iberty_CityHall 1
+City_Iberty_Catacombs TODO canTravel_City_Iberty_Catacombs 1
+City_Iberty_Port TODO canTravel_City_Iberty_Port 1
 
-[Test2]
-Location Test/map2_location ALWAYS
-ToMap1 Test/map1_map ALWAYS
+[Region_Kalia]
+Region_Kalia_ToForest TODO canTravel_Region_Kalia_Forest 1
+Region_Kalia_Iberty TODO canTravel_Region_Kalia_Iberty 1
+Region_Kalia_City TODO canTravel_Region_Kalia_City 1
+Region_Kalia_Farm TODO canTravel_Region_Kalia_Farm 1
+Region_Kalia_Camp TODO canTravel_Region_Kalia_Camp 1
+Region_Kalia_Shrine TODO canTravel_Region_Kalia_Shrine 1
+Region_Kalia_Outpost TODO canTravel_Region_Kalia_Outpost 1

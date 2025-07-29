@@ -170,42 +170,27 @@ Palace = Rickey's Palace
 Salesman = Shoot the Salesman
 SouvenirShop = The souvenir shop
 
+City_Iberty_ToRegion = To Kalia
+City_Iberty_Doctor = Doctor
+City_Iberty_Shop = Shop
+City_Iberty_CityHall = City Hall
+City_Iberty_Catacombs = Catacombs
+City_Iberty_Port = Port
+
+Region_Kalia_ToForest = To the White Forest
+Region_Kalia_Iberty = Iberty
+Region_Kalia_City = Kalia
+Region_Kalia_Farm = Farm
+Region_Kalia_Camp = Camp Iberty
+Region_Kalia_Shrine = Kalibu Shrine
+Region_Kalia_Outpost = Forest Outpost
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
 
-mainQuest = The grimoire and the CEO
-mainQuest_0 = Enter RickeyLand
-mainQuest_1 = Find a pass
-mainQuest_2 = Enter RickeyLand
-mainQuest_3 = Beat the 4 attractions
-mainQuest_4 = Enter Rickey's palace
-mainQuest_5 = Get the grimoire from Rickey
-mainQuest_6 = Return to Harold
-
-hauntedHouseQuest = The Haunted House
-hauntedHouseQuest_0 = Complete the "Haunted House" attraction
-
-waldoQuizQuest = The Quiz
-waldoQuizQuest_0 = Complete "Waldo's quiz"
-
-horseRaceQuest = The Race
-horseRaceQuest_0 = Complete "The horse race"
-horseRaceQuest_1 = Find the horse
-horseRaceQuest_2 = Complete "The horse race"
-
-shootSalesmanQuest = The Questionable One
-shootSalesmanQuest_0 = Complete the "Shoot the salesman" attraction
-
-shopQuest = The Souvenir Shop
-shopQuest_0 = Investigate the souvenir shop
-shopQuest_1 = Deliver the knight's box in Vlatyr
-shopQuest_2 = Report back to Waldo at the souvenir shop
-
-guardQuest = An old friend returns
-guardQuest_0 = Investigate the fortress
-guardQuest_1 = Report back to GUARD
-
+mainQuest_1 = A new day
+mainQuest_1_0 = Report back to the Merchant in Kalia
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

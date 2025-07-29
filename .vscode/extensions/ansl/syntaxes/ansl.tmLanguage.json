@@ -8,7 +8,8 @@
 		{ "include": "#commands" },
 		{ "include": "#choice" },
 		{ "include": "#choice-entry" },
-		{ "include": "#trad-entry" }
+		{ "include": "#trad-entry" },
+		{ "include": "#function-else" }
 	],
 	"repository": {
 		"keywords": {
@@ -56,7 +57,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ansl",
-					"match": "if"
+					"match": "\\b(if)\\b"
+				}
+			]
+		},
+		"function-else": {
+			"patterns": [
+				{
+					"name": "keyword.control.ansl",
+					"match": "\\b(else)\\b"
 				}
 			]
 		},

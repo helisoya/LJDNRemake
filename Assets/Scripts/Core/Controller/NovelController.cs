@@ -344,18 +344,82 @@ public class NovelController : MonoBehaviour
             }
         }
 
+        bool multiCommands = split[2].StartsWith("{");
+
         if (ok)
         {
-            split[2] = split[2].Replace(" ", "");
-            if (split.Length > 3)
+            if (!multiCommands)
             {
-                yield return HandlingLine(split[2] + "(" + split[3] + ")");
+                split[2] = split[2].Replace(" ", "");
+                if (split.Length > 3)
+                {
+                    yield return HandlingLine(split[2] + "(" + split[3] + ")");
+                }
+                else
+                {
+                    handlingChapterFile = null;
+                    stack[stack.Count - 1].currentChapterProgress++;
+                    LoadChapterFile(split[2]);
+                    yield break;
+                }
             }
-            else
+        }
+        else if (multiCommands)
+        {
+            // If multi commands, skip the unaccessible code
+            int amountOfIfToClose = 1;
+            chapterProgress++;
+            while (amountOfIfToClose > 0 && chapterProgress < data.Count)
             {
-                handlingChapterFile = null;
-                stack[stack.Count - 1].currentChapterProgress++;
-                LoadChapterFile(split[2]);
+                if ((data[chapterProgress].StartsWith("if") || data[chapterProgress].StartsWith("else"))
+                    && data[chapterProgress].EndsWith("{")) amountOfIfToClose++;
+                else if (data[chapterProgress].StartsWith("}")) amountOfIfToClose--;
+                chapterProgress++;
+            }
+            chapterProgress--;
+        }
+
+        // Handle else
+
+        if (data[chapterProgress + 1].StartsWith("else"))
+        {
+            chapterProgress++;
+
+            if (ok)
+            {
+                // Do not process the else, skip it
+                if (data[chapterProgress].EndsWith("{"))
+                {
+                    // If multi commands, skip the unaccessible code
+                    int amountOfIfToClose = 1;
+                    chapterProgress++;
+                    while (amountOfIfToClose > 0 && chapterProgress < data.Count)
+                    {
+                        if ((data[chapterProgress].StartsWith("if") || data[chapterProgress].StartsWith("else"))
+                            && data[chapterProgress].EndsWith("{")) amountOfIfToClose++;
+                        else if (data[chapterProgress].StartsWith("}")) amountOfIfToClose--;
+                        chapterProgress++;
+                    }
+                    chapterProgress--;
+                }
+
+            }
+            else if (!data[chapterProgress].EndsWith("{"))
+            {
+                // Process the else
+                split = data[chapterProgress].Split("else ");
+
+                split[1] = split[1].Replace(" ", "");
+                if (split[1].Contains("("))
+                {
+                    yield return HandlingLine(split[1]);
+                }
+                else
+                {
+                    handlingChapterFile = null;
+                    stack[stack.Count - 1].currentChapterProgress++;
+                    LoadChapterFile(split[1]);
+                }
             }
         }
     }
@@ -436,7 +500,7 @@ public class NovelController : MonoBehaviour
 
     public IEnumerator HandlingLine(string line, bool isQuickCommand = false)
     {
-        if (string.IsNullOrEmpty(line) || line.StartsWith('#')) yield break;
+        if (string.IsNullOrEmpty(line) || line.StartsWith('#') || line.StartsWith("}")) yield break;
 
         string[] data = line.Split(new char[] { '(', ')' });
         if (data.Length < 2) yield break;

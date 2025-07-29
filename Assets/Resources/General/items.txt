@@ -1,15 +1,39 @@
 # Game Items
 # KEY DEFAULT_VALUE
 
+# System variables, do not touch
 playerName Ramos
 random 0
 
-mainQuest 0
+# Weather
+night 0
 rain 0
-hauntedHouseQuest -1
-waldoQuizQuest -1
-horseRaceQuest -1
-shootSalesmanQuest -1
-shopQuest -1
-guardQuest -1
-shopAvailable 0
+nightIncrement 0
+
+# Quests
+
+mainQuest_1 -1
+mainQuest_2 -1
+
+arcQuest_Guard_1 -1
+
+factionQuest_Kalia_1 -1
+
+secondaryQuest_Iberty_Catacombs -1
+
+# Locations
+
+canTravel_Region_Kalia_Iberty 1
+canTravel_Region_Kalia_City 1
+canTravel_Region_Kalia_Farm 1
+canTravel_Region_Kalia_Camp 1
+canTravel_Region_Kalia_Shrine 1
+canTravel_Region_Kalia_Outpost 1
+canTravel_Region_Kalia_Forest 1
+
+canTravel_City_Iberty_Region 1
+canTravel_City_Iberty_Doctor 1
+canTravel_City_Iberty_Shop 1
+canTravel_City_Iberty_CityHall 1
+canTravel_City_Iberty_Catacombs 1
+canTravel_City_Iberty_Port 1

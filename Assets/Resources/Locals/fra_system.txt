@@ -167,42 +167,27 @@ Palace = Palais de Rickey
 Salesman = Tir sur marchand
 SouvenirShop = Boutique de souvenir
 
+City_Iberty_ToRegion = Vers Kalia
+City_Iberty_Doctor = Docteur
+City_Iberty_Shop = Boutique
+City_Iberty_CityHall = Mairie
+City_Iberty_Catacombs = Catacombes
+City_Iberty_Port = Port
+
+Region_Kalia_ToForest = Vers la forêt blanche
+Region_Kalia_Iberty = Iberty
+Region_Kalia_City = Kalia
+Region_Kalia_Farm = Ferme
+Region_Kalia_Camp = Camp Iberty
+Region_Kalia_Shrine = Autel de Kalibu
+Region_Kalia_Outpost = Avant poste
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
 
-mainQuest = Le grimoire et le PDG
-mainQuest_0 = Entrer à RickeyLand
-mainQuest_1 = Trouver un pass
-mainQuest_2 = Entrer à RickeyLand
-mainQuest_3 = Finir les 4 attractions
-mainQuest_4 = Entrer dans le palace de Rickey
-mainQuest_5 = Reprendre le grimoire à Rickey
-mainQuest_6 = Retourner voir Harold
-
-
-hauntedHouseQuest = La maison hantée
-hauntedHouseQuest_0 = Finir l'attraction "Maison hantée"
-
-waldoQuizQuest = Le quiz
-waldoQuizQuest_0 = Finir "le quiz de Waldo"
-
-horseRaceQuest = La course
-horseRaceQuest_0 = Finir la "course de chevaux"
-horseRaceQuest_1 = Trouver le cheval
-horseRaceQuest_2 = Finir la "course de chevaux"
-
-shootSalesmanQuest = L'attraction questionable
-shootSalesmanQuest_0 = Finir l'attraction "Tir sur marchand"
-
-shopQuest = La boutique de souvenir
-shopQuest_0 = Aller voir la boutique de souvenir
-shopQuest_1 = Livrer la boite du Chevalier à Vlatyr
-shopQuest_2 = Retourner voir Waldo à la boutique de souvenir
-
-guardQuest = Le retour d'un viel ami
-guardQuest_0 = Mener l'enquête à la forteresse
-guardQuest_1 = Retourner voir GARDE
+mainQuest_1 = Un nouveau jour
+mainQuest_1_0 = Retournez voir le Marchand à Kalia
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
