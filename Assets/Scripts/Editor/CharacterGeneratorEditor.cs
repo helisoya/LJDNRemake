@@ -92,6 +92,7 @@ public class CharacterGeneratorEditor : EditorWindow
         GameObject modelRoot = PrefabUtility.InstantiatePrefab(modelField.value as GameObject) as GameObject;
         //PrefabUtility.UnpackPrefabInstance(modelField.value as GameObject, PrefabUnpackMode.OutermostRoot, InteractionMode.AutomatedAction);
         modelRoot.transform.SetParent(characterRoot.transform);
+        modelRoot.transform.localScale = Vector3.one;
 
         // Generate the interaction
         GameObject interactableRoot = new GameObject("Interaction");
@@ -216,7 +217,6 @@ public class CharacterGeneratorEditor : EditorWindow
 
         Animator eyeAnimator = eyeRoot.AddComponent<Animator>();
         eyeAnimator.runtimeAnimatorController = eyeOverride;
-
 
         // Add Character
         characterRoot.AddComponent<Character>().EditorInit(characterIdField.value, characterRoot.transform,

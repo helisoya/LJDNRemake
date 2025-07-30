@@ -1,3 +1,6 @@
+# LJDN's Introduction$
+# Game starts here
+
 setBackground(Forest/Road)
 changeSkybox(Night)
 
@@ -132,3 +135,8 @@ fadeBg(1;false)
 
 dialog(narrator;_;false;Intro_65)
 dialog(narrator;_;false;Intro_66)
+
+removeAllCharacters()
+cameraPosition(default;true;true)
+
+load(Intro/Intro_End)

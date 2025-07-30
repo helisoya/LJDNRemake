@@ -11,9 +11,10 @@ public class Fade : MonoBehaviour
     [Header("Infos")]
     [SerializeField] private CanvasGroup canvaGroup;
     [SerializeField] private Image fadeImg;
+    private float targetAlpha = 0f;
     public float currentAlpha
     {
-        get { return canvaGroup.alpha; }
+        get { return targetAlpha; }
     }
     public bool fading { get { return routineFading != null; } }
     public Color currenColor { get { return fadeImg.color; } }
@@ -45,6 +46,7 @@ public class Fade : MonoBehaviour
     /// <param name="alpha">The new alpha value</param>
     public void ForceAlphaTo(float alpha)
     {
+        targetAlpha = alpha;
         canvaGroup.alpha = alpha;
         if (routineFading != null)
         {
@@ -62,6 +64,7 @@ public class Fade : MonoBehaviour
     /// <returns>IEnumerator</returns>
     IEnumerator RoutineFading(float target, float speed = 2)
     {
+        targetAlpha = target;
         float currentAlpha = canvaGroup.alpha;
         int side = target > currentAlpha ? 1 : -1;
         float max = side == 1 ? target : 1f;

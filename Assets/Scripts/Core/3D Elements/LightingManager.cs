@@ -5,11 +5,11 @@ using UnityEngine;
 /// <summary>
 /// Handles the game's skybox
 /// </summary>
-[RequireComponent(typeof(Light))]
 public class LightingManager : MonoBehaviour
 {
     [Header("Lighting Manager")]
     [SerializeField] private SkyData defaultSky;
+    [SerializeField] private Light directionalLight;
     [SerializeField] private GameObject snowEffect;
     [SerializeField] private GameObject rainEffect;
     private SkyData currentData;
@@ -48,9 +48,18 @@ public class LightingManager : MonoBehaviour
         currentData = skyData;
 
         RenderSettings.skybox = skyData.skybox;
-        GetComponent<Light>().color = skyData.sunColor;
+        directionalLight.color = skyData.sunColor;
         snowEffect.SetActive(skyData.wheather == Wheather.SNOW);
         rainEffect.SetActive(skyData.wheather == Wheather.RAIN);
+    }
+
+    /// <summary>
+    /// Changes the directional light's rotation
+    /// </summary>
+    /// <param name="rotation">The new rotation</param>
+    public void SetDirectionalLightRotation(Vector3 rotation)
+    {
+        directionalLight.transform.eulerAngles = rotation;
     }
 
     /// <summary>

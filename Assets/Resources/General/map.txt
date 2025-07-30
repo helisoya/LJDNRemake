@@ -32,7 +32,7 @@ SouvenirShop SouvenirShop/Arrive shopAvailable 1
 
 [City_Iberty]
 City_Iberty_ToRegion TODO canTravel_City_Iberty_Region 1
-City_Iberty_Doctor TODO canTravel_City_Iberty_Doctor 1
+City_Iberty_Doctor Kalia/Iberty/Doctor/Arrival canTravel_City_Iberty_Doctor 1
 City_Iberty_Shop TODO canTravel_City_Iberty_Shop 1
 City_Iberty_CityHall TODO canTravel_City_Iberty_CityHall 1
 City_Iberty_Catacombs TODO canTravel_City_Iberty_Catacombs 1

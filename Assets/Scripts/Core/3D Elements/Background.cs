@@ -8,6 +8,7 @@ public class Background : MonoBehaviour
     [SerializeField] public string backgroundName;
     [SerializeField] private Transform markersRoot;
     [SerializeField] private SkyData skyData;
+    [SerializeField] private Vector3 directionalLightRotation = new Vector3(50, -30, 0);
     [SerializeField] private Transform rotatablesRoot;
     private Dictionary<string, Transform> markers;
 
@@ -20,6 +21,7 @@ public class Background : MonoBehaviour
     {
         RegisterMarkers();
         if (initializeSkyData) LightingManager.instance.ChangeData(skyData);
+        LightingManager.instance.SetDirectionalLightRotation(directionalLightRotation);
     }
 
     /// <summary>

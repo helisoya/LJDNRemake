@@ -1,0 +1,14 @@
+playMusic(Exploration_1)
+removeAllCharacters()
+setBackground(Kalia/Doctor)
+changeSkybox(Default)
+
+setLocation(Location_Iberty)
+
+addCharacter(DoctorIberty;false)
+setCharacterPosition(DoctorIberty;DoctorSpot)
+setCharacterRotation(DoctorIberty;DoctorSpot)
+
+autosave()
+
+load(Kalia/Iberty/Doctor/Interaction)

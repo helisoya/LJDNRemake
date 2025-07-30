@@ -140,32 +140,11 @@ levelUp_bonusHP = HP bonus
 # ---------------------- Background --------------------------------------
 # ------------------------------------------------------------------------
 
-Background_Vlatyr_BoyardeeSign = Chez Boyardee
 
 
 # ------------------------------------------------------------------------
 # ----------------------------- Map --------------------------------------
 # ------------------------------------------------------------------------
-
-ChezHarold = Maison d'Harold
-Intersection = Intersection
-RickeyLand = RickeyLand
-Swamp = Marais
-Swamtyr = Swamtyr
-BraiseFortress = Forteresse Braise
-Mountains = Montagnes
-Mines = Mines
-Vlatyr = Vlatyr
-ChezMarcel = Maison du chasseur
-
-Gate = Entrée
-Plaza = Place centrale
-Quiz = Quiz de Waldo
-Horse = Course de chevaux
-HauntedHouse = Maison hantée
-Palace = Palais de Rickey
-Salesman = Tir sur marchand
-SouvenirShop = Boutique de souvenir
 
 City_Iberty_ToRegion = Vers Kalia
 City_Iberty_Doctor = Docteur
@@ -187,10 +166,12 @@ Region_Kalia_Outpost = Avant poste
 # ------------------------------------------------------------------------
 
 mainQuest_1 = Un nouveau jour
-mainQuest_1_0 = Retournez voir le Marchand à Kalia
+mainQuest_1_0 = Parlez au commerçant à Iberty
+mainQuest_1_1 = Retournez voir le Marchand à Kalia
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
 
 Location_WhiteForest = Forêt Blanche
+Location_Iberty = Iberty
