@@ -26,6 +26,8 @@ Choice_Ideas = Any ideas ?
 Choice_AboutRegion = About the region
 Choice_AboutYou = About you
 Choice_AboutJob = About your job
+Choice_Heal = I need healing
+Choice_NeedHelp = Do you need help ?
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -155,3 +157,29 @@ Intro_112 = Thank you.
 Intro_113 = Now, to find this shopkeeper.
 Intro_114 = <color=blue>I can access the map by interacting with the bottom of the screen</color>
 Intro_115 = <color=blue>I can also click on someone to talk to them</color>
+
+# ---------------------------------------------------------
+# ------------------- Iberty ------------------------------
+# ---------------------------------------------------------
+
+Iberty_Doctor_Greetings_1 = Hi. How can I help you ?
+
+Iberty_Doctor_Heal_1 = Of course. Let me check your injuries...
+Iberty_Doctor_Heal_2 = There, you are now all patched up.
+
+Iberty_Doctor_SideQuest_Done_1 = Not at this time, no.
+
+Iberty_Doctor_SideQuest_Start_1 = Actually, you might be able to help me with something.
+Iberty_Doctor_SideQuest_Start_2 = I need to deliver this medicine to the mayor. It's for his cold.
+Iberty_Doctor_SideQuest_Start_3 = Sadly, I am currently occupied with a patient that needs my undivided attention.
+Iberty_Doctor_SideQuest_Start_4 = Could you deliver it for me ? I'll pay you upon delivery.
+Iberty_Doctor_SideQuest_Start_5 = Alright, I'll see what I can do. 
+Iberty_Doctor_SideQuest_Start_6 = Thanks, you'll find the mayor in the city hall.
+
+Iberty_Doctor_SideQuest_InProgress_1 = You'll find the mayor in the city hall.
+
+Iberty_Doctor_SideQuest_End_1 = I delivered the medicine.
+Iberty_Doctor_SideQuest_End_2 = Ah, I can't thank you enough.
+Iberty_Doctor_SideQuest_End_3 = Here, take this for your troubles.
+Iberty_Doctor_SideQuest_End_4 = I received 20 gold from the doctor.
+Iberty_Doctor_SideQuest_End_5 = Did you need anything else ?

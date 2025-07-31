@@ -10,3 +10,5 @@ factionQuest_Kalia_1
 
 [secondaryQuest]
 secondaryQuest_Iberty_Catacombs
+secondaryQuest_Iberty_Port
+secondaryQuest_Iberty_Doctor

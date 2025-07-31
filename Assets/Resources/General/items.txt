@@ -20,6 +20,8 @@ arcQuest_Guard_1 -1
 factionQuest_Kalia_1 -1
 
 secondaryQuest_Iberty_Catacombs -1
+secondaryQuest_Iberty_Port -1
+secondaryQuest_Iberty_Doctor -1
 
 # Locations
 

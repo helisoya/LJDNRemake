@@ -48,7 +48,7 @@ public class MainMenuManager : MonoBehaviour
         }
 
         if (selectedBackground == null || string.IsNullOrEmpty(selectedBackground)) selectedBackground = defaultBackground;
-        Instantiate(Resources.Load<GameObject>("Backgrounds/" + selectedBackground));
+        Instantiate(Resources.Load<Background>("Backgrounds/" + selectedBackground)).ApplyLightRotation();
 
         fade.FadeTo(0);
     }

@@ -169,6 +169,10 @@ mainQuest_1 = Un nouveau jour
 mainQuest_1_0 = Parlez au commerçant à Iberty
 mainQuest_1_1 = Retournez voir le Marchand à Kalia
 
+secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
+secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
+secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

@@ -21,6 +21,14 @@ public class Background : MonoBehaviour
     {
         RegisterMarkers();
         if (initializeSkyData) LightingManager.instance.ChangeData(skyData);
+        ApplyLightRotation();
+    }
+
+    /// <summary>
+    /// Applies the light rotation of this background
+    /// </summary>
+    public void ApplyLightRotation()
+    {
         LightingManager.instance.SetDirectionalLightRotation(directionalLightRotation);
     }
 

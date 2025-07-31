@@ -879,6 +879,24 @@ public class NovelController : MonoBehaviour
                 GameManager.GetRPGManager().RemoveFollower(parameters[0]);
                 break;
 
+            case "healFollower":
+                RPGCharacter follower = GameManager.GetRPGManager().GetCharacter(parameters[0]);
+                if (follower != null)
+                {
+                    follower.SetHealthToMax();
+                    follower.SetSPToMax();
+                }
+                break;
+
+            case "healAllFollowers":
+                foreach (int followerIndex in GameManager.GetRPGManager().GetFollowers())
+                {
+                    RPGCharacter follower2 = GameManager.GetRPGManager().GetCharacter(followerIndex);
+                    follower2.SetHealthToMax();
+                    follower2.SetSPToMax();
+                }
+                break;
+
             case "addGold":
                 GameManager.GetRPGManager().AddMoney(int.Parse(parameters[0]));
                 break;
@@ -897,14 +915,14 @@ public class NovelController : MonoBehaviour
 
             case "addExpToAll":
                 List<int> followers = GameManager.GetRPGManager().GetFollowers();
-                RPGCharacter follower;
+                RPGCharacter follower3;
                 foreach (int idxFollower in followers)
                 {
-                    follower = GameManager.GetRPGManager().GetCharacter(idxFollower);
-                    follower.GetData().exp += int.Parse(parameters[0]);
-                    if (follower.canLevelUp)
+                    follower3 = GameManager.GetRPGManager().GetCharacter(idxFollower);
+                    follower3.GetData().exp += int.Parse(parameters[0]);
+                    if (follower3.canLevelUp)
                     {
-                        VNGUI.instance.OpenLevelUpMenu(follower);
+                        VNGUI.instance.OpenLevelUpMenu(follower3);
                         yield return new WaitForEndOfFrame();
                         while (VNGUI.instance.levelingUp) yield return new WaitForEndOfFrame();
                     }

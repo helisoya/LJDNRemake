@@ -373,5 +373,21 @@
 			"setLocation(LOCATION)"
 		],
 		"description": "Sets the location (save info)"
+	},
+	"Fully heal a follower": {
+		"scope": "ansl",
+		"prefix": "healFollower",
+		"body": [
+			"healFollower(FOLLOWER)"
+		],
+		"description": "Fully heals a follower"
+	},
+	"Fully heal all followers": {
+		"scope": "ansl",
+		"prefix": "healAllFollowers",
+		"body": [
+			"healAllFollowers()"
+		],
+		"description": "Fully heals all followers"
 	}
 }

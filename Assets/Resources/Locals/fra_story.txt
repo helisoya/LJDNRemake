@@ -25,6 +25,8 @@ Choice_Ideas = Des idées ?
 Choice_AboutRegion = A propos de la région
 Choice_AboutYou = A propos de vous
 Choice_AboutJob = A propos de votre travail
+Choice_Heal = J'ai besoin de soins
+Choice_NeedHelp = Besoin d'aide ?
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -157,3 +159,26 @@ Intro_112 = Merci.
 Intro_113 = Maintenant, trouvons ce commerçant.
 Intro_114 = <color=blue>Je peux accéder à la carte en interagissant avec le bas de l'écran.</color>
 Intro_115 = <color=blue>Je peux aussi cliquer sur quelqu'un pour lui parler</color>
+
+# ---------------------------------------------------------
+# ------------------- Iberty ------------------------------
+# ---------------------------------------------------------
+
+Iberty_Doctor_Greetings_1 = Bonjour. Comment puis-je vous aider ?
+
+Iberty_Doctor_SideQuest_Done_1 = Pas pour le moment, non.
+
+Iberty_Doctor_SideQuest_Start_1 = En fait, vous pourriez m'aider avec quelque chose.
+Iberty_Doctor_SideQuest_Start_2 = Je dois livrer ces médicaments au maire. C'est pour sa grippe.
+Iberty_Doctor_SideQuest_Start_3 = Malheureusement, je suis occupé avec un patient qui a besoin de toute mon attention.
+Iberty_Doctor_SideQuest_Start_4 = Pourriez-vous les livrer pour moi ? Je vous payerai une fois livré.
+Iberty_Doctor_SideQuest_Start_5 = Très bien. Je vais voir ce que je peux faire.
+Iberty_Doctor_SideQuest_Start_6 = Merci. Vous trouverez le maire à la mairie.
+
+Iberty_Doctor_SideQuest_InProgress_1 = Vous trouverez le maire à la mairie.
+
+Iberty_Doctor_SideQuest_End_1 = J'ai livré les médicaments.
+Iberty_Doctor_SideQuest_End_2 = Ah, je ne peux pas vous remercier assez.
+Iberty_Doctor_SideQuest_End_3 = Tenez, prenez ceci comme récompense.
+Iberty_Doctor_SideQuest_End_4 = J'ai reçu 20 or du docteur.
+Iberty_Doctor_SideQuest_End_5 = Vous avez besoin de quelque chose d'autre ?

@@ -1,0 +1,4 @@
+choice Choice_Chat
+	Choice_Heal Kalia/Iberty/Doctor/Doctor_Heal
+	Choice_NeedHelp Kalia/Iberty/Doctor/Doctor_SideQuest_Check
+	Choice_Nothing Kalia/Iberty/Doctor/Doctor_Exit

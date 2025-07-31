@@ -173,6 +173,9 @@ mainQuest_1 = A new day
 mainQuest_1_0 = Talk to the shopkeeper in Iberty
 mainQuest_1_1 = Report back to the Merchant in Kalia
 
+secondaryQuest_Iberty_Doctor = Medicine for the mayor
+secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
+secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
