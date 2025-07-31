@@ -19,7 +19,7 @@ public class NovelController : MonoBehaviour
     private List<string> data = new List<string>();
     private string activeChapterFile = "";
     private bool next = false;
-    private Coroutine handlingChapterFile = null;
+    private bool handlingChapterFile = false;
     private int chapterProgress = 0;
     private Choice currentChoice;
     private bool waitingForUserToEndDialog;
@@ -47,7 +47,7 @@ public class NovelController : MonoBehaviour
 
     public void EnableLock()
     {
-        handlingChapterFile = null;
+        handlingChapterFile = false;
     }
 
     public void ClearStack()
@@ -195,7 +195,7 @@ public class NovelController : MonoBehaviour
     public void LoadChapterFile(string filename, int chapterProgress = 0)
     {
         StopAllCoroutines();
-        handlingChapterFile = null;
+        handlingChapterFile = false;
 
         if (!GameManager.instance.IsLoadingSave())
         {
@@ -217,8 +217,7 @@ public class NovelController : MonoBehaviour
         print("Loading chapter : " + $"Story/{filename}");
         data = FileManager.ReadTextAsset(Resources.Load<TextAsset>($"Story/{filename}"));
 
-
-        handlingChapterFile = StartCoroutine(HandlingChapterFile());
+        StartCoroutine(HandlingChapterFile());
     }
 
 
@@ -226,11 +225,8 @@ public class NovelController : MonoBehaviour
 
     IEnumerator HandlingChapterFile()
     {
-        while (handlingChapterFile == null)
-        {
-            yield return new WaitForEndOfFrame();
-            // Wait for the game to actually register the routine
-        }
+        yield return new WaitForEndOfFrame();
+        handlingChapterFile = true;
 
         if (GameManager.instance.IsLoadingSave())
         {
@@ -283,13 +279,13 @@ public class NovelController : MonoBehaviour
                 yield return HandlingLine(line);
             }
 
-            if (handlingChapterFile == null) yield break;
+            if (!handlingChapterFile) yield break;
 
             chapterProgress++;
             stack[stack.Count - 1].currentChapterProgress++;
         }
 
-        if (handlingChapterFile == null) yield break;
+        if (!handlingChapterFile) yield break;
 
         print("Removign from stack");
         stack.RemoveAt(stack.Count - 1);
@@ -301,7 +297,8 @@ public class NovelController : MonoBehaviour
             LoadChapterFile(entry.chapterName, entry.currentChapterProgress);
         }
 
-        handlingChapterFile = null;
+        handlingChapterFile = false;
+        yield break;
     }
 
     IEnumerator HandleInteraction()
@@ -344,12 +341,15 @@ public class NovelController : MonoBehaviour
             }
         }
 
+        print("Handling |" + line + "| with result : " + ok);
+
         bool multiCommands = split[2].StartsWith("{");
 
         if (ok)
         {
             if (!multiCommands)
             {
+                print("Executing  (true) command : " + split[2]);
                 split[2] = split[2].Replace(" ", "");
                 if (split.Length > 3)
                 {
@@ -357,7 +357,7 @@ public class NovelController : MonoBehaviour
                 }
                 else
                 {
-                    handlingChapterFile = null;
+                    handlingChapterFile = false;
                     stack[stack.Count - 1].currentChapterProgress++;
                     LoadChapterFile(split[2]);
                     yield break;
@@ -377,11 +377,12 @@ public class NovelController : MonoBehaviour
                 chapterProgress++;
             }
             chapterProgress--;
+            print("Skiping  (true) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
         }
 
         // Handle else
 
-        if (data[chapterProgress + 1].StartsWith("else"))
+        if (chapterProgress < data.Count - 1 && data[chapterProgress + 1].StartsWith("else"))
         {
             chapterProgress++;
 
@@ -401,6 +402,11 @@ public class NovelController : MonoBehaviour
                         chapterProgress++;
                     }
                     chapterProgress--;
+                    print("Skiping  (false) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
+                }
+                else
+                {
+                    print("Skiping  (false) command : " + data[chapterProgress]);
                 }
 
             }
@@ -410,13 +416,16 @@ public class NovelController : MonoBehaviour
                 split = data[chapterProgress].Split("else ");
 
                 split[1] = split[1].Replace(" ", "");
+
+                print("Executing  (false) command : " + split[1]);
+
                 if (split[1].Contains("("))
                 {
                     yield return HandlingLine(split[1]);
                 }
                 else
                 {
-                    handlingChapterFile = null;
+                    handlingChapterFile = false;
                     stack[stack.Count - 1].currentChapterProgress++;
                     LoadChapterFile(split[1]);
                 }
@@ -493,7 +502,7 @@ public class NovelController : MonoBehaviour
         }
         else
         {
-            handlingChapterFile = null;
+            handlingChapterFile = false;
             LoadChapterFile(action);
         }
     }

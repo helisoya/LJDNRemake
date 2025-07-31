@@ -1,7 +1,12 @@
+clearStack()
+
 playMusic(Exploration_1)
 removeAllCharacters()
 setBackground(Kalia/Doctor)
-changeSkybox(Default)
+
+load(Common/ProcessDayNight)
+load(Common/ProcessWeather)
+load(Common/DisplayDayNightOnly)
 
 setLocation(Location_Iberty)
 
