@@ -315,6 +315,27 @@ public class NovelController : MonoBehaviour
         if (!GameManager.instance.IsLoadingSave()) inInteractionMode = false;
     }
 
+    /// <summary>
+    /// Find the line of the closing brackets in the current file
+    /// </summary>
+    /// <param name="ifStart">The line where the first open bbracket is</param>
+    /// <param name="startAmount">The amount of brackets to close at start</param>
+    /// <returns>The line where the closing bracket is</returns>
+    private int CloseBrackets(int ifStart, int startAmount = 1)
+    {
+        int amountToClose = startAmount;
+        string line;
+        ifStart++;
+        while (ifStart > 0 && chapterProgress < data.Count)
+        {
+            line = data[chapterProgress].Replace("\t", "");
+            if ((line.StartsWith("if") || line.StartsWith("else"))
+                && line.EndsWith("{")) amountToClose++;
+            else if (line.StartsWith("}")) amountToClose--;
+            chapterProgress++;
+        }
+        return ifStart - 1;
+    }
 
     IEnumerator HandlingIf(string line)
     {
@@ -367,16 +388,7 @@ public class NovelController : MonoBehaviour
         else if (multiCommands)
         {
             // If multi commands, skip the unaccessible code
-            int amountOfIfToClose = 1;
-            chapterProgress++;
-            while (amountOfIfToClose > 0 && chapterProgress < data.Count)
-            {
-                if ((data[chapterProgress].StartsWith("if") || data[chapterProgress].StartsWith("else"))
-                    && data[chapterProgress].EndsWith("{")) amountOfIfToClose++;
-                else if (data[chapterProgress].StartsWith("}")) amountOfIfToClose--;
-                chapterProgress++;
-            }
-            chapterProgress--;
+            chapterProgress = CloseBrackets(chapterProgress);
             print("Skiping  (true) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
         }
 
@@ -392,16 +404,7 @@ public class NovelController : MonoBehaviour
                 if (data[chapterProgress].EndsWith("{"))
                 {
                     // If multi commands, skip the unaccessible code
-                    int amountOfIfToClose = 1;
-                    chapterProgress++;
-                    while (amountOfIfToClose > 0 && chapterProgress < data.Count)
-                    {
-                        if ((data[chapterProgress].StartsWith("if") || data[chapterProgress].StartsWith("else"))
-                            && data[chapterProgress].EndsWith("{")) amountOfIfToClose++;
-                        else if (data[chapterProgress].StartsWith("}")) amountOfIfToClose--;
-                        chapterProgress++;
-                    }
-                    chapterProgress--;
+                    chapterProgress = CloseBrackets(chapterProgress);
                     print("Skiping  (false) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
                 }
                 else
@@ -510,6 +513,8 @@ public class NovelController : MonoBehaviour
     public IEnumerator HandlingLine(string line, bool isQuickCommand = false)
     {
         if (string.IsNullOrEmpty(line) || line.StartsWith('#') || line.StartsWith("}")) yield break;
+
+        line = line.Replace("\t", "");
 
         string[] data = line.Split(new char[] { '(', ')' });
         if (data.Length < 2) yield break;

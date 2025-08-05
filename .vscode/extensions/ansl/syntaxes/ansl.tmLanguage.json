@@ -136,21 +136,13 @@
 			]
 		},
 		"choice-entry": {
-			"begin": "^\t",
-			"end": "$",
+			"match": "^\t([^()]*)( )([^()]*)$",
 			"name": "choice.id.ansl",
-			"patterns": [
-				{
-					"begin": "\t",
-					"end": " ",
-					"name": "choice.id.ansl"
-				},
-				{
-					"begin": " ",
-					"end": "$",
-					"name": "choice.chapter.ansl"
-				}
-			]
+			"captures": {
+				"1": { "name": "choice.id.ansl" },
+				"2": { "name": "choice.id.ansl" },
+				"3": { "name": "choice.chapter.ansl" }
+			}
 		},
 		"trad-entry": {
 			"match": "^([^()\t]*)( = )([^()\t]*)$",
