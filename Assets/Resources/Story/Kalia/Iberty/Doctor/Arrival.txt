@@ -2,7 +2,7 @@ clearStack()
 
 playMusic(Exploration_1)
 removeAllCharacters()
-setBackground(Kalia/Doctor)
+setBackground(Kalia/Iberty/Doctor)
 
 load(Common/ProcessDayNight)
 load(Common/ProcessWeather)
@@ -15,5 +15,7 @@ setCharacterPosition(DoctorIberty;DoctorSpot)
 setCharacterRotation(DoctorIberty;DoctorSpot)
 
 autosave()
+
+fadeFg(0;false)
 
 load(Kalia/Iberty/Doctor/Interaction)

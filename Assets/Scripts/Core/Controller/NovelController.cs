@@ -934,6 +934,16 @@ public class NovelController : MonoBehaviour
                 }
                 break;
 
+            case "shop":
+                ShopData shopData = Resources.Load<ShopData>("RPG/Shops/" + parameters[0]);
+                if (shopData)
+                {
+                    VNGUI.instance.OpenShop(shopData);
+                    yield return new WaitForEndOfFrame();
+                    while (VNGUI.instance.shopOpen) yield return new WaitForEndOfFrame();
+                }
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;

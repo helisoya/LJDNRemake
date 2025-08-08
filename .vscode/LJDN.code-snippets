@@ -389,5 +389,13 @@
 			"healAllFollowers()"
 		],
 		"description": "Fully heals all followers"
+	},
+	"Open the shop": {
+		"scope": "ansl",
+		"prefix": "shop",
+		"body": [
+			"shop(ID)"
+		],
+		"description": "Opens the shop"
 	}
 }

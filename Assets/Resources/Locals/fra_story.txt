@@ -7,6 +7,7 @@ Char_??? = ???
 Char_GUARD = GARDE
 Char_Courier = Postier
 Char_Bandit = Bandit
+Char_Salesman = Commerçant
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -20,6 +21,7 @@ Choice_Map = Carte
 Choice_CheckArea = Vérifier les alentours
 Choice_Nothing = Rien (Partir)
 Choice_MoveOut = Continuer
+Choice_Buy = Acheter...
 
 Choice_Ideas = Des idées ?
 Choice_AboutRegion = A propos de la région
@@ -166,6 +168,12 @@ Intro_115 = <color=blue>Je peux aussi cliquer sur quelqu'un pour lui parler</col
 
 Iberty_Doctor_Greetings_1 = Bonjour. Comment puis-je vous aider ?
 
+Iberty_Doctor_AboutYou_1 = Je suis l'unique docteur d'Iberty.
+Iberty_Doctor_AboutYou_2 = Je suppose que je suis aussi le seul docteur de Kalia en dehors de la ville.
+Iberty_Doctor_AboutYou_3 = Mais mon travail reste simple la plupart du temps.
+Iberty_Doctor_AboutYou_4 = Je dois aider les malades du village et des alentours.
+Iberty_Doctor_AboutYou_5 = Si vous avez besoin de traitements, n'hésitez pas.
+
 Iberty_Doctor_SideQuest_Done_1 = Pas pour le moment, non.
 
 Iberty_Doctor_SideQuest_Start_1 = En fait, vous pourriez m'aider avec quelque chose.
@@ -182,3 +190,39 @@ Iberty_Doctor_SideQuest_End_2 = Ah, je ne peux pas vous remercier assez.
 Iberty_Doctor_SideQuest_End_3 = Tenez, prenez ceci comme récompense.
 Iberty_Doctor_SideQuest_End_4 = J'ai reçu 20 or du docteur.
 Iberty_Doctor_SideQuest_End_5 = Vous avez besoin de quelque chose d'autre ?
+
+Iberty_Shop_Greetings_1 = Bonjour ! Bienvenue dans ma boutique.
+
+Iberty_Shop_MainQuest1_0_1 = Attendez... Je vous reconnais.
+Iberty_Shop_MainQuest1_0_2 = Vous êtes celui que j'ai trouvé ce matin près de la forêt, non ?
+Iberty_Shop_MainQuest1_0_3 = Vous allez bien ? Vous aviez pris un sale coup.
+Iberty_Shop_MainQuest1_0_4 = Oui, oui... Je vais bien, merci.
+Iberty_Shop_MainQuest1_0_5 = Cependant, j'ai quelque chose à vous demander.
+Iberty_Shop_MainQuest1_0_6 = Est-ce que vous aviez vu par hasard un coursier près de moi ?
+Iberty_Shop_MainQuest1_0_7 = Ou n'importe quoi qui sort de l'ordinaire ?
+Iberty_Shop_MainQuest1_0_8 = Hmm... Voyons voir...
+Iberty_Shop_MainQuest1_0_9 = Vous étiez seul. Ca, j'en suis sur.
+Iberty_Shop_MainQuest1_0_10 = S'il y avait un coursier, il a été déplacé avant que j'arrive.
+Iberty_Shop_MainQuest1_0_11 = Ca ne m'aide pas du tout.
+Iberty_Shop_MainQuest1_0_12 = Mais attendez... J'ai bien trouvé quelque chose d'étrange.
+Iberty_Shop_MainQuest1_0_13 = Il sort un bout de vetement de sa poche.
+Iberty_Shop_MainQuest1_0_14 = J'ai trouvé ça près de vous. Peut être que ça appartient à votre ami ?
+Iberty_Shop_MainQuest1_0_15 = Je prend le vetement...
+Iberty_Shop_MainQuest1_0_16 = Je ne sais pas. Mais je suis sur que ça ne vient pas de moi.
+Iberty_Shop_MainQuest1_0_17 = Donc il appartient soit au coursier, soit à nos assaillants.
+Iberty_Shop_MainQuest1_0_18 = Est-ce que cela vous dérange si je le garde ?
+Iberty_Shop_MainQuest1_0_19 = Pas du tout. Vous en aurez plus besoin que moi.
+Iberty_Shop_MainQuest1_0_20 = Hmm... Je pourrais utiliser le chien au palais pour retrouver le propriétaire de ce vetement.
+Iberty_Shop_MainQuest1_0_21 = Enfin, si le Marchand me laisse repartir sur une mission...
+Iberty_Shop_MainQuest1_0_22 = Je devrais faire mon rapport. Il est temps d'aller au palais de la ville.
+Iberty_Shop_MainQuest1_0_23 = D'ailleurs, je suppose que vous partez beaucoup à l'aventure ?
+Iberty_Shop_MainQuest1_0_24 = Ma boutique est ouverte en journée. Donc n'hésitez pas à venir voir mes articles.
+Iberty_Shop_MainQuest1_0_25 = Je vends des armes, des armures, et d'autres choses que vous pourriez trouver utile.
+Iberty_Shop_MainQuest1_0_26 = Les bandits ont volé mon argent, mais je peut toujours regarder.
+
+Iberty_Shop_AboutYou_1 = Je suis juste un commerçant itinérant.
+Iberty_Shop_AboutYou_2 = En général, je voyage entre Iberty et Vlatyr, à l'Ouest.
+Iberty_Shop_AboutYou_3 = C'est un joli voyage. Je reviens même avec des produits Koskien exclusifs de Vlatyr.
+Iberty_Shop_AboutYou_4 = Bien sur, j'ammene aussi des produits de Kalia à Vlatyr.
+Iberty_Shop_AboutYou_5 = Le seul point négatif de ce voyage est la forêt Blanche, comme vous pouvez vous en douter.
+Iberty_Shop_AboutYou_6 = Trop de bandits... On ne peut pas passer sans au moins un garde du corps.

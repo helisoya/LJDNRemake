@@ -8,6 +8,7 @@ Char_GUARD = GUARD
 Char_Courier = Courier
 Char_Bandit = Bandit
 Char_Doctor = Doctor
+Char_Salesman = Shopkeeper
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -21,6 +22,7 @@ Choice_Map = Map
 Choice_CheckArea = Check area
 Choice_Nothing = Nothing (Leave)
 Choice_MoveOut = Continue
+Choice_Buy = Buy...
 
 Choice_Ideas = Any ideas ?
 Choice_AboutRegion = About the region
@@ -167,6 +169,12 @@ Iberty_Doctor_Greetings_1 = Hi. How can I help you ?
 Iberty_Doctor_Heal_1 = Of course. Let me check your injuries...
 Iberty_Doctor_Heal_2 = There, you are now all patched up.
 
+Iberty_Doctor_AboutYou_1 = I'm the only doctor of Iberty.
+Iberty_Doctor_AboutYou_2 = Actually, I guess I'm the only Kalian doctor outside of the city.
+Iberty_Doctor_AboutYou_3 = Still, my job is quite easy for the most part.
+Iberty_Doctor_AboutYou_4 = I just need to help the sick from the village and its surroundings.
+Iberty_Doctor_AboutYou_5 = I you ever need treatment, don't hesitate.
+
 Iberty_Doctor_SideQuest_Done_1 = Not at this time, no.
 
 Iberty_Doctor_SideQuest_Start_1 = Actually, you might be able to help me with something.
@@ -183,3 +191,39 @@ Iberty_Doctor_SideQuest_End_2 = Ah, I can't thank you enough.
 Iberty_Doctor_SideQuest_End_3 = Here, take this for your troubles.
 Iberty_Doctor_SideQuest_End_4 = I received 20 gold from the doctor.
 Iberty_Doctor_SideQuest_End_5 = Did you need anything else ?
+
+Iberty_Shop_Greetings_1 = Hello ! Welcome to my shop.
+
+Iberty_Shop_MainQuest1_0_1 = Wait... I recognize you.
+Iberty_Shop_MainQuest1_0_2 = You were the one I found this morning near the forest, right ?
+Iberty_Shop_MainQuest1_0_3 = Are you alright ? You took quite a beating.
+Iberty_Shop_MainQuest1_0_4 = Yes, yes... I'm fine, thank you.
+Iberty_Shop_MainQuest1_0_5 = I have something to ask you though.
+Iberty_Shop_MainQuest1_0_6 = Did you happen to see a courier near me ?
+Iberty_Shop_MainQuest1_0_7 = Or anything out of the ordinary ?
+Iberty_Shop_MainQuest1_0_8 = Hmm... Let me see...
+Iberty_Shop_MainQuest1_0_9 = You were alone. That, I'm sure.
+Iberty_Shop_MainQuest1_0_10 = If there was a courier, they moved him before I came by.
+Iberty_Shop_MainQuest1_0_11 = This doesn't help me at all.
+Iberty_Shop_MainQuest1_0_12 = But hold on... I did find something odd.
+Iberty_Shop_MainQuest1_0_13 = He takes a piece of clothing from his pocket.
+Iberty_Shop_MainQuest1_0_14 = I found this near you. Maybe it belonds to your courier friend ?
+Iberty_Shop_MainQuest1_0_15 = I take the clothing...
+Iberty_Shop_MainQuest1_0_16 = I don't know for sure. But all I know is that it's not mine.
+Iberty_Shop_MainQuest1_0_17 = So it could be the courier's, or our attacker's.
+Iberty_Shop_MainQuest1_0_18 = Do you mind if I take this with me ?
+Iberty_Shop_MainQuest1_0_19 = Not at all. You'll have more use for this than me.
+Iberty_Shop_MainQuest1_0_20 = Hmm... I think I could use the dog back at the palace to find the owner of this clothing.
+Iberty_Shop_MainQuest1_0_21 = At least, if the Merchant lets me go on a mission ever again...
+Iberty_Shop_MainQuest1_0_22 = I should make my report. To the palace in the big city I go...
+Iberty_Shop_MainQuest1_0_23 = By the way, I figure you do a lot of adventuring out here ?
+Iberty_Shop_MainQuest1_0_24 = My shop is always open at day. So don't hesitate to come see my wares.
+Iberty_Shop_MainQuest1_0_25 = I sell weapons, armors and other things you might find useful.
+Iberty_Shop_MainQuest1_0_26 = The bandits stole all my money, but it couldn't hurt to have a look.
+
+Iberty_Shop_AboutYou_1 = I'm just a travelling shopkeeper.
+Iberty_Shop_AboutYou_2 = I usualy travel between Iberty and Vlatyr, in the west.
+Iberty_Shop_AboutYou_3 = Its a nice journey. I even come back with exclusive Koskian wares from Vlatyr.
+Iberty_Shop_AboutYou_4 = Of course, I also bring wares from Kalia to Vlatyr.
+Iberty_Shop_AboutYou_5 = The only downside of this travel is the White Forest, as you can imagine.
+Iberty_Shop_AboutYou_6 = Too many bandits... You can't go through without at least one bodyguard.

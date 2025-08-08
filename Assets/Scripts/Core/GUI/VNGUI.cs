@@ -36,6 +36,9 @@ public class VNGUI : MonoBehaviour
     [Header("Quests")]
     [SerializeField] private QuestsMenu questsMenu;
 
+    [Header("Shop")]
+    [SerializeField] private ShopGUI shop;
+
     private Coroutine routineExit;
 
     public bool fadingBg { get { return fadeBg.fading; } }
@@ -47,6 +50,7 @@ public class VNGUI : MonoBehaviour
     public bool fadingFlash { get { return flash.fading; } }
 
     public bool levelingUp { get { return levelUpMenu.open; } }
+    public bool shopOpen { get { return shop.open; } }
 
     void Awake()
     {
@@ -58,6 +62,15 @@ public class VNGUI : MonoBehaviour
         fadeBg.FadeTo(0);
 
         flash.ForceAlphaTo(0);
+    }
+
+    /// <summary>
+    /// Opens the shop GUI
+    /// </summary>
+    /// <param name="data">The shop's data</param>
+    public void OpenShop(ShopData data)
+    {
+        shop.Open(data);
     }
 
     /// <summary>

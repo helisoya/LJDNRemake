@@ -71,6 +71,10 @@ party_items_usables = Consumables
 party_items_key = Key items
 party_items_use = Use item on
 
+shop_buy = Buy
+shop_amountInInventory = In Inventory :
+shop_value = ->
+
 # ------------------------------------------------------------------------
 # ------------------------- Dungeons -------------------------------------
 # ------------------------------------------------------------------------

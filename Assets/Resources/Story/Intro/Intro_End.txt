@@ -4,7 +4,7 @@
 
 fadeBg(1;true)
 
-setBackground(Kalia/Doctor)
+setBackground(Kalia/Iberty/Doctor)
 changeSkybox(Default)
 
 setLocation(Location_Iberty)
