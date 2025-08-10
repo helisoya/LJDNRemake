@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61bf3ace21a563142a072badf6cfa261, type: 3}
-  m_Name: ONEHANDED_SWORD
+  m_Name: ONEHANDED_AXE
   m_EditorClassIdentifier: 
-  ID: ONEHANDED_SWORD
-  sellValue: 15
+  ID: ONEHANDED_AXE
+  sellValue: 20
   type: 3
   targetType: 0
   damageType: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
   statusLength: 0
   statusChance: 0
   weaponType: 0
-  statsValue: 2
+  statsValue: 3
   weaponSkills:
   - SKILL_SLASH
   - SKILL_HEAVYSLASH

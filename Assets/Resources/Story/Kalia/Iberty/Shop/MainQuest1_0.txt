@@ -28,10 +28,23 @@ dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_20)
 dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_21)
 dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_22)
 dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_23)
-dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_24)
+dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_24)
 dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_25)
-dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_26)
+
+dialog([MC];_;false;Iberty_Shop_MainQuest1_0_26)
+dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_27)
+
+addItem(ONEHANDED_SWORD;1)
+forceEquipWeapon(PLAYER;ONEHANDED_SWORD;true)
+
+dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_28)
+
+
+dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_29)
+dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_30)
+dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_31)
 
 variable(mainQuest_1;1)
+variable(canTravel_City_Iberty_Region;1)
 
 load(Kalia/Iberty/Shop/Salesman)

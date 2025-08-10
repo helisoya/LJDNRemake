@@ -187,3 +187,38 @@ secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
 
 Location_WhiteForest = White Forest
 Location_Iberty = Iberty
+
+
+# ------------------------------------------------------------------------
+# ------------------------------- Items ----------------------------------
+# ------------------------------------------------------------------------
+
+
+ARMOR_LEATHER_name = Leather armor
+ARMOR_LEATHER_desc = A standard leather armor that can endure a few hits.<br>+2 DEF
+ITEM_ATTACK_UP_name = -
+ITEM_ATTACK_UP_desc = -
+ITEM_CONFUSE_name = -
+ITEM_CONFUSE_desc = -
+ITEM_CURE_name = Antidote
+ITEM_CURE_desc = Cures poison for one ally.
+ITEM_DEFENSE_UP_name = -
+ITEM_DEFENSE_UP_desc = -
+ITEM_POISON_name = -
+ITEM_POISON_desc = -
+ITEM_POTION_name = Medicinal herbs
+ITEM_POTION_desc = Restore 20 HP to one ally.
+ITEM_REVIVE_name = -
+ITEM_REVIVE_desc = -
+ITEM_SLEEP_name = -
+ITEM_SLEEP_desc = -
+ONEHANDED_AXE_name = Axe
+ONEHANDED_AXE_desc = An everyday axe that has seen some combat.<br>+3 ATK
+ONEHANDED_SWORD_name = Sword
+ONEHANDED_SWORD_desc = A sword that is used by some bandits on the Kalian roads.<br>+2 ATK
+SKILL_BASEATTACK_name = Attack
+SKILL_BASEATTACK_desc = A basic attack<br>(One foe)
+SKILL_HEAVYSLASH_name = -
+SKILL_HEAVYSLASH_desc = -
+SKILL_SLASH_name = -
+SKILL_SLASH_desc = -

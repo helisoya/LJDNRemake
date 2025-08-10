@@ -15,5 +15,6 @@ MonoBehaviour:
   itemsToSell:
   - ARMOR_LEATHER
   - ONEHANDED_SWORD
+  - ONEHANDED_AXE
   - ITEM_POTION
   - ITEM_CURE

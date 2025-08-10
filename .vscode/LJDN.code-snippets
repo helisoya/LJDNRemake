@@ -397,5 +397,21 @@
 			"shop(ID)"
 		],
 		"description": "Opens the shop"
+	},
+	"Force equip a weapon": {
+		"scope": "ansl",
+		"prefix": "forceEquipWeapon",
+		"body": [
+			"forceEquipWeapon(CHARACTER;WEAPONID;FORCEIFNOTOWNED)"
+		],
+		"description": "Forces a character to equip a weapon"
+	},
+	"Force equip an armor": {
+		"scope": "ansl",
+		"prefix": "forceEquipArmor",
+		"body": [
+			"forceEquipArmor(CHARACTER;ARMORID;FORCEIFNOTOWNED)"
+		],
+		"description": "Forces a character to equip an armor"
 	}
 }

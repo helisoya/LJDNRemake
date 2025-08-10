@@ -216,10 +216,15 @@ Iberty_Shop_MainQuest1_0_19 = Not at all. You'll have more use for this than me.
 Iberty_Shop_MainQuest1_0_20 = Hmm... I think I could use the dog back at the palace to find the owner of this clothing.
 Iberty_Shop_MainQuest1_0_21 = At least, if the Merchant lets me go on a mission ever again...
 Iberty_Shop_MainQuest1_0_22 = I should make my report. To the palace in the big city I go...
-Iberty_Shop_MainQuest1_0_23 = By the way, I figure you do a lot of adventuring out here ?
-Iberty_Shop_MainQuest1_0_24 = My shop is always open at day. So don't hesitate to come see my wares.
-Iberty_Shop_MainQuest1_0_25 = I sell weapons, armors and other things you might find useful.
-Iberty_Shop_MainQuest1_0_26 = The bandits stole all my money, but it couldn't hurt to have a look.
+Iberty_Shop_MainQuest1_0_23 = By the way, before I forget.
+Iberty_Shop_MainQuest1_0_24 = The shopkeeper takes out a sword from behind his counter.
+Iberty_Shop_MainQuest1_0_25 = Take this. I think the bandits stole you belongings, including your weapons.
+Iberty_Shop_MainQuest1_0_26 = Thank you.
+Iberty_Shop_MainQuest1_0_27 = Rusty, but it will keep me safe.
+Iberty_Shop_MainQuest1_0_28 = <color=blue>I can equip weapons and armors in the party menu.</color>
+Iberty_Shop_MainQuest1_0_29 = My shop is always open at day. So don't hesitate to come see my wares.
+Iberty_Shop_MainQuest1_0_30 = I sell weapons, armors and other things you might find useful.
+Iberty_Shop_MainQuest1_0_31 = The bandits stole all my money, but it couldn't hurt to have a look.
 
 Iberty_Shop_AboutYou_1 = I'm just a travelling shopkeeper.
 Iberty_Shop_AboutYou_2 = I usualy travel between Iberty and Vlatyr, in the west.

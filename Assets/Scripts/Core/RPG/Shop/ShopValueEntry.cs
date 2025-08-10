@@ -21,6 +21,6 @@ public class ShopValueEntry : MonoBehaviour
     {
         characterNameText.text = character;
         valuesText.SetValue(from, to, true);
-        valuesText.GetText().color = from == to ? Color.black : (from < to ? Color.green : Color.red);
+        valuesText.GetText().color = from == to ? Color.black : (from < to ? new Color(0, 0.5f, 0) : new Color(0.5f, 0, 0));
     }
 }

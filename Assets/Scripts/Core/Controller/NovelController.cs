@@ -944,6 +944,34 @@ public class NovelController : MonoBehaviour
                 }
                 break;
 
+            case "forceEquipWeapon":
+                RPGCharacter characterToEquipWeapon = GameManager.GetRPGManager().GetCharacter(parameters[0]);
+                string itemID = parameters[1];
+                bool addIfNoneInInventory = bool.Parse(parameters[2]);
+                int amountInInventory = GameManager.GetRPGManager().GetAmountInInventory(itemID);
+                if (characterToEquipWeapon != null && (amountInInventory != 0 || addIfNoneInInventory))
+                {
+                    if (!string.IsNullOrEmpty(characterToEquipWeapon.GetData().weapon)) GameManager.GetRPGManager().AddItemToInventory(characterToEquipWeapon.GetData().weapon, 1);
+                    if (amountInInventory > 0) GameManager.GetRPGManager().AddItemToInventory(itemID, -1);
+                    characterToEquipWeapon.GetData().weapon = itemID;
+                    characterToEquipWeapon.UpdateComputedStats();
+                }
+                break;
+
+            case "forceEquipArmor":
+                RPGCharacter characterToEquipArmor = GameManager.GetRPGManager().GetCharacter(parameters[0]);
+                string itemIDArmor = parameters[1];
+                bool addIfNoneInInventoryArmor = bool.Parse(parameters[2]);
+                int amountInInventoryArmor = GameManager.GetRPGManager().GetAmountInInventory(itemIDArmor);
+                if (characterToEquipArmor != null && (amountInInventoryArmor != 0 || addIfNoneInInventoryArmor))
+                {
+                    if (!string.IsNullOrEmpty(characterToEquipArmor.GetData().armor)) GameManager.GetRPGManager().AddItemToInventory(characterToEquipArmor.GetData().armor, 1);
+                    if (amountInInventoryArmor > 0) GameManager.GetRPGManager().AddItemToInventory(itemIDArmor, -1);
+                    characterToEquipArmor.GetData().armor = itemIDArmor;
+                    characterToEquipArmor.UpdateComputedStats();
+                }
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;
