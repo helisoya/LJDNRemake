@@ -1,4 +1,5 @@
 clearStack()
+setFg(1)
 
 playMusic(Exploration_1)
 removeAllCharacters()

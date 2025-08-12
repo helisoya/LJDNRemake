@@ -260,7 +260,7 @@ public class NovelController : MonoBehaviour
         while (chapterProgress < data.Count)
         {
 
-            string line = data[chapterProgress];
+            string line = data[chapterProgress].Replace("\t", "");
 
             if (line.Equals("interact"))
             {
@@ -709,6 +709,14 @@ public class NovelController : MonoBehaviour
                         yield return new WaitForEndOfFrame();
                     }
                 }
+                break;
+
+            case "setFg":
+                VNGUI.instance.ForceFgTo(float.Parse(parameters[0], System.Globalization.CultureInfo.InvariantCulture));
+                break;
+
+            case "setBg":
+                VNGUI.instance.ForceBgTo(float.Parse(parameters[0], System.Globalization.CultureInfo.InvariantCulture));
                 break;
 
             case "shake":

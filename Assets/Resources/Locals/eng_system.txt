@@ -176,10 +176,16 @@ Region_Kalia_Outpost = Forest Outpost
 mainQuest_1 = A new day
 mainQuest_1_0 = Talk to the shopkeeper in Iberty
 mainQuest_1_1 = Report back to the Merchant in Kalia
+mainQuest_1_done = I reported back to the Merchant
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
+secondaryQuest_Iberty_Doctor_done = I delivered the medicine
+
+secondaryQuest_Iberty_Port = A bandit problem
+secondaryQuest_Iberty_Port_0 = Talk to the fisherman in Iberty
+secondaryQuest_Iberty_Port_done = I defeated the bandit
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
@@ -188,6 +194,11 @@ secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
 Location_WhiteForest = White Forest
 Location_Iberty = Iberty
 
+# ------------------------------------------------------------------------
+# ------------------------ Ennemies --------------------------------------
+# ------------------------------------------------------------------------
+
+ENNEMY_Bandit_Hand_name = Bandit
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

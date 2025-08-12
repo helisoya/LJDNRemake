@@ -9,6 +9,7 @@ Char_Courier = Courier
 Char_Bandit = Bandit
 Char_Doctor = Doctor
 Char_Salesman = Shopkeeper
+Char_Fisherman = Fisherman
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -36,6 +37,9 @@ Choice_Right = Go right
 
 Choice_Accept = Accept
 Choice_Refuse = Refuse
+
+Choice_Ready = I'm ready
+Choice_NotYet = Not yet
 
 Choice_GoBack = Go Back
 
@@ -232,3 +236,52 @@ Iberty_Shop_AboutYou_3 = Its a nice journey. I even come back with exclusive Kos
 Iberty_Shop_AboutYou_4 = Of course, I also bring wares from Kalia to Vlatyr.
 Iberty_Shop_AboutYou_5 = The only downside of this travel is the White Forest, as you can imagine.
 Iberty_Shop_AboutYou_6 = Too many bandits... You can't go through without at least one bodyguard.
+
+Iberty_Port_Fisherman_Greetings_1 = .... Hi....
+
+Iberty_Port_Fisherman_AboutYou_1 = ..............
+Iberty_Port_Fisherman_AboutYou_2 = ...Me ? I'm just a local fisherman.
+Iberty_Port_Fisherman_AboutYou_3 = Simply catching fish to feed my family...
+Iberty_Port_Fisherman_AboutYou_4 = Before... I could even sell the excess to the big city...
+Iberty_Port_Fisherman_AboutYou_5 = But that was before... before the Merchant...
+
+Iberty_Port_Fisherman_Quest_Cant_1 = ........
+Iberty_Port_Fisherman_Quest_Cant_2 = Maybe.... But not now....
+Iberty_Port_Fisherman_Quest_Cant_3 = ...I need someone that can fight.
+
+Iberty_Port_Fisherman_Quest_Start_1 = ..... Actually...
+Iberty_Port_Fisherman_Quest_Start_2 = You seem strong... I have a bandit problem.
+Iberty_Port_Fisherman_Quest_Start_3 = I was fishing along the coast the other day.
+Iberty_Port_Fisherman_Quest_Start_4 = I caught the biggest fish I had ever seen.
+Iberty_Port_Fisherman_Quest_Start_5 = .... I also caught a nice bandit.
+Iberty_Port_Fisherman_Quest_Start_6 = He stole my catch, and I had to run away.
+Iberty_Port_Fisherman_Quest_Start_7 = Even today, he's still lurking at that fishing spot.
+Iberty_Port_Fisherman_Quest_Start_8 = Could you... deal with him ?
+Iberty_Port_Fisherman_Quest_Start_9 = I'll even pay you... 5 coins...
+Iberty_Port_Fisherman_Quest_Start_10 = That's not a lot, but it could make good practice.
+Iberty_Port_Fisherman_Quest_Start_11 = Okay, I'll see what I can do.
+Iberty_Port_Fisherman_Quest_Start_12 = .... Good.
+Iberty_Port_Fisherman_Quest_Start_13 = Tell me when you're ready...
+Iberty_Port_Fisherman_Quest_Start_14 = I'll guide you to the fishing spot.
+
+Iberty_Port_Fisherman_Quest_Do_1 = ....Ready to go deal with that bandit ?
+Iberty_Port_Fisherman_Quest_Do_2 = ... Good. Follow me...
+Iberty_Port_Fisherman_Quest_Do_3 = I follow the fisherman along the coast.
+Iberty_Port_Fisherman_Quest_Do_4 = ... After about half an hour, we finally managed to get to his fishing spot.
+Iberty_Port_Fisherman_Quest_Do_5 = And sure enough, the bandit is still there.
+Iberty_Port_Fisherman_Quest_Do_6 = Hey ! Who are you ?
+Iberty_Port_Fisherman_Quest_Do_7 = This is my place ! You need to pay to use it.
+Iberty_Port_Fisherman_Quest_Do_8 = 500 gold, that sounds like a fair price, no ?
+Iberty_Port_Fisherman_Quest_Do_9 = Leave.
+Iberty_Port_Fisherman_Quest_Do_10 = Oh, you wanna play tough ?
+Iberty_Port_Fisherman_Quest_Do_11 = Fine ! Don't say I didn't warn you.
+Iberty_Port_Fisherman_Quest_Do_12 = The bandit is on the ground.
+Iberty_Port_Fisherman_Quest_Do_13 = ... Eh... I knew you could do it.
+Iberty_Port_Fisherman_Quest_Do_14 = Here, take your gold.
+Iberty_Port_Fisherman_Quest_Do_15 = <color=blue>You received 5 gold.</color>
+Iberty_Port_Fisherman_Quest_Do_16 = I'll stay here... I have some fish to catch...
+Iberty_Port_Fisherman_Quest_Do_17 = Alright. I'll head back then.
+Iberty_Port_Fisherman_Quest_Do_18 = Try not to get attacked by bandits again.
+Iberty_Port_Fisherman_Quest_Do_19 = I part ways with the fisherman, and head back to Iberty.
+
+Iberty_Port_Fisherman_Quest_Done_1 = ... Not at this time, no...

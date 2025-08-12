@@ -172,10 +172,16 @@ Region_Kalia_Outpost = Avant poste
 mainQuest_1 = Un nouveau jour
 mainQuest_1_0 = Parlez au commerçant à Iberty
 mainQuest_1_1 = Retournez voir le Marchand à Kalia
+mainQuest_1_done = J'ai fait mon rapport au Marchand
 
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
+secondaryQuest_Iberty_Doctor_done = J'ai livré les médicaments
+
+secondaryQuest_Iberty_Port = Un problème de bandit
+secondaryQuest_Iberty_Port_0 = Parlez au pecheur à Iberty
+secondaryQuest_Iberty_Port_done = J'ai vaincu le bandit
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
@@ -184,6 +190,11 @@ secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
 Location_WhiteForest = Forêt Blanche
 Location_Iberty = Iberty
 
+# ------------------------------------------------------------------------
+# ------------------------ Ennemies --------------------------------------
+# ------------------------------------------------------------------------
+
+ENNEMY_Bandit_Hand_name = Bandit
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

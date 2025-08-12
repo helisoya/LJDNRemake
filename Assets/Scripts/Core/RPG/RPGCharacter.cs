@@ -8,33 +8,7 @@ using UnityEngine;
 public class RPGCharacter
 {
     private RPGCharacterData baseData;
-
-    #region STATS CONSTANTS
-    private const int HEALTH_BASE = 25;
-    private const float HEALTH_MULT_LEVEL = 5;
-    private const float HEALTH_MULT_BONUS = 2.5f;
-
-    private const int ATTACK_BASE = 5;
-    private const float ATTACK_MULT_LEVEL = 5.0f;
-    private const float ATTACK_MULT_FORCE = 10.0f;
-
-    private const float EVASION_BASE = 0.05f;
-    private const float EVASION_MULT_AGILITY = 105.0f;
-
-    private const int SP_BASE = 5;
-    private const float SP_MULT_LEVEL = 1.25f;
-    private const float SP_MULT_STRATEGY = 0.75f;
-
-    private const float PRICE_BASE = 1.0f;
-    private const float PRICE_MULT_CHARISMA = 175.0f;
-
-    private const int DEFENSE_BASE = 2;
-    private const float DEFENSE_MULT_LEVEL = 6f;
-    private const float DEFENSE_MULT_RESILIENCE = 12.0f;
-
-    private const int EXP_BASE = 20;
-
-    #endregion
+    private RPGCharacterStatsConstants constants;
 
     public int currentHealth { get { return baseData.currentHP; } }
     public int currentSP { get { return baseData.currentSP; } }
@@ -49,8 +23,9 @@ public class RPGCharacter
 
     public int availableFreePoints = 0;
 
-    public RPGCharacter(RPGCharacterData data)
+    public RPGCharacter(RPGCharacterData data, RPGCharacterStatsConstants constants)
     {
+        this.constants = constants;
         SetData(data);
     }
 
@@ -61,6 +36,15 @@ public class RPGCharacter
     public RPGCharacterData GetData()
     {
         return baseData;
+    }
+
+    /// <summary>
+    /// Gets the character's constants
+    /// </summary>
+    /// <returns>The constants</returns>
+    public RPGCharacterStatsConstants GetConstants()
+    {
+        return constants;
     }
 
     /// <summary>
@@ -86,25 +70,25 @@ public class RPGCharacter
         // Price = BASE - CHARISMA * MULT_CHARISMA
         // Next EXP = BASE + (LVL*2)**2
 
-        maxHealth = HEALTH_BASE + Mathf.FloorToInt(HEALTH_MULT_LEVEL * baseData.level + HEALTH_MULT_BONUS * baseData.GetRawStat(RPGCharacterData.StatType.BONUSHP));
+        maxHealth = constants.HEALTH_BASE + Mathf.FloorToInt(constants.HEALTH_MULT_LEVEL * baseData.level + constants.HEALTH_MULT_BONUS * baseData.GetRawStat(RPGCharacterData.StatType.BONUSHP));
         attack = Mathf.FloorToInt(
-            (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.FORCE) / ATTACK_MULT_FORCE + baseData.level / ATTACK_MULT_LEVEL)
-            * (ATTACK_BASE + (string.IsNullOrEmpty(baseData.weapon) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.weapon).statsValue)));
-        evasion = EVASION_BASE + baseData.GetRawStat(RPGCharacterData.StatType.AGILITY) / EVASION_MULT_AGILITY;
-        maxSP = SP_BASE + Mathf.FloorToInt(baseData.level * SP_MULT_LEVEL + baseData.GetRawStat(RPGCharacterData.StatType.STRATEGY) * SP_MULT_STRATEGY);
+            (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.FORCE) / constants.ATTACK_MULT_FORCE + baseData.level / constants.ATTACK_MULT_LEVEL)
+            * (constants.ATTACK_BASE + (string.IsNullOrEmpty(baseData.weapon) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.weapon).statsValue)));
+        evasion = constants.EVASION_BASE + baseData.GetRawStat(RPGCharacterData.StatType.AGILITY) / constants.EVASION_MULT_AGILITY;
+        maxSP = constants.SP_BASE + Mathf.FloorToInt(baseData.level * constants.SP_MULT_LEVEL + baseData.GetRawStat(RPGCharacterData.StatType.STRATEGY) * constants.SP_MULT_STRATEGY);
         defense = Mathf.FloorToInt(
-            (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.RESILIENCE) / DEFENSE_MULT_RESILIENCE + baseData.level / DEFENSE_MULT_LEVEL)
-            * (DEFENSE_BASE + (string.IsNullOrEmpty(baseData.armor) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.armor).statsValue)));
-        priceMultiplier = PRICE_BASE - baseData.GetRawStat(RPGCharacterData.StatType.CHARISMA) / PRICE_MULT_CHARISMA;
-        nextExpCap = EXP_BASE + Mathf.FloorToInt(Mathf.Pow(baseData.level * 2, 2));
+            (1.0f + baseData.GetRawStat(RPGCharacterData.StatType.RESILIENCE) / constants.DEFENSE_MULT_RESILIENCE + baseData.level / constants.DEFENSE_MULT_LEVEL)
+            * (constants.DEFENSE_BASE + (string.IsNullOrEmpty(baseData.armor) ? 0.0f : GameManager.GetRPGManager().GetItem(baseData.armor).statsValue)));
+        priceMultiplier = constants.PRICE_BASE - baseData.GetRawStat(RPGCharacterData.StatType.CHARISMA) / constants.PRICE_MULT_CHARISMA;
+        nextExpCap = constants.EXP_BASE + Mathf.FloorToInt(Mathf.Pow(baseData.level * 2, 2));
 
-        attack = Mathf.Clamp(attack, ATTACK_BASE, 999);
-        defense = Mathf.Clamp(defense, DEFENSE_BASE, 999);
-        maxHealth = Mathf.Clamp(maxHealth, HEALTH_BASE, 999);
-        evasion = Mathf.Clamp(evasion, EVASION_BASE, 0.8f);
-        maxSP = Mathf.Clamp(maxSP, SP_BASE, 999);
-        priceMultiplier = Mathf.Clamp(priceMultiplier, 0.1f, PRICE_BASE);
-        nextExpCap = Mathf.Clamp(nextExpCap, EXP_BASE, 999999);
+        attack = Mathf.Clamp(attack, constants.ATTACK_BASE, 999);
+        defense = Mathf.Clamp(defense, constants.DEFENSE_BASE, 999);
+        maxHealth = Mathf.Clamp(maxHealth, constants.HEALTH_BASE, 999);
+        evasion = Mathf.Clamp(evasion, constants.EVASION_BASE, 0.8f);
+        maxSP = Mathf.Clamp(maxSP, constants.SP_BASE, 999);
+        priceMultiplier = Mathf.Clamp(priceMultiplier, 0.1f, constants.PRICE_BASE);
+        nextExpCap = Mathf.Clamp(nextExpCap, constants.EXP_BASE, 999999);
     }
 
     /// <summary>

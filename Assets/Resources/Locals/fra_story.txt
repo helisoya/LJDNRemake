@@ -8,6 +8,7 @@ Char_GUARD = GARDE
 Char_Courier = Postier
 Char_Bandit = Bandit
 Char_Salesman = Commerçant
+Char_Fisherman = Pecheur
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -231,3 +232,52 @@ Iberty_Shop_AboutYou_3 = C'est un joli voyage. Je reviens même avec des produit
 Iberty_Shop_AboutYou_4 = Bien sur, j'ammene aussi des produits de Kalia à Vlatyr.
 Iberty_Shop_AboutYou_5 = Le seul point négatif de ce voyage est la forêt Blanche, comme vous pouvez vous en douter.
 Iberty_Shop_AboutYou_6 = Trop de bandits... On ne peut pas passer sans au moins un garde du corps.
+
+Iberty_Port_Fisherman_Greetings_1 = .... Salut....
+
+Iberty_Port_Fisherman_AboutYou_1 = ..............
+Iberty_Port_Fisherman_AboutYou_2 = ...Moi ? Je suis un simple pecheur.
+Iberty_Port_Fisherman_AboutYou_3 = Je ne fait que pecher du poisson pour nourrir ma famille.
+Iberty_Port_Fisherman_AboutYou_4 = Avant... Je pouvais même vendre le rab' en ville...
+Iberty_Port_Fisherman_AboutYou_5 = Mais c'était avant... avant le Marchand...
+
+Iberty_Port_Fisherman_Quest_Cant_1 = ........
+Iberty_Port_Fisherman_Quest_Cant_2 = Peut être.... Mais pas maintenant....
+Iberty_Port_Fisherman_Quest_Cant_3 = ... J'ai besoin de quelqu'un pouvant se battre.
+
+Iberty_Port_Fisherman_Quest_Start_1 = ..... En fait...
+Iberty_Port_Fisherman_Quest_Start_2 = Vous avez l'air fort... J'ai un problème avec un bandit.
+Iberty_Port_Fisherman_Quest_Start_3 = Je pechais sur la côte l'autre jour.
+Iberty_Port_Fisherman_Quest_Start_4 = J'ai attrapé ma plus grande prise de l'année.
+Iberty_Port_Fisherman_Quest_Start_5 = .... J'ai aussi attrapé un beau bandit.
+Iberty_Port_Fisherman_Quest_Start_6 = Il a volé ma prise, et j'ai dû fuir.
+Iberty_Port_Fisherman_Quest_Start_7 = Encore ajourd'hui, il est toujours en train de camper cet endroit
+Iberty_Port_Fisherman_Quest_Start_8 = Pourriez-vous... vous occuper de lui ?
+Iberty_Port_Fisherman_Quest_Start_9 = Je peux même payer... 5 pièces...
+Iberty_Port_Fisherman_Quest_Start_10 = C'est pas beaucoup, mais ça peut faire de l'entrainement.
+Iberty_Port_Fisherman_Quest_Start_11 = Très bien, je vais voir ce que je peux faire.
+Iberty_Port_Fisherman_Quest_Start_12 = .... Bien.
+Iberty_Port_Fisherman_Quest_Start_13 = Dites-moi quand vous êtes prêt...
+Iberty_Port_Fisherman_Quest_Start_14 = Je vous guiderais à mon coin de pêche.
+
+Iberty_Port_Fisherman_Quest_Do_1 = ....Prêt à vous occuper de ce bandit ?
+Iberty_Port_Fisherman_Quest_Do_2 = ... Bien. Suivez-moi...
+Iberty_Port_Fisherman_Quest_Do_3 = Je suis le pecheur le long de la côte.
+Iberty_Port_Fisherman_Quest_Do_4 = ... Après une demi-heure, on arrive enfin à son coin de pêche.
+Iberty_Port_Fisherman_Quest_Do_5 = Et bien sur, le bandit est toujours là.
+Iberty_Port_Fisherman_Quest_Do_6 = Eh ! Vous êtes qui ?
+Iberty_Port_Fisherman_Quest_Do_7 = C'est chez moi ici ! Vous devez payer pour passer.
+Iberty_Port_Fisherman_Quest_Do_8 = 500 pièces, c'est un bon prix, non ?
+Iberty_Port_Fisherman_Quest_Do_9 = Part.
+Iberty_Port_Fisherman_Quest_Do_10 = Oh, tu veux faire le dur ?
+Iberty_Port_Fisherman_Quest_Do_11 = Bah ! Ne me dis pas que je n'avais pas prévenu.
+Iberty_Port_Fisherman_Quest_Do_12 = Le bandit est au sol.
+Iberty_Port_Fisherman_Quest_Do_13 = ... Eh... Je savais que vous pouviez le faire.
+Iberty_Port_Fisherman_Quest_Do_14 = Tenez, voici votre argent.
+Iberty_Port_Fisherman_Quest_Do_15 = <color=blue>Vous recevez 5 pièces.</color>
+Iberty_Port_Fisherman_Quest_Do_16 = Je vais rester un peu... J'ai du poisson à attraper...
+Iberty_Port_Fisherman_Quest_Do_17 = Je vois. Je vais rentrer.
+Iberty_Port_Fisherman_Quest_Do_18 = Essayez de ne pas vous faire attaquer à nouveau.
+Iberty_Port_Fisherman_Quest_Do_19 = Je part, et retourne à Iberty.
+
+Iberty_Port_Fisherman_Quest_Done_1 = ... Pas pour le moment, non...

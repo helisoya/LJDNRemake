@@ -7,6 +7,7 @@ using UnityEngine;
 public class TestStatsManager : MonoBehaviour
 {
     [SerializeField] private RPGCharacterDataInterface data;
+    [SerializeField] private RPGCharacterStatsConstants constants;
 
     [Header("Inputs")]
     [SerializeField] private TestStatsSlider levelSlider;
@@ -30,7 +31,7 @@ public class TestStatsManager : MonoBehaviour
 
     void Start()
     {
-        character = new RPGCharacter(data.data.Clone());
+        character = new RPGCharacter(data.data.Clone(), constants);
         levelSlider.value = character.GetData().level;
         forceSlider.value = character.GetData().GetRawStat(RPGCharacterData.StatType.FORCE);
         agilitySlider.value = character.GetData().GetRawStat(RPGCharacterData.StatType.AGILITY);

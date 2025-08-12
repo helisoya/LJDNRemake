@@ -20,7 +20,7 @@ public class QuestInfo : MonoBehaviour
         questName.SetNewKey(id);
         if (value.Equals("100"))
         {
-            questObjective.SetNewKey(null);
+            questObjective.SetNewKey(id + "_done");
         }
         else
         {

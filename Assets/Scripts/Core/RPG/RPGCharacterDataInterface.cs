@@ -9,4 +9,5 @@ using UnityEngine;
 public class RPGCharacterDataInterface : ScriptableObject
 {
     public RPGCharacterData data;
+    public RPGCharacterStatsConstants constants;
 }

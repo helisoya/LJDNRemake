@@ -413,5 +413,21 @@
 			"forceEquipArmor(CHARACTER;ARMORID;FORCEIFNOTOWNED)"
 		],
 		"description": "Forces a character to equip an armor"
+	},
+	"Immediatly set the Background's alpha": {
+		"scope": "ansl",
+		"prefix": "setBg",
+		"body": [
+			"setBg(ALPHA)"
+		],
+		"description": "Immediatly sets the Background's alpha"
+	},
+	"Immediatly set the Foreground's alpha": {
+		"scope": "ansl",
+		"prefix": "setFg",
+		"body": [
+			"setFg(ALPHA)"
+		],
+		"description": "Immediatly sets the Foreground's alpha"
 	}
 }

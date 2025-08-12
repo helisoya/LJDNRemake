@@ -34,3 +34,4 @@ MonoBehaviour:
     currentHP: 0
     currentSP: 0
     exp: 0
+  constants: {fileID: 11400000, guid: 8f0a82b07992ef842bdd0575e36bfa45, type: 2}

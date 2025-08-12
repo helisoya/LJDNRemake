@@ -53,7 +53,7 @@ public class RPGManager : MonoBehaviour
         RPGCharacter ch;
         foreach (RPGCharacterDataInterface character in defaultCharacters)
         {
-            ch = new RPGCharacter(character.data.Clone());
+            ch = new RPGCharacter(character.data.Clone(), character.constants);
             ch.SetHealthToMax();
             ch.SetSPToMax();
             characters.Add(ch);

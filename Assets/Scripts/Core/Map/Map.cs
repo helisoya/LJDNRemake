@@ -98,8 +98,6 @@ public class Map : MonoBehaviour
         cursor.UpdateInfo(false, "");
         InteractionManager.instance.SetActive(false);
         CloseMap();
-        VNGUI.instance.ForceFgTo(1);
-        //VNGUI.instance.FadeFgTo(0, 2);
         NovelController.instance.LoadChapterFile(filename);
     }
 

@@ -107,10 +107,10 @@ public class BattleManager : MonoBehaviour
         gui.SetActionTextVisible(true);
         yield return new WaitForSeconds(1);
 
-        GameManager.GetRPGManager().AddMoney(data.goldReward);
+        GameManager.GetRPGManager().AddMoney(currentData.goldReward);
 
         gui.GetActionText().SetParameters("", "", " ", "");
-        gui.GetActionText().SetValue(null, data.goldReward, false);
+        gui.GetActionText().SetValue(null, currentData.goldReward, false);
         gui.GetActionText().SetNewKey("battle_gold");
         gui.SetActionTextVisible(true);
         yield return new WaitForSeconds(1);
@@ -928,7 +928,7 @@ public class BattleManager : MonoBehaviour
 
         foreach (RPGCharacterDataInterface dataInterface in currentData.ennemies)
         {
-            character = new RPGCharacter(dataInterface.data.Clone());
+            character = new RPGCharacter(dataInterface.data.Clone(), dataInterface.constants);
             character.GetData().level = avgLevel;
             character.UpdateComputedStats();
             character.SetHealthToMax();

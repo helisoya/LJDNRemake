@@ -104,6 +104,7 @@ public class CharacterGeneratorEditor : EditorWindow
         interactionCollider.center = new Vector3(0.05509984f, 2.136485f, 0);
         interactionCollider.size = new Vector3(2.307784f, 4.283336f, 1f);
         interactableRoot.transform.SetParent(modelRoot.transform);
+        interactableRoot.transform.localScale = Vector3.one;
 
 
         // Generate Animations

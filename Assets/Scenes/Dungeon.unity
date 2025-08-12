@@ -5040,7 +5040,7 @@ MonoBehaviour:
   - {fileID: 1824115893}
   generator: {fileID: 1707510433}
   gui: {fileID: 1704067765}
-  useDebug: 1
+  useDebug: 0
   debugData: {fileID: 11400000, guid: 73a69d883aeb5e741bca3f315860fe20, type: 2}
 --- !u!114 &1707510433
 MonoBehaviour:
