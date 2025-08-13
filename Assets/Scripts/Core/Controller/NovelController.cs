@@ -274,6 +274,13 @@ public class NovelController : MonoBehaviour
             {
                 yield return HandlingIf(line);
             }
+            else if (line.StartsWith("else"))
+            {
+                if (line.EndsWith("}"))
+                {
+                    chapterProgress = CloseBrackets(chapterProgress, 1);
+                }
+            }
             else
             {
                 yield return HandlingLine(line);
@@ -394,7 +401,7 @@ public class NovelController : MonoBehaviour
 
         // Handle else
 
-        if (chapterProgress < data.Count - 1 && data[chapterProgress + 1].StartsWith("else"))
+        if (chapterProgress < data.Count - 1 && data[chapterProgress + 1].Replace("\t", "").StartsWith("else"))
         {
             chapterProgress++;
 
@@ -416,7 +423,7 @@ public class NovelController : MonoBehaviour
             else if (!data[chapterProgress].EndsWith("{"))
             {
                 // Process the else
-                split = data[chapterProgress].Split("else ");
+                split = data[chapterProgress].Replace("\t", "").Split("else ");
 
                 split[1] = split[1].Replace(" ", "");
 

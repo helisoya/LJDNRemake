@@ -82,8 +82,8 @@ public class PartyMenuStatusTab : PartyMenuTab
     /// <param name="character">The new character</param>
     public void SelectCharacter(RPGCharacter character)
     {
-        nameText.text = character.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(character.GetData().ID + "_name");
-
+        nameText.text = (character.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(character.GetData().ID + "_name"))
+            + " (" + character.GetData().level + ")";
         hpText.SetValue(character.currentHealth, character.maxHealth, true);
         spText.SetValue(character.currentSP, character.maxSP, true);
         expText.SetValue(character.GetData().exp, character.nextExpCap, true);

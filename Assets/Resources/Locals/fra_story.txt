@@ -9,6 +9,8 @@ Char_Courier = Postier
 Char_Bandit = Bandit
 Char_Salesman = Commerçant
 Char_Fisherman = Pecheur
+Char_Mayor = Maire
+Char_Soldier = Soldat
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -30,6 +32,10 @@ Choice_AboutYou = A propos de vous
 Choice_AboutJob = A propos de votre travail
 Choice_Heal = J'ai besoin de soins
 Choice_NeedHelp = Besoin d'aide ?
+Choice_AboutTask = A propos de la tache
+Choice_AboutCity = A propos de la ville
+Choice_AboutBandits = A propos des bandits
+Choice_GivePackage = <i>Donner le colis</i>
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -189,7 +195,7 @@ Iberty_Doctor_SideQuest_InProgress_1 = Vous trouverez le maire à la mairie.
 Iberty_Doctor_SideQuest_End_1 = J'ai livré les médicaments.
 Iberty_Doctor_SideQuest_End_2 = Ah, je ne peux pas vous remercier assez.
 Iberty_Doctor_SideQuest_End_3 = Tenez, prenez ceci comme récompense.
-Iberty_Doctor_SideQuest_End_4 = J'ai reçu 20 or du docteur.
+Iberty_Doctor_SideQuest_End_4 = <color=blue>J'ai reçu 10 or du docteur.</color>
 Iberty_Doctor_SideQuest_End_5 = Vous avez besoin de quelque chose d'autre ?
 
 Iberty_Shop_Greetings_1 = Bonjour ! Bienvenue dans ma boutique.
@@ -281,3 +287,29 @@ Iberty_Port_Fisherman_Quest_Do_18 = Essayez de ne pas vous faire attaquer à nou
 Iberty_Port_Fisherman_Quest_Do_19 = Je part, et retourne à Iberty.
 
 Iberty_Port_Fisherman_Quest_Done_1 = ... Pas pour le moment, non...
+
+Iberty_CityHall_Mayor_Greetings_1 = Bonjour. Bienvenue à la mairie d'Iberty.
+
+Iberty_CityHall_Mayor_AboutCity_1 = Le village d'Iberty existe depuis quasiment aussi longtemps que celle de Kalia.
+Iberty_CityHall_Mayor_AboutCity_2 = Nous vivions principalement de la vente de bois et de poisson en ville.
+Iberty_CityHall_Mayor_AboutCity_3 = Mais il y a peu près 20 ans, le Marchand nous a annoncé que ne ne pouvions plus.
+Iberty_CityHall_Mayor_AboutCity_4 = "Trouvez un autre endroit pour vendre." Il nous as dit.
+Iberty_CityHall_Mayor_AboutCity_5 = Impossible. Pas avez les bandits dans la forêt. Pas avec le blocus naval au sud.
+Iberty_CityHall_Mayor_AboutCity_6 = Le village commença alors son long déclin.
+Iberty_CityHall_Mayor_AboutCity_7 = Beaucoup sont parti. Certains sont allé en ville, d'autres sont parti jusqu'à Kosky, à l'Ouest.
+Iberty_CityHall_Mayor_AboutCity_8 = Au final, seul ceux qui ne pouvait pas partir sont rester.
+Iberty_CityHall_Mayor_AboutCity_9 = ... Il y a 20 ans, Iberty était 2 fois plus grand. Vous y croyez ?
+
+Iberty_CityHall_Mayor_AboutBandits_1 = Il y a une importante infestation de bandits dans la Forêt Blanche.
+Iberty_CityHall_Mayor_AboutBandits_2 = Si vous voulez aller au Marklicht, ou à Orkva, vous allez au moins tomber sur quelques groupes.
+Iberty_CityHall_Mayor_AboutBandits_3 = C'était tellement infernal, que Kalia et le Marklicht ont crée une organisation anti-bandit.
+Iberty_CityHall_Mayor_AboutBandits_4 = C'est "L'Ordre Kalien-Marklichtien contre les bandits". Ou l'Ordre pour faire plus simple.
+Iberty_CityHall_Mayor_AboutBandits_5 = Si vous voulez un jour les aider à nettoyer la forêt, allez les voir.
+Iberty_CityHall_Mayor_AboutBandits_6 = Leur QG est localisé dans une partie reculé de la Forêt Blanche.
+
+Iberty_CityHall_Mayor_DoctorQuest0_1 = J'ai les médicaments que le docteur voulait vous donner.
+Iberty_CityHall_Mayor_DoctorQuest0_2 = Il était occupé, donc il m'a envoyé à sa place.
+Iberty_CityHall_Mayor_DoctorQuest0_3 = Oh, oui ! Merci beacoup.
+Iberty_CityHall_Mayor_DoctorQuest0_4 = J'ai pris froid récemment. Ces médicaments vont m'aider à me rétablir.
+Iberty_CityHall_Mayor_DoctorQuest0_5 = Je devrais retourner voir le docteur.
+Iberty_CityHall_Mayor_DoctorQuest0_6 = Autre chose ?
