@@ -34,8 +34,8 @@ dialog(Salesman;Salesman1;false;Iberty_Shop_MainQuest1_0_25)
 dialog([MC];_;false;Iberty_Shop_MainQuest1_0_26)
 dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_27)
 
-addItem(ONEHANDED_SWORD;1)
-forceEquipWeapon(PLAYER;ONEHANDED_SWORD;true)
+addItem(ONEHANDED_KNIFE;1)
+forceEquipWeapon(PLAYER;ONEHANDED_KNIFE;true)
 
 dialog(narrator;_;false;Iberty_Shop_MainQuest1_0_28)
 

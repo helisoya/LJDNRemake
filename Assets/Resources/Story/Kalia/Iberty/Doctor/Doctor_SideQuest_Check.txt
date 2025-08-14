@@ -1,11 +1,6 @@
 # Checks for the secondary quest of Iberty's Doctor
-if(secondaryQuest_Iberty_Doctor = -1) load(Kalia/Iberty/Doctor/Doctor_SideQuest_Start)
-	else{
-		if(secondaryQuest_Iberty_Doctor = 0) load(Kalia/Iberty/Doctor/Doctor_SideQuest_InProgress)
-		else{
-			if(secondaryQuest_Iberty_Doctor = 1) load(Kalia/Iberty/Doctor/Doctor_SideQuest_End)
-			else{
-				if(secondaryQuest_Iberty_Doctor = 100) load(Kalia/Iberty/Doctor/Doctor_SideQuest_Done)
-			}
-	}
-}
+switch secondaryQuest_Iberty_Doctor
+	-1 Kalia/Iberty/Doctor/Doctor_SideQuest_Start
+	0 Kalia/Iberty/Doctor/Doctor_SideQuest_InProgress
+	1 Kalia/Iberty/Doctor/Doctor_SideQuest_End
+	100 Kalia/Iberty/Doctor/Doctor_SideQuest_Done

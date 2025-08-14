@@ -35,7 +35,7 @@ City_Iberty_ToRegion TODO canTravel_City_Iberty_Region 1
 City_Iberty_Doctor Kalia/Iberty/Doctor/Arrival canTravel_City_Iberty_Doctor 1
 City_Iberty_Shop Kalia/Iberty/Shop/Arrival canTravel_City_Iberty_Shop 1
 City_Iberty_CityHall Kalia/Iberty/CityHall/Arrival canTravel_City_Iberty_CityHall 1
-City_Iberty_Catacombs TODO canTravel_City_Iberty_Catacombs 1
+City_Iberty_Catacombs Kalia/Iberty/Catacombs/Arrival canTravel_City_Iberty_Catacombs 1
 City_Iberty_Port Kalia/Iberty/Port/Arrival canTravel_City_Iberty_Port 1
 
 [Region_Kalia]

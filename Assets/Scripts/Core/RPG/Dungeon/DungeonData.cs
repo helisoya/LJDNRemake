@@ -10,12 +10,12 @@ public class DungeonData : ScriptableObject
 {
     [Header("Informations")]
     public string ID;
+    public string locationID;
     public int floorsAmount;
     public string endChapter;
     public string musicName;
     public bool canExitEarly;
     public string earlyExitChapter;
-    public string locationName;
 
     [Header("Encounters")]
     public BattleData[] encounters;

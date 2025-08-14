@@ -36,6 +36,7 @@ Choice_AboutTask = A propos de la tache
 Choice_AboutCity = A propos de la ville
 Choice_AboutBandits = A propos des bandits
 Choice_GivePackage = <i>Donner le colis</i>
+Choice_AboutCamp = A propos du camp
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -45,7 +46,11 @@ Choice_Refuse = Refuser
 
 Choice_GoBack = Retourner en arrière
 
+# ---------------------------------------------------------
+# ------------------- Common ------------------------------
+# ---------------------------------------------------------
 
+Common_DontNeedToGoThere_1 = I don't need to go there.
 
 # ---------------------------------------------------------
 # ------------------- Intro -------------------------------
@@ -223,7 +228,7 @@ Iberty_Shop_MainQuest1_0_20 = Hmm... Je pourrais utiliser le chien au palais pou
 Iberty_Shop_MainQuest1_0_21 = Enfin, si le Marchand me laisse repartir sur une mission...
 Iberty_Shop_MainQuest1_0_22 = Je devrais faire mon rapport. Il est temps d'aller au palais de la ville.
 Iberty_Shop_MainQuest1_0_23 = Oh, avant que je n'oublie.
-Iberty_Shop_MainQuest1_0_24 = Le commerçant sort une épée de derrière son comptoir.
+Iberty_Shop_MainQuest1_0_24 = Le commerçant sort un couteau de derrière son comptoir.
 Iberty_Shop_MainQuest1_0_25 = Prenez la. Je pense que les bandits ont volés tout vos biens, y compris vos armes.
 Iberty_Shop_MainQuest1_0_26 = Merci.
 Iberty_Shop_MainQuest1_0_27 = Rouillée, mais elle devrait me protéger un peu.
@@ -313,3 +318,66 @@ Iberty_CityHall_Mayor_DoctorQuest0_3 = Oh, oui ! Merci beacoup.
 Iberty_CityHall_Mayor_DoctorQuest0_4 = J'ai pris froid récemment. Ces médicaments vont m'aider à me rétablir.
 Iberty_CityHall_Mayor_DoctorQuest0_5 = Je devrais retourner voir le docteur.
 Iberty_CityHall_Mayor_DoctorQuest0_6 = Autre chose ?
+
+Iberty_CityHall_Soldier_Greetings_1 = Rien à signaler, chef.
+
+Iberty_CityHall_Soldier_AboutYou_1 = Je suis en réalité du coin.
+Iberty_CityHall_Soldier_AboutYou_2 = Mon père est pêcheur, peut être que vous l'avez déjà vu.
+Iberty_CityHall_Soldier_AboutYou_3 = J'ai rejoint l'armée il y a à peu prêt 20 ans.
+Iberty_CityHall_Soldier_AboutYou_4 = C'est pile au moment ou les sanctions sur Iberty sont arrivées.
+Iberty_CityHall_Soldier_AboutYou_5 = Les gens sont partis, et les bandits ont commençé à s'aventurer dans le coin.
+Iberty_CityHall_Soldier_AboutYou_6 = Je ne pouvais pas supporter ça, alors j'ai demandé la permission de revenir.
+Iberty_CityHall_Soldier_AboutYou_7 = Maintenant, mon travail est de m'assurer que les bandits n'attaquent plus.
+Iberty_CityHall_Soldier_AboutYou_8 = Ce n'est pas passionant, mais c'est un travail important.
+
+Iberty_CityHall_Soldier_AboutCamp_1 = Le camp, ou Fort Espoir, est le QG de l'armée Kalienne.
+Iberty_CityHall_Soldier_AboutCamp_2 = Tout les nouvelles recrus passent par là.
+Iberty_CityHall_Soldier_AboutCamp_3 = Après un long entrainement, on peut être sélectionner pour aller en ville.
+Iberty_CityHall_Soldier_AboutCamp_4 = Si on est très bon, on peut même rejoindre la garde républicaine.
+Iberty_CityHall_Soldier_AboutCamp_5 = Mais... Vous le saviez déjà, pas vrai ?
+Iberty_CityHall_Soldier_AboutCamp_6 = Votre uniforme, votre rang. Vous êtes un garde republicain, pas vrai ?
+Iberty_CityHall_Soldier_AboutCamp_7 = Hmm... Vous êtes la première personne à me reconnaitre.
+Iberty_CityHall_Soldier_AboutCamp_8 = Et bien, pour être franc... Les soldats ne viennent quasiment jamais ici.
+Iberty_CityHall_Soldier_AboutCamp_9 = Et la garde républicaine n'a pas fait d'apparition officielle depuis... l'incident il y a 2 ans.
+Iberty_CityHall_Soldier_AboutCamp_10 = ... C'était un vrai cauchemar.
+Iberty_CityHall_Soldier_AboutCamp_11 = La version officielle est que la garde a simplement été réorganisée et stationnée au palais du Marchand.
+Iberty_CityHall_Soldier_AboutCamp_12 = Mais je me demande, chef. Est-ce la vérité ?
+Iberty_CityHall_Soldier_AboutCamp_13 = L'ignorance est salvatrice.
+
+Iberty_CityHall_Soldier_Quest_Cant_1 = En réalité, oui.
+Iberty_CityHall_Soldier_Quest_Cant_2 = Mais vous devriez être équiper pour ça.
+Iberty_CityHall_Soldier_Quest_Cant_3 = Revenez quand vous aurez une arme.
+
+Iberty_CityHall_Soldier_Quest_Start_1 = En fait, j'ai un problème.
+Iberty_CityHall_Soldier_Quest_Start_2 = Des bandits sont entrés dans les catacombes du village, et je n'arrive pas à les faire sortir.
+Iberty_CityHall_Soldier_Quest_Start_3 = Quand j'essaie, la mairie se fait attaquer par un autre groupe.
+Iberty_CityHall_Soldier_Quest_Start_4 = Je pense qu'ils se terrent dans les collines alentours, et m'observent.
+Iberty_CityHall_Soldier_Quest_Start_5 = Donc, pourriez-vous nettoyer les catacombes pour moi ? Je vais rester garder le village pendant ce temps.
+Iberty_CityHall_Soldier_Quest_Start_6 = Je vais voir ce que je peux faire.
+Iberty_CityHall_Soldier_Quest_Start_7 = Merci, chef.
+
+Iberty_CityHall_Soldier_Quest_During_1 = Vous devez nettoyer les catacombes du village.
+
+Iberty_CityHall_Soldier_Quest_End_1 = J'ai délogé les bandits.
+Iberty_CityHall_Soldier_Quest_End_2 = Incroyable, ca leur servira de leçon.
+Iberty_CityHall_Soldier_Quest_End_3 = J'ai demandé au maire, et j'ai réussit à vous dégoter un peu d'argent.
+Iberty_CityHall_Soldier_Quest_End_4 = Tenez. Ce n'est pas beaucoup, mais c'est pour vous remercier de nous avoir aidé.
+Iberty_CityHall_Soldier_Quest_End_5 = <color=blue>Vous avez reçu 10 pièces.</color>
+Iberty_CityHall_Soldier_Quest_End_6 = Besoin d'autre chose, chef ?
+
+Iberty_CityHall_Soldier_Quest_Done_1 = Pas en ce moment, chef.
+
+Iberty_Catacombs_Quest_1 = Des bandits se cachent ici.
+Iberty_Catacombs_Quest_2 = Suis-je prêt à rentrer ?
+Iberty_Catacombs_Quest_3 = J'entre dans les catacombes.
+
+Iberty_Catacombs_Quest_4 = Après avoir marché un peu, je tombe sur les bandits.
+Iberty_Catacombs_Quest_5 = Eh, t'es qui ?!
+Iberty_Catacombs_Quest_6 = Zut... Je pensais que les autres s'en occuperait.
+Iberty_Catacombs_Quest_7 = Peu importe, ne t'attend pas à sortir vivant d'ici !
+Iberty_Catacombs_Quest_8 = Les bandits m'attaquent.
+
+Iberty_Catacombs_Quest_9 = Les bandits sont au sol.
+Iberty_Catacombs_Quest_10 = On dirait qu'ils étaient en train de voler les corps.
+Iberty_Catacombs_Quest_11 = ... Retournons à la mairie.
+Iberty_Catacombs_Quest_12 = Le garde devrait savoir que j'ai régler le problème.

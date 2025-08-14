@@ -7,6 +7,7 @@
 		{ "include": "#constants" },
 		{ "include": "#commands" },
 		{ "include": "#choice" },
+		{ "include": "#switch" },
 		{ "include": "#choice-entry" },
 		{ "include": "#trad-entry" },
 		{ "include": "#function-else" }
@@ -126,6 +127,22 @@
 			"patterns": [
 				{
 					"match": "choice",
+					"name": "keyword.control.ansl"
+				},
+				{
+					"begin": " ",
+					"end": "$",
+					"name": "choice.id.ansl"
+				}
+			]
+		},
+		"switch": {
+			"begin": "^switch",
+			"end": "$",
+			"name": "keyword.control.ansl",
+			"patterns": [
+				{
+					"match": "switch",
 					"name": "keyword.control.ansl"
 				},
 				{

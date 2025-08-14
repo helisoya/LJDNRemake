@@ -4,6 +4,7 @@ using UnityEngine;
 using Random = System.Random;
 using Graphs;
 using Unity.VisualScripting;
+using System;
 
 public class Generator2D : MonoBehaviour
 {
@@ -66,17 +67,30 @@ public class Generator2D : MonoBehaviour
 
     public void Generate(DungeonData data)
     {
-        random = new Random(UnityEngine.Random.Range(0, int.MaxValue));
-        grid = new Grid2D<CellType>(data.size, Vector2Int.zero);
-        rooms = new List<Room>();
+        bool done = false;
+        while (!done)
+        {
+            try
+            {
+                random = new Random(UnityEngine.Random.Range(0, int.MaxValue));
+                grid = new Grid2D<CellType>(data.size, Vector2Int.zero);
+                rooms = new List<Room>();
 
-        PlaceRooms(data.size, data.roomCount, data.roomMaxSize);
-        Triangulate();
-        CreateHallways();
-        PathfindHallways(data.size);
+                PlaceRooms(data.size, data.roomCount, data.roomMaxSize);
+                Triangulate();
+                CreateHallways();
+                PathfindHallways(data.size);
 
-        InstantiateDungeon(data.size, data.cellPrefab);
-        PlaceObjects();
+                InstantiateDungeon(data.size, data.cellPrefab);
+                PlaceObjects();
+                done = true;
+            }
+            catch (Exception error)
+            {
+                Debug.LogError(error);
+            }
+        }
+
     }
 
     private void PlaceObjects()

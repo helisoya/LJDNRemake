@@ -254,6 +254,14 @@
 		],
 		"description": "Starts a choice"
 	},
+	"Switch": {
+		"scope": "ansl",
+		"prefix": "switch",
+		"body": [
+			"switch VARIABLE\n\tVALUE NEXTCHAPTER\n\tVALUE NEXTCHAPTER\n\tdefault NEXTCHAPTER"
+		],
+		"description": "Starts a choice"
+	},
 	"If": {
 		"scope": "ansl",
 		"prefix": "if",

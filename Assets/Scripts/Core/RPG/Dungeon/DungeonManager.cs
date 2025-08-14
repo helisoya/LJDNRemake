@@ -129,7 +129,7 @@ public class DungeonManager : MonoBehaviour
     {
         this.data = data;
         if (stairs) Destroy(stairs.gameObject);
-        GameManager.instance.SetCurrentLocation(data.locationName);
+        GameManager.instance.SetCurrentLocation(data.locationID);
         stairs = Instantiate(data.stairsPrefab);
         generator.ResetEntitiesToPlace();
         generator.AddEntityToPlace(stairs.transform);
@@ -216,10 +216,12 @@ public class DungeonManager : MonoBehaviour
     /// </summary>
     public void StartRandomEncounter()
     {
+        ComputeMetersToNextEncounter();
+        if (data.encounters.Length == 0) return;
+
         BattleData chosenData = data.encounters[Random.Range(0, data.encounters.Length)];
         AudioManager.instance.PlaySong(chosenData.music);
         inBattle = true;
-        ComputeMetersToNextEncounter();
         GameManager.GetRPGManager().SetNextBattleEncounter(
             chosenData,
             data.battleBackground,

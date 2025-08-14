@@ -274,6 +274,10 @@ public class NovelController : MonoBehaviour
             {
                 yield return HandlingIf(line);
             }
+            else if (line.StartsWith("switch"))
+            {
+                yield return HandlingSwitch(line);
+            }
             else if (line.StartsWith("else"))
             {
                 if (line.EndsWith("}"))
@@ -342,6 +346,45 @@ public class NovelController : MonoBehaviour
             chapterProgress++;
         }
         return ifStart - 1;
+    }
+
+    IEnumerator HandlingSwitch(string line)
+    {
+        yield return new WaitForEndOfFrame();
+
+        string variablename = line.Split(" ")[1];
+        string variableValue = GameManager.GetSaveManager().GetItem(variablename);
+        string whatToLoadAfter = null;
+        string defaultLoad = null;
+
+        int i = chapterProgress + 1;
+        while (i < data.Count && !string.IsNullOrEmpty(data[i]) && !string.IsNullOrWhiteSpace(data[i]) && data[i].StartsWith("\t"))
+        {
+            string choiceLine = data[i].Replace("\t", "");
+            string[] split = choiceLine.Split(' ');
+            print("Switch (" + variableValue + ") : " + split[0] + " -> " + split[1] + " ");
+            if (split[0] == variableValue)
+            {
+                whatToLoadAfter = split[1];
+            }
+            else if (split[0] == "default")
+            {
+                defaultLoad = split[1];
+            }
+            i++;
+        }
+
+        stack[stack.Count - 1].currentChapterProgress = i;
+        chapterProgress = i;
+
+        if (whatToLoadAfter == null && defaultLoad != null) whatToLoadAfter = defaultLoad;
+        if (whatToLoadAfter != null)
+        {
+            handlingChapterFile = false;
+            stack[stack.Count - 1].currentChapterProgress++;
+            print("Switch -> " + whatToLoadAfter);
+            LoadChapterFile(whatToLoadAfter);
+        }
     }
 
     IEnumerator HandlingIf(string line)

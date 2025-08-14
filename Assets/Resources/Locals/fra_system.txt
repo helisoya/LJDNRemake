@@ -183,6 +183,11 @@ secondaryQuest_Iberty_Port = Un problème de bandit
 secondaryQuest_Iberty_Port_0 = Parlez au pecheur à Iberty
 secondaryQuest_Iberty_Port_done = J'ai vaincu le bandit
 
+secondaryQuest_Iberty_Catacombs = Bandits dans les catacombes
+secondaryQuest_Iberty_Catacombs_0 = Nettoyer les catacombes d'Iberty
+secondaryQuest_Iberty_Catacombs_1 = Parlez au soldat d'Iberty
+secondaryQuest_Iberty_Catacombs_done = J'ai nettoyé les catacombes
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
@@ -195,6 +200,7 @@ Location_Iberty = Iberty
 # ------------------------------------------------------------------------
 
 ENNEMY_Bandit_Hand_name = Bandit
+ENNEMY_Bandit_Knife_name = Bandit
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------
@@ -228,3 +234,5 @@ SKILL_HEAVYSLASH_name = -
 SKILL_HEAVYSLASH_desc = -
 SKILL_SLASH_name = -
 SKILL_SLASH_desc = -
+ONEHANDED_KNIFE_name = Couteau
+ONEHANDED_KNIFE_desc = La base pour un bandit de la forêt blanche.<br>+1 ATK

@@ -37,6 +37,7 @@ Choice_AboutTask = About the task
 Choice_AboutCity = About the city
 Choice_AboutBandits = About the bandits
 Choice_GivePackage = <i>Give package</i>
+Choice_AboutCamp = About the camp
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -48,6 +49,12 @@ Choice_Ready = I'm ready
 Choice_NotYet = Not yet
 
 Choice_GoBack = Go Back
+
+# ---------------------------------------------------------
+# ------------------- Common ------------------------------
+# ---------------------------------------------------------
+
+Common_DontNeedToGoThere_1 = I don't need to go there.
 
 # ---------------------------------------------------------
 # ------------------- Intro -------------------------------
@@ -227,7 +234,7 @@ Iberty_Shop_MainQuest1_0_20 = Hmm... I think I could use the dog back at the pal
 Iberty_Shop_MainQuest1_0_21 = At least, if the Merchant lets me go on a mission ever again...
 Iberty_Shop_MainQuest1_0_22 = I should make my report. To the palace in the big city I go...
 Iberty_Shop_MainQuest1_0_23 = By the way, before I forget.
-Iberty_Shop_MainQuest1_0_24 = The shopkeeper takes out a sword from behind his counter.
+Iberty_Shop_MainQuest1_0_24 = The shopkeeper takes out a knife from behind his counter.
 Iberty_Shop_MainQuest1_0_25 = Take this. I think the bandits stole you belongings, including your weapons.
 Iberty_Shop_MainQuest1_0_26 = Thank you.
 Iberty_Shop_MainQuest1_0_27 = Rusty, but it will keep me safe.
@@ -317,3 +324,66 @@ Iberty_CityHall_Mayor_DoctorQuest0_3 = Oh, right ! Thank you very much.
 Iberty_CityHall_Mayor_DoctorQuest0_4 = I caught a cold recently. This medicine will help me recover nicely.
 Iberty_CityHall_Mayor_DoctorQuest0_5 = I should go back to the doctor now.
 Iberty_CityHall_Mayor_DoctorQuest0_6 = Anything else ?
+
+Iberty_CityHall_Soldier_Greetings_1 = Nothing to report, sir.
+
+Iberty_CityHall_Soldier_AboutYou_1 = I'm actually a local.
+Iberty_CityHall_Soldier_AboutYou_2 = My father is a fisherman, maybe you have already seen him.
+Iberty_CityHall_Soldier_AboutYou_3 = I enrolled in the army about 20 years ago.
+Iberty_CityHall_Soldier_AboutYou_4 = That was when the sanctions on Iberty came into effect.
+Iberty_CityHall_Soldier_AboutYou_5 = As everyone leaved, bandits started to venture in the area.
+Iberty_CityHall_Soldier_AboutYou_6 = I couldn't bear it, so I asked for permission and came back.
+Iberty_CityHall_Soldier_AboutYou_7 = Now, my job is to make sure bandits don't attack us again.
+Iberty_CityHall_Soldier_AboutYou_8 = It's not passionating, but it's a needed job.
+
+Iberty_CityHall_Soldier_AboutCamp_1 = The camp, or Fort Hope, is the HQ of the Kalian military.
+Iberty_CityHall_Soldier_AboutCamp_2 = Everyone joining the military goes to the camp.
+Iberty_CityHall_Soldier_AboutCamp_3 = After vigorous training, you may be selected to relocate to the big city.
+Iberty_CityHall_Soldier_AboutCamp_4 = If you do very well, you may even be asked to join the republican guard.
+Iberty_CityHall_Soldier_AboutCamp_5 = But... You already knew that, don't you ?
+Iberty_CityHall_Soldier_AboutCamp_6 = Your uniform, your rank. You are a republican guard, no ?
+Iberty_CityHall_Soldier_AboutCamp_7 = Hmm... You may be the first one to actually recognize me.
+Iberty_CityHall_Soldier_AboutCamp_8 = Well, to be fair... Soldiers barely come to these parts.
+Iberty_CityHall_Soldier_AboutCamp_9 = And the republican guard hasn't made any official outings since... the incident 2 years ago.
+Iberty_CityHall_Soldier_AboutCamp_10 = ... It was a real nightmare...
+Iberty_CityHall_Soldier_AboutCamp_11 = The official story was that the guard merely reorganized and is now stationed in the Merchant's palace.
+Iberty_CityHall_Soldier_AboutCamp_12 = But I wonder, is it the truth, sir ?
+Iberty_CityHall_Soldier_AboutCamp_13 = Ignorance is bliss...
+
+Iberty_CityHall_Soldier_Quest_Cant_1 = Actually, I might.
+Iberty_CityHall_Soldier_Quest_Cant_2 = But you need to be equiped for that.
+Iberty_CityHall_Soldier_Quest_Cant_3 = Come back once you have a weapon.
+
+Iberty_CityHall_Soldier_Quest_Start_1 = Actually, I'm in trouble.
+Iberty_CityHall_Soldier_Quest_Start_2 = Bandits entered the town's catacombs, and I can't get them out.
+Iberty_CityHall_Soldier_Quest_Start_3 = Whenever I try, city hall gets attacked by another group.
+Iberty_CityHall_Soldier_Quest_Start_4 = I think there is a group of bandits in the nearby cliffs, watching me.
+Iberty_CityHall_Soldier_Quest_Start_5 = So, could you clear the catacombs for me ? I'll be guarding the town in the meantime.
+Iberty_CityHall_Soldier_Quest_Start_6 = Okay, I'll see what I can do.
+Iberty_CityHall_Soldier_Quest_Start_7 = Thank you, sir.
+
+Iberty_CityHall_Soldier_Quest_During_1 = You need to clear the town's catacombs.
+
+Iberty_CityHall_Soldier_Quest_End_1 = I cleared the catacombs.
+Iberty_CityHall_Soldier_Quest_End_2 = Fantastic, that'll teach them.
+Iberty_CityHall_Soldier_Quest_End_3 = I asked the mayor, and managed to get some money for you.
+Iberty_CityHall_Soldier_Quest_End_4 = Here. It's not much, but it's to thank you for your help.
+Iberty_CityHall_Soldier_Quest_End_5 = <color=blue>I received 10 gold.</color>
+Iberty_CityHall_Soldier_Quest_End_6 = Anyway. Anything else, sir ?
+
+Iberty_CityHall_Soldier_Quest_Done_1 = Not a this time, sir.
+
+Iberty_Catacombs_Quest_1 = Bandits are hiding in here.
+Iberty_Catacombs_Quest_2 = Am I ready to enter ?
+Iberty_Catacombs_Quest_3 = I enter the catacombs...
+
+Iberty_Catacombs_Quest_4 = After walking for a bit, I finally find the bandits.
+Iberty_Catacombs_Quest_5 = Hey, who are you ?!
+Iberty_Catacombs_Quest_6 = Damn... I thought the others would take care of it.
+Iberty_Catacombs_Quest_7 = Whatever, don't except to come out alive !
+Iberty_Catacombs_Quest_8 = The bandits attacks me.
+
+Iberty_Catacombs_Quest_9 = The bandits are on the ground.
+Iberty_Catacombs_Quest_10 = It seems they were trying to steal some valuables from the corpses.
+Iberty_Catacombs_Quest_11 = ... Let's go back to the city hall.
+Iberty_Catacombs_Quest_12 = That guard will want to know I dealt with the problem. 
