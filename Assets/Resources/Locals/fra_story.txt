@@ -330,7 +330,7 @@ Iberty_CityHall_Soldier_AboutYou_6 = Je ne pouvais pas supporter ça, alors j'ai
 Iberty_CityHall_Soldier_AboutYou_7 = Maintenant, mon travail est de m'assurer que les bandits n'attaquent plus.
 Iberty_CityHall_Soldier_AboutYou_8 = Ce n'est pas passionant, mais c'est un travail important.
 
-Iberty_CityHall_Soldier_AboutCamp_1 = Le camp, ou Fort Espoir, est le QG de l'armée Kalienne.
+Iberty_CityHall_Soldier_AboutCamp_1 = Le camp, ou camp "Espoir", est le QG de l'armée Kalienne.
 Iberty_CityHall_Soldier_AboutCamp_2 = Tout les nouvelles recrus passent par là.
 Iberty_CityHall_Soldier_AboutCamp_3 = Après un long entrainement, on peut être sélectionner pour aller en ville.
 Iberty_CityHall_Soldier_AboutCamp_4 = Si on est très bon, on peut même rejoindre la garde républicaine.

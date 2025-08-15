@@ -165,7 +165,7 @@ Region_Kalia_ToForest = To the White Forest
 Region_Kalia_Iberty = Iberty
 Region_Kalia_City = Kalia
 Region_Kalia_Farm = Farm
-Region_Kalia_Camp = Camp Iberty
+Region_Kalia_Camp = Camp "Hope"
 Region_Kalia_Shrine = Kalibu Shrine
 Region_Kalia_Outpost = Forest Outpost
 

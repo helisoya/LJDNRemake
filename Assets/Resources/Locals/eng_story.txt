@@ -336,7 +336,7 @@ Iberty_CityHall_Soldier_AboutYou_6 = I couldn't bear it, so I asked for permissi
 Iberty_CityHall_Soldier_AboutYou_7 = Now, my job is to make sure bandits don't attack us again.
 Iberty_CityHall_Soldier_AboutYou_8 = It's not passionating, but it's a needed job.
 
-Iberty_CityHall_Soldier_AboutCamp_1 = The camp, or Fort Hope, is the HQ of the Kalian military.
+Iberty_CityHall_Soldier_AboutCamp_1 = The camp, or camp "Hope", is the HQ of the Kalian military.
 Iberty_CityHall_Soldier_AboutCamp_2 = Everyone joining the military goes to the camp.
 Iberty_CityHall_Soldier_AboutCamp_3 = After vigorous training, you may be selected to relocate to the big city.
 Iberty_CityHall_Soldier_AboutCamp_4 = If you do very well, you may even be asked to join the republican guard.
