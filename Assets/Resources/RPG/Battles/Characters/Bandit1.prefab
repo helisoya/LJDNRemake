@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 3523359250711791633}
   - component: {fileID: 2718436702779985818}
   m_Layer: 0
-  m_Name: ENNEMY_Bandit_Hand
+  m_Name: Bandit1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57e350e9f0128c4498ce22431256a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: ENNEMY_Bandit_Hand
+  ID: Bandit1
   weaponRoots:
   - {fileID: 3101528542039264535}
   animator: {fileID: 4836942171081300222}

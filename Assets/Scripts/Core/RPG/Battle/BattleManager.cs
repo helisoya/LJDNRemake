@@ -899,7 +899,8 @@ public class BattleManager : MonoBehaviour
         foreach (int index in playersIndex)
         {
             character = GameManager.GetRPGManager().GetCharacter(index);
-            visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
+            print(character.GetData().modelID + " " + character.GetData().ID);
+            visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().modelID));
             visual.setHealthBarFillAmount(character.currentHealth, true);
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / playersIndex.Count);
@@ -933,7 +934,7 @@ public class BattleManager : MonoBehaviour
             character.UpdateComputedStats();
             character.SetHealthToMax();
             character.SetSPToMax();
-            visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().ID));
+            visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().modelID));
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / currentData.ennemies.Length);
             visual.transform.rotation = rotation;

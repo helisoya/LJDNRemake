@@ -11,6 +11,7 @@ using System;
 public class RPGCharacterData
 {
     public string ID;
+    public string modelID;
     public SerializedDictionary<StatType, int> stats;
     public string weapon;
     public string armor;
@@ -44,6 +45,7 @@ public class RPGCharacterData
             currentHP = currentHP,
             currentSP = currentSP,
             exp = exp,
+            modelID = new string(modelID),
             stats = new SerializedDictionary<StatType, int>(stats)
         };
         return copy;
@@ -62,6 +64,7 @@ public class RPGCharacterData
         currentHP = copy.currentHP;
         currentSP = copy.currentSP;
         exp = copy.exp;
+        modelID = copy.modelID;
         stats = new SerializedDictionary<StatType, int>(copy.stats);
     }
 

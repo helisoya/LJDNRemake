@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     ID: ENNEMY_Bandit_Knife
+    modelID: Bandit2
     stats:
       _serializedList:
       - Key: 0

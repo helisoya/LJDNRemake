@@ -28,7 +28,7 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <returns>Its character ID</returns>
     public string GetID()
     {
-        return data.GetData().ID;
+        return data.GetData().modelID;
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ public class BattlePlayerIcon : MonoBehaviour
     public void Init(RPGCharacter data)
     {
         this.data = data;
-        playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.GetData().ID);
+        playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.GetData().modelID);
         UpdateIcon(true);
     }
 

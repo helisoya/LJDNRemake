@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     ID: PLAYER
+    modelID: PLAYER
     stats:
       _serializedList:
       - Key: 0
