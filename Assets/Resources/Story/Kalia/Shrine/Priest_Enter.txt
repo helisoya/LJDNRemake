@@ -1,0 +1,8 @@
+setCharacterAlpha(KalibuPriest;0;true)
+setCharacterPosition(KalibuPriest;Front)
+setCharacterRotation(KalibuPriest;Front)
+setCharacterAlpha(KalibuPriest;1;false)
+
+dialog(Priest;KalibuPriest;false;KalibuShrine_Priest_Greetings_1)
+
+load(Kalia/Shrine/Priest)

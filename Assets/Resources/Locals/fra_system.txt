@@ -195,6 +195,7 @@ secondaryQuest_Iberty_Catacombs_done = J'ai nettoyé les catacombes
 Location_WhiteForest = Forêt Blanche
 Location_Iberty = Iberty
 Location_KaliaFarm = Ferme de Kalia
+Location_KalibuShrine = Autel de Kalibu
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

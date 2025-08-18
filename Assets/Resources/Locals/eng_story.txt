@@ -12,6 +12,7 @@ Char_Salesman = Shopkeeper
 Char_Fisherman = Fisherman
 Char_Mayor = Mayor
 Char_Soldier = Soldier
+Char_Priest = Priest
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -38,6 +39,8 @@ Choice_AboutCity = About the city
 Choice_AboutBandits = About the bandits
 Choice_GivePackage = <i>Give package</i>
 Choice_AboutCamp = About the camp
+Choice_AboutKalibu = About Kalibu
+Choice_AboutOrkva = About Orkva
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -387,3 +390,42 @@ Iberty_Catacombs_Quest_9 = The bandits are on the ground.
 Iberty_Catacombs_Quest_10 = It seems they were trying to steal some valuables from the corpses.
 Iberty_Catacombs_Quest_11 = ... Let's go back to the city hall.
 Iberty_Catacombs_Quest_12 = That guard will want to know I dealt with the problem. 
+
+
+# ---------------------------------------------------------
+# ------------- Kalibu's Shrine ---------------------------
+# ---------------------------------------------------------
+
+
+KalibuShrine_Priest_Greetings_1 = Kalibu bless you.
+
+KalibuShrine_Priest_AboutKalibu_1 = In the Suori faith, we believe the continent was created by the great Kalibu.
+KalibuShrine_Priest_AboutKalibu_2 = Taking the form of a Caribou, he shaped the world in many ways.
+KalibuShrine_Priest_AboutKalibu_3 = First, by raising mountains and planting forests.
+KalibuShrine_Priest_AboutKalibu_4 = Then, by watching over us, by shielding us from disaster.
+KalibuShrine_Priest_AboutKalibu_5 = In one instance, he banished Lord Elk, instigator of chaos.
+KalibuShrine_Priest_AboutKalibu_6 = In another, he helped a knight defeat a demon.
+KalibuShrine_Priest_AboutKalibu_7 = Whatever we do, wherever we go, Kalibu knows.
+KalibuShrine_Priest_AboutKalibu_8 = Please remember this, as you go through your life.
+
+KalibuShrine_Priest_AboutOrkva_1 = The Suori pray Kalibu, but not everyone is happy with that.
+KalibuShrine_Priest_AboutOrkva_2 = The perfidious Orkvians invaded the land down south centuries ago.
+KalibuShrine_Priest_AboutOrkva_3 = Their goal was greed of course. The cities of Tolau and Vorlan were at the time quite rich.
+KalibuShrine_Priest_AboutOrkva_4 = But they soon realised that the local Suoris wouldn't accept their rule.
+KalibuShrine_Priest_AboutOrkva_5 = So they decided to starve them, and colonize the land with "good Orkvians".
+KalibuShrine_Priest_AboutOrkva_6 = Of course, our oppressed brothers and sisters held on, further infuriating the Orkvians.
+KalibuShrine_Priest_AboutOrkva_7 = Now, the cities are under a blockade. You can't get goods in anymore. Let alone people.
+KalibuShrine_Priest_AboutOrkva_8 = You'd think they would just have killed them off.
+KalibuShrine_Priest_AboutOrkva_9 = But apparently, they want the cities intact. Ironic...
+KalibuShrine_Priest_AboutOrkva_10 = The effects of the blockade are also felt outside of Orkva.
+KalibuShrine_Priest_AboutOrkva_11 = Places like the Mirage Island are cut off from the world due to the battleships roaming around.
+KalibuShrine_Priest_AboutOrkva_12 = To say people used to go there to pray at the local shrine...
+
+KalibuShrine_Priest_AboutYou_1 = Me ? I'm barely worth mentioning...
+KalibuShrine_Priest_AboutYou_2 = But if you must know, I'm from the big city.
+KalibuShrine_Priest_AboutYou_3 = I lived there with my two sisters and my mother until a few years ago.
+KalibuShrine_Priest_AboutYou_4 = My father was the previous priest of this shrine.
+KalibuShrine_Priest_AboutYou_5 = We couldn't live neaby because of the bandits, so we came on sundays.
+KalibuShrine_Priest_AboutYou_6 = When he died, I decided to continue his life's work by becoming a priest.
+KalibuShrine_Priest_AboutYou_7 = As for my family, they still live in the city. They come by from time to time.
+KalibuShrine_Priest_AboutYou_8 = I just wish my sisters wouldn't do such dangerous things...

@@ -8,9 +8,10 @@ Char_GUARD = GARDE
 Char_Courier = Postier
 Char_Bandit = Bandit
 Char_Salesman = Commerçant
-Char_Fisherman = Pecheur
+Char_Fisherman = Pêcheur
 Char_Mayor = Maire
 Char_Soldier = Soldat
+Char_Priest = Prêtre
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -37,6 +38,8 @@ Choice_AboutCity = A propos de la ville
 Choice_AboutBandits = A propos des bandits
 Choice_GivePackage = <i>Donner le colis</i>
 Choice_AboutCamp = A propos du camp
+Choice_AboutKalibu = A propos de Kalibu
+Choice_AboutOrkva = A propos d'Orkva
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -381,3 +384,41 @@ Iberty_Catacombs_Quest_9 = Les bandits sont au sol.
 Iberty_Catacombs_Quest_10 = On dirait qu'ils étaient en train de voler les corps.
 Iberty_Catacombs_Quest_11 = ... Retournons à la mairie.
 Iberty_Catacombs_Quest_12 = Le garde devrait savoir que j'ai régler le problème.
+
+# ---------------------------------------------------------
+# ------------- Kalibu's Shrine ---------------------------
+# ---------------------------------------------------------
+
+
+KalibuShrine_Priest_Greetings_1 = Kalibu vous béni.
+
+KalibuShrine_Priest_AboutKalibu_1 = Dans la foi Suori, nous croyons que le continent a été crée par le grand Kalibu.
+KalibuShrine_Priest_AboutKalibu_2 = Prenant la forme d'un Caribou, il a façonné le monde de plusieurs manière.
+KalibuShrine_Priest_AboutKalibu_3 = En premier lieu, en levant les montagnes et en plantant les forêts.
+KalibuShrine_Priest_AboutKalibu_4 = Puis, en nous regardant. En nous protégant du désastre.
+KalibuShrine_Priest_AboutKalibu_5 = Dans un cas, il banis le Seigneur Cerf, instigateur du chaos.
+KalibuShrine_Priest_AboutKalibu_6 = Dans un autre, il aida un chevalier à vaincre un démon.
+KalibuShrine_Priest_AboutKalibu_7 = Peut importe ce que l'on fait, ou l'on va, Kalibu sait.
+KalibuShrine_Priest_AboutKalibu_8 = Souvenez-vous de ceci dans votre vie de tout les jours.
+
+KalibuShrine_Priest_AboutOrkva_1 = Les Suoris prient Kalibu, mais pas tout le monde aime cela.
+KalibuShrine_Priest_AboutOrkva_2 = Les perfides Orkvien ont envahis les terres au Sud il y a des siècles.
+KalibuShrine_Priest_AboutOrkva_3 = Leur but était l'avarice, bien sur. Les villes de Tolau et Vorlan étaient riche à l'époque.
+KalibuShrine_Priest_AboutOrkva_4 = Mais ils ont rapidement réalisé que les Suoris locaux n'accepteraient pas leur règne.
+KalibuShrine_Priest_AboutOrkva_5 = Donc il on décidé de les affamé, et de coloniser la terre avec de "bons Orkviens".
+KalibuShrine_Priest_AboutOrkva_6 = Bien sur, nos frêres et soeurs opprimés ont tenu, énervant encore plus les Orkviens.
+KalibuShrine_Priest_AboutOrkva_7 = Maintenant, les villes sont sous blocus. Aucune marchandise ne peut passer, et encore moins les gens.
+KalibuShrine_Priest_AboutOrkva_8 = On pourrait se dire qu'ils pourraient simplement tuer tout le monde directement.
+KalibuShrine_Priest_AboutOrkva_9 = Mais apparement, ils veulent les villes intact. Ironique...
+KalibuShrine_Priest_AboutOrkva_10 = Les effets du blocus se font aussi sentir à l'éxtérieur d'Orkva.
+KalibuShrine_Priest_AboutOrkva_11 = Des endroits comme l'île Mirage sont inaccessible à cause des navires de guerres au alentour.
+KalibuShrine_Priest_AboutOrkva_12 = Et dire que les gens y allaient fut un temps pour visiter l'autel local...
+
+KalibuShrine_Priest_AboutYou_1 = Moi ? Je n'en vaux pas le détour...
+KalibuShrine_Priest_AboutYou_2 = Mais si vous devez savoir, je viens de la ville.
+KalibuShrine_Priest_AboutYou_3 = J'y ai vécu avec ma mère et mes deux soeurs pendant longtemps.
+KalibuShrine_Priest_AboutYou_4 = Mon père était le précédent prêtre de cet autel.
+KalibuShrine_Priest_AboutYou_5 = Nous ne pouvions pas vivre à coté à cause des bandits, alors nous ne venions que le dimanche.
+KalibuShrine_Priest_AboutYou_6 = Quand il est mort, j'ai décidé de continuer son travail en devant prêtre.
+KalibuShrine_Priest_AboutYou_7 = Et pour ma famille, elles vivent toujours en ville. Elles viennent de temps en temps.
+KalibuShrine_Priest_AboutYou_8 = J'aimerai tant que mes soeurs ne fassent pas de choses aussi dangereuse...
