@@ -103,10 +103,17 @@ dialog(narrator;_;false;Intro_115)
 # Start main quest 1
 # Lock access to the white forest for now
 # Also lock access to the Kalian Region
+# Locking access to most of Kalia's travel points (for later)
 
 variable(mainQuest_1;0)
 variable(canTravel_Region_Kalia_Forest;0)
 variable(canTravel_City_Iberty_Region;0)
+variable(City_Kalia_Lighthouse;0)
+variable(City_Kalia_Docks;0)
+variable(City_Kalia_Lighthouse;0)
+variable(City_Kalia_Jackwell;0)
+variable(City_Kalia_BarGUARD;0)
+variable(City_Kalia_RebelHQ;0)
 
 playMusic(Exploration_1)
 

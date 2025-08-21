@@ -165,6 +165,17 @@ Region_Kalia_Camp = Camp "Espoir"
 Region_Kalia_Shrine = Autel de Kalibu
 Region_Kalia_Outpost = Avant poste
 
+City_Kalia_ToRegion = Vers la région
+City_Kalia_Palace = Palais du Consul
+City_Kalia_Shop = Boutique
+City_Kalia_Plaza = Grande Place
+City_Kalia_Park = Parc de Kalibu
+City_Kalia_Lighthouse = Phare
+City_Kalia_Docks = Docks
+City_Kalia_Jackwell = Librairie Jackwell
+City_Kalia_BarGUARD = Bar de Max
+City_Kalia_RebelHQ = Bar du Salut
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------

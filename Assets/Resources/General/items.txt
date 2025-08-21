@@ -39,3 +39,14 @@ canTravel_City_Iberty_Shop 1
 canTravel_City_Iberty_CityHall 1
 canTravel_City_Iberty_Catacombs 1
 canTravel_City_Iberty_Port 1
+
+canTravel_City_Kalia_Region 1
+canTravel_City_Kalia_Palace 1
+canTravel_City_Kalia_Shop 1
+canTravel_City_Kalia_Plaza 1
+canTravel_City_Kalia_Park 1
+canTravel_City_Kalia_Lighthouse 1
+canTravel_City_Kalia_Docks 1
+canTravel_City_Kalia_Jackwell 1
+canTravel_City_Kalia_BarGUARD 1
+canTravel_City_Kalia_RebelHQ 1
