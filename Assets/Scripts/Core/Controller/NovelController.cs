@@ -337,13 +337,13 @@ public class NovelController : MonoBehaviour
         int amountToClose = startAmount;
         string line;
         ifStart++;
-        while (ifStart > 0 && chapterProgress < data.Count)
+        while (amountToClose > 0 && ifStart < data.Count)
         {
-            line = data[chapterProgress].Replace("\t", "");
+            line = data[ifStart].Replace("\t", "");
             if ((line.StartsWith("if") || line.StartsWith("else"))
                 && line.EndsWith("{")) amountToClose++;
             else if (line.StartsWith("}")) amountToClose--;
-            chapterProgress++;
+            ifStart++;
         }
         return ifStart - 1;
     }
@@ -1046,6 +1046,20 @@ public class NovelController : MonoBehaviour
             case "setLocation":
                 GameManager.instance.SetCurrentLocation(parameters[0]);
                 break;
+
+#if UNITY_EDITOR
+            case "log":
+                Debug.Log(parameters[0]);
+                break;
+
+            case "warn":
+                Debug.LogWarning(parameters[0]);
+                break;
+
+            case "error":
+                Debug.LogError(parameters[0]);
+                break;
+#endif
 
             case "wait":
                 yield return new WaitForSeconds(float.Parse(parameters[0], System.Globalization.CultureInfo.InvariantCulture));

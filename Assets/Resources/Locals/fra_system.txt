@@ -207,6 +207,7 @@ Location_WhiteForest = Forêt Blanche
 Location_Iberty = Iberty
 Location_KaliaFarm = Ferme de Kalia
 Location_KalibuShrine = Autel de Kalibu
+Location_Kalibu = Kalia
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

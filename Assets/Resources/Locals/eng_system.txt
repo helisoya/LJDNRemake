@@ -211,6 +211,7 @@ Location_WhiteForest = White Forest
 Location_Iberty = Iberty
 Location_KaliaFarm = Kalia's Farm
 Location_KalibuShrine = Kalibu's Shrine
+Location_Kalibu = Kalia
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

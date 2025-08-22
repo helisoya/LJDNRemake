@@ -437,5 +437,29 @@
 			"setFg(ALPHA)"
 		],
 		"description": "Immediatly sets the Foreground's alpha"
+	},
+	"Print a message (Info)": {
+		"scope": "ansl",
+		"prefix": "log",
+		"body": [
+			"log(MESSAGE)"
+		],
+		"description": "Prints a message (Info)"
+	},
+	"Print a message (Warning)": {
+		"scope": "ansl",
+		"prefix": "warn",
+		"body": [
+			"warn(MESSAGE)"
+		],
+		"description": "Prints a message (Warning)"
+	},
+	"Print a message (Error)": {
+		"scope": "ansl",
+		"prefix": "error",
+		"body": [
+			"error(MESSAGE)"
+		],
+		"description": "Prints a message (Error)"
 	}
 }

@@ -22,4 +22,4 @@ autosave()
 
 fadeFg(0;false)
 
-load(Kalia/Iberty/Port/Interaction)
+load(Kalia/Shrine/Interaction)

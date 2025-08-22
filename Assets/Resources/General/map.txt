@@ -52,7 +52,7 @@ City_Kalia_ToRegion Kalia/Common/OpenMapFromCity canTravel_City_Kalia_Region 1
 City_Kalia_Palace TODO canTravel_City_Kalia_Palace 1
 City_Kalia_Shop TODO canTravel_City_Kalia_Shop 1
 City_Kalia_Plaza TODO canTravel_City_Kalia_Plaza 1
-City_Kalia_Park TODO canTravel_City_Kalia_Park 1
+City_Kalia_Park Kalia/City/KalibuPark/Arrival canTravel_City_Kalia_Park 1
 City_Kalia_Lighthouse TODO canTravel_City_Kalia_Lighthouse 1
 City_Kalia_Docks TODO canTravel_City_Kalia_Docks 1
 City_Kalia_Jackwell TODO canTravel_City_Kalia_Jackwell 1
