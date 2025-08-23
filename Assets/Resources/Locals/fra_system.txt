@@ -182,8 +182,11 @@ City_Kalia_RebelHQ = Bar du Salut
 
 mainQuest_1 = Un nouveau jour
 mainQuest_1_0 = Parlez au commerçant à Iberty
-mainQuest_1_1 = Retournez voir le Marchand à Kalia
+mainQuest_1_1 = Retournez voir le Marchand au palais, à Kalia
 mainQuest_1_done = J'ai fait mon rapport au Marchand
+
+mainQuest_2 = Une légère démotion
+mainQuest_2_0 = Menez l'enquête sur les bandits aux docks de Kalia
 
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
@@ -207,7 +210,7 @@ Location_WhiteForest = Forêt Blanche
 Location_Iberty = Iberty
 Location_KaliaFarm = Ferme de Kalia
 Location_KalibuShrine = Autel de Kalibu
-Location_Kalibu = Kalia
+Location_Kalia = Kalia
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

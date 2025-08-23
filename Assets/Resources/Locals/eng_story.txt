@@ -13,6 +13,8 @@ Char_Fisherman = Fisherman
 Char_Mayor = Mayor
 Char_Soldier = Soldier
 Char_Priest = Priest
+Char_Merchant = Merchant
+Char_Sword = Sword
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

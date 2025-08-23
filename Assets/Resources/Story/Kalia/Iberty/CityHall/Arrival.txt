@@ -7,7 +7,7 @@ setBackground(Kalia/Iberty/CityHall)
 
 load(Common/ProcessDayNight)
 load(Common/ProcessWeather)
-load(Common/DisplayDayNightOnly)
+load(Common/DisplayWeatherCloud)
 
 setLocation(Location_Iberty)
 

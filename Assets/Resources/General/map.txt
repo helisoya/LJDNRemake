@@ -49,7 +49,7 @@ Region_Kalia_Outpost TODO canTravel_Region_Kalia_Outpost 1
 
 [City_Kalia]
 City_Kalia_ToRegion Kalia/Common/OpenMapFromCity canTravel_City_Kalia_Region 1
-City_Kalia_Palace TODO canTravel_City_Kalia_Palace 1
+City_Kalia_Palace Kalia/City/Palace/Arrival canTravel_City_Kalia_Palace 1
 City_Kalia_Shop TODO canTravel_City_Kalia_Shop 1
 City_Kalia_Plaza TODO canTravel_City_Kalia_Plaza 1
 City_Kalia_Park Kalia/City/KalibuPark/Arrival canTravel_City_Kalia_Park 1

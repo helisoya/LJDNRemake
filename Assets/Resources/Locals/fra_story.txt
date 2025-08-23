@@ -12,6 +12,8 @@ Char_Fisherman = Pêcheur
 Char_Mayor = Maire
 Char_Soldier = Soldat
 Char_Priest = Prêtre
+Char_Merchant = Marchand
+Char_Sword = Epée
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

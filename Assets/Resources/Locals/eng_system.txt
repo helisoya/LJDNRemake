@@ -186,8 +186,11 @@ City_Kalia_RebelHQ = Salvation Bar
 
 mainQuest_1 = A new day
 mainQuest_1_0 = Talk to the shopkeeper in Iberty
-mainQuest_1_1 = Report back to the Merchant in Kalia
+mainQuest_1_1 = Report back to the Merchant in Kalia's Palace
 mainQuest_1_done = I reported back to the Merchant
+
+mainQuest_2 = A slight demotion
+mainQuest_2_0 = Investigate the rebels at the docks in Kalia
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
@@ -211,7 +214,7 @@ Location_WhiteForest = White Forest
 Location_Iberty = Iberty
 Location_KaliaFarm = Kalia's Farm
 Location_KalibuShrine = Kalibu's Shrine
-Location_Kalibu = Kalia
+Location_Kalia = Kalia
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------
