@@ -161,7 +161,7 @@ public class SaveManager
                 temp = FileManager.LoadJSON<GAMEFILE>(savePath + toTest[i] + ".txt");
 
                 GAMEFILE.VARIABLE item = temp.variables.Find(item => item.name.Equals("playerName"));
-                string playerName = item != null ? item.value : items.Find(item => item.name.Equals("playerName")).value;
+                string playerName = item != null ? item.value : items.Find(item => item.name.Equals("playerName")).defaultValue;
                 list[i] = new SaveInfo
                 {
                     slot = toTest[i],

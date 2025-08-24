@@ -1,1 +1,9 @@
-# TODO
+# Check for the door in Kalia's Palace
+
+# Trigger for the end of mainQuest1
+if(mainQuest_1 = 1){ 
+	load(Kalia/City/Palace/MainQuest1_1) 
+	return()
+}
+
+load(Kalia/City/Palace/Door_Cant)

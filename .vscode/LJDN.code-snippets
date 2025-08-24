@@ -461,5 +461,13 @@
 			"error(MESSAGE)"
 		],
 		"description": "Prints a message (Error)"
+	},
+	"Exit the file": {
+		"scope": "ansl",
+		"prefix": "return",
+		"body": [
+			"return()"
+		],
+		"description": "Exits the file"
 	}
 }

@@ -1047,6 +1047,10 @@ public class NovelController : MonoBehaviour
                 GameManager.instance.SetCurrentLocation(parameters[0]);
                 break;
 
+            case "return":
+                chapterProgress = this.data.Count - 1;
+                break;
+
 #if UNITY_EDITOR
             case "log":
                 Debug.Log(parameters[0]);
