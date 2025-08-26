@@ -426,6 +426,16 @@ KalibuShrine_Priest_AboutYou_7 = Et pour ma famille, elles vivent toujours en vi
 KalibuShrine_Priest_AboutYou_8 = J'aimerai tant que mes soeurs ne fassent pas de choses aussi dangereuse...
 
 # ---------------------------------------------------------
+# ---------------- Kalia - Shop ---------------------------
+# ---------------------------------------------------------
+
+Kalia_Shop_AboutYou_1 = Ma famille vend des biens divers depuis des siècles.
+Kalia_Shop_AboutYou_2 = Mon arrière-arrière-arrière grand-père est le fondateur de cette boutique.
+Kalia_Shop_AboutYou_3 = A l'époque, il ne vendait que des pommes, et autres produits d'Iberty.
+Kalia_Shop_AboutYou_4 = De nos jours, on vend principalement des armes aux fous qui vont s'aventurer dans la Forêt Blanche.
+Kalia_Shop_AboutYou_5 = J'aurais aimé continuer de commercer avec Iberty, mais le Marchand ne le veux pas...
+
+# ---------------------------------------------------------
 # -------------- Kalia - Palace ---------------------------
 # ---------------------------------------------------------
 

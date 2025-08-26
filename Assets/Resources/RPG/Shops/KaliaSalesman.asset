@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76f935e1988b226419410a2c9c78d301, type: 3}
-  m_Name: IbertySalesman
+  m_Name: KaliaSalesman
   m_EditorClassIdentifier: 
   itemsToSell:
   - ARMOR_LEATHER
-  - ONEHANDED_KNIFE
   - ONEHANDED_SWORD
+  - ONEHANDED_AXE
   - ITEM_POTION
   - ITEM_CURE

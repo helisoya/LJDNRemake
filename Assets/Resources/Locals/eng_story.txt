@@ -186,6 +186,9 @@ Intro_115 = <color=blue>I can also click on someone to talk to them</color>
 # ------------------- Iberty ------------------------------
 # ---------------------------------------------------------
 
+
+# --- Doctor
+
 Iberty_Doctor_Greetings_1 = Hi. How can I help you ?
 
 Iberty_Doctor_Heal_1 = Of course. Let me check your injuries...
@@ -213,6 +216,8 @@ Iberty_Doctor_SideQuest_End_2 = Ah, I can't thank you enough.
 Iberty_Doctor_SideQuest_End_3 = Here, take this for your troubles.
 Iberty_Doctor_SideQuest_End_4 = <color=blue>I received 10 gold from the doctor.</color>
 Iberty_Doctor_SideQuest_End_5 = Did you need anything else ?
+
+# --- Shop
 
 Iberty_Shop_Greetings_1 = Hello ! Welcome to my shop.
 
@@ -254,6 +259,8 @@ Iberty_Shop_AboutYou_3 = Its a nice journey. I even come back with exclusive Kos
 Iberty_Shop_AboutYou_4 = Of course, I also bring wares from Kalia to Vlatyr.
 Iberty_Shop_AboutYou_5 = The only downside of this travel is the White Forest, as you can imagine.
 Iberty_Shop_AboutYou_6 = Too many bandits... You can't go through without at least one bodyguard.
+
+# --- Fisherman
 
 Iberty_Port_Fisherman_Greetings_1 = .... Hi....
 
@@ -304,6 +311,8 @@ Iberty_Port_Fisherman_Quest_Do_19 = I part ways with the fisherman, and head bac
 
 Iberty_Port_Fisherman_Quest_Done_1 = ... Not at this time, no...
 
+# --- Mayor
+
 Iberty_CityHall_Mayor_Greetings_1 = Hello. Welcome to Iberty's city hall.
 
 Iberty_CityHall_Mayor_AboutCity_1 = The town of Iberty has existed for almost as long as the city of Kalia.
@@ -329,6 +338,8 @@ Iberty_CityHall_Mayor_DoctorQuest0_3 = Oh, right ! Thank you very much.
 Iberty_CityHall_Mayor_DoctorQuest0_4 = I caught a cold recently. This medicine will help me recover nicely.
 Iberty_CityHall_Mayor_DoctorQuest0_5 = I should go back to the doctor now.
 Iberty_CityHall_Mayor_DoctorQuest0_6 = Anything else ?
+
+# --- Soldier
 
 Iberty_CityHall_Soldier_Greetings_1 = Nothing to report, sir.
 
@@ -377,6 +388,8 @@ Iberty_CityHall_Soldier_Quest_End_5 = <color=blue>I received 10 gold.</color>
 Iberty_CityHall_Soldier_Quest_End_6 = Anyway. Anything else, sir ?
 
 Iberty_CityHall_Soldier_Quest_Done_1 = Not a this time, sir.
+
+# --- Catacombs
 
 Iberty_Catacombs_Quest_1 = Bandits are hiding in here.
 Iberty_Catacombs_Quest_2 = Am I ready to enter ?
@@ -431,6 +444,16 @@ KalibuShrine_Priest_AboutYou_5 = We couldn't live neaby because of the bandits, 
 KalibuShrine_Priest_AboutYou_6 = When he died, I decided to continue his life's work by becoming a priest.
 KalibuShrine_Priest_AboutYou_7 = As for my family, they still live in the city. They come by from time to time.
 KalibuShrine_Priest_AboutYou_8 = I just wish my sisters wouldn't do such dangerous things...
+
+# ---------------------------------------------------------
+# ---------------- Kalia - Shop ---------------------------
+# ---------------------------------------------------------
+
+Kalia_Shop_AboutYou_1 = My family has been trading goods for centuries.
+Kalia_Shop_AboutYou_2 = In fact, my great-great-great grandfather was the founder of this shop.
+Kalia_Shop_AboutYou_3 = At the time, he sold only apples, and other commodities from Iberty.
+Kalia_Shop_AboutYou_4 = Nowadays, we mainly sell weapons to whoever's crazy enough to go into the White Forest.
+Kalia_Shop_AboutYou_5 = I would have liked to continue trading with Iberty, but the Merchant won't let us...
 
 # ---------------------------------------------------------
 # -------------- Kalia - Palace ---------------------------
