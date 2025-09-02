@@ -510,3 +510,63 @@ Kalia_Palace_MainQuest1_1_65 = Puis-je les vaincre seul ? Des centaines n'ont m�
 Kalia_Palace_MainQuest1_1_66 = Est-ce que je combat seulement les bonnes personnes ? N'ont-ils pas raison au final ?
 Kalia_Palace_MainQuest1_1_67 = ... Non. Je ne peut pas me poser ces questions maintenant.
 Kalia_Palace_MainQuest1_1_68 = Je dois aller au docks, et trouver ce rebelle.
+
+# ---------------------------------------------------------
+# -------------- Kalia - Docks ---------------------------
+# ---------------------------------------------------------
+
+
+Kalia_Docks_Hangar_Locked_1 = C'est verrouillé...
+
+Kalia_Docks_MainQuest2_0_1 = Voila les docks...
+Kalia_Docks_MainQuest2_0_2 = Des bateaux de tout le continent s'arretent ici.
+Kalia_Docks_MainQuest2_0_3 = Mais aujourd'hui, je cherche un rebelle.
+Kalia_Docks_MainQuest2_0_4 = Ou est-ce qu'il se cache ? Et qu'est-ce qu'il fait ici ?
+Kalia_Docks_MainQuest2_0_5 = Peut être qu'ils cherchent à trafiquer des armes pour lutter contre le consul ?
+Kalia_Docks_MainQuest2_0_6 = !
+Kalia_Docks_MainQuest2_0_7 = Je remarque quelqu'un au loin. Je le reconnais.
+Kalia_Docks_MainQuest2_0_8 = C'est le rebelle que les espions ont vu ! J'en suis sur.
+Kalia_Docks_MainQuest2_0_9 = Et le connaissans, il n'est pas la pour rigoler.
+Kalia_Docks_MainQuest2_0_10 = Le rebelle regarde autour de lui, puis disparais dans un batiment adjacent.
+Kalia_Docks_MainQuest2_0_11 = Je le suis. Je ne peut pas le laisser s'échapper. Pas à nouveau.
+Kalia_Docks_MainQuest2_0_12 = J'entre dans le batiment, mais quelque chose cloche...
+Kalia_Docks_MainQuest2_0_13 = C'est... c'est une planque pour les rebelles. Probablement une sorte de dépot.
+Kalia_Docks_MainQuest2_0_14 = Ce rebelle est caché quelque part ici. Je dois le trouver.
+
+Kalia_Docks_MainQuest2_0_15 = J'arrive au final dans une pièce sombre.
+Kalia_Docks_MainQuest2_0_16 = Je suis sur que le rebelle est proche.
+Kalia_Docks_MainQuest2_0_17 = Ne bouge pas.
+Kalia_Docks_MainQuest2_0_18 = !
+Kalia_Docks_MainQuest2_0_19 = Je sais qui tu es, [MC].
+Kalia_Docks_MainQuest2_0_20 = Et je sais qui tu cherches : moi.
+Kalia_Docks_MainQuest2_0_21 = Mais tu ne penses pas que c'était un peu trop simple ?
+Kalia_Docks_MainQuest2_0_22 = ...
+Kalia_Docks_MainQuest2_0_23 = Donc c'était un piège ?
+Kalia_Docks_MainQuest2_0_24 = Pas vraiment. Je voulais simplement parler.
+Kalia_Docks_MainQuest2_0_25 = Je ne parle pas avec des rebelles.
+Kalia_Docks_MainQuest2_0_26 = Vraiment ? Ne vois-tu donc pas que tu es dans le mauvais camp ?
+Kalia_Docks_MainQuest2_0_27 = ...
+Kalia_Docks_MainQuest2_0_28 = Il y a deux ans, tu m'as laissé le faire.
+Kalia_Docks_MainQuest2_0_29 = Je ne vois pas de quoi vous parlez.
+Kalia_Docks_MainQuest2_0_30 = Tu aurais pu m'arrêter, mais tu ne l'as pas fait.
+Kalia_Docks_MainQuest2_0_31 = ...Je pensais que vous feriez quelque chose d'autre. J'ai eu tord.
+Kalia_Docks_MainQuest2_0_32 = Vous avez tué beaucoup de mes camarades. Vous ne méritez pas de sympathie.
+Kalia_Docks_MainQuest2_0_33 = Eh. Comme tu veux.
+Kalia_Docks_MainQuest2_0_34 = Si tu changes d'avis, trouves le salut.
+Kalia_Docks_MainQuest2_0_35 = Il aura la forme d'une tasse de thé vert.
+Kalia_Docks_MainQuest2_0_36 = Penses-y. Au moins, fait le pour elle.
+Kalia_Docks_MainQuest2_0_37 = Je peux sentir le rebelle disparaitre dans l'ombre.
+Kalia_Docks_MainQuest2_0_38 = Donc c'était juste une ruse pour m'atteindre...
+Kalia_Docks_MainQuest2_0_39 = Je devrais faire mon rapport au Marchand.
+Kalia_Docks_MainQuest2_0_40 = ...
+Kalia_Docks_MainQuest2_0_41 = Il y a deux ans, a quoi je pensais ?
+Kalia_Docks_MainQuest2_0_42 = Ce fou les a quasiment tous tué. Pourquoi est-ce que je l'ai laissé ?
+Kalia_Docks_MainQuest2_0_43 = ...Qu'est ce que j'esperais qu'il fasse à la place ?
+Kalia_Docks_MainQuest2_0_44 = ...
+Kalia_Docks_MainQuest2_0_45 = Peut-être que je devrais réaliser moi-même ce voeu.
+Kalia_Docks_MainQuest2_0_46 = Peut-être que je devrais faire comme il m'a dit, chercher la salvation.
+Kalia_Docks_MainQuest2_0_47 = ...
+Kalia_Docks_MainQuest2_0_48 = Devrais-je ?
+Kalia_Docks_MainQuest2_0_49 = En pensant à cela, je quitte le batiment.
+Kalia_Docks_MainQuest2_0_50 = Il est clair que je dois penser à ma loyauté.
+Kalia_Docks_MainQuest2_0_51 = Qu'est ce qui est meilleur pour moi. Pour elle...

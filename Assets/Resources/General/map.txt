@@ -54,7 +54,7 @@ City_Kalia_Shop Kalia/City/Shop/Arrival canTravel_City_Kalia_Shop 1
 City_Kalia_Plaza Kalia/City/Plaza/Arrival canTravel_City_Kalia_Plaza 1
 City_Kalia_Park Kalia/City/KalibuPark/Arrival canTravel_City_Kalia_Park 1
 City_Kalia_Lighthouse TODO canTravel_City_Kalia_Lighthouse 1
-City_Kalia_Docks TODO canTravel_City_Kalia_Docks 1
+City_Kalia_Docks Kalia/City/Docks/Arrival canTravel_City_Kalia_Docks 1
 City_Kalia_Jackwell TODO canTravel_City_Kalia_Jackwell 1
 City_Kalia_BarGUARD TODO canTravel_City_Kalia_BarGUARD 1
 City_Kalia_RebelHQ TODO canTravel_City_Kalia_RebelHQ 1

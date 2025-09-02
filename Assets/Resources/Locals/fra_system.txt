@@ -187,6 +187,13 @@ mainQuest_1_done = J'ai fait mon rapport au Marchand
 
 mainQuest_2 = Une légère démotion
 mainQuest_2_0 = Menez l'enquête sur les bandits aux docks de Kalia
+mainQuest_2_1 = Retournez voir le Marchand au palais, à Kalia
+mainQuest_2_done = J'ai mené l'enquête sur le bandit des docks
+
+rebelQuest_0 = Trouver le salut
+rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
+rebelQuest_0_done = J'ai rejoins les rebelles
+
 
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty

@@ -40,8 +40,6 @@ public class Generator2D : MonoBehaviour
     private Random random;
     public Grid2D<CellType> grid { get; private set; }
     private List<Room> rooms;
-    private Delaunay2D delaunay;
-    private HashSet<Prim.Edge> selectedEdges;
 
     private void Awake()
     {
@@ -67,190 +65,127 @@ public class Generator2D : MonoBehaviour
 
     public void Generate(DungeonData data)
     {
-        bool done = false;
-        while (!done)
-        {
-            try
-            {
-                random = new Random(UnityEngine.Random.Range(0, int.MaxValue));
-                grid = new Grid2D<CellType>(data.size, Vector2Int.zero);
-                rooms = new List<Room>();
 
-                PlaceRooms(data.size, data.roomCount, data.roomMaxSize);
-                Triangulate();
-                CreateHallways();
-                PathfindHallways(data.size);
+        random = new Random(UnityEngine.Random.Range(0, int.MaxValue));
+        grid = new Grid2D<CellType>(data.size, Vector2Int.zero);
+        rooms = new List<Room>();
 
-                InstantiateDungeon(data.size, data.cellPrefab);
-                PlaceObjects();
-                done = true;
-            }
-            catch (Exception error)
-            {
-                Debug.LogError(error);
-            }
-        }
+        PlaceRooms(data.size, data.roomCount, data.roomMaxSize);
+        CreateHallways();
 
+        InstantiateDungeon(data.size, data.cellPrefab);
+        PlaceObjects();
     }
 
     private void PlaceObjects()
     {
-        List<Room> tempRooms = new List<Room>(rooms);
+        List<Vector2Int> taken = new List<Vector2Int>();
         Room room;
         int selectedIdx;
+        int xWithin = 0;
+        int yWithin = 0;
 
         foreach (Transform obj in objectsToPlace)
         {
-            if (tempRooms.Count == 0) return;
-            selectedIdx = random.Next(0, tempRooms.Count);
-            room = tempRooms[selectedIdx];
-            obj.position = new Vector3(
-                room.bounds.center.x * cellSize.x + cellsOffset.x,
-                cellsOffset.y,
-                room.bounds.center.y * cellSize.y + cellsOffset.z);
-            tempRooms.RemoveAt(selectedIdx);
-        }
+            bool good = false;
 
+            while (!good)
+            {
+                good = true;
+                selectedIdx = random.Next(0, rooms.Count);
+                room = rooms[selectedIdx];
+                xWithin = room.bounds.xMin + random.Next(0, room.bounds.xMax - room.bounds.xMin);
+                yWithin = room.bounds.yMin + random.Next(0, room.bounds.yMax - room.bounds.yMin);
+
+                foreach (Vector2Int vec in taken)
+                {
+                    if (vec.x == xWithin && yWithin == vec.y)
+                    {
+                        good = false;
+                        break;
+                    }
+                }
+            }
+
+
+            taken.Add(new Vector2Int(xWithin, yWithin));
+
+            print(obj.name + " -> " + xWithin + "/" + yWithin);
+            obj.position = new Vector3(
+                xWithin * cellSize.x + cellsOffset.x + cellSize.x / 2f,
+                cellsOffset.y,
+                yWithin * cellSize.y + cellsOffset.z + cellSize.y / 2f);
+
+
+        }
     }
 
     void PlaceRooms(Vector2Int size, int roomCount, Vector2Int roomMaxSize)
     {
+
         for (int i = 0; i < roomCount; i++)
         {
-            Vector2Int location = new Vector2Int(
-                random.Next(0, size.x),
-                random.Next(0, size.y)
-            );
 
             Vector2Int roomSize = new Vector2Int(
                 random.Next(1, roomMaxSize.x + 1),
                 random.Next(1, roomMaxSize.y + 1)
             );
 
-            bool add = true;
+            Vector2Int location = new Vector2Int(
+                random.Next(0, size.x - roomSize.x),
+                random.Next(0, size.y - roomSize.y)
+            );
+
             Room newRoom = new Room(location, roomSize);
-            Room buffer = new Room(location + new Vector2Int(-1, -1), roomSize + new Vector2Int(2, 2));
+            rooms.Add(newRoom);
 
-            foreach (var room in rooms)
+            foreach (var pos in newRoom.bounds.allPositionsWithin)
             {
-                if (Room.Intersect(room, buffer))
-                {
-                    add = false;
-                    break;
-                }
-            }
-
-            if (newRoom.bounds.xMin < 0 || newRoom.bounds.xMax >= size.x
-                || newRoom.bounds.yMin < 0 || newRoom.bounds.yMax >= size.y)
-            {
-                add = false;
-            }
-
-            if (add)
-            {
-                rooms.Add(newRoom);
-
-                foreach (var pos in newRoom.bounds.allPositionsWithin)
-                {
-                    grid[pos] = CellType.Room;
-                }
+                grid[pos] = CellType.Room;
             }
         }
     }
 
-    void Triangulate()
+    void PathFind(Vector2Int start, Vector2Int end)
     {
-        List<Vertex> vertices = new List<Vertex>();
+        int sideX = start.x < end.x ? 1 : -1;
+        int sideY = start.y < end.y ? 1 : -1;
 
-        foreach (var room in rooms)
+        while (start.x != end.x || start.y != end.y)
         {
-            vertices.Add(new Vertex<Room>((Vector2)room.bounds.position + ((Vector2)room.bounds.size) / 2, room));
+            if (start.x != end.x)
+            {
+                start.x += sideX;
+            }
+            else
+            {
+                start.y += sideY;
+            }
+            if (grid[start] == CellType.None)
+            {
+                grid[start] = CellType.Hallway;
+            }
         }
-
-        delaunay = Delaunay2D.Triangulate(vertices);
     }
 
     void CreateHallways()
     {
-        List<Prim.Edge> edges = new List<Prim.Edge>();
+        int amountOfRandomHallways = rooms.Count / 2;
 
-        foreach (var edge in delaunay.Edges)
+        for (int i = 0; i < rooms.Count - 1; i++)
         {
-            edges.Add(new Prim.Edge(edge.U, edge.V));
+            PathFind(rooms[i].bounds.min, rooms[i + 1].bounds.min);
         }
+        int selectionOne;
+        int selectionTwo;
 
-        List<Prim.Edge> mst = Prim.MinimumSpanningTree(edges, edges[0].U);
-
-        selectedEdges = new HashSet<Prim.Edge>(mst);
-        var remainingEdges = new HashSet<Prim.Edge>(edges);
-        remainingEdges.ExceptWith(selectedEdges);
-
-        foreach (var edge in remainingEdges)
+        for (int i = 0; i < amountOfRandomHallways; i++)
         {
-            if (random.NextDouble() < 0.125)
-            {
-                selectedEdges.Add(edge);
-            }
-        }
-    }
+            selectionOne = random.Next(0, rooms.Count);
+            selectionTwo = random.Next(0, rooms.Count);
 
-    void PathfindHallways(Vector2Int size)
-    {
-        DungeonPathfinder2D aStar = new DungeonPathfinder2D(size);
 
-        foreach (var edge in selectedEdges)
-        {
-            var startRoom = (edge.U as Vertex<Room>).Item;
-            var endRoom = (edge.V as Vertex<Room>).Item;
-
-            var startPosf = startRoom.bounds.center;
-            var endPosf = endRoom.bounds.center;
-            var startPos = new Vector2Int((int)startPosf.x, (int)startPosf.y);
-            var endPos = new Vector2Int((int)endPosf.x, (int)endPosf.y);
-
-            var path = aStar.FindPath(startPos, endPos, (DungeonPathfinder2D.Node a, DungeonPathfinder2D.Node b) =>
-            {
-                var pathCost = new DungeonPathfinder2D.PathCost();
-
-                pathCost.cost = Vector2Int.Distance(b.Position, endPos);    //heuristic
-
-                if (grid[b.Position] == CellType.Room)
-                {
-                    pathCost.cost += 10;
-                }
-                else if (grid[b.Position] == CellType.None)
-                {
-                    pathCost.cost += 5;
-                }
-                else if (grid[b.Position] == CellType.Hallway)
-                {
-                    pathCost.cost += 1;
-                }
-
-                pathCost.traversable = true;
-
-                return pathCost;
-            });
-
-            if (path != null)
-            {
-                for (int i = 0; i < path.Count; i++)
-                {
-                    var current = path[i];
-
-                    if (grid[current] == CellType.None)
-                    {
-                        grid[current] = CellType.Hallway;
-                    }
-
-                    if (i > 0)
-                    {
-                        var prev = path[i - 1];
-
-                        var delta = current - prev;
-                    }
-                }
-            }
+            if (selectionTwo != selectionOne) PathFind(rooms[selectionOne].bounds.min, rooms[selectionTwo].bounds.min);
         }
     }
 
@@ -286,6 +221,7 @@ public class Generator2D : MonoBehaviour
                     topOpen = y < size.y - 1 ? (grid[pos] == CellType.None ? false : true) : false;
 
                     cell.Init(leftOpen, rightOpen, topOpen, bottomOpen);
+                    cell.gameObject.name = Enum.GetNames(typeof(CellType))[(int)grid[pos]];
                 }
             }
         }

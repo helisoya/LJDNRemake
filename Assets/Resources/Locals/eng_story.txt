@@ -530,3 +530,63 @@ Kalia_Palace_MainQuest1_1_65 = Can I even hope to deal with them alone ? When hu
 Kalia_Palace_MainQuest1_1_66 = Am I even fighting the right crowd ? Aren't they right in a way ?
 Kalia_Palace_MainQuest1_1_67 = ... No. I can't ask myself these questions now.
 Kalia_Palace_MainQuest1_1_68 = I need to get to the docks, and find that rebel.
+
+# ---------------------------------------------------------
+# -------------- Kalia - Docks ---------------------------
+# ---------------------------------------------------------
+
+
+Kalia_Docks_Hangar_Locked_1 = It's locked...
+
+Kalia_Docks_MainQuest2_0_1 = Here are the docks...
+Kalia_Docks_MainQuest2_0_2 = Ships from all over the continent stop here.
+Kalia_Docks_MainQuest2_0_3 = But today, I'm after a rebel.
+Kalia_Docks_MainQuest2_0_4 = Where could they be ? And what are they after ?
+Kalia_Docks_MainQuest2_0_5 = Maybe they are smuggling weapons to help their cause against the consul.
+Kalia_Docks_MainQuest2_0_6 = !
+Kalia_Docks_MainQuest2_0_7 = I spot someone in the distance. I recognize him.
+Kalia_Docks_MainQuest2_0_8 = He's the rebel the spies saw ! There's no doubt in my mind.
+Kalia_Docks_MainQuest2_0_9 = And knowing him, he's up to no good.
+Kalia_Docks_MainQuest2_0_10 = The rebel looks around, then disapears in a nearby building.
+Kalia_Docks_MainQuest2_0_11 = I follow him. I can't let him escape. Not again.
+Kalia_Docks_MainQuest2_0_12 = I enter the building, but something feels off...
+Kalia_Docks_MainQuest2_0_13 = This... this is a rebel hideout. Probably a depot of some kind.
+Kalia_Docks_MainQuest2_0_14 = That rebel is somewhere in there. I need to find him.
+
+Kalia_Docks_MainQuest2_0_15 = I manage to get to a pitch black room.
+Kalia_Docks_MainQuest2_0_16 = I'm sure the rebel must be close by.
+Kalia_Docks_MainQuest2_0_17 = Don't move.
+Kalia_Docks_MainQuest2_0_18 = !
+Kalia_Docks_MainQuest2_0_19 = I know who you are, [MC].
+Kalia_Docks_MainQuest2_0_20 = I also know what you want : me.
+Kalia_Docks_MainQuest2_0_21 = But don't you think this was a little bit too easy ?
+Kalia_Docks_MainQuest2_0_22 = ...
+Kalia_Docks_MainQuest2_0_23 = So this was a trap ?
+Kalia_Docks_MainQuest2_0_24 = Not really. I just wanted to talk.
+Kalia_Docks_MainQuest2_0_25 = I don't talk to rebels.
+Kalia_Docks_MainQuest2_0_26 = Do you really ? Can't you see you're on the wrong team ?
+Kalia_Docks_MainQuest2_0_27 = ...
+Kalia_Docks_MainQuest2_0_28 = Two years ago, you let me do it.
+Kalia_Docks_MainQuest2_0_29 = I don't know what you're talking about.
+Kalia_Docks_MainQuest2_0_30 = You could have stopped me, but you didn't.
+Kalia_Docks_MainQuest2_0_31 = ... I thought you would do something else. I was wrong.
+Kalia_Docks_MainQuest2_0_32 = You killed many of my comrades. You don't deserve sympathy.
+Kalia_Docks_MainQuest2_0_33 = Eh. Have it your way.
+Kalia_Docks_MainQuest2_0_34 = If you ever change your mind, find salvation.
+Kalia_Docks_MainQuest2_0_35 = It will be in the form of a cup of green tea.
+Kalia_Docks_MainQuest2_0_36 = Think it over. At least, do it for her.
+Kalia_Docks_MainQuest2_0_37 = I can feel the rebel disapear in the shadows.
+Kalia_Docks_MainQuest2_0_38 = So this was just an elaborate setup to get to me...
+Kalia_Docks_MainQuest2_0_39 = I should make my report to the Merchant.
+Kalia_Docks_MainQuest2_0_40 = ...
+Kalia_Docks_MainQuest2_0_41 = Two years ago, what was on my mind ?
+Kalia_Docks_MainQuest2_0_42 = That bastard killed almost all of them, why did I let him ?
+Kalia_Docks_MainQuest2_0_43 = ...What did I wish for him to do instead ?
+Kalia_Docks_MainQuest2_0_44 = ...
+Kalia_Docks_MainQuest2_0_45 = Maybe that wish is one I need to fullfil on my own.
+Kalia_Docks_MainQuest2_0_46 = Maybe I should do as he said, seek salvation.
+Kalia_Docks_MainQuest2_0_47 = ...
+Kalia_Docks_MainQuest2_0_48 = Could I ?
+Kalia_Docks_MainQuest2_0_49 = While thinking, I get out of the building.
+Kalia_Docks_MainQuest2_0_50 = It's clear to me I have to think about my loyalty.
+Kalia_Docks_MainQuest2_0_51 = What is best for me. For her...

@@ -10,15 +10,22 @@ night 0
 rain 0
 nightIncrement 0
 
-# Quests
+# Main Quests
 
 mainQuest_1 -1
 mainQuest_2 -1
 
+# These starts at 0, since 0 is the "join them" quest
+# 1 is the actual starting quest for the branch
+rebelQuest_0 -1
+
+# Arcs
 arcQuest_Guard_1 -1
 
+# Faction Quests
 factionQuest_Kalia_1 -1
 
+# Secondary Quests
 secondaryQuest_Iberty_Catacombs -1
 secondaryQuest_Iberty_Port -1
 secondaryQuest_Iberty_Doctor -1

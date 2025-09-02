@@ -1,0 +1,4 @@
+# Checks for the hangar
+
+dialog(narrator;_;false;Kalia_Docks_Hangar_Locked_1)
+load(Kalia/City/Docks/Interaction)

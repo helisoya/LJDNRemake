@@ -191,6 +191,12 @@ mainQuest_1_done = I reported back to the Merchant
 
 mainQuest_2 = A slight demotion
 mainQuest_2_0 = Investigate the rebels at the docks in Kalia
+mainQuest_2_1 = Report back to the Merchant in Kalia's Palace
+mainQuest_2_done = I investigated the rebel at the docks
+
+rebelQuest_0 = Finding salvation
+rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
+rebelQuest_0_done = I joined the rebels 
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty

@@ -22,9 +22,10 @@ MonoBehaviour:
   encounters: []
   battleBackground: Marble
   size: {x: 15, y: 15}
-  roomCount: 4
-  roomMaxSize: {x: 3, y: 3}
+  roomCount: 3
+  roomMaxSize: {x: 5, y: 5}
   cellPrefab: {fileID: 8148160245439542551, guid: ad9ee2db6b7bdae469c571c78207effe,
     type: 3}
-  stairsPrefab: {fileID: 2695139049142173575, guid: 1bef9f48b7e797d4090d4d335f8219dd,
+  stairsPrefab: {fileID: 2695139049142173575, guid: 19d0f0de092f09f419864cd2a9518382,
     type: 3}
+  propsToPlace: []

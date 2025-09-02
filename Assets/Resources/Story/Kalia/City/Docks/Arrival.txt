@@ -1,0 +1,24 @@
+clearStack()
+setFg(1)
+
+playMusic(Exploration_1)
+removeAllCharacters()
+setBackground(Kalia/City/Docks)
+
+load(Common/ProcessDayNight)
+load(Common/ProcessWeather)
+load(Common/DisplayWeatherRain)
+
+setLocation(Location_Kalia)
+
+if(mainQuest_2 = 0){
+	fadeFg(0;false)
+	load(Kalia/City/Docks/MainQuest2_0)
+	return()
+}
+
+autosave()
+
+fadeFg(0;false)
+
+load(Kalia/City/Docks/Interaction)

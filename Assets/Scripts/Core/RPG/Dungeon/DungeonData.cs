@@ -27,4 +27,5 @@ public class DungeonData : ScriptableObject
     public Vector2Int roomMaxSize;
     public DungeonCell cellPrefab;
     public DungeonStairs stairsPrefab;
+    public GameObject[] propsToPlace;
 }

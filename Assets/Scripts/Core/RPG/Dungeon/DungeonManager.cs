@@ -134,6 +134,7 @@ public class DungeonManager : MonoBehaviour
         generator.ResetEntitiesToPlace();
         generator.AddEntityToPlace(stairs.transform);
         stairs.active = false;
+        foreach (GameObject prop in data.propsToPlace) generator.AddEntityToPlace(Instantiate(prop).transform);
         currentFloor = startFloor - 1;
         AudioManager.instance.PlaySong(data.musicName);
         gui.SetCanExitDungeon(data.canExitEarly, data.earlyExitChapter);
