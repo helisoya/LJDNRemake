@@ -194,6 +194,9 @@ mainQuest_2_0 = Investigate the rebels at the docks in Kalia
 mainQuest_2_1 = Report back to the Merchant in Kalia's Palace
 mainQuest_2_done = I investigated the rebel at the docks
 
+mainQuest_3 = The White Forest
+mainQuest_3_0 = Go to the Order's HQ in the White Forest
+
 rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
 rebelQuest_0_done = I joined the rebels 
@@ -228,6 +231,8 @@ Location_Kalia = Kalia
 
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
+
+DOGACE_name = Ace
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

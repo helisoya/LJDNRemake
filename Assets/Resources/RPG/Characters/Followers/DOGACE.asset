@@ -10,27 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3f974e9b21989644b86a9cf2ecc893c, type: 3}
-  m_Name: PLAYER2
+  m_Name: DOGACE
   m_EditorClassIdentifier: 
   data:
-    ID: PLAYER2
+    ID: DOGACE
+    modelID: DogeAce
     stats:
       _serializedList:
       - Key: 0
-        Value: 5
+        Value: 8
       - Key: 1
-        Value: 3
-      - Key: 2
         Value: 2
+      - Key: 2
+        Value: 6
       - Key: 3
         Value: 0
       - Key: 4
-        Value: 4
+        Value: 2
       - Key: 5
         Value: 0
     weapon: 
     armor: 
-    level: 1
+    level: 2
     currentHP: 0
     currentSP: 0
     exp: 0

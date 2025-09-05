@@ -15,6 +15,7 @@ public class BattleCharacter : MonoBehaviour
     [SerializeField] private GameObject healthBarCanvas;
     [SerializeField] private BattleBarFill healthBar;
     [SerializeField] private BattleStatusIconHandler icons;
+    [SerializeField] private string animationPath = "Humanoid/";
 
     public bool healthBarFilling { get { return healthBar.filling; } }
 
@@ -34,7 +35,7 @@ public class BattleCharacter : MonoBehaviour
     public void SetWeapon(string weaponID)
     {
         RPGItem item = GameManager.GetRPGManager().GetItem(weaponID);
-        if (!string.IsNullOrEmpty(item.linkedAnimatior)) animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("Animations/Battles/" + item.linkedAnimatior);
+        if (!string.IsNullOrEmpty(item.linkedAnimatior)) animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("Animations/Battles/" + animationPath + item.linkedAnimatior);
 
         GameObject weapon = Resources.Load<GameObject>("RPG/Battles/Weapons/" + weaponID);
 

@@ -6,4 +6,10 @@ if(mainQuest_1 = 1){
 	return()
 }
 
+# Trigger for the end of mainQuest2
+if(mainQuest_2 = 1){ 
+	load(Kalia/City/Palace/MainQuest2_1) 
+	return()
+}
+
 load(Kalia/City/Palace/Door_Cant)

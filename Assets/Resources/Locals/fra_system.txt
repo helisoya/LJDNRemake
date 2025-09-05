@@ -190,6 +190,9 @@ mainQuest_2_0 = Menez l'enquête sur les bandits aux docks de Kalia
 mainQuest_2_1 = Retournez voir le Marchand au palais, à Kalia
 mainQuest_2_done = J'ai mené l'enquête sur le bandit des docks
 
+mainQuest_3 = La Forêt Blanche
+mainQuest_3_0 = Allez au QG de l'ordre dans la Forêt Blanche
+
 rebelQuest_0 = Trouver le salut
 rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
 rebelQuest_0_done = J'ai rejoins les rebelles
@@ -225,6 +228,8 @@ Location_Kalia = Kalia
 
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
+
+DOGACE_name = Ace
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

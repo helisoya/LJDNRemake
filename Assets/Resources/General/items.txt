@@ -14,6 +14,7 @@ nightIncrement 0
 
 mainQuest_1 -1
 mainQuest_2 -1
+mainQuest_3 -1
 
 # These starts at 0, since 0 is the "join them" quest
 # 1 is the actual starting quest for the branch

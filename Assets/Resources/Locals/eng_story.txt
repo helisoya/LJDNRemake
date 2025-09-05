@@ -15,6 +15,7 @@ Char_Soldier = Soldier
 Char_Priest = Priest
 Char_Merchant = Merchant
 Char_Sword = Sword
+Char_Ace = Ace
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -531,8 +532,45 @@ Kalia_Palace_MainQuest1_1_66 = Am I even fighting the right crowd ? Aren't they 
 Kalia_Palace_MainQuest1_1_67 = ... No. I can't ask myself these questions now.
 Kalia_Palace_MainQuest1_1_68 = I need to get to the docks, and find that rebel.
 
+Kalia_Palace_MainQuest2_1_1 = ...Can't believe I'm back so soon...
+Kalia_Palace_MainQuest2_1_2 = I enter the Merchant's office.
+Kalia_Palace_MainQuest2_1_3 = Sir. I came to make my report.
+Kalia_Palace_MainQuest2_1_4 = Ah ! Finally !
+Kalia_Palace_MainQuest2_1_5 = So, did you kill that rebel ? Did you find out his secrets ?
+Kalia_Palace_MainQuest2_1_6 = I... took care of him, yes.
+Kalia_Palace_MainQuest2_1_7 = I also managed to find one of the rebel's supply stash.
+Kalia_Palace_MainQuest2_1_8 = I can't tell him what really happened. I can't endanger her.
+Kalia_Palace_MainQuest2_1_9 = Good, good. You managed to save face, Shield.
+Kalia_Palace_MainQuest2_1_10 = I was beginning to think I had to engage article 7 on you.
+Kalia_Palace_MainQuest2_1_11 = No need, sir. I... I learned my lesson.
+Kalia_Palace_MainQuest2_1_12 = Good ! Because there's a new mission for you.
+Kalia_Palace_MainQuest2_1_13 = Oh ?
+Kalia_Palace_MainQuest2_1_14 = That good for nothing Sword broke contact. I can't reach him via the radio.
+Kalia_Palace_MainQuest2_1_15 = Maybe he ran into some bandits ?
+Kalia_Palace_MainQuest2_1_16 = I don't care ! All I want is my package, and he's not helping.
+Kalia_Palace_MainQuest2_1_17 = So I want you to find him, and my precious package.
+Kalia_Palace_MainQuest2_1_18 = Of course, sir. It shall be done.
+Kalia_Palace_MainQuest2_1_19 = I exit the room. This isn't good.
+Kalia_Palace_MainQuest2_1_20 = Sword has a radio that he can use to communicate with the palace.
+Kalia_Palace_MainQuest2_1_21 = And if he went silent...
+Kalia_Palace_MainQuest2_1_22 = I have to find him. I should start by visiting the Order's HQ in the White Forest.
+Kalia_Palace_MainQuest2_1_23 = They are a group of soldiers founded by Kalia and the neighboring Marklicht.
+Kalia_Palace_MainQuest2_1_24 = Their goal is to solve the bandit crisis in the White Forest.
+Kalia_Palace_MainQuest2_1_25 = Sword went there to see if they had any informations on the package.
+Kalia_Palace_MainQuest2_1_26 = Whatever happened, they should know something.
+Kalia_Palace_MainQuest2_1_27 = Wof !
+Kalia_Palace_MainQuest2_1_28 = !
+Kalia_Palace_MainQuest2_1_29 = Oh. It's just you, Ace.
+Kalia_Palace_MainQuest2_1_30 = This is the guard's dog. He's sort of our mascot.
+Kalia_Palace_MainQuest2_1_31 = ...Maybe I should bring him with me.
+Kalia_Palace_MainQuest2_1_32 = The forest is dangerous, and he was trained to fight.
+Kalia_Palace_MainQuest2_1_33 = What do you say, Ace ? Do you want to help me find Sword ?
+Kalia_Palace_MainQuest2_1_34 = Wof !
+Kalia_Palace_MainQuest2_1_35 = Eh. Fine, let's go.
+Kalia_Palace_MainQuest2_1_36 = <color=blue>Ace added to the party.</color>
+
 # ---------------------------------------------------------
-# -------------- Kalia - Docks ---------------------------
+# --------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------
 
 

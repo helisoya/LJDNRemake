@@ -1,6 +1,7 @@
 [mainQuest]
 mainQuest_1
 mainQuest_2
+mainQuest_3
 rebelQuest_0
 
 [arcQuest]

@@ -14,6 +14,7 @@ Char_Soldier = Soldat
 Char_Priest = Prêtre
 Char_Merchant = Marchand
 Char_Sword = Epée
+Char_Ace = Ace
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -510,6 +511,43 @@ Kalia_Palace_MainQuest1_1_65 = Puis-je les vaincre seul ? Des centaines n'ont m�
 Kalia_Palace_MainQuest1_1_66 = Est-ce que je combat seulement les bonnes personnes ? N'ont-ils pas raison au final ?
 Kalia_Palace_MainQuest1_1_67 = ... Non. Je ne peut pas me poser ces questions maintenant.
 Kalia_Palace_MainQuest1_1_68 = Je dois aller au docks, et trouver ce rebelle.
+
+Kalia_Palace_MainQuest2_1_1 = ...Je n'arrive pas à croire que je suis déjà de retour...
+Kalia_Palace_MainQuest2_1_2 = J'entre dans le bureau du Marchand.
+Kalia_Palace_MainQuest2_1_3 = Monsieur. Je suis venu faire mon rapport.
+Kalia_Palace_MainQuest2_1_4 = Ah ! Enfin !
+Kalia_Palace_MainQuest2_1_5 = Donc, avez-vous tué le rebelle ? Avez-vous trouvé ses secrets ?
+Kalia_Palace_MainQuest2_1_6 = Je... je me suis occupé de lui, oui.
+Kalia_Palace_MainQuest2_1_7 = J'ai aussi réussi à trouver une cache d'armes de la rebellion.
+Kalia_Palace_MainQuest2_1_8 = Je ne peux pas lui dire ce qui est vraiment arrivé. Je ne peux pas la mettre en danger.
+Kalia_Palace_MainQuest2_1_9 = Bien, bien. Vous avez réussi à sauver votre tête, Bouclier.
+Kalia_Palace_MainQuest2_1_10 = Je commençais à croire que j'allais devoir utiliser l'article 7 sur vous.
+Kalia_Palace_MainQuest2_1_11 = Ca ne sera pas nécessaire, monsieur. Je... J'ai appris de mes erreurs.
+Kalia_Palace_MainQuest2_1_12 = Bien ! Car j'ai une nouvelle mission pour vous.
+Kalia_Palace_MainQuest2_1_13 = Oh ?
+Kalia_Palace_MainQuest2_1_14 = Ce bon à rien d'Epée a rompu le contact. Je n'arrive pas à le joindre via la radio.
+Kalia_Palace_MainQuest2_1_15 = Peut être qu'il a rencontré des bandits ?
+Kalia_Palace_MainQuest2_1_16 = Je n'en ai rien à faire ! Tout ce que je veux, c'est mon colis. Et il ne m'aide pas.
+Kalia_Palace_MainQuest2_1_17 = Alors je veux que vous aliez le trouver, ainsi que mon précieux paquet.
+Kalia_Palace_MainQuest2_1_18 = Bien sur, monsieur. Ca sera fait.
+Kalia_Palace_MainQuest2_1_19 = Je quitte la salle. Ce n'est pas bon du tout.
+Kalia_Palace_MainQuest2_1_20 = Epée a une radio qu'il peut utiliser pour communiquer avec le palais.
+Kalia_Palace_MainQuest2_1_21 = Et s'il ne répond plus...
+Kalia_Palace_MainQuest2_1_22 = Je vais devoir le trouver. Je devrais commencer par me rendre au QG de l'ordre dans la Forêt Blanche.
+Kalia_Palace_MainQuest2_1_23 = C'est un groupe de soldat fondé par Kalia et le pays voisin du Marklicht.
+Kalia_Palace_MainQuest2_1_24 = Leur but est de résoudre le problème de bandits dans la forêt.
+Kalia_Palace_MainQuest2_1_25 = Epée est allé les voir au sujet du colis.
+Kalia_Palace_MainQuest2_1_26 = Peu importe ce qui est arrivé, ils doivent savoir quelque chose.
+Kalia_Palace_MainQuest2_1_27 = Wof !
+Kalia_Palace_MainQuest2_1_28 = !
+Kalia_Palace_MainQuest2_1_29 = Oh. C'est toi, Ace.
+Kalia_Palace_MainQuest2_1_30 = C'est le chien de la garde. C'est un peu notre mascotte.
+Kalia_Palace_MainQuest2_1_31 = ...Peut être que je devrais l'ammener avec moi.
+Kalia_Palace_MainQuest2_1_32 = La forêt est dangereuse, et il est entrainé au combat.
+Kalia_Palace_MainQuest2_1_33 = Qu'est ce que tu en penses, Ace ? Tu veux m'aider à trouver Epée ?
+Kalia_Palace_MainQuest2_1_34 = Wof !
+Kalia_Palace_MainQuest2_1_35 = Eh. Très bien, allons-y.
+Kalia_Palace_MainQuest2_1_36 = <color=blue>Ace ajouté au groupe.</color>
 
 # ---------------------------------------------------------
 # -------------- Kalia - Docks ---------------------------

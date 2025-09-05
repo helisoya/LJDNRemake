@@ -10,6 +10,7 @@ using UnityEngine.UIElements;
 public class CharacterGeneratorEditor : EditorWindow
 {
     private TextField characterIdField;
+    private TextField hierarchyField;
     private ObjectField modelField;
     private ObjectField interactionIconField;
     private ObjectField eyesField;
@@ -38,6 +39,9 @@ public class CharacterGeneratorEditor : EditorWindow
         modelField.objectType = typeof(GameObject);
         root.Add(modelField);
 
+        hierarchyField = new TextField("Path to Head");
+        root.Add(hierarchyField);
+
         interactionIconField = new ObjectField("Interaction Icon");
         interactionIconField.objectType = typeof(Texture2D);
         root.Add(interactionIconField);
@@ -55,6 +59,8 @@ public class CharacterGeneratorEditor : EditorWindow
         root.Add(spriteMaterialField);
 
         characterIdField.SetValueWithoutNotify(EditorPrefs.GetString("LJDN_CG_NAME", ""));
+        hierarchyField.SetValueWithoutNotify(EditorPrefs.GetString("LJDN_CG_HEADPATH",
+        "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End"));
         modelField.SetValueWithoutNotify(AssetDatabase.LoadAssetAtPath<GameObject>(EditorPrefs.GetString("LJDN_CG_MODEL", null)));
         interactionIconField.SetValueWithoutNotify(AssetDatabase.LoadAssetAtPath<Texture2D>(EditorPrefs.GetString("LJDN_CG_INTERACTION", null)));
         mouthField.SetValueWithoutNotify(AssetDatabase.LoadAssetAtPath<Texture2D>(EditorPrefs.GetString("LJDN_CG_MOUTH", null)));
@@ -66,14 +72,32 @@ public class CharacterGeneratorEditor : EditorWindow
         button.text = "Generate";
         button.clicked += OnGenerate;
         root.Add(button);
+
+        Button resetButton = new Button();
+        resetButton.name = "buttonReset";
+        resetButton.text = "Reset Values";
+        resetButton.clicked += ResetValues;
+        root.Add(resetButton);
+    }
+
+    void ResetValues()
+    {
+        EditorPrefs.SetString("LJDN_CG_NAME", "");
+        EditorPrefs.SetString("LJDN_CG_HEADPATH", "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End");
+
+        characterIdField.SetValueWithoutNotify(EditorPrefs.GetString("LJDN_CG_NAME", ""));
+        hierarchyField.SetValueWithoutNotify(EditorPrefs.GetString("LJDN_CG_HEADPATH",
+        "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End"));
     }
 
     public void OnGenerate()
     {
         if (modelField.value == null || spriteMaterialField.value == null || eyesField.value == null || mouthField.value == null ||
-             interactionIconField.value == null || string.IsNullOrEmpty(characterIdField.value)) return;
+             interactionIconField.value == null || string.IsNullOrEmpty(characterIdField.value) ||
+             string.IsNullOrEmpty(hierarchyField.value)) return;
 
         EditorPrefs.SetString("LJDN_CG_NAME", characterIdField.value);
+        EditorPrefs.SetString("LJDN_CG_HEADPATH", hierarchyField.value);
         EditorPrefs.SetString("LJDN_CG_MODEL", AssetDatabase.GetAssetPath(modelField.value));
         EditorPrefs.SetString("LJDN_CG_INTERACTION", AssetDatabase.GetAssetPath(interactionIconField.value));
         EditorPrefs.SetString("LJDN_CG_MOUTH", AssetDatabase.GetAssetPath(mouthField.value));
@@ -186,8 +210,12 @@ public class CharacterGeneratorEditor : EditorWindow
         Animator bodyAnimator = modelRoot.AddComponent<Animator>();
         bodyAnimator.runtimeAnimatorController = bodyOverride;
 
-        Transform headRoot = modelRoot.transform.Find("mixamorig:Hips").Find("mixamorig:Spine").Find("mixamorig:Spine1")
-            .Find("mixamorig:Spine2").Find("mixamorig:Neck").Find("mixamorig:Head").Find("mixamorig:HeadTop_End");
+        Transform headRoot = modelRoot.transform;
+        string[] split = hierarchyField.value.Split('/');
+        foreach (string path in split)
+        {
+            headRoot = headRoot.Find(path);
+        }
 
         // Generate mouth animator
         GameObject mouthRoot = new GameObject("Mouth");
