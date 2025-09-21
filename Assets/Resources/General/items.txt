@@ -31,6 +31,8 @@ secondaryQuest_Iberty_Catacombs -1
 secondaryQuest_Iberty_Port -1
 secondaryQuest_Iberty_Doctor -1
 
+secondaryQuest_Kalia_Max -1
+
 # Locations
 
 canTravel_Region_Kalia_Iberty 1

@@ -280,7 +280,7 @@ public class NovelController : MonoBehaviour
             }
             else if (line.StartsWith("else"))
             {
-                if (line.EndsWith("}"))
+                if (line.EndsWith("{"))
                 {
                     chapterProgress = CloseBrackets(chapterProgress, 1);
                 }

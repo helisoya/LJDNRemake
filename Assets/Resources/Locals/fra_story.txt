@@ -15,6 +15,7 @@ Char_Priest = Prêtre
 Char_Merchant = Marchand
 Char_Sword = Epée
 Char_Ace = Ace
+Char_Waiter = Serveur
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -29,6 +30,7 @@ Choice_CheckArea = Vérifier les alentours
 Choice_Nothing = Rien (Partir)
 Choice_MoveOut = Continuer
 Choice_Buy = Acheter...
+Choice_Sleep = Dormir
 
 Choice_Ideas = Des idées ?
 Choice_AboutRegion = A propos de la région
@@ -43,6 +45,8 @@ Choice_GivePackage = <i>Donner le colis</i>
 Choice_AboutCamp = A propos du camp
 Choice_AboutKalibu = A propos de Kalibu
 Choice_AboutOrkva = A propos d'Orkva
+Choice_AboutSect = A propos de la secte
+
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -57,6 +61,9 @@ Choice_GoBack = Retourner en arrière
 # ---------------------------------------------------------
 
 Common_DontNeedToGoThere_1 = I don't need to go there.
+
+Common_FastForwardDay_1 = <color=blue>C'est maintenant la journée.</color>
+Common_FastForwardNight_1 = <color=blue>C'est maintenant la nuit.</color> 
 
 # ---------------------------------------------------------
 # ------------------- Intro -------------------------------
@@ -608,3 +615,79 @@ Kalia_Docks_MainQuest2_0_48 = Devrais-je ?
 Kalia_Docks_MainQuest2_0_49 = En pensant à cela, je quitte le batiment.
 Kalia_Docks_MainQuest2_0_50 = Il est clair que je dois penser à ma loyauté.
 Kalia_Docks_MainQuest2_0_51 = Qu'est ce qui est meilleur pour moi. Pour elle...
+
+# ---------------------------------------------------------
+# ------------ Kalia - Max's Bar --------------------------
+# ---------------------------------------------------------
+
+Kalia_BarMax_Waiter_Greetings_1 = Bonjour. Vous avez besoin de quelque chose ?
+
+Kalia_BarMax_Waiter_Sleep_1 = Bien sur, laissez-moi vous montrer votre chambre.
+
+Kalia_BarMax_Waiter_AboutYou_1 = Je suis Max, la propriétaire du bar.
+Kalia_BarMax_Waiter_AboutYou_2 = J'ai tenu cet endroit toute ma vie.
+Kalia_BarMax_Waiter_AboutYou_3 = Ca fait beaucoup de temps. Vous pensez partir à la retraite un jour ?
+Kalia_BarMax_Waiter_AboutYou_4 = J'aimerai. Mais je n'ai pas de successeur pour le moment.
+Kalia_BarMax_Waiter_AboutYou_5 = J'esperais que mes petits enfants le ferait, mais ils préfèrent leur travail respectif...
+
+Kalia_BarMax_Waiter_SideQuest_Done_1 = Pas pour le moment, non.
+
+Kalia_BarMax_Waiter_SideQuest_Start_1 = J'aurais besoin d'un peu d'aide, oui.
+Kalia_BarMax_Waiter_SideQuest_Start_2 = Un de mes petits fils me doit de l'argent. Il doit toujours me payer.
+Kalia_BarMax_Waiter_SideQuest_Start_3 = Pourriez-vous lui dire de le faire bientôt ?
+Kalia_BarMax_Waiter_SideQuest_Start_4 = Je vais voir ce que je peux faire.
+Kalia_BarMax_Waiter_SideQuest_Start_5 = Merci, vous le trouverez dans le parc de la ville.
+
+Kalia_BarMax_Waiter_SideQuest_InProgress_1 = Vous trouverez mon petit fils dans le parc de la ville.
+
+Kalia_BarMax_Waiter_SideQuest_End_1 = Mon petit fils est venu me rendre mon argent. Je suppose que vous étiez impliqué ?
+Kalia_BarMax_Waiter_SideQuest_End_2 = Oui, je lui ai parlé.
+Kalia_BarMax_Waiter_SideQuest_End_3 = Merci, vous pouvez garder un peu de change pour m'avoir aidé.
+Kalia_BarMax_Waiter_SideQuest_End_4 = <color=blue>J'ai reçu 10 or de la serveuse.</color>
+Kalia_BarMax_Waiter_SideQuest_End_5 = Vous aviez besoin de quelque chose d'autre ?
+
+Kalia_BarMax_GUARD_Greetings_ArcQuest1_1 = Salut. N'oublie pas de me retrouver au docks.
+
+Kalia_BarMax_GUARD_ArcQuest1_Start_1 = Eh, vous.
+Kalia_BarMax_GUARD_ArcQuest1_Start_2 = Un homme étrange commenc à me parler.
+Kalia_BarMax_GUARD_ArcQuest1_Start_3 = Chercheriez-vous du travail par hasard ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_4 = Pas vraiment, j'ai déjà beaucoup de travail. Mais essayez quand même.
+Kalia_BarMax_GUARD_ArcQuest1_Start_5 = Et bien, c'est assez long en vérité. Je suis sur une sorte de mission secrète.
+Kalia_BarMax_GUARD_ArcQuest1_Start_6 = Je viens de la province de Vlatyr, dans les Provinces Unis de Kosky.
+Kalia_BarMax_GUARD_ArcQuest1_Start_7 = Le pays à l'Ouest du Marklicht.
+Kalia_BarMax_GUARD_ArcQuest1_Start_8 = C'est bien ça. Pour faire simple, on a une sorte de secte la bas. Elle est vraiment louche.
+Kalia_BarMax_GUARD_ArcQuest1_Start_9 = Elle était impliquée dans le meurtre d'un homme politique il y a pas si longtemps.
+Kalia_BarMax_GUARD_ArcQuest1_Start_10 = Après avoir enquêté un peu, j'ai réussit à trouver une liste.
+Kalia_BarMax_GUARD_ArcQuest1_Start_11 = Elle contient des noms de personnes vivant à Kalia. Je ne suis pas sur de son sens.
+Kalia_BarMax_GUARD_ArcQuest1_Start_12 = Donc vous êtes venu regarder par vous-même ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_13 = Oui. Les la secte des "Invocateurs" n'est jamais un bon signe.
+Kalia_BarMax_GUARD_ArcQuest1_Start_14 = J'ai besoin de savoir à quoi correspond la liste. Ca pourrait être aussi bien des cibles que des membres.
+Kalia_BarMax_GUARD_ArcQuest1_Start_15 = Vous voulez que j'aille enquêter sur eux ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_16 = Non, pas encore. En fait, j'ai une autre piste.
+Kalia_BarMax_GUARD_ArcQuest1_Start_17 = Il y a un hangar aux docks qui est trè suspect.
+Kalia_BarMax_GUARD_ArcQuest1_Start_18 = Officiellement, il est utilisé pour le commerce avec Kosky. Mais je sais que ce n'est pas tout.
+Kalia_BarMax_GUARD_ArcQuest1_Start_19 = J'ai vu des membres de la secte entrer et quitter l'endroit.
+Kalia_BarMax_GUARD_ArcQuest1_Start_20 = J'ai besoin d'y aller, et de savoir ce qu'ils y font.
+Kalia_BarMax_GUARD_ArcQuest1_Start_21 = Donc pour le moment, je cherche en réalité de l'aide.
+Kalia_BarMax_GUARD_ArcQuest1_Start_22 = ... Je vois.
+Kalia_BarMax_GUARD_ArcQuest1_Start_23 = Même si je n'ai pas beaucoup de temps à y consacrer, cette secte ne présage rien de bon.
+Kalia_BarMax_GUARD_ArcQuest1_Start_24 = Peut être que je devrais l'aider. Ca pourrait m'économiser des problèmes plus tard.
+Kalia_BarMax_GUARD_ArcQuest1_Start_25 = Très bien, je vais voir ce que je peux faire pour vous aider.
+Kalia_BarMax_GUARD_ArcQuest1_Start_26 = Vraiment ?! Merci beaucoup !
+Kalia_BarMax_GUARD_ArcQuest1_Start_27 = Quand vous serez prêt, retrouvez moi aux docks.
+Kalia_BarMax_GUARD_ArcQuest1_Start_28 = Je serais probablement déjà dans le hangar quand vous arriverez.
+Kalia_BarMax_GUARD_ArcQuest1_Start_29 = En attendant, n'hésitez pas à me poser des questions.
+Kalia_BarMax_GUARD_ArcQuest1_Start_30 = Oh, et je suis GARDE d'ailleurs.
+
+Kalia_BarMax_GUARD_AboutYou_1 = GARDE n'est que mon nom de code. Je l'utilisais il y à encore quelques temps quand j'était garde du corps.
+Kalia_BarMax_GUARD_AboutYou_2 = Je protégais un homme politique... et vous pouvez deviner ce qui c'est passé.
+Kalia_BarMax_GUARD_AboutYou_3 = La secte l'a tué ?
+Kalia_BarMax_GUARD_AboutYou_4 = Exactement. Il menait une enquête sur eux, donc ils l'ont tué en représaille.
+Kalia_BarMax_GUARD_AboutYou_5 = Depuis ce jour, j'ai arrêté d'être garde du corps. On m'a ridiculisé pour mon incompétence.
+Kalia_BarMax_GUARD_AboutYou_6 = J'ai donc juré de me venger. Je les détruirais.
+
+Kalia_BarMax_GUARD_AboutSect_1 = La secte des Invocateurs est plutôt discrète.
+Kalia_BarMax_GUARD_AboutSect_2 = Ils se spécialisent apparement dans l'invocation.
+Kalia_BarMax_GUARD_AboutSect_3 = L'invocation de quoi ? Je n'en suis pas sur, mais ça ne présage rien de bon.
+Kalia_BarMax_GUARD_AboutSect_4 = J'ai aussi appris qu'ils prient le dieu du chaos : le Seigneur Cerf.
+Kalia_BarMax_GUARD_AboutSect_5 = Leurs intentions ne peuvent qu'être néfastes. Ils doivent être arrêté.

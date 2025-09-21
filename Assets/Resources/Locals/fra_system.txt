@@ -197,6 +197,9 @@ rebelQuest_0 = Trouver le salut
 rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
 rebelQuest_0_done = J'ai rejoins les rebelles
 
+arcQuest_Guard_1 = Une secte à Kalia
+arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
+arcQuest_Guard_1_done = J'ai mené l'enquête aux docks avec GARDE
 
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
@@ -211,6 +214,11 @@ secondaryQuest_Iberty_Catacombs = Bandits dans les catacombes
 secondaryQuest_Iberty_Catacombs_0 = Nettoyer les catacombes d'Iberty
 secondaryQuest_Iberty_Catacombs_1 = Parlez au soldat d'Iberty
 secondaryQuest_Iberty_Catacombs_done = J'ai nettoyé les catacombes
+
+secondaryQuest_Kalia_Max = Un petit prêt
+secondaryQuest_Kalia_Max_0 = Parler au petit fils de la serveuse au parc de Kalibu
+secondaryQuest_Kalia_Max_1 = Parler à la serveuse du bar de Max à Kalia
+secondaryQuest_Kalia_Max_done = J'ai parlé au petit fils de la serveuse
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

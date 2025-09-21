@@ -69,6 +69,7 @@ dialog(narrator;_;false;Kalia_Docks_MainQuest2_0_51)
 
 variable(mainQuest_2;1)
 variable(rebelQuest_0;0)
+variable(canTravel_City_Kalia_RebelHQ;1)
 
 playMusic(Exploration_1)
 

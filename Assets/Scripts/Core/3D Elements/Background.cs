@@ -12,6 +12,12 @@ public class Background : MonoBehaviour
     [SerializeField] private Transform rotatablesRoot;
     private Dictionary<string, Transform> markers;
 
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, Quaternion.Euler(directionalLightRotation) * transform.forward * 5);
+    }
+
 
     /// <summary>
     /// Initialize the background

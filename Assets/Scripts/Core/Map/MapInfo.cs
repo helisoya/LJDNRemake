@@ -8,6 +8,7 @@ using UnityEngine;
 public class MapInfo : MonoBehaviour
 {
     [SerializeField] private LocalizedText text;
+    private float length;
 
     /// <summary>
     /// Updates the tooltip's informations
@@ -19,14 +20,29 @@ public class MapInfo : MonoBehaviour
         gameObject.SetActive(show);
         text.SetNewKey(key);
 
-        if (show == true) transform.position = Input.mousePosition;
+        if (show == true) ComputePosition();
+    }
+
+    /// <summary>
+    /// Computes the label's position
+    /// </summary>
+    void ComputePosition()
+    {
+        Vector2 position = Input.mousePosition;
+        if (position.x >= Screen.width - length) position.x -= length;
+        transform.position = position;
+    }
+
+    void Start()
+    {
+        length = GetComponent<RectTransform>().sizeDelta.x;
     }
 
     void Update()
     {
         if (gameObject.activeInHierarchy)
         {
-            transform.position = Input.mousePosition;
+            ComputePosition();
         }
     }
 }

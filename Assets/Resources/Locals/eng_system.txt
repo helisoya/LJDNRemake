@@ -201,6 +201,10 @@ rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
 rebelQuest_0_done = I joined the rebels 
 
+arcQuest_Guard_1 = A sect in Kalia
+arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
+arcQuest_Guard_1_done = I investigated the docks with GUARD
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
@@ -214,6 +218,11 @@ secondaryQuest_Iberty_Catacombs = Bandits in the catacombs
 secondaryQuest_Iberty_Catacombs_0 = Clear Iberty's catacombs
 secondaryQuest_Iberty_Catacombs_1 = Talk to the soldier in Iberty
 secondaryQuest_Iberty_Catacombs_done = I cleared the catacombs
+
+secondaryQuest_Kalia_Max = A small loan
+secondaryQuest_Kalia_Max_0 = Talk to the waiter's grandson in Kalibu's Park
+secondaryQuest_Kalia_Max_1 = Talk to the the waiter of Max's bar in Kalia
+secondaryQuest_Kalia_Max_done = I talked to the waiter's grandson
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

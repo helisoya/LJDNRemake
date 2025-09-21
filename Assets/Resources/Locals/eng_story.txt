@@ -16,6 +16,7 @@ Char_Priest = Priest
 Char_Merchant = Merchant
 Char_Sword = Sword
 Char_Ace = Ace
+Char_Waiter = Waiter
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -30,6 +31,7 @@ Choice_CheckArea = Check area
 Choice_Nothing = Nothing (Leave)
 Choice_MoveOut = Continue
 Choice_Buy = Buy...
+Choice_Sleep = Sleep
 
 Choice_Ideas = Any ideas ?
 Choice_AboutRegion = About the region
@@ -44,6 +46,7 @@ Choice_GivePackage = <i>Give package</i>
 Choice_AboutCamp = About the camp
 Choice_AboutKalibu = About Kalibu
 Choice_AboutOrkva = About Orkva
+Choice_AboutSect = About the sect
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -61,6 +64,9 @@ Choice_GoBack = Go Back
 # ---------------------------------------------------------
 
 Common_DontNeedToGoThere_1 = I don't need to go there.
+
+Common_FastForwardDay_1 = <color=blue>It is now daytime.</color>
+Common_FastForwardNight_1 = <color=blue>It is now nighttime.</color> 
 
 # ---------------------------------------------------------
 # ------------------- Intro -------------------------------
@@ -628,3 +634,80 @@ Kalia_Docks_MainQuest2_0_48 = Could I ?
 Kalia_Docks_MainQuest2_0_49 = While thinking, I get out of the building.
 Kalia_Docks_MainQuest2_0_50 = It's clear to me I have to think about my loyalty.
 Kalia_Docks_MainQuest2_0_51 = What is best for me. For her...
+
+# ---------------------------------------------------------
+# ------------ Kalia - Max's Bar --------------------------
+# ---------------------------------------------------------
+
+Kalia_BarMax_Waiter_Greetings_1 = Hi. Do you need anything ?
+
+Kalia_BarMax_Waiter_Sleep_1 = Sure, let me show you to your room.
+
+Kalia_BarMax_Waiter_AboutYou_1 = I'm Max, the owner of this bar.
+Kalia_BarMax_Waiter_AboutYou_2 = I've been tending to this place my whole life.
+Kalia_BarMax_Waiter_AboutYou_3 = That seems like a long time. Do you plan to retire at some point ?
+Kalia_BarMax_Waiter_AboutYou_4 = I'd like to. But I don't have any successor for now.
+Kalia_BarMax_Waiter_AboutYou_5 = I hoped one of my grandsons would, but they prefer their respective jobs...
+
+Kalia_BarMax_Waiter_SideQuest_Done_1 = Not at this time, no.
+
+Kalia_BarMax_Waiter_SideQuest_Start_1 = I might need some help, yes.
+Kalia_BarMax_Waiter_SideQuest_Start_2 = One of my grandson owes me money. He still needs to pay up.
+Kalia_BarMax_Waiter_SideQuest_Start_3 = Could you tell him to do so soon ? 
+Kalia_BarMax_Waiter_SideQuest_Start_4 = I'll see what I can do.
+Kalia_BarMax_Waiter_SideQuest_Start_5 = Thanks, you'll find him in the city's park.
+
+Kalia_BarMax_Waiter_SideQuest_InProgress_1 = You'll find my grandson in the city's park.
+
+Kalia_BarMax_Waiter_SideQuest_End_1 = My grandson came by and gave me my money back. I suppose you were involved ?
+Kalia_BarMax_Waiter_SideQuest_End_2 = Yes, I talked to him.
+Kalia_BarMax_Waiter_SideQuest_End_3 = Thanks, you can keep some change for helping me out.
+Kalia_BarMax_Waiter_SideQuest_End_4 = <color=blue>I received 10 gold from the waiter.</color>
+Kalia_BarMax_Waiter_SideQuest_End_5 = Did you need anything else ?
+
+
+Kalia_BarMax_GUARD_Greetings_ArcQuest1_1 = Hi. Don't forget to meet me at the docks.
+
+Kalia_BarMax_GUARD_ArcQuest1_Start_1 = Hey, you.
+Kalia_BarMax_GUARD_ArcQuest1_Start_2 = A strange man starts talking to me.
+Kalia_BarMax_GUARD_ArcQuest1_Start_3 = Are you searching for a job by any chance ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_4 = Not really, my hands are already full. But shoot, you never know.
+Kalia_BarMax_GUARD_ArcQuest1_Start_5 = Well, it's a long one in truth. I'm on some sort of a secret mission if you will.
+Kalia_BarMax_GUARD_ArcQuest1_Start_6 = I come from the Vlatyr province in the Koskyian United Provinces.
+Kalia_BarMax_GUARD_ArcQuest1_Start_7 = The country west of Marklicht ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_8 = The one. To keep it short, we have some sort of sect over there. Really shady stuff.
+Kalia_BarMax_GUARD_ArcQuest1_Start_9 = They were involved in the killing of a politician not too long ago.
+Kalia_BarMax_GUARD_ArcQuest1_Start_10 = After digging up a little bit, I managed to get ahold of a list.
+Kalia_BarMax_GUARD_ArcQuest1_Start_11 = It contains names of people living in Kalia. I'm not sure what it is for.
+Kalia_BarMax_GUARD_ArcQuest1_Start_12 = So you decided to come have a look ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_13 = Right. This "Summoners" sect can't be good news. 
+Kalia_BarMax_GUARD_ArcQuest1_Start_14 = But I need to be sure what this list is. It could be members, or targets.
+Kalia_BarMax_GUARD_ArcQuest1_Start_15 = So you would have liked me to check them out ?
+Kalia_BarMax_GUARD_ArcQuest1_Start_16 = Not yet, no. Actually, I have another lead.
+Kalia_BarMax_GUARD_ArcQuest1_Start_17 = There is a hangar in the docks that is very suspicious.
+Kalia_BarMax_GUARD_ArcQuest1_Start_18 = Apparently, it is used for trading with Kosky. But I know better.
+Kalia_BarMax_GUARD_ArcQuest1_Start_19 = I've seen sect members enter and exit the place.
+Kalia_BarMax_GUARD_ArcQuest1_Start_20 = I need to clear this place and figure out what they are doing here.
+Kalia_BarMax_GUARD_ArcQuest1_Start_21 = So right now, I'm actually trying to find backup.
+Kalia_BarMax_GUARD_ArcQuest1_Start_22 = ... I see.
+Kalia_BarMax_GUARD_ArcQuest1_Start_23 = While I don't have much time, this sect isn't good news.
+Kalia_BarMax_GUARD_ArcQuest1_Start_24 = Maybe I should help him. It could save me a headache later.
+Kalia_BarMax_GUARD_ArcQuest1_Start_25 = Alright, I'll see what I can do to help you.
+Kalia_BarMax_GUARD_ArcQuest1_Start_26 = Really ?! Thank you so much !
+Kalia_BarMax_GUARD_ArcQuest1_Start_27 = When you're ready, meet me at the docks.
+Kalia_BarMax_GUARD_ArcQuest1_Start_28 = I'll probably already be in the hangar when you arrive.
+Kalia_BarMax_GUARD_ArcQuest1_Start_29 = In the meantime, feel free to ask me anything.
+Kalia_BarMax_GUARD_ArcQuest1_Start_30 = Oh, and I'm GUARD by the way.
+
+Kalia_BarMax_GUARD_AboutYou_1 = GUARD is only my codename. I used it not too long ago while I was on protection duty.
+Kalia_BarMax_GUARD_AboutYou_2 = I was protecting a politician... and you can guess what happened.
+Kalia_BarMax_GUARD_AboutYou_3 = The sect killed him ?
+Kalia_BarMax_GUARD_AboutYou_4 = That's right. He was investigating the sect, so they killed him in retaliation.
+Kalia_BarMax_GUARD_AboutYou_5 = Ever since that day, I stopped being a bodyguard. People mocked me for being incompetent.
+Kalia_BarMax_GUARD_AboutYou_6 = So I vowed revenge on the sect. I'll destroy them, I swear it.
+
+Kalia_BarMax_GUARD_AboutSect_1 = The Summoners Sect I'm after is quite secretive.
+Kalia_BarMax_GUARD_AboutSect_2 = They apparently specialize in summoning things.
+Kalia_BarMax_GUARD_AboutSect_3 = What exactly, I'm entierly not sure. But it can't be good.
+Kalia_BarMax_GUARD_AboutSect_4 = I also learned they worship the god of chaos : Lord Elk.
+Kalia_BarMax_GUARD_AboutSect_5 = So their intentions can't be good. They need to be stopped.

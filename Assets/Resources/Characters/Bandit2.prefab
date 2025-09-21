@@ -331,6 +331,7 @@ MonoBehaviour:
   - {fileID: 4562450855048383194}
   - {fileID: 5530194103125529131}
   - {fileID: 3339996098039304528}
+  - {fileID: 707085802047042123}
   interactableObject: {fileID: 9041897248698280299}
 --- !u!1001 &2294596074390501670
 PrefabInstance:
@@ -426,6 +427,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cded9da286d1e9447a199270f890bcec, type: 3}
+--- !u!23 &707085802047042123 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7635826562936255635, guid: cded9da286d1e9447a199270f890bcec,
+    type: 3}
+  m_PrefabInstance: {fileID: 2294596074390501670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3702111963170240743
 PrefabInstance:
   m_ObjectHideFlags: 0
