@@ -254,7 +254,9 @@ public class CharacterGeneratorEditor : EditorWindow
 
         // Generate Prefab
         bool success;
-        PrefabUtility.SaveAsPrefabAsset(characterRoot, "Assets/Resources/Characters/" + characterIdField.value + ".prefab", out success);
+        GameObject prefab = PrefabUtility.SaveAsPrefabAsset(characterRoot, "Assets/Resources/Characters/" + characterIdField.value + ".prefab", out success);
+        GameObject.DestroyImmediate(characterRoot);
+        PrefabUtility.InstantiatePrefab(prefab);
 
         if (success) Debug.Log("Character Generation finished");
         else Debug.LogError("Character Generation failed");

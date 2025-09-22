@@ -17,6 +17,8 @@ Char_Merchant = Merchant
 Char_Sword = Sword
 Char_Ace = Ace
 Char_Waiter = Waiter
+Char_Man = Man
+Char_Woman = Woman
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -711,3 +713,14 @@ Kalia_BarMax_GUARD_AboutSect_2 = They apparently specialize in summoning things.
 Kalia_BarMax_GUARD_AboutSect_3 = What exactly, I'm entierly not sure. But it can't be good.
 Kalia_BarMax_GUARD_AboutSect_4 = I also learned they worship the god of chaos : Lord Elk.
 Kalia_BarMax_GUARD_AboutSect_5 = So their intentions can't be good. They need to be stopped.
+
+# ---------------------------------------------------------
+# ---------------- Kalia - Park ---------------------------
+# ---------------------------------------------------------
+
+Kalia_KalibuPark_SecondaryQuest_1 = Are you the grandson of the owner of Max's bar ?
+Kalia_KalibuPark_SecondaryQuest_2 = Yeah, why ?
+Kalia_KalibuPark_SecondaryQuest_3 = She wanted you to know you still owe her some money.
+Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! Right. How did I manage to forget ?
+Kalia_KalibuPark_SecondaryQuest_5 = Thank you for relaying the message, I'll go see her right away.
+Kalia_KalibuPark_SecondaryQuest_6 = The man disapears in the distance. I should head back to the bar too.

@@ -11,6 +11,13 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_Kalia)
 
+if(secondaryQuest_Kalia_Max = 0 & night = 0){
+	addCharacter(Citizen1;false)
+	setCharacterPosition(Citizen1;Lake)
+	setCharacterRotation(Citizen1;Lake)
+	setInteractionChapter(Citizen1;Kalia/City/KalibuPark/SecondaryQuestBarMax)
+}
+
 autosave()
 
 fadeFg(0;false)

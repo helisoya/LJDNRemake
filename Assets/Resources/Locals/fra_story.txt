@@ -16,6 +16,8 @@ Char_Merchant = Marchand
 Char_Sword = Epée
 Char_Ace = Ace
 Char_Waiter = Serveur
+Char_Man = Homme
+Char_Woman = Femme
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -691,3 +693,14 @@ Kalia_BarMax_GUARD_AboutSect_2 = Ils se spécialisent apparement dans l'invocati
 Kalia_BarMax_GUARD_AboutSect_3 = L'invocation de quoi ? Je n'en suis pas sur, mais ça ne présage rien de bon.
 Kalia_BarMax_GUARD_AboutSect_4 = J'ai aussi appris qu'ils prient le dieu du chaos : le Seigneur Cerf.
 Kalia_BarMax_GUARD_AboutSect_5 = Leurs intentions ne peuvent qu'être néfastes. Ils doivent être arrêté.
+
+# ---------------------------------------------------------
+# ---------------- Kalia - Park ---------------------------
+# ---------------------------------------------------------
+
+Kalia_KalibuPark_SecondaryQuest_1 = Etes-vous le petit fils de la propriétaire du bar de Max ?
+Kalia_KalibuPark_SecondaryQuest_2 = Oui, pourquoi ?
+Kalia_KalibuPark_SecondaryQuest_3 = Elle voulait vous rappeler que vous lui dever de l'argent.
+Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! C'est vrai. Comment ais-je pu oublier ?
+Kalia_KalibuPark_SecondaryQuest_5 = Merci de m'avoir fait passer le message, je vais aller la voir de suite.
+Kalia_KalibuPark_SecondaryQuest_6 = L'homme disparait au loin. Je devrais retourner au bar moi aussi.
