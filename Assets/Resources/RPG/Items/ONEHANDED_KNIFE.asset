@@ -29,5 +29,6 @@ MonoBehaviour:
   statusChance: 0
   weaponType: 0
   statsValue: 1
-  weaponSkills: []
+  weaponSkills:
+  - SKILL_SLASH
   linkedAnimatior: OneHand

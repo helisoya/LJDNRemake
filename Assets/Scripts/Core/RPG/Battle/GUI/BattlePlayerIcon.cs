@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,26 +29,27 @@ public class BattlePlayerIcon : MonoBehaviour
     /// <returns>Its character ID</returns>
     public string GetID()
     {
-        return data.GetData().modelID;
+        return data.GetData().ID;
     }
 
     /// <summary>
     /// Initialize the component
     /// </summary>
     /// <param name="data">Its linked data</param>
-    public void Init(BattleManager.CharacterData data)
+    public void Init(BattleManager.CharacterData data, SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites)
     {
-        Init(data.characterData);
+        Init(data.characterData, sprites);
     }
 
     /// <summary>
     /// Initialize the component
     /// </summary>
     /// <param name="data">Its linked data</param>
-    public void Init(RPGCharacter data)
+    public void Init(RPGCharacter data, SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites)
     {
         this.data = data;
         playerIcon.sprite = Resources.Load<Sprite>("RPG/Battles/Icons/" + data.GetData().modelID);
+        statusIcons.Init(sprites);
         UpdateIcon(true);
     }
 

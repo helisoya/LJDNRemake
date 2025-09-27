@@ -4059,7 +4059,23 @@ MonoBehaviour:
   posEnd: 30
   ennemyDistance: 20
   cameraUpDistance: 5
-  useDebug: 0
+  statusSprites:
+    _serializedList:
+    - Key: 0
+      Value: {fileID: -1114919111, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 1
+      Value: {fileID: -1460575998, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 2
+      Value: {fileID: -671371570, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 3
+      Value: {fileID: -648371229, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 4
+      Value: {fileID: 599239700, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 5
+      Value: {fileID: 2065576580, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+    - Key: 6
+      Value: {fileID: -567732427, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+  useDebug: 1
   data: {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   backgroundName: Grass
 --- !u!4 &1707510431

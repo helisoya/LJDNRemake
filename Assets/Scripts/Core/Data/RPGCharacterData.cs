@@ -19,6 +19,7 @@ public class RPGCharacterData
     public int currentHP;
     public int currentSP;
     public int exp;
+    public bool canChangeEquipement = true;
 
     /// <summary>
     /// Gets a raw stat from the character
@@ -46,7 +47,8 @@ public class RPGCharacterData
             currentSP = currentSP,
             exp = exp,
             modelID = new string(modelID),
-            stats = new SerializedDictionary<StatType, int>(stats)
+            stats = new SerializedDictionary<StatType, int>(stats),
+            canChangeEquipement = canChangeEquipement
         };
         return copy;
     }
@@ -66,6 +68,7 @@ public class RPGCharacterData
         exp = copy.exp;
         modelID = copy.modelID;
         stats = new SerializedDictionary<StatType, int>(copy.stats);
+        canChangeEquipement = copy.canChangeEquipement;
     }
 
     public enum StatType

@@ -201,6 +201,10 @@ arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
 arcQuest_Guard_1_done = J'ai mené l'enquête aux docks avec GARDE
 
+arcQuest_Guard_2 = Une secte drapée de noblesse
+arcQuest_Guard_2_0 = Retrouvez GARDE à la grande place de Kalia
+arcQuest_Guard_2_done = J'ai mené l'enquête avec GARDE sur le marchant
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
@@ -237,7 +241,12 @@ Location_Kalia = Kalia
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
 
+ENNEMY_Summoner_Hand_name = Invocateur
+ENNEMY_Summoner_Knife_name = Invocateur
+
 DOGACE_name = Ace
+GUARD_name = GARDE
+
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------
@@ -266,10 +275,16 @@ ONEHANDED_AXE_desc = Une hache banale qui a déjà vu du combat.<br>+3 ATK
 ONEHANDED_SWORD_name = Epee
 ONEHANDED_SWORD_desc = Une épée qui est utilisée par certains bandits.<br>+2 ATK
 SKILL_BASEATTACK_name = Attaque
-SKILL_BASEATTACK_desc = Une attaque basique<br>(Un ennemi)
-SKILL_HEAVYSLASH_name = -
-SKILL_HEAVYSLASH_desc = -
-SKILL_SLASH_name = -
-SKILL_SLASH_desc = -
+SKILL_BASEATTACK_desc = Attaque normale<br>(Un ennemi)
+SKILL_MADSTRIKE_name = Rafales
+SKILL_MADSTRIKE_desc = Attaque légère<br>(Tout les ennemis)
+SKILL_SLASH_name = Trachage
+SKILL_SLASH_desc = Attaque lourde<br>(Un ennemi)
 ONEHANDED_KNIFE_name = Couteau
 ONEHANDED_KNIFE_desc = La base pour un bandit de la forêt blanche.<br>+1 ATK
+FIREARM_REVOLVER_name = Revolver
+FIREARM_REVOLVER_desc = Un revolver standard.<br>+4 ATK
+FIREARM_REVOLVERGUARD_name = Revolver de GARDE
+FIREARM_REVOLVERGUARD_desc = Le revolver spécial de GARDE.<br>+8 ATK
+ARMOR_TRENCHCOAT_name = Trenchcoat
+ARMOR_TRENCHCOAT_desc = Un trenchcoat rembourré avec un gilet pare-balles.<br>+5 DEF

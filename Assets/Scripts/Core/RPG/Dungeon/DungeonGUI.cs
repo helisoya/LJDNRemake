@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -103,7 +104,7 @@ public class DungeonGUI : MonoBehaviour
         foreach (RPGCharacter character in players)
         {
             BattlePlayerIcon icon = Instantiate(playerIconPrefab, playerIconsRoot);
-            icon.Init(character);
+            icon.Init(character, null);
             playersIcons.Add(icon);
         }
     }

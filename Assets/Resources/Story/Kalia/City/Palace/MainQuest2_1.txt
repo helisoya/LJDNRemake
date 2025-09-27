@@ -76,6 +76,7 @@ dialog([MC];_;false;Kalia_Palace_MainQuest2_1_35)
 
 setCharacterAlpha(DogAce;0;true)
 removeAllCharacters()
+alignToCharacterLevel(DOGACE;PLAYER)
 addFollower(DOGACE)
 
 dialog(narrator;_;false;Kalia_Palace_MainQuest2_1_36)

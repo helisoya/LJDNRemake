@@ -22,6 +22,7 @@ rebelQuest_0 -1
 
 # Arcs
 arcQuest_Guard_1 -1
+arcQuest_Guard_2 -1
 
 # Faction Quests
 factionQuest_Kalia_1 -1

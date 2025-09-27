@@ -5,6 +5,7 @@ fadeBg(1;true)
 setCharacterPosition(Waiter1;Waiter)
 setCharacterRotation(Waiter1;Waiter)
 
+healAllFollowers()
 load(Common/FastForwardTime)
 load(Common/ProcessWeather)
 load(Common/DisplayWeatherCloud)

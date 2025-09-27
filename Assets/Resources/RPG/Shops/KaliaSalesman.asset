@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsToSell:
   - ARMOR_LEATHER
+  - ARMOR_TRENCHCOAT
   - ONEHANDED_SWORD
   - ONEHANDED_AXE
+  - FIREARM_REVOLVER
   - ITEM_POTION
   - ITEM_CURE

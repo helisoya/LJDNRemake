@@ -618,6 +618,53 @@ Kalia_Docks_MainQuest2_0_49 = En pensant à cela, je quitte le batiment.
 Kalia_Docks_MainQuest2_0_50 = Il est clair que je dois penser à ma loyauté.
 Kalia_Docks_MainQuest2_0_51 = Qu'est ce qui est meilleur pour moi. Pour elle...
 
+Kalia_Docks_GUARDArcQuest1_1 = Voila le hangar dont GARDE m'a parlé.
+Kalia_Docks_GUARDArcQuest1_2 = La porte est ouverte, je peux voir quelqu'un à l'intérieur.
+Kalia_Docks_GUARDArcQuest1_3 = Ah, vous voila. Je viens seulement d'ouvrir cette porte.
+Kalia_Docks_GUARDArcQuest1_4 = Etes-vous prêt à mener l'enquête dans ce lieu ?
+Kalia_Docks_GUARDArcQuest1_5 = Oui, je suis prêt.
+Kalia_Docks_GUARDArcQuest1_6 = Bien. Je vais vous laisser passer en avant alors.
+Kalia_Docks_GUARDArcQuest1_7 = <color=blue>GARDE ajouté au groupe.</color>
+Kalia_Docks_GUARDArcQuest1_8 = Très bien, il est l'heure de mener l'enquête...
+
+Kalia_Docks_GUARDArcQuest1_9 = ... Toujours rien, hein ?
+Kalia_Docks_GUARDArcQuest1_10 = On a passé le hangar au peigne fin, mais on n'a rien trouvé...
+Kalia_Docks_GUARDArcQuest1_11 = J'étais pourtant sur que c'était leur "quartier général".
+Kalia_Docks_GUARDArcQuest1_12 = Peut être qu'ils utilisent ce hangar pour entreposer des objets ?
+Kalia_Docks_GUARDArcQuest1_13 = Ca serait moins suspect en tout cas.
+Kalia_Docks_GUARDArcQuest1_14 = Hmm... C'est vrai. Je n'y avais pas pensé.
+Kalia_Docks_GUARDArcQuest1_15 = Attendez, laissez-moi vérifier... 
+Kalia_Docks_GUARDArcQuest1_16 = Je le savais ! Ils cachaient quelque chose dans les caisses.
+Kalia_Docks_GUARDArcQuest1_17 = GARDE reviens d'un caisse proche avec des armes dans ses mains.
+Kalia_Docks_GUARDArcQuest1_18 = Ils cachent des armes ici ?
+Kalia_Docks_GUARDArcQuest1_19 = On dirait bien. Ce n'est pas bon du tout.
+Kalia_Docks_GUARDArcQuest1_20 = Je savais qu'ils ne présagaient rien de bon, mais quand même.
+Kalia_Docks_GUARDArcQuest1_21 = Dans le pire des cas, ils veulent prendre le pouvoir.
+Kalia_Docks_GUARDArcQuest1_22 = Ils n'oseraient pas.
+Kalia_Docks_GUARDArcQuest1_23 = Ils étaient assez fou pour tuer le meneur d'une investigation qui portait sur eux.
+Kalia_Docks_GUARDArcQuest1_24 = Cependant, ca ne nous aident pas beaucoup. On ne sait toujours pas qui et ou ils sont.
+Kalia_Docks_GUARDArcQuest1_25 = Peut être qu'on devrait essayer de chercher les gens de votre liste ?
+Kalia_Docks_GUARDArcQuest1_26 = C'est vrai, mais comment les trouver ? Je ne connais aucun nom sur la liste.
+Kalia_Docks_GUARDArcQuest1_27 = Laissez-moi voir.
+Kalia_Docks_GUARDArcQuest1_28 = Je prend la liste de GARDE et commence à regarder les noms.
+Kalia_Docks_GUARDArcQuest1_29 = Il doit y en avoir une trentaine, je n'en reconnais aucun.
+Kalia_Docks_GUARDArcQuest1_30 = Au moins, je suis sur qu'ils ne font pas partis de l'armée.
+Kalia_Docks_GUARDArcQuest1_31 = Oh ? Je connais ce nom.
+Kalia_Docks_GUARDArcQuest1_32 = William Sualibu, c'est un marchant plutôt connu dans le coin.
+Kalia_Docks_GUARDArcQuest1_33 = Il a fait fortune en vendant des produits de Kosky.
+Kalia_Docks_GUARDArcQuest1_34 = Kosky ? Il pourrait être connecté à la secte.
+Kalia_Docks_GUARDArcQuest1_35 = Savez-vous ou trouver cet homme ? Il pourrait avoir des informations sur eux.
+Kalia_Docks_GUARDArcQuest1_36 = Je ne sais pas exactement, mais en général, les gens connus vivent dans la ville haute.
+Kalia_Docks_GUARDArcQuest1_37 = C'est la zone à l'intérieur des vielles remparts de Kalia. On y trouve aussi la grande place et le palace du consul.
+Kalia_Docks_GUARDArcQuest1_38 = Je vois ou c'est.
+Kalia_Docks_GUARDArcQuest1_39 = Très bien, on va se retrouver à la grande place.
+Kalia_Docks_GUARDArcQuest1_40 = Vous pouvez y aller, j'ai encore des choses à vérifier ici.
+Kalia_Docks_GUARDArcQuest1_41 = Très bien, faites comme vous voulez.
+Kalia_Docks_GUARDArcQuest1_42 = <color=blue>GARDE retiré de l'équipe.</color>
+Kalia_Docks_GUARDArcQuest1_43 = Je quitte le hangar en utilisant la porte à l'arrière.
+Kalia_Docks_GUARDArcQuest1_44 = Je pourrais aller directement à la grande place, ou faire d'autre choses.
+Kalia_Docks_GUARDArcQuest1_45 = Au final, c'est à moi de choisir.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Max's Bar --------------------------
 # ---------------------------------------------------------

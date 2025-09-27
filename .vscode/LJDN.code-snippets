@@ -469,5 +469,13 @@
 			"return()"
 		],
 		"description": "Exits the file"
+	},
+	"Align a character's level to another's": {
+		"scope": "ansl",
+		"prefix": "alignToCharacterLevel",
+		"body": [
+			"alignToCharacterLevel(TOALIGN;ALIGNWITH)"
+		],
+		"description": "Aligns a character's level to another's"
 	}
 }

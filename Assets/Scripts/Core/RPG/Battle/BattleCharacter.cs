@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using UnityEngine;
 using UnityEngine.Diagnostics;
 using UnityEngine.UI;
@@ -117,6 +118,14 @@ public class BattleCharacter : MonoBehaviour
         animator.CrossFade(animation, 0.1f);
     }
 
+    /// <summary>
+    /// Initialize the character
+    /// </summary>
+    /// <param name="sprites">The status sprites in use</param>
+    public void Init(SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites)
+    {
+        icons.Init(sprites);
+    }
 
     /// <summary>
     /// Adds an icon

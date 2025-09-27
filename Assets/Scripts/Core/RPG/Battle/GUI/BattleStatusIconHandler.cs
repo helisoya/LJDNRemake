@@ -7,7 +7,7 @@ public class BattleStatusIconHandler : MonoBehaviour
 {
     [SerializeField] private Transform iconsRoot;
     [SerializeField] private BattleStatusIcon iconPrefab;
-    [SerializeField] private SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites;
+    private SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites;
     private List<BattleStatusIcon> unusedIcons;
     private Dictionary<RPGCharacterData.StatusType, BattleStatusIcon> iconsInUse;
 
@@ -15,6 +15,17 @@ public class BattleStatusIconHandler : MonoBehaviour
 
     void Awake()
     {
+
+    }
+
+    /// <summary>
+    /// Initialize the component
+    /// </summary>
+    /// <param name="sprites">The sprites in use</param>
+    public void Init(SerializedDictionary<RPGCharacterData.StatusType, Sprite> sprites)
+    {
+        this.sprites = sprites;
+
         unusedIcons = new List<BattleStatusIcon>();
         iconsInUse = new Dictionary<RPGCharacterData.StatusType, BattleStatusIcon>();
 
@@ -26,7 +37,6 @@ public class BattleStatusIconHandler : MonoBehaviour
             unusedIcons.Add(icon);
         }
     }
-
 
     /// <summary>
     /// Adds an icon

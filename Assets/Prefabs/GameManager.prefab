@@ -217,4 +217,5 @@ MonoBehaviour:
   defaultCharacters:
   - {fileID: 11400000, guid: f518f5910bd416a47ae55c94f512759a, type: 2}
   - {fileID: 11400000, guid: 69e970335607f3d48a932f4ddcdc2d9a, type: 2}
+  - {fileID: 11400000, guid: 4de0a32403932dc469220315847f34a4, type: 2}
   itemsPath: RPG/Items/

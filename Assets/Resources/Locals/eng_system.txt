@@ -205,6 +205,11 @@ arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
 arcQuest_Guard_1_done = I investigated the docks with GUARD
 
+arcQuest_Guard_2 = A sect in purple clothes
+arcQuest_Guard_2_0 = Meet GUARD at Kalia's grand plaza
+arcQuest_Guard_2_done = I investigated the merchant with GUARD
+
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
@@ -241,7 +246,11 @@ Location_Kalia = Kalia
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
 
+ENNEMY_Summoner_Hand_name = Summoner
+ENNEMY_Summoner_Knife_name = Summoner
+
 DOGACE_name = Ace
+GUARD_name = GUARD
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------
@@ -271,10 +280,16 @@ ONEHANDED_AXE_desc = An everyday axe that has seen some combat.<br>+3 ATK
 ONEHANDED_SWORD_name = Sword
 ONEHANDED_SWORD_desc = A sword that is used by some bandits on the Kalian roads.<br>+2 ATK
 SKILL_BASEATTACK_name = Attack
-SKILL_BASEATTACK_desc = A basic attack<br>(One foe)
-SKILL_HEAVYSLASH_name = -
-SKILL_HEAVYSLASH_desc = -
-SKILL_SLASH_name = -
-SKILL_SLASH_desc = -
+SKILL_BASEATTACK_desc = Medium attack<br>(One foe)
+SKILL_MADSTRIKE_name = Mad Strike
+SKILL_MADSTRIKE_desc = Light attack<br>(All foes)
+SKILL_SLASH_name = Slash
+SKILL_SLASH_desc = Heavy attack<br>(One foe)
 ONEHANDED_KNIFE_name = Knife
 ONEHANDED_KNIFE_desc = The average White Forest bandit's weapon.<br>+1 ATK
+FIREARM_REVOLVER_name = Revolver
+FIREARM_REVOLVER_desc = A standard revolver.<br>+4 ATK
+FIREARM_REVOLVERGUARD_name = GUARD's revolver
+FIREARM_REVOLVERGUARD_desc = GUARD's custom revolver.<br>+8 ATK
+ARMOR_TRENCHCOAT_name = Trenchcoat
+ARMOR_TRENCHCOAT_desc = A trenchcoat padded with body armor.<br>+5 DEF

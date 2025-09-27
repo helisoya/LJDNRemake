@@ -81,6 +81,8 @@ public class PartyMenuEquipTab : PartyMenuTab
     /// <param name="type">The type</param>
     public void SelectItemOfType(RPGItem.ItemType type)
     {
+        if (!currentCharacter.GetData().canChangeEquipement) return;
+
         currentSelectionType = type;
         foreach (Transform child in availableItemsRoot) Destroy(child.gameObject);
 

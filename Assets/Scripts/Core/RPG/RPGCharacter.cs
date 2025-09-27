@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using UnityEngine;
 
 /// <summary>
@@ -128,7 +129,8 @@ public class RPGCharacter
     /// <summary>
     /// Level up the character
     /// </summary>
-    public void LevelUp()
+    /// <param name="awardFreePointsNow">Should the free points be awarded now (random distribution) ?</param>
+    public void LevelUp(bool awardFreePointsNow = false)
     {
         if (baseData.level >= 99) return;
 
@@ -146,8 +148,9 @@ public class RPGCharacter
 
         int awarded = 0;
         bool canContinue = possibilities.Count > 0;
+        int maxToAward = 4 + (awardFreePointsNow ? 2 : 0);
 
-        while (awarded < 4 && canContinue)
+        while (awarded < maxToAward && canContinue)
         {
             int selectedIdx = Random.Range(0, possibilities.Count);
 
@@ -162,10 +165,23 @@ public class RPGCharacter
             awarded++;
         }
 
-        availableFreePoints += 2;
+        if (!awardFreePointsNow) availableFreePoints += 2;
 
         UpdateComputedStats();
         SetHealthToMax();
         SetSPToMax();
+    }
+
+    /// <summary>
+    /// Level up the character to a target level
+    /// </summary>
+    /// <param name="targetLevel">The target level</param>
+    public void LevelUpTo(int targetLevel)
+    {
+        while (baseData.level < targetLevel)
+        {
+            baseData.exp = nextExpCap;
+            LevelUp(true);
+        }
     }
 }

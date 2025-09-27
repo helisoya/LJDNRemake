@@ -31,5 +31,4 @@ MonoBehaviour:
   statsValue: 2
   weaponSkills:
   - SKILL_SLASH
-  - SKILL_HEAVYSLASH
   linkedAnimatior: OneHand

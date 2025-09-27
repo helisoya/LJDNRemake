@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     ID: ENNEMY_Test
+    modelID: Bandit1
     stats:
       _serializedList:
       - Key: 0
@@ -34,4 +35,5 @@ MonoBehaviour:
     currentHP: 0
     currentSP: 0
     exp: 10
+    canChangeEquipement: 1
   constants: {fileID: 11400000, guid: f20e2ea7ca9b0dd469067969a2740eb4, type: 2}

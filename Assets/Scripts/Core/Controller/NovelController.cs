@@ -1030,6 +1030,15 @@ public class NovelController : MonoBehaviour
                 }
                 break;
 
+            case "alignToCharacterLevel":
+                RPGCharacter characterToAlign = GameManager.GetRPGManager().GetCharacter(parameters[0]);
+                RPGCharacter characterToAlignWith = GameManager.GetRPGManager().GetCharacter(parameters[1]);
+                if (characterToAlign != null && characterToAlignWith != null)
+                {
+                    characterToAlign.LevelUpTo(characterToAlignWith.GetData().level);
+                }
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;

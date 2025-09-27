@@ -637,6 +637,53 @@ Kalia_Docks_MainQuest2_0_49 = While thinking, I get out of the building.
 Kalia_Docks_MainQuest2_0_50 = It's clear to me I have to think about my loyalty.
 Kalia_Docks_MainQuest2_0_51 = What is best for me. For her...
 
+Kalia_Docks_GUARDArcQuest1_1 = This is the hangar GUARD told me about.
+Kalia_Docks_GUARDArcQuest1_2 = The door is unlocked, I can see someone inside.
+Kalia_Docks_GUARDArcQuest1_3 = Ah, there you are. I've just opened the door.
+Kalia_Docks_GUARDArcQuest1_4 = Are you ready to investigate this place ?
+Kalia_Docks_GUARDArcQuest1_5 = Yes, I'm ready.
+Kalia_Docks_GUARDArcQuest1_6 = Good. I'll let you take the lead then.
+Kalia_Docks_GUARDArcQuest1_7 = <color=blue>GUARD added to the party.</color>
+Kalia_Docks_GUARDArcQuest1_8 = Alright, time to investigate...
+
+Kalia_Docks_GUARDArcQuest1_9 = ... Still nothing, uh ?
+Kalia_Docks_GUARDArcQuest1_10 = We've sweeped the hangar, there is nothing here...
+Kalia_Docks_GUARDArcQuest1_11 = I thought for sure this was their "headquarters".
+Kalia_Docks_GUARDArcQuest1_12 = Maybe they are using this hangar to store things ?
+Kalia_Docks_GUARDArcQuest1_13 = It would be less conspicious at least.
+Kalia_Docks_GUARDArcQuest1_14 = Hmm... True. I hadn't thought of that.
+Kalia_Docks_GUARDArcQuest1_15 = Wait, let me check... 
+Kalia_Docks_GUARDArcQuest1_16 = I knew it ! They were hiding something in the crates.
+Kalia_Docks_GUARDArcQuest1_17 = GUARD comes back from a nearby crate with weapons in his hands.
+Kalia_Docks_GUARDArcQuest1_18 = They are hiding weapons here ?
+Kalia_Docks_GUARDArcQuest1_19 = Seems that way. This doesn't look good.
+Kalia_Docks_GUARDArcQuest1_20 = I knew they meant bad business, but still.
+Kalia_Docks_GUARDArcQuest1_21 = Worst case scenario, they are plotting to seize power.
+Kalia_Docks_GUARDArcQuest1_22 = They wouldn't dare.
+Kalia_Docks_GUARDArcQuest1_23 = They were crazy enough to kill the leader of the investigation that was researching them.
+Kalia_Docks_GUARDArcQuest1_24 = However, this doesn't help us much. We still don't know where and who they are. 
+Kalia_Docks_GUARDArcQuest1_25 = Maybe we should try looking for the people on that list of yours ?
+Kalia_Docks_GUARDArcQuest1_26 = True, but who do we try to find ? I don't know any names on the list.
+Kalia_Docks_GUARDArcQuest1_27 = Let me see.
+Kalia_Docks_GUARDArcQuest1_28 = I take GUARD's list and start to look at the names.
+Kalia_Docks_GUARDArcQuest1_29 = There must be at least 30 names on it, all unknown to me.
+Kalia_Docks_GUARDArcQuest1_30 = The only thing I'm sure, is that none of them are part of the military.
+Kalia_Docks_GUARDArcQuest1_31 = Oh ? I know that name.
+Kalia_Docks_GUARDArcQuest1_32 = William Sualibu, he's a rather famous merchant around here.
+Kalia_Docks_GUARDArcQuest1_33 = He made a fortune by selling wares from Kosky.
+Kalia_Docks_GUARDArcQuest1_34 = Kosky ? That means he could be connected to the sect.
+Kalia_Docks_GUARDArcQuest1_35 = Do you know where we could find that man ? He may have informations on them.
+Kalia_Docks_GUARDArcQuest1_36 = I don't know exactly, but usually famous people live in the upper district.
+Kalia_Docks_GUARDArcQuest1_37 = It's the one inside the old keep of Kalia. You can find the grand plaza and the consul's palace nearby.
+Kalia_Docks_GUARDArcQuest1_38 = I see where it is.
+Kalia_Docks_GUARDArcQuest1_39 = Alright, we'll meet up at the grand plaza then.
+Kalia_Docks_GUARDArcQuest1_40 = You can go on ahead, I still have to check a few things here.
+Kalia_Docks_GUARDArcQuest1_41 = Alright, do as you wish.
+Kalia_Docks_GUARDArcQuest1_42 = <color=blue>GUARD removed from the party.</color>
+Kalia_Docks_GUARDArcQuest1_43 = I exit the hangar using the door at the back.
+Kalia_Docks_GUARDArcQuest1_44 = I could go directly to the grand plaza, or I could do other things.
+Kalia_Docks_GUARDArcQuest1_45 = In the end, the choice is up to me.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Max's Bar --------------------------
 # ---------------------------------------------------------

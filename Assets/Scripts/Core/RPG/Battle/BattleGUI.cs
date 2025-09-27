@@ -105,7 +105,7 @@ public class BattleGUI : MonoBehaviour
         foreach (BattleManager.CharacterData character in datas)
         {
             BattlePlayerIcon icon = Instantiate(prefabIcon, iconsRoot);
-            icon.Init(character);
+            icon.Init(character, manager.statusSprites);
             playerIcons.Add(icon);
         }
     }
