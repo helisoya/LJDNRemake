@@ -17,11 +17,13 @@ addCharacter(Waiter1;false)
 setCharacterPosition(Waiter1;Waiter)
 setCharacterRotation(Waiter1;Waiter)
 
-
-addCharacter(GUARD;false)
-setCharacterPosition(GUARD;GUARD)
-setCharacterRotation(GUARD;GUARD)
-setCharacterBody(GUARD;Sit;true)
+if(arcQuest_Guard_2 != 0){
+	addCharacter(GUARD;false)
+	setCharacterPosition(GUARD;GUARD)
+	setCharacterRotation(GUARD;GUARD)
+	setCharacterBody(GUARD;Sit;true)
+	setInteractionChapter(GUARD;Kalia/City/BarMax/GUARD_Enter)
+}
 
 fadeFg(0;false)
 

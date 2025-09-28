@@ -209,6 +209,10 @@ arcQuest_Guard_2 = A sect in purple clothes
 arcQuest_Guard_2_0 = Meet GUARD at Kalia's grand plaza
 arcQuest_Guard_2_done = I investigated the merchant with GUARD
 
+arcQuest_Guard_3 = A bomb for the sect
+arcQuest_Guard_3_0 = Steal a bomb from Fort Wall
+arcQuest_Guard_3_1 = Meet GUARD at Max's bar in Kalia
+arcQuest_Guard_3_done = I stole the bomb from Orkva
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty

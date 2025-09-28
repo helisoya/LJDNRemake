@@ -205,6 +205,11 @@ arcQuest_Guard_2 = Une secte drapée de noblesse
 arcQuest_Guard_2_0 = Retrouvez GARDE à la grande place de Kalia
 arcQuest_Guard_2_done = J'ai mené l'enquête avec GARDE sur le marchant
 
+arcQuest_Guard_3 = Une bombe pour la secte
+arcQuest_Guard_3_0 = Volez une bombe à Fort Muraille
+arcQuest_Guard_3_1 = Retournez voir GARDE au bar de Max à Kalia
+arcQuest_Guard_3_done = J'ai volé une bombe à Orkva
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty

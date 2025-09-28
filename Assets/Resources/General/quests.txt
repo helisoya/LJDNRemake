@@ -7,6 +7,7 @@ rebelQuest_0
 [arcQuest]
 arcQuest_Guard_1
 arcQuest_Guard_2
+arcQuest_Guard_3
 
 [factionQuest]
 factionQuest_Kalia_1

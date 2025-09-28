@@ -751,3 +751,85 @@ Kalia_KalibuPark_SecondaryQuest_3 = Elle voulait vous rappeler que vous lui deve
 Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! C'est vrai. Comment ais-je pu oublier ?
 Kalia_KalibuPark_SecondaryQuest_5 = Merci de m'avoir fait passer le message, je vais aller la voir de suite.
 Kalia_KalibuPark_SecondaryQuest_6 = L'homme disparait au loin. Je devrais retourner au bar moi aussi.
+
+# ---------------------------------------------------------
+# --------------- Kalia - Plaza ---------------------------
+# ---------------------------------------------------------
+
+Kalia_Docks_GUARDArcQuest2_1 = Ah, vous voila.
+Kalia_Docks_GUARDArcQuest2_2 = Je me suis permis de vérifier l'adresse de notre cible.
+Kalia_Docks_GUARDArcQuest2_3 = En fait, je peux même vous dire qu'il n'est pas en ville.
+Kalia_Docks_GUARDArcQuest2_4 = Peut être qu'il est parti pour le travail ?
+Kalia_Docks_GUARDArcQuest2_5 = Peut être. Mais au moins sa maison est vide.
+Kalia_Docks_GUARDArcQuest2_6 = Vous voulez vous infiltrez à l'intérieur ?
+Kalia_Docks_GUARDArcQuest2_7 = Oui. Sa maison devrait abriter quelques indices.
+Kalia_Docks_GUARDArcQuest2_8 = Je veux savoir sa connection à la secte.
+Kalia_Docks_GUARDArcQuest2_9 = Il pourrait être une cible, ou bien un membre. Ne l'oubliez pas.
+Kalia_Docks_GUARDArcQuest2_10 = Très bien, essayons de nous introduire à l'intérieur alors.
+Kalia_Docks_GUARDArcQuest2_11 = Je suis GARDE jusqu'à la maison du marchant.
+Kalia_Docks_GUARDArcQuest2_12 = C'est une maison bien entretenu, au moins à l'exterieur.
+Kalia_Docks_GUARDArcQuest2_13 = On peut sentir la richesse de cet homme juste en la regardant.
+Kalia_Docks_GUARDArcQuest2_14 = GARDE sort un crochet, et commence à ouvrir la porte.
+Kalia_Docks_GUARDArcQuest2_15 = Pendant ce temps, je surveille la rue. Nous ne pouvons pas être vu ici.
+Kalia_Docks_GUARDArcQuest2_16 = Après quelques minutes, la porte est ouverte.
+Kalia_Docks_GUARDArcQuest2_17 = Nous entrons alors dans la maison, et commençons notre recherche.
+Kalia_Docks_GUARDArcQuest2_18 = Hmm... Voila son bureau.
+Kalia_Docks_GUARDArcQuest2_19 = Mais ou trouver des indices ?
+Kalia_Docks_GUARDArcQuest2_20 = Séparons-nous. On devrait en trouver plus rapidement.
+
+Kalia_Plaza_GUARDArcQuest2_Painting_1 = Un tableau. Il ne va pas nous aider.
+
+Kalia_Plaza_GUARDArcQuest2_Bookshelf_1 = Il y a beaucoup de livres ici.
+Kalia_Plaza_GUARDArcQuest2_Bookshelf_2 = Ce marchant a l'air d'être interessé dans l'occulte de ce que je vois.
+
+Kalia_Plaza_GUARDArcQuest2_Note_1 = Il a laissé un note sur la table.
+Kalia_Plaza_GUARDArcQuest2_Note_2 = Code : 0064 (Je devrais le changer un jour)
+Kalia_Plaza_GUARDArcQuest2_Note_3 = Ca pourrait être utile...
+
+Kalia_Plaza_GUARDArcQuest2_GUARD_1 = Notre homme a l'air d'être intéressé dans l'occulte.
+Kalia_Plaza_GUARDArcQuest2_GUARD_2 = Il pourrait être plus connecté à la secte que je ne pensais...
+
+Kalia_Plaza_GUARDArcQuest2_Safe_1 = C'est un coffre fort. Je me demande comment l'ouvrir.
+
+Kalia_Plaza_GUARDArcQuest2_End_1 = Peut être que je devrais utiliser le code de la note.
+Kalia_Plaza_GUARDArcQuest2_End_2 = 0064... Ca a fonctionné !
+Kalia_Plaza_GUARDArcQuest2_End_3 = Le coffre fort s'ouvre, et ses secrets nous sont révélés.
+Kalia_Plaza_GUARDArcQuest2_End_4 = Ah ! Vous avez trouvé quelque chose.
+Kalia_Plaza_GUARDArcQuest2_End_5 = Voyons voir...
+Kalia_Plaza_GUARDArcQuest2_End_6 = Des papiers de vente pour la plupart, il fallait s'y attendre.
+Kalia_Plaza_GUARDArcQuest2_End_7 = ... Oh ?
+Kalia_Plaza_GUARDArcQuest2_End_8 = GARDE prend une lettre de la pile. Elle a l'air différente des autres.
+Kalia_Plaza_GUARDArcQuest2_End_9 = ...
+Kalia_Plaza_GUARDArcQuest2_End_10 = A mon ami, William Sualibu.
+Kalia_Plaza_GUARDArcQuest2_End_11 = Un congrès va avoir lieu la semaine prochaine à la fortresse Braise.
+Kalia_Plaza_GUARDArcQuest2_End_12 = Nous parlerons enfin de nous débarasser de vos opposants, et de fair de vous le consul véritable de Kalia.
+Kalia_Plaza_GUARDArcQuest2_End_13 = J'attend votre arrivé avec impatience, H.
+Kalia_Plaza_GUARDArcQuest2_End_14 = Ce n'est pas bon signe.
+Kalia_Plaza_GUARDArcQuest2_End_15 = Je savais que quelque chose n'allait pas. Ils veulent faire un coup d'êtat.
+Kalia_Plaza_GUARDArcQuest2_End_16 = Et une fois qu'ils l'auront fait, ils metteront cet homme au pouvoir.
+Kalia_Plaza_GUARDArcQuest2_End_17 = Oui, c'est plutôt mauvais. On doit faire quelque chose.
+Kalia_Plaza_GUARDArcQuest2_End_18 = Par chance, je sais ou ils vont tenir ce congrès.
+Kalia_Plaza_GUARDArcQuest2_End_19 = Vraiment ?
+Kalia_Plaza_GUARDArcQuest2_End_20 = Oui. La fortresse Braise est une vielle fortresse à Vlatyr, Kosky.
+Kalia_Plaza_GUARDArcQuest2_End_21 = Il n'y a pas si longtemps, un dragon y vivait.
+Kalia_Plaza_GUARDArcQuest2_End_22 = Mais quelqu'un l'a tué, et il a été cru qu'elle était abandonné depuis.
+Kalia_Plaza_GUARDArcQuest2_End_23 = Que voulez-vous faire ? Voyager à Vlatyr prendrait des jours.
+Kalia_Plaza_GUARDArcQuest2_End_24 = .... J'ai une idée.
+Kalia_Plaza_GUARDArcQuest2_End_25 = Camp Espoir à Kalia possède des avions, non ?
+Kalia_Plaza_GUARDArcQuest2_End_26 = Ne me dites pas... Vous voulez en voler un ?
+Kalia_Plaza_GUARDArcQuest2_End_27 = Non, on va simplement... en emprunter un.
+Kalia_Plaza_GUARDArcQuest2_End_28 = Et bien, je connais la personne qui gère les avions.
+Kalia_Plaza_GUARDArcQuest2_End_29 = Avec un peu de chance, on va pouvoir voler un avion sans se faire repérer.
+Kalia_Plaza_GUARDArcQuest2_End_30 = Incroyable. L'armée Kalienne est aussi défectueuse que les rumeurs le disent.
+Kalia_Plaza_GUARDArcQuest2_End_31 = Eh, on fait de notre mieux.
+Kalia_Plaza_GUARDArcQuest2_End_32 = Je sais, je sais.
+Kalia_Plaza_GUARDArcQuest2_End_33 = Dans tout les cas, j'ai une autre mission avant cela.
+Kalia_Plaza_GUARDArcQuest2_End_34 = Pour en finir une bonne fois pour toute avec la secte, on va utiliser une bombe.
+Kalia_Plaza_GUARDArcQuest2_End_35 = Kalia ne produit pas d'explosifs aussi puissant.
+Kalia_Plaza_GUARDArcQuest2_End_36 = Bien sur, mais Orkva si.
+Kalia_Plaza_GUARDArcQuest2_End_37 = J'aimerai que vous voliez une bombe Orkvienne du Fort Muraille.
+Kalia_Plaza_GUARDArcQuest2_End_38 = Ils ont un grand entrepot d'armes la bas. Ils ne pleuront pas la disparition d'une bombe.
+Kalia_Plaza_GUARDArcQuest2_End_39 = Je vois. Je vais faire ce que je peux pour la récupérer.
+Kalia_Plaza_GUARDArcQuest2_End_40 = Retrouvez-moi au bar de Max une fois que vous l'avez.
+Kalia_Plaza_GUARDArcQuest2_End_41 = Tandis que nous parlons de notre dernière mission, nous quittons la maison.
+Kalia_Plaza_GUARDArcQuest2_End_42 = C'est cependant à moi de choisir ma prochaine action.

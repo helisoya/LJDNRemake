@@ -11,6 +11,13 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_Kalia)
 
+if(arcQuest_Guard_2 = 0){
+	addCharacter(GUARD;false)
+	setCharacterPosition(GUARD;Civilian1)
+	setCharacterRotation(GUARD;Civilian1)
+	setInteractionChapter(GUARD;Kalia/City/Plaza/GUARDArcQuest2_Start)
+}
+
 autosave()
 
 fadeFg(0;false)

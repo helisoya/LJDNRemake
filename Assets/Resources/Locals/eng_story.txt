@@ -771,3 +771,85 @@ Kalia_KalibuPark_SecondaryQuest_3 = She wanted you to know you still owe her som
 Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! Right. How did I manage to forget ?
 Kalia_KalibuPark_SecondaryQuest_5 = Thank you for relaying the message, I'll go see her right away.
 Kalia_KalibuPark_SecondaryQuest_6 = The man disapears in the distance. I should head back to the bar too.
+
+# ---------------------------------------------------------
+# --------------- Kalia - Plaza ---------------------------
+# ---------------------------------------------------------
+
+Kalia_Plaza_GUARDArcQuest2_Start_1 = Ah, there you are.
+Kalia_Plaza_GUARDArcQuest2_Start_2 = I took the liberty of checking the address of our target.
+Kalia_Plaza_GUARDArcQuest2_Start_3 = In fact, I can even tell you that he left town.
+Kalia_Plaza_GUARDArcQuest2_Start_4 = Maybe he went on a work trip ?
+Kalia_Plaza_GUARDArcQuest2_Start_5 = Maybe. But at least that means his house is empty.
+Kalia_Plaza_GUARDArcQuest2_Start_6 = You want to sneak in then ?
+Kalia_Plaza_GUARDArcQuest2_Start_7 = Yes. We might find a clue in his house.
+Kalia_Plaza_GUARDArcQuest2_Start_8 = I want to know his connection to the sect.
+Kalia_Plaza_GUARDArcQuest2_Start_9 = He could be a target, or a member, remember that.
+Kalia_Plaza_GUARDArcQuest2_Start_10 = Alright, let's try to sneak in then.
+Kalia_Plaza_GUARDArcQuest2_Start_11 = I follow GUARD to the merchant's house.
+Kalia_Plaza_GUARDArcQuest2_Start_12 = It's a well maintained house, at least on the exterior.
+Kalia_Plaza_GUARDArcQuest2_Start_13 = You can feel the wealth of this man just by looking at it.
+Kalia_Plaza_GUARDArcQuest2_Start_14 = GUARD takes out a lockpick, and starts opening the door.
+Kalia_Plaza_GUARDArcQuest2_Start_15 = Meanwhile, I stand guard. We can't allow to be seen here.
+Kalia_Plaza_GUARDArcQuest2_Start_16 = After a few minutes, the door is open.
+Kalia_Plaza_GUARDArcQuest2_Start_17 = We enter the house, and begin our search.
+Kalia_Plaza_GUARDArcQuest2_Start_18 = Hmm... Here is his study.
+Kalia_Plaza_GUARDArcQuest2_Start_19 = But where could we find clues ?
+Kalia_Plaza_GUARDArcQuest2_Start_20 = Let's split up, that should allow us to find some faster.
+
+Kalia_Plaza_GUARDArcQuest2_Painting_1 = A painting. This won't help us.
+
+Kalia_Plaza_GUARDArcQuest2_Bookshelf_1 = There is a lot of books here.
+Kalia_Plaza_GUARDArcQuest2_Bookshelf_2 = This merchant seems to be interested in the occult from what I can see.
+
+Kalia_Plaza_GUARDArcQuest2_Note_1 = He left a note hanging around.
+Kalia_Plaza_GUARDArcQuest2_Note_2 = Current code : 0064 (I need to change this someday)
+Kalia_Plaza_GUARDArcQuest2_Note_3 = Might come in handy...
+
+Kalia_Plaza_GUARDArcQuest2_GUARD_1 = Our guy seems interested in the occult.
+Kalia_Plaza_GUARDArcQuest2_GUARD_2 = He may be more connected to the sect that I thought...
+
+Kalia_Plaza_GUARDArcQuest2_Safe_1 = This is a safe. I wonder how I could open it.
+
+Kalia_Plaza_GUARDArcQuest2_End_1 = Maybe I could try the code on the note.
+Kalia_Plaza_GUARDArcQuest2_End_2 = 0064... It worked !
+Kalia_Plaza_GUARDArcQuest2_End_3 = The safe opened, and its secrets are revealed to us.
+Kalia_Plaza_GUARDArcQuest2_End_4 = Ah ! You found something.
+Kalia_Plaza_GUARDArcQuest2_End_5 = Let's see...
+Kalia_Plaza_GUARDArcQuest2_End_6 = Mostly business papers, but that was to be expected.
+Kalia_Plaza_GUARDArcQuest2_End_7 = ... Oh ?
+Kalia_Plaza_GUARDArcQuest2_End_8 = GUARD takes out a letter from the pile. It looks different from the other.
+Kalia_Plaza_GUARDArcQuest2_End_9 = ...
+Kalia_Plaza_GUARDArcQuest2_End_10 = To my friend, William Sualibu.
+Kalia_Plaza_GUARDArcQuest2_End_11 = A congress is going to be held next week at the Ember Fortress.
+Kalia_Plaza_GUARDArcQuest2_End_12 = We'll finally discuss getting rid of your opponents, and making you the rightful consul of Kalia.
+Kalia_Plaza_GUARDArcQuest2_End_13 = I await your arrival with great anticipation, H.
+Kalia_Plaza_GUARDArcQuest2_End_14 = This is bad.
+Kalia_Plaza_GUARDArcQuest2_End_15 = I knew something was afoot. They are planning to coup the governement.
+Kalia_Plaza_GUARDArcQuest2_End_16 = And once they'll be done, they'll put this guy in control.
+Kalia_Plaza_GUARDArcQuest2_End_17 = Yeah, this is quite bad. We need to do something.
+Kalia_Plaza_GUARDArcQuest2_End_18 = Luckily, I know where they are holding this congress.
+Kalia_Plaza_GUARDArcQuest2_End_19 = Really ?
+Kalia_Plaza_GUARDArcQuest2_End_20 = Yes. The Ember Fortress is an old fortress in Vlatyr, Kosky.
+Kalia_Plaza_GUARDArcQuest2_End_21 = Not too long ago, there was a dragon living in it.
+Kalia_Plaza_GUARDArcQuest2_End_22 = But someone killed it, and it was thought to be unoccupied ever since.
+Kalia_Plaza_GUARDArcQuest2_End_23 = What do you plan to do ? It would take us days to reach Vlatyr.
+Kalia_Plaza_GUARDArcQuest2_End_24 = .... I might have an idea.
+Kalia_Plaza_GUARDArcQuest2_End_25 = Camp Hope in Kalia has an airfield, right ?
+Kalia_Plaza_GUARDArcQuest2_End_26 = Don't tell me... You want to steal a plane ?
+Kalia_Plaza_GUARDArcQuest2_End_27 = No, we'll only be... borrowing it.
+Kalia_Plaza_GUARDArcQuest2_End_28 = Well, I know the guy that manages the planes.
+Kalia_Plaza_GUARDArcQuest2_End_29 = Chances are, we could steal a plane without even being noticed.
+Kalia_Plaza_GUARDArcQuest2_End_30 = Incredible. Kalia's military is as defunct as I heard.
+Kalia_Plaza_GUARDArcQuest2_End_31 = Hey, we do our best.
+Kalia_Plaza_GUARDArcQuest2_End_32 = I know, I know.
+Kalia_Plaza_GUARDArcQuest2_End_33 = Anyway, I have another mission beforehand.
+Kalia_Plaza_GUARDArcQuest2_End_34 = To deal with the sect once and for all, we'll use a bomb.
+Kalia_Plaza_GUARDArcQuest2_End_35 = Kalia doesn't make explosives that powerful.
+Kalia_Plaza_GUARDArcQuest2_End_36 = Right, but Orkva does.
+Kalia_Plaza_GUARDArcQuest2_End_37 = I'd like you to steal an orkvian bomb from the Fort Wall.
+Kalia_Plaza_GUARDArcQuest2_End_38 = They have a big stash of weapons there, so they won't miss one bomb.
+Kalia_Plaza_GUARDArcQuest2_End_39 = Right, I'll see what I can do.
+Kalia_Plaza_GUARDArcQuest2_End_40 = Meet me at Max's bar when you're done with the bomb.
+Kalia_Plaza_GUARDArcQuest2_End_41 = As we agree on this last mission, we exit the house.
+Kalia_Plaza_GUARDArcQuest2_End_42 = My next step is up to me.

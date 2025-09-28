@@ -10,6 +10,9 @@ night 0
 rain 0
 nightIncrement 0
 
+# Temp variables
+tempVar_1 0
+
 # Main Quests
 
 mainQuest_1 -1
@@ -23,6 +26,7 @@ rebelQuest_0 -1
 # Arcs
 arcQuest_Guard_1 -1
 arcQuest_Guard_2 -1
+arcQuest_Guard_3 -1
 
 # Faction Quests
 factionQuest_Kalia_1 -1

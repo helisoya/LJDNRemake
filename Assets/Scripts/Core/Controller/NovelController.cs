@@ -397,6 +397,7 @@ public class NovelController : MonoBehaviour
         bool ok = true;
 
         string[] splitAnds = split[1].Split(" & ");
+        if (splitAnds.Length == 1) split[1].Split(" | ");
 
         foreach (string splitAnd in splitAnds)
         {
