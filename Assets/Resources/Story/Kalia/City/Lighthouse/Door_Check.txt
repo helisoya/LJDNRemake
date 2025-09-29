@@ -1,0 +1,5 @@
+# Checks for the lighthouse
+
+dialog(narrator;_;false;Kalia_Lighthouse_Door_Locked_1)
+
+load(Kalia/City/Lighthouse/Interaction)

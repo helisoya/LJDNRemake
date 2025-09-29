@@ -695,7 +695,9 @@ Kalia_BarMax_Waiter_SideQuest_End_3 = Merci, vous pouvez garder un peu de change
 Kalia_BarMax_Waiter_SideQuest_End_4 = <color=blue>J'ai reçu 10 or de la serveuse.</color>
 Kalia_BarMax_Waiter_SideQuest_End_5 = Vous aviez besoin de quelque chose d'autre ?
 
-Kalia_BarMax_GUARD_Greetings_ArcQuest1_1 = Salut. N'oublie pas de me retrouver au docks.
+Kalia_BarMax_GUARD_Greetings_ArcQuest1_1 = Salut. N'oubliez pas de me retrouver au docks.
+
+Kalia_BarMax_GUARD_Greetings_ArcQuest3_1 = Vous avez du nouveau avec la bombe ?
 
 Kalia_BarMax_GUARD_ArcQuest1_Start_1 = Eh, vous.
 Kalia_BarMax_GUARD_ArcQuest1_Start_2 = Un homme étrange commenc à me parler.
@@ -833,3 +835,9 @@ Kalia_Plaza_GUARDArcQuest2_End_39 = Je vois. Je vais faire ce que je peux pour l
 Kalia_Plaza_GUARDArcQuest2_End_40 = Retrouvez-moi au bar de Max une fois que vous l'avez.
 Kalia_Plaza_GUARDArcQuest2_End_41 = Tandis que nous parlons de notre dernière mission, nous quittons la maison.
 Kalia_Plaza_GUARDArcQuest2_End_42 = C'est cependant à moi de choisir ma prochaine action.
+
+# ---------------------------------------------------------
+# ------------ Kalia - Lighthouse -------------------------
+# ---------------------------------------------------------
+
+Kalia_Lighthouse_Door_Locked_1 = Fermée...

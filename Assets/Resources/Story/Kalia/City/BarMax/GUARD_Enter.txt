@@ -10,5 +10,6 @@ if(arcQuest_Guard_1 = -1){
 }
 
 if(arcQuest_Guard_1 = 0) dialog(GUARD;GUARD;false;Kalia_BarMax_GUARD_Greetings_ArcQuest1_1)
+if(arcQuest_Guard_3 > -1 & arcQuest_Guard_3 < 100) dialog(GUARD;GUARD;false;Kalia_BarMax_GUARD_Greetings_ArcQuest3_1)
 
 load(Kalia/City/BarMax/GUARD)

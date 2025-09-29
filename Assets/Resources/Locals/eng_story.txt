@@ -717,6 +717,8 @@ Kalia_BarMax_Waiter_SideQuest_End_5 = Did you need anything else ?
 
 Kalia_BarMax_GUARD_Greetings_ArcQuest1_1 = Hi. Don't forget to meet me at the docks.
 
+Kalia_BarMax_GUARD_Greetings_ArcQuest3_1 = Did you have any luck with that bomb ?
+
 Kalia_BarMax_GUARD_ArcQuest1_Start_1 = Hey, you.
 Kalia_BarMax_GUARD_ArcQuest1_Start_2 = A strange man starts talking to me.
 Kalia_BarMax_GUARD_ArcQuest1_Start_3 = Are you searching for a job by any chance ?
@@ -853,3 +855,9 @@ Kalia_Plaza_GUARDArcQuest2_End_39 = Right, I'll see what I can do.
 Kalia_Plaza_GUARDArcQuest2_End_40 = Meet me at Max's bar when you're done with the bomb.
 Kalia_Plaza_GUARDArcQuest2_End_41 = As we agree on this last mission, we exit the house.
 Kalia_Plaza_GUARDArcQuest2_End_42 = My next step is up to me.
+
+# ---------------------------------------------------------
+# ------------ Kalia - Lighthouse -------------------------
+# ---------------------------------------------------------
+
+Kalia_Lighthouse_Door_Locked_1 = Locked...
