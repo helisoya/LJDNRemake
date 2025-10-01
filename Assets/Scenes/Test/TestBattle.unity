@@ -4058,6 +4058,9 @@ MonoBehaviour:
   posEnd: 30
   ennemyDistance: 20
   cameraUpDistance: 5
+  statusSprites:
+    _serializedList: []
+  useDebug: 1
   data: {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   backgroundName: Grass
 --- !u!4 &1707510431
