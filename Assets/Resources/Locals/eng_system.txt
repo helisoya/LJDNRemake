@@ -233,6 +233,10 @@ secondaryQuest_Kalia_Max_0 = Talk to the waiter's grandson in Kalibu's Park
 secondaryQuest_Kalia_Max_1 = Talk to the the waiter of Max's bar in Kalia
 secondaryQuest_Kalia_Max_done = I talked to the waiter's grandson
 
+secondaryQuest_Kalia_Shop = Nighttime troubles
+secondaryQuest_Kalia_Shop_0 = Check Kalia's shop at night
+secondaryQuest_Kalia_Shop_done = I defeated the bulgar
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

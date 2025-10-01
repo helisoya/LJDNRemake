@@ -445,6 +445,35 @@ Kalia_Shop_AboutYou_3 = A l'époque, il ne vendait que des pommes, et autres pro
 Kalia_Shop_AboutYou_4 = De nos jours, on vend principalement des armes aux fous qui vont s'aventurer dans la Forêt Blanche.
 Kalia_Shop_AboutYou_5 = J'aurais aimé continuer de commercer avec Iberty, mais le Marchand ne le veux pas...
 
+Kalia_Shop_StartSubQuest_1 = En réalité, j'ai besoin d'aide.
+Kalia_Shop_StartSubQuest_2 = Je suspecte que quelqu'un rode au alentour de ma boutique la nuit, mais je ne peux pas le prouver.
+Kalia_Shop_StartSubQuest_3 = Pourriez-vous mener l'enquête ?
+Kalia_Shop_StartSubQuest_4 = Je ne suis pas un combattant. Si c'est vraiment un voleur, je ne vais rien pouvoir faire.
+Kalia_Shop_StartSubQuest_5 = Je vois. Je vais essayer de trouver votre mystèrieux individu.
+Kalia_Shop_StartSubQuest_6 = Je devrais revenir la nuit. Je pourrais passer le temps dans une auberge ou un bar.
+Kalia_Shop_StartSubQuest_7 = Merci. Je vous récompenserai si vous trouvez quelque chose.
+
+Kalia_Shop_SubQuest_1 = J'arrive à la boutique.
+Kalia_Shop_SubQuest_2 = Le commerçant veut que je mène l'enquête pour savoir s'il y a ou pas un voleur dans les parages.
+Kalia_Shop_SubQuest_3 = ...Et on dirait qu'il avait raison.
+Kalia_Shop_SubQuest_4 = Quelqu'un sort des ténèbres de la nuit, et s'approche de la boutique.
+Kalia_Shop_SubQuest_5 = Cette personne va probablement essayer de voler quelque chose.
+Kalia_Shop_SubQuest_6 = Je l'intercepte avant que quelque chose ne puisse arriver.
+Kalia_Shop_SubQuest_7 = Qu- D'ou est-ce que tu sort ?
+Kalia_Shop_SubQuest_8 = Que voulez-vous faire ici ?
+Kalia_Shop_SubQuest_9 = ... Ca !
+
+Kalia_Shop_SubQuest_10 = J'ai entendu une commotion.
+Kalia_Shop_SubQuest_11 = Le commerçant arrive en courant. Il a probablement été réveillé par le combat.
+Kalia_Shop_SubQuest_12 = Je vais bien. J'ai attrapé votre voleur.
+Kalia_Shop_SubQuest_13 = Je... Je vois. Merci.
+Kalia_Shop_SubQuest_14 = Maintenant, je vais pouvoir dormir plus facilement.
+Kalia_Shop_SubQuest_15 = Oh, et voila votre paie.
+Kalia_Shop_SubQuest_16 = <color=blue>J'ai reçu 10 or du commerçant.</color>
+Kalia_Shop_SubQuest_17 = Si vous avez besoin de vivres, n'hésitez pas à passer par ma boutique.
+Kalia_Shop_SubQuest_18 = Le commerçant rentre chez lui. Je suppose que j'ai fini ici.
+
+
 # ---------------------------------------------------------
 # -------------- Kalia - Palace ---------------------------
 # ---------------------------------------------------------

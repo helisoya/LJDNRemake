@@ -11,6 +11,8 @@ public class BattleData : ScriptableObject
     public RPGCharacterDataInterface[] ennemies;
     public int goldReward;
     public string music;
+    public SkyData nightSky;
+    public SkyData daySky;
 
     public enum CloseType
     {

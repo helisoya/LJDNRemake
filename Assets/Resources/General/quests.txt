@@ -17,3 +17,4 @@ secondaryQuest_Iberty_Catacombs
 secondaryQuest_Iberty_Port
 secondaryQuest_Iberty_Doctor
 secondaryQuest_Kalia_Max
+secondaryQuest_Kalia_Shop

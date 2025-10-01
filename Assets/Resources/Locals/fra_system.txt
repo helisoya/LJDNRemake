@@ -229,6 +229,10 @@ secondaryQuest_Kalia_Max_0 = Parler au petit fils de la serveuse au parc de Kali
 secondaryQuest_Kalia_Max_1 = Parler à la serveuse du bar de Max à Kalia
 secondaryQuest_Kalia_Max_done = J'ai parlé au petit fils de la serveuse
 
+secondaryQuest_Kalia_Shop = Problèmes nocturnes
+secondaryQuest_Kalia_Shop_0 = Vérifier la boutique de Kalia la nuit
+secondaryQuest_Kalia_Shop_done = J'ai vaincu le voleur
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

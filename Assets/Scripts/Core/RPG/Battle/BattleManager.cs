@@ -20,6 +20,9 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private CinemachineVirtualCamera virtualCamera;
     [SerializeField] private Transform freeLookTransform;
 
+    [Header("Lighting")]
+    [SerializeField] private LightingManager lighting;
+
     [Header("Placements")]
     [SerializeField] private float posStart = 0;
     [SerializeField] private float posEnd = 40;
@@ -247,6 +250,8 @@ public class BattleManager : MonoBehaviour
         currentOrderIdx = 0;
 
         AudioManager.instance.PlaySong(data.music);
+        lighting.ChangeData(GameManager.GetSaveManager().GetItem("night").Equals("0") ? data.daySky : data.nightSky);
+
 
         List<ItemData> items = new List<ItemData>();
         RPGItem item;

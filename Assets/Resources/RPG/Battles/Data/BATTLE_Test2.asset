@@ -15,3 +15,6 @@ MonoBehaviour:
   ennemies:
   - {fileID: 11400000, guid: aa01f7ce14e548542a85366e37d2502a, type: 2}
   goldReward: 10
+  music: 
+  nightSky: {fileID: 11400000, guid: 7fa7e38c302b28d4e96ebac2c2d42b60, type: 2}
+  daySky: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}

@@ -464,6 +464,34 @@ Kalia_Shop_AboutYou_3 = At the time, he sold only apples, and other commodities 
 Kalia_Shop_AboutYou_4 = Nowadays, we mainly sell weapons to whoever's crazy enough to go into the White Forest.
 Kalia_Shop_AboutYou_5 = I would have liked to continue trading with Iberty, but the Merchant won't let us...
 
+Kalia_Shop_StartSubQuest_1 = Actually, I might need help.
+Kalia_Shop_StartSubQuest_2 = I suspect that someone is lurking around my shop at night, but I can't prove it.
+Kalia_Shop_StartSubQuest_3 = Could you investigate this matter ?
+Kalia_Shop_StartSubQuest_4 = I'm no fighter. If a bulgar is really here, I wouldn't be able to do anything.
+Kalia_Shop_StartSubQuest_5 = Fine, I'll try to find this mysterious individual.
+Kalia_Shop_StartSubQuest_6 = I should come back at night. I could go to a bar or a inn to pass the time.
+Kalia_Shop_StartSubQuest_7 = Thank you, I'll reward you if you manage to find anything.
+
+Kalia_Shop_SubQuest_1 = I arrive at the shop.
+Kalia_Shop_SubQuest_2 = The shopkeeper wants me to investigate wether or not there is a bulgar around.
+Kalia_Shop_SubQuest_3 = ...And it seems he was right.
+Kalia_Shop_SubQuest_4 = Someone comes out of the shadows, and makes their way to the shop.
+Kalia_Shop_SubQuest_5 = They are probably going to steal something.
+Kalia_Shop_SubQuest_6 = I intercept them before they can do anything.
+Kalia_Shop_SubQuest_7 = Wha- Where did you come from ?
+Kalia_Shop_SubQuest_8 = What do you plan to do here ?
+Kalia_Shop_SubQuest_9 = ... This !
+
+Kalia_Shop_SubQuest_10 = I heard a commotion, is everything alright ?!
+Kalia_Shop_SubQuest_11 = The shopkeeper comes rushing. He was probably woken up by the fight.
+Kalia_Shop_SubQuest_12 = I'm fine. I caught your bulgar.
+Kalia_Shop_SubQuest_13 = I... I see. Thank you.
+Kalia_Shop_SubQuest_14 = Now I'll be able to sleep more easily.
+Kalia_Shop_SubQuest_15 = Oh, and here is your pay.
+Kalia_Shop_SubQuest_16 = <color=blue>I received 10 gold from the shopkeeper.</color>
+Kalia_Shop_SubQuest_17 = If you ever need supplies, don't hesitate to come to my shop.
+Kalia_Shop_SubQuest_18 = The shopkeeper goes back home. I guess I'm done here.
+
 # ---------------------------------------------------------
 # -------------- Kalia - Palace ---------------------------
 # ---------------------------------------------------------

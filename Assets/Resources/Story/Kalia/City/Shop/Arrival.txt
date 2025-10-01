@@ -17,6 +17,9 @@ if(night = 0){
 	setCharacterRotation(Salesman2;SalesmanSpot)
 	setInteractionChapter(Salesman2;Kalia/City/Shop/Salesman_Enter)
 }
+else{
+	if(secondaryQuest_Kalia_Shop = 0) load(Kalia/City/Shop/SubQuest)
+}
 
 autosave()
 

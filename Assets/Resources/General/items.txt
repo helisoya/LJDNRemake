@@ -37,6 +37,7 @@ secondaryQuest_Iberty_Port -1
 secondaryQuest_Iberty_Doctor -1
 
 secondaryQuest_Kalia_Max -1
+secondaryQuest_Kalia_Shop -1
 
 # Locations
 
