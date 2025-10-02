@@ -417,6 +417,16 @@ Iberty_Catacombs_Quest_12 = That guard will want to know I dealt with the proble
 
 
 # ---------------------------------------------------------
+# ------------------------ Farm ---------------------------
+# ---------------------------------------------------------
+
+KaliaFarm_SecondaryQuest_1 = This is the place I'm supposed to deliver this letter to.
+KaliaFarm_SecondaryQuest_2 = I put the letter in the mailbox.
+KaliaFarm_SecondaryQuest_3 = At least now I don't have to worry about this anymore.
+KaliaFarm_SecondaryQuest_4 = I wonder what this was all about...
+
+
+# ---------------------------------------------------------
 # ------------- Kalibu's Shrine ---------------------------
 # ---------------------------------------------------------
 
@@ -801,6 +811,27 @@ Kalia_KalibuPark_SecondaryQuest_3 = She wanted you to know you still owe her som
 Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! Right. How did I manage to forget ?
 Kalia_KalibuPark_SecondaryQuest_5 = Thank you for relaying the message, I'll go see her right away.
 Kalia_KalibuPark_SecondaryQuest_6 = The man disapears in the distance. I should head back to the bar too.
+
+Kalia_KalibuPark_DeliveryQuest_1 = What are you doing at such a late hour ?
+Kalia_KalibuPark_DeliveryQuest_2 = ...
+Kalia_KalibuPark_DeliveryQuest_3 = Uh... Hello ?
+Kalia_KalibuPark_DeliveryQuest_4 = Uh ?! Oh, hello, sir.
+Kalia_KalibuPark_DeliveryQuest_5 = What are you doing here ?
+Kalia_KalibuPark_DeliveryQuest_6 = Uh ? Is it that late already ?
+Kalia_KalibuPark_DeliveryQuest_7 = What do you mean ?
+Kalia_KalibuPark_DeliveryQuest_8 = I... I planned on giving this letter to the lady who owns the farm just outside the city's wall.
+Kalia_KalibuPark_DeliveryQuest_9 = But... I guess I couldn't...
+Kalia_KalibuPark_DeliveryQuest_10 = What ? Did you encounter bandits or something ? Do you need help ?
+Kalia_KalibuPark_DeliveryQuest_11 = No, no ! I didn't... I mean... I guess...
+Kalia_KalibuPark_DeliveryQuest_12 = Could you give her this letter ? I'll even pay you for it !
+Kalia_KalibuPark_DeliveryQuest_13 = Wait, hold on. What are yo-
+Kalia_KalibuPark_DeliveryQuest_14 = The man gives me letter and and even some gold.
+Kalia_KalibuPark_DeliveryQuest_15 = Here's your payment, I trust you'll succeed !
+Kalia_KalibuPark_DeliveryQuest_16 = The man runs away. What was that all about ?
+Kalia_KalibuPark_DeliveryQuest_17 = ... I guess I'll have to deliver his letter then. Talk about awkward.
+
+
+
 
 # ---------------------------------------------------------
 # --------------- Kalia - Plaza ---------------------------

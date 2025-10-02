@@ -398,6 +398,15 @@ Iberty_Catacombs_Quest_11 = ... Retournons à la mairie.
 Iberty_Catacombs_Quest_12 = Le garde devrait savoir que j'ai régler le problème.
 
 # ---------------------------------------------------------
+# ------------------------ Farm ---------------------------
+# ---------------------------------------------------------
+
+KaliaFarm_SecondaryQuest_1 = C'est l'endroit ou je suis supposé livrer cette lettre.
+KaliaFarm_SecondaryQuest_2 = Je met la lettre dans la boite au lettre.
+KaliaFarm_SecondaryQuest_3 = Au moins je n'ai plus à m'inquiéter de cela.
+KaliaFarm_SecondaryQuest_4 = Je me demande quel est le contenu de cette lettre...
+
+# ---------------------------------------------------------
 # ------------- Kalibu's Shrine ---------------------------
 # ---------------------------------------------------------
 
@@ -782,6 +791,24 @@ Kalia_KalibuPark_SecondaryQuest_3 = Elle voulait vous rappeler que vous lui deve
 Kalia_KalibuPark_SecondaryQuest_4 = ... Oh ! C'est vrai. Comment ais-je pu oublier ?
 Kalia_KalibuPark_SecondaryQuest_5 = Merci de m'avoir fait passer le message, je vais aller la voir de suite.
 Kalia_KalibuPark_SecondaryQuest_6 = L'homme disparait au loin. Je devrais retourner au bar moi aussi.
+
+Kalia_KalibuPark_DeliveryQuest_1 = Que faites-vous ici à une telle heure ?
+Kalia_KalibuPark_DeliveryQuest_2 = ...
+Kalia_KalibuPark_DeliveryQuest_3 = Euh... Bonsoir ?
+Kalia_KalibuPark_DeliveryQuest_4 = Hein ?! Oh, bonjour, monsieur.
+Kalia_KalibuPark_DeliveryQuest_5 = Que faites-vous ici ?
+Kalia_KalibuPark_DeliveryQuest_6 = Oh ? Il est déjà si tard ?
+Kalia_KalibuPark_DeliveryQuest_7 = Qu'est ce que vous voulez dire ?
+Kalia_KalibuPark_DeliveryQuest_8 = Je... Je voulais donner cette lettre à la dame qui possède la ferme juste en dehors de la ville.
+Kalia_KalibuPark_DeliveryQuest_9 = Mais... Je suppose que je n'ai pas pu le faire...
+Kalia_KalibuPark_DeliveryQuest_10 = Quoi ? Vous avez rencontré des bandits ? Vous avez besoin d'aide ?
+Kalia_KalibuPark_DeliveryQuest_11 = Non, non ! Je n'ai pas... Je veux dire... Peut être que...
+Kalia_KalibuPark_DeliveryQuest_12 = Pourriez-vous lui donner cette lettre ? Je vais même vous payer pour ça !
+Kalia_KalibuPark_DeliveryQuest_13 = Attendez un instant. De quoi pa-
+Kalia_KalibuPark_DeliveryQuest_14 = L'homme me donne la lettre et même de l'or.
+Kalia_KalibuPark_DeliveryQuest_15 = Voila votre paie. J'ai confiance en vous !
+Kalia_KalibuPark_DeliveryQuest_16 = L'homme prend la fuite. C'était quoi ça ?
+Kalia_KalibuPark_DeliveryQuest_17 = ... Je suppose que je vais devoir livrer cette lettre alors. C'est si génant...
 
 # ---------------------------------------------------------
 # --------------- Kalia - Plaza ---------------------------

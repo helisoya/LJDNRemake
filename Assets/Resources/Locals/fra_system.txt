@@ -233,6 +233,10 @@ secondaryQuest_Kalia_Shop = Problèmes nocturnes
 secondaryQuest_Kalia_Shop_0 = Vérifier la boutique de Kalia la nuit
 secondaryQuest_Kalia_Shop_done = J'ai vaincu le voleur
 
+secondaryQuest_Kalia_Delivery = Une étrange requete
+secondaryQuest_Kalia_Delivery_0 = Librez la lettre à la ferme de Kalia
+secondaryQuest_Kalia_Delivery_done = J'ai livré la lettre
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

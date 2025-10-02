@@ -15,4 +15,5 @@ autosave()
 
 fadeFg(0;false)
 
-load(Kalia/Farm/Interaction)
+if(secondaryQuest_Kalia_Delivery = 0) load(Kalia/Farm/SecondaryQuest)
+else load(Kalia/Farm/Interaction)

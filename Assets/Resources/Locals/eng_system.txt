@@ -237,6 +237,10 @@ secondaryQuest_Kalia_Shop = Nighttime troubles
 secondaryQuest_Kalia_Shop_0 = Check Kalia's shop at night
 secondaryQuest_Kalia_Shop_done = I defeated the bulgar
 
+secondaryQuest_Kalia_Delivery = A strange request
+secondaryQuest_Kalia_Delivery_0 = Deliver the letter at Kalia's farm
+secondaryQuest_Kalia_Delivery_done = I delivered the letter
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

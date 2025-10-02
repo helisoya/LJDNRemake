@@ -17,6 +17,14 @@ if(secondaryQuest_Kalia_Max = 0 & night = 0){
 	setCharacterRotation(Citizen1;Lake)
 	setInteractionChapter(Citizen1;Kalia/City/KalibuPark/SecondaryQuestBarMax)
 }
+else{
+	if(night = 1 & secondaryQuest_Kalia_Max != 0 & secondaryQuest_Kalia_Delivery = -1){
+		addCharacter(Citizen2;false)
+		setCharacterPosition(Citizen2;Lake)
+		setCharacterRotation(Citizen2;Lake)
+		setInteractionChapter(Citizen2;Kalia/City/KalibuPark/SecondaryQuestDelivery)
+	}
+}
 
 autosave()
 
