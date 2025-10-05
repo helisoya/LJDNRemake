@@ -17,8 +17,12 @@ Char_Merchant = Merchant
 Char_Sword = Sword
 Char_Ace = Ace
 Char_Waiter = Waiter
+Char_Waitress = Waitress
 Char_Man = Man
 Char_Woman = Woman
+Char_Bos = Bos
+Char_Anna = Anna
+Char_Amanda = Amanda
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -34,6 +38,13 @@ Choice_Nothing = Nothing (Leave)
 Choice_MoveOut = Continue
 Choice_Buy = Buy...
 Choice_Sleep = Sleep
+Choice_OrderSomething = Order something
+
+Choice_Yes = Yes
+Choice_No = No
+Choice_GreenTea = Green Tea
+Choice_HotChocolate = Hot Chocolate
+Choice_Bread = Bread
 
 Choice_Ideas = Any ideas ?
 Choice_AboutRegion = About the region
@@ -49,6 +60,7 @@ Choice_AboutCamp = About the camp
 Choice_AboutKalibu = About Kalibu
 Choice_AboutOrkva = About Orkva
 Choice_AboutSect = About the sect
+Choice_AboutRebellion = About the rebellion
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -585,7 +597,7 @@ Kalia_Palace_MainQuest2_1_4 = Ah ! Finally !
 Kalia_Palace_MainQuest2_1_5 = So, did you kill that rebel ? Did you find out his secrets ?
 Kalia_Palace_MainQuest2_1_6 = I... took care of him, yes.
 Kalia_Palace_MainQuest2_1_7 = I also managed to find one of the rebel's supply stash.
-Kalia_Palace_MainQuest2_1_8 = I can't tell him what really happened. I can't endanger her.
+Kalia_Palace_MainQuest2_1_8 = I can't tell him what really happened.
 Kalia_Palace_MainQuest2_1_9 = Good, good. You managed to save face, Shield.
 Kalia_Palace_MainQuest2_1_10 = I was beginning to think I had to engage article 7 on you.
 Kalia_Palace_MainQuest2_1_11 = No need, sir. I... I learned my lesson.
@@ -749,7 +761,7 @@ Kalia_BarMax_Waiter_SideQuest_InProgress_1 = You'll find my grandson in the city
 Kalia_BarMax_Waiter_SideQuest_End_1 = My grandson came by and gave me my money back. I suppose you were involved ?
 Kalia_BarMax_Waiter_SideQuest_End_2 = Yes, I talked to him.
 Kalia_BarMax_Waiter_SideQuest_End_3 = Thanks, you can keep some change for helping me out.
-Kalia_BarMax_Waiter_SideQuest_End_4 = <color=blue>I received 10 gold from the waiter.</color>
+Kalia_BarMax_Waiter_SideQuest_End_4 = <color=blue>I received 10 gold from the waitress.</color>
 Kalia_BarMax_Waiter_SideQuest_End_5 = Did you need anything else ?
 
 
@@ -920,3 +932,163 @@ Kalia_Plaza_GUARDArcQuest2_End_42 = My next step is up to me.
 # ---------------------------------------------------------
 
 Kalia_Lighthouse_Door_Locked_1 = Locked...
+
+
+# ---------------------------------------------------------
+# ------------ Kalia - Salvation Bar ----------------------
+# ---------------------------------------------------------
+
+Kalia_BarSalvation_Door_Locked_1 = This barrel is used to store alcohol.
+
+Kalia_BarSalvation_Waiter_Greetings_1 = Sup' ?
+
+Kalia_BarSalvation_Waiter_AboutYou_1 = Me ? I'm just a waitress. Need something ?
+
+Kalia_BarSalvation_Waiter_NeedYou_1 = Nope !
+
+Kalia_BarSalvation_Waiter_Order_1 = You want to order something ?
+
+Kalia_BarSalvation_Waiter_Wrong_1 = There you go !
+
+Kalia_BarSalvation_Waiter_Good_1 = ... Are you sure you want to order that ?
+Kalia_BarSalvation_Waiter_Good_2 = This is not a very common blend.
+Kalia_BarSalvation_Waiter_Good_3 = <color=red>This will lock you into the rebel route, are you sure to continue ?</color>
+
+Kalia_BarSalvation_Waiter_Refuse_1 = Okay !
+
+Kalia_BarSalvation_Waiter_Joined_1 = If you need to talk with my sister, you can enter the... room.
+
+Kalia_BarSalvation_JoinRebels_1 = ...
+Kalia_BarSalvation_JoinRebels_2 = Follow me.
+Kalia_BarSalvation_JoinRebels_3 = The waitress moves to the big barrel on my right.
+Kalia_BarSalvation_JoinRebels_4 = She turns a strange mecanism I hadn't seen, and a secret door is revealed.
+Kalia_BarSalvation_JoinRebels_5 = Enter.
+Kalia_BarSalvation_JoinRebels_6 = I do as I'm told. I guess my hunch was right.
+Kalia_BarSalvation_JoinRebels_7 = The room I enter is pitch black.
+Kalia_BarSalvation_JoinRebels_8 = Where is this ? Is this the rebel headquarters ?
+Kalia_BarSalvation_JoinRebels_9 = I can feel people besides me. Who are they ?
+Kalia_BarSalvation_JoinRebels_10 = Is this him, Bos ?
+Kalia_BarSalvation_JoinRebels_11 = Yes. I led him here.
+Kalia_BarSalvation_JoinRebels_12 = I see. So you think he...
+Kalia_BarSalvation_JoinRebels_13 = With all due respect, I believe he is able to anwser for himself.
+Kalia_BarSalvation_JoinRebels_14 = True.
+Kalia_BarSalvation_JoinRebels_15 = [MC], or should I say "Shield" ?
+Kalia_BarSalvation_JoinRebels_16 = Please don't use that codename ever again.
+Kalia_BarSalvation_JoinRebels_17 = Are you aware of where you are ?
+Kalia_BarSalvation_JoinRebels_18 = The rebel headquarters ?
+Kalia_BarSalvation_JoinRebels_19 = ...
+Kalia_BarSalvation_JoinRebels_20 = And what would a member of the republican guard be doing here ?
+Kalia_BarSalvation_JoinRebels_21 = I... I wish to join the rebellion.
+Kalia_BarSalvation_JoinRebels_22 = Really ? And why is that ?
+Kalia_BarSalvation_JoinRebels_23 = If anything, you may only be trying to infiltrate our ranks.
+Kalia_BarSalvation_JoinRebels_24 = The Merchant needs to be stopped.
+Kalia_BarSalvation_JoinRebels_25 = Does he now ? Why ?
+Kalia_BarSalvation_JoinRebels_26 = ...
+Kalia_BarSalvation_JoinRebels_27 = It's... personal.
+Kalia_BarSalvation_JoinRebels_28 = Personal won't cut it here, [MC].
+Kalia_BarSalvation_JoinRebels_29 = I... I was never convinced by his policies.
+Kalia_BarSalvation_JoinRebels_30 = And ever since the incident, I... well...
+Kalia_BarSalvation_JoinRebels_31 = The incident ? Oh, you mean Bos's operation ?
+Kalia_BarSalvation_JoinRebels_32 = ... I have many questions for you regarding that.
+Kalia_BarSalvation_JoinRebels_33 = What happened to the guard afterwards ? We can barely see them anymore.
+Kalia_BarSalvation_JoinRebels_34 = Are you just all holed up in the palace ?
+Kalia_BarSalvation_JoinRebels_35 = ... We are only two left.
+Kalia_BarSalvation_JoinRebels_36 = Makes sense...
+Kalia_BarSalvation_JoinRebels_37 = So we succeeded in the end, Bos.
+Kalia_BarSalvation_JoinRebels_38 = Yes, it seems that way.
+Kalia_BarSalvation_JoinRebels_39 = What I don't understand, is why you came to us.
+Kalia_BarSalvation_JoinRebels_40 = Why would the survivor of the incident join us ?
+Kalia_BarSalvation_JoinRebels_41 = We killed all of your comrades. We should be ennemies.
+Kalia_BarSalvation_JoinRebels_42 = I... I mean...
+Kalia_BarSalvation_JoinRebels_43 = Amanda, I could enlighten you if you wish.
+Kalia_BarSalvation_JoinRebels_44 = Hmm ?
+Kalia_BarSalvation_JoinRebels_45 = His mother was the original leader of the rebellion.
+Kalia_BarSalvation_JoinRebels_46 = You know, the march on the palace.
+Kalia_BarSalvation_JoinRebels_47 = Oh... I see.
+Kalia_BarSalvation_JoinRebels_48 = Tell me about it, [MC]. Tell me about your mother.
+Kalia_BarSalvation_JoinRebels_49 = ...
+Kalia_BarSalvation_JoinRebels_50 = What is there to say ? You probably know more than me.
+Kalia_BarSalvation_JoinRebels_51 = I had just joined the army when she started the march.
+Kalia_BarSalvation_JoinRebels_52 = At the time, the rebellion proper hadn't started yet.
+Kalia_BarSalvation_JoinRebels_53 = It was a peaceful protest, but the Merchant didn't see it that way.
+Kalia_BarSalvation_JoinRebels_54 = The army... opened fire on the protesters.
+Kalia_BarSalvation_JoinRebels_55 = They killed my mother. She had no weapon.
+Kalia_BarSalvation_JoinRebels_56 = I wasn't in town at the time, I was training in the White Forest with the Order.
+Kalia_BarSalvation_JoinRebels_57 = After that, I was promoted to the republican guard.
+Kalia_BarSalvation_JoinRebels_58 = I didn't really know what to do. They had just killed my mother.
+Kalia_BarSalvation_JoinRebels_59 = But... Maybe foolishly, I thought I could change things from the inside.
+Kalia_BarSalvation_JoinRebels_60 = It never really amounted to anything anyway...
+Kalia_BarSalvation_JoinRebels_61 = ...
+Kalia_BarSalvation_JoinRebels_62 = Bos, your opinion ?
+Kalia_BarSalvation_JoinRebels_63 = I believe he could be a valuable asset to us.
+Kalia_BarSalvation_JoinRebels_64 = He knows the military and the palace's layout.
+Kalia_BarSalvation_JoinRebels_65 = Plus, I checked his background. He didn't lie.
+Kalia_BarSalvation_JoinRebels_66 = ...
+Kalia_BarSalvation_JoinRebels_67 = [MC], you are aware of the implications of joining us ?
+Kalia_BarSalvation_JoinRebels_68 = Yes, I'll have to leave the guard. I'll have to fight my former comrades.
+Kalia_BarSalvation_JoinRebels_69 = I'll be labeled as a traitor.
+Kalia_BarSalvation_JoinRebels_70 = ...
+Kalia_BarSalvation_JoinRebels_71 = Alright. Bos, put on the light.
+Kalia_BarSalvation_JoinRebels_72 = As the woman says that, the room becomes illuminated.
+Kalia_BarSalvation_JoinRebels_73 = Well, I suppose you passed, [MC].
+Kalia_BarSalvation_JoinRebels_74 = I welcome you as the newest member of the rebellion.
+Kalia_BarSalvation_JoinRebels_75 = Our role is to topple the tyrant known as the Merchant.
+Kalia_BarSalvation_JoinRebels_76 = I am Amanda, the leader of this movement.
+Kalia_BarSalvation_JoinRebels_77 = And this is Bos, my right hand man.
+Kalia_BarSalvation_JoinRebels_78 = ...
+Kalia_BarSalvation_JoinRebels_79 = ...
+Kalia_BarSalvation_JoinRebels_80 = Bad blood between you two ?
+Kalia_BarSalvation_JoinRebels_81 = You'll both work it out somehow.
+Kalia_BarSalvation_JoinRebels_82 = For now, we have bigger concerns.
+Kalia_BarSalvation_JoinRebels_83 = Do you have an assignement for me, boss ?
+Kalia_BarSalvation_JoinRebels_84 = Yes and no. What is your current assignement for the governement.
+Kalia_BarSalvation_JoinRebels_85 = I am to secure an important package that was stolen by bandits.
+Kalia_BarSalvation_JoinRebels_86 = ... I see. Any ideas of its content ?
+Kalia_BarSalvation_JoinRebels_87 = Apparently an artefact he got from a Marklichtian museum.
+Kalia_BarSalvation_JoinRebels_88 = Hmm...
+Kalia_BarSalvation_JoinRebels_89 = Alright, this is your first assignement for the rebellion.
+Kalia_BarSalvation_JoinRebels_90 = Retrieve this package, and bring it back to us.
+Kalia_BarSalvation_JoinRebels_91 = Keep a low profile for now. We don't want the governement to know you switched sides.
+Kalia_BarSalvation_JoinRebels_92 = Alright. It shall be done.
+Kalia_BarSalvation_JoinRebels_93 = The salvation bar is our hideout. Come here if you need anything.
+Kalia_BarSalvation_JoinRebels_94 = The bar itself is also owned by us. My sister is actually the waitress.
+Kalia_BarSalvation_JoinRebels_95 = So don't hesitate to hide here if the need arise.
+Kalia_BarSalvation_JoinRebels_96 = ... I may recquire your services after your assignement.
+Kalia_BarSalvation_JoinRebels_97 = I have missions that only a trained soldier would be able to complete.
+Kalia_BarSalvation_JoinRebels_98 = And we are lacking in that departement for now.
+Kalia_BarSalvation_JoinRebels_99 = ...
+Kalia_BarSalvation_JoinRebels_100 = I'll keep that in mind.
+Kalia_BarSalvation_JoinRebels_101 = For now, I exit the room.
+Kalia_BarSalvation_JoinRebels_102 = I'll secure the package, then bring it back here.
+Kalia_BarSalvation_JoinRebels_103 = I suppose this is what she would have wanted.
+Kalia_BarSalvation_JoinRebels_104 = I thought I could change things from inside, but...
+Kalia_BarSalvation_JoinRebels_105 = I guess not...
+Kalia_BarSalvation_JoinRebels_106 = Oh, hey.
+Kalia_BarSalvation_JoinRebels_107 = The waitress starts talking to me when I get back.
+Kalia_BarSalvation_JoinRebels_108 = You came back alive. I guess you're hired ?
+Kalia_BarSalvation_JoinRebels_109 = Yes. I heard you were the boss's sister ?
+Kalia_BarSalvation_JoinRebels_110 = Yep ! I'm Anna. Pleased to meet you, uh....
+Kalia_BarSalvation_JoinRebels_111 = [MC].
+Kalia_BarSalvation_JoinRebels_112 = Right !
+Kalia_BarSalvation_JoinRebels_113 = Well, I won't hold you any longer.
+Kalia_BarSalvation_JoinRebels_114 = I'm sure you were given a difficult task.
+Kalia_BarSalvation_JoinRebels_115 = But don't hesitate to come to us if you need anything.
+Kalia_BarSalvation_JoinRebels_116 = Though you may want to talk to my sister for anything regarding our... line of work.
+
+Kalia_BarSalvation_Amanda_Greetings_1 = Hello, [MC].
+
+Kalia_BarSalvation_Amanda_AboutYou_1 = I am the eldest of three sisters.
+Kalia_BarSalvation_Amanda_AboutYou_2 = You've already met my younger sister Anna.
+Kalia_BarSalvation_Amanda_AboutYou_3 = My other sister is actually not in town.
+Kalia_BarSalvation_Amanda_AboutYou_4 = She took the mantle of our father. I can't complain.
+Kalia_BarSalvation_Amanda_AboutYou_5 = We still meet from time to time, but not that much anymore.
+Kalia_BarSalvation_Amanda_AboutYou_6 = I can't socialize while preparing a revolution, you see.
+
+Kalia_BarSalvation_Amanda_AboutRebellion_1 = This rebellion was instigated in full by your mother a few years ago.
+Kalia_BarSalvation_Amanda_AboutRebellion_2 = There was always some resistance to the Merchant before that of course.
+Kalia_BarSalvation_Amanda_AboutRebellion_3 = But most of the time, it was just disorganised and it didn't go far.
+Kalia_BarSalvation_Amanda_AboutRebellion_4 = She on the other hand, managed to almost topple the governement.
+Kalia_BarSalvation_Amanda_AboutRebellion_5 = She organised a great protest just in front of the palace.
+Kalia_BarSalvation_Amanda_AboutRebellion_6 = However, the army started shooting at the protesters.
+Kalia_BarSalvation_Amanda_AboutRebellion_7 = Ever since, the rebellion gained momentum in the heart of the people.
+Kalia_BarSalvation_Amanda_AboutRebellion_8 = We aren't many to take arms, but Kalians would follow us should we succeed.

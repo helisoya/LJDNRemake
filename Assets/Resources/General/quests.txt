@@ -2,7 +2,10 @@
 mainQuest_1
 mainQuest_2
 mainQuest_3
+mainQuest_4
 rebelQuest_0
+marklichtQuest_0
+orkvaQuest_0
 
 [arcQuest]
 arcQuest_Guard_1

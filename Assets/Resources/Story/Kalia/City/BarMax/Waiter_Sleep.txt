@@ -1,4 +1,4 @@
-dialog(Waiter;Waiter1;false;Kalia_BarMax_Waiter_Sleep_1)
+dialog(Waitress;Waiter1;false;Kalia_BarMax_Waiter_Sleep_1)
 
 fadeBg(1;true)
 

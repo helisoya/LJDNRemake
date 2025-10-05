@@ -57,4 +57,4 @@ City_Kalia_Lighthouse Kalia/City/Lighthouse/Arrival canTravel_City_Kalia_Lightho
 City_Kalia_Docks Kalia/City/Docks/Arrival canTravel_City_Kalia_Docks 1
 City_Kalia_Jackwell TODO canTravel_City_Kalia_Jackwell 1
 City_Kalia_BarGUARD Kalia/City/BarMax/Arrival canTravel_City_Kalia_BarGUARD 1
-City_Kalia_RebelHQ TODO canTravel_City_Kalia_RebelHQ 1
+City_Kalia_RebelHQ Kalia/City/BarSalvation/Arrival canTravel_City_Kalia_RebelHQ 1
