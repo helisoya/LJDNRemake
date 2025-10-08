@@ -214,6 +214,11 @@ arcQuest_Guard_3_0 = Steal a bomb from Fort Wall
 arcQuest_Guard_3_1 = Meet GUARD at Max's bar in Kalia
 arcQuest_Guard_3_done = I stole the bomb from Orkva
 
+arcQuest_Jackwell_1 = Herbs for Jackwell
+arcQuest_Jackwell_1_0 = Forage medicinal plants in the Kalian side of the White Forest.
+arcQuest_Jackwell_1_1 = Deliver the herbs to Jackwell at his library in Kalia
+arcQuest_Jackwell_1_done = I found some medicinal herbs for Jackwell
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty

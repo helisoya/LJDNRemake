@@ -1,0 +1,8 @@
+setCharacterAlpha(Jackwell;0;true)
+setCharacterPosition(Jackwell;Front)
+setCharacterRotation(Jackwell;Front)
+setCharacterAlpha(Jackwell;1;false)
+
+dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_Greetings_1)
+
+load(Kalia/City/Library/Jackwell)

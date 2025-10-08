@@ -22,6 +22,7 @@ Char_Woman = Femme
 Char_Bos = Bos
 Char_Anna = Anna
 Char_Amanda = Amanda
+Char_Jackwell = Jackwell
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -60,7 +61,8 @@ Choice_AboutKalibu = A propos de Kalibu
 Choice_AboutOrkva = A propos d'Orkva
 Choice_AboutSect = A propos de la secte
 Choice_AboutRebellion = A propos de la rebéllion
-
+Choice_AboutKalia = A propos de Kalia
+Choice_AboutContinent = A propos du Continent
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -1068,3 +1070,91 @@ Kalia_BarSalvation_Amanda_AboutRebellion_5 = Elle a organisée un grande manifes
 Kalia_BarSalvation_Amanda_AboutRebellion_6 = Cependant, l'armée a commencé à tirer sur les manifestants.
 Kalia_BarSalvation_Amanda_AboutRebellion_7 = Depuis, la rebéllion gagne de l'élan dans le coeur du peuple.
 Kalia_BarSalvation_Amanda_AboutRebellion_8 = Peu veulent prendre les armes, mais les Kaliens nous suivrons si nous gagnons.
+
+
+# ---------------------------------------------------------
+# ----------------- Kalia - Jackwell ----------------------
+# ---------------------------------------------------------
+
+
+Kalia_Library_Jackwell_Greetings_1 = Bonjour, mon ami.
+
+Kalia_Library_StartArcQuest_1 = C'est l'une des bibliothèques les plus célèbres de Kalia.
+Kalia_Library_StartArcQuest_2 = Elle a été créée et gérée par la famille Jackwell pendant plus d'un siècle.
+Kalia_Library_StartArcQuest_3 = J'ai entendu dire qu'ils étaient des sortes de chasseurs de trésors ou quelque chose comme ça.
+Kalia_Library_StartArcQuest_4 = Oh ! Êtes-vous bien celui que je crois ?
+Kalia_Library_StartArcQuest_5 = Je regarde autour de moi et je vois un homme en armure à côté de moi.
+Kalia_Library_StartArcQuest_6 = Euh ? Qui êtes-vous ?
+Kalia_Library_StartArcQuest_7 = Oh, pardonnez-moi mes manières. Je suis Jackwell, l'actuel propriétaire de cette bibliothèque.
+Kalia_Library_StartArcQuest_8 = Attend, c'est lui le propriétaire de cet endroit ?
+Kalia_Library_StartArcQuest_9 = Je n'ai pas pu m'empêcher de remarquer votre uniforme.
+Kalia_Library_StartArcQuest_10 = Vous êtes membre de la garde républicaine, n'est-ce pas ?
+Kalia_Library_StartArcQuest_11 = Oui. Avez-vous quelque chose à avoir avec l'armée ?
+Kalia_Library_StartArcQuest_12 = Oh non. Je n'ai simplement pas pu résister à le faire remarquer.
+Kalia_Library_StartArcQuest_13 = J'ai ouvert une petite section musée à la bibliothèque, et il y a tellement d'uniformes.
+Kalia_Library_StartArcQuest_14 = Je… je vois.
+Kalia_Library_StartArcQuest_15 = Alors, c'est quoi cette armure ?
+Kalia_Library_StartArcQuest_16 = Oh, je suis ravie que vous l'ayez remarqué !
+Kalia_Library_StartArcQuest_17 = C'est une armure originale du lointain pays de Lonas.
+Kalia_Library_StartArcQuest_18 = Lonas ? Je n'en ai jamais entendu parler.
+Kalia_Library_StartArcQuest_19 = Je ne peux pas vous en vouloir, c'est loin à l'ouest. Encore plus loin que les anciens pays impériaux.
+Kalia_Library_StartArcQuest_20 = Bref, je suis tellement contente d'avoir cette armure.
+Kalia_Library_StartArcQuest_21 = Je l'ai achetée à un homme de la province Koskyenne de Runan.
+Kalia_Library_StartArcQuest_22 = Il se faisait appeler le Chevalier de Runan, ou quelque chose comme ça.
+Kalia_Library_StartArcQuest_23 = Je… je suppose.
+Kalia_Library_StartArcQuest_24 = Regardez-moi parler, vous êtes complètement perdu, n'est-ce pas ?
+Kalia_Library_StartArcQuest_25 = ... Maintenant que j'y pense.
+Kalia_Library_StartArcQuest_26 = J'aurai peut-être besoin des services d'un guerrier aussi fort que vous.
+Kalia_Library_StartArcQuest_27 = Euh ?
+Kalia_Library_StartArcQuest_28 = Puisque je gère cet endroit, j'ai décidé d'y contribuer un peu.
+Kalia_Library_StartArcQuest_29 = J'ai décidé d'écrire un livre sur la survie en milieu sauvage.
+Kalia_Library_StartArcQuest_30 = J'ai entendu des marins parler d'une nouvelle terre mystérieuse à l'est, alors me voilà.
+Kalia_Library_StartArcQuest_31 = Et où avez-vous besoin de moi ?
+Kalia_Library_StartArcQuest_32 = Je ne suis pas expert en survie. J'ai besoin d'aide.
+Kalia_Library_StartArcQuest_33 = J'ai juste besoin que vous fassiez quelques petites choses pour moi. Ça m'aidera à confirmer mes hypothèses.
+Kalia_Library_StartArcQuest_34 = Je te paierai à la demande, bien sûr.
+Kalia_Library_StartArcQuest_35 = ... D'accord. Je ferai ce que je peux.
+Kalia_Library_StartArcQuest_36 = Splendide. Mais attendez une seconde.
+Kalia_Library_StartArcQuest_37 = Jackwell déséquipe son armure, elle semble encombrante.
+Kalia_Library_StartArcQuest_38 = Bien, où en étais-je ? Ah, oui.
+Kalia_Library_StartArcQuest_39 = Pour votre première tâche, j'ai besoin que vous cueillez quelques herbes.
+Kalia_Library_StartArcQuest_40 = Vous savez, les herbes médicinales.
+Kalia_Library_StartArcQuest_41 = Oh, vous parlez des longues pâtes ?
+Kalia_Library_StartArcQuest_42 = C'est comme ça que vous les appellez ?
+Kalia_Library_StartArcQuest_43 = Euh… Oui…
+Kalia_Library_StartArcQuest_44 = Bref, j'ai juste besoin que vous en trouviez.
+Kalia_Library_StartArcQuest_45 = Je vous récompenserai à la livraison.
+Kalia_Library_StartArcQuest_46 = D'accord.
+Kalia_Library_StartArcQuest_47 = Des longues pâtes… Je crois en avoir vu là où j'ai perdu le colis.
+Kalia_Library_StartArcQuest_48 = Cela vaut la peine d'essayer.
+
+Kalia_Library_Jackwell_AboutYou_1 = Je suis le quatrième propriétaire de la bibliothèque Jackwell de Kalia.
+Kalia_Library_Jackwell_AboutYou_2 = Mon arrière-grand-père a créé cette bibliothèque pour permettre aux Kaliens d'apprendre sur tous les sujets.
+Kalia_Library_Jackwell_AboutYou_3 = On y vient pour apprendre la géographie, la nature et bien plus encore.
+Kalia_Library_Jackwell_AboutYou_4 = Mon arrière-grand-père, lui, avait un faible pour l'histoire et l'archéologie.
+Kalia_Library_Jackwell_AboutYou_5 = Avec son collègue Archibald von Ramos, il partit en expédition vers une ruine au nord.
+Kalia_Library_Jackwell_AboutYou_6 = Ils y trouvèrent des artefacts que vous pouvez voir dans cette bibliothèque.
+Kalia_Library_Jackwell_AboutYou_7 = Hélas, il est mort sur le chemin du retour.
+Kalia_Library_Jackwell_AboutYou_8 = Ils étaient assez loin au nord, et il est mort dans une tempête de neige.
+Kalia_Library_Jackwell_AboutYou_9 = Mon grand-père est ensuite devenu propriétaire de la bibliothèque et a continué à l'entretenir.
+Kalia_Library_Jackwell_AboutYou_10 = Aujourd'hui, j'en suis le propriétaire. Mais je ne partirai pas en expédition de sitôt.
+
+Kalia_Library_Jackwell_AboutKalia_1 = Kalia a été fondée il y a bien longtemps.
+Kalia_Library_Jackwell_AboutKalia_2 = Comme aujourd'hui, elle était principalement axée sur le commerce.
+Kalia_Library_Jackwell_AboutKalia_3 = Au bout d'un moment, elle a créé une sorte de confédération avec les villes voisines.
+Kalia_Library_Jackwell_AboutKalia_4 = Vorlan, Tolau et l'Île Mirage faisaient partie de cette confédération.
+Kalia_Library_Jackwell_AboutKalia_5 = Un jour, le lointain Empire Central arriva et fit de Kalia son protectorat.
+Kalia_Library_Jackwell_AboutKalia_6 = Cependant, rien ne changea vraiment pour la population.
+Kalia_Library_Jackwell_AboutKalia_7 = Plus tard, l'Empire sombra dans une guerre civile. Ce fut le chaos.
+Kalia_Library_Jackwell_AboutKalia_8 = Les pays voisins d'Orkva et, à l'époque, de Licht en profitèrent pour envahir le pays.
+Kalia_Library_Jackwell_AboutKalia_9 = Après un bref conflit, seules Kalia et l'Île du Mirage restèrent dans la confédération.
+Kalia_Library_Jackwell_AboutKalia_10 = Des rumeurs disent qu'Orkva veut envahir à nouveau. On verra bien où l'avenir nous mènera.
+
+Kalia_Library_Jackwell_AboutContinent_1 = Notre grand continent s'appelle Vasia.
+Kalia_Library_Jackwell_AboutContinent_2 = Kalia est située sur sa côte est.
+Kalia_Library_Jackwell_AboutContinent_3 = Nos voisins directs sont Orkva et le Marklicht. Je suppose que nous sommes aussi presque voisins des Nordiens.
+Kalia_Library_Jackwell_AboutContinent_4 = Le continent a longtemps été dominé par deux puissances : Alhaunia et l'Empire Central.
+Kalia_Library_Jackwell_AboutContinent_5 = Ils ont mené de nombreuses guerres à l'ouest du continent pour le contrôle de régions clés.
+Kalia_Library_Jackwell_AboutContinent_6 = De nos jours, Alhaunia est en déclin et l'Empire Central a été désintégré par une guerre civile.
+Kalia_Library_Jackwell_AboutContinent_7 = Géographiquement, les plus hautes montagnes du continent sont les Montagnes Blanches.
+Kalia_Library_Jackwell_AboutContinent_8 = Elles s'étendent des plaines centrales jusqu'à la province Koskyenne de Vlatyr.

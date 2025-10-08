@@ -210,6 +210,11 @@ arcQuest_Guard_3_0 = Volez une bombe à Fort Muraille
 arcQuest_Guard_3_1 = Retournez voir GARDE au bar de Max à Kalia
 arcQuest_Guard_3_done = J'ai volé une bombe à Orkva
 
+arcQuest_Jackwell_1 = Des herbes pour Jackwell
+arcQuest_Jackwell_1_0 = Ceuillez des herbes médicinales dans le coté Kalien de la Forêt Blanche
+arcQuest_Jackwell_1_1 = Donnez les herbes à Jackwell, dans sa librairie, à Kalia
+arcQuest_Jackwell_1_done = J'ai trouvé des herbes médicinales pour Jackwell
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
