@@ -250,6 +250,8 @@ Location_WhiteForest = Forêt Blanche
 Location_Iberty = Iberty
 Location_KaliaFarm = Ferme de Kalia
 Location_KalibuShrine = Autel de Kalibu
+Location_KaliaCamp = Camp "Espoir"
+Location_KaliaOutpost = Avant Poste
 Location_Kalia = Kalia
 
 # ------------------------------------------------------------------------

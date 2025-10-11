@@ -1182,3 +1182,18 @@ Kalia_Library_Jackwell_AboutContinent_5 = They waged many wars on the western si
 Kalia_Library_Jackwell_AboutContinent_6 = Nowadays, Alhaunia is declining and the Central Empire was disintegrated due to a civil war.
 Kalia_Library_Jackwell_AboutContinent_7 = In terms of geography, the biggest mountains on the continent are the White mountains.
 Kalia_Library_Jackwell_AboutContinent_8 = They stretch from the central plains to the Koskyan province of Vlatyr.
+
+
+# ---------------------------------------------------------
+# -------------- Kalia's Outpost --------------------------
+# ---------------------------------------------------------
+
+KaliaOutpost_Soldier_Greetings_1 = Nothing to report, sir.
+
+KaliaOutpost_Soldier_AboutYou_1 = I'm in charge of this outpost.
+KaliaOutpost_Soldier_AboutYou_2 = My job is to make sure bandits from the forest don't come near the nearby cities.
+KaliaOutpost_Soldier_AboutYou_3 = Most of the time, nothing happens. So I write in my journal.
+
+KaliaOutpost_Soldier_NeedHelp_1 = No, I'm fine. Thank you.
+KaliaOutpost_Soldier_NeedHelp_2 = But if you want to help with the bandits, you should go to the Order's HQ in the forest.
+KaliaOutpost_Soldier_NeedHelp_3 = Last I heard, they are in need of manpower to fight back the bandits.
