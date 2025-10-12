@@ -39,7 +39,7 @@ City_Iberty_Catacombs Kalia/Iberty/Catacombs/Arrival canTravel_City_Iberty_Catac
 City_Iberty_Port Kalia/Iberty/Port/Arrival canTravel_City_Iberty_Port 1
 
 [Region_Kalia]
-Region_Kalia_ToForest TODO canTravel_Region_Kalia_Forest 1
+Region_Kalia_ToForest Forest/Common/OpenMapFromKalia canTravel_Region_Kalia_Forest 1
 Region_Kalia_Iberty Kalia/Iberty/Common/OpenMapFromRegion canTravel_Region_Kalia_Iberty 1
 Region_Kalia_City Kalia/City/Common/OpenMapFromRegion canTravel_Region_Kalia_City 1
 Region_Kalia_Farm Kalia/Farm/Arrival canTravel_Region_Kalia_Farm 1
@@ -58,3 +58,17 @@ City_Kalia_Docks Kalia/City/Docks/Arrival canTravel_City_Kalia_Docks 1
 City_Kalia_Jackwell Kalia/City/Library/Arrival canTravel_City_Kalia_Jackwell 1
 City_Kalia_BarGUARD Kalia/City/BarMax/Arrival canTravel_City_Kalia_BarGUARD 1
 City_Kalia_RebelHQ Kalia/City/BarSalvation/Arrival canTravel_City_Kalia_RebelHQ 1
+
+[Region_Forest]
+Region_Forest_ToKalia Kalia/Common/OpenMapFromForest canTravel_Region_Forest_ToKalia 1
+Region_Forest_ToMarklicht TODO canTravel_Region_Forest_ToMarklicht 1
+Region_Forest_ToOrkva TODO canTravel_Region_Forest_ToOrkva 1
+Region_Forest_Field Forest/Field/Arrival canTravel_Region_Forest_Field 1
+Region_Forest_OrderHQ TODO canTravel_Region_Forest_OrderHQ 1
+Region_Forest_Crag TODO canTravel_Region_Forest_Crag 1
+Region_Forest_Cavern TODO canTravel_Region_Forest_Cavern 1
+Region_Forest_Vasalia TODO canTravel_Region_Forest_Vasalia 1
+Region_Forest_Camp1 TODO canTravel_Region_Forest_Camp1 1
+Region_Forest_Camp2 TODO canTravel_Region_Forest_Camp2 1
+Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
+Region_Forest_Village TODO canTravel_Region_Forest_Village 1

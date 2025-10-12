@@ -176,6 +176,19 @@ City_Kalia_Jackwell = Librairie Jackwell
 City_Kalia_BarGUARD = Bar de Max
 City_Kalia_RebelHQ = Bar du Salut
 
+Region_Forest_ToKalia = Vers Kalia
+Region_Forest_ToMarklicht = Vers le Marklicht
+Region_Forest_ToOrkva = Vers Orkva
+Region_Forest_Field = Prés
+Region_Forest_OrderHQ = QG de l'Ordre
+Region_Forest_Crag = Passe-Falaise
+Region_Forest_Cavern = Caverne
+Region_Forest_Vasalia = Mont Vasalia
+Region_Forest_Camp1 = Camp de bandits
+Region_Forest_Camp2 = Camp de bandits
+Region_Forest_Camp3 = Base de bandits
+Region_Forest_Village = Village Nordiens
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -214,6 +227,11 @@ arcQuest_Jackwell_1 = Des herbes pour Jackwell
 arcQuest_Jackwell_1_0 = Ceuillez des herbes médicinales dans le coté Kalien de la Forêt Blanche
 arcQuest_Jackwell_1_1 = Donnez les herbes à Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_1_done = J'ai trouvé des herbes médicinales pour Jackwell
+
+arcQuest_Jackwell_2 = Jackwell et les loups
+arcQuest_Jackwell_2_0 = Explorez la caverne dans la Forêt Blanche
+arcQuest_Jackwell_2_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
+arcQuest_Jackwell_2_done = J'ai exploré la caverne de la Forêt Blanche
 
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty

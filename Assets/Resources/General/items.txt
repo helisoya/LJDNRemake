@@ -34,6 +34,7 @@ arcQuest_Guard_2 -1
 arcQuest_Guard_3 -1
 
 arcQuest_Jackwell_1 -1
+arcQuest_Jackwell_2 -1
 
 # Faction Quests
 factionQuest_Kalia_1 -1
@@ -74,3 +75,16 @@ canTravel_City_Kalia_Docks 1
 canTravel_City_Kalia_Jackwell 1
 canTravel_City_Kalia_BarGUARD 1
 canTravel_City_Kalia_RebelHQ 1
+
+canTravel_Region_Forest_ToKalia 1
+canTravel_Region_Forest_ToMarklicht 1
+canTravel_Region_Forest_ToOrkva 1
+canTravel_Region_Forest_Field 1
+canTravel_Region_Forest_OrderHQ 1
+canTravel_Region_Forest_Crag 1
+canTravel_Region_Forest_Cavern 1
+canTravel_Region_Forest_Vasalia 1
+canTravel_Region_Forest_Camp1 1
+canTravel_Region_Forest_Camp2 1
+canTravel_Region_Forest_Camp3 1
+canTravel_Region_Forest_Village 1

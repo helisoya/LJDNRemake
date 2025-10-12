@@ -1128,6 +1128,28 @@ Kalia_Library_StartArcQuest_46 = D'accord.
 Kalia_Library_StartArcQuest_47 = Des longues pâtes… Je crois en avoir vu là où j'ai perdu le colis.
 Kalia_Library_StartArcQuest_48 = Cela vaut la peine d'essayer.
 
+Kalia_Library_ArcQuest1End_1 = Ah ! Je vois que vous avez trouvé les herbes.
+Kalia_Library_ArcQuest1End_2 = Comment elles s'appellent déjà ? Toucher de Kalibu ou quelque chose comme ça ?
+Kalia_Library_ArcQuest1End_3 = O.. Oui.
+Kalia_Library_ArcQuest1End_4 = Je ne peux pas lui dire leur vrai nom.
+Kalia_Library_ArcQuest1End_5 = Bref, qu'est-ce que vous voulez faire avec ?
+Kalia_Library_ArcQuest1End_6 = Oh, oui. J'ai oublié de vous dire ce que je voulais en faire, pas vrai ?
+Kalia_Library_ArcQuest1End_7 = Je voulais simplement les voir par moi-même, et essayer une recette que j'ai trouvé.
+Kalia_Library_ArcQuest1End_8 = Jackwell prend les plantes, et les ajoute à une mixture étrange.
+Kalia_Library_ArcQuest1End_9 = Des herbes seulent ne servent à rien. Il faut les mixer avant.
+Kalia_Library_ArcQuest1End_10 = Voila, on dirait que j'ai réussi.
+Kalia_Library_ArcQuest1End_11 = Il me donne une mixture étrange, mais familière.
+Kalia_Library_ArcQuest1End_12 = C'est techniquement un de ces "herbes médicinales" que vous pouvez acheter au marché.
+Kalia_Library_ArcQuest1End_13 = J'ai ajouté quelques autres plantes et du poivre.
+Kalia_Library_ArcQuest1End_14 = Du poivre ?
+Kalia_Library_ArcQuest1End_15 = Pourquoi pas ? En attendant, j'ai besoin de votre aide à nouveau.
+Kalia_Library_ArcQuest1End_16 = Maintenant que je sais comment traiter des blessures, j'aimerai que vous vous métiez en "danger".
+Kalia_Library_ArcQuest1End_17 = Il y a une caverne dans la Forêt Blanche qui abritent beaucoup de loups.
+Kalia_Library_ArcQuest1End_18 = Allez la bas, et tuez en quelque uns.
+Kalia_Library_ArcQuest1End_19 = Oh, et voila votre paie pour m'avoir aidé.
+Kalia_Library_ArcQuest1End_20 = <color=blue>J'ai reçu 15 or de Jackwell.</color>
+Kalia_Library_ArcQuest1End_21 = Je devrais aller à la Forêt Blanche alors. 
+
 Kalia_Library_Jackwell_AboutYou_1 = Je suis le quatrième propriétaire de la bibliothèque Jackwell de Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = Mon arrière-grand-père a créé cette bibliothèque pour permettre aux Kaliens d'apprendre sur tous les sujets.
 Kalia_Library_Jackwell_AboutYou_3 = On y vient pour apprendre la géographie, la nature et bien plus encore.
@@ -1173,3 +1195,16 @@ KaliaOutpost_Soldier_AboutYou_3 = La plupart du temps, rien ne se passe. Donc j'
 KaliaOutpost_Soldier_NeedHelp_1 = Non, tout vas bien. Merci quand même.
 KaliaOutpost_Soldier_NeedHelp_2 = Mais si vous voulez aider avec les bandits, vous devriez aller au QG de l'ordre dans la forêt.
 KaliaOutpost_Soldier_NeedHelp_3 = Aux dernières nouvelles, ils ont besoins de mains pour lutter contre les bandits.
+
+# ---------------------------------------------------------
+# --------------- Forest - Field --------------------------
+# ---------------------------------------------------------
+
+ForestField_JackwellArcQuest1_1 = C'est ici que Jackwell m'a dit qu'on peut trouver des longues pâtes.
+ForestField_JackwellArcQuest1_2 = ...
+ForestField_JackwellArcQuest1_3 = En voila.
+ForestField_JackwellArcQuest1_4 = Je ceuille quelques plantes.
+ForestField_JackwellArcQuest1_5 = Les gens insistent que ces plantes médicinales s'appellent "Toucher de Kalibu".
+ForestField_JackwellArcQuest1_6 = Mais je sais qu'elles s'appellent "Longues Pâtes", car elles sont si longue.
+ForestField_JackwellArcQuest1_7 = ... Au moins c'est un nom plus cool... pas vrai ?
+ForestField_JackwellArcQuest1_8 = Enfin ! Je devrais retourner voir Jackwell.

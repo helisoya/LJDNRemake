@@ -8,7 +8,7 @@ using UnityEngine;
 public class MapInfo : MonoBehaviour
 {
     [SerializeField] private LocalizedText text;
-    private float length;
+    private Vector2 size;
 
     /// <summary>
     /// Updates the tooltip's informations
@@ -29,13 +29,14 @@ public class MapInfo : MonoBehaviour
     void ComputePosition()
     {
         Vector2 position = Input.mousePosition;
-        if (position.x >= Screen.width - length) position.x -= length;
+        if (position.x >= Screen.width - size.x) position.x -= size.x;
+        if (position.y >= Screen.height - size.y) position.y -= size.y;
         transform.position = position;
     }
 
     void Start()
     {
-        length = GetComponent<RectTransform>().sizeDelta.x;
+        size = GetComponent<RectTransform>().sizeDelta;
     }
 
     void Update()

@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 /// <summary>
@@ -45,8 +47,12 @@ public class Locals
 
         self.currentLanguage = newOne;
         self.locals.Clear();
+        long before = GC.GetTotalMemory(false);
+
         self.LoadContent(newOne + "_system");
         self.LoadContent(newOne + "_story");
+
+        Debug.Log("New Local Size : " + ((GC.GetTotalMemory(false) - before) / 1024.0f / 1024.0f));
     }
 
     /// <summary>

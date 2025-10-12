@@ -1152,6 +1152,28 @@ Kalia_Library_StartArcQuest_46 = Alright.
 Kalia_Library_StartArcQuest_47 = Long legs... I believe I saw some where I lost the package.
 Kalia_Library_StartArcQuest_48 = It's worth a try.
 
+Kalia_Library_ArcQuest1End_1 = Ah ! I see you found the medicinal herbs.
+Kalia_Library_ArcQuest1End_2 = How is it called again ? Touch of Kalibu or something like that ?
+Kalia_Library_ArcQuest1End_3 = Y.. Yes.
+Kalia_Library_ArcQuest1End_4 = I can't let him know its true name.
+Kalia_Library_ArcQuest1End_5 = Anyway, what do you intend to do with them ?
+Kalia_Library_ArcQuest1End_6 = Oh, right. I did forget to tell you, didn't I ?
+Kalia_Library_ArcQuest1End_7 = I simply wanted to see them for myself, and to try a recipe I found.
+Kalia_Library_ArcQuest1End_8 = Jackwell grabs the plants, and adds them to a strange mixture.
+Kalia_Library_ArcQuest1End_9 = Medicinal herbs alone cannot do anything. You need to mix them beforehand.
+Kalia_Library_ArcQuest1End_10 = Here, it seems it worked.
+Kalia_Library_ArcQuest1End_11 = He gives me a strange, yet familiar mixture.
+Kalia_Library_ArcQuest1End_12 = This is technically one of these "medicinal herbs" you can buy off the market.
+Kalia_Library_ArcQuest1End_13 = I added a few other plants and some pepper.
+Kalia_Library_ArcQuest1End_14 = Pepper ?
+Kalia_Library_ArcQuest1End_15 = Why not ? Anyway, I need your help with another task.
+Kalia_Library_ArcQuest1End_16 = Now that I know how to treat wounds, I'd like you to "endanger" yourself.
+Kalia_Library_ArcQuest1End_17 = There is a cavern in the White Forest that is home to a varierty of wolves.
+Kalia_Library_ArcQuest1End_18 = Go there, and kill a few of them.
+Kalia_Library_ArcQuest1End_19 = Oh, and here is your payment for helping me.
+Kalia_Library_ArcQuest1End_20 = <color=blue>I got 15 gold from Jackwell.</color>
+Kalia_Library_ArcQuest1End_21 = I should head for the White Forest then. 
+
 Kalia_Library_Jackwell_AboutYou_1 = I am the fourth owner of the Jackwell Library of Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = My great-grandfather created this library to allow Kalians to lean about about anything.
 Kalia_Library_Jackwell_AboutYou_3 = People come here to learn about geography, nature and much more.
@@ -1197,3 +1219,17 @@ KaliaOutpost_Soldier_AboutYou_3 = Most of the time, nothing happens. So I write 
 KaliaOutpost_Soldier_NeedHelp_1 = No, I'm fine. Thank you.
 KaliaOutpost_Soldier_NeedHelp_2 = But if you want to help with the bandits, you should go to the Order's HQ in the forest.
 KaliaOutpost_Soldier_NeedHelp_3 = Last I heard, they are in need of manpower to fight back the bandits.
+
+
+# ---------------------------------------------------------
+# --------------- Forest - Field --------------------------
+# ---------------------------------------------------------
+
+ForestField_JackwellArcQuest1_1 = This is where Jackwell told me I could find long legs.
+ForestField_JackwellArcQuest1_2 = ...
+ForestField_JackwellArcQuest1_3 = There they are.
+ForestField_JackwellArcQuest1_4 = I forage some plants off the ground.
+ForestField_JackwellArcQuest1_5 = People insist these medicinal plants are called "Touch of Kalibu".
+ForestField_JackwellArcQuest1_6 = But I know better, they are called "Long Legs", because they're so long.
+ForestField_JackwellArcQuest1_7 = ... At least it's a cooler name... right ?
+ForestField_JackwellArcQuest1_8 = Anyway ! I should go back to Jackwell.

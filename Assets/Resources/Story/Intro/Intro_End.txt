@@ -113,6 +113,10 @@ variable(canTravel_City_Kalia_Docks;0)
 variable(canTravel_City_Kalia_Jackwell;0)
 variable(canTravel_City_Kalia_BarGUARD;0)
 variable(canTravel_City_Kalia_RebelHQ;0)
+variable(canTravel_Region_Forest_Camp1;0)
+variable(canTravel_Region_Forest_Camp2;0)
+variable(canTravel_Region_Forest_Camp3;0)
+variable(canTravel_Region_Forest_Village;0)
 
 playMusic(Exploration_1)
 

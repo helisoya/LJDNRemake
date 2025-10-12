@@ -180,6 +180,19 @@ City_Kalia_Jackwell = Jackwell Library
 City_Kalia_BarGUARD = Max's Bar
 City_Kalia_RebelHQ = Salvation Bar
 
+Region_Forest_ToKalia = To Kalia
+Region_Forest_ToMarklicht = To Marklicht
+Region_Forest_ToOrkva = To Orkva
+Region_Forest_Field = Fields
+Region_Forest_OrderHQ = Order's HQ
+Region_Forest_Crag = Crag Pass
+Region_Forest_Cavern = Cavern
+Region_Forest_Vasalia = Mount Vasalia
+Region_Forest_Camp1 = Bandit Camp
+Region_Forest_Camp2 = Bandit Camp
+Region_Forest_Camp3 = Bandit Stronghold
+Region_Forest_Village = Northmen village
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -218,6 +231,11 @@ arcQuest_Jackwell_1 = Herbs for Jackwell
 arcQuest_Jackwell_1_0 = Forage medicinal plants in the Kalian side of the White Forest.
 arcQuest_Jackwell_1_1 = Deliver the herbs to Jackwell at his library in Kalia
 arcQuest_Jackwell_1_done = I found some medicinal herbs for Jackwell
+
+arcQuest_Jackwell_2 = Jackwell and the wolves
+arcQuest_Jackwell_2_0 = Explore the cavern in the White Forest.
+arcQuest_Jackwell_2_1 = Report back to Jackwell at his library in Kalia
+arcQuest_Jackwell_2_done = I explored the White Foret's cavern
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty

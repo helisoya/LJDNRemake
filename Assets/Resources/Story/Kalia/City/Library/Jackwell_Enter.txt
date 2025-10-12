@@ -3,6 +3,11 @@ setCharacterPosition(Jackwell;Front)
 setCharacterRotation(Jackwell;Front)
 setCharacterAlpha(Jackwell;1;false)
 
+if(arcQuest_Jackwell_1 = 1){
+	load(Kalia/City/Library/EndArcQuest1)	
+	return()
+}
+
 dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_Greetings_1)
 
 load(Kalia/City/Library/Jackwell)
