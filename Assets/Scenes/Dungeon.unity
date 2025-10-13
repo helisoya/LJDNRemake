@@ -4971,22 +4971,6 @@ MonoBehaviour:
   playerIconPrefab: {fileID: 1551233258038778866, guid: 6e7d0c92c67bdff4f90af4566b53cd61,
     type: 3}
   playerIconsRoot: {fileID: 2139646755}
-  statusSprites:
-    _serializedList:
-    - Key: 0
-      Value: {fileID: 0}
-    - Key: 1
-      Value: {fileID: 0}
-    - Key: 2
-      Value: {fileID: 0}
-    - Key: 3
-      Value: {fileID: 0}
-    - Key: 4
-      Value: {fileID: 0}
-    - Key: 5
-      Value: {fileID: 0}
-    - Key: 6
-      Value: {fileID: 0}
   miniMapRoot: {fileID: 1511099288}
   pauseRoot: {fileID: 1567995420}
   exitDungeonButton: {fileID: 1249543384}

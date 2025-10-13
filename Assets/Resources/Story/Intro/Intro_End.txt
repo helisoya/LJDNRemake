@@ -118,7 +118,7 @@ variable(canTravel_Region_Forest_Camp2;0)
 variable(canTravel_Region_Forest_Camp3;0)
 variable(canTravel_Region_Forest_Village;0)
 
-playMusic(Exploration_1)
+playMusic(Exploration_Kalia)
 
 autosave()
 

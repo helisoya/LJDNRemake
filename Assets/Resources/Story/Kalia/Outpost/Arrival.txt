@@ -1,7 +1,7 @@
 clearStack()
 setFg(1)
 
-playMusic(Exploration_1)
+playMusic(Exploration_Kalia)
 removeAllCharacters()
 setBackground(Kalia/Region/Outpost)
 

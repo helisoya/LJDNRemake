@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_Kalia
   floorsAmount: 3
   endChapter: Kalia/City/Docks/MainQuest2_End
-  musicName: 
+  musicName: Dungeon_Kalia
   canExitEarly: 0
   earlyExitChapter: 
   encounters:

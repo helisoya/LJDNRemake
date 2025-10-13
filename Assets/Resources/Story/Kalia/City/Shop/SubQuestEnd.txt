@@ -32,6 +32,6 @@ dialog(narrator;_;false;Kalia_Shop_SubQuest_18)
 
 variable(secondaryQuest_Kalia_Shop;100)
 
-playMusic(Exploration_1)
+playMusic(Exploration_Kalia)
 
 load(Kalia/City/Shop/Interaction)

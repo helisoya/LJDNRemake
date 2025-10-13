@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_Iberty
   floorsAmount: 3
   endChapter: Kalia/Iberty/Catacombs/Door_Quest_Mid
-  musicName: 
+  musicName: Dungeon_Kalia
   canExitEarly: 0
   earlyExitChapter: 
   encounters: []

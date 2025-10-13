@@ -187,6 +187,6 @@ dialog(Anna;AnnaDisguise;false;Kalia_BarSalvation_JoinRebels_116)
 variable(rebelQuest_0;100)
 addExpToAll(10)
 
-playMusic(Exploration_1)
+playMusic(Exploration_Kalia)
 
 load(Kalia/City/BarSalvation/Waiter_Exit)

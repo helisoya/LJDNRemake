@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Test
   floorsAmount: 3
   endChapter: Test/After
-  musicName: 
+  musicName: Dungeon_Kalia
   canExitEarly: 1
   earlyExitChapter: Test/Battle
   encounters:
