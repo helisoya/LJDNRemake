@@ -233,6 +233,11 @@ arcQuest_Jackwell_2_0 = Explorez la caverne dans la Forêt Blanche
 arcQuest_Jackwell_2_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_2_done = J'ai exploré la caverne de la Forêt Blanche
 
+arcQuest_Jackwell_3 = Jackwell et la montagne
+arcQuest_Jackwell_3_0 = Gravissez le Mont Vasalia
+arcQuest_Jackwell_3_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
+arcQuest_Jackwell_3_done = J'ai gravi le Mont Vasalia
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
@@ -281,6 +286,8 @@ ENNEMY_Bandit_Knife_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur
+
+ENNEMY_Animal_Wolf_name = Loup
 
 DOGACE_name = Ace
 GUARD_name = GARDE

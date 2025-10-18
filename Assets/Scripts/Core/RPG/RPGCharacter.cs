@@ -184,4 +184,14 @@ public class RPGCharacter
             LevelUp(true);
         }
     }
+
+    /// <summary>
+    /// Increase a stat by a set amount (cannot go over 99)
+    /// </summary>
+    /// <param name="stat">The stat/param>
+    /// <param name="amount">The increase amount</param>
+    public void IncreaseStat(RPGCharacterData.StatType stat, int amount)
+    {
+        baseData.stats[stat] = Mathf.Clamp(baseData.stats[stat] + amount, 0, 99);
+    }
 }

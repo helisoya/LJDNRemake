@@ -1174,6 +1174,25 @@ Kalia_Library_ArcQuest1End_19 = Oh, and here is your payment for helping me.
 Kalia_Library_ArcQuest1End_20 = <color=blue>I got 15 gold from Jackwell.</color>
 Kalia_Library_ArcQuest1End_21 = I should head for the White Forest then. 
 
+Kalia_Library_ArcQuest2End_1 = Did you kill the wolves ?
+Kalia_Library_ArcQuest2End_2 = Yes, but I fail to see how this even help you.
+Kalia_Library_ArcQuest2End_3 = Nonsense, this is what I need. You survived in a cavern full of wolves.
+Kalia_Library_ArcQuest2End_4 = I heard this faraway land is full of them. So I need to know how to defeat them.
+Kalia_Library_ArcQuest2End_5 = Punching them do the trick it seems.
+Kalia_Library_ArcQuest2End_6 = ... Wonderful !
+Kalia_Library_ArcQuest2End_7 = Anything else you can tell me about this wonderful island ?
+Kalia_Library_ArcQuest2End_8 = Oh, well... Apparently, it is quite mountainous.
+Kalia_Library_ArcQuest2End_9 = I'd like you to help me with that actually.
+Kalia_Library_ArcQuest2End_10 = Take these equipements, and climb up to the top of mount Vasalia.
+Kalia_Library_ArcQuest2End_11 = Are you serious ?
+Kalia_Library_ArcQuest2End_12 = Yes. Now go ! For science !
+Kalia_Library_ArcQuest2End_13 = Oh, before that. Here is your pay.
+Kalia_Library_ArcQuest2End_14 = <color=blue>I got 15 gold from Jackwell.</color>
+Kalia_Library_ArcQuest2End_15 = Let me also heal you from your encounter with the wolves.
+Kalia_Library_ArcQuest2End_16 = <color=blue>I earned 2 points in "Bonus HP".</color>
+Kalia_Library_ArcQuest2End_17 = Well, I guess I should go climb a mountain now...
+
+
 Kalia_Library_Jackwell_AboutYou_1 = I am the fourth owner of the Jackwell Library of Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = My great-grandfather created this library to allow Kalians to lean about about anything.
 Kalia_Library_Jackwell_AboutYou_3 = People come here to learn about geography, nature and much more.
@@ -1233,3 +1252,11 @@ ForestField_JackwellArcQuest1_5 = People insist these medicinal plants are calle
 ForestField_JackwellArcQuest1_6 = But I know better, they are called "Long Legs", because they're so long.
 ForestField_JackwellArcQuest1_7 = ... At least it's a cooler name... right ?
 ForestField_JackwellArcQuest1_8 = Anyway ! I should go back to Jackwell.
+
+# ---------------------------------------------------------
+# --------------- Forest - Cavern -------------------------
+# ---------------------------------------------------------
+
+ForestCavern_Enter_Cant_1 = I don't need to go in there.
+
+ForestCavern_End_Jackwell_1 = Jackwell should be happy now. I should go back to him.

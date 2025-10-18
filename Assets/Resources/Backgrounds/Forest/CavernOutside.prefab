@@ -5350,9 +5350,7 @@ GameObject:
   - component: {fileID: 2093436989776600182}
   - component: {fileID: 2093436989776600183}
   - component: {fileID: 2093436989776600180}
-  - component: {fileID: 2093436989776600181}
-  - component: {fileID: 2093436989776600074}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Black (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5669,38 +5667,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093436989776600072}
   m_Mesh: {fileID: 0}
---- !u!64 &2093436989776600181
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093436989776600072}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!114 &2093436989776600074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093436989776600072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d19a3385f15f0d41add10f5196f1a1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: Mines
-  nextChapter: 
-  icon: {fileID: 2800000, guid: 6df575f0ceea0b54395c94f8e3136e0e, type: 3}
-  glowFadeSpeed: 2
-  objectRenderers:
-  - {fileID: 2093436989776600183}
 --- !u!1 &2093436990048206633
 GameObject:
   m_ObjectHideFlags: 0

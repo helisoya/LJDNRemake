@@ -1144,11 +1144,29 @@ Kalia_Library_ArcQuest1End_13 = J'ai ajouté quelques autres plantes et du poivr
 Kalia_Library_ArcQuest1End_14 = Du poivre ?
 Kalia_Library_ArcQuest1End_15 = Pourquoi pas ? En attendant, j'ai besoin de votre aide à nouveau.
 Kalia_Library_ArcQuest1End_16 = Maintenant que je sais comment traiter des blessures, j'aimerai que vous vous métiez en "danger".
-Kalia_Library_ArcQuest1End_17 = Il y a une caverne dans la Forêt Blanche qui abritent beaucoup de loups.
+Kalia_Library_ArcQuest1End_17 = Il y a une grotte dans la Forêt Blanche qui abritent beaucoup de loups.
 Kalia_Library_ArcQuest1End_18 = Allez la bas, et tuez en quelque uns.
 Kalia_Library_ArcQuest1End_19 = Oh, et voila votre paie pour m'avoir aidé.
 Kalia_Library_ArcQuest1End_20 = <color=blue>J'ai reçu 15 or de Jackwell.</color>
 Kalia_Library_ArcQuest1End_21 = Je devrais aller à la Forêt Blanche alors. 
+
+Kalia_Library_ArcQuest2End_1 = Avez-vous tué les loups ?
+Kalia_Library_ArcQuest2End_2 = Oui, mais je n'arrive pas à savoir comment cela vous aide.
+Kalia_Library_ArcQuest2End_3 = N'importe quoi. C'est tout ce dont j'ai besoin. Vous avez survécu dans une grotte remplie de loups.
+Kalia_Library_ArcQuest2End_4 = J'ai entendu dire que cette terre en était remplie. Alors j'ai besoin de savoir comment les vaincre.
+Kalia_Library_ArcQuest2End_5 = Les frapper a l'air suffisant.
+Kalia_Library_ArcQuest2End_6 = ... Incroyable !
+Kalia_Library_ArcQuest2End_7 = Vous pouvez me dire quelque chose d'autre sur votre île incroyable ?
+Kalia_Library_ArcQuest2End_8 = Oh, et bien... Apparement, elle est plutôt montagneuse.
+Kalia_Library_ArcQuest2End_9 = J'aimerai que vous m'aidiez avec ça, par ailleurs.
+Kalia_Library_ArcQuest2End_10 = Prenez ces équipements, et montez au sommet du mont Vasalia.
+Kalia_Library_ArcQuest2End_11 = Vous êtes sérieux ?
+Kalia_Library_ArcQuest2End_12 = Oui. Maintenant, allez-y ! Pour la science !
+Kalia_Library_ArcQuest2End_13 = Oh, et avant ça, voila votre paie.
+Kalia_Library_ArcQuest2End_14 = <color=blue>J'ai reçu 15 or de Jackwell.</color>
+Kalia_Library_ArcQuest2End_15 = Laissez-moi aussi vous soigner après votre combat avec les loups.
+Kalia_Library_ArcQuest2End_16 = <color=blue>J'ai gagné 2 points en "PV Bonus".</color>
+Kalia_Library_ArcQuest2End_17 = Bon, je devrais aller gravir une montagne maintenant...
 
 Kalia_Library_Jackwell_AboutYou_1 = Je suis le quatrième propriétaire de la bibliothèque Jackwell de Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = Mon arrière-grand-père a créé cette bibliothèque pour permettre aux Kaliens d'apprendre sur tous les sujets.
@@ -1208,3 +1226,11 @@ ForestField_JackwellArcQuest1_5 = Les gens insistent que ces plantes médicinale
 ForestField_JackwellArcQuest1_6 = Mais je sais qu'elles s'appellent "Longues Pâtes", car elles sont si longue.
 ForestField_JackwellArcQuest1_7 = ... Au moins c'est un nom plus cool... pas vrai ?
 ForestField_JackwellArcQuest1_8 = Enfin ! Je devrais retourner voir Jackwell.
+
+# ---------------------------------------------------------
+# --------------- Forest - Cavern -------------------------
+# ---------------------------------------------------------
+
+ForestCavern_Enter_Cant_1 = Je n'ai pas besoin de rentrer à l'intérieur.
+
+ForestCavern_End_Jackwell_1 = Jackwell devrait être satisfait. Je devrais aller le retrouver.

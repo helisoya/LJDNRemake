@@ -237,6 +237,11 @@ arcQuest_Jackwell_2_0 = Explore the cavern in the White Forest.
 arcQuest_Jackwell_2_1 = Report back to Jackwell at his library in Kalia
 arcQuest_Jackwell_2_done = I explored the White Foret's cavern
 
+arcQuest_Jackwell_3 = Jackwell and the mountain
+arcQuest_Jackwell_3_0 = Climb Mount Vasalia
+arcQuest_Jackwell_3_1 = Report back to Jackwell at his library in Kalia
+arcQuest_Jackwell_3_done = I climbed Mount Vasalia
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
@@ -285,6 +290,8 @@ ENNEMY_Bandit_Knife_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Summoner
 ENNEMY_Summoner_Knife_name = Summoner
+
+ENNEMY_Animal_Wolf_name = Wolf
 
 DOGACE_name = Ace
 GUARD_name = GUARD

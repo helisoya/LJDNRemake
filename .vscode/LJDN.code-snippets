@@ -477,5 +477,13 @@
 			"alignToCharacterLevel(TOALIGN;ALIGNWITH)"
 		],
 		"description": "Aligns a character's level to another's"
+	},
+	"Add points to a character": {
+		"scope": "ansl",
+		"prefix": "addPointsToCharacter",
+		"body": [
+			"addPointsToCharacter(CHARACTER;0;AMOUNT)"
+		],
+		"description": "Adds points to a character"
 	}
 }

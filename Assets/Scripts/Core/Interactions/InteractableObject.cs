@@ -99,7 +99,7 @@ public class InteractableObject : MonoBehaviour
     /// <param name="chapter">The new chapter</param>
     public void ChangeChapter(string chapter)
     {
-        nextChapter = chapter;
+        nextChapter = new string(chapter);
     }
 
     /// <summary>

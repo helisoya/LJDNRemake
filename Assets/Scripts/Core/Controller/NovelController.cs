@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -194,6 +195,7 @@ public class NovelController : MonoBehaviour
 
     public void LoadChapterFile(string filename, int chapterProgress = 0)
     {
+        print("Loading chapter : " + $"Story/{filename}");
         StopAllCoroutines();
         handlingChapterFile = false;
 
@@ -214,7 +216,6 @@ public class NovelController : MonoBehaviour
         activeChapterFile = filename;
         this.chapterProgress = chapterProgress;
 
-        print("Loading chapter : " + $"Story/{filename}");
         data = FileManager.ReadTextAsset(Resources.Load<TextAsset>($"Story/{filename}"));
 
         StartCoroutine(HandlingChapterFile());
@@ -1040,13 +1041,20 @@ public class NovelController : MonoBehaviour
                 }
                 break;
 
+            case "addPointsToCharacter":
+                GameManager.GetRPGManager().GetCharacter(parameters[0]).IncreaseStat(
+                    Enum.Parse<RPGCharacterData.StatType>(parameters[1]),
+                    int.Parse(parameters[2])
+                );
+                break;
+
             case "variable":
                 GameManager.GetSaveManager().EditVariable(parameters[0], parameters[1]);
                 break;
 
             case "random":
                 GameManager.GetSaveManager().EditVariable("random",
-                Random.Range(int.Parse(parameters[0]), int.Parse(parameters[1])).ToString());
+                UnityEngine.Random.Range(int.Parse(parameters[0]), int.Parse(parameters[1])).ToString());
                 break;
 
             case "changeSkybox":
