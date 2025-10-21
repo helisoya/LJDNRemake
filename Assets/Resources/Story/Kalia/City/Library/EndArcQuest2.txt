@@ -1,4 +1,4 @@
-# Ends the Jackwell Arc Quest 1
+# Ends the Jackwell Arc Quest 2
 
 dialog(Jackwell;Jackwell;false;Kalia_Library_ArcQuest2End_1)
 

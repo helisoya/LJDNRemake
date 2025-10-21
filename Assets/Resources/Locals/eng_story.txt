@@ -936,6 +936,11 @@ Kalia_Plaza_GUARDArcQuest2_End_42 = My next step is up to me.
 
 Kalia_Lighthouse_Door_Locked_1 = Locked...
 
+Kalia_Lighthouse_JackwellArcQuest4_1 = This is where Jackwell wanted me to swim...
+Kalia_Lighthouse_JackwellArcQuest4_2 = Here I go...
+Kalia_Lighthouse_JackwellArcQuest4_3 = After a few minutes, I finished swiming around the lighthouse.
+Kalia_Lighthouse_JackwellArcQuest4_4 = Jackwell should be happy now. I should head back.
+
 
 # ---------------------------------------------------------
 # ------------ Kalia - Salvation Bar ----------------------
@@ -1192,6 +1197,38 @@ Kalia_Library_ArcQuest2End_15 = Let me also heal you from your encounter with th
 Kalia_Library_ArcQuest2End_16 = <color=blue>I earned 2 points in "Bonus HP".</color>
 Kalia_Library_ArcQuest2End_17 = Well, I guess I should go climb a mountain now...
 
+Kalia_Library_ArcQuest3End_1 = Did you climb to the top of mount Vasalia ?
+Kalia_Library_ArcQuest3End_2 = Yes, but there was a path. In the end, I didn't need your tools.
+Kalia_Library_ArcQuest3End_3 = I see... natives may create roads for you to take...
+Kalia_Library_ArcQuest3End_4 = What is he even writing ?
+Kalia_Library_ArcQuest3End_5 = Here, take your pay for helping me.
+Kalia_Library_ArcQuest3End_6 = <color=blue>I got 15 gold from Jackwell.</color>
+Kalia_Library_ArcQuest3End_7 = Oh, and I also researched novel ways to climb mountains. Let me teach them to you.
+Kalia_Library_ArcQuest3End_8 = <color=blue>I earned 2 points in "Agility".</color>
+Kalia_Library_ArcQuest3End_9 = Is that all you need for your book ?
+Kalia_Library_ArcQuest3End_10 = Not quite. I still need research for my last chapter.
+Kalia_Library_ArcQuest3End_11 = Since that island is... well... an island, I thought it was interesting to write about swimming.
+Kalia_Library_ArcQuest3End_12 = Could you go to the lighthouse, and swim a little ?
+Kalia_Library_ArcQuest3End_13 = I...  I guess I could do that.
+Kalia_Library_ArcQuest3End_14 = This is getting more and more ridiculous...
+Kalia_Library_ArcQuest3End_15 = Fantastic, I'll await eagerly your return.
+
+Kalia_Library_ArcQuest4End_1 = So ?
+Kalia_Library_ArcQuest4End_2 = Well... I guess I can swim ?
+Kalia_Library_ArcQuest4End_3 = Incredible !
+Kalia_Library_ArcQuest4End_4 = Let me write this down... "Humans can float"...
+Kalia_Library_ArcQuest4End_5 = Somehow, I fear for the quality of his book.
+Kalia_Library_ArcQuest4End_6 = Ah ! With this, my research is complete. I can now write my book.
+Kalia_Library_ArcQuest4End_7 = Here, take this as a reward.
+Kalia_Library_ArcQuest4End_8 = <color=blue>I got 30 gold from Jackwell.</color>
+Kalia_Library_ArcQuest4End_9 = Oh, and let me teach you a few things I learnt about survival.
+Kalia_Library_ArcQuest4End_10 = <color=blue>I earned 2 points in "Resilience".</color>
+Kalia_Library_ArcQuest4End_11 = So, my job here is done then ?
+Kalia_Library_ArcQuest4End_12 = Yes, I'll be working on writing my book from now on.
+Kalia_Library_ArcQuest4End_13 = But rest assured that you'll get a free copy when it's finished.
+Kalia_Library_ArcQuest4End_14 = I see... Thank you.
+Kalia_Library_ArcQuest4End_15 = Not that I'll need it anyway...
+Kalia_Library_ArcQuest4End_16 = Well, glad that this is over.
 
 Kalia_Library_Jackwell_AboutYou_1 = I am the fourth owner of the Jackwell Library of Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = My great-grandfather created this library to allow Kalians to lean about about anything.
@@ -1260,3 +1297,14 @@ ForestField_JackwellArcQuest1_8 = Anyway ! I should go back to Jackwell.
 ForestCavern_Enter_Cant_1 = I don't need to go in there.
 
 ForestCavern_End_Jackwell_1 = Jackwell should be happy now. I should go back to him.
+
+# ---------------------------------------------------------
+# --------------- Forest - Mount Vasalia ------------------
+# ---------------------------------------------------------
+
+MountVasalia_JackwellArcQuest3_1 = So this is Mount Vasalia...
+MountVasalia_JackwellArcQuest3_2 = People say it's the highest point around Kalia.
+MountVasalia_JackwellArcQuest3_3 = In the end, I don't know why Jackwell gave me these ropes.
+MountVasalia_JackwellArcQuest3_4 = There was a path going to the mountain's submit.
+MountVasalia_JackwellArcQuest3_5 = I guess this is a somewhat popular place.
+MountVasalia_JackwellArcQuest3_6 = Alright, I should go back to Jackwell. No sense in staying here for too long.

@@ -13,6 +13,16 @@ if(arcQuest_Jackwell_2 = 1){
 	return()
 }
 
+if(arcQuest_Jackwell_3 = 1){
+	load(Kalia/City/Library/EndArcQuest3)	
+	return()
+}
+
+if(arcQuest_Jackwell_4 = 1){
+	load(Kalia/City/Library/EndArcQuest4)	
+	return()
+}
+
 dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_Greetings_1)
 
 load(Kalia/City/Library/Jackwell)

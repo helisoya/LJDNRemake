@@ -36,6 +36,7 @@ arcQuest_Guard_3 -1
 arcQuest_Jackwell_1 -1
 arcQuest_Jackwell_2 -1
 arcQuest_Jackwell_3 -1
+arcQuest_Jackwell_4 -1
 
 # Faction Quests
 factionQuest_Kalia_1 -1

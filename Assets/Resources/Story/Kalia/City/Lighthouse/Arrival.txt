@@ -15,4 +15,9 @@ autosave()
 
 fadeFg(0;false)
 
+if(arcQuest_Jackwell_4 = 0){
+	load(Kalia/City/Lighthouse/JackwellArcQuest4)
+	return()
+}
+
 load(Kalia/City/Lighthouse/Interaction)

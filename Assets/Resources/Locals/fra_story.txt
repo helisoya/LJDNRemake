@@ -912,6 +912,11 @@ Kalia_Plaza_GUARDArcQuest2_End_42 = C'est cependant à moi de choisir ma prochai
 
 Kalia_Lighthouse_Door_Locked_1 = Fermée...
 
+Kalia_Lighthouse_JackwellArcQuest4_1 = C'est ici que Jackwell veut que je nage...
+Kalia_Lighthouse_JackwellArcQuest4_2 = Allons-y...
+Kalia_Lighthouse_JackwellArcQuest4_3 = Après quelques minutes, j'ai fini de nager autour du phare.
+Kalia_Lighthouse_JackwellArcQuest4_4 = Jackwell devrait être content maintenant. Je devrais rentrer.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Salvation Bar ----------------------
 # ---------------------------------------------------------
@@ -1168,6 +1173,39 @@ Kalia_Library_ArcQuest2End_15 = Laissez-moi aussi vous soigner après votre comb
 Kalia_Library_ArcQuest2End_16 = <color=blue>J'ai gagné 2 points en "PV Bonus".</color>
 Kalia_Library_ArcQuest2End_17 = Bon, je devrais aller gravir une montagne maintenant...
 
+Kalia_Library_ArcQuest3End_1 = Avez-vous grimpé au sommet du mont Vasalia.
+Kalia_Library_ArcQuest3End_2 = Oui, mais il y avait un chemin. Je n'ai pas eu besoin de vos outils au final.
+Kalia_Library_ArcQuest3End_3 = Je vois... les autochtones peuvent créer des chemins pour vous...
+Kalia_Library_ArcQuest3End_4 = Mais de quoi il parle ?
+Kalia_Library_ArcQuest3End_5 = Tenez, voila votre paie pour m'avoir aidé.
+Kalia_Library_ArcQuest3End_6 = <color=blue>J'ai reçu 15 or de Jackwell.</color>
+Kalia_Library_ArcQuest3End_7 = Oh, et j'ai fait de la recherche sur des méthodes d'escalade. Laissez-moi vous les enseigner.
+Kalia_Library_ArcQuest3End_8 = <color=blue>J'ai gagné 2 points en "Agilité".</color>
+Kalia_Library_ArcQuest3End_9 = C'est tout ce dont vous avez besoin pour votre livre ?
+Kalia_Library_ArcQuest3End_10 = Pas tout a fait. J'ai encore besoin de recherche pour mon dernier chapitre.
+Kalia_Library_ArcQuest3End_11 = Comme cette île est... une île, je me suis dit qu'il serait intéressant d'écrire à propos de la nage.
+Kalia_Library_ArcQuest3End_12 = Pouriez-vous aller au phare et nager un peu ?
+Kalia_Library_ArcQuest3End_13 = Je... Je suppose que oui.
+Kalia_Library_ArcQuest3End_14 = Ca devient de plus en plus ridicule...
+Kalia_Library_ArcQuest3End_15 = Fantastique. J'attend votre retour avec impatience.
+
+Kalia_Library_ArcQuest4End_1 = Alors ?
+Kalia_Library_ArcQuest4End_2 = Et bien... Je sais nager ?
+Kalia_Library_ArcQuest4End_3 = Incroyable !
+Kalia_Library_ArcQuest4End_4 = Laissez-moi noter ça... "Les humains flottent"...
+Kalia_Library_ArcQuest4End_5 = J'ai peur pour la qualité de son livre.
+Kalia_Library_ArcQuest4End_6 = Ah ! Avec cela, ma recheche est finie. Je vais pouvoir commençer à écrire mon livre.
+Kalia_Library_ArcQuest4End_7 = Tenez, voici votre récompense.
+Kalia_Library_ArcQuest4End_8 = <color=blue>J'ai reçu 30 or de Jackwell.</color>
+Kalia_Library_ArcQuest4End_9 = Oh, et laissez-moi vous apprendre quelques trucs que j'ai appris sur la survie.
+Kalia_Library_ArcQuest4End_10 = <color=blue>J'ai gagné 2 points en "Resilience".</color>
+Kalia_Library_ArcQuest4End_11 = Donc, mon travail ici est fini ?
+Kalia_Library_ArcQuest4End_12 = Oui, je vais dès a présent commencer à écrire mon livre.
+Kalia_Library_ArcQuest4End_13 = Mais n'ayez crainte. Vous aurez une copie gratuite quand je l'aurai finie.
+Kalia_Library_ArcQuest4End_14 = Je vois... merci.
+Kalia_Library_ArcQuest4End_15 = Pas que j'en ai besoin...
+Kalia_Library_ArcQuest4End_16 = Bref, content d'en avoir fini.
+
 Kalia_Library_Jackwell_AboutYou_1 = Je suis le quatrième propriétaire de la bibliothèque Jackwell de Kalia.
 Kalia_Library_Jackwell_AboutYou_2 = Mon arrière-grand-père a créé cette bibliothèque pour permettre aux Kaliens d'apprendre sur tous les sujets.
 Kalia_Library_Jackwell_AboutYou_3 = On y vient pour apprendre la géographie, la nature et bien plus encore.
@@ -1234,3 +1272,14 @@ ForestField_JackwellArcQuest1_8 = Enfin ! Je devrais retourner voir Jackwell.
 ForestCavern_Enter_Cant_1 = Je n'ai pas besoin de rentrer à l'intérieur.
 
 ForestCavern_End_Jackwell_1 = Jackwell devrait être satisfait. Je devrais aller le retrouver.
+
+# ---------------------------------------------------------
+# --------------- Forest - Mount Vasalia ------------------
+# ---------------------------------------------------------
+
+MountVasalia_JackwellArcQuest3_1 = Donc voila le mont Vasalia...
+MountVasalia_JackwellArcQuest3_2 = Les gens disent que c'est le point le plus haut aux alentours de Kalia.
+MountVasalia_JackwellArcQuest3_3 = Au final, je ne sais pas pourquoi Jackwell m'a donné ces cordes.
+MountVasalia_JackwellArcQuest3_4 = Il y avait un chemin qui menait directement au sommet.
+MountVasalia_JackwellArcQuest3_5 = Je suppose que c'est un endroit vaguement populaire.
+MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackwell. Ca ne sert à rien de rester trop longtemps.

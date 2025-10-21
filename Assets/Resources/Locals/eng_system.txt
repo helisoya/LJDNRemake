@@ -242,6 +242,11 @@ arcQuest_Jackwell_3_0 = Climb Mount Vasalia
 arcQuest_Jackwell_3_1 = Report back to Jackwell at his library in Kalia
 arcQuest_Jackwell_3_done = I climbed Mount Vasalia
 
+arcQuest_Jackwell_4 = Jackwell and water
+arcQuest_Jackwell_4_0 = Swim near Kalia's lighthouse
+arcQuest_Jackwell_4_1 = Report back to Jackwell at his library in Kalia
+arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty

@@ -67,7 +67,7 @@ Region_Forest_Field Forest/Field/Arrival canTravel_Region_Forest_Field 1
 Region_Forest_OrderHQ TODO canTravel_Region_Forest_OrderHQ 1
 Region_Forest_Crag TODO canTravel_Region_Forest_Crag 1
 Region_Forest_Cavern Forest/Cavern/Arrival canTravel_Region_Forest_Cavern 1
-Region_Forest_Vasalia TODO canTravel_Region_Forest_Vasalia 1
+Region_Forest_Vasalia Forest/MountVasalia/Arrival canTravel_Region_Forest_Vasalia 1
 Region_Forest_Camp1 TODO canTravel_Region_Forest_Camp1 1
 Region_Forest_Camp2 TODO canTravel_Region_Forest_Camp2 1
 Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
