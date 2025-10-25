@@ -32,6 +32,7 @@ orkvaQuest_0 -1
 arcQuest_Guard_1 -1
 arcQuest_Guard_2 -1
 arcQuest_Guard_3 -1
+arcQuest_Guard_4 -1
 
 arcQuest_Jackwell_1 -1
 arcQuest_Jackwell_2 -1

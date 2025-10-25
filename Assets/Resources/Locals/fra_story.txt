@@ -1283,3 +1283,9 @@ MountVasalia_JackwellArcQuest3_3 = Au final, je ne sais pas pourquoi Jackwell m'
 MountVasalia_JackwellArcQuest3_4 = Il y avait un chemin qui menait directement au sommet.
 MountVasalia_JackwellArcQuest3_5 = Je suppose que c'est un endroit vaguement populaire.
 MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackwell. Ca ne sert à rien de rester trop longtemps.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Crag Pass ------------------
+# ---------------------------------------------------------
+
+CragPass_FinishDungeon_1 = Après avoir traversé le passage, j'ai réussi a atteindre le village nordien.

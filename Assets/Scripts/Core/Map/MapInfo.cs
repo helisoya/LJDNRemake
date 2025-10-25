@@ -30,7 +30,7 @@ public class MapInfo : MonoBehaviour
     {
         Vector2 position = Input.mousePosition;
         if (position.x >= Screen.width - size.x) position.x -= size.x;
-        if (position.y >= Screen.height - size.y) position.y -= size.y;
+        if (position.y < size.y) position.y += size.y;
         transform.position = position;
     }
 

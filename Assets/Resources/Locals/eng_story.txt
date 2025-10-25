@@ -1254,7 +1254,7 @@ Kalia_Library_Jackwell_AboutKalia_10 = Now, rumors says Orkva wants to invade ag
 
 Kalia_Library_Jackwell_AboutContinent_1 = Our large continent is called Vasia.
 Kalia_Library_Jackwell_AboutContinent_2 = Kalia is situated on the east coast of it.
-Kalia_Library_Jackwell_AboutContinent_3 = Our direct neighbors are Orkva and Marklicht. I suppose we also are almost neighbors with the northmens.
+Kalia_Library_Jackwell_AboutContinent_3 = Our direct neighbors are Orkva and Marklicht. I suppose we also are almost neighbors with the northmen.
 Kalia_Library_Jackwell_AboutContinent_4 = The continent was for a very long time dominated by two powers : Alhaunia and the Central Empire.
 Kalia_Library_Jackwell_AboutContinent_5 = They waged many wars on the western side of the continent for control of key regions.
 Kalia_Library_Jackwell_AboutContinent_6 = Nowadays, Alhaunia is declining and the Central Empire was disintegrated due to a civil war.
@@ -1308,3 +1308,9 @@ MountVasalia_JackwellArcQuest3_3 = In the end, I don't know why Jackwell gave me
 MountVasalia_JackwellArcQuest3_4 = There was a path going to the mountain's submit.
 MountVasalia_JackwellArcQuest3_5 = I guess this is a somewhat popular place.
 MountVasalia_JackwellArcQuest3_6 = Alright, I should go back to Jackwell. No sense in staying here for too long.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Crag Pass ------------------
+# ---------------------------------------------------------
+
+CragPass_FinishDungeon_1 = After crossing the pass, I managed to arrive at the northmen village.
