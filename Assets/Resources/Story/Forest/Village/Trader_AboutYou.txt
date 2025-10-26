@@ -1,0 +1,3 @@
+dialog(Northman;Northman2;false;NorthVillage_Trader_AboutYou_1)
+
+load(Forest/Village/Trader)

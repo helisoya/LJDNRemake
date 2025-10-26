@@ -228,7 +228,7 @@ arcQuest_Guard_3_1 = Meet GUARD at Max's bar in Kalia
 arcQuest_Guard_3_done = I stole the bomb from Orkva
 
 arcQuest_Jackwell_1 = Herbs for Jackwell
-arcQuest_Jackwell_1_0 = Forage medicinal plants in the Kalian side of the White Forest.
+arcQuest_Jackwell_1_0 = Forage medicinal plants in the Kalian side of the White Forest
 arcQuest_Jackwell_1_1 = Deliver the herbs to Jackwell at his library in Kalia
 arcQuest_Jackwell_1_done = I found some medicinal herbs for Jackwell
 
@@ -246,6 +246,15 @@ arcQuest_Jackwell_4 = Jackwell and water
 arcQuest_Jackwell_4_0 = Swim near Kalia's lighthouse
 arcQuest_Jackwell_4_1 = Report back to Jackwell at his library in Kalia
 arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
+
+arcQuest_Dragon_1 = Hunting wolves
+arcQuest_Dragon_1_0 = Kill wolves (0/5)
+arcQuest_Dragon_1_1 = Kill wolves (1/5)
+arcQuest_Dragon_1_2 = Kill wolves (2/5)
+arcQuest_Dragon_1_3 = Kill wolves (3/5)
+arcQuest_Dragon_1_4 = Kill wolves (4/5)
+arcQuest_Dragon_1_5 = Talk to the northmen village's elder
+arcQuest_Dragon_1_done = I killed some wolves
 
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty

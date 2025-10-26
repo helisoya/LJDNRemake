@@ -24,6 +24,8 @@ Char_Bos = Bos
 Char_Anna = Anna
 Char_Amanda = Amanda
 Char_Jackwell = Jackwell
+Char_Northman = Northman
+Char_Elder = Elder
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -64,6 +66,7 @@ Choice_AboutSect = About the sect
 Choice_AboutRebellion = About the rebellion
 Choice_AboutKalia = About Kalia
 Choice_AboutContinent = About the continent
+Choice_AboutVillage = About the village
 
 Choice_Left = Go left
 Choice_Right = Go right
@@ -1314,3 +1317,41 @@ MountVasalia_JackwellArcQuest3_6 = Alright, I should go back to Jackwell. No sen
 # ---------------------------------------------------------
 
 CragPass_FinishDungeon_1 = After crossing the pass, I managed to arrive at the northmen village.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Crag Pass ------------------
+# ---------------------------------------------------------
+
+NorthVillage_Trader_Greetings_1 = Hello traveler. Interested in my wares ?
+
+NorthVillage_Trader_AboutYou_1 = Why would I trust your kind, traveler ?
+
+
+NorthVillage_Elder_Greetings_1 = May the moon guide your steps, traveler.
+
+NorthVillage_Elder_AboutYou_1 = I am the village's elder.
+NorthVillage_Elder_AboutYou_2 = Because of this, I am the referent for important decisions around here.
+NorthVillage_Elder_AboutYou_3 = For instance, if a trader wants to open shop here, they'll have to talk to me first.
+
+NorthVillage_Elder_AboutVillage_1 = Our little village is part of the loose Northmen Confederacy.
+NorthVillage_Elder_AboutVillage_2 = Big political decisions are made in the capital city near the great frozen lake, far up north.
+NorthVillage_Elder_AboutVillage_3 = But with daily matters, it is I who takes decisions.
+NorthVillage_Elder_AboutVillage_4 = We've had troublesome relations with neighboring countries in the past.
+NorthVillage_Elder_AboutVillage_5 = There is a strong distrust between our two people, as you can probably guess.
+NorthVillage_Elder_AboutVillage_6 = The incident with Marklicht didn't help with this distrust.
+NorthVillage_Elder_AboutVillage_7 = It was an accident, a communication failure, but still... The damage was done.
+
+NorthVillage_Elder_StartArc_1 = Actually, we require the services of a strong warrior.
+NorthVillage_Elder_StartArc_2 = A great dragon has been sighted further north-west.
+NorthVillage_Elder_StartArc_3 = We fear that it might come here, so we need protection.
+NorthVillage_Elder_StartArc_4 = You want me to kill it ? I'm not sure I can handle that.
+NorthVillage_Elder_StartArc_5 = I'll train you, and I'll even pay you upon defeating this beast.
+NorthVillage_Elder_StartArc_6 = This is really dangerous, but I don't think that letting a dragon loose nearby is a good idea.
+NorthVillage_Elder_StartArc_7 = Alright, I'll help you.
+NorthVillage_Elder_StartArc_8 = Thank you, kind traveler.
+NorthVillage_Elder_StartArc_9 = Now, let us start your training.
+NorthVillage_Elder_StartArc_10 = What you will be facing will not be your average bandit.
+NorthVillage_Elder_StartArc_11 = You need to learn how to defeat animals.
+
+NorthVillage_Elder_ReminderQuest1_1 = There is a cavern full of wolves in the forest.
+NorthVillage_Elder_ReminderQuest1_2 = Go there and kill 5 wolves.

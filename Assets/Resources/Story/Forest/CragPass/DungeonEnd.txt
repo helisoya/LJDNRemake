@@ -14,6 +14,7 @@ else{
 	load(Common/ProcessDayNight)
 	load(Common/ProcessWeather)
 	load(Common/DisplayWeatherSnow)
+	load(Forest/Village/Decorate)
 
 	setLocation(Location_WhiteForest)
 

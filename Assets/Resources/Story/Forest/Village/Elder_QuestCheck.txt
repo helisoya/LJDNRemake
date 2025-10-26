@@ -1,0 +1,11 @@
+# Start Arc
+if(arcQuest_Dragon_1 = -1){
+	load(Forest/Village/Elder_StartArc)
+	return()
+}
+
+# Arc Quest 1 in progress
+if(arcQuest_Dragon_1 < 100){
+	load(Forest/Village/Elder_ArcQuest1)
+	return()
+}

@@ -243,6 +243,15 @@ arcQuest_Jackwell_3_0 = Nagez près du phare de Kalia
 arcQuest_Jackwell_3_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_3_done = J'ai nagé vers le phare de Kalia
 
+arcQuest_Dragon_1 = Chasse aux loups
+arcQuest_Dragon_1_0 = Tuez des loups (0/5)
+arcQuest_Dragon_1_1 = Tuez des loups (1/5)
+arcQuest_Dragon_1_2 = Tuez des loups (2/5)
+arcQuest_Dragon_1_3 = Tuez des loups (3/5)
+arcQuest_Dragon_1_4 = Tuez des loups (4/5)
+arcQuest_Dragon_1_5 = Parlez à la doyenne du village Nordien
+arcQuest_Dragon_1_done = J'ai tué des loups
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty

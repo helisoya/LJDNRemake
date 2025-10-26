@@ -23,6 +23,8 @@ Char_Bos = Bos
 Char_Anna = Anna
 Char_Amanda = Amanda
 Char_Jackwell = Jackwell
+Char_Northman = Nordien
+Char_Elder = Ancien
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -63,6 +65,7 @@ Choice_AboutSect = A propos de la secte
 Choice_AboutRebellion = A propos de la rebéllion
 Choice_AboutKalia = A propos de Kalia
 Choice_AboutContinent = A propos du Continent
+Choice_AboutVillage = A propos du village
 
 Choice_Left = Aller à Gauche
 Choice_Right = Aller à Droite
@@ -1289,3 +1292,41 @@ MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackw
 # ---------------------------------------------------------
 
 CragPass_FinishDungeon_1 = Après avoir traversé le passage, j'ai réussi a atteindre le village nordien.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Crag Pass ------------------
+# ---------------------------------------------------------
+
+NorthVillage_Trader_Greetings_1 = Bonjour étranger. Mes articles vous intéressent ?
+
+NorthVillage_Trader_AboutYou_1 = Pourquoi ferais-je confiance à votre peuple, étranger ?
+
+
+NorthVillage_Elder_Greetings_1 = Puisse la lune guider vos pas, étranger.
+
+NorthVillage_Elder_AboutYou_1 = Je suis la doyenne du village.
+NorthVillage_Elder_AboutYou_2 = A cause de cela, je suis la référente pour les décisions importantes dans ce village.
+NorthVillage_Elder_AboutYou_3 = Par exemple, si un commerçant veut ouvrir boutique ici, il devra m'en parler auparavant.
+
+NorthVillage_Elder_AboutVillage_1 = Notre petit village fait partie de la décentralisée Confédération des Nordiens.
+NorthVillage_Elder_AboutVillage_2 = Les décisions politiques se font à la capitale, vers le grand lac gelé, bien plus au nord.
+NorthVillage_Elder_AboutVillage_3 = Mais en ce qui concerne les décisions journalières, c'est moi qui m'en occupe.
+NorthVillage_Elder_AboutVillage_4 = Nous avons eu des relations troublées avec les pays voisins par le passé.
+NorthVillage_Elder_AboutVillage_5 = Il y a un grand manque de confiance entre nos deux peuples, comme vous le savez.
+NorthVillage_Elder_AboutVillage_6 = L'incident avec le Marklicht n'a pas aidé.
+NorthVillage_Elder_AboutVillage_7 = C'était un accident, une érreur de communication, mais... les dégats ont été fait.
+
+NorthVillage_Elder_StartArc_1 = En réalité, nous aurions besoin d'un guerrier.
+NorthVillage_Elder_StartArc_2 = Un grand dragon a été vu au nord-ouest.
+NorthVillage_Elder_StartArc_3 = Nous avons peur qu'il vienne par ici. Nous aurions donc besoin de protection.
+NorthVillage_Elder_StartArc_4 = Vous voulez que je le tue ? Je ne suis pas sur de pouvoir le faire.
+NorthVillage_Elder_StartArc_5 = Je vais vous entrainer, et je vous paierai une fois la bête térassée.
+NorthVillage_Elder_StartArc_6 = C'est très dangereux, mais je ne pense pas que laisser un dragon en liberté soit une bonne idée.
+NorthVillage_Elder_StartArc_7 = Très bien, je vais vous aider.
+NorthVillage_Elder_StartArc_8 = Merci, noble étranger.
+NorthVillage_Elder_StartArc_9 = Maintenant, commençons votre entrainement.
+NorthVillage_Elder_StartArc_10 = Vous n'allez pas faire fâce à un bandit.
+NorthVillage_Elder_StartArc_11 = Vous allez devoir apprendre à combattre des animaux.
+
+NorthVillage_Elder_ReminderQuest1_1 = Il y a une caverne pleine de loups dans la forêt.
+NorthVillage_Elder_ReminderQuest1_2 = Allez-y et tuez 5 loups.
