@@ -252,6 +252,13 @@ arcQuest_Dragon_1_4 = Tuez des loups (4/5)
 arcQuest_Dragon_1_5 = Parlez à la doyenne du village Nordien
 arcQuest_Dragon_1_done = J'ai tué des loups
 
+arcQuest_Dragon_2 = Chasse à l'ours
+arcQuest_Dragon_2_0 = Tuez des ours (0/3)
+arcQuest_Dragon_2_1 = Tuez des ours (1/3)
+arcQuest_Dragon_2_2 = Tuez des ours (2/3)
+arcQuest_Dragon_2_3 = Parlez à la doyenne du village Nordien
+arcQuest_Dragon_2_done = J'ai tué des ours
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty

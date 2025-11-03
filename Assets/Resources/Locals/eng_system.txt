@@ -256,6 +256,13 @@ arcQuest_Dragon_1_4 = Kill wolves (4/5)
 arcQuest_Dragon_1_5 = Talk to the northmen village's elder
 arcQuest_Dragon_1_done = I killed some wolves
 
+arcQuest_Dragon_2 = Hunting bears
+arcQuest_Dragon_2_0 = Kill bears (0/3)
+arcQuest_Dragon_2_1 = Kill bears (1/3)
+arcQuest_Dragon_2_2 = Kill bears (2/3)
+arcQuest_Dragon_2_3 = Talk to the northmen village's elder
+arcQuest_Dragon_2_done = I killed some bears
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty

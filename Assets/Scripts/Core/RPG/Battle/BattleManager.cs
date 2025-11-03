@@ -32,6 +32,9 @@ public class BattleManager : MonoBehaviour
     [Header("Status Sprites")]
     public SerializedDictionary<RPGCharacterData.StatusType, Sprite> statusSprites;
 
+    [Header("Quests")]
+    [SerializeField] private BattleQuestData[] quests;
+
     [Header("DEBUG")]
     [SerializeField] private bool useDebug = true;
     [SerializeField] private BattleData data;
@@ -134,6 +137,20 @@ public class BattleManager : MonoBehaviour
             foreach (CharacterData follower in players)
             {
                 follower.characterData.GetData().exp += ennemy.characterData.GetData().exp;
+            }
+
+            foreach (BattleQuestData data in quests)
+            {
+                if (ennemy.characterData.GetData().ID.Equals(data.entityToKill))
+                {
+                    int questValue = int.Parse(GameManager.GetSaveManager().GetItem(data.questID));
+                    if (questValue >= data.from && questValue < data.to)
+                    {
+                        questValue++;
+                        GameManager.GetSaveManager().EditVariable(data.questID, questValue.ToString());
+                    }
+                }
+
             }
         }
 

@@ -4,8 +4,20 @@ if(arcQuest_Dragon_1 = -1){
 	return()
 }
 
+# End Arc Quest 1
+if(arcQuest_Dragon_1 = 5){
+	load(Forest/Village/Elder_EndArcQuest1)
+	return()
+}
+
 # Arc Quest 1 in progress
 if(arcQuest_Dragon_1 < 100){
 	load(Forest/Village/Elder_ArcQuest1)
+	return()
+}
+
+# Arc Quest 2 in progress
+if(arcQuest_Dragon_2 < 100){
+	load(Forest/Village/Elder_ArcQuest2)
 	return()
 }

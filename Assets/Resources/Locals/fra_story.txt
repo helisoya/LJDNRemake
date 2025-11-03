@@ -1328,5 +1328,15 @@ NorthVillage_Elder_StartArc_9 = Maintenant, commençons votre entrainement.
 NorthVillage_Elder_StartArc_10 = Vous n'allez pas faire fâce à un bandit.
 NorthVillage_Elder_StartArc_11 = Vous allez devoir apprendre à combattre des animaux.
 
+NorthVillage_Elder_EndArcQuest1_1 = J'ai tué les loups.
+NorthVillage_Elder_EndArcQuest1_2 = Bien, bien.
+NorthVillage_Elder_EndArcQuest1_3 = Maintenant que vous comprennez comment combattre des animaux, montons un peu l'enjeu.
+NorthVillage_Elder_EndArcQuest1_4 = Retournez au Passe-Falaise, et tuez 3 ours.
+NorthVillage_Elder_EndArcQuest1_5 = Les loups sont un bon début, mais un dragon est bien plus vicieux que ça.
+NorthVillage_Elder_EndArcQuest1_6 = Les ours du passe par contre, sont bien plus vicieux.
+NorthVillage_Elder_EndArcQuest1_7 = Personne ne sait vraiment pourquoi, peut être que c'est l'environement.
+
 NorthVillage_Elder_ReminderQuest1_1 = Il y a une caverne pleine de loups dans la forêt.
 NorthVillage_Elder_ReminderQuest1_2 = Allez-y et tuez 5 loups.
+
+NorthVillage_Elder_ReminderQuest2_1 = Allez tuer 3 ours dans le bon vieux Passe-Falaise.

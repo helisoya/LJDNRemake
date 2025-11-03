@@ -1353,5 +1353,15 @@ NorthVillage_Elder_StartArc_9 = Now, let us start your training.
 NorthVillage_Elder_StartArc_10 = What you will be facing will not be your average bandit.
 NorthVillage_Elder_StartArc_11 = You need to learn how to defeat animals.
 
+NorthVillage_Elder_EndArcQuest1_1 = I killed the wolves.
+NorthVillage_Elder_EndArcQuest1_2 = Good, good.
+NorthVillage_Elder_EndArcQuest1_3 = Now that you understand how to fight animals, let's up the stakes a little.
+NorthVillage_Elder_EndArcQuest1_4 = Go back to the Crag Pass, and kill 3 bears.
+NorthVillage_Elder_EndArcQuest1_5 = Wolves are a good start, but a dragon is much more vicious than that.
+NorthVillage_Elder_EndArcQuest1_6 = The Crag's bears on the other end, are much more vicious. 
+NorthVillage_Elder_EndArcQuest1_7 = Nobody really know why, maybe it's the environment.
+
 NorthVillage_Elder_ReminderQuest1_1 = There is a cavern full of wolves in the forest.
 NorthVillage_Elder_ReminderQuest1_2 = Go there and kill 5 wolves.
+
+NorthVillage_Elder_ReminderQuest2_1 = Please, go and kill 3 bears in the good old Crag Pass.

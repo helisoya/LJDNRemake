@@ -13764,6 +13764,11 @@ MonoBehaviour:
       Value: {fileID: 2065576580, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
     - Key: 6
       Value: {fileID: -567732427, guid: 2edc9ff535dbbe840b19c7f291afb7d7, type: 3}
+  quests:
+  - questID: arcQuest_Dragon_1
+    from: 0
+    to: 5
+    entityToKill: ENNEMY_Animal_Wolf
   useDebug: 0
   data: {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   backgroundName: Grass
