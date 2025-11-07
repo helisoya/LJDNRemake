@@ -447,7 +447,7 @@ KalibuShrine_Priest_AboutOrkva_5 = Donc il on décidé de les affamé, et de col
 KalibuShrine_Priest_AboutOrkva_6 = Bien sur, nos frêres et soeurs opprimés ont tenu, énervant encore plus les Orkviens.
 KalibuShrine_Priest_AboutOrkva_7 = Maintenant, les villes sont sous blocus. Aucune marchandise ne peut passer, et encore moins les gens.
 KalibuShrine_Priest_AboutOrkva_8 = On pourrait se dire qu'ils pourraient simplement tuer tout le monde directement.
-KalibuShrine_Priest_AboutOrkva_9 = Mais apparement, ils veulent les villes intact. Ironique...
+KalibuShrine_Priest_AboutOrkva_9 = Mais Apparemment, ils veulent les villes intact. Ironique...
 KalibuShrine_Priest_AboutOrkva_10 = Les effets du blocus se font aussi sentir à l'éxtérieur d'Orkva.
 KalibuShrine_Priest_AboutOrkva_11 = Des endroits comme l'île Mirage sont inaccessible à cause des navires de guerres au alentour.
 KalibuShrine_Priest_AboutOrkva_12 = Et dire que les gens y allaient fut un temps pour visiter l'autel local...
@@ -793,7 +793,7 @@ Kalia_BarMax_GUARD_AboutYou_5 = Depuis ce jour, j'ai arrêté d'être garde du c
 Kalia_BarMax_GUARD_AboutYou_6 = J'ai donc juré de me venger. Je les détruirais.
 
 Kalia_BarMax_GUARD_AboutSect_1 = La secte des Invocateurs est plutôt discrète.
-Kalia_BarMax_GUARD_AboutSect_2 = Ils se spécialisent apparement dans l'invocation.
+Kalia_BarMax_GUARD_AboutSect_2 = Ils se spécialisent Apparemment dans l'invocation.
 Kalia_BarMax_GUARD_AboutSect_3 = L'invocation de quoi ? Je n'en suis pas sur, mais ça ne présage rien de bon.
 Kalia_BarMax_GUARD_AboutSect_4 = J'ai aussi appris qu'ils prient le dieu du chaos : le Seigneur Cerf.
 Kalia_BarMax_GUARD_AboutSect_5 = Leurs intentions ne peuvent qu'être néfastes. Ils doivent être arrêté.
@@ -1165,7 +1165,7 @@ Kalia_Library_ArcQuest2End_4 = J'ai entendu dire que cette terre en était rempl
 Kalia_Library_ArcQuest2End_5 = Les frapper a l'air suffisant.
 Kalia_Library_ArcQuest2End_6 = ... Incroyable !
 Kalia_Library_ArcQuest2End_7 = Vous pouvez me dire quelque chose d'autre sur votre île incroyable ?
-Kalia_Library_ArcQuest2End_8 = Oh, et bien... Apparement, elle est plutôt montagneuse.
+Kalia_Library_ArcQuest2End_8 = Oh, et bien... Apparemment, elle est plutôt montagneuse.
 Kalia_Library_ArcQuest2End_9 = J'aimerai que vous m'aidiez avec ça, par ailleurs.
 Kalia_Library_ArcQuest2End_10 = Prenez ces équipements, et montez au sommet du mont Vasalia.
 Kalia_Library_ArcQuest2End_11 = Vous êtes sérieux ?
@@ -1268,6 +1268,16 @@ ForestField_JackwellArcQuest1_6 = Mais je sais qu'elles s'appellent "Longues Pâ
 ForestField_JackwellArcQuest1_7 = ... Au moins c'est un nom plus cool... pas vrai ?
 ForestField_JackwellArcQuest1_8 = Enfin ! Je devrais retourner voir Jackwell.
 
+ForestField_DragonArcQuest3_1 = Apparemment, je peux trouver un ours dangereux par ici.
+ForestField_DragonArcQuest3_2 = Si je peux le tuer, je serais prêt à combattre le dragon.
+ForestField_DragonArcQuest3_3 = Je ne suis pas convaincu... On dirais... Je ne sais pas...
+ForestField_DragonArcQuest3_4 = Enfin, je fais ça pour le pays de toute façon. Je ne devrais pas tarder.
+ForestField_DragonArcQuest3_5 = Je cherche l'ours.
+ForestField_DragonArcQuest3_6 = Après avoir cherché, je fini par le trouver. Il m'attaque immédiatement.
+
+ForestField_DragonArcQuest3_7 = Je tue l'ours.
+ForestField_DragonArcQuest3_8 = Il est temps de retourner au village Nordien.
+
 # ---------------------------------------------------------
 # --------------- Forest - Cavern -------------------------
 # ---------------------------------------------------------
@@ -1336,7 +1346,17 @@ NorthVillage_Elder_EndArcQuest1_5 = Les loups sont un bon début, mais un dragon
 NorthVillage_Elder_EndArcQuest1_6 = Les ours du passe par contre, sont bien plus vicieux.
 NorthVillage_Elder_EndArcQuest1_7 = Personne ne sait vraiment pourquoi, peut être que c'est l'environement.
 
+NorthVillage_Elder_EndArcQuest2_1 = J'ai tué les ours.
+NorthVillage_Elder_EndArcQuest2_2 = Bien, vous êtes bientôt prêt.
+NorthVillage_Elder_EndArcQuest2_3 = Et pas trop tôt, nos éclaireurs nous disent que le dragon se rapproche.
+NorthVillage_Elder_EndArcQuest2_4 = J'ai un dernier entrainement pour vous, pour réellement tester votre force.
+NorthVillage_Elder_EndArcQuest2_5 = Allez aux prés dans la partie est de la forêt.
+NorthVillage_Elder_EndArcQuest2_6 = Vous trouverez un ours légendaire réputé pour son aggressivité.
+NorthVillage_Elder_EndArcQuest2_7 = Tuez le, et votre entrainement sera terminé.
+
 NorthVillage_Elder_ReminderQuest1_1 = Il y a une caverne pleine de loups dans la forêt.
 NorthVillage_Elder_ReminderQuest1_2 = Allez-y et tuez 5 loups.
 
 NorthVillage_Elder_ReminderQuest2_1 = Allez tuer 3 ours dans le bon vieux Passe-Falaise.
+
+NorthVillage_Elder_ReminderQuest3_1 = L'ours est trouvable dans les prés à l'est de la forêt.

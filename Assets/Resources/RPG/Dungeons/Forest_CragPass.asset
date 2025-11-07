@@ -20,8 +20,9 @@ MonoBehaviour:
   canExitEarly: 0
   earlyExitChapter: 
   encounters:
-  - {fileID: 11400000, guid: 163a725b09cef1247a5795efb439bea6, type: 2}
-  - {fileID: 11400000, guid: 14bbfbcaafa31c34683d4b826add6af4, type: 2}
+  - {fileID: 11400000, guid: 17cd2ed273fbc654ca30f6669386d36c, type: 2}
+  - {fileID: 11400000, guid: 89333aeb2a1a4974591767a31608a1cd, type: 2}
+  - {fileID: 11400000, guid: 0179d982c335cfe4583166385ff79f95, type: 2}
   battleBackground: Snow
   size: {x: 15, y: 15}
   roomCount: 4

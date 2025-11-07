@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e68ebb06cc2bedf45a1096e1856c06fa, type: 3}
-  m_Name: BATTLE_Quest_Wolf_Var2
+  m_Name: BATTLE_Quest_Bear_Var1
   m_EditorClassIdentifier: 
   ennemies:
-  - {fileID: 11400000, guid: 602d11f2c002e0643bb9e056b91536fb, type: 2}
-  - {fileID: 11400000, guid: 602d11f2c002e0643bb9e056b91536fb, type: 2}
-  - {fileID: 11400000, guid: 602d11f2c002e0643bb9e056b91536fb, type: 2}
-  goldReward: 18
+  - {fileID: 11400000, guid: a3759676536b7fe48bd1ac62226a3d9a, type: 2}
+  goldReward: 10
   music: Battle_Animal
   nightSky: {fileID: 11400000, guid: 7fa7e38c302b28d4e96ebac2c2d42b60, type: 2}
   daySky: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}

@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3f974e9b21989644b86a9cf2ecc893c, type: 3}
-  m_Name: ENNEMY_Animal_Wolf
+  m_Name: ENNEMY_Animal_LegendaryBear
   m_EditorClassIdentifier: 
   data:
-    ID: ENNEMY_Animal_Wolf
-    modelID: Wolf
+    ID: ENNEMY_Animal_LegendaryBear
+    modelID: Bear
     stats:
       _serializedList:
       - Key: 0
-        Value: 10
+        Value: 20
       - Key: 1
-        Value: 4
+        Value: 20
       - Key: 2
         Value: 1
       - Key: 3
@@ -28,12 +28,12 @@ MonoBehaviour:
       - Key: 4
         Value: 2
       - Key: 5
-        Value: 2
-    weapon: WEAPON_WOLF
-    armor: 
+        Value: 8
+    weapon: WEAPON_BEAR
+    armor: ARMOR_BEAR
     level: 1
     currentHP: 0
     currentSP: 0
-    exp: 5
+    exp: 8
     canChangeEquipement: 1
-  constants: {fileID: 11400000, guid: f20e2ea7ca9b0dd469067969a2740eb4, type: 2}
+  constants: {fileID: 11400000, guid: 8f0a82b07992ef842bdd0575e36bfa45, type: 2}

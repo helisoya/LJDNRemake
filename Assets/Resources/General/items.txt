@@ -41,6 +41,8 @@ arcQuest_Jackwell_4 -1
 
 arcQuest_Dragon_1 -1
 arcQuest_Dragon_2 -1
+arcQuest_Dragon_3 -1
+arcQuest_Dragon_4 -1
 
 # Faction Quests
 factionQuest_Kalia_1 -1

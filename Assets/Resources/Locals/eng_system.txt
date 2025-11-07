@@ -263,6 +263,11 @@ arcQuest_Dragon_2_2 = Kill bears (2/3)
 arcQuest_Dragon_2_3 = Talk to the northmen village's elder
 arcQuest_Dragon_2_done = I killed some bears
 
+arcQuest_Dragon_3 = Hunting legends
+arcQuest_Dragon_3_0 = Kill the legendary bear in the White Forest's fields
+arcQuest_Dragon_3_1 = Talk to the northmen village's elder
+arcQuest_Dragon_3_done = I killed the legendary bear & repelled the dragon
+
 secondaryQuest_Iberty_Doctor = Medicine for the mayor
 secondaryQuest_Iberty_Doctor_0 = Deliver the medicine to the mayor in Iberty
 secondaryQuest_Iberty_Doctor_1 = Talk to the doctor in Iberty
@@ -313,6 +318,8 @@ ENNEMY_Summoner_Hand_name = Summoner
 ENNEMY_Summoner_Knife_name = Summoner
 
 ENNEMY_Animal_Wolf_name = Wolf
+ENNEMY_Animal_Bear_name = Bear
+ENNEMY_Animal_LegendaryBear_name = Bear
 
 DOGACE_name = Ace
 GUARD_name = GUARD

@@ -15,5 +15,14 @@ autosave()
 
 fadeFg(0;false)
 
-if(arcQuest_Jackwell_1 = 0) load(Forest/Field/JackwellArcQuest1_0)
-else load(Forest/Field/Interaction)
+if(arcQuest_Jackwell_1 = 0){
+	load(Forest/Field/JackwellArcQuest1_0)
+	return()
+} 
+
+if(arcQuest_Dragon_3 = 0){
+	load(Forest/Field/DragonArcQuest3_0)
+	return()
+} 
+
+load(Forest/Field/Interaction)

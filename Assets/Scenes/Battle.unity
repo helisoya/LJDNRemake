@@ -13769,6 +13769,10 @@ MonoBehaviour:
     from: 0
     to: 5
     entityToKill: ENNEMY_Animal_Wolf
+  - questID: arcQuest_Dragon_2
+    from: 0
+    to: 3
+    entityToKill: ENNEMY_Animal_Bear
   useDebug: 0
   data: {fileID: 11400000, guid: 74980f8d3e6430041b484e5cddd79e2b, type: 2}
   backgroundName: Grass

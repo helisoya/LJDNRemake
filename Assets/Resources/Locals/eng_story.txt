@@ -1293,6 +1293,16 @@ ForestField_JackwellArcQuest1_6 = But I know better, they are called "Long Legs"
 ForestField_JackwellArcQuest1_7 = ... At least it's a cooler name... right ?
 ForestField_JackwellArcQuest1_8 = Anyway ! I should go back to Jackwell.
 
+ForestField_DragonArcQuest3_1 = Apparently, I can find a dangerous bear around here.
+ForestField_DragonArcQuest3_2 = If I can kill it, I'll be ready to fight the dragon.
+ForestField_DragonArcQuest3_3 = I'm not sure about this... It all feels so... I don't know...
+ForestField_DragonArcQuest3_4 = Well, I'm doing this for the country anyway. Let's get this over with.
+ForestField_DragonArcQuest3_5 = I search for the bear...
+ForestField_DragonArcQuest3_6 = After a while, I manage to find it. It attacks me instantly.
+
+ForestField_DragonArcQuest3_7 = I killed the bear.
+ForestField_DragonArcQuest3_8 = Time to head back to the Northmen village.
+
 # ---------------------------------------------------------
 # --------------- Forest - Cavern -------------------------
 # ---------------------------------------------------------
@@ -1361,7 +1371,17 @@ NorthVillage_Elder_EndArcQuest1_5 = Wolves are a good start, but a dragon is muc
 NorthVillage_Elder_EndArcQuest1_6 = The Crag's bears on the other end, are much more vicious. 
 NorthVillage_Elder_EndArcQuest1_7 = Nobody really know why, maybe it's the environment.
 
+NorthVillage_Elder_EndArcQuest2_1 = I killed the bears.
+NorthVillage_Elder_EndArcQuest2_2 = Good, you're almost ready I think.
+NorthVillage_Elder_EndArcQuest2_3 = And not too soon, our scouts reports that the dragon is moving towards us.
+NorthVillage_Elder_EndArcQuest2_4 = I still have a last trial for you, to truly test your strength.
+NorthVillage_Elder_EndArcQuest2_5 = Go to the fields in the eastern part of the forest.
+NorthVillage_Elder_EndArcQuest2_6 = You'll find a bear rumored legendary for its aggressivity.
+NorthVillage_Elder_EndArcQuest2_7 = Kill it, and your training will be complete.
+
 NorthVillage_Elder_ReminderQuest1_1 = There is a cavern full of wolves in the forest.
 NorthVillage_Elder_ReminderQuest1_2 = Go there and kill 5 wolves.
 
 NorthVillage_Elder_ReminderQuest2_1 = Please, go and kill 3 bears in the good old Crag Pass.
+
+NorthVillage_Elder_ReminderQuest3_1 = The bear is located at the field at the eastern side of the forest.

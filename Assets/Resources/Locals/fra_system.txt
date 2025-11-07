@@ -259,6 +259,11 @@ arcQuest_Dragon_2_2 = Tuez des ours (2/3)
 arcQuest_Dragon_2_3 = Parlez à la doyenne du village Nordien
 arcQuest_Dragon_2_done = J'ai tué des ours
 
+arcQuest_Dragon_3 = Chasse à la légende
+arcQuest_Dragon_3_0 = tuez l'ours légendaire dans les prés de la Forêt Blanche
+arcQuest_Dragon_3_1 = Parlez à la doyenne du village Nordien
+arcQuest_Dragon_3_done = J'ai tué l'ours légendaire et repoussé le dragon
+
 secondaryQuest_Iberty_Doctor = Médicaments pour le maire 
 secondaryQuest_Iberty_Doctor_0 = Livrez les médicaments au maire d'Iberty
 secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
@@ -309,6 +314,8 @@ ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur
 
 ENNEMY_Animal_Wolf_name = Loup
+ENNEMY_Animal_Bear_name = Ours
+ENNEMY_Animal_LegendaryBear_name = Ours
 
 DOGACE_name = Ace
 GUARD_name = GARDE
