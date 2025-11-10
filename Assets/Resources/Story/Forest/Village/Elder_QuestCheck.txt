@@ -16,6 +16,13 @@ if(arcQuest_Dragon_2 = 3){
 	return()
 }
 
+# End Arc Quest 4
+if(arcQuest_Dragon_4 = 1){
+	load(Forest/Village/Elder_EndArc)
+	return()
+}
+
+
 # Arc Quest 1 in progress
 if(arcQuest_Dragon_1 < 100){
 	load(Forest/Village/Elder_ArcQuest1)
@@ -33,3 +40,15 @@ if(arcQuest_Dragon_3 < 100){
 	load(Forest/Village/Elder_ArcQuest3)
 	return()
 }
+
+# Arc Quest 4 in progress
+if(arcQuest_Dragon_4 < 100){
+	load(Forest/Village/Elder_ArcQuest4)
+	return()
+}
+
+
+# Arc is already done
+dialog(Elder;Northman1;false;NorthVillage_Elder_QuestDone_1)
+
+load(Forest/Village/Elder)

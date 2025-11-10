@@ -8,7 +8,7 @@ setBackground(Forest/NorthVillage)
 load(Common/ProcessDayNight)
 load(Common/ProcessWeather)
 load(Common/DisplayWeatherSnow)
-load(Forest/Village/Decorate)
+if(arcQuest_Dragon_3 != 1) load(Forest/Village/Decorate)
 
 setLocation(Location_WhiteForest)
 
@@ -16,4 +16,5 @@ autosave()
 
 fadeFg(0;false)
 
-load(Forest/Village/Interaction)
+if(arcQuest_Dragon_3 = 1) load(Forest/Village/ArcQuest3Boss)
+else load(Forest/Village/Interaction)

@@ -16,7 +16,9 @@ public class BattleCharacter : MonoBehaviour
     [SerializeField] private GameObject healthBarCanvas;
     [SerializeField] private BattleBarFill healthBar;
     [SerializeField] private BattleStatusIconHandler icons;
+    [SerializeField] private Transform cameraTarget;
     [SerializeField] private string animationPath = "Humanoid/";
+
 
     public bool healthBarFilling { get { return healthBar.filling; } }
 
@@ -64,6 +66,15 @@ public class BattleCharacter : MonoBehaviour
     {
         healthBarCanvas.SetActive(visible);
         healthBarCanvas.transform.LookAt(Camera.main.transform);
+    }
+
+    /// <summary>
+    /// Gets the camera target
+    /// </summary>
+    /// <returns>The camera target</returns>
+    public Transform GetCameraTarget()
+    {
+        return cameraTarget;
     }
 
     /// <summary>

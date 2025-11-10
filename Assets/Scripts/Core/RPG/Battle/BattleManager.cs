@@ -165,7 +165,7 @@ public class BattleManager : MonoBehaviour
             if (follower.characterData.canLevelUp)
             {
 
-                SetCameraTarget(follower.characterVisual.transform);
+                SetCameraTarget(follower.characterVisual.GetCameraTarget());
                 string playerName = follower.characterData.GetData().ID.Equals("PLAYER") ? GameManager.GetSaveManager().GetItem("playerName") : Locals.GetLocal(follower.characterData.GetData().ID + "_name");
                 gui.GetActionText().SetParameters("", " ", "", "");
                 gui.GetActionText().SetValue(playerName, null, false);
@@ -251,7 +251,7 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void SetCameraTargetToCurrentPlayer()
     {
-        SetCameraTarget(order[currentOrderIdx].characterVisual.transform);
+        SetCameraTarget(order[currentOrderIdx].characterVisual.GetCameraTarget());
     }
 
     /// <summary>
@@ -330,7 +330,7 @@ public class BattleManager : MonoBehaviour
             data.blocking = false;
             data.characterVisual.SetBlocking(false);
         }
-        SetCameraTarget(data.characterVisual.transform);
+        SetCameraTarget(data.characterVisual.GetCameraTarget());
 
         if (data.status.Find(entry => entry.status == RPGCharacterData.StatusType.SLEEP) != null)
         {
@@ -454,7 +454,7 @@ public class BattleManager : MonoBehaviour
             // Evasion
             if (!isHealing && CanEvade(data) && Random.Range(0.0f, 1.0f) <= data.characterData.evasion)
             {
-                SetCameraTarget(data.characterVisual.transform);
+                SetCameraTarget(data.characterVisual.GetCameraTarget());
                 yield return new WaitForSeconds(0.25f);
                 data.characterVisual.TriggerEvassion();
                 yield return new WaitForSeconds(1f);
@@ -472,7 +472,7 @@ public class BattleManager : MonoBehaviour
             int actualDamage = Mathf.Clamp(damage - defense, isHealing ? -999 : 2, 999);
             print(actualDamage + "(" + damage + "/" + defense + ")");
 
-            SetCameraTarget(data.characterVisual.transform);
+            SetCameraTarget(data.characterVisual.GetCameraTarget());
             yield return new WaitForSeconds(0.25f);
 
             if (data.dead && canResurect)

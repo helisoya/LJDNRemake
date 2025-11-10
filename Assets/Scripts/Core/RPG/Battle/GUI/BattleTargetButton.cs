@@ -48,7 +48,7 @@ public class BattleTargetButton : MonoBehaviour, IPointerEnterHandler, IPointerE
             character.characterVisual.setHealthBarFillAmount(character.characterData.currentHealth / (float)character.characterData.maxHealth, true);
         }
 
-        if (linkedTarget.Count == 1) gui.manager.SetCameraTarget(linkedTarget[0].characterVisual.transform);
+        if (linkedTarget.Count == 1) gui.manager.SetCameraTarget(linkedTarget[0].characterVisual.GetCameraTarget().transform);
         else
         {
             Vector3 position = Vector3.zero;

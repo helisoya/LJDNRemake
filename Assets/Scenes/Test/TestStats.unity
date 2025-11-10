@@ -6468,7 +6468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09d2ecc15dc76594a823072c0f27fd75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: f518f5910bd416a47ae55c94f512759a, type: 2}
+  data: {fileID: 11400000, guid: 4524baf0753dd0d429298d06c66a6c51, type: 2}
+  constants: {fileID: 11400000, guid: 8f0a82b07992ef842bdd0575e36bfa45, type: 2}
   levelSlider: {fileID: 487160161}
   forceSlider: {fileID: 2070071295}
   agilitySlider: {fileID: 2057544914}
@@ -6476,8 +6477,8 @@ MonoBehaviour:
   resilienceSlider: {fileID: 979641420}
   strategySlider: {fileID: 1790623162}
   bonusHPSlider: {fileID: 1173307129}
-  weapon: {fileID: 0}
-  armor: {fileID: 0}
+  weapon: {fileID: 11400000, guid: 8303a11290e9188458f8f50f998be023, type: 2}
+  armor: {fileID: 11400000, guid: 015bb895a89023b469bbb90cb24bbd69, type: 2}
   attackText: {fileID: 1084895545}
   defenseText: {fileID: 1770840632}
   maxHPText: {fileID: 1737171555}

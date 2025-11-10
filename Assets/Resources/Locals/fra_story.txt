@@ -1297,6 +1297,19 @@ MountVasalia_JackwellArcQuest3_4 = Il y avait un chemin qui menait directement a
 MountVasalia_JackwellArcQuest3_5 = Je suppose que c'est un endroit vaguement populaire.
 MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackwell. Ca ne sert à rien de rester trop longtemps.
 
+MountVasalia_DragonArcQuest4_1 = Donc le dragon a été vu pour la dernière fois par ici...
+MountVasalia_DragonArcQuest4_2 = Je regarde au alentours, mais je ne vois rien.
+MountVasalia_DragonArcQuest4_3 = Peut être qu'il est parti avant que je n'arrive ici.
+MountVasalia_DragonArcQuest4_4 = Si c'est le cas, ou ?
+MountVasalia_DragonArcQuest4_5 = Comme s'il réagissait à ma pensée, le dragon surgit d'en contrebas.
+MountVasalia_DragonArcQuest4_6 = Il avait du trouver une caverne ou se cacher.
+MountVasalia_DragonArcQuest4_7 = Comme au village, il me regarde comme si j'était la plus grande menace au alentours.
+MountVasalia_DragonArcQuest4_8 = Et bien, finissons-en...
+
+MountVasalia_DragonArcQuest4_9 = Enfin, le dragon est mort.
+MountVasalia_DragonArcQuest4_10 = Maintenant, Kalia et le village devrait être en sécurité.
+MountVasalia_DragonArcQuest4_11 = Je devrais rentrer. La doyenne m'a dit qu'elle voulait me récompenser.
+
 # ---------------------------------------------------------
 # ------------------- Forest - Crag Pass ------------------
 # ---------------------------------------------------------
@@ -1304,12 +1317,15 @@ MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackw
 CragPass_FinishDungeon_1 = Après avoir traversé le passage, j'ai réussi a atteindre le village nordien.
 
 # ---------------------------------------------------------
-# ------------------- Forest - Crag Pass ------------------
+# -------------- Forest - Northmen Village ----------------
 # ---------------------------------------------------------
 
 NorthVillage_Trader_Greetings_1 = Bonjour étranger. Mes articles vous intéressent ?
 
 NorthVillage_Trader_AboutYou_1 = Pourquoi ferais-je confiance à votre peuple, étranger ?
+
+NorthVillage_Trader_AboutYou_Arc_1 = ... Vous avez sauvé notre village.
+NorthVillage_Trader_AboutYou_Arc_2 = Mais je ne vous fais toujours pas confiance...
 
 
 NorthVillage_Elder_Greetings_1 = Puisse la lune guider vos pas, étranger.
@@ -1354,9 +1370,42 @@ NorthVillage_Elder_EndArcQuest2_5 = Allez aux prés dans la partie est de la for
 NorthVillage_Elder_EndArcQuest2_6 = Vous trouverez un ours légendaire réputé pour son aggressivité.
 NorthVillage_Elder_EndArcQuest2_7 = Tuez le, et votre entrainement sera terminé.
 
+NorthVillage_Elder_EndArcQuest3_1 = Quand j'arrive au village, je le trouve vide.
+NorthVillage_Elder_EndArcQuest3_2 = Ne me dis pas que...
+NorthVillage_Elder_EndArcQuest3_3 = Etranger, c'est terrible !
+NorthVillage_Elder_EndArcQuest3_4 = Le dragon est arrivé, nous devons agir, vite !
+NorthVillage_Elder_EndArcQuest3_5 = Je regarde le ciel, et le voila, le dragon.
+NorthVillage_Elder_EndArcQuest3_6 = Il est plus petit que ce que je pensais, mais c'est tout de même une puissante créature.
+NorthVillage_Elder_EndArcQuest3_7 = Je dois protéger ce village et Kalia. Je dois le vaincre.
+NorthVillage_Elder_EndArcQuest3_8 = Le dragon a l'air de me reconnaitre comme une menace. Je ferais mieux de me préparer...
+
+NorthVillage_Elder_EndArcQuest3_9 = Même si je n'ai pas réussi à tuer le dragon, j'ai au moins réussi à le faire fuir.
+NorthVillage_Elder_EndArcQuest3_10 = Incroyable. Merci pour votre aide, étranger.
+NorthVillage_Elder_EndArcQuest3_11 = Mais le combat n'est pas fini, vous devez tuer la créature.
+NorthVillage_Elder_EndArcQuest3_12 = Nos éclaireurs sont en train de la pourchasser, et elle a été vu au alentour du Mont Vasalia.
+NorthVillage_Elder_EndArcQuest3_13 = Je vois. Je vais y aller et tuer le dragon.
+NorthVillage_Elder_EndArcQuest3_14 = Merci. Une fois que vous aurez réussit, je vous donnerai votre récompense.
+NorthVillage_Elder_EndArcQuest3_15 = Et bien, il est temps d'aller au Mont Vasalia...
+
+NorthVillage_Elder_EndArc_1 = J'ai tué le dragon.
+NorthVillage_Elder_EndArc_2 = Les doyens soient loués ! Vous avez réussit.
+NorthVillage_Elder_EndArc_3 = Grâce à vos efforts, notre village est maintenant libéré de cette menace.
+NorthVillage_Elder_EndArc_4 = Enfin, je ne l'ai pas fait que pour vous...
+NorthVillage_Elder_EndArc_5 = Comme promis, voila votre récompense.
+NorthVillage_Elder_EndArc_6 = La doyenne me tend une hache de guerre plutôt large.
+NorthVillage_Elder_EndArc_7 = En vous regardant combattre le dragon, je me suis dit que vous en auriez peut être besoin.
+NorthVillage_Elder_EndArc_8 = Il y a longtemps, nos ancètres se battaient. Mais nous ne le faisons plus énormément de nos jours.
+NorthVillage_Elder_EndArc_9 = Donc prenez la. Vous en aurez plus besoin que moi.
+NorthVillage_Elder_EndArc_10 = Merci.
+NorthVillage_Elder_EndArc_11 = Si vous avez besoin de quoi que ce soit, notre village reste ouvert à vous.
+
 NorthVillage_Elder_ReminderQuest1_1 = Il y a une caverne pleine de loups dans la forêt.
 NorthVillage_Elder_ReminderQuest1_2 = Allez-y et tuez 5 loups.
 
 NorthVillage_Elder_ReminderQuest2_1 = Allez tuer 3 ours dans le bon vieux Passe-Falaise.
 
 NorthVillage_Elder_ReminderQuest3_1 = L'ours est trouvable dans les prés à l'est de la forêt.
+
+NorthVillage_Elder_ReminderQuest4_1 = Le dragon a été vu pour la dernière fois au Mont Vasalia. Vous devez le tuer.
+
+NorthVillage_Elder_QuestDone_1 = Non. Vous nous avez déjà beaucoup aidé, noble étranger.

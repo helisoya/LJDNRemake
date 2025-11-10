@@ -15,5 +15,14 @@ autosave()
 
 fadeFg(0;false)
 
-if(arcQuest_Jackwell_3 = 0) load(Forest/MountVasalia/JackwellArcQuest3_0)
-else load(Forest/MountVasalia/Interaction)
+if(arcQuest_Jackwell_3 = 0){
+	load(Forest/MountVasalia/JackwellArcQuest3_0)
+	return()
+}
+
+if(arcQuest_Dragon_4 = 0){
+	load(Forest/MountVasalia/DragonArcQuest4Boss)
+	return()
+}
+
+load(Forest/MountVasalia/Interaction)
