@@ -1433,3 +1433,56 @@ NorthVillage_Elder_ReminderQuest3_1 = The bear is located at the field at the ea
 NorthVillage_Elder_ReminderQuest4_1 = The dragon was last seen near Mount Vasalia. You need to kill it.
 
 NorthVillage_Elder_QuestDone_1 = No. You've helped us enough already, kind traveler.
+
+# ---------------------------------------------------------
+# --------------- Forest - Order's HQ ---------------------
+# ---------------------------------------------------------
+
+OrderHQ_MainQuest3_1 = The order's HQ is quite... out of shape.
+OrderHQ_MainQuest3_2 = Did they get attacked ? Or is this what it usually looks like ?
+OrderHQ_MainQuest3_3 = Nodoby is here. In fact, it's hard to think that this is the headquarters of any type of military organisation.
+OrderHQ_MainQuest3_4 = ...
+OrderHQ_MainQuest3_5 = While looking around, I spot someone searching through bookshelfs.
+OrderHQ_MainQuest3_6 = Sword...
+OrderHQ_MainQuest3_7 = Hmm ? Oh, Shield.
+OrderHQ_MainQuest3_8 = The boss sent me. Apparently you took too long.
+OrderHQ_MainQuest3_9 = Pff... And you're going solve the problem ?
+OrderHQ_MainQuest3_10 = Look around, this place was ransacked not too long ago.
+OrderHQ_MainQuest3_11 = Bandits ?
+OrderHQ_MainQuest3_12 = Worse, Orkva.
+OrderHQ_MainQuest3_13 = They were never too keen on a joint Kalia-Marklicht force residing near their border.
+OrderHQ_MainQuest3_14 = So they came here a few days ago, and arrested everyone.
+OrderHQ_MainQuest3_15 = They even confiscated a few things, and damaged the building.
+OrderHQ_MainQuest3_16 = Word is, they are currently being held prisoner in Tolau and awaiting trial.
+OrderHQ_MainQuest3_17 = Trial for what ? They haven't done anything wrong.
+OrderHQ_MainQuest3_18 = My best guess ? They're going to forge evidence to convict them of something.
+OrderHQ_MainQuest3_19 = Hmm... Maybe I could go to Tolau one of these days...
+OrderHQ_MainQuest3_20 = But if they are in custody, then they couldn't have seen the bandits.
+OrderHQ_MainQuest3_21 = Actually, that's not true.
+OrderHQ_MainQuest3_22 = I've been looking through their files.
+OrderHQ_MainQuest3_23 = It seems they were arrested the morning after you failed miserably to protect the package.
+OrderHQ_MainQuest3_24 = So, if I'm right. Yes !
+OrderHQ_MainQuest3_25 = Here's a report about bandits carrying a package the night you were attacked.
+OrderHQ_MainQuest3_26 = That's them.
+OrderHQ_MainQuest3_27 = ... It seems they were last seen going to Orkva.
+OrderHQ_MainQuest3_28 = The report says they probably ended up in Vorlan.
+OrderHQ_MainQuest3_29 = Makes sense, it's the first city you come across in Orkva.
+OrderHQ_MainQuest3_30 = So, let's go to Vorlan, Sword.
+OrderHQ_MainQuest3_31 = No.
+OrderHQ_MainQuest3_32 = No ?
+OrderHQ_MainQuest3_33 = No. I don't trust you.
+OrderHQ_MainQuest3_34 = You failed time and time again.
+OrderHQ_MainQuest3_35 = I can't trust you with finding the package.
+OrderHQ_MainQuest3_36 = That's harsh.
+OrderHQ_MainQuest3_37 = If you really want to search for it, then do it without me.
+OrderHQ_MainQuest3_38 = With any luck, I'll have found it by the time you get to Vorlan.
+OrderHQ_MainQuest3_39 = Saying that, he leaves the building.
+OrderHQ_MainQuest3_40 = I never liked him...
+OrderHQ_MainQuest3_41 = When the Merchant told me he broke radio contact, there was actually two possibilities.
+OrderHQ_MainQuest3_42 = The most obvious would be that he got attacked by bandits.
+OrderHQ_MainQuest3_43 = But I know Sword. I know how he operates.
+OrderHQ_MainQuest3_44 = Sometimes, he just does that when he's too immersed into his investigation.
+OrderHQ_MainQuest3_45 = He's smart for thinking about the Order's logs.
+OrderHQ_MainQuest3_46 = But he probably spent too much time reading all of them.
+OrderHQ_MainQuest3_47 = If I let him search alone, he'll check every house in Vorlan for a package that probably isn't there.
+OrderHQ_MainQuest3_48 = With that being said, I should go to Vorlan. 

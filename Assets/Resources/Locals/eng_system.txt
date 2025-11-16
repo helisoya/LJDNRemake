@@ -209,6 +209,7 @@ mainQuest_2_done = I investigated the rebel at the docks
 
 mainQuest_3 = The White Forest
 mainQuest_3_0 = Go to the Order's HQ in the White Forest
+mainQuest_3_1 = Find the trail of the bandits in Vorlan
 
 rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
@@ -246,6 +247,9 @@ arcQuest_Jackwell_4 = Jackwell and water
 arcQuest_Jackwell_4_0 = Swim near Kalia's lighthouse
 arcQuest_Jackwell_4_1 = Report back to Jackwell at his library in Kalia
 arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
+
+arcQuest_Order_1 = An order behind bars
+arcQuest_Order_1_0 = Talk to the order' chief at Tolau's prison
 
 arcQuest_Dragon_1 = Hunting wolves
 arcQuest_Dragon_1_0 = Kill wolves (0/5)

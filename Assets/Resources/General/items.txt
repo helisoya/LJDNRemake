@@ -39,6 +39,8 @@ arcQuest_Jackwell_2 -1
 arcQuest_Jackwell_3 -1
 arcQuest_Jackwell_4 -1
 
+arcQuest_Order_1 -1
+
 arcQuest_Dragon_1 -1
 arcQuest_Dragon_2 -1
 arcQuest_Dragon_3 -1
