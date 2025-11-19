@@ -193,6 +193,17 @@ Region_Forest_Camp2 = Bandit Camp
 Region_Forest_Camp3 = Bandit Stronghold
 Region_Forest_Village = Northmen village
 
+Region_Orkva_ToForest = To the White Forest
+Region_Orkva_FortWall = Fort Wall
+Region_Orkva_Vorlan = Vorlan
+Region_Orkva_Tolau = Tolau
+Region_Orkva_Farm = Tolau's farm
+Region_Orkva_MilitaryBase = Military Base
+Region_Orkva_Village = Altyr
+Region_Orkva_Okville = Okville
+Region_Orkva_Prison = State prison
+Region_Orkva_Shrine = Kalibu's shrine
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------

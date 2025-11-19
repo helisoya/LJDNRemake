@@ -62,7 +62,7 @@ City_Kalia_RebelHQ Kalia/City/BarSalvation/Arrival canTravel_City_Kalia_RebelHQ 
 [Region_Forest]
 Region_Forest_ToKalia Kalia/Common/OpenMapFromForest canTravel_Region_Forest_ToKalia 1
 Region_Forest_ToMarklicht TODO canTravel_Region_Forest_ToMarklicht 1
-Region_Forest_ToOrkva TODO canTravel_Region_Forest_ToOrkva 1
+Region_Forest_ToOrkva Orkva/Common/OpenMapFromForest canTravel_Region_Forest_ToOrkva 1
 Region_Forest_Field Forest/Field/Arrival canTravel_Region_Forest_Field 1
 Region_Forest_OrderHQ Forest/OrderHQ/Arrival canTravel_Region_Forest_OrderHQ 1
 Region_Forest_Crag Forest/CragPass/Arrival canTravel_Region_Forest_Crag 1
@@ -72,3 +72,15 @@ Region_Forest_Camp1 TODO canTravel_Region_Forest_Camp1 1
 Region_Forest_Camp2 TODO canTravel_Region_Forest_Camp2 1
 Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
 Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
+
+[Region_Orkva]
+Region_Orkva_ToForest Forest/Common/OpenMapFromOrkva canTravel_Region_Orkva_ToForest 1
+Region_Orkva_FortWall TODO canTravel_Region_Orkva_FortWall 1
+Region_Orkva_Vorlan TODO canTravel_Region_Orkva_Vorlan 1
+Region_Orkva_Village TODO canTravel_Region_Orkva_Village 1
+Region_Orkva_Okville TODO canTravel_Region_Orkva_Okville 1
+Region_Orkva_Prison TODO canTravel_Region_Orkva_Prison 1
+Region_Orkva_Shrine TODO canTravel_Region_Orkva_Shrine 1
+Region_Orkva_Tolau TODO canTravel_Region_Orkva_Tolau 1
+Region_Orkva_Farm TODO canTravel_Region_Orkva_Farm 1
+Region_Orkva_MilitaryBase TODO canTravel_Region_Orkva_MilitaryBase 1

@@ -98,3 +98,14 @@ canTravel_Region_Forest_Camp1 1
 canTravel_Region_Forest_Camp2 1
 canTravel_Region_Forest_Camp3 1
 canTravel_Region_Forest_Village 1
+
+canTravel_Region_Orkva_ToForest 1
+canTravel_Region_Orkva_FortWall 1
+canTravel_Region_Orkva_Vorlan 1
+canTravel_Region_Orkva_Tolau 1
+canTravel_Region_Orkva_Farm 1
+canTravel_Region_Orkva_MilitaryBase 1
+canTravel_Region_Orkva_Village 1
+canTravel_Region_Orkva_Okville 1
+canTravel_Region_Orkva_Prison 1
+canTravel_Region_Orkva_Shrine 1
