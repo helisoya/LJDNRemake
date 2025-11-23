@@ -928,7 +928,7 @@ public class BattleManager : MonoBehaviour
             print(character.GetData().modelID + " " + character.GetData().ID);
             visual = Instantiate(Resources.Load<BattleCharacter>("RPG/Battles/Characters/" + character.GetData().modelID));
             visual.Init(statusSprites);
-            visual.setHealthBarFillAmount(character.currentHealth, true);
+            visual.setHealthBarFillAmount(character.currentHealth / (float)character.maxHealth, true);
             if (!string.IsNullOrEmpty(character.GetData().weapon)) visual.SetWeapon(character.GetData().weapon);
             visual.transform.position = Vector3.Lerp(from, to, (i + 0.5f) / playersIndex.Count);
             visual.transform.rotation = rotation;

@@ -322,6 +322,10 @@ Location_KalibuShrine = Autel de Kalibu
 Location_KaliaCamp = Camp "Espoir"
 Location_KaliaOutpost = Avant Poste
 Location_Kalia = Kalia
+Location_Orkva =  Orkva
+Location_Vorlan = Vorlan
+Location_Tolau = Tolau
+Location_Okville = Okville
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------
@@ -336,6 +340,14 @@ ENNEMY_Summoner_Knife_name = Invocateur
 ENNEMY_Animal_Wolf_name = Loup
 ENNEMY_Animal_Bear_name = Ours
 ENNEMY_Animal_LegendaryBear_name = Ours
+ENNEMY_Animal_Dragon1 = Dragon
+ENNEMY_Animal_Dragon2 = Dragon
+
+ENNEMY_OrkvaSoldier_Sword = Soldat
+ENNEMY_OrkvaSoldier_Revolver = Soldat
+
+ENNEMY_Rebel_Hand = Rebelle
+ENNEMY_Rebel_Knife = Rebelle
 
 DOGACE_name = Ace
 GUARD_name = GARDE

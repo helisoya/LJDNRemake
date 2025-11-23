@@ -326,6 +326,10 @@ Location_KalibuShrine = Kalibu's Shrine
 Location_KaliaCamp = Camp "Hope"
 Location_KaliaOutpost = Outpost
 Location_Kalia = Kalia
+Location_Orkva =  Orkva
+Location_Vorlan = Vorlan
+Location_Tolau = Tolau
+Location_Okville = Okville
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------
@@ -342,6 +346,12 @@ ENNEMY_Animal_Bear_name = Bear
 ENNEMY_Animal_LegendaryBear_name = Bear
 ENNEMY_Animal_Dragon1_name = Dragon
 ENNEMY_Animal_Dragon2_name = Dragon
+
+ENNEMY_OrkvaSoldier_Sword = Soldier
+ENNEMY_OrkvaSoldier_Revolver = Soldier
+
+ENNEMY_Rebel_Hand = Rebel
+ENNEMY_Rebel_Knife = Rebel
 
 DOGACE_name = Ace
 GUARD_name = GUARD

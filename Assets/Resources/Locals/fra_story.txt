@@ -1463,3 +1463,17 @@ OrderHQ_MainQuest3_45 = C'est intelligent de sa part de penser aux journaux de l
 OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les lire. 
 OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
 OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.
+
+# ---------------------------------------------------------
+# --------------------- Fort Wall -------------------------
+# ---------------------------------------------------------
+
+FortWall_Door_Dont_1 = Je n'ai pas de raison d'entrer dans le fort.
+
+FortWall_GUARDArcQuest3_1 = Je vais pouvoir trouver la bombe dont GARDE a besoin à l'intérieur de ce fort.
+FortWall_GUARDArcQuest3_2 = Fort muraille est connu comme un dépot d'arme d'Orkva.
+FortWall_GUARDArcQuest3_3 = Il est proche de la frontière pour permettre de mieux ravitailler les troupes Orkviennes.
+FortWall_GUARDArcQuest3_4 = Et à l'intérieur, je vais trouver cette bombe.
+
+FortWall_GUARDArcQuest3_5 = Après avoir exploré le fort, j'arrive enfin à trouver la bombe.
+FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.
