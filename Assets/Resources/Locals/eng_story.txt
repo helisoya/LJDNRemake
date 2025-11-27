@@ -806,6 +806,19 @@ Kalia_BarMax_GUARD_ArcQuest1_Start_28 = I'll probably already be in the hangar w
 Kalia_BarMax_GUARD_ArcQuest1_Start_29 = In the meantime, feel free to ask me anything.
 Kalia_BarMax_GUARD_ArcQuest1_Start_30 = Oh, and I'm GUARD by the way.
 
+Kalia_BarMax_GUARD_ArcQuest3_End_1 = Oh, you're back.
+Kalia_BarMax_GUARD_ArcQuest3_End_2 = Yes, I found the bomb you needed.
+Kalia_BarMax_GUARD_ArcQuest3_End_3 = Let me see...
+Kalia_BarMax_GUARD_ArcQuest3_End_4 = Yes... This is it.
+Kalia_BarMax_GUARD_ArcQuest3_End_5 = This ordinance will be more than enough to destroy the fortress.
+Kalia_BarMax_GUARD_ArcQuest3_End_6 = Now all we need is a plane to travel to Vlatyr.
+Kalia_BarMax_GUARD_ArcQuest3_End_7 = I can help with that.
+Kalia_BarMax_GUARD_ArcQuest3_End_8 = Meet me at Camp Hope. I'll get us a plane.
+Kalia_BarMax_GUARD_ArcQuest3_End_9 = Rogers.
+Kalia_BarMax_GUARD_ArcQuest3_End_10 = And don't forget to buy supplies beforehand.
+Kalia_BarMax_GUARD_ArcQuest3_End_11 = Once we get on the plane, there will be no turning back.
+Kalia_BarMax_GUARD_ArcQuest3_End_12 = We'll only come back when the sect is dealt with.
+
 Kalia_BarMax_GUARD_AboutYou_1 = GUARD is only my codename. I used it not too long ago while I was on protection duty.
 Kalia_BarMax_GUARD_AboutYou_2 = I was protecting a politician... and you can guess what happened.
 Kalia_BarMax_GUARD_AboutYou_3 = The sect killed him ?

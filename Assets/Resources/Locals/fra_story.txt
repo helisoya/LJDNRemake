@@ -785,6 +785,19 @@ Kalia_BarMax_GUARD_ArcQuest1_Start_28 = Je serais probablement déjà dans le ha
 Kalia_BarMax_GUARD_ArcQuest1_Start_29 = En attendant, n'hésitez pas à me poser des questions.
 Kalia_BarMax_GUARD_ArcQuest1_Start_30 = Oh, et je suis GARDE d'ailleurs.
 
+Kalia_BarMax_GUARD_ArcQuest3_End_1 = Oh, vous êtes de retour.
+Kalia_BarMax_GUARD_ArcQuest3_End_2 = Oui, j'ai trouvé la bombe dont vous avez besoin.
+Kalia_BarMax_GUARD_ArcQuest3_End_3 = Laissez-moi voir...
+Kalia_BarMax_GUARD_ArcQuest3_End_4 = Oui... C'est bien ça.
+Kalia_BarMax_GUARD_ArcQuest3_End_5 = Cette bombe sera largement suffisante pour détruire la forteresse.
+Kalia_BarMax_GUARD_ArcQuest3_End_6 = Maintenant nous avons simplement besoin d'un avion pour voyager jusqu'à Vlatyr.
+Kalia_BarMax_GUARD_ArcQuest3_End_7 = Je peux aider sur cette partie. 
+Kalia_BarMax_GUARD_ArcQuest3_End_8 = Retrouvez-moi au Camp Espoir. Je vais nous obtenir un avion.
+Kalia_BarMax_GUARD_ArcQuest3_End_9 = Compris.
+Kalia_BarMax_GUARD_ArcQuest3_End_10 = Et n'oubliez pas d'acheter des vivres avant.
+Kalia_BarMax_GUARD_ArcQuest3_End_11 = Une fois que nous serons parti, il n'y aura pas de retour en arrière.
+Kalia_BarMax_GUARD_ArcQuest3_End_12 = Nous ne reviendrons qu'une fois la secte détruite une bonne fois pour toute.
+
 Kalia_BarMax_GUARD_AboutYou_1 = GARDE n'est que mon nom de code. Je l'utilisais il y à encore quelques temps quand j'était garde du corps.
 Kalia_BarMax_GUARD_AboutYou_2 = Je protégais un homme politique... et vous pouvez deviner ce qui c'est passé.
 Kalia_BarMax_GUARD_AboutYou_3 = La secte l'a tué ?

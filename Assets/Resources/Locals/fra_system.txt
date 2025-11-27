@@ -235,6 +235,11 @@ arcQuest_Guard_3_0 = Volez une bombe à Fort Muraille
 arcQuest_Guard_3_1 = Retournez voir GARDE au bar de Max à Kalia
 arcQuest_Guard_3_done = J'ai volé une bombe à Orkva
 
+arcQuest_Guard_4 = La fin de la secte
+arcQuest_Guard_4_0 = Retrouvez GARDE au Camp Espoir, à Kalia
+arcQuest_Guard_4_1 = Battez les Invocateurs
+arcQuest_Guard_4_done = J'ai vaincu les Invocateurs avec GARDE
+
 arcQuest_Jackwell_1 = Des herbes pour Jackwell
 arcQuest_Jackwell_1_0 = Ceuillez des herbes médicinales dans le coté Kalien de la Forêt Blanche
 arcQuest_Jackwell_1_1 = Donnez les herbes à Jackwell, dans sa librairie, à Kalia
