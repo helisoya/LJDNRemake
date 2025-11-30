@@ -889,7 +889,7 @@ Kalia_Plaza_GUARDArcQuest2_End_7 = ... Oh ?
 Kalia_Plaza_GUARDArcQuest2_End_8 = GARDE prend une lettre de la pile. Elle a l'air différente des autres.
 Kalia_Plaza_GUARDArcQuest2_End_9 = ...
 Kalia_Plaza_GUARDArcQuest2_End_10 = A mon ami, William Sualibu.
-Kalia_Plaza_GUARDArcQuest2_End_11 = Un congrès va avoir lieu la semaine prochaine à la fortresse Braise.
+Kalia_Plaza_GUARDArcQuest2_End_11 = Un congrès va avoir lieu la semaine prochaine à la forteresse Braise.
 Kalia_Plaza_GUARDArcQuest2_End_12 = Nous parlerons enfin de nous débarasser de vos opposants, et de fair de vous le consul véritable de Kalia.
 Kalia_Plaza_GUARDArcQuest2_End_13 = J'attend votre arrivé avec impatience, H.
 Kalia_Plaza_GUARDArcQuest2_End_14 = Ce n'est pas bon signe.
@@ -898,7 +898,7 @@ Kalia_Plaza_GUARDArcQuest2_End_16 = Et une fois qu'ils l'auront fait, ils metter
 Kalia_Plaza_GUARDArcQuest2_End_17 = Oui, c'est plutôt mauvais. On doit faire quelque chose.
 Kalia_Plaza_GUARDArcQuest2_End_18 = Par chance, je sais ou ils vont tenir ce congrès.
 Kalia_Plaza_GUARDArcQuest2_End_19 = Vraiment ?
-Kalia_Plaza_GUARDArcQuest2_End_20 = Oui. La fortresse Braise est une vielle fortresse à Vlatyr, Kosky.
+Kalia_Plaza_GUARDArcQuest2_End_20 = Oui. La forteresse Braise est une vielle forteresse à Vlatyr, Kosky.
 Kalia_Plaza_GUARDArcQuest2_End_21 = Il n'y a pas si longtemps, un dragon y vivait.
 Kalia_Plaza_GUARDArcQuest2_End_22 = Mais quelqu'un l'a tué, et il a été cru qu'elle était abandonné depuis.
 Kalia_Plaza_GUARDArcQuest2_End_23 = Que voulez-vous faire ? Voyager à Vlatyr prendrait des jours.
@@ -1269,6 +1269,35 @@ KaliaOutpost_Soldier_NeedHelp_2 = Mais si vous voulez aider avec les bandits, vo
 KaliaOutpost_Soldier_NeedHelp_3 = Aux dernières nouvelles, ils ont besoins de mains pour lutter contre les bandits.
 
 # ---------------------------------------------------------
+# -------------------- Camp Hope --------------------------
+# ---------------------------------------------------------
+
+CampHope_GUARD_ArcQuest4Start_1 = Salut. Prêt à partir ?
+CampHope_GUARD_ArcQuest4Start_2 = Bien.
+CampHope_GUARD_ArcQuest4Start_3 = Donc, comment comptez-vous obtenir un avion ?
+CampHope_GUARD_ArcQuest4Start_4 = Je connais la personne qui gère les avions du camp.
+CampHope_GUARD_ArcQuest4Start_5 = Je le connais suffisament pour pouvoir "emprunter" un avion sans qu'il le remarque.
+CampHope_GUARD_ArcQuest4Start_6 = Vraiment ?
+CampHope_GUARD_ArcQuest4Start_7 = Oui. Il laisse toujours les avions sans surveillance pendant ses pauses.
+CampHope_GUARD_ArcQuest4Start_8 = Et quand je dis pauses, je veux dire qu'il quitte le camp pour quelques temps.
+CampHope_GUARD_ArcQuest4Start_9 = Ce qui nous donne une opportunité d'entrer, prendre un avion, fausser de la paperasse, et partir.
+CampHope_GUARD_ArcQuest4Start_10 = Je...
+CampHope_GUARD_ArcQuest4Start_11 = J'ai peur pour votre armée, vous savez ?
+CampHope_GUARD_ArcQuest4Start_12 = Enfin... Allons-y...
+CampHope_GUARD_ArcQuest4Start_13 = Nous entrons dans le camp.
+CampHope_GUARD_ArcQuest4Start_14 = Grâce à mon uniforme de la garde républicaine, personne ne questionne notre présence.
+CampHope_GUARD_ArcQuest4Start_15 = Comme prédit, l'officier en charge des avions est en pause.
+CampHope_GUARD_ArcQuest4Start_16 = J'entre dans son bureau et remplit de la paperasse pour valider le départ de notre avion.
+CampHope_GUARD_ArcQuest4Start_17 = A cause de la façon dont fonctionne le système, ils ne questioneront jamais les papiers.
+CampHope_GUARD_ArcQuest4Start_18 = Quand nous décollerons, le staff du camp viendra vérifier les papiers.
+CampHope_GUARD_ArcQuest4Start_19 = Comme l'officier en charge sera absent, ils penseront simplement que le vol était planifié.
+CampHope_GUARD_ArcQuest4Start_20 = En faisant ça, nous serons hors de Kalia avant même qu'il ne revienne à son poste.
+CampHope_GUARD_ArcQuest4Start_21 = J'aurais juste à rendre l'avion quand il sera en pause, et ils n'y veront que du feu.
+CampHope_GUARD_ArcQuest4Start_22 = Nous executons notre plan, et sortons de son hangar l'un des vieux avions.
+CampHope_GUARD_ArcQuest4Start_23 = Nous arrivons à décoller sans problème. Le camp a été trompé avec succès.
+CampHope_GUARD_ArcQuest4Start_24 = Maintenant, il ne reste plus qu'à atteindre Vlatyr.
+
+# ---------------------------------------------------------
 # --------------- Forest - Field --------------------------
 # ---------------------------------------------------------
 
@@ -1476,6 +1505,101 @@ OrderHQ_MainQuest3_45 = C'est intelligent de sa part de penser aux journaux de l
 OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les lire. 
 OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
 OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.
+
+# ---------------------------------------------------------
+# ----------------- Braise Fortress -----------------------
+# ---------------------------------------------------------
+
+BraiseFortress_Arc_1 = Après avoir volé pendant quelques heures, nous arrivons à localiser la forteresse.
+BraiseFortress_Arc_2 = Elle est massive. Je ne suis pas sur que la bombe puisse la détruire entièrement.
+BraiseFortress_Arc_3 = Nous attérissons sur une surface plane proche de la batisse.
+BraiseFortress_Arc_4 = Nous avons eu de la chance. Si elle était 10 metres plus courte, nous nous serions écrasés.
+BraiseFortress_Arc_5 = Après avoir marché pendant quelques minutes, nous arrivons à l'entrée de la forteresse.
+BraiseFortress_Arc_6 = Et bien, nous y voila.
+BraiseFortress_Arc_7 = La secte est en train de faire un congrès à l'intérieur.
+BraiseFortress_Arc_8 = Notre but est de placer la bombe à l'intérieur et de tous les tuer.
+BraiseFortress_Arc_9 = Je ne suis pas sur qu'une bombe sera suffisante pour détruire toute la forteresse.
+BraiseFortress_Arc_10 = Et bien...
+BraiseFortress_Arc_11 = J'ai travaillé ici par le passé, donc je connais un endroit qui permettrait de maximiser les dégats.
+BraiseFortress_Arc_12 = Vous avez travaillé ici ?
+BraiseFortress_Arc_13 = C'est une longue histoire. Mais je vais pouvoir vous montrer le chemin.
+BraiseFortress_Arc_14 = Une fois la bombe placée, nous n'aurons qu'à nous enfuir et la faire exploser.
+BraiseFortress_Arc_15 = Très bien. Allons-y.
+
+BraiseFortress_Arc_16 = Nous sommes arrivés.
+BraiseFortress_Arc_17 = Derrière cette porte se trouve la salle du trône.
+BraiseFortress_Arc_18 = Le congrès se tient probablement ici.
+BraiseFortress_Arc_19 = J'essaie d'écouter à la porte. Peut-être pourrais-je entendre quelque chose d'utile.
+BraiseFortress_Arc_20 = ............Mes amis........
+BraiseFortress_Arc_21 = Le....est arrivé......
+BraiseFortress_Arc_22 = Kalia......sous.......direction
+BraiseFortress_Arc_23 = Puisse.....Cerf.........
+BraiseFortress_Arc_24 = Je n'entends pas grand-chose, mais il me semble qu'ils discutent de leurs plans.
+BraiseFortress_Arc_25 = Venez, je vais vous guider vers la pièce dont je vous parlais.
+BraiseFortress_Arc_26 = GARDE grimpe sur le rebord de la fenêtre. 
+BraiseFortress_Arc_27 = La pièce est juste en dessous de nous. Nous allons entrer par la fenêtre.
+BraiseFortress_Arc_28 = Je vois.
+BraiseFortress_Arc_29 = Je suis GARDE et nous sautons dans la pièce du dessous.
+BraiseFortress_Arc_30 = Elle est assez similaire au couloir que nous venions de traverser.
+BraiseFortress_Arc_31 = Il y a quelques meubles, comme un bureau avec un livre étrange posé dessus.
+BraiseFortress_Arc_32 = Bien, maintenant je vais placer la bombe au bon endroit.
+BraiseFortress_Arc_33 = ... Voilà.
+BraiseFortress_Arc_34 = La bombe est placée. Il ne nous reste plus qu'à nous échapper et-
+BraiseFortress_Arc_35 = Et quoi ?
+BraiseFortress_Arc_36 = ?!
+BraiseFortress_Arc_37 = Nous regardons la porte. Quelqu'un vient d'entrer.
+BraiseFortress_Arc_38 = Il est différent des autres membres de la secte, mais il y a quelque chose de louche.
+BraiseFortress_Arc_39 = Qui... Qui êtes-vous ?
+BraiseFortress_Arc_40 = Eh ! Plutôt, qui êtes-VOUS ?
+BraiseFortress_Arc_41 = C'est une propriété privée. Que faites-vous ici ?
+BraiseFortress_Arc_42 = ...
+BraiseFortress_Arc_43 = On a pas envie de parler ?
+BraiseFortress_Arc_44 = Eh ! J'aurai mes réponses en temps voulu.
+BraiseFortress_Arc_45 = Après tout, je serais un mauvais grand maître si je ne pouvais pas neutraliser quelques intrus.
+BraiseFortress_Arc_46 = L'homme clappe ses mains, et un autre homme entre dans la pièce.
+BraiseFortress_Arc_47 = Mon garçon. Je crois que la situation est grave.
+BraiseFortress_Arc_48 = Ces intrus doivent savoir qui nous sommes.
+BraiseFortress_Arc_49 = Tue-les.
+BraiseFortress_Arc_50 = Oh oh. Préparons-nous.
+
+BraiseFortress_Arc_51 = Nous avons réussi à neutraliser l'ennemi.
+BraiseFortress_Arc_52 = Qui étaient-ils ?
+BraiseFortress_Arc_53 = Je ne sais pas. J'ai l'impression d'avoir déjà vu ce vieil homme...
+BraiseFortress_Arc_54 = Enfin. Sortons d'ici.
+BraiseFortress_Arc_55 = Si nous restons trop longtemps, ils finiront par nous trouver.
+BraiseFortress_Arc_56 = Je suis GARDE hors de la pièce et nous commençons le chemin du retour.
+BraiseFortress_Arc_57 = Une fois dehors, je me tourne vers GARDE.
+BraiseFortress_Arc_58 = Voulez-vous la faire exploser d'ici ?
+BraiseFortress_Arc_59 = Oui. Je veux être sûr que nous avons réussi. 
+BraiseFortress_Arc_60 = Il sort le détonateur et...
+BraiseFortress_Arc_61 = ... La forteresse explose sous nos yeux.
+BraiseFortress_Arc_62 = Vu les dégâts, je crois que nous avons réussi.
+BraiseFortress_Arc_63 = Eh bien, ca fait une secte dangereuse de moins.
+BraiseFortress_Arc_64 = Devrions-nous rentrer maintenant ?
+BraiseFortress_Arc_65 = ... Vous pouvez rentrer sans moi.
+BraiseFortress_Arc_66 = Vraiment ? Vous êtes sûr ?
+BraiseFortress_Arc_67 = Oui. J'ai encore quelques choses à régler à Vlatyr.
+BraiseFortress_Arc_68 = De toutes façon, je ne suis allé à Kalia que pour chercher cette secte.
+BraiseFortress_Arc_69 = Maintenant qu'ils ne sont plus là, je n'ai aucune raison d'y retourner immédiatement. 
+BraiseFortress_Arc_70 = Je vois. Eh bien... Ce fut un plaisir de travailler avec vous.
+BraiseFortress_Arc_71 = De même.
+BraiseFortress_Arc_72 = Oh, et voici votre récompense.
+BraiseFortress_Arc_73 = GARDE me tend son arme.
+BraiseFortress_Arc_74 = Vous êtes sûr ?
+BraiseFortress_Arc_75 = Oui. Je sens que je n'aurai pas à me battre pendant un moment.
+BraiseFortress_Arc_76 = Et je vous fais confiance. Vous l'utiliserez à bon escient.
+BraiseFortress_Arc_77 = Merci.
+BraiseFortress_Arc_78 = Je fais signe à GARDE et retourne à l'avion.
+BraiseFortress_Arc_79 = Je décolle et entame mon voyage de retour vers Kalia. 
+BraiseFortress_Arc_80 = En vol, je m'interroge sur cette secte que nous venions d'anéantir.
+BraiseFortress_Arc_81 = Qui étaient ces hommes ?
+BraiseFortress_Arc_82 = Que cherchaient-ils ?
+BraiseFortress_Arc_83 = Pourquoi voulaient-ils renverser le gouvernement de Kalia ?
+BraiseFortress_Arc_84 = Je ne pourrai jamais répondre à ces questions.
+BraiseFortress_Arc_85 = L'essentiel, c'est que j'ai réussi à sauver Kalia.
+BraiseFortress_Arc_86 = De retour à Kalia, j'ai atterri au camp "Espoir" pendant la pause de l'officier en chef.
+BraiseFortress_Arc_87 = Le personnel s'est encore fait berner et je suis sorti sans encombre.
+BraiseFortress_Arc_88 = Bon. J'imagine que j'ai moi aussi encore quelques affaires à régler...
 
 # ---------------------------------------------------------
 # --------------------- Fort Wall -------------------------

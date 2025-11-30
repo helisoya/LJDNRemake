@@ -11,6 +11,13 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_KaliaCamp)
 
+if(arcQuest_Guard_4 = 0){
+	addCharacter(GUARD;false)
+	setCharacterPosition(GUARD;Spot1)
+	setCharacterRotation(GUARD;Spot1)
+	setInteractionChapter(GUARD;Kalia/Camp/GUARD_ArcQuest4_Start)
+}
+
 autosave()
 
 fadeFg(0;false)

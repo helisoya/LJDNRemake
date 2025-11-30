@@ -335,6 +335,7 @@ Location_Orkva =  Orkva
 Location_Vorlan = Vorlan
 Location_Tolau = Tolau
 Location_Okville = Okville
+Location_BraiseFortress = Ember Fortress
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------
@@ -345,6 +346,10 @@ ENNEMY_Bandit_Knife_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Summoner
 ENNEMY_Summoner_Knife_name = Summoner
+ENNEMY_Summoner_Katana_name = Summoner
+ENNEMY_Summoner_Sword_name = Summoner
+ENNEMY_Summoner_Hero2_name = ???
+ENNEMY_Summoner_Harold_name = ???
 
 ENNEMY_Animal_Wolf_name = Wolf
 ENNEMY_Animal_Bear_name = Bear
@@ -410,3 +415,9 @@ TWOHANDED_KATANA_name = Runan Longsword
 TWOHANDED_KATANA_desc = A longsword from the Koskyian province of Runan.<br>+6 ATK
 TWOHANDED_BATTLEAXE_name = Battle Axe
 TWOHANDED_BATTLEAXE_desc = This axe was used by Northmen long ago.<br>+8 ATK
+SKILL_DEFENSEUP_name = Protectus
+SKILL_DEFENSEUP_desc = Defense Up<br>(one ally)
+SKILL_HEAL_name = Benediction
+SKILL_HEAL_desc = Light heal<br>(one ally)
+SKILL_ELKTOUCH_name = Touch of the Elk
+SKILL_ELKTOUCH_desc = Light attack<br>Chance of Poison<br>(one foe)

@@ -331,6 +331,7 @@ Location_Orkva =  Orkva
 Location_Vorlan = Vorlan
 Location_Tolau = Tolau
 Location_Okville = Okville
+Location_BraiseFortress = Forteresse Braise
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------
@@ -341,6 +342,10 @@ ENNEMY_Bandit_Knife_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur
+ENNEMY_Summoner_Katana_name = Invocateur
+ENNEMY_Summoner_Sword_name = Invocateur
+ENNEMY_Summoner_Hero2_name = ???
+ENNEMY_Summoner_Harold_name = ???
 
 ENNEMY_Animal_Wolf_name = Loup
 ENNEMY_Animal_Bear_name = Ours
