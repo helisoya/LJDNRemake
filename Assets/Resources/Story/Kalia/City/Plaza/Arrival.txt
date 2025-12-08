@@ -1,6 +1,8 @@
 clearStack()
 setFg(1)
 
+setLocals(kaliaCity)
+
 playMusic(Exploration_Kalia)
 removeAllCharacters()
 setBackground(Kalia/City/Plaza)

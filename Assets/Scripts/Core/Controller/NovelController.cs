@@ -75,6 +75,8 @@ public class NovelController : MonoBehaviour
     {
         GAMEFILE activeGameFile = GameManager.GetSaveManager().Load(saveName);
 
+        Locals.SetFiles(activeGameFile.localFiles);
+
         if (activeGameFile.inDungeon)
         {
             GameManager.instance.SetSaveToLoad(null);
@@ -189,6 +191,8 @@ public class NovelController : MonoBehaviour
         activeGameFile.locationName = GameManager.instance.currentLocation;
 
         activeGameFile.inDungeon = false;
+
+        activeGameFile.localFiles = Locals.currentFiles;
 
         GameManager.GetSaveManager().Save(saveName);
     }
@@ -572,8 +576,6 @@ public class NovelController : MonoBehaviour
         if (data.Length < 2) yield break;
 
         string[] parameters = data[1].Split(";");
-
-        print(line);
 
         switch (data[0])
         {
@@ -1067,6 +1069,10 @@ public class NovelController : MonoBehaviour
 
             case "return":
                 chapterProgress = this.data.Count - 1;
+                break;
+
+            case "setLocals":
+                Locals.SetFiles(parameters);
                 break;
 
 #if UNITY_EDITOR

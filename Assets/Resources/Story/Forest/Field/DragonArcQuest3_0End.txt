@@ -1,5 +1,7 @@
 setFg(1)
 
+setLocals(forest)
+
 playMusic(Exploration_Forest)
 removeAllCharacters()
 setBackground(Forest/Road)

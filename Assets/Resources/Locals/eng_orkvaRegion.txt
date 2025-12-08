@@ -1,0 +1,13 @@
+# ---------------------------------------------------------
+# --------------------- Fort Wall -------------------------
+# ---------------------------------------------------------
+
+FortWall_Door_Dont_1 = I have no reason to enter this fort.
+
+FortWall_GUARDArcQuest3_1 = I can find the bomb GUARD needs stored somewhere in there.
+FortWall_GUARDArcQuest3_2 = Fort Wall is known as a weapons depot in Orkva.
+FortWall_GUARDArcQuest3_3 = It's close to the border to better handle supplies to the Orkvian troops.
+FortWall_GUARDArcQuest3_4 = And somewhere in there, I'll find that bomb.
+
+FortWall_GUARDArcQuest3_5 = After exploring the fort, I manage to find the bomb.
+FortWall_GUARDArcQuest3_6 = GUARD will be satisfied. I should bring it back to him.

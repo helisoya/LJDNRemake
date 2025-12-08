@@ -1,5 +1,7 @@
-# LJDN's Introduction$
+# LJDN's Introduction
 # Game starts here
+
+setLocals(intro)
 
 setBackground(Forest/Road)
 changeSkybox(Night)

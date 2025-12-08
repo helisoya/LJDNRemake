@@ -1,6 +1,8 @@
 clearStack()
 setFg(1)
 
+setLocals(orkvaRegion)
+
 playMusic(Exploration_Orkva)
 removeAllCharacters()
 setBackground(Orkva/Region/FortWall)

@@ -120,6 +120,8 @@ variable(canTravel_Region_Forest_Village;0)
 
 playMusic(Exploration_Kalia)
 
+setLocals(kaliaRegion)
+
 autosave()
 
 load(Kalia/Iberty/Doctor/Interaction)

@@ -485,5 +485,13 @@
 			"addPointsToCharacter(CHARACTER;0;AMOUNT)"
 		],
 		"description": "Adds points to a character"
+	},
+	"Set the locals files": {
+		"scope": "ansl",
+		"prefix": "setLocals",
+		"body": [
+			"setLocals(FILE1;FILE2)"
+		],
+		"description": "Sets the locals files"
 	}
 }

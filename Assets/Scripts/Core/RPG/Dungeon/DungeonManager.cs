@@ -75,6 +75,8 @@ public class DungeonManager : MonoBehaviour
         activeGameFile.money = GameManager.GetRPGManager().money;
         activeGameFile.locationName = GameManager.instance.currentLocation;
 
+        activeGameFile.localFiles = Locals.currentFiles;
+
 
         activeGameFile.inDungeon = true;
         activeGameFile.dungeonID = data.ID;
@@ -102,6 +104,8 @@ public class DungeonManager : MonoBehaviour
         GameManager.GetRPGManager().SetInventory(activeGameFile.inventory);
         GameManager.GetRPGManager().SetMoney(activeGameFile.money);
         GameManager.instance.SetCurrentLocation(activeGameFile.locationName);
+        Locals.SetFiles(activeGameFile.localFiles);
+
         gui.RefreshPlayerIcons();
         LoadDungeon(Resources.Load<DungeonData>("RPG/Dungeons/" + activeGameFile.dungeonID), activeGameFile.dungeonFloor);
     }

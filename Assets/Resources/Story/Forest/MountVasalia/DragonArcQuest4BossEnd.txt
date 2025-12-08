@@ -1,3 +1,5 @@
+setLocals(forest)
+
 setBackground(Forest/MountVasalia)
 load(Common/DisplayWeatherRain)
 setLocation(Location_WhiteForest)

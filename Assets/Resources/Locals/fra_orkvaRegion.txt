@@ -1,0 +1,13 @@
+# ---------------------------------------------------------
+# --------------------- Fort Wall -------------------------
+# ---------------------------------------------------------
+
+FortWall_Door_Dont_1 = Je n'ai pas de raison d'entrer dans le fort.
+
+FortWall_GUARDArcQuest3_1 = Je vais pouvoir trouver la bombe dont GARDE a besoin à l'intérieur de ce fort.
+FortWall_GUARDArcQuest3_2 = Fort muraille est connu comme un dépot d'arme d'Orkva.
+FortWall_GUARDArcQuest3_3 = Il est proche de la frontière pour permettre de mieux ravitailler les troupes Orkviennes.
+FortWall_GUARDArcQuest3_4 = Et à l'intérieur, je vais trouver cette bombe.
+
+FortWall_GUARDArcQuest3_5 = Après avoir exploré le fort, j'arrive enfin à trouver la bombe.
+FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.

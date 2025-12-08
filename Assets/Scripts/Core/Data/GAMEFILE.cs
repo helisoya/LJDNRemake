@@ -43,6 +43,8 @@ public class GAMEFILE
     public string dungeonID;
     public int dungeonFloor;
 
+    public string[] localFiles;
+
     public GAMEFILE()
     {
         this.stack = new List<NovelController.StackEntry>();
@@ -66,6 +68,7 @@ public class GAMEFILE
         this.dungeonID = null;
         this.dungeonFloor = 0;
         this.money = 0;
+        this.localFiles = new string[0];
     }
 
     [System.Serializable]

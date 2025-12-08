@@ -1,6 +1,8 @@
 clearStack()
 setFg(1)
 
+setLocals(kaliaRegion)
+
 playMusic(Exploration_Kalia)
 removeAllCharacters()
 setBackground(Kalia/Iberty/Shop)

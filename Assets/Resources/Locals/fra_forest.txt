@@ -1,0 +1,207 @@
+# ---------------------------------------------------------
+# --------------- Forest - Field --------------------------
+# ---------------------------------------------------------
+
+ForestField_JackwellArcQuest1_1 = C'est ici que Jackwell m'a dit qu'on peut trouver des longues pâtes.
+ForestField_JackwellArcQuest1_2 = ...
+ForestField_JackwellArcQuest1_3 = En voila.
+ForestField_JackwellArcQuest1_4 = Je ceuille quelques plantes.
+ForestField_JackwellArcQuest1_5 = Les gens insistent que ces plantes médicinales s'appellent "Toucher de Kalibu".
+ForestField_JackwellArcQuest1_6 = Mais je sais qu'elles s'appellent "Longues Pâtes", car elles sont si longue.
+ForestField_JackwellArcQuest1_7 = ... Au moins c'est un nom plus cool... pas vrai ?
+ForestField_JackwellArcQuest1_8 = Enfin ! Je devrais retourner voir Jackwell.
+
+ForestField_DragonArcQuest3_1 = Apparemment, je peux trouver un ours dangereux par ici.
+ForestField_DragonArcQuest3_2 = Si je peux le tuer, je serais prêt à combattre le dragon.
+ForestField_DragonArcQuest3_3 = Je ne suis pas convaincu... On dirais... Je ne sais pas...
+ForestField_DragonArcQuest3_4 = Enfin, je fais ça pour le pays de toute façon. Je ne devrais pas tarder.
+ForestField_DragonArcQuest3_5 = Je cherche l'ours.
+ForestField_DragonArcQuest3_6 = Après avoir cherché, je fini par le trouver. Il m'attaque immédiatement.
+
+ForestField_DragonArcQuest3_7 = Je tue l'ours.
+ForestField_DragonArcQuest3_8 = Il est temps de retourner au village Nordien.
+
+# ---------------------------------------------------------
+# --------------- Forest - Cavern -------------------------
+# ---------------------------------------------------------
+
+ForestCavern_Enter_Cant_1 = Je n'ai pas besoin de rentrer à l'intérieur.
+
+ForestCavern_End_Jackwell_1 = Jackwell devrait être satisfait. Je devrais aller le retrouver.
+
+# ---------------------------------------------------------
+# --------------- Forest - Mount Vasalia ------------------
+# ---------------------------------------------------------
+
+MountVasalia_JackwellArcQuest3_1 = Donc voila le mont Vasalia...
+MountVasalia_JackwellArcQuest3_2 = Les gens disent que c'est le point le plus haut aux alentours de Kalia.
+MountVasalia_JackwellArcQuest3_3 = Au final, je ne sais pas pourquoi Jackwell m'a donné ces cordes.
+MountVasalia_JackwellArcQuest3_4 = Il y avait un chemin qui menait directement au sommet.
+MountVasalia_JackwellArcQuest3_5 = Je suppose que c'est un endroit vaguement populaire.
+MountVasalia_JackwellArcQuest3_6 = Bien, je ferais mieux de retourner voir Jackwell. Ca ne sert à rien de rester trop longtemps.
+
+MountVasalia_DragonArcQuest4_1 = Donc le dragon a été vu pour la dernière fois par ici...
+MountVasalia_DragonArcQuest4_2 = Je regarde au alentours, mais je ne vois rien.
+MountVasalia_DragonArcQuest4_3 = Peut être qu'il est parti avant que je n'arrive ici.
+MountVasalia_DragonArcQuest4_4 = Si c'est le cas, ou ?
+MountVasalia_DragonArcQuest4_5 = Comme s'il réagissait à ma pensée, le dragon surgit d'en contrebas.
+MountVasalia_DragonArcQuest4_6 = Il avait du trouver une caverne ou se cacher.
+MountVasalia_DragonArcQuest4_7 = Comme au village, il me regarde comme si j'était la plus grande menace au alentours.
+MountVasalia_DragonArcQuest4_8 = Et bien, finissons-en...
+
+MountVasalia_DragonArcQuest4_9 = Enfin, le dragon est mort.
+MountVasalia_DragonArcQuest4_10 = Maintenant, Kalia et le village devrait être en sécurité.
+MountVasalia_DragonArcQuest4_11 = Je devrais rentrer. La doyenne m'a dit qu'elle voulait me récompenser.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Crag Pass ------------------
+# ---------------------------------------------------------
+
+CragPass_FinishDungeon_1 = Après avoir traversé le passage, j'ai réussi a atteindre le village nordien.
+
+# ---------------------------------------------------------
+# -------------- Forest - Northmen Village ----------------
+# ---------------------------------------------------------
+
+NorthVillage_Trader_Greetings_1 = Bonjour étranger. Mes articles vous intéressent ?
+
+NorthVillage_Trader_AboutYou_1 = Pourquoi ferais-je confiance à votre peuple, étranger ?
+
+NorthVillage_Trader_AboutYou_Arc_1 = ... Vous avez sauvé notre village.
+NorthVillage_Trader_AboutYou_Arc_2 = Mais je ne vous fais toujours pas confiance...
+
+NorthVillage_Elder_Greetings_1 = Puisse la lune guider vos pas, étranger.
+
+NorthVillage_Elder_AboutYou_1 = Je suis la doyenne du village.
+NorthVillage_Elder_AboutYou_2 = A cause de cela, je suis la référente pour les décisions importantes dans ce village.
+NorthVillage_Elder_AboutYou_3 = Par exemple, si un commerçant veut ouvrir boutique ici, il devra m'en parler auparavant.
+
+NorthVillage_Elder_AboutVillage_1 = Notre petit village fait partie de la décentralisée Confédération des Nordiens.
+NorthVillage_Elder_AboutVillage_2 = Les décisions politiques se font à la capitale, vers le grand lac gelé, bien plus au nord.
+NorthVillage_Elder_AboutVillage_3 = Mais en ce qui concerne les décisions journalières, c'est moi qui m'en occupe.
+NorthVillage_Elder_AboutVillage_4 = Nous avons eu des relations troublées avec les pays voisins par le passé.
+NorthVillage_Elder_AboutVillage_5 = Il y a un grand manque de confiance entre nos deux peuples, comme vous le savez.
+NorthVillage_Elder_AboutVillage_6 = L'incident avec le Marklicht n'a pas aidé.
+NorthVillage_Elder_AboutVillage_7 = C'était un accident, une érreur de communication, mais... les dégats ont été fait.
+
+NorthVillage_Elder_StartArc_1 = En réalité, nous aurions besoin d'un guerrier.
+NorthVillage_Elder_StartArc_2 = Un grand dragon a été vu au nord-ouest.
+NorthVillage_Elder_StartArc_3 = Nous avons peur qu'il vienne par ici. Nous aurions donc besoin de protection.
+NorthVillage_Elder_StartArc_4 = Vous voulez que je le tue ? Je ne suis pas sur de pouvoir le faire.
+NorthVillage_Elder_StartArc_5 = Je vais vous entrainer, et je vous paierai une fois la bête térassée.
+NorthVillage_Elder_StartArc_6 = C'est très dangereux, mais je ne pense pas que laisser un dragon en liberté soit une bonne idée.
+NorthVillage_Elder_StartArc_7 = Très bien, je vais vous aider.
+NorthVillage_Elder_StartArc_8 = Merci, noble étranger.
+NorthVillage_Elder_StartArc_9 = Maintenant, commençons votre entrainement.
+NorthVillage_Elder_StartArc_10 = Vous n'allez pas faire fâce à un bandit.
+NorthVillage_Elder_StartArc_11 = Vous allez devoir apprendre à combattre des animaux.
+
+NorthVillage_Elder_EndArcQuest1_1 = J'ai tué les loups.
+NorthVillage_Elder_EndArcQuest1_2 = Bien, bien.
+NorthVillage_Elder_EndArcQuest1_3 = Maintenant que vous comprennez comment combattre des animaux, montons un peu l'enjeu.
+NorthVillage_Elder_EndArcQuest1_4 = Retournez au Passe-Falaise, et tuez 3 ours.
+NorthVillage_Elder_EndArcQuest1_5 = Les loups sont un bon début, mais un dragon est bien plus vicieux que ça.
+NorthVillage_Elder_EndArcQuest1_6 = Les ours du passe par contre, sont bien plus vicieux.
+NorthVillage_Elder_EndArcQuest1_7 = Personne ne sait vraiment pourquoi, peut être que c'est l'environement.
+
+NorthVillage_Elder_EndArcQuest2_1 = J'ai tué les ours.
+NorthVillage_Elder_EndArcQuest2_2 = Bien, vous êtes bientôt prêt.
+NorthVillage_Elder_EndArcQuest2_3 = Et pas trop tôt, nos éclaireurs nous disent que le dragon se rapproche.
+NorthVillage_Elder_EndArcQuest2_4 = J'ai un dernier entrainement pour vous, pour réellement tester votre force.
+NorthVillage_Elder_EndArcQuest2_5 = Allez aux prés dans la partie est de la forêt.
+NorthVillage_Elder_EndArcQuest2_6 = Vous trouverez un ours légendaire réputé pour son aggressivité.
+NorthVillage_Elder_EndArcQuest2_7 = Tuez le, et votre entrainement sera terminé.
+
+NorthVillage_Elder_EndArcQuest3_1 = Quand j'arrive au village, je le trouve vide.
+NorthVillage_Elder_EndArcQuest3_2 = Ne me dis pas que...
+NorthVillage_Elder_EndArcQuest3_3 = Etranger, c'est terrible !
+NorthVillage_Elder_EndArcQuest3_4 = Le dragon est arrivé, nous devons agir, vite !
+NorthVillage_Elder_EndArcQuest3_5 = Je regarde le ciel, et le voila, le dragon.
+NorthVillage_Elder_EndArcQuest3_6 = Il est plus petit que ce que je pensais, mais c'est tout de même une puissante créature.
+NorthVillage_Elder_EndArcQuest3_7 = Je dois protéger ce village et Kalia. Je dois le vaincre.
+NorthVillage_Elder_EndArcQuest3_8 = Le dragon a l'air de me reconnaitre comme une menace. Je ferais mieux de me préparer...
+
+NorthVillage_Elder_EndArcQuest3_9 = Même si je n'ai pas réussi à tuer le dragon, j'ai au moins réussi à le faire fuir.
+NorthVillage_Elder_EndArcQuest3_10 = Incroyable. Merci pour votre aide, étranger.
+NorthVillage_Elder_EndArcQuest3_11 = Mais le combat n'est pas fini, vous devez tuer la créature.
+NorthVillage_Elder_EndArcQuest3_12 = Nos éclaireurs sont en train de la pourchasser, et elle a été vu au alentour du Mont Vasalia.
+NorthVillage_Elder_EndArcQuest3_13 = Je vois. Je vais y aller et tuer le dragon.
+NorthVillage_Elder_EndArcQuest3_14 = Merci. Une fois que vous aurez réussit, je vous donnerai votre récompense.
+NorthVillage_Elder_EndArcQuest3_15 = Et bien, il est temps d'aller au Mont Vasalia...
+
+NorthVillage_Elder_EndArc_1 = J'ai tué le dragon.
+NorthVillage_Elder_EndArc_2 = Les doyens soient loués ! Vous avez réussit.
+NorthVillage_Elder_EndArc_3 = Grâce à vos efforts, notre village est maintenant libéré de cette menace.
+NorthVillage_Elder_EndArc_4 = Enfin, je ne l'ai pas fait que pour vous...
+NorthVillage_Elder_EndArc_5 = Comme promis, voila votre récompense.
+NorthVillage_Elder_EndArc_6 = La doyenne me tend une hache de guerre plutôt large.
+NorthVillage_Elder_EndArc_7 = En vous regardant combattre le dragon, je me suis dit que vous en auriez peut être besoin.
+NorthVillage_Elder_EndArc_8 = Il y a longtemps, nos ancètres se battaient. Mais nous ne le faisons plus énormément de nos jours.
+NorthVillage_Elder_EndArc_9 = Donc prenez la. Vous en aurez plus besoin que moi.
+NorthVillage_Elder_EndArc_10 = Merci.
+NorthVillage_Elder_EndArc_11 = Si vous avez besoin de quoi que ce soit, notre village reste ouvert à vous.
+
+NorthVillage_Elder_ReminderQuest1_1 = Il y a une caverne pleine de loups dans la forêt.
+NorthVillage_Elder_ReminderQuest1_2 = Allez-y et tuez 5 loups.
+
+NorthVillage_Elder_ReminderQuest2_1 = Allez tuer 3 ours dans le bon vieux Passe-Falaise.
+
+NorthVillage_Elder_ReminderQuest3_1 = L'ours est trouvable dans les prés à l'est de la forêt.
+
+NorthVillage_Elder_ReminderQuest4_1 = Le dragon a été vu pour la dernière fois au Mont Vasalia. Vous devez le tuer.
+
+NorthVillage_Elder_QuestDone_1 = Non. Vous nous avez déjà beaucoup aidé, noble étranger.
+
+
+# ---------------------------------------------------------
+# --------------- Forest - Order's HQ ---------------------
+# ---------------------------------------------------------
+
+OrderHQ_MainQuest3_1 = Le QG de l'Ordre est dans un état déplorable.
+OrderHQ_MainQuest3_2 = Ont-ils été attaqués ? Ou est-ce son état habituel ?
+OrderHQ_MainQuest3_3 = Personne n'est là. En fait, on a du mal à croire que ce soit le quartier général d'une organisation militaire.
+OrderHQ_MainQuest3_4 = ...
+OrderHQ_MainQuest3_5 = En regardant autour de moi, j'aperçois quelqu'un qui fouille dans les étagères.
+OrderHQ_MainQuest3_6 = Epée...
+OrderHQ_MainQuest3_7 = Hmm ? Oh, Bouclier.
+OrderHQ_MainQuest3_8 = Le chef m'a envoyé. Apparemment, tu as mis trop de temps.
+OrderHQ_MainQuest3_9 = Pff... Et tu vas régler le problème ?
+OrderHQ_MainQuest3_10 = Regarde autour de toi, cet endroit a été saccagé il y a peu. 
+OrderHQ_MainQuest3_11 = Des bandits ?
+OrderHQ_MainQuest3_12 = Pire encore, Orkva.
+OrderHQ_MainQuest3_13 = Ils n'ont jamais été très enthousiastes à l'idée qu'une force conjointe Kalia-Marklicht soit stationnée près de leur frontière.
+OrderHQ_MainQuest3_14 = Donc ils sont venus ici il y a quelques jours et ont arrêté tout le monde.
+OrderHQ_MainQuest3_15 = Ils ont même confisqué quelques outils et endommagé le bâtiment.
+OrderHQ_MainQuest3_16 = Il paraît qu'ils sont actuellement détenus à Tolau et attendent leur procès.
+OrderHQ_MainQuest3_17 = Un procès pour quoi ? Ils n'ont rien fait de mal.
+OrderHQ_MainQuest3_18 = A mon avis ? Ils vont falsifier des preuves pour les faire condamner. 
+OrderHQ_MainQuest3_19 = Hmm... Je pourrais peut-être aller à Tolau un de ces jours...
+OrderHQ_MainQuest3_20 = Mais s'ils sont en détention, ils n'ont pas pu voir les bandits.
+OrderHQ_MainQuest3_21 = En fait, si.
+OrderHQ_MainQuest3_22 = J'ai regardé leurs dossiers.
+OrderHQ_MainQuest3_23 = Il semblerait qu'ils aient été arrêtés le lendemain matin de ton échec cuisant à protéger le colis.
+OrderHQ_MainQuest3_24 = Donc, si je crois mes recherches... Oui !
+OrderHQ_MainQuest3_25 = Voila un rapport concernant des bandits transportant un colis la nuit de ton attaque.
+OrderHQ_MainQuest3_26 = Ce sont eux.
+OrderHQ_MainQuest3_27 = ... Il semblerait qu'ils aient été vus pour la dernière fois en train de passer du coté d'Orkva. 
+OrderHQ_MainQuest3_28 = Le rapport indique qu'ils ont probablement fini à Vorlan.
+OrderHQ_MainQuest3_29 = Logique, c'est la première ville qu'on rencontre à Orkva.
+OrderHQ_MainQuest3_30 = Alors, allons à Vorlan, Épée.
+OrderHQ_MainQuest3_31 = Non.
+OrderHQ_MainQuest3_32 = Non ?
+OrderHQ_MainQuest3_33 = Non. Je ne te fais pas confiance.
+OrderHQ_MainQuest3_34 = Tu as échoué à maintes reprises.
+OrderHQ_MainQuest3_35 = Je ne peux pas te confier la recherche du colis.
+OrderHQ_MainQuest3_36 = Ca me fait mal de t'entendre dire ça.
+OrderHQ_MainQuest3_37 = Si tu veux vraiment le chercher, fais-le sans moi. 
+OrderHQ_MainQuest3_38 = Avec un peu de chance, je l'aurai trouvé avant ton arrivée à Vorlan.
+OrderHQ_MainQuest3_39 = Sur ces mots, il quitte le bâtiment.
+OrderHQ_MainQuest3_40 = Je ne l'ai jamais aimé...
+OrderHQ_MainQuest3_41 = Quand le Marchand m'a dit qu'il avait perdu le contact radio, il y avait en fait deux possibilités.
+OrderHQ_MainQuest3_42 = La plus probable serait qu'il ait été attaqué par des bandits.
+OrderHQ_MainQuest3_43 = Mais je connais Epée. Je sais comment il fonctionne.
+OrderHQ_MainQuest3_44 = Parfois, il fait ça quand il est absorbé dans son enquête.
+OrderHQ_MainQuest3_45 = C'est intelligent de sa part de penser aux journaux de l'Ordre.
+OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les lire. 
+OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
+OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -20,7 +21,17 @@ public class Locals
         }
     }
 
+    public static string[] currentFiles
+    {
+        get
+        {
+            return self.files;
+        }
+    }
+
     private Dictionary<string, string> locals;
+    private string[] files;
+
 
     /// <summary>
     /// Initiliazes the Locals
@@ -33,8 +44,46 @@ public class Locals
     public Locals()
     {
         self = this;
+        files = new string[0];
         locals = new Dictionary<string, string>();
         ChangeLanguage("eng");
+    }
+
+    /// <summary>
+	/// Sets the current languages files (aside from system and common)
+	/// </summary>
+	/// <param name="files">The new files to load</param>
+    public static void SetFiles(string[] files)
+    {
+        bool reload = self.files.Length != files.Length;
+
+        if (!reload)
+        {
+            foreach (string file in files)
+            {
+                bool found = false;
+                foreach (string alreadyIn in self.files)
+                {
+                    if (alreadyIn.Equals(file))
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    reload = true;
+                    break;
+                }
+            }
+        }
+
+        if (reload)
+        {
+            self.files = files;
+            ReloadContent();
+        }
     }
 
     /// <summary>
@@ -46,11 +95,25 @@ public class Locals
         if (newOne.Equals(self.currentLanguage)) return;
 
         self.currentLanguage = newOne;
+        ReloadContent();
+
+    }
+
+    /// <summary>
+	/// Reloads the locals
+	/// </summary>
+    private static void ReloadContent()
+    {
         self.locals.Clear();
         long before = GC.GetTotalMemory(false);
 
-        self.LoadContent(newOne + "_system");
-        self.LoadContent(newOne + "_story");
+        self.LoadContent(self.currentLanguage + "_system");
+        self.LoadContent(self.currentLanguage + "_common");
+
+        foreach (string file in self.files)
+        {
+            self.LoadContent(self.currentLanguage + "_" + file);
+        }
 
         Debug.Log("New Local Size : " + ((GC.GetTotalMemory(false) - before) / 1024.0f / 1024.0f));
     }

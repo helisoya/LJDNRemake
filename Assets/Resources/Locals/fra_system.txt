@@ -64,6 +64,7 @@ party_status_none = Rien
 party_equip_title = Equiper
 party_equip_weapon = Arme
 party_equip_armor = Armure
+party_equip_data = -
 
 party_items_title = Objets
 party_items_usables = Consumables
@@ -90,6 +91,7 @@ quests_arcs = Arcs
 quests_faction = Faction
 quests_secondary = Secondaires
 quests_inProgress = En cours
+quests_done = Finie
 quests_none = Aucune
 
 # ------------------------------------------------------------------------
@@ -411,3 +413,9 @@ TWOHANDED_KATANA_name = Epée de Runan
 TWOHANDED_KATANA_desc = Une épée venant de la province Koskyienne de Runan.<br>+6 ATK
 TWOHANDED_BATTLEAXE_name = Hache de guerre
 TWOHANDED_BATTLEAXE_desc = Cette hache a été utilisé par des Nordiens dans le passé.<br>+8 ATK
+SKILL_DEFENSEUP_name = Protectus
+SKILL_DEFENSEUP_desc = Augmente la défense<br>(un allié)
+SKILL_HEAL_name = Bénediction
+SKILL_HEAL_desc = Soin léger<br>(un allié)
+SKILL_ELKTOUCH_name = Touché du Cerf
+SKILL_ELKTOUCH_desc = Attaque légère<br>Chance d'empoisonner<br>(Un ennemi)

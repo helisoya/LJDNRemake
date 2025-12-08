@@ -1,5 +1,6 @@
 # Start of the GUARD Arc Quest 4
 # You land at Ember Fortress and need to infiltrate it
+setLocals(kosky)
 
 setBackground(Kosky/BraiseBridge;true)
 

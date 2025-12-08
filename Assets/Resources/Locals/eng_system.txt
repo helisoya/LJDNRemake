@@ -106,7 +106,6 @@ ailement_defense_up = defense up
 ailement_defense_down = defense down
 ailement_attack_down = attack down
 
-
 battle_attack = Attack
 battle_defend = Block
 battle_items = Items
@@ -152,7 +151,6 @@ levelUp_bonusHP = Bonus HP
 # ------------------------------------------------------------------------
 # ----------------------------- Map --------------------------------------
 # ------------------------------------------------------------------------
-
 
 City_Iberty_ToRegion = To Kalia
 City_Iberty_Doctor = Doctor
