@@ -58,6 +58,11 @@ secondaryQuest_Kalia_Max -1
 secondaryQuest_Kalia_Shop -1
 secondaryQuest_Kalia_Delivery -1
 
+secondaryQuest_Vorlan_Soldier -1
+
+# Flags
+cutscene_EntranceVorlan 0
+
 # Locations
 
 canTravel_Region_Kalia_Iberty 1
@@ -109,3 +114,10 @@ canTravel_Region_Orkva_Village 1
 canTravel_Region_Orkva_Okville 1
 canTravel_Region_Orkva_Prison 1
 canTravel_Region_Orkva_Shrine 1
+
+canTravel_City_Vorlan_ToOrkva 1
+canTravel_City_Vorlan_Shop 1
+canTravel_City_Vorlan_Inn 1
+canTravel_City_Vorlan_Checkpoint 1
+canTravel_City_Vorlan_CityHall 1
+canTravel_City_Vorlan_Plaza 1

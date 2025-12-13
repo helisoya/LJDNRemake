@@ -202,6 +202,15 @@ Region_Orkva_Okville = Okville
 Region_Orkva_Prison = State prison
 Region_Orkva_Shrine = Kalibu's shrine
 
+City_Vorlan_ToOrkva1 = To Orkva
+City_Vorlan_ToOrkva2 = To Orkva
+City_Vorlan_ToOrkva3 = To Orkva
+City_Vorlan_Shop = Shop
+City_Vorlan_Inn = Inn
+City_Vorlan_Checkpoint = Checkpoint
+City_Vorlan_CityHall = City Hall
+City_Vorlan_Plaza = Plaza
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -219,6 +228,7 @@ mainQuest_2_done = I investigated the rebel at the docks
 mainQuest_3 = The White Forest
 mainQuest_3_0 = Go to the Order's HQ in the White Forest
 mainQuest_3_1 = Find the trail of the bandits in Vorlan
+mainQuest_3_done = I found out where the package is stored
 
 rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
@@ -317,6 +327,11 @@ secondaryQuest_Kalia_Shop_done = I defeated the bulgar
 secondaryQuest_Kalia_Delivery = A strange request
 secondaryQuest_Kalia_Delivery_0 = Deliver the letter at Kalia's farm
 secondaryQuest_Kalia_Delivery_done = I delivered the letter
+
+secondaryQuest_Vorlan_Soldier = Private Correspondance
+secondaryQuest_Vorlan_Soldier_0 = Deliver the letter at Altyr
+secondaryQuest_Vorlan_Soldier_1 = Talk to the soldier at Vorlan's checkpoint
+secondaryQuest_Vorlan_Soldier_done = I delivered the letter and can now enter Vorlan
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

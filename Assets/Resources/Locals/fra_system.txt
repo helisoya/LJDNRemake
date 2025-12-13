@@ -202,6 +202,15 @@ Region_Orkva_Okville = Okville
 Region_Orkva_Prison = Prison
 Region_Orkva_Shrine = Autel de Kalibu
 
+City_Vorlan_ToOrkva1 = Vers Orkva
+City_Vorlan_ToOrkva2 = Vers Orkva
+City_Vorlan_ToOrkva3 = Vers Orkva
+City_Vorlan_Shop = Boutique
+City_Vorlan_Inn = Pub
+City_Vorlan_Checkpoint = Checkpoint
+City_Vorlan_CityHall = Mairie
+City_Vorlan_Plaza = Place de Vorlan
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -219,6 +228,7 @@ mainQuest_2_done = J'ai mené l'enquête sur le bandit des docks
 mainQuest_3 = La Forêt Blanche
 mainQuest_3_0 = Allez au QG de l'ordre dans la Forêt Blanche
 mainQuest_3_1 = Trouvez la trace des bandits à Vorlan
+mainQuest_3_done = J'ai trouvé ou se trouve le colis
 
 rebelQuest_0 = Trouver le salut
 rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
@@ -317,6 +327,11 @@ secondaryQuest_Kalia_Shop_done = J'ai vaincu le voleur
 secondaryQuest_Kalia_Delivery = Une étrange requete
 secondaryQuest_Kalia_Delivery_0 = Librez la lettre à la ferme de Kalia
 secondaryQuest_Kalia_Delivery_done = J'ai livré la lettre
+
+secondaryQuest_Vorlan_Soldier = Correspondance privée
+secondaryQuest_Vorlan_Soldier_0 = Livrez la lettre à Altyr
+secondaryQuest_Vorlan_Soldier_1 = Parlez au soldat au checkpoint de Vorlan
+secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peut maintenant entrer dans Vorlan.
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

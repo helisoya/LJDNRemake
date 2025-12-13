@@ -107,16 +107,24 @@ dialog(narrator;_;false;Intro_115)
 
 variable(mainQuest_1;0)
 variable(canTravel_Region_Kalia_Forest;0)
+
 variable(canTravel_City_Iberty_Region;0)
 variable(canTravel_City_Kalia_Lighthouse;0)
 variable(canTravel_City_Kalia_Docks;0)
 variable(canTravel_City_Kalia_Jackwell;0)
 variable(canTravel_City_Kalia_BarGUARD;0)
 variable(canTravel_City_Kalia_RebelHQ;0)
+
 variable(canTravel_Region_Forest_Camp1;0)
 variable(canTravel_Region_Forest_Camp2;0)
 variable(canTravel_Region_Forest_Camp3;0)
 variable(canTravel_Region_Forest_Village;0)
+
+variable(canTravel_City_Vorlan_Shop;0)
+variable(canTravel_City_Vorlan_Inn;0)
+variable(canTravel_City_Vorlan_CityHall;0)
+variable(canTravel_City_Vorlan_Plaza;0)
+
 
 playMusic(Exploration_Kalia)
 

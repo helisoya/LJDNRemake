@@ -11,3 +11,41 @@ FortWall_GUARDArcQuest3_4 = And somewhere in there, I'll find that bomb.
 
 FortWall_GUARDArcQuest3_5 = After exploring the fort, I manage to find the bomb.
 FortWall_GUARDArcQuest3_6 = GUARD will be satisfied. I should bring it back to him.
+
+
+
+# ---------------------------------------------------------
+# --------------------- Vorlan ----------------------------
+# ---------------------------------------------------------
+
+Vorlan_EntranceCutscene_1 = So this is the city of Vorlan...
+Vorlan_EntranceCutscene_2 = Orkva put the city on lockdown a few years ago.
+Vorlan_EntranceCutscene_3 = Almost no one can enter this place without authorisation.
+
+Vorlan_EntranceCutscene_NeedToEnterVorlan_1 = But there is a chance the bandits I'm looking for are in there.
+Vorlan_EntranceCutscene_NeedToEnterVorlan_2 = I have to find a way in. One way or another.
+
+Vorlan_EntranceCutscene_NoNeedToEnterVorlan_1 = I have no reason to enter Vorlan for now.
+Vorlan_EntranceCutscene_NoNeedToEnterVorlan_2 = But I guess I can always check out a way in, just in case.
+
+Vorlan_EntranceCutscene_4 = Hey, you.
+Vorlan_EntranceCutscene_5 = The soldier starts walking in my direction.
+Vorlan_EntranceCutscene_6 = What are you looking at ? Where are your identifications ?
+Vorlan_EntranceCutscene_7 = I... Well...
+Vorlan_EntranceCutscene_8 = What do I do ? I can't think of any excuse.
+Vorlan_EntranceCutscene_9 = I'm a traveler. I was thinking of stoping here for the day.
+Vorlan_EntranceCutscene_10 = Pff ! Stoping here out of all places ?
+Vorlan_EntranceCutscene_11 = Look. I don't know your deal, but I can't let you in.
+Vorlan_EntranceCutscene_12 = Can't you make an exception ?
+Vorlan_EntranceCutscene_13 = ....
+Vorlan_EntranceCutscene_14 = Well... I guess I could.
+Vorlan_EntranceCutscene_15 = One one condition.
+Vorlan_EntranceCutscene_16 = There is a small village near lake Victory, Altyr.
+Vorlan_EntranceCutscene_17 = You'll find an old friend of mine there. His name is Sam.
+Vorlan_EntranceCutscene_18 = Give him this letter. It's private correspondance.
+Vorlan_EntranceCutscene_19 = I would have gone there, but I need to stand guard here.
+Vorlan_EntranceCutscene_20 = Do this for me and I'll let you through.
+Vorlan_EntranceCutscene_21 = Alright, alright.
+Vorlan_EntranceCutscene_22 = I take the letter. At least I have a way in now.
+
+VorlanCheckpoint_Soldier_Default_1 = Sorry. I can't be seen talking to you.

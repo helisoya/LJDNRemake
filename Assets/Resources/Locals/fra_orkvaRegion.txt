@@ -11,3 +11,40 @@ FortWall_GUARDArcQuest3_4 = Et à l'intérieur, je vais trouver cette bombe.
 
 FortWall_GUARDArcQuest3_5 = Après avoir exploré le fort, j'arrive enfin à trouver la bombe.
 FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.
+
+
+# ---------------------------------------------------------
+# --------------------- Vorlan ----------------------------
+# ---------------------------------------------------------
+
+Vorlan_EntranceCutscene_1 = Donc voila la ville de Vorlan...
+Vorlan_EntranceCutscene_2 = Orkva l'a mis sous couvre feu il y a quelques années.
+Vorlan_EntranceCutscene_3 = Quasiment personne ne peut entrer sans authorisation.
+
+Vorlan_EntranceCutscene_NeedToEnterVorlan_1 = Mais il est possible que les bandits que je recherche soient à l'intérieur.
+Vorlan_EntranceCutscene_NeedToEnterVorlan_2 = Je dois réussir à entrer, d'une manière ou d'une autre.
+
+Vorlan_EntranceCutscene_NoNeedToEnterVorlan_1 = Je n'ai pas besoin d'entrer dans Vorlan pour le moment.
+Vorlan_EntranceCutscene_NoNeedToEnterVorlan_2 = Mais je suppose que je peux toujours chercher une entrée, au cas ou.
+
+Vorlan_EntranceCutscene_4 = Eh, vous.
+Vorlan_EntranceCutscene_5 = Le soldat se dirige vers moi.
+Vorlan_EntranceCutscene_6 = Que regardes-tu ? Ou sont tes papiers ?
+Vorlan_EntranceCutscene_7 = Je... Bien...
+Vorlan_EntranceCutscene_8 = Que dois-je faire ? Je ne sais pas quelle excuse lui sortir.
+Vorlan_EntranceCutscene_9 = Je suis un voyageur. Je voulais simplement m'arrêter ici pour la nuit.
+Vorlan_EntranceCutscene_10 = Pff ! T'arreter ici, de tout les endroits ?
+Vorlan_EntranceCutscene_11 = Ecoute. Je ne sais pas pourquoi tu fais ça, mais je ne peux pas te laisser entrer.
+Vorlan_EntranceCutscene_12 = Vous ne pouvez pas faire une exception ?
+Vorlan_EntranceCutscene_13 = ....
+Vorlan_EntranceCutscene_14 = Enfin... Je suppose que oui.
+Vorlan_EntranceCutscene_15 = A une condition.
+Vorlan_EntranceCutscene_16 = Il y a un petit village proche du lac Victoire, Altyr.
+Vorlan_EntranceCutscene_17 = Tu y trouveras un de mes amis. Son nom est Sam.
+Vorlan_EntranceCutscene_18 = Donnes-lui cette lettre. C'est une correspondance privée.
+Vorlan_EntranceCutscene_19 = Je l'aurais bien fait, mais je dois rester de garde ici.
+Vorlan_EntranceCutscene_20 = Fais-ça pour moi, et je te laisserai passer.
+Vorlan_EntranceCutscene_21 = Très bien, très bien.
+Vorlan_EntranceCutscene_22 = Je prends la lettre. Au moins, je peux rentrer maintenant.
+
+VorlanCheckpoint_Soldier_Default_1 = Désolé, on ne peux pas me voir te parler.
