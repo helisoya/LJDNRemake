@@ -3,4 +3,5 @@ setCharacterPosition(OrkvaSoldier;Front)
 setCharacterRotation(OrkvaSoldier;Front)
 setCharacterAlpha(OrkvaSoldier;1;false)
 
-load(Orkva/Vorlan/Checkpoint/Soldier_Default)
+if(secondaryQuest_Vorlan_Soldier = 1) load(Orkva/Vorlan/Checkpoint/Soldier_SecondaryQuestEnd)
+else load(Orkva/Vorlan/Checkpoint/Soldier_Default)

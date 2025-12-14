@@ -12,7 +12,60 @@ FortWall_GUARDArcQuest3_4 = And somewhere in there, I'll find that bomb.
 FortWall_GUARDArcQuest3_5 = After exploring the fort, I manage to find the bomb.
 FortWall_GUARDArcQuest3_6 = GUARD will be satisfied. I should bring it back to him.
 
+# ---------------------------------------------------------
+# ---------------------- Altyr ----------------------------
+# ---------------------------------------------------------
 
+Altyr_Sam_SecondaryQuestSoldier0_1 = Sam ? I've got a letter for you.
+Altyr_Sam_SecondaryQuestSoldier0_2 = Oh, thank you.
+Altyr_Sam_SecondaryQuestSoldier0_3 = I didn't realise you were a mailman. The uniform is too different.
+Altyr_Sam_SecondaryQuestSoldier0_4 = Oh, no. The soldier guarding the checkpoint in Vorlan told me to give it to you.
+Altyr_Sam_SecondaryQuestSoldier0_5 = ... Oh ! Him. I get it.
+Altyr_Sam_SecondaryQuestSoldier0_6 = The poor guy. He can never leave his post...
+Altyr_Sam_SecondaryQuestSoldier0_7 = Not since they put the city on lockdown.
+Altyr_Sam_SecondaryQuestSoldier0_8 = Do you know him well ?
+Altyr_Sam_SecondaryQuestSoldier0_9 = Well, yes.
+Altyr_Sam_SecondaryQuestSoldier0_10 = We were working together a few years ago on the railway project.
+Altyr_Sam_SecondaryQuestSoldier0_11 = Orkva wanted me to help create a railway between Okville and Tolau.
+Altyr_Sam_SecondaryQuestSoldier0_12 = And he was assigned to my protection.
+Altyr_Sam_SecondaryQuestSoldier0_13 = When I finished my work, I came back here and we got separated.
+Altyr_Sam_SecondaryQuestSoldier0_14 = But since we got along well, we decided to keep talking over letters.
+Altyr_Sam_SecondaryQuestSoldier0_15 = ...Anyway. If you'll excuse me....
+Altyr_Sam_SecondaryQuestSoldier0_16 = ............
+Altyr_Sam_SecondaryQuestSoldier0_17 = What ? ..... No.......
+Altyr_Sam_SecondaryQuestSoldier0_18 = This... This is bad...
+Altyr_Sam_SecondaryQuestSoldier0_19 = Something's wrong ?
+Altyr_Sam_SecondaryQuestSoldier0_20 = Oh, well.... I can't tell you, sorry...
+Altyr_Sam_SecondaryQuestSoldier0_21 = I... I have to think about this letter...
+
+Altyr_Sam_Greetings_1 = Hi, how can Sam help you ?
+
+Altyr_Sam_AboutYou_1 = I am an old engineer specialized in railways.
+Altyr_Sam_AboutYou_2 = I helped create the railway system of Orkva.
+Altyr_Sam_AboutYou_3 = My last job was the creation of the railway between Okville and Tolau.
+Altyr_Sam_AboutYou_4 = Nowadays, I'm retired. I just tend to my garden.
+
+Altyr_Sam_AboutRegion_1 = You want to know about the region ?
+Altyr_Sam_AboutRegion_2 = I'm sorry. I guess you should ask the shrine's priest about that.
+
+Altyr_Sam_ArcQuest_Nothing_1 = No, thank you.
+
+Altyr_Sam_ArcQuest_During0_1 = Please, investigate the threat at Vorlan's city hall.
+
+Altyr_Sam_Start_1 = Well... Actually...
+Altyr_Sam_Start_2 = I might need some help, yes.
+Altyr_Sam_Start_3 = It's about the letter you gave me.
+Altyr_Sam_Start_4 = My friend in Vorlan told me that shady peoples are lurking near the railway lines.
+Altyr_Sam_Start_5 = He tried to investigate, but he got lost in the tunnels beneath the city.
+Altyr_Sam_Start_6 = So he asked me to have a look since I created the railway lines.
+Altyr_Sam_Start_7 = However...
+Altyr_Sam_Start_8 = You're not a soldier. This is quite dangerous.
+Altyr_Sam_Start_9 = Yes.
+Altyr_Sam_Start_10 = You seem capable. Would you do it for me ?
+Altyr_Sam_Start_11 = I'll reward you with a piece of equipement if you succeed.
+Altyr_Sam_Start_12 = Alright. I'll investigate the train tracks.
+Altyr_Sam_Start_13 = Thank you. You'll find the entrance to the train tracks in the city hall.
+Altyr_Sam_Start_14 = And here. Take this map of the tunnels. You'll need.
 
 # ---------------------------------------------------------
 # --------------------- Vorlan ----------------------------
@@ -49,3 +102,12 @@ Vorlan_EntranceCutscene_21 = Alright, alright.
 Vorlan_EntranceCutscene_22 = I take the letter. At least I have a way in now.
 
 VorlanCheckpoint_Soldier_Default_1 = Sorry. I can't be seen talking to you.
+
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_1 = I delivered the letter.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_2 = Good. Its content are really important.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_3 = As I promised, I'll let you in now.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_4 = Just make sure not to encounter too many soldiers inside.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_5 = I don't want them to know I let you in without authorisation.
+
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Good. I can now search for the bandits.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Maybe stoping by the local inn could give me hints.

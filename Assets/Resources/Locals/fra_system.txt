@@ -206,7 +206,7 @@ City_Vorlan_ToOrkva1 = Vers Orkva
 City_Vorlan_ToOrkva2 = Vers Orkva
 City_Vorlan_ToOrkva3 = Vers Orkva
 City_Vorlan_Shop = Boutique
-City_Vorlan_Inn = Pub
+City_Vorlan_Inn = Auberge
 City_Vorlan_Checkpoint = Checkpoint
 City_Vorlan_CityHall = Mairie
 City_Vorlan_Plaza = Place de Vorlan
@@ -274,6 +274,9 @@ arcQuest_Jackwell_3_done = J'ai nagé vers le phare de Kalia
 
 arcQuest_Order_1 = Un ordre emprisonné
 arcQuest_Order_1_0 = Parlez au chef de l'Ordre à la prison de Tolau
+
+arcQuest_Sam_1 = Complot
+arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan.
 
 arcQuest_Dragon_1 = Chasse aux loups
 arcQuest_Dragon_1_0 = Tuez des loups (0/5)

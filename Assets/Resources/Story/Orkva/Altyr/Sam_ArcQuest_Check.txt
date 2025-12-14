@@ -1,0 +1,17 @@
+# You did not start the soldier secondary quest
+if(secondaryQuest_Vorlan_Soldier < 1){
+	load(Orkva/Altyr/Sam_ArcQuest_Nothing)
+	return()
+}
+
+# You started gave Sam the Soldier's letter
+if(arcQuest_Sam_1 = -1){
+	load(Orkva/Altyr/Sam_ArcQuest_Start)
+	return()
+}
+
+# You started gave Sam the Soldier's letter
+if(arcQuest_Sam_1 = 0){
+	load(Orkva/Altyr/Sam_ArcQuest_During0)
+	return()
+}

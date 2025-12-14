@@ -77,7 +77,7 @@ Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
 Region_Orkva_ToForest Forest/Common/OpenMapFromOrkva canTravel_Region_Orkva_ToForest 1
 Region_Orkva_FortWall Orkva/FortWall/Arrival canTravel_Region_Orkva_FortWall 1
 Region_Orkva_Vorlan Orkva/Vorlan/Common/OpenMapFromOrkva canTravel_Region_Orkva_Vorlan 1
-Region_Orkva_Village TODO canTravel_Region_Orkva_Village 1
+Region_Orkva_Village Orkva/Altyr/Arrival canTravel_Region_Orkva_Village 1
 Region_Orkva_Okville TODO canTravel_Region_Orkva_Okville 1
 Region_Orkva_Prison TODO canTravel_Region_Orkva_Prison 1
 Region_Orkva_Shrine TODO canTravel_Region_Orkva_Shrine 1

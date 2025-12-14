@@ -1,0 +1,12 @@
+setCharacterAlpha(Sam;0;true)
+setCharacterPosition(Sam;Front)
+setCharacterRotation(Sam;Front)
+setCharacterAlpha(Sam;1;false)
+
+if(secondaryQuest_Vorlan_Soldier = 0){
+	load(Orkva/Altyr/Sam_SecondaryQuestSoldier0_1)
+}
+else{
+	dialog(Sam;Sam;false;Altyr_Sam_Greetings_1)
+	load(Orkva/Altyr/Sam)
+}

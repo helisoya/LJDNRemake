@@ -275,6 +275,9 @@ arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
 arcQuest_Order_1 = An order behind bars
 arcQuest_Order_1_0 = Talk to the order' chief at Tolau's prison
 
+arcQuest_Sam_1 = Conspiracy
+arcQuest_Sam_1_0 = Investigate the city hall in Vorlan.
+
 arcQuest_Dragon_1 = Hunting wolves
 arcQuest_Dragon_1_0 = Kill wolves (0/5)
 arcQuest_Dragon_1_1 = Kill wolves (1/5)

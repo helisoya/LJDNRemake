@@ -26,6 +26,7 @@ Char_Amanda = Amanda
 Char_Jackwell = Jackwell
 Char_Northman = Nordien
 Char_Elder = Ancien
+Char_Sam = Sam
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

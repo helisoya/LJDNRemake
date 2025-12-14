@@ -12,6 +12,60 @@ FortWall_GUARDArcQuest3_4 = Et à l'intérieur, je vais trouver cette bombe.
 FortWall_GUARDArcQuest3_5 = Après avoir exploré le fort, j'arrive enfin à trouver la bombe.
 FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.
 
+# ---------------------------------------------------------
+# ---------------------- Altyr ----------------------------
+# ---------------------------------------------------------
+
+Altyr_Sam_SecondaryQuestSoldier0_1 = Sam ? J'ai une lettre pour vous.
+Altyr_Sam_SecondaryQuestSoldier0_2 = Oh, merci.
+Altyr_Sam_SecondaryQuestSoldier0_3 = Je n'avais pas vu que vous étiez postier. L'uniforme est très différent.
+Altyr_Sam_SecondaryQuestSoldier0_4 = Oh, non. Le soldat du checkpoint à Vorlan m'a dit de vous la donner.
+Altyr_Sam_SecondaryQuestSoldier0_5 = ...  Oh ! Lui. Je comprend.
+Altyr_Sam_SecondaryQuestSoldier0_6 = Le pauvre. Il ne peut jamais quitter son poste.
+Altyr_Sam_SecondaryQuestSoldier0_7 = Pas depuis que la ville est sous couvre feu.
+Altyr_Sam_SecondaryQuestSoldier0_8 = Vous le connaissez bien ?
+Altyr_Sam_SecondaryQuestSoldier0_9 = Et bien, oui.
+Altyr_Sam_SecondaryQuestSoldier0_10 = Nous avions travaillé ensemble il y a quelques années sur le projet de voie férée.
+Altyr_Sam_SecondaryQuestSoldier0_11 = Orkva voulait que j'aide à la création d'un chemin de fer entre Okville et Tolau.
+Altyr_Sam_SecondaryQuestSoldier0_12 = Et il avait été assigné à ma protection.
+Altyr_Sam_SecondaryQuestSoldier0_13 = Quand j'ai fini mon travail, je suis revenu ici et nous nous sommes séparés.
+Altyr_Sam_SecondaryQuestSoldier0_14 = Mais comme nous nous entendions bien, nous avons gardé le contact par lettres.
+Altyr_Sam_SecondaryQuestSoldier0_15 = ...Enfin. Vous m'excuserez, mais...
+Altyr_Sam_SecondaryQuestSoldier0_16 = ............
+Altyr_Sam_SecondaryQuestSoldier0_17 = Quoi ? ..... Non.......
+Altyr_Sam_SecondaryQuestSoldier0_18 = C'est... C'est pas bon signe...
+Altyr_Sam_SecondaryQuestSoldier0_19 = Quelque chose ne va pas ?
+Altyr_Sam_SecondaryQuestSoldier0_20 = Oh, et bien... Je ne peux pas vous le dire, désolé...
+Altyr_Sam_SecondaryQuestSoldier0_21 = Je... Je dois réfléchir à cette lettre...
+
+Altyr_Sam_Greetings_1 = Bonjour. Comment est-ce que Sam peut vous aider ?
+
+Altyr_Sam_AboutYou_1 = Je suis un ancien ingénieur spécialisé dans les chemins de fer.
+Altyr_Sam_AboutYou_2 = J'ai aidé à la création des voies férées d'Orkva.
+Altyr_Sam_AboutYou_3 = Mon dernier travail a été de créer le chemin de fer entre Okville et Tolau.
+Altyr_Sam_AboutYou_4 = Maintenant, je suis à la retraite. Je m'occupe juste de mon jardin.
+
+Altyr_Sam_AboutRegion_1 = Vous voulez savoir des choses à propos de la région ?
+Altyr_Sam_AboutRegion_2 = Je suis désolé. Je suppose que vous devriez plutôt parler au prêtre de l'autel.
+
+Altyr_Sam_ArcQuest_Nothing_1 = Non, merci.
+
+Altyr_Sam_ArcQuest_During0_1 = S'il vous plait, menez l'enquête à la mairie de Vorlan.
+
+Altyr_Sam_Start_1 = Et bien... En fait...
+Altyr_Sam_Start_2 = J'aurais besoin d'aide, oui.
+Altyr_Sam_Start_3 = C'est à propos de la lettre que vous m'avez donné.
+Altyr_Sam_Start_4 = Mon avis à Vorlan m'a dit que des gens étranges rodaient vers les voies férées.
+Altyr_Sam_Start_5 = Il a essayer de mener l'enquête, mais s'est perdu dans les tunnels sous la ville.
+Altyr_Sam_Start_6 = Donc il m'a demandé d'y jeter un coup d'oeil, comme j'ai crée les voies férées.
+Altyr_Sam_Start_7 = Cependant...
+Altyr_Sam_Start_8 = Vous n'êtes pas un soldat. C'est une tache plutôt dangereuse.
+Altyr_Sam_Start_9 = Oui.
+Altyr_Sam_Start_10 = Vous avez l'air fort. Pourriez-vous le faire pour moi ?
+Altyr_Sam_Start_11 = Je vous donnerais de l'équipement si vous réussissez.
+Altyr_Sam_Start_12 = Très bien. Je vais mener l'enquête pour vous.
+Altyr_Sam_Start_13 = Merci. Vous trouverez l'entrée des chemins de fer à la mairie.
+Altyr_Sam_Start_14 = Et tenez. Voila une carte des tunnels. Vous en aurez besoin.
 
 # ---------------------------------------------------------
 # --------------------- Vorlan ----------------------------
@@ -48,3 +102,12 @@ Vorlan_EntranceCutscene_21 = Très bien, très bien.
 Vorlan_EntranceCutscene_22 = Je prends la lettre. Au moins, je peux rentrer maintenant.
 
 VorlanCheckpoint_Soldier_Default_1 = Désolé, on ne peux pas me voir te parler.
+
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_1 = J'ai livré la lettre.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_2 = Bien. Son contenu est très important.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_3 = Comme promis, je vais te laisser entrer maintenant.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_4 = Assures-toi simplement de ne pas rencontrer trop de soldats à l'intérieur.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_5 = Je ne veux pas qu'ils sachent que je t'ai laisser entrer sans authorisation.
+
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Bien, je peux continuer à chercher les bandits.
+VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Peut être que l'auberge locale pourrait me donner des indices.
