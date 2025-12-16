@@ -93,4 +93,4 @@ City_Vorlan_Shop TODO canTravel_City_Vorlan_Shop 1
 City_Vorlan_Inn TODO canTravel_City_Vorlan_Inn 1
 City_Vorlan_Checkpoint Orkva/Vorlan/Checkpoint/Arrival canTravel_City_Vorlan_Checkpoint 1
 City_Vorlan_CityHall TODO canTravel_City_Vorlan_CityHall 1
-City_Vorlan_Plaza TODO canTravel_City_Vorlan_Plaza 1
+City_Vorlan_Plaza Orkva/Vorlan/Plaza/Arrival canTravel_City_Vorlan_Plaza 1
