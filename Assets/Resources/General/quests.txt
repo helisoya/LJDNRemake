@@ -34,3 +34,4 @@ secondaryQuest_Kalia_Max
 secondaryQuest_Kalia_Shop
 secondaryQuest_Kalia_Delivery
 secondaryQuest_Vorlan_Soldier
+secondaryQuest_Vorlan_Inn

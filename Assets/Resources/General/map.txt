@@ -90,7 +90,7 @@ City_Vorlan_ToOrkva1 Orkva/Common/OpenMapFromVorlan canTravel_City_Vorlan_ToOrkv
 City_Vorlan_ToOrkva2 Orkva/Common/OpenMapFromVorlan canTravel_City_Vorlan_ToOrkva 1
 City_Vorlan_ToOrkva3 Orkva/Common/OpenMapFromVorlan canTravel_City_Vorlan_ToOrkva 1
 City_Vorlan_Shop TODO canTravel_City_Vorlan_Shop 1
-City_Vorlan_Inn TODO canTravel_City_Vorlan_Inn 1
+City_Vorlan_Inn Orkva/Vorlan/Inn/Arrival canTravel_City_Vorlan_Inn 1
 City_Vorlan_Checkpoint Orkva/Vorlan/Checkpoint/Arrival canTravel_City_Vorlan_Checkpoint 1
 City_Vorlan_CityHall TODO canTravel_City_Vorlan_CityHall 1
 City_Vorlan_Plaza Orkva/Vorlan/Plaza/Arrival canTravel_City_Vorlan_Plaza 1

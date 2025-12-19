@@ -336,6 +336,11 @@ secondaryQuest_Vorlan_Soldier_0 = Deliver the letter at Altyr
 secondaryQuest_Vorlan_Soldier_1 = Talk to the soldier at Vorlan's checkpoint
 secondaryQuest_Vorlan_Soldier_done = I delivered the letter and can now enter Vorlan
 
+secondaryQuest_Vorlan_Inn = Food delivery
+secondaryQuest_Vorlan_Inn_0 = Deliver the food at the Kalibu shrine in Orkva, at night
+secondaryQuest_Vorlan_Inn_done = I delivered the food to the priest at the Orkvian Kalibu shrine
+
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

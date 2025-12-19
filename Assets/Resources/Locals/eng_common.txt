@@ -27,6 +27,7 @@ Char_Jackwell = Jackwell
 Char_Northman = Northman
 Char_Elder = Elder
 Char_Sam = Sam
+Char_Owner = Owner
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

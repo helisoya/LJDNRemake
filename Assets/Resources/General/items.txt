@@ -61,6 +61,7 @@ secondaryQuest_Kalia_Shop -1
 secondaryQuest_Kalia_Delivery -1
 
 secondaryQuest_Vorlan_Soldier -1
+secondaryQuest_Vorlan_Inn -1
 
 # Flags
 cutscene_EntranceVorlan 0

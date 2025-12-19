@@ -73,7 +73,7 @@ Altyr_Sam_Start_14 = Et tenez. Voila une carte des tunnels. Vous en aurez besoin
 
 Vorlan_EntranceCutscene_1 = Donc voila la ville de Vorlan...
 Vorlan_EntranceCutscene_2 = Orkva l'a mis sous couvre feu il y a quelques années.
-Vorlan_EntranceCutscene_3 = Quasiment personne ne peut entrer sans authorisation.
+Vorlan_EntranceCutscene_3 = Quasiment personne ne peut entrer sans autorisation.
 
 Vorlan_EntranceCutscene_NeedToEnterVorlan_1 = Mais il est possible que les bandits que je recherche soient à l'intérieur.
 Vorlan_EntranceCutscene_NeedToEnterVorlan_2 = Je dois réussir à entrer, d'une manière ou d'une autre.
@@ -101,13 +101,33 @@ Vorlan_EntranceCutscene_20 = Fais-ça pour moi, et je te laisserai passer.
 Vorlan_EntranceCutscene_21 = Très bien, très bien.
 Vorlan_EntranceCutscene_22 = Je prends la lettre. Au moins, je peux rentrer maintenant.
 
-VorlanCheckpoint_Soldier_Default_1 = Désolé, on ne peux pas me voir te parler.
+Vorlan_Checkpoint_Soldier_Default_1 = Désolé, on ne peux pas me voir te parler.
 
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_1 = J'ai livré la lettre.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_2 = Bien. Son contenu est très important.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_3 = Comme promis, je vais te laisser entrer maintenant.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_4 = Assures-toi simplement de ne pas rencontrer trop de soldats à l'intérieur.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_5 = Je ne veux pas qu'ils sachent que je t'ai laisser entrer sans authorisation.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_1 = J'ai livré la lettre.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_2 = Bien. Son contenu est très important.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_3 = Comme promis, je vais te laisser entrer maintenant.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_4 = Assures-toi simplement de ne pas rencontrer trop de soldats à l'intérieur.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_5 = Je ne veux pas qu'ils sachent que je t'ai laisser entrer sans autorisation.
 
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Bien, je peux continuer à chercher les bandits.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Peut être que l'auberge locale pourrait me donner des indices.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Bien, je peux continuer à chercher les bandits.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Peut être que l'auberge locale pourrait me donner des indices.
+
+Vorlan_Inn_Owner_Sleep_1 = Bien sur. Laissez-moi vous montrer votre chambre.
+
+Vorlan_Inn_Owner_AboutCity_1 = Vorlan est dans un sale état.
+Vorlan_Inn_Owner_AboutCity_2 = Le gouvernement Orkvien a décidé de déclarer un couvre feu il y a quelques années.
+Vorlan_Inn_Owner_AboutCity_3 = Tout a commençé après une grande émeute de la communauté de Vorlan.
+Vorlan_Inn_Owner_AboutCity_4 = Orkva voulait réprimmer notre culture, mais a ultimement échoué.
+Vorlan_Inn_Owner_AboutCity_5 = Le couvre feu n'est qu'un prétexte pour nous isoler de l'extérieur.
+
+Vorlan_Inn_Owner_StartSecondaryQuest_1 = ...
+Vorlan_Inn_Owner_StartSecondaryQuest_2 = Vous... Vous êtes Kalien, non ? Vous êtes aussi un Suori ?
+Vorlan_Inn_Owner_StartSecondaryQuest_3 = Oui. Vous avez besoin d'aide ?
+Vorlan_Inn_Owner_StartSecondaryQuest_4 = ...
+Vorlan_Inn_Owner_StartSecondaryQuest_5 = En fait, oui.
+Vorlan_Inn_Owner_StartSecondaryQuest_6 = Comme vous êtes entré dans Vorlan, je suppose que vous avez l'autorisation d'entrer et quitter la ville.
+Vorlan_Inn_Owner_StartSecondaryQuest_7 = J'ai besoin de livrer de la nourriture à un... ami. Pourriez-vous le faire ?
+Vorlan_Inn_Owner_StartSecondaryQuest_8 = Je suppose. Combien allez-vous me payer ?
+Vorlan_Inn_Owner_StartSecondaryQuest_9 = Tenez. Voila votre paie. Livrez la nourriture à l'autel de Kalibu juste à coté de la ville.
+Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>La propriétaire me donne 15 or.</color>
+Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, et mon ami ne sera dehors que la nuit.

@@ -336,6 +336,10 @@ secondaryQuest_Vorlan_Soldier_0 = Livrez la lettre à Altyr
 secondaryQuest_Vorlan_Soldier_1 = Parlez au soldat au checkpoint de Vorlan
 secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peut maintenant entrer dans Vorlan.
 
+secondaryQuest_Vorlan_Inn = Livraison de nourriture
+secondaryQuest_Vorlan_Inn_0 = Livrez la nourriture à l'auteul de Kalibu d'Orkva durant la nuit
+secondaryQuest_Vorlan_Inn_done = J'ai livré la nourriture au prètre de l'autel de Kalibu d'Orkva
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

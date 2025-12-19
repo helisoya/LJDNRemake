@@ -101,13 +101,33 @@ Vorlan_EntranceCutscene_20 = Do this for me and I'll let you through.
 Vorlan_EntranceCutscene_21 = Alright, alright.
 Vorlan_EntranceCutscene_22 = I take the letter. At least I have a way in now.
 
-VorlanCheckpoint_Soldier_Default_1 = Sorry. I can't be seen talking to you.
+Vorlan_Checkpoint_Soldier_Default_1 = Sorry. I can't be seen talking to you.
 
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_1 = I delivered the letter.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_2 = Good. Its content are really important.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_3 = As I promised, I'll let you in now.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_4 = Just make sure not to encounter too many soldiers inside.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_5 = I don't want them to know I let you in without authorisation.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_1 = I delivered the letter.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_2 = Good. Its content are really important.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_3 = As I promised, I'll let you in now.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_4 = Just make sure not to encounter too many soldiers inside.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_5 = I don't want them to know I let you in without authorisation.
 
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Good. I can now search for the bandits.
-VorlanCheckpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Maybe stoping by the local inn could give me hints.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Good. I can now search for the bandits.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Maybe stoping by the local inn could give me hints.
+
+Vorlan_Inn_Owner_Sleep_1 = Of course. Let me show you to your room.
+
+Vorlan_Inn_Owner_AboutCity_1 = Vorlan is in a dire state.
+Vorlan_Inn_Owner_AboutCity_2 = The Orkvian government decided to put the city on lockdown a few years ago.
+Vorlan_Inn_Owner_AboutCity_3 = It started after a huge riot by the Suori community of Vorlan.
+Vorlan_Inn_Owner_AboutCity_4 = Orkva wanted to suppress our culture, but ultimately failed.
+Vorlan_Inn_Owner_AboutCity_5 = The lockdown is just a way for them to shut us from the world.
+
+Vorlan_Inn_Owner_StartSecondaryQuest_1 = ...
+Vorlan_Inn_Owner_StartSecondaryQuest_2 = You... You are Kalian, right ? You are a fellow Suori ?
+Vorlan_Inn_Owner_StartSecondaryQuest_3 = Yes. Do you need help ?
+Vorlan_Inn_Owner_StartSecondaryQuest_4 = ...
+Vorlan_Inn_Owner_StartSecondaryQuest_5 = Actually, I do.
+Vorlan_Inn_Owner_StartSecondaryQuest_6 = Since you entered Vorlan, I assume you have authorisation to enter and leave the city.
+Vorlan_Inn_Owner_StartSecondaryQuest_7 = I need to deliver some food supplies to a... friend. Could you do it ?
+Vorlan_Inn_Owner_StartSecondaryQuest_8 = I guess I could. How much do you pay ?
+Vorlan_Inn_Owner_StartSecondaryQuest_9 = Here. Take this pay, and deliver the food to the shrine just outside the city.
+Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>The owner gave me 15 gold.</color>
+Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, and my friend only shows up at night.
