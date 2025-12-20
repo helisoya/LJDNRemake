@@ -1,0 +1,5 @@
+choice Choice_Chat
+	Choice_Buy Orkva/Vorlan/Shop/Salesman_Shop
+	Choice_AboutYou Orkva/Vorlan/Shop/Salesman_AboutYou
+	Choice_Nothing Orkva/Vorlan/Shop/Salesman_Exit
+

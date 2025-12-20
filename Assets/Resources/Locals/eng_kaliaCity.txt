@@ -2,6 +2,8 @@
 # ---------------- Kalia - Shop ---------------------------
 # ---------------------------------------------------------
 
+Kalia_Shop_Greetings_1 = Greetings. How may I help you ?
+
 Kalia_Shop_AboutYou_1 = My family has been trading goods for centuries.
 Kalia_Shop_AboutYou_2 = In fact, my great-great-great grandfather was the founder of this shop.
 Kalia_Shop_AboutYou_3 = At the time, he sold only apples, and other commodities from Iberty.

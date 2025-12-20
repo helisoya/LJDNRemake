@@ -131,3 +131,11 @@ Vorlan_Inn_Owner_StartSecondaryQuest_8 = Je suppose. Combien allez-vous me payer
 Vorlan_Inn_Owner_StartSecondaryQuest_9 = Tenez. Voila votre paie. Livrez la nourriture à l'autel de Kalibu juste à coté de la ville.
 Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>La propriétaire me donne 15 or.</color>
 Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, et mon ami ne sera dehors que la nuit.
+
+Vorlan_Shop_Greetings_1 = Bienvenue dans ma boutique.
+
+Vorlan_Shop_AboutYou_1 = Ecoutez. J'essaie juste de survivre.
+Vorlan_Shop_AboutYou_2 = De mon temps, je voyageais entre ici et Tolau pour vendre mes biens.
+Vorlan_Shop_AboutYou_3 = Maintenant, avec le couvre feu, je ne peux plus vendre qu'ici.
+Vorlan_Shop_AboutYou_4 = Le pire, c'est que quasiement personne ne peut acheter mes biens.
+Vorlan_Shop_AboutYou_5 = De toute façon, à quoi bon avoir des équipement militaires si personne ne peut quitter la ville ?

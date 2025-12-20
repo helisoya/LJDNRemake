@@ -131,3 +131,11 @@ Vorlan_Inn_Owner_StartSecondaryQuest_8 = I guess I could. How much do you pay ?
 Vorlan_Inn_Owner_StartSecondaryQuest_9 = Here. Take this pay, and deliver the food to the shrine just outside the city.
 Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>The owner gave me 15 gold.</color>
 Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, and my friend only shows up at night.
+
+Vorlan_Shop_Greetings_1 = Welcome to my shop.
+
+Vorlan_Shop_AboutYou_1 = Look, I'm just trying to survive.
+Vorlan_Shop_AboutYou_2 = Back in the days, I traveled between here and Tolau to sell my wares.
+Vorlan_Shop_AboutYou_3 = Nowadays, with the lockdown, I can only sell things here.
+Vorlan_Shop_AboutYou_4 = The worse is that nobody can afford to buy most of my stuff.
+Vorlan_Shop_AboutYou_5 = Besides, what use do you have for military equipement when nobody can leave town ?
