@@ -139,3 +139,42 @@ Vorlan_Shop_AboutYou_2 = Back in the days, I traveled between here and Tolau to 
 Vorlan_Shop_AboutYou_3 = Nowadays, with the lockdown, I can only sell things here.
 Vorlan_Shop_AboutYou_4 = The worse is that nobody can afford to buy most of my stuff.
 Vorlan_Shop_AboutYou_5 = Besides, what use do you have for military equipement when nobody can leave town ?
+
+Vorlan_CityHall_Soldier_No_1 = What do you want ? I'm busy.
+
+Vorlan_CityHall_Mayor_Greetings_1 = Welcome to Vorlan's City Hall. How may I help you ?
+
+Vorlan_CityHall_Mayor_AboutCity_1 = Some would say Vorlan is in ruin. That the Orkvian government wants to destroy us.
+Vorlan_CityHall_Mayor_AboutCity_2 = I disagree.
+Vorlan_CityHall_Mayor_AboutCity_3 = The lockdown is simply here to protect us from... criminals.
+Vorlan_CityHall_Mayor_AboutCity_4 = So please, enjoy your stay in Vorlan.
+
+Vorlan_CityHall_Mayor_AboutCity_Saved_1 = Vorlan is in ruin because of the lockdown.
+Vorlan_CityHall_Mayor_AboutCity_Saved_2 = But with the military governor gone, maybe we could manage to come back.
+Vorlan_CityHall_Mayor_AboutCity_Saved_3 = We just need to smuggle goods in and out without being seen.
+
+Vorlan_CityHall_Mayor_AboutYou_1 = I have been the mayor of the city for 5 years.
+Vorlan_CityHall_Mayor_AboutYou_2 = In the beginning, I ran as a candidate against the oppression against the Suori culture.
+Vorlan_CityHall_Mayor_AboutYou_3 = But nowadays I... I... I changed my worldview thanks to the Orkvians.
+Vorlan_CityHall_Mayor_AboutYou_4 = They mean us no harm. They are here to help us...
+
+Vorlan_CityHall_Mayor_AboutYou_Saved_1 = I have been the mayor of the city for 5 years.
+Vorlan_CityHall_Mayor_AboutYou_Saved_2 = In the beginning, I ran as a candidate against the oppression against the Suori culture.
+Vorlan_CityHall_Mayor_AboutYou_Saved_3 = However, I was forced to become the lapdog of Orkva after the lockdown came into effect.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_1 = ....
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_2 = Can you keep this a secret ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_3 = Yes. Why are you whispering ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_4 = Well... I don't want the military governor to hear us.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_5 = As you probably guessed. Vorlan is in shambles.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_6 = After the lockdown, they assigned this military governor to me.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_7 = In theory, she is supposed to only help me with the lockdown.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_8 = But in reality, she is the voice of the Orvkian government.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_9 = I can't do anything she won't allow me to. Which means I can't help the city.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_10 = Alright, but where do I come in ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_11 = Please, for Vorlan. Dispose of the governor.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_12 = How ? It's not like I can just kill them like that.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_13 = She likes to patrol the central plaza by herself at night.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_14 = Ambush her there. Make it look like an accident.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_15 = This is sketchy, but I'll try.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_16 = Remember, I'll pay you a lot if you succeed. 

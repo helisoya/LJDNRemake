@@ -62,6 +62,7 @@ secondaryQuest_Kalia_Delivery -1
 
 secondaryQuest_Vorlan_Soldier -1
 secondaryQuest_Vorlan_Inn -1
+secondaryQuest_Vorlan_Mayor -1
 
 # Flags
 cutscene_EntranceVorlan 0

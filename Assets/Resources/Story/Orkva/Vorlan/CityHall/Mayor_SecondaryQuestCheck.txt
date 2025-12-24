@@ -1,0 +1,7 @@
+# Checks for the mayor's secondary quest
+
+# Quest not started
+if(secondaryQuest_Vorlan_Mayor = -1){
+	load(Orkva/Vorlan/CityHall/Mayor_SecondaryQuest_Start)
+	return()
+}

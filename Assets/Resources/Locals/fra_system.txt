@@ -334,11 +334,16 @@ secondaryQuest_Kalia_Delivery_done = J'ai livré la lettre
 secondaryQuest_Vorlan_Soldier = Correspondance privée
 secondaryQuest_Vorlan_Soldier_0 = Livrez la lettre à Altyr
 secondaryQuest_Vorlan_Soldier_1 = Parlez au soldat au checkpoint de Vorlan
-secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peut maintenant entrer dans Vorlan.
+secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peut maintenant entrer dans Vorlan
 
 secondaryQuest_Vorlan_Inn = Livraison de nourriture
 secondaryQuest_Vorlan_Inn_0 = Livrez la nourriture à l'auteul de Kalibu d'Orkva durant la nuit
 secondaryQuest_Vorlan_Inn_done = J'ai livré la nourriture au prètre de l'autel de Kalibu d'Orkva
+
+secondaryQuest_Vorlan_Mayor = Le gouverneur militaire
+secondaryQuest_Vorlan_Mayor_0 = Ambusquez le gouvenreur militaire, de nuit, à la place de Vorlan
+secondaryQuest_Vorlan_Mayor_1 = Parlez au maire de Vorlan
+secondaryQuest_Vorlan_Mayor_done = J'ai tué le gouverneur militaire de Vorlan
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

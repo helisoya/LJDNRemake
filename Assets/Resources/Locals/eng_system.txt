@@ -340,6 +340,10 @@ secondaryQuest_Vorlan_Inn = Food delivery
 secondaryQuest_Vorlan_Inn_0 = Deliver the food at the Kalibu shrine in Orkva, at night
 secondaryQuest_Vorlan_Inn_done = I delivered the food to the priest at the Orkvian Kalibu shrine
 
+secondaryQuest_Vorlan_Mayor = The military governor
+secondaryQuest_Vorlan_Mayor_0 = Ambush the military governor at night in Vorlan's plaza
+secondaryQuest_Vorlan_Mayor_1 = Talk to the mayor of Vorlan
+secondaryQuest_Vorlan_Mayor_done = I killed Vorlan's military governor
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

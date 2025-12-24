@@ -139,3 +139,42 @@ Vorlan_Shop_AboutYou_2 = De mon temps, je voyageais entre ici et Tolau pour vend
 Vorlan_Shop_AboutYou_3 = Maintenant, avec le couvre feu, je ne peux plus vendre qu'ici.
 Vorlan_Shop_AboutYou_4 = Le pire, c'est que quasiement personne ne peut acheter mes biens.
 Vorlan_Shop_AboutYou_5 = De toute façon, à quoi bon avoir des équipement militaires si personne ne peut quitter la ville ?
+
+Vorlan_CityHall_Soldier_No_1 = Qu'est ce que tu veux ? Je suis occupé.
+
+Vorlan_CityHall_Mayor_Greetings_1 = Bienvenue à la mairie de Vorlan. Comment puis-je vous aider ?
+
+Vorlan_CityHall_Mayor_AboutCity_1 = Certains disent que Vorlan est en ruine. Que le gouvernement Orkvien veut notre perte.
+Vorlan_CityHall_Mayor_AboutCity_2 = Je ne suis pas d'accord.
+Vorlan_CityHall_Mayor_AboutCity_3 = Le couvre feu n'est la que pour nous protéger des... criminels.
+Vorlan_CityHall_Mayor_AboutCity_4 = Donc s'il vous plait, appréciez votre sejour à Vorlan.
+
+Vorlan_CityHall_Mayor_AboutCity_Saved_1 = Vorlan est en ruine à cause du couvre feu.
+Vorlan_CityHall_Mayor_AboutCity_Saved_2 = Mais avec la disparition du gouverneur militaire, nous avons une fenêtre d'opportunité.
+Vorlan_CityHall_Mayor_AboutCity_Saved_3 = Nous devons essayer de trafiquer des biens et rétablir du commerce avec l'extérieur.
+
+Vorlan_CityHall_Mayor_AboutYou_1 = J'ai été le maire de cette ville pendant 5 ans.
+Vorlan_CityHall_Mayor_AboutYou_2 = Au départ, j'était le candidat contre l'oppression envers la culture Suori.
+Vorlan_CityHall_Mayor_AboutYou_3 = Mais de nos jours je... je... j'ai changé ma vision du monde grâce aux Orkviens.
+Vorlan_CityHall_Mayor_AboutYou_4 = Ils ne nous veulent pas de mal. Ils sont la pour nous aider...
+
+Vorlan_CityHall_Mayor_AboutYou_Saved_1 = J'ai été le maire de cette ville pendant 5 ans.
+Vorlan_CityHall_Mayor_AboutYou_Saved_2 = Au départ, j'était le candidat contre l'oppression envers la culture Suori.
+Vorlan_CityHall_Mayor_AboutYou_Saved_3 = Cependant, j'ai été forcé de devenir le sbire d'Orkva avec l'arrivé du couvre feu.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_1 = ....
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_2 = Pouvez-vous garder un secret ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_3 = Oui. Mais pourquoi chuchoter ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_4 = Et bien... Je ne veux pas que le gouverneur militaire ne nous entendent.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_5 = Comme vous le savez surement. Vorlan est en ruine.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_6 = Avec le couvre feu, un gouverneur militaire m'a été assigné.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_7 = En théorie, elle ne devait que m'aider avec le couvre feu.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_8 = Mais en réalité, elle est la voix du gouvernement Orvkien.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_9 = Je ne peux faire que ce qu'elle veut. Ce qui veut dire que je ne peux pas aider la ville.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_10 = Je vois. Et qu'est ce que je viens faire la dedans ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_11 = S'il vous plait, pour Vorlan. Débarassez-nous du gouverneur.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_12 = Comment ? Je ne peux pas la tuer comme ça.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_13 = Elle aime patrouiller la place centrale, seule, la nuit.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_14 = Prenez la en embuscade. Faites croire à un accident.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_15 = C'est risqué, mais je vais essayer.
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_16 = Souvenez-vous. Je vais vous payer énormement si vous réussissez.
