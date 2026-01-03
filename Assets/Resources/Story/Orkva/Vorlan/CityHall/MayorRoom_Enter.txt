@@ -7,7 +7,7 @@ addCharacter(Citizen2;false)
 setCharacterPosition(Citizen2;Mayor)
 setCharacterRotation(Citizen2;Mayor)
 
-if(secondaryQuest_Vorlan_Mayor < 100 & night = 0){
+if(secondaryQuest_Vorlan_Mayor < 1 & night = 0){
 	addCharacter(SecretPolice;false)
 	setCharacterPosition(SecretPolice;Soldier)
 	setCharacterRotation(SecretPolice;Soldier)

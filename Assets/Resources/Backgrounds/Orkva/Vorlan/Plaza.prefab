@@ -5250,6 +5250,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3907412158650039669}
+  - {fileID: 151843417533776270}
   m_Father: {fileID: 3907412158682202896}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9997,6 +9998,37 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 3e613bb1c0c4b354badb8deec68c7ac8, type: 3}
   glowFadeSpeed: 2
   objectRenderers: []
+--- !u!1 &8467179758935903556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151843417533776270}
+  m_Layer: 0
+  m_Name: ByFountain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151843417533776270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8467179758935903556}
+  m_LocalRotation: {x: 0, y: 0.19680177, z: 0, w: 0.98044336}
+  m_LocalPosition: {x: -5.5, y: 0.43, z: 29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3907412157646518743}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 22.7, z: 0}
 --- !u!1001 &7209549066353685735
 PrefabInstance:
   m_ObjectHideFlags: 0

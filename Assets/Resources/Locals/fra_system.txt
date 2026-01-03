@@ -379,14 +379,15 @@ ENNEMY_Summoner_Harold_name = ???
 ENNEMY_Animal_Wolf_name = Loup
 ENNEMY_Animal_Bear_name = Ours
 ENNEMY_Animal_LegendaryBear_name = Ours
-ENNEMY_Animal_Dragon1 = Dragon
-ENNEMY_Animal_Dragon2 = Dragon
+ENNEMY_Animal_Dragon1_name = Dragon
+ENNEMY_Animal_Dragon2_name = Dragon
 
-ENNEMY_OrkvaSoldier_Sword = Soldat
-ENNEMY_OrkvaSoldier_Revolver = Soldat
+ENNEMY_Orkva_VorlanGovernor_name = Gouverneur militaire
+ENNEMY_OrkvaSoldier_Sword_name = Soldat
+ENNEMY_OrkvaSoldier_Revolver_name = Soldat
 
-ENNEMY_Rebel_Hand = Rebelle
-ENNEMY_Rebel_Knife = Rebelle
+ENNEMY_Rebel_Hand_name = Rebelle
+ENNEMY_Rebel_Knife_name = Rebelle
 
 DOGACE_name = Ace
 GUARD_name = GARDE

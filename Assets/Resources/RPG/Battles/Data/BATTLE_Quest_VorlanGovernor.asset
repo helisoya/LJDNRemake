@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e68ebb06cc2bedf45a1096e1856c06fa, type: 3}
-  m_Name: BATTLE_Quest_KaliShop
+  m_Name: BATTLE_Quest_VorlanGovernor
   m_EditorClassIdentifier: 
   ennemies:
-  - {fileID: 11400000, guid: 5b0dc1f07abf55c4387ce276f4cd7658, type: 2}
-  goldReward: 8
+  - {fileID: 11400000, guid: a1727b7322592a045855cfe6a3ad0fe4, type: 2}
+  goldReward: 20
   music: Battle_General1
   nightSky: {fileID: 11400000, guid: 7fa7e38c302b28d4e96ebac2c2d42b60, type: 2}
   daySky: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}

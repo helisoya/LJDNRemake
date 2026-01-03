@@ -18,4 +18,4 @@ dialog([MC];_;false;Kalia_Shop_SubQuest_8)
 
 dialog(Bandit;Bandit1;false;Kalia_Shop_SubQuest_9)
 
-battle(BATTLE_Quest_KaliShop;CityStreet;Kalia/City/Shop/SubQuestEnd)
+battle(BATTLE_Quest_KaliaShop;CityStreet;Kalia/City/Shop/SubQuestEnd)

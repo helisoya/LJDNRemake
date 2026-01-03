@@ -140,6 +140,16 @@ Vorlan_Shop_AboutYou_3 = Nowadays, with the lockdown, I can only sell things her
 Vorlan_Shop_AboutYou_4 = The worse is that nobody can afford to buy most of my stuff.
 Vorlan_Shop_AboutYou_5 = Besides, what use do you have for military equipement when nobody can leave town ?
 
+Vorlan_Plaza_Soldier_Default_1 = Hey ! The curfew is in effect. Go back inside or I'll arrest you.
+
+Vorlan_Plaza_Soldier_MayorQuest_1 = ...
+Vorlan_Plaza_Soldier_MayorQuest_2 = Tough guy, uh ?
+Vorlan_Plaza_Soldier_MayorQuest_3 = I warned you. This will get ugly.
+Vorlan_Plaza_Soldier_MayorQuest_4 = ... The governor was dealt with.
+Vorlan_Plaza_Soldier_MayorQuest_5 = I take time to try and make it look like an accident.
+Vorlan_Plaza_Soldier_MayorQuest_6 = ... There. This should be fine.
+Vorlan_Plaza_Soldier_MayorQuest_7 = I need to go back to the mayor now.
+
 Vorlan_CityHall_Soldier_No_1 = What do you want ? I'm busy.
 
 Vorlan_CityHall_Mayor_Greetings_1 = Welcome to Vorlan's City Hall. How may I help you ?
@@ -177,4 +187,18 @@ Vorlan_CityHall_Mayor_SecondaryQuest_Start_12 = How ? It's not like I can just k
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_13 = She likes to patrol the central plaza by herself at night.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_14 = Ambush her there. Make it look like an accident.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_15 = This is sketchy, but I'll try.
-Vorlan_CityHall_Mayor_SecondaryQuest_Start_16 = Remember, I'll pay you a lot if you succeed. 
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_16 = Remember, I'll pay you a lot if you succeed.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_During_1 = You need to help us with our military governor.
+Vorlan_CityHall_Mayor_SecondaryQuest_During_2 = You'll find her patroling the central plaza at night.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_End_1 = I heard the news. You succeeded !
+Vorlan_CityHall_Mayor_SecondaryQuest_End_2 = Yes, but don't you fear that they grow suspicious ?
+Vorlan_CityHall_Mayor_SecondaryQuest_End_3 = No worries. Their forces are too dispersed. They won't even bother to send a new one.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_4 = Too much ground to hold I suppose.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_5 = Yes. I actually received a telegram earlier regarding that.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_6 = They said the soldiers guarding the city will be enough.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Which means I'll be able to help the citizen of Vorlan now.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_8 = Here. Take this as a token of our gratitude.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_9 = <color=blue>I received 50 gold from the mayor.</color>
+Vorlan_CityHall_Mayor_SecondaryQuest_End_10 = Vorlan now has a chance to crawl back from poverty. We need to seize it.

@@ -140,6 +140,16 @@ Vorlan_Shop_AboutYou_3 = Maintenant, avec le couvre feu, je ne peux plus vendre 
 Vorlan_Shop_AboutYou_4 = Le pire, c'est que quasiement personne ne peut acheter mes biens.
 Vorlan_Shop_AboutYou_5 = De toute façon, à quoi bon avoir des équipement militaires si personne ne peut quitter la ville ?
 
+Vorlan_Plaza_Soldier_Default_1 = Eh ! Le couvre feu est en cours. Rentres chez toi ou je vais t'arrêter.
+
+Vorlan_Plaza_Soldier_MayorQuest_1 = ...
+Vorlan_Plaza_Soldier_MayorQuest_2 = Un dur, hein ?
+Vorlan_Plaza_Soldier_MayorQuest_3 = Je t'ai prevenu. Tu vas souffrir.
+Vorlan_Plaza_Soldier_MayorQuest_4 = ... Le gouverneur est mort.
+Vorlan_Plaza_Soldier_MayorQuest_5 = Je prend le temps de faire passer sa mort pour un accident.
+Vorlan_Plaza_Soldier_MayorQuest_6 = ... Voila. Ca devrait être suffisant.
+Vorlan_Plaza_Soldier_MayorQuest_7 = Je devrais retourner voir le maire, maintenant.
+
 Vorlan_CityHall_Soldier_No_1 = Qu'est ce que tu veux ? Je suis occupé.
 
 Vorlan_CityHall_Mayor_Greetings_1 = Bienvenue à la mairie de Vorlan. Comment puis-je vous aider ?
@@ -178,3 +188,17 @@ Vorlan_CityHall_Mayor_SecondaryQuest_Start_13 = Elle aime patrouiller la place c
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_14 = Prenez la en embuscade. Faites croire à un accident.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_15 = C'est risqué, mais je vais essayer.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_16 = Souvenez-vous. Je vais vous payer énormement si vous réussissez.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_During_1 = Vous devez nous aider avec le gouverneur militaire.
+Vorlan_CityHall_Mayor_SecondaryQuest_During_2 = Vous la trouverez de nuit à la place centrale.
+
+Vorlan_CityHall_Mayor_SecondaryQuest_End_1 = J'ai entendu la nouvelle. Vous avez réussit !
+Vorlan_CityHall_Mayor_SecondaryQuest_End_2 = Oui, mais vous n'avez pas peur de représailles ?
+Vorlan_CityHall_Mayor_SecondaryQuest_End_3 = N'ayez crainte. Leurs forces sont trop éparpillées. Ils n'enveront pas de nouveau gouverneur.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_4 = Trop d'emplacements stratégiques à garder je suppose.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_5 = Oui. J'ai d'ailleurs déjà obtenu un télégramme à propos de cela.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_6 = Ils disent que les soldats qui gardent la ville seront suffisant.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Ce qui veut dire que je vais pouvoir maintenant aider les Vorlains.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_8 = Tenez. Prenez ceci comme récompense pour nous avoir aidé.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_9 = <color=blue>Le maire m'a donné 50 or.</color>
+Vorlan_CityHall_Mayor_SecondaryQuest_End_10 = Vorlan a maintenant un chance de sortir de la pauvreté. Nous devons agir.

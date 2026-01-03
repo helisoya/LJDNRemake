@@ -382,11 +382,12 @@ ENNEMY_Animal_LegendaryBear_name = Bear
 ENNEMY_Animal_Dragon1_name = Dragon
 ENNEMY_Animal_Dragon2_name = Dragon
 
-ENNEMY_OrkvaSoldier_Sword = Soldier
-ENNEMY_OrkvaSoldier_Revolver = Soldier
+ENNEMY_Orkva_VorlanGovernor_name = Military Governor
+ENNEMY_OrkvaSoldier_Sword_name = Soldier
+ENNEMY_OrkvaSoldier_Revolver_name = Soldier
 
-ENNEMY_Rebel_Hand = Rebel
-ENNEMY_Rebel_Knife = Rebel
+ENNEMY_Rebel_Hand_name = Rebel
+ENNEMY_Rebel_Knife_name = Rebel
 
 DOGACE_name = Ace
 GUARD_name = GUARD

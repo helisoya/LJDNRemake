@@ -13,6 +13,14 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_Vorlan)
 
+if(secondaryQuest_Vorlan_Mayor < 1 & night = 1){
+	addCharacter(SecretPolice;false)
+	setCharacterPosition(SecretPolice;ByFountain)
+	setCharacterRotation(SecretPolice;ByFountain)
+	setInteractionChapter(SecretPolice;Orkva/Vorlan/Plaza/Soldier_Enter)
+}
+
+
 autosave()
 
 fadeFg(0;false)
