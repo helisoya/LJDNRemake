@@ -52,6 +52,8 @@ Altyr_Sam_ArcQuest_Nothing_1 = Non, merci.
 
 Altyr_Sam_ArcQuest_During0_1 = S'il vous plait, menez l'enquête à la mairie de Vorlan.
 
+Altyr_Sam_ArcQuest_During1_1 = La casse du siècle ? Que voulaient-ils dire par là ?
+
 Altyr_Sam_Start_1 = Et bien... En fait...
 Altyr_Sam_Start_2 = J'aurais besoin d'aide, oui.
 Altyr_Sam_Start_3 = C'est à propos de la lettre que vous m'avez donné.
@@ -202,3 +204,21 @@ Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Ce qui veut dire que je vais pouvoi
 Vorlan_CityHall_Mayor_SecondaryQuest_End_8 = Tenez. Prenez ceci comme récompense pour nous avoir aidé.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_9 = <color=blue>Le maire m'a donné 50 or.</color>
 Vorlan_CityHall_Mayor_SecondaryQuest_End_10 = Vorlan a maintenant un chance de sortir de la pauvreté. Nous devons agir.
+
+Vorlan_CityHall_RailwayQuest_1 = C'est l'entrée de la voie de chemin de fer dans laquelle Sam veut que j'enquête.
+Vorlan_CityHall_RailwayQuest_2 = Et bien, ne tardons pas.
+
+Vorlan_CityHall_RailwayQuest_3 = En marchant dans les tunnels, je tombe sur une table étrange.
+Vorlan_CityHall_RailwayQuest_4 = Elle semble ne pas être supposé être là. Comme si elle était là pour des travaux de maintenance.
+Vorlan_CityHall_RailwayQuest_5 = J'observe les objets qui s'y trouvent. C'est assez étrange.
+Vorlan_CityHall_RailwayQuest_6 = Il y a un plan des tunnels, ainsi qu'une lettre.
+Vorlan_CityHall_RailwayQuest_7 = Je l'ouvre et je lis son contenu.
+Vorlan_CityHall_RailwayQuest_8 = "Jacky. Si tu lis ceci, c'est que le moment est enfin venu."
+Vorlan_CityHall_RailwayQuest_9 = "La casse du siecle est sur le point de commencer." 
+Vorlan_CityHall_RailwayQuest_10 = "Simon, à l'auberge de Tolau, aura tes instructions."
+Vorlan_CityHall_RailwayQuest_11 = "Nous avons besoin de toi à Vorlan pendant quelques jours."
+Vorlan_CityHall_RailwayQuest_12 = "Après quoi, nous serons prêts."
+Vorlan_CityHall_RailwayQuest_13 = Qu'est-ce que cela peut bien signifier ?
+Vorlan_CityHall_RailwayQuest_14 = Des bandits préparent un braquage à Vorlan ? Non...
+Vorlan_CityHall_RailwayQuest_15 = C'est étrange. Ça doit être quelque chose de plus important.
+Vorlan_CityHall_RailwayQuest_16 = Je devrais probablement aller à l'auberge de Tolau. "Simon" me dira sûrement ce qu'il sait...

@@ -52,6 +52,8 @@ Altyr_Sam_ArcQuest_Nothing_1 = No, thank you.
 
 Altyr_Sam_ArcQuest_During0_1 = Please, investigate the threat at Vorlan's city hall.
 
+Altyr_Sam_ArcQuest_During1_1 = The greatest heist of all ? What could they mean by that ?
+
 Altyr_Sam_Start_1 = Well... Actually...
 Altyr_Sam_Start_2 = I might need some help, yes.
 Altyr_Sam_Start_3 = It's about the letter you gave me.
@@ -202,3 +204,21 @@ Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Which means I'll be able to help th
 Vorlan_CityHall_Mayor_SecondaryQuest_End_8 = Here. Take this as a token of our gratitude.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_9 = <color=blue>I received 50 gold from the mayor.</color>
 Vorlan_CityHall_Mayor_SecondaryQuest_End_10 = Vorlan now has a chance to crawl back from poverty. We need to seize it.
+
+Vorlan_CityHall_RailwayQuest_1 = This is the entrance of the railway line Sam told me to investigate.
+Vorlan_CityHall_RailwayQuest_2 = Well, here I go.
+
+Vorlan_CityHall_RailwayQuest_3 = While walking in the tunnels, I stumble upon a weird table.
+Vorlan_CityHall_RailwayQuest_4 = It seems out of place. As if it's here for maintenance work.
+Vorlan_CityHall_RailwayQuest_5 = I look at the objects on it. It's quite weird.
+Vorlan_CityHall_RailwayQuest_6 = There is a plan of the tunnels, as well as a letter.
+Vorlan_CityHall_RailwayQuest_7 = I open it and read its content.
+Vorlan_CityHall_RailwayQuest_8 = "Jacky. If you read this, it means its finally time."
+Vorlan_CityHall_RailwayQuest_9 = "The greatest heist of all is about to begin."
+Vorlan_CityHall_RailwayQuest_10 = "Simon, at Tolau's inn, will have your instructions."
+Vorlan_CityHall_RailwayQuest_11 = "We'll need you in Vorlan for a couple days."
+Vorlan_CityHall_RailwayQuest_12 = "After which, we will be ready."
+Vorlan_CityHall_RailwayQuest_13 = What could it mean ?
+Vorlan_CityHall_RailwayQuest_14 = Bandits are planning a heist in Vorlan ? No...
+Vorlan_CityHall_RailwayQuest_15 = This seems weird. It must be something bigger.
+Vorlan_CityHall_RailwayQuest_16 = I should probably head to Tolau's inn. "Simon" will surely tell me what he knows...

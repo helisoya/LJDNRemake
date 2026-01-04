@@ -276,7 +276,11 @@ arcQuest_Order_1 = Un ordre emprisonné
 arcQuest_Order_1_0 = Parlez au chef de l'Ordre à la prison de Tolau
 
 arcQuest_Sam_1 = Complot
-arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan.
+arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan
+arcQuest_Sam_1_done = J'ai mené l'enquête dans les chemins de fer de Vorlan
+
+arcQuest_Sam_2 = Voleurs
+arcQuest_Sam_2_0 = Trouvez Simon à l'auberge de Tolau
 
 arcQuest_Dragon_1 = Chasse aux loups
 arcQuest_Dragon_1_0 = Tuez des loups (0/5)
@@ -368,6 +372,8 @@ Location_BraiseFortress = Forteresse Braise
 
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
+ENNEMY_Bandit_Revolver_name = Bandit
+ENNEMY_Bandit_Rifle_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur
@@ -447,3 +453,9 @@ SKILL_HEAL_name = Bénediction
 SKILL_HEAL_desc = Soin léger<br>(un allié)
 SKILL_ELKTOUCH_name = Touché du Cerf
 SKILL_ELKTOUCH_desc = Attaque légère<br>Chance d'empoisonner<br>(Un ennemi)
+FIREARM_RIFLE_name = Fusil
+FIREARM_RIFLE_desc = Un fusil militaire standard.<br>+6 ATK
+FIREARM_SHOTGUN_name = Fusil à pompe
+FIREARM_SHOTGUN_desc = Parfait pour du combat rapproché.<br>+7 ATK
+SKILL_FRAGPELLET_name = Balles à fragmentation
+SKILL_FRAGPELLET_desc = Attaque légère<br>Malus de Défense<br>(un ennemi)

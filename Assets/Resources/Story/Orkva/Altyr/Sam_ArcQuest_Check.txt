@@ -4,14 +4,20 @@ if(secondaryQuest_Vorlan_Soldier < 1){
 	return()
 }
 
-# You started gave Sam the Soldier's letter
+# You gave Sam the Soldier's letter
 if(arcQuest_Sam_1 = -1){
 	load(Orkva/Altyr/Sam_ArcQuest_Start)
 	return()
 }
 
-# You started gave Sam the Soldier's letter
-if(arcQuest_Sam_1 = 0){
+# During the arcQuest 1
+if(arcQuest_Sam_1 < 100){
 	load(Orkva/Altyr/Sam_ArcQuest_During0)
+	return()
+}
+
+# During the arcQuest 2
+if(arcQuest_Sam_2 < 100){
+	load(Orkva/Altyr/Sam_ArcQuest_During1)
 	return()
 }

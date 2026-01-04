@@ -276,7 +276,11 @@ arcQuest_Order_1 = An order behind bars
 arcQuest_Order_1_0 = Talk to the order' chief at Tolau's prison
 
 arcQuest_Sam_1 = Conspiracy
-arcQuest_Sam_1_0 = Investigate the city hall in Vorlan.
+arcQuest_Sam_1_0 = Investigate the city hall in Vorlan
+arcQuest_Sam_1_done = I investigated the railways of Vorlan
+
+arcQuest_Sam_2 = Heisters
+arcQuest_Sam_2_0 = Find Simon at Tolau's inn.
 
 arcQuest_Dragon_1 = Hunting wolves
 arcQuest_Dragon_1_0 = Kill wolves (0/5)
@@ -368,6 +372,8 @@ Location_BraiseFortress = Ember Fortress
 
 ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
+ENNEMY_Bandit_Revolver_name = Bandit
+ENNEMY_Bandit_Rifle_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Summoner
 ENNEMY_Summoner_Knife_name = Summoner
@@ -447,3 +453,9 @@ SKILL_HEAL_name = Benediction
 SKILL_HEAL_desc = Light heal<br>(one ally)
 SKILL_ELKTOUCH_name = Touch of the Elk
 SKILL_ELKTOUCH_desc = Light attack<br>Chance of Poison<br>(one foe)
+FIREARM_RIFLE_name = Rifle
+FIREARM_RIFLE_desc = A standard military rifle.<br>+6 ATK
+FIREARM_SHOTGUN_name = Shotgun
+FIREARM_SHOTGUN_desc = A weapon perfect for close quarter combat.<br>+7 ATK
+SKILL_FRAGPELLET_name = Fragmentation Pellets
+SKILL_FRAGPELLET_desc = Light attack<br>Defense down<br>(one foe)

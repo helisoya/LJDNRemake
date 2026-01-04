@@ -42,6 +42,7 @@ arcQuest_Jackwell_4 -1
 arcQuest_Order_1 -1
 
 arcQuest_Sam_1 -1
+arcQuest_Sam_2 -1
 
 arcQuest_Dragon_1 -1
 arcQuest_Dragon_2 -1
