@@ -222,3 +222,37 @@ Vorlan_CityHall_RailwayQuest_13 = Qu'est-ce que cela peut bien signifier ?
 Vorlan_CityHall_RailwayQuest_14 = Des bandits préparent un braquage à Vorlan ? Non...
 Vorlan_CityHall_RailwayQuest_15 = C'est étrange. Ça doit être quelque chose de plus important.
 Vorlan_CityHall_RailwayQuest_16 = Je devrais probablement aller à l'auberge de Tolau. "Simon" me dira sûrement ce qu'il sait...
+
+# ---------------------------------------------------------
+# --------------------- Shrine ----------------------------
+# ---------------------------------------------------------
+
+OrkvaShrine_Priest_Greetings_1 = ... Vous ne ressemblez pas aux autres soldats Orkiens...
+
+OrkvaShrine_Priest_SecondaryQuest_1 = Cette nourriture. Elle vous a envoyé ?
+OrkvaShrine_Priest_SecondaryQuest_2 = L'aubergiste ? Oui.
+OrkvaShrine_Priest_SecondaryQuest_3 = Bien, bien. Déposez la ici.
+OrkvaShrine_Priest_SecondaryQuest_4 = Je dépose la nourriture à côté de l'homme.
+OrkvaShrine_Priest_SecondaryQuest_5 = Je suppose qu'elle vous a déjà payé ? Je suis désolé, je ne peux pas le faire moi-même.
+OrkvaShrine_Priest_SecondaryQuest_6 = Comme je vis caché, je compte sur la générosité des habitants pour vivre.
+
+OrkvaShrine_Priest_AboutYou_1 = Je suis... le gardien de l'autel que vous voyez devant nous.
+OrkvaShrine_Priest_AboutYou_2 = Ma famille s'en est occupée pendant des générations.
+OrkvaShrine_Priest_AboutYou_3 = Enfin... jusqu'à ce que les Orkviens en aient assez.
+OrkvaShrine_Priest_AboutYou_4 = L'armée est venu et a détruit l'autel.
+OrkvaShrine_Priest_AboutYou_5 = Mon grand-père est mort ce jour-là.
+OrkvaShrine_Priest_AboutYou_6 = Ma mère et moi sommes restés cachés dans l'autel par la suite. Elle voulait rester fidèle au devoir familial.
+OrkvaShrine_Priest_AboutYou_7 = Malheureusement, elle est décédée il y a quelques années à cause d'une maladie. Je suis maintenant le seul gardien de ce sanctuaire. 
+OrkvaShrine_Priest_AboutYou_8 = Les Suoris de la région nous envoient de la nourriture de temps en temps.
+OrkvaShrine_Priest_AboutYou_9 = Orkva a interdit la pratique de notre religion, mais personne ne leur obéit.
+OrkvaShrine_Priest_AboutYou_10 = Des gens viennent encore ici de temps en temps pour prier.
+
+OrkvaShrine_Priest_AboutRegion_1 = La région a été conquise par Orkva bien avant la Guerre des Unions.
+OrkvaShrine_Priest_AboutRegion_2 = Au début, ils voulaient convertir la population locale à leurs coutumes. Mais hélas...
+OrkvaShrine_Priest_AboutRegion_3 = Ils se sont vite lassés d'attendre et de leurs tentatives infructueuses pour convaincre la population.
+OrkvaShrine_Priest_AboutRegion_4 = Le roi ordonna d'affamer les Suoris. Malgré cela, ils ont tout de même échoué. 
+OrkvaShrine_Priest_AboutRegion_5 = De nos jours, la région est sous occupation militaire permanente.
+OrkvaShrine_Priest_AboutRegion_6 = Tolau est sous blocus naval. Un couvre-feu est en vigueur à Vorlan.
+OrkvaShrine_Priest_AboutRegion_7 = Leur seul succès jusqu'à présent a été la création d'Okville.
+OrkvaShrine_Priest_AboutRegion_8 = C'est une ville entièrement orkvienne, juste au sud.
+OrkvaShrine_Priest_AboutRegion_9 = Si vous y allez un jour, vous verrez que c'est... différent. Bourgeois ?

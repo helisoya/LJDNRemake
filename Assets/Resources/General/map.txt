@@ -80,7 +80,7 @@ Region_Orkva_Vorlan Orkva/Vorlan/Common/OpenMapFromOrkva canTravel_Region_Orkva_
 Region_Orkva_Village Orkva/Altyr/Arrival canTravel_Region_Orkva_Village 1
 Region_Orkva_Okville TODO canTravel_Region_Orkva_Okville 1
 Region_Orkva_Prison TODO canTravel_Region_Orkva_Prison 1
-Region_Orkva_Shrine TODO canTravel_Region_Orkva_Shrine 1
+Region_Orkva_Shrine Orkva/Shrine/Arrival canTravel_Region_Orkva_Shrine 1
 Region_Orkva_Tolau TODO canTravel_Region_Orkva_Tolau 1
 Region_Orkva_Farm TODO canTravel_Region_Orkva_Farm 1
 Region_Orkva_MilitaryBase TODO canTravel_Region_Orkva_MilitaryBase 1

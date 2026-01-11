@@ -222,3 +222,37 @@ Vorlan_CityHall_RailwayQuest_13 = What could it mean ?
 Vorlan_CityHall_RailwayQuest_14 = Bandits are planning a heist in Vorlan ? No...
 Vorlan_CityHall_RailwayQuest_15 = This seems weird. It must be something bigger.
 Vorlan_CityHall_RailwayQuest_16 = I should probably head to Tolau's inn. "Simon" will surely tell me what he knows...
+
+# ---------------------------------------------------------
+# --------------------- Shrine ----------------------------
+# ---------------------------------------------------------
+
+OrkvaShrine_Priest_Greetings_1 = ... You don't look like the other orkvian soldiers...
+
+OrkvaShrine_Priest_SecondaryQuest_1 = These goods. Did she send you ?
+OrkvaShrine_Priest_SecondaryQuest_2 = The innkeeper ? Yes.
+OrkvaShrine_Priest_SecondaryQuest_3 = Good, good. Please, put this here.
+OrkvaShrine_Priest_SecondaryQuest_4 = I drop the food next to the man.
+OrkvaShrine_Priest_SecondaryQuest_5 = I suppose she already payed you ? I'm sorry I can't do it you myself.
+OrkvaShrine_Priest_SecondaryQuest_6 = Since I am in hiding, I rely on the generosity of the locals to live.
+
+OrkvaShrine_Priest_AboutYou_1 = I'm... the caretaker of the shrine you see before us.
+OrkvaShrine_Priest_AboutYou_2 = My family took care of it for generations.
+OrkvaShrine_Priest_AboutYou_3 = Well... until the Orkvian decided they had enough.
+OrkvaShrine_Priest_AboutYou_4 = The military came and destroyed the shrine.
+OrkvaShrine_Priest_AboutYou_5 = My grandfather died that day.
+OrkvaShrine_Priest_AboutYou_6 = My mother and I stayed hidden in the shrine afterwards. She wanted to stay true to our family's duty.
+OrkvaShrine_Priest_AboutYou_7 = However, she died a few years ago due to an illness. I'm now the sole caretaker of this shrine.
+OrkvaShrine_Priest_AboutYou_8 = Suoris from the region send us food from time to time.
+OrkvaShrine_Priest_AboutYou_9 = Orkva outlawed the practice of our religion, but no one cares.
+OrkvaShrine_Priest_AboutYou_10 = People still come here from time to time to pray.
+
+OrkvaShrine_Priest_AboutRegion_1 = The region was conquerered by Orkva long before the Unions War.
+OrkvaShrine_Priest_AboutRegion_2 = At first, they wanted to convert the local population to their ways. But alas...
+OrkvaShrine_Priest_AboutRegion_3 = They quickly grew tired of waiting and of their failed attempts at winning over the population.
+OrkvaShrine_Priest_AboutRegion_4 = The king ordered the Suori starved. Somehow, they still failed.
+OrkvaShrine_Priest_AboutRegion_5 = Nowadays, the region is in constant military occupation.
+OrkvaShrine_Priest_AboutRegion_6 = Tolau is under a naval blockade. A curfew is in effect in Vorlan.
+OrkvaShrine_Priest_AboutRegion_7 = The only success they had so far was the creation of Okville.
+OrkvaShrine_Priest_AboutRegion_8 = It's an all-Orkvian town just down the road.
+OrkvaShrine_Priest_AboutRegion_9 = If you ever go there, you'll see it's... different. Bourgeois, prehaps ?
