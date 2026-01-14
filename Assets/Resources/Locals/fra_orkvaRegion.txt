@@ -256,3 +256,9 @@ OrkvaShrine_Priest_AboutRegion_6 = Tolau est sous blocus naval. Un couvre-feu es
 OrkvaShrine_Priest_AboutRegion_7 = Leur seul succès jusqu'à présent a été la création d'Okville.
 OrkvaShrine_Priest_AboutRegion_8 = C'est une ville entièrement orkvienne, juste au sud.
 OrkvaShrine_Priest_AboutRegion_9 = Si vous y allez un jour, vous verrez que c'est... différent. Bourgeois ?
+
+# ---------------------------------------------------------
+# --------------------- Prison ----------------------------
+# ---------------------------------------------------------
+
+Prison_Door_Dont_1 = Pourquoi irais-je dans une prison Orkvienne ?

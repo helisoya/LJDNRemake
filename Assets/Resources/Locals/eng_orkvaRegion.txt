@@ -256,3 +256,9 @@ OrkvaShrine_Priest_AboutRegion_6 = Tolau is under a naval blockade. A curfew is 
 OrkvaShrine_Priest_AboutRegion_7 = The only success they had so far was the creation of Okville.
 OrkvaShrine_Priest_AboutRegion_8 = It's an all-Orkvian town just down the road.
 OrkvaShrine_Priest_AboutRegion_9 = If you ever go there, you'll see it's... different. Bourgeois, prehaps ?
+
+# ---------------------------------------------------------
+# --------------------- Prison ----------------------------
+# ---------------------------------------------------------
+
+Prison_Door_Dont_1 = Why would I enter an Orkvian prison ?
