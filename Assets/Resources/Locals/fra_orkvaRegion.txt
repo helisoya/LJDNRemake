@@ -122,8 +122,18 @@ Vorlan_Inn_Owner_AboutCity_3 = Tout a commençé après une grande émeute de la
 Vorlan_Inn_Owner_AboutCity_4 = Orkva voulait réprimmer notre culture, mais a ultimement échoué.
 Vorlan_Inn_Owner_AboutCity_5 = Le couvre feu n'est qu'un prétexte pour nous isoler de l'extérieur.
 
+Vorlan_Inn_Owner_AboutBandits_1 = Les bandits ? Ils m'énervent vraiment ces derniers temps.
+Vorlan_Inn_Owner_AboutBandits_2 = Ils avaient un deal avec l'ancien proprio. Ca avait à voir avec un tunnel sous l'auberge.
+Vorlan_Inn_Owner_AboutBandits_3 = Je ne sais pas ou il mène, mais je suis sur qu'il mène en dehors de la ville.
+Vorlan_Inn_Owner_AboutBandits_4 = Ils n'arretent pas de faire entrer et sortir des marchandises de la ville.
+Vorlan_Inn_Owner_AboutBandits_5 = Ils vous menacent ?
+Vorlan_Inn_Owner_AboutBandits_6 = Oui... J'ai essayer de les faire partir une fois. Ca n'a pas fonctionné...
+Vorlan_Inn_Owner_AboutBandits_7 = Je pourrais aider.
+Vorlan_Inn_Owner_AboutBandits_8 = ... Vous voyez cet homme à coté ? Il fait partie du gang.
+Vorlan_Inn_Owner_AboutBandits_9 = Disons juste qu'il ne me manquerait pas s'il disparaissait.
+
 Vorlan_Inn_Owner_StartSecondaryQuest_1 = ...
-Vorlan_Inn_Owner_StartSecondaryQuest_2 = Vous... Vous êtes Kalien, non ? Vous êtes aussi un Suori ?
+Vorlan_Inn_Owner_StartSecondaryQuest_2 = Vous... Je peux vous faire confiance ?
 Vorlan_Inn_Owner_StartSecondaryQuest_3 = Oui. Vous avez besoin d'aide ?
 Vorlan_Inn_Owner_StartSecondaryQuest_4 = ...
 Vorlan_Inn_Owner_StartSecondaryQuest_5 = En fait, oui.
@@ -133,6 +143,41 @@ Vorlan_Inn_Owner_StartSecondaryQuest_8 = Je suppose. Combien allez-vous me payer
 Vorlan_Inn_Owner_StartSecondaryQuest_9 = Tenez. Voila votre paie. Livrez la nourriture à l'autel de Kalibu juste à coté de la ville.
 Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>La propriétaire me donne 15 or.</color>
 Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, et mon ami ne sera dehors que la nuit.
+
+Vorlan_Inn_MainQuest3_1_1 = Tu veux quoi ?
+Vorlan_Inn_MainQuest3_1_2 = Je recherche des bandits. Ils viennent de la Forêt Blanche et ont volé un colis important.
+Vorlan_Inn_MainQuest3_1_3 = Et en quoi ça me concerne, mon pote ?
+Vorlan_Inn_MainQuest3_1_4 = Disons simplement que j'ai des raisons de penser que vous travaillez avec eux.
+Vorlan_Inn_MainQuest3_1_5 = ...
+Vorlan_Inn_MainQuest3_1_6 = Eh, eh, eh. Tu te crois malin ?
+Vorlan_Inn_MainQuest3_1_7 = Arnold m'a parlé de toi. Il te croyait mort.
+Vorlan_Inn_MainQuest3_1_8 = Je suppose que je vais devoir rectifier le tir. Les gars ! 
+Vorlan_Inn_MainQuest3_1_9 = Des bandits sortent de l'arrière de l'auberge.
+Vorlan_Inn_MainQuest3_1_10 = La propriétaire se met à couvert, ça va mal tourner.
+
+Vorlan_Inn_MainQuest3_1_11 = Arrête ! Je me rends !
+Vorlan_Inn_MainQuest3_1_12 = Arnold. C'est lui qui m'a attaqué ?
+Vorlan_Inn_MainQuest3_1_13 = Oui, je te jure ! Il est passé ici il y a pas longtemps avec un colis.
+Vorlan_Inn_MainQuest3_1_14 = Il est allé l'apporter au camp dans les montagnes.
+Vorlan_Inn_MainQuest3_1_15 = Et où se trouve ce camp ? 
+Vorlan_Inn_MainQuest3_1_16 = Les tunnels sous cette auberge y mènent directement.
+Vorlan_Inn_MainQuest3_1_17 = On les utilise pour faire passer de la contrebande depuis et vers le camp.
+Vorlan_Inn_MainQuest3_1_18 = Je veux dire, quelles montagnes ? Vous pourriez me tendre un piège.
+Vorlan_Inn_MainQuest3_1_19 = Non, je te jure ! L'entrée principale du camp se trouve du côté Marklichtien des montagnes de la Forêt Blanche.
+Vorlan_Inn_MainQuest3_1_20 = Le Marklicht ? Jusqu'où va ce tunnel ? Ça me paraît louche.
+Vorlan_Inn_MainQuest3_1_21 = Guidez-moi. Je ne vous fais pas confiance.
+Vorlan_Inn_MainQuest3_1_22 = D'accord, d'accord. Je n'ai pas le choix. 
+Vorlan_Inn_MainQuest3_1_23 = Le bandit se relève. Il époussette sa veste, puis...
+Vorlan_Inn_MainQuest3_1_24 = ... s'enfuit. Quel idiot je suis !
+Vorlan_Inn_MainQuest3_1_25 = Ah, ah ! Pauvre fou ! Tu n'atteindras jamais notre camp !
+Vorlan_Inn_MainQuest3_1_26 = Je le poursuis jusqu'à la cave de l'auberge.
+Vorlan_Inn_MainQuest3_1_27 = Mais avant même de pouvoir entrer dans le fameux tunnel...
+Vorlan_Inn_MainQuest3_1_28 = Son entrée explose. Il a dû être piégé pour effacer leurs traces en cas de problèmes.
+Vorlan_Inn_MainQuest3_1_29 = Mince ! Je viens de perdre ma piste. 
+Vorlan_Inn_MainQuest3_1_30 = Il a parlé d'une entrée dans les montagnes Marklichtienne. Je devrais y aller.
+Vorlan_Inn_MainQuest3_1_31 = Je me vengerai de ce type bien assez tôt.
+Vorlan_Inn_MainQuest3_1_32 = Je monte à l'étage. La propriétaire est revenu et je l'entend marmonner "Merci".
+Vorlan_Inn_MainQuest3_1_33 = Je peux entrer au Marklicht en allant à gauche dans la Forêt Blanche.
 
 Vorlan_Shop_Greetings_1 = Bienvenue dans ma boutique.
 

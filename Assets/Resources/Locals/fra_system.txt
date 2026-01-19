@@ -228,7 +228,12 @@ mainQuest_2_done = J'ai mené l'enquête sur le bandit des docks
 mainQuest_3 = La Forêt Blanche
 mainQuest_3_0 = Allez au QG de l'ordre dans la Forêt Blanche
 mainQuest_3_1 = Trouvez la trace des bandits à Vorlan
+mainQuest_3_2 = Parlez à l'homme dans l'auberge de Vorlan
 mainQuest_3_done = J'ai trouvé ou se trouve le colis
+
+mainQuest_4 = Bandits aux Marklicht
+mainQuest_4_0 = Trouvez l'entrée du camp de bandit au Marklicht
+mainQuest_4_done = J'ai trouvé le colis
 
 rebelQuest_0 = Trouver le salut
 rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
@@ -374,6 +379,7 @@ ENNEMY_Bandit_Hand_name = Bandit
 ENNEMY_Bandit_Knife_name = Bandit
 ENNEMY_Bandit_Revolver_name = Bandit
 ENNEMY_Bandit_Rifle_name = Bandit
+ENNEMY_Bandit_VorlanMainQuest3_name = Bandit
 
 ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur

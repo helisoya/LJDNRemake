@@ -122,8 +122,18 @@ Vorlan_Inn_Owner_AboutCity_3 = It started after a huge riot by the Suori communi
 Vorlan_Inn_Owner_AboutCity_4 = Orkva wanted to suppress our culture, but ultimately failed.
 Vorlan_Inn_Owner_AboutCity_5 = The lockdown is just a way for them to shut us from the world.
 
+Vorlan_Inn_Owner_AboutBandits_1 = Bandits ? They are seriously getting on my nerves.
+Vorlan_Inn_Owner_AboutBandits_2 = They got a deal with the previous owner. Something about a tunnel underneath the inn.
+Vorlan_Inn_Owner_AboutBandits_3 = I don't know where it leads, but it sure is somewhere out of here.
+Vorlan_Inn_Owner_AboutBandits_4 = They keep getting stuff in and out of the city, right under my nose.
+Vorlan_Inn_Owner_AboutBandits_5 = Are they threatning you ?
+Vorlan_Inn_Owner_AboutBandits_6 = Yeah... I tried telling them off once. Didn't work...
+Vorlan_Inn_Owner_AboutBandits_7 = I could help with that.
+Vorlan_Inn_Owner_AboutBandits_8 = ... See that guy over there ? He's one of them.
+Vorlan_Inn_Owner_AboutBandits_9 = Let's just say I wouldn't mind them disapearing from my inn...
+
 Vorlan_Inn_Owner_StartSecondaryQuest_1 = ...
-Vorlan_Inn_Owner_StartSecondaryQuest_2 = You... You are Kalian, right ? You are a fellow Suori ?
+Vorlan_Inn_Owner_StartSecondaryQuest_2 = You... Can I trust you ?
 Vorlan_Inn_Owner_StartSecondaryQuest_3 = Yes. Do you need help ?
 Vorlan_Inn_Owner_StartSecondaryQuest_4 = ...
 Vorlan_Inn_Owner_StartSecondaryQuest_5 = Actually, I do.
@@ -133,6 +143,41 @@ Vorlan_Inn_Owner_StartSecondaryQuest_8 = I guess I could. How much do you pay ?
 Vorlan_Inn_Owner_StartSecondaryQuest_9 = Here. Take this pay, and deliver the food to the shrine just outside the city.
 Vorlan_Inn_Owner_StartSecondaryQuest_10 = <color=blue>The owner gave me 15 gold.</color>
 Vorlan_Inn_Owner_StartSecondaryQuest_11 = Oh, and my friend only shows up at night.
+
+Vorlan_Inn_MainQuest3_1_1 = What do you want ?
+Vorlan_Inn_MainQuest3_1_2 = I'm looking for bandits. They came from the White Forest and have stolen a valuable package.
+Vorlan_Inn_MainQuest3_1_3 = And why would I be concerned, friend ?
+Vorlan_Inn_MainQuest3_1_4 = Let's just say I have my reason to think you are working with them.
+Vorlan_Inn_MainQuest3_1_5 = ...
+Vorlan_Inn_MainQuest3_1_6 = Well, well, well. You think you're smart ?
+Vorlan_Inn_MainQuest3_1_7 = Arnold told me about you. He thought you died.
+Vorlan_Inn_MainQuest3_1_8 = Guess I'll just have to rectify that. Guys !
+Vorlan_Inn_MainQuest3_1_9 = Bandits come out of the back of the inn.
+Vorlan_Inn_MainQuest3_1_10 = The owner takes cover, this is going to get ugly.
+
+Vorlan_Inn_MainQuest3_1_11 = Okay, okay ! I surrender !
+Vorlan_Inn_MainQuest3_1_12 = Arnold. Was he the one who attacked me ?
+Vorlan_Inn_MainQuest3_1_13 = Yeah, I swear ! He came here not too long ago with a package.
+Vorlan_Inn_MainQuest3_1_14 = He went to smuggle it to the HQ in the mountains.
+Vorlan_Inn_MainQuest3_1_15 = And where is this HQ ?
+Vorlan_Inn_MainQuest3_1_16 = The tunnels under this inn lead directly to it.
+Vorlan_Inn_MainQuest3_1_17 = We use them to smuggle goods from and to the HQ.
+Vorlan_Inn_MainQuest3_1_18 = I mean, which mountains ? You could be leading me to a trap.
+Vorlan_Inn_MainQuest3_1_19 = No, I swear ! The main entrance of the HQ is in the Marklichtian side of the White Forest mountains.
+Vorlan_Inn_MainQuest3_1_20 = Marklicht ? How far does this tunnel goes ? This sounds fishy.
+Vorlan_Inn_MainQuest3_1_21 = Guide me trough it. I don't trust you.
+Vorlan_Inn_MainQuest3_1_22 = Okay, okay. I'll do it.
+Vorlan_Inn_MainQuest3_1_23 = The bandit gets up. He dusts his jacket, then...
+Vorlan_Inn_MainQuest3_1_24 = ... Runs off. I am an idiot.
+Vorlan_Inn_MainQuest3_1_25 = Ah, ah ! You fool ! You'll never get to our HQ !
+Vorlan_Inn_MainQuest3_1_26 = I run after him to the basement.
+Vorlan_Inn_MainQuest3_1_27 = However, before I can even enter the tunnel...
+Vorlan_Inn_MainQuest3_1_28 = Its entrance explodes. It must have been rigged to cover their traces.
+Vorlan_Inn_MainQuest3_1_29 = Damn ! I just lost my lead.
+Vorlan_Inn_MainQuest3_1_30 = He talked about an entrance in the Marklichtian mountains. I should go there.
+Vorlan_Inn_MainQuest3_1_31 = I'll have my revenge on that guy in due time.
+Vorlan_Inn_MainQuest3_1_32 = I go upstairs. The owner came back and muttered "Thanks".
+Vorlan_Inn_MainQuest3_1_33 = I can enter Marklichtian territory by going left in the White Forest.
 
 Vorlan_Shop_Greetings_1 = Welcome to my shop.
 

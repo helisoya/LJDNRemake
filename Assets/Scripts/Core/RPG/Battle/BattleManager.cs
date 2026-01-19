@@ -104,6 +104,7 @@ public class BattleManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
+        AudioManager.instance.PlaySong(null);
         SceneManager.LoadScene("MainMenu");
     }
 

@@ -17,6 +17,14 @@ addCharacter(Citizen6;false)
 setCharacterPosition(Citizen6;Waiter)
 setCharacterRotation(Citizen6;Waiter)
 
+if(mainQuest_3 = 1){
+	addCharacter(Bandit3;false)
+	setCharacterBody(Bandit3;Sit;true)
+	setCharacterPosition(Bandit3;Chair)
+	setCharacterRotation(Bandit3;Chair)
+	setInteractionChapter(Bandit3;Orkva/Vorlan/Inn/MainQuest3)
+}
+
 autosave()
 
 fadeFg(0;false)
