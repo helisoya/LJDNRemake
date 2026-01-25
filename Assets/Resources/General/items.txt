@@ -126,3 +126,9 @@ canTravel_City_Vorlan_Inn 1
 canTravel_City_Vorlan_Checkpoint 1
 canTravel_City_Vorlan_CityHall 1
 canTravel_City_Vorlan_Plaza 1
+
+canTravel_City_Okville_ToOrkva 1
+canTravel_City_Okville_Shop 1
+canTravel_City_Okville_TrainStation 1
+canTravel_City_Okville_Shrine 1
+canTravel_City_Okville_CityHall 1

@@ -211,6 +211,14 @@ City_Vorlan_Checkpoint = Checkpoint
 City_Vorlan_CityHall = Mairie
 City_Vorlan_Plaza = Place de Vorlan
 
+City_Okville_ToOrkva1 = Vers Orkva
+City_Okville_ToOrkva2 = Vers Orkva
+City_Okville_ToOrkva3 = Vers Orkva
+City_Okville_Shop = Boutique
+City_Okville_TrainStation = Gare
+City_Okville_Shrine = Autel Royal
+City_Okville_CityHall = Mairie
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------

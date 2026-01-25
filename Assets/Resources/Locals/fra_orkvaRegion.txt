@@ -307,3 +307,10 @@ OrkvaShrine_Priest_AboutRegion_9 = Si vous y allez un jour, vous verrez que c'es
 # ---------------------------------------------------------
 
 Prison_Door_Dont_1 = Pourquoi irais-je dans une prison Orkvienne ?
+
+# ---------------------------------------------------------
+# --------------------- Okville ---------------------------
+# ---------------------------------------------------------
+
+Okville_Shrine_Portrait_1 = Un portrait du roi Orkvien.
+Okville_Shrine_Portrait_2 = Il est à la fois le chef de gouvernement et la figure religieuse de la religion Orkvienne.

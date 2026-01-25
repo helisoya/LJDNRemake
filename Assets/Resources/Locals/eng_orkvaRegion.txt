@@ -307,3 +307,10 @@ OrkvaShrine_Priest_AboutRegion_9 = If you ever go there, you'll see it's... diff
 # ---------------------------------------------------------
 
 Prison_Door_Dont_1 = Why would I enter an Orkvian prison ?
+
+# ---------------------------------------------------------
+# --------------------- Okville ---------------------------
+# ---------------------------------------------------------
+
+Okville_Shrine_Portrait_1 = A portrait of the Orkvian king.
+Okville_Shrine_Portrait_2 = He's both the head of government and the head of the Orkvian religion.
