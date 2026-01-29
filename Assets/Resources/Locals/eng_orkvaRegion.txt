@@ -314,3 +314,10 @@ Prison_Door_Dont_1 = Why would I enter an Orkvian prison ?
 
 Okville_Shrine_Portrait_1 = A portrait of the Orkvian king.
 Okville_Shrine_Portrait_2 = He's both the head of government and the head of the Orkvian religion.
+
+Okville_Shop_Greetings_1 = What do you want ?
+
+Okville_Shop_Shop_1 = Right...
+
+Okville_Shop_AboutYou_1 = Why would I talk to you, Suori.
+Okville_Shop_AboutYou_2 = If you don't have anything to buy, please leave.

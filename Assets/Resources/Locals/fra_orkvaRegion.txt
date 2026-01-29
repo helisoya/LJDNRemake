@@ -313,4 +313,11 @@ Prison_Door_Dont_1 = Pourquoi irais-je dans une prison Orkvienne ?
 # ---------------------------------------------------------
 
 Okville_Shrine_Portrait_1 = Un portrait du roi Orkvien.
-Okville_Shrine_Portrait_2 = Il est à la fois le chef de gouvernement et la figure religieuse de la religion Orkvienne.
+Okville_Shrine_Portrait_2 = Il est à la fois le chef de gouvernement et la figure religieuse de la religion Orkvienne.7
+
+Okville_Shop_Greetings_1 = Que veux-tu ?
+
+Okville_Shop_Shop_1 = Ouaih...
+
+Okville_Shop_AboutYou_1 = Pourquoi devrais-je te parler, Suori ?
+Okville_Shop_AboutYou_2 = Si tu n'as rien à acheter, part.

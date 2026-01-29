@@ -1,4 +1,4 @@
 # Shop of the Kalia's salesman
-shop(OrkvaSalesman)
+shop(VorlanSalesman)
 
 load(Orkva/Vorlan/Shop/Salesman)
