@@ -321,3 +321,6 @@ Okville_Shop_Shop_1 = Right...
 
 Okville_Shop_AboutYou_1 = Why would I talk to you, Suori.
 Okville_Shop_AboutYou_2 = If you don't have anything to buy, please leave.
+
+Okville_CityHall_Door_1 = The sign says "No Suori allowed".
+Okville_CityHall_Door_2 = What is this place...

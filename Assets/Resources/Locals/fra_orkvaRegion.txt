@@ -321,3 +321,6 @@ Okville_Shop_Shop_1 = Ouaih...
 
 Okville_Shop_AboutYou_1 = Pourquoi devrais-je te parler, Suori ?
 Okville_Shop_AboutYou_2 = Si tu n'as rien à acheter, part.
+
+Okville_CityHall_Door_1 = L'écriteau dit "Pas de Suori ici".
+Okville_CityHall_Door_2 = Cette ville est folle...

@@ -102,4 +102,4 @@ City_Okville_ToOrkva3 Orkva/Common/OpenMapFromOkville canTravel_City_Okville_ToO
 City_Okville_Shop Orkva/Okville/Shop/Arrival canTravel_City_Okville_Shop 1
 City_Okville_TrainStation Orkva/Okville/TrainStation/Arrival canTravel_City_Okville_TrainStation 1
 City_Okville_Shrine Orkva/Okville/Shrine/Arrival canTravel_City_Okville_Shrine 1
-City_Okville_CityHall TODO canTravel_City_Okville_CityHall 1
+City_Okville_CityHall Orkva/Okville/CityHall/Arrival canTravel_City_Okville_CityHall 1
