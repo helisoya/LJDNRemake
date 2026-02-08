@@ -125,6 +125,8 @@ variable(canTravel_City_Vorlan_Inn;0)
 variable(canTravel_City_Vorlan_CityHall;0)
 variable(canTravel_City_Vorlan_Plaza;0)
 
+variable(canTravel_Region_Orkva_ToMirageIsland;0)
+
 
 playMusic(Exploration_Kalia)
 

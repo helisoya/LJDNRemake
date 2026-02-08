@@ -192,6 +192,7 @@ Region_Forest_Camp3 = Bandit Stronghold
 Region_Forest_Village = Northmen village
 
 Region_Orkva_ToForest = To the White Forest
+Region_Orkva_ToMirageIsland = To the Mirage Island
 Region_Orkva_FortWall = Fort Wall
 Region_Orkva_Vorlan = Vorlan
 Region_Orkva_Tolau = Tolau

@@ -192,6 +192,7 @@ Region_Forest_Camp3 = Base de bandits
 Region_Forest_Village = Village Nordiens
 
 Region_Orkva_ToForest = Vers la forêt blanche
+Region_Orkva_ToMirageIsland = Vers l'Ile Mirage
 Region_Orkva_FortWall = Fort Muraille
 Region_Orkva_Vorlan = Vorlan
 Region_Orkva_Tolau = Tolau
