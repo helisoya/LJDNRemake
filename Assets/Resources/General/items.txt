@@ -133,3 +133,13 @@ canTravel_City_Okville_Shop 1
 canTravel_City_Okville_TrainStation 1
 canTravel_City_Okville_Shrine 1
 canTravel_City_Okville_CityHall 1
+
+canTravel_City_Tolau_ToOrkva 1
+canTravel_City_Tolau_Shop 1
+canTravel_City_Tolau_Boathouse 1
+canTravel_City_Tolau_Lighthouse 1
+canTravel_City_Tolau_Port 1
+canTravel_City_Tolau_Plaza 1
+canTravel_City_Tolau_Courthouse 1
+canTravel_City_Tolau_CityHall 1
+canTravel_City_Tolau_Residences 1

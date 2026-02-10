@@ -82,7 +82,7 @@ Region_Orkva_Village Orkva/Altyr/Arrival canTravel_Region_Orkva_Village 1
 Region_Orkva_Okville Orkva/Okville/Common/OpenMapFromOrkva canTravel_Region_Orkva_Okville 1
 Region_Orkva_Prison Orkva/Prison/Arrival canTravel_Region_Orkva_Prison 1
 Region_Orkva_Shrine Orkva/Shrine/Arrival canTravel_Region_Orkva_Shrine 1
-Region_Orkva_Tolau TODO canTravel_Region_Orkva_Tolau 1
+Region_Orkva_Tolau Orkva/Tolau/Common/OpenMapFromOrkva canTravel_Region_Orkva_Tolau 1
 Region_Orkva_Farm Orkva/TolauFarm/Arrival canTravel_Region_Orkva_Farm 1
 Region_Orkva_MilitaryBase TODO canTravel_Region_Orkva_MilitaryBase 1
 
@@ -104,3 +104,15 @@ City_Okville_Shop Orkva/Okville/Shop/Arrival canTravel_City_Okville_Shop 1
 City_Okville_TrainStation Orkva/Okville/TrainStation/Arrival canTravel_City_Okville_TrainStation 1
 City_Okville_Shrine Orkva/Okville/Shrine/Arrival canTravel_City_Okville_Shrine 1
 City_Okville_CityHall Orkva/Okville/CityHall/Arrival canTravel_City_Okville_CityHall 1
+
+[City_Tolau]
+City_Tolau_ToOrkva1 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
+City_Tolau_ToOrkva2 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
+City_Tolau_Shop TODO canTravel_City_Tolau_Shop 1
+City_Tolau_Boathouse TODO canTravel_City_Tolau_Boathouse 1
+City_Tolau_Lighthouse TODO canTravel_City_Tolau_Lighthouse 1
+City_Tolau_Port TODO canTravel_City_Tolau_Port 1
+City_Tolau_Plaza TODO canTravel_City_Tolau_Plaza 1
+City_Tolau_Courthouse TODO canTravel_City_Tolau_Courthouse 1
+City_Tolau_CityHall TODO canTravel_City_Tolau_CityHall 1
+City_Tolau_Residences TODO canTravel_City_Tolau_Residences 1

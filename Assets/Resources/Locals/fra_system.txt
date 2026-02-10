@@ -220,6 +220,17 @@ City_Okville_TrainStation = Gare
 City_Okville_Shrine = Autel Royal
 City_Okville_CityHall = Mairie
 
+City_Tolau_ToOrkva1 = To Orkva
+City_Tolau_ToOrkva2 = To Orkva
+City_Tolau_Shop = Boutique
+City_Tolau_Boathouse = Cabane du pecheur
+City_Tolau_Lighthouse = Phare
+City_Tolau_Port = Docks
+City_Tolau_Plaza = Place
+City_Tolau_Courthouse = Tribunal
+City_Tolau_CityHall = Mairie
+City_Tolau_Residences = Residences
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
