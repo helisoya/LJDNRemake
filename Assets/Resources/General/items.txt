@@ -65,6 +65,8 @@ secondaryQuest_Vorlan_Soldier -1
 secondaryQuest_Vorlan_Inn -1
 secondaryQuest_Vorlan_Mayor -1
 
+secondaryQuest_Tolau_Fisherman -1
+
 # Flags
 cutscene_EntranceVorlan 0
 

@@ -324,3 +324,40 @@ Okville_Shop_AboutYou_2 = If you don't have anything to buy, please leave.
 
 Okville_CityHall_Door_1 = The sign says "No Suori allowed".
 Okville_CityHall_Door_2 = What is this place...
+
+# ---------------------------------------------------------
+# ---------------------- Tolau ---------------------------
+# ---------------------------------------------------------
+
+Tolau_FishermanHouse_Fisherman_Greetings_1 = ... Oh, hello.
+
+Tolau_FishermanHouse_Fisherman_AboutYou_1 = What's up with you ? I don't wanna talk.
+Tolau_FishermanHouse_Fisherman_AboutYou_2 = I see your uniform, are you Orkva's ?
+Tolau_FishermanHouse_Fisherman_AboutYou_3 = Then again, maybe not. Too... blue.
+Tolau_FishermanHouse_Fisherman_AboutYou_4 = Anyway, I don't like talking to strangers. No offense, of course.
+
+Tolau_FishermanHouse_Fisherman_UseBoat_1 = Okay, okay. Come with me.
+
+Tolau_FishermanHouse_Fisherman_StartQuest_1 = May I request the use of your boat ?
+Tolau_FishermanHouse_Fisherman_StartQuest_2 = What ? Wait... Hold on a minute.
+Tolau_FishermanHouse_Fisherman_StartQuest_3 = I've heard this one before. You want to use it to go to Mirage Island ?
+Tolau_FishermanHouse_Fisherman_StartQuest_4 = Well... Yes.
+Tolau_FishermanHouse_Fisherman_StartQuest_5 = No. I refuse.
+Tolau_FishermanHouse_Fisherman_StartQuest_6 = I already said it to the local shopskeeper. I won't be smuggling people over there.
+Tolau_FishermanHouse_Fisherman_StartQuest_7 = Sure, I might be undetected by the Orkvian military, but I can't take any chances.
+Tolau_FishermanHouse_Fisherman_StartQuest_8 = Hmm... I could use an access point to Mirage Island, though...
+Tolau_FishermanHouse_Fisherman_StartQuest_9 = Could I not get you to reconsider ? I could get you paid handsomely.
+Tolau_FishermanHouse_Fisherman_StartQuest_10 = As if ! Now get out of my sight.
+Tolau_FishermanHouse_Fisherman_StartQuest_11 = ... Maybe the local shopskeeper could help me with him.
+
+Tolau_FishermanHouse_Fisherman_DuringQuest_1 = ... Let's not talk about that any longer.
+
+Tolau_FishermanHouse_Fisherman_EndQuest_1 = ... Again ?
+Tolau_FishermanHouse_Fisherman_EndQuest_2 = I have an item that might make you reconsider.
+Tolau_FishermanHouse_Fisherman_EndQuest_3 = W-Wait... My grandpa's...
+Tolau_FishermanHouse_Fisherman_EndQuest_4 = Give it to me, please.
+Tolau_FishermanHouse_Fisherman_EndQuest_5 = I'll do anything. Just give it back.
+Tolau_FishermanHouse_Fisherman_EndQuest_6 = Let me use your boat, and I'll give it back.
+Tolau_FishermanHouse_Fisherman_EndQuest_7 = Fine, fine. I'll let you have it.
+Tolau_FishermanHouse_Fisherman_EndQuest_8 = I give back the clock to the fisherman.
+Tolau_FishermanHouse_Fisherman_EndQuest_9 = When you are ready to go, tell me. I'll guide you to the Island.

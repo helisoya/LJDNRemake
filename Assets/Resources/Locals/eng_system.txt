@@ -374,6 +374,13 @@ secondaryQuest_Vorlan_Mayor_0 = Ambush the military governor at night in Vorlan'
 secondaryQuest_Vorlan_Mayor_1 = Talk to the mayor of Vorlan
 secondaryQuest_Vorlan_Mayor_done = I killed Vorlan's military governor
 
+secondaryQuest_Tolau_Fisherman = Safe passage
+secondaryQuest_Tolau_Fisherman_0 = Talk to Tolau's shopkeeper
+secondaryQuest_Tolau_Fisherman_1 = Talk to Vorlan's shopkeeper
+secondaryQuest_Tolau_Fisherman_2 = Get the clock back from the bandit camp in the White Forest
+secondaryQuest_Tolau_Fisherman_3 = Bring back the clock to Tolau's fisherman
+secondaryQuest_Tolau_Fisherman_done = I can now access Mirage Island
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

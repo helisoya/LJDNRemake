@@ -81,6 +81,8 @@ Choice_NotYet = Pas encore
 
 Choice_GoBack = Retourner en arrière
 
+Choice_UseBoat = Puis-je utiliser votre barque ?
+
 # ---------------------------------------------------------
 # ------------------- Common ------------------------------
 # ---------------------------------------------------------

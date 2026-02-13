@@ -37,3 +37,4 @@ secondaryQuest_Kalia_Delivery
 secondaryQuest_Vorlan_Soldier
 secondaryQuest_Vorlan_Inn
 secondaryQuest_Vorlan_Mayor
+secondaryQuest_Tolau_Fisherman

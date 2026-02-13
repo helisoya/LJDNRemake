@@ -374,6 +374,13 @@ secondaryQuest_Vorlan_Mayor_0 = Ambusquez le gouvenreur militaire, de nuit, à l
 secondaryQuest_Vorlan_Mayor_1 = Parlez au maire de Vorlan
 secondaryQuest_Vorlan_Mayor_done = J'ai tué le gouverneur militaire de Vorlan
 
+secondaryQuest_Tolau_Fisherman = Bon voyage
+secondaryQuest_Tolau_Fisherman_0 = Parlez au marchand de Tolau
+secondaryQuest_Tolau_Fisherman_1 = Parlez au marchand de Vorlan
+secondaryQuest_Tolau_Fisherman_2 = Reprennez l'horloge au camp de bandits de la Forêt Blanche
+secondaryQuest_Tolau_Fisherman_3 = Apportez l'horloge au pecheur de Tolau
+secondaryQuest_Tolau_Fisherman_done = Je peux maintenant accéder à l'île Mirage
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

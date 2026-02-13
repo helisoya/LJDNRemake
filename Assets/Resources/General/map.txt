@@ -109,7 +109,7 @@ City_Okville_CityHall Orkva/Okville/CityHall/Arrival canTravel_City_Okville_City
 City_Tolau_ToOrkva1 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
 City_Tolau_ToOrkva2 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
 City_Tolau_Shop TODO canTravel_City_Tolau_Shop 1
-City_Tolau_Boathouse TODO canTravel_City_Tolau_Boathouse 1
+City_Tolau_Boathouse Orkva/Tolau/FishermanHouse/Arrival canTravel_City_Tolau_Boathouse 1
 City_Tolau_Lighthouse TODO canTravel_City_Tolau_Lighthouse 1
 City_Tolau_Port TODO canTravel_City_Tolau_Port 1
 City_Tolau_Plaza TODO canTravel_City_Tolau_Plaza 1

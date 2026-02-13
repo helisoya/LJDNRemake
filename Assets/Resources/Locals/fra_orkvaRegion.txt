@@ -324,3 +324,40 @@ Okville_Shop_AboutYou_2 = Si tu n'as rien à acheter, part.
 
 Okville_CityHall_Door_1 = L'écriteau dit "Pas de Suori ici".
 Okville_CityHall_Door_2 = Cette ville est folle...
+
+# ---------------------------------------------------------
+# ---------------------- Tolau ---------------------------
+# ---------------------------------------------------------
+
+Tolau_FishermanHouse_Fisherman_Greetings_1 = ... Oh, bonjour.
+
+Tolau_FishermanHouse_Fisherman_AboutYou_1 = C'est quoi ton problème ? Je ne veux pas parler.
+Tolau_FishermanHouse_Fisherman_AboutYou_2 = Ton uniforme, tu fais partie de l'armée ?
+Tolau_FishermanHouse_Fisherman_AboutYou_3 = Mais... Non, peut être pas. Trop... bleu.
+Tolau_FishermanHouse_Fisherman_AboutYou_4 = Enfin, je n'aime pas parler de moi à des inconnus. Rien de personnel, bien sur.
+
+Tolau_FishermanHouse_Fisherman_UseBoat_1 = Ok, ok. Suis-moi.
+
+Tolau_FishermanHouse_Fisherman_StartQuest_1 = Puis-je emprunter votre bateau ?
+Tolau_FishermanHouse_Fisherman_StartQuest_2 = Quoi ? Attend une minute.
+Tolau_FishermanHouse_Fisherman_StartQuest_3 = On me la fera pas deux fois. Tu veux aller à l'île Mirage ?
+Tolau_FishermanHouse_Fisherman_StartQuest_4 = Et bien... oui.
+Tolau_FishermanHouse_Fisherman_StartQuest_5 = Non. Je refuse.
+Tolau_FishermanHouse_Fisherman_StartQuest_6 = Je lui avais déjà dit, au marchand. Je ne ferai pas passer des personnes là bas.
+Tolau_FishermanHouse_Fisherman_StartQuest_7 = Certe, je peux peut être ne pas me faire repérer par l'armée Orkvienne. Mais je ne vais pas prendre de risques.
+Tolau_FishermanHouse_Fisherman_StartQuest_8 = Hmm... J'aurai peut être besoin d'accéder à l'île cependant...
+Tolau_FishermanHouse_Fisherman_StartQuest_9 = Ne pourriez-vous pas changer d'avis ? Je peux vous payer grassement.
+Tolau_FishermanHouse_Fisherman_StartQuest_10 = Comme si ! Hors de ma vue.
+Tolau_FishermanHouse_Fisherman_StartQuest_11 = ... Peut être que le marchand local peut m'aider.
+
+Tolau_FishermanHouse_Fisherman_DuringQuest_1 = ... Ne parlons plus de ça.
+
+Tolau_FishermanHouse_Fisherman_EndQuest_1 = ... Encore ?
+Tolau_FishermanHouse_Fisherman_EndQuest_2 = J'ai un objet qui peut vous intéresser.
+Tolau_FishermanHouse_Fisherman_EndQuest_3 = A-Attend... C'est... Mon papi...
+Tolau_FishermanHouse_Fisherman_EndQuest_4 = Donnes la moi, s'il te plait.
+Tolau_FishermanHouse_Fisherman_EndQuest_5 = Je ferais n'importe quoi. Juste, rends la moi.
+Tolau_FishermanHouse_Fisherman_EndQuest_6 = Laissez moi utiliser votre bateau, et je vous la rend.
+Tolau_FishermanHouse_Fisherman_EndQuest_7 = D'accord, d'accord. Je vais te laisser l'utiliser.
+Tolau_FishermanHouse_Fisherman_EndQuest_8 = Je rends l'horloge au pêcheur.
+Tolau_FishermanHouse_Fisherman_EndQuest_9 = Quand tu seras prêt, dis le moi. Je te guiderai jusqu'à l'île.
