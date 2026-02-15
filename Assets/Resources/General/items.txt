@@ -145,3 +145,4 @@ canTravel_City_Tolau_Plaza 1
 canTravel_City_Tolau_Courthouse 1
 canTravel_City_Tolau_CityHall 1
 canTravel_City_Tolau_Residences 1
+canTravel_City_Tolau_Inn 1

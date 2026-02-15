@@ -186,7 +186,7 @@ Region_Forest_OrderHQ = QG de l'Ordre
 Region_Forest_Crag = Passe-Falaise
 Region_Forest_Cavern = Caverne
 Region_Forest_Vasalia = Mont Vasalia
-Region_Forest_Camp1 = Camp de bandits
+Region_Forest_Camp1 = Camp du Gang du Lac
 Region_Forest_Camp2 = Camp de bandits
 Region_Forest_Camp3 = Base de bandits
 Region_Forest_Village = Village Nordiens
@@ -230,6 +230,7 @@ City_Tolau_Plaza = Place
 City_Tolau_Courthouse = Tribunal
 City_Tolau_CityHall = Mairie
 City_Tolau_Residences = Residences
+City_Tolau_Inn = Auberge
 
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
@@ -377,7 +378,7 @@ secondaryQuest_Vorlan_Mayor_done = J'ai tué le gouverneur militaire de Vorlan
 secondaryQuest_Tolau_Fisherman = Bon voyage
 secondaryQuest_Tolau_Fisherman_0 = Parlez au marchand de Tolau
 secondaryQuest_Tolau_Fisherman_1 = Parlez au marchand de Vorlan
-secondaryQuest_Tolau_Fisherman_2 = Reprennez l'horloge au camp de bandits de la Forêt Blanche
+secondaryQuest_Tolau_Fisherman_2 = Reprennez l'horloge des mains du Gang du Lac dans la Forêt Blanche
 secondaryQuest_Tolau_Fisherman_3 = Apportez l'horloge au pecheur de Tolau
 secondaryQuest_Tolau_Fisherman_done = Je peux maintenant accéder à l'île Mirage
 

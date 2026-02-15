@@ -186,7 +186,7 @@ Region_Forest_OrderHQ = Order's HQ
 Region_Forest_Crag = Crag Pass
 Region_Forest_Cavern = Cavern
 Region_Forest_Vasalia = Mount Vasalia
-Region_Forest_Camp1 = Bandit Camp
+Region_Forest_Camp1 = Lake Gang's Camp
 Region_Forest_Camp2 = Bandit Camp
 Region_Forest_Camp3 = Bandit Stronghold
 Region_Forest_Village = Northmen village
@@ -230,6 +230,7 @@ City_Tolau_Plaza = Plaza
 City_Tolau_Courthouse = Courthouse
 City_Tolau_CityHall = City Hall
 City_Tolau_Residences = Residences
+City_Tolau_Inn = Inn
 
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
@@ -377,7 +378,7 @@ secondaryQuest_Vorlan_Mayor_done = I killed Vorlan's military governor
 secondaryQuest_Tolau_Fisherman = Safe passage
 secondaryQuest_Tolau_Fisherman_0 = Talk to Tolau's shopkeeper
 secondaryQuest_Tolau_Fisherman_1 = Talk to Vorlan's shopkeeper
-secondaryQuest_Tolau_Fisherman_2 = Get the clock back from the bandit camp in the White Forest
+secondaryQuest_Tolau_Fisherman_2 = Get the clock back from the Lake gang's camp in the White Forest
 secondaryQuest_Tolau_Fisherman_3 = Bring back the clock to Tolau's fisherman
 secondaryQuest_Tolau_Fisherman_done = I can now access Mirage Island
 

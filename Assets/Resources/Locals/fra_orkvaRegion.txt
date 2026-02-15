@@ -187,6 +187,21 @@ Vorlan_Shop_AboutYou_3 = Maintenant, avec le couvre feu, je ne peux plus vendre 
 Vorlan_Shop_AboutYou_4 = Le pire, c'est que quasiement personne ne peut acheter mes biens.
 Vorlan_Shop_AboutYou_5 = De toute façon, à quoi bon avoir des équipement militaires si personne ne peut quitter la ville ?
 
+Vorlan_Shop_AboutFisherman_1 = Je viens de la part de votre amie, la marchande de Tolau.
+Vorlan_Shop_AboutFisherman_2 = Ah... je vois. Elle n'a pas dû recevoir ma réponse, pas vrai ?
+Vorlan_Shop_AboutFisherman_3 = Maudit couvre feu ! J'ai l'impression que la moitié de mes courriers disparaît sans raison.
+Vorlan_Shop_AboutFisherman_4 = Avez-vous trouvé quelque chose sur le pêcheur ?
+Vorlan_Shop_AboutFisherman_5 = Oh oui ! J'ai trouvé quelque chose d'intéressant.
+Vorlan_Shop_AboutFisherman_6 = Il a été forcé de partir à cause de problèmes avec des bandits.
+Vorlan_Shop_AboutFisherman_7 = Des bandits ? De la Forêt Blanche ?
+Vorlan_Shop_AboutFisherman_8 = Oui. Apparemment, il leur devait de l'argent. Ils lui ont alors pris un objet précieux.
+Vorlan_Shop_AboutFisherman_9 = Après ça, il s'est enfui. Il voulait leur échapper, et ça a marché on dirait.
+Vorlan_Shop_AboutFisherman_10 = Cet objet, vous en savez quelque chose ? Quel gang l'a pris ?
+Vorlan_Shop_AboutFisherman_11 = C'était une horloge. Et d'après ce que j'ai compris, c'était le gang du Lac.
+Vorlan_Shop_AboutFisherman_12 = Je vois, merci.
+Vorlan_Shop_AboutFisherman_13 = Le gang du Lac est un petit gang de la Forêt Blanche. Je suis en capacité de récupérer l'horloge.
+Vorlan_Shop_AboutFisherman_14 = Bref, assez parlé de ça. Je ne veux pas d'ennuis.
+
 Vorlan_Plaza_Soldier_Default_1 = Eh ! Le couvre feu est en cours. Rentres chez toi ou je vais t'arrêter.
 
 Vorlan_Plaza_Soldier_MayorQuest_1 = ...
@@ -361,3 +376,31 @@ Tolau_FishermanHouse_Fisherman_EndQuest_6 = Laissez moi utiliser votre bateau, e
 Tolau_FishermanHouse_Fisherman_EndQuest_7 = D'accord, d'accord. Je vais te laisser l'utiliser.
 Tolau_FishermanHouse_Fisherman_EndQuest_8 = Je rends l'horloge au pêcheur.
 Tolau_FishermanHouse_Fisherman_EndQuest_9 = Quand tu seras prêt, dis le moi. Je te guiderai jusqu'à l'île.
+
+Tolau_Shop_Greetings_1 = Bienvenue dans ma boutique. Comment puis-je vous aider ?
+
+Tolau_Shop_AboutYou_1 = Je ne suis qu'une marchande locale, rien de plus.
+Tolau_Shop_AboutYou_2 = Autrefois, je faisais du commerce entre les différentes villes de la région.
+Tolau_Shop_AboutYou_3 = Mais aujourd'hui... Vorlan est sous couvre feu et le port est bloqué par l'armée.
+Tolau_Shop_AboutYou_4 = Ils prétendent que c'est pour nous protéger des bandits, mais personne n'y croit pas.
+Tolau_Shop_AboutYou_5 = Bref... Je me contente de vendre mes marchandises à Tolau.
+
+Tolau_Shop_AboutFisherman_1 = J'ai entendu dire que vous aviez essayé d'utiliser le bateau du pêcheur.
+Tolau_Shop_AboutFisherman_2 = Comment avez-vous- Est-ce qu'il vous a envoyé ? 
+Tolau_Shop_AboutFisherman_3 = Non. Je voulais juste entendre votre version.
+Tolau_Shop_AboutFisherman_4 = Eh bien... je suppose que je peut. C'était une perte de temps de toute façon.
+Tolau_Shop_AboutFisherman_5 = Il y a environ un mois, je me suis dit que je pourrais utiliser son bateau pour vendre mes marchandises.
+Tolau_Shop_AboutFisherman_6 = Le port est bloqué, mais pas son petit quai.
+Tolau_Shop_AboutFisherman_7 = Nous sommes tous les deux originaires de Vorlan, donc je le connais assez bien.
+Tolau_Shop_AboutFisherman_8 = Je lui ai parlé, et il a refusé de me le prêter.
+Tolau_Shop_AboutFisherman_9 = J'étais sur le point d'abandonner, quand je me suis souvenu de quelque chose. 
+Tolau_Shop_AboutFisherman_10 = Je suis venu à Tolau pour le travail, mais pas lui.
+Tolau_Shop_AboutFisherman_11 = Il a dû partir. Il ne m'a jamais dit pourquoi.
+Tolau_Shop_AboutFisherman_12 = J'ai essayé de contacter mon ami qui tient une boutique à Vorlan par courrier.
+Tolau_Shop_AboutFisherman_13 = Mais avec le confinement, je n'ai jamais eu de réponse.
+Tolau_Shop_AboutFisherman_14 = Vous pensiez pouvoir trouver un moyen de pression sur lui ?
+Tolau_Shop_AboutFisherman_15 = Oui. Enfin, je me suis dit que je pouvais peut-être l'aider si besoin.
+Tolau_Shop_AboutFisherman_16 = Peut-être qu'il m'aurait alors prêté son bateau.
+Tolau_Shop_AboutFisherman_17 = ... C'est peut-être encore possible. 
+Tolau_Shop_AboutFisherman_18 = Eh bien, je vous laisse ce morceau. Enfin, si vous réussissez à entrer dans Vorlan et parler à mon ami, bien sur.
+Tolau_Shop_AboutFisherman_19 = J'ai jeté l'éponge. Allez-y si vous le voulez.

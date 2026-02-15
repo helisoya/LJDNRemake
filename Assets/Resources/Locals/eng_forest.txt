@@ -205,3 +205,15 @@ OrderHQ_MainQuest3_45 = He's smart for thinking about the Order's logs.
 OrderHQ_MainQuest3_46 = But he probably spent too much time reading all of them.
 OrderHQ_MainQuest3_47 = If I let him search alone, he'll check every house in Vorlan for a package that probably isn't there.
 OrderHQ_MainQuest3_48 = With that being said, I should go to Vorlan. 
+
+# ---------------------------------------------------------
+# -------------- Forest - Lake Gang Camp ------------------
+# ---------------------------------------------------------
+
+LakeGangCamp_Quest_1 = This is the Lake gang's camp.
+LakeGangCamp_Quest_2 = Bandits surround me. They don't like me being here.
+LakeGangCamp_Quest_3 = Oh well. Time to get what I came here for.
+
+LakeGangCamp_Quest_4 = I managed to defeat the gang.
+LakeGangCamp_Quest_5 = After searching for a bit, I find the fisherman's clock.
+LakeGangCamp_Quest_6 = With this, maybe he'll reconsider my offer.

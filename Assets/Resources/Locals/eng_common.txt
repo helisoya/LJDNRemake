@@ -69,6 +69,7 @@ Choice_AboutRebellion = About the rebellion
 Choice_AboutKalia = About Kalia
 Choice_AboutContinent = About the continent
 Choice_AboutVillage = About the village
+Choice_AboutFisherman = About the fisherman
 
 Choice_Left = Go left
 Choice_Right = Go right

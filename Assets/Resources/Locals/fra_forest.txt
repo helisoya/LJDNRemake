@@ -205,3 +205,15 @@ OrderHQ_MainQuest3_45 = C'est intelligent de sa part de penser aux journaux de l
 OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les lire. 
 OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
 OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.
+
+# ---------------------------------------------------------
+# -------------- Forest - Lake Gang Camp ------------------
+# ---------------------------------------------------------
+
+LakeGangCamp_Quest_1 = Voila donc le camp du Gang du Lac.
+LakeGangCamp_Quest_2 = Les bandits m'encerclent. Ils n'aiment pas ma présence ici.
+LakeGangCamp_Quest_3 = Et bien. Il est temps de récupérer ce que je suis venu chercher.
+
+LakeGangCamp_Quest_4 = J'ai vaincu le gang.
+LakeGangCamp_Quest_5 = Après avoir chercher un petit peu, je trouve l'horloge du pêcheur.
+LakeGangCamp_Quest_6 = Avec ça, il devrait accepter mon offre.

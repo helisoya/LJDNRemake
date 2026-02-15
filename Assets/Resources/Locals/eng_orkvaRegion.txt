@@ -187,6 +187,21 @@ Vorlan_Shop_AboutYou_3 = Nowadays, with the lockdown, I can only sell things her
 Vorlan_Shop_AboutYou_4 = The worse is that nobody can afford to buy most of my stuff.
 Vorlan_Shop_AboutYou_5 = Besides, what use do you have for military equipement when nobody can leave town ?
 
+Vorlan_Shop_AboutFisherman_1 = I come from your friend, the shopskeeper in Tolau.
+Vorlan_Shop_AboutFisherman_2 = Ah... I see. She must have never got my reply, right ?
+Vorlan_Shop_AboutFisherman_3 = Damn lockdown. Sometimes it feels like half the letters sent in and out disapear for no reason.
+Vorlan_Shop_AboutFisherman_4 = Did you find anything of the fisherman ?
+Vorlan_Shop_AboutFisherman_5 = Oh, yes. I found out something interresting.
+Vorlan_Shop_AboutFisherman_6 = He was forced to leave because he had problems with some bandits.
+Vorlan_Shop_AboutFisherman_7 = Bandits ? From the White Forest ?
+Vorlan_Shop_AboutFisherman_8 = Yeah. Apparently, he owed them money. So they took a precious heirloom from him.
+Vorlan_Shop_AboutFisherman_9 = After that, he ran off. Thought he could get out of their reach, which worked.
+Vorlan_Shop_AboutFisherman_10 = This heirloom, do you know anything about it ? Which gang took it ?
+Vorlan_Shop_AboutFisherman_11 = It was a clock. And from what I gathered, it was the Lake gang.
+Vorlan_Shop_AboutFisherman_12 = I see, thank you.
+Vorlan_Shop_AboutFisherman_13 = The Lake gang is a small gang from the White Forest. I'm sure I can get the clock back from them.
+Vorlan_Shop_AboutFisherman_14 = Anyway, enough about that. I don't want any troubles.
+
 Vorlan_Plaza_Soldier_Default_1 = Hey ! The curfew is in effect. Go back inside or I'll arrest you.
 
 Vorlan_Plaza_Soldier_MayorQuest_1 = ...
@@ -245,7 +260,7 @@ Vorlan_CityHall_Mayor_SecondaryQuest_End_3 = No worries. Their forces are too di
 Vorlan_CityHall_Mayor_SecondaryQuest_End_4 = Too much ground to hold I suppose.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_5 = Yes. I actually received a telegram earlier regarding that.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_6 = They said the soldiers guarding the city will be enough.
-Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Which means I'll be able to help the citizen of Vorlan now.
+Vorlan_CityHall_Mayor_SecondaryQuest_End_7 = Which means I'll be able to help the citizens of Vorlan now.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_8 = Here. Take this as a token of our gratitude.
 Vorlan_CityHall_Mayor_SecondaryQuest_End_9 = <color=blue>I received 50 gold from the mayor.</color>
 Vorlan_CityHall_Mayor_SecondaryQuest_End_10 = Vorlan now has a chance to crawl back from poverty. We need to seize it.
@@ -361,3 +376,31 @@ Tolau_FishermanHouse_Fisherman_EndQuest_6 = Let me use your boat, and I'll give 
 Tolau_FishermanHouse_Fisherman_EndQuest_7 = Fine, fine. I'll let you have it.
 Tolau_FishermanHouse_Fisherman_EndQuest_8 = I give back the clock to the fisherman.
 Tolau_FishermanHouse_Fisherman_EndQuest_9 = When you are ready to go, tell me. I'll guide you to the Island.
+
+Tolau_Shop_Greetings_1 = Welcome to my shop. How may I help you ?
+
+Tolau_Shop_AboutYou_1 = I'm just a local trader, nothing more.
+Tolau_Shop_AboutYou_2 = Back in the days, I would trade between the various cities of the region.
+Tolau_Shop_AboutYou_3 = But nowadays... Vorlan is under a lockdown, and the port is blockaded by the military.
+Tolau_Shop_AboutYou_4 = They insist it's to protect us from bandits, but we won't fall for that.
+Tolau_Shop_AboutYou_5 = Anyway... I'm content with just selling my wares in Tolau.
+
+Tolau_Shop_AboutFisherman_1 = I heard you tried to use the fisherman's boat.
+Tolau_Shop_AboutFisherman_2 = How did you- Did he send you ?
+Tolau_Shop_AboutFisherman_3 = No. I just wanted to hear your side of the story.
+Tolau_Shop_AboutFisherman_4 = Well... I guess I could. It was a dead end anyway.
+Tolau_Shop_AboutFisherman_5 = So about a month ago, I figured I could use his boat to sell my wares.
+Tolau_Shop_AboutFisherman_6 = The port is blockaded, but not that little dock of his.
+Tolau_Shop_AboutFisherman_7 = We were both originally from Vorlan, so I know him quite a bit.
+Tolau_Shop_AboutFisherman_8 = I talked to him, and he refused to let me use it.
+Tolau_Shop_AboutFisherman_9 = I was ready to throw in the towel, when I remembered something.
+Tolau_Shop_AboutFisherman_10 = I came to Tolau because of work, but this was not the case for him.
+Tolau_Shop_AboutFisherman_11 = He had to leave. He never told me why.
+Tolau_Shop_AboutFisherman_12 = I tried asking my friend who owns a shop in Vorlan via letter.
+Tolau_Shop_AboutFisherman_13 = But with the lockdown, I never heard back.
+Tolau_Shop_AboutFisherman_14 = You thought you could find some leverage in his past ?
+Tolau_Shop_AboutFisherman_15 = Yeah. I thought, maybe I could help him with something.
+Tolau_Shop_AboutFisherman_16 = Maybe then he would have let me use his boat.
+Tolau_Shop_AboutFisherman_17 = ... Maybe there's a chance that could happen.
+Tolau_Shop_AboutFisherman_18 = Well, be my guest. If you can even enter Vorlan to talk to my friend, that is.
+Tolau_Shop_AboutFisherman_19 = I've thrown in the towel. You can have at it if you want.

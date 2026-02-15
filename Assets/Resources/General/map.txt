@@ -68,7 +68,7 @@ Region_Forest_OrderHQ Forest/OrderHQ/Arrival canTravel_Region_Forest_OrderHQ 1
 Region_Forest_Crag Forest/CragPass/Arrival canTravel_Region_Forest_Crag 1
 Region_Forest_Cavern Forest/Cavern/Arrival canTravel_Region_Forest_Cavern 1
 Region_Forest_Vasalia Forest/MountVasalia/Arrival canTravel_Region_Forest_Vasalia 1
-Region_Forest_Camp1 TODO canTravel_Region_Forest_Camp1 1
+Region_Forest_Camp1 Forest/LakeGangCamp/Arrival canTravel_Region_Forest_Camp1 1
 Region_Forest_Camp2 TODO canTravel_Region_Forest_Camp2 1
 Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
 Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
@@ -108,7 +108,7 @@ City_Okville_CityHall Orkva/Okville/CityHall/Arrival canTravel_City_Okville_City
 [City_Tolau]
 City_Tolau_ToOrkva1 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
 City_Tolau_ToOrkva2 Orkva/Common/OpenMapFromTolau canTravel_City_Tolau_ToOrkva 1
-City_Tolau_Shop TODO canTravel_City_Tolau_Shop 1
+City_Tolau_Shop Orkva/Tolau/Shop/Arrival canTravel_City_Tolau_Shop 1
 City_Tolau_Boathouse Orkva/Tolau/FishermanHouse/Arrival canTravel_City_Tolau_Boathouse 1
 City_Tolau_Lighthouse TODO canTravel_City_Tolau_Lighthouse 1
 City_Tolau_Port TODO canTravel_City_Tolau_Port 1
@@ -116,3 +116,4 @@ City_Tolau_Plaza TODO canTravel_City_Tolau_Plaza 1
 City_Tolau_Courthouse TODO canTravel_City_Tolau_Courthouse 1
 City_Tolau_CityHall TODO canTravel_City_Tolau_CityHall 1
 City_Tolau_Residences TODO canTravel_City_Tolau_Residences 1
+City_Tolau_Inn TODO canTravel_City_Tolau_Inn 1
