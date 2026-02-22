@@ -113,7 +113,7 @@ City_Tolau_Boathouse Orkva/Tolau/FishermanHouse/Arrival canTravel_City_Tolau_Boa
 City_Tolau_Lighthouse Orkva/Tolau/Lighthouse/Arrival canTravel_City_Tolau_Lighthouse 1
 City_Tolau_Port Orkva/Tolau/Port/Arrival canTravel_City_Tolau_Port 1
 City_Tolau_Plaza TODO canTravel_City_Tolau_Plaza 1
-City_Tolau_Courthouse TODO canTravel_City_Tolau_Courthouse 1
+City_Tolau_Courthouse Orkva/Tolau/Courthouse/Arrival canTravel_City_Tolau_Courthouse 1
 City_Tolau_CityHall TODO canTravel_City_Tolau_CityHall 1
 City_Tolau_Residences TODO canTravel_City_Tolau_Residences 1
 City_Tolau_Inn TODO canTravel_City_Tolau_Inn 1

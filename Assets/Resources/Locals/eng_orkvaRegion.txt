@@ -404,3 +404,44 @@ Tolau_Shop_AboutFisherman_16 = Maybe then he would have let me use his boat.
 Tolau_Shop_AboutFisherman_17 = ... Maybe there's a chance that could happen.
 Tolau_Shop_AboutFisherman_18 = Well, be my guest. If you can even enter Vorlan to talk to my friend, that is.
 Tolau_Shop_AboutFisherman_19 = I've thrown in the towel. You can have at it if you want.
+
+Tolau_Courthouse_Jade_Greetings_1 = What do you want, Suori ?
+
+Tolau_Courthouse_Jade_AboutYou_1 = I'm the prosecutor assigned to the region.
+Tolau_Courthouse_Jade_AboutYou_2 = Every criminal and Suori dissident will be sentenced. I can assure you.
+Tolau_Courthouse_Jade_AboutYou_3 = Just make sure to behave if you don't want to end up in jail.
+
+Tolau_Courthouse_Jade_AboutOrkva_1 = Orkva is the saviour of this land.
+Tolau_Courthouse_Jade_AboutOrkva_2 = The locals just can't see it yet.
+Tolau_Courthouse_Jade_AboutOrkva_3 = The railways, Okville, trade, ... We brought much to them.
+Tolau_Courthouse_Jade_AboutOrkva_4 = Yet these ingratefull idiots can't see the truth.
+
+Tolau_Courthouse_Jade_AboutOrder_Before_1 = The Order is a plague upon the country.
+Tolau_Courthouse_Jade_AboutOrder_Before_2 = They pretend to be helpful with the bandit problem.
+Tolau_Courthouse_Jade_AboutOrder_Before_3 = But we know the truth. We know they are plotting against us.
+Tolau_Courthouse_Jade_AboutOrder_Before_4 = Think about it. They are armed by our ennemies and live right next to us, hidden in the forest.
+Tolau_Courthouse_Jade_AboutOrder_Before_5 = I personnaly arrested them, and will see them sentenced to death for treason.
+
+Tolau_Courthouse_Jade_AboutOrder_After_1 = I know what you did, Suori.
+Tolau_Courthouse_Jade_AboutOrder_After_2 = You helped the traitors flee justice. I will not forget that.
+Tolau_Courthouse_Jade_AboutOrder_After_3 = You even bought the help of my ennemy, Mr. Right.
+Tolau_Courthouse_Jade_AboutOrder_After_4 = Get out of my sight before I arrest you for conspiracy.
+
+Tolau_Courthouse_Chief_ArcQuest0_1 = Are you the Order's chief ?
+Tolau_Courthouse_Chief_ArcQuest0_2 = Why yes. Who are you ? You look Kalian.
+Tolau_Courthouse_Chief_ArcQuest0_3 = Yes, well... I heard you got into troubles.
+Tolau_Courthouse_Chief_ArcQuest0_4 = That's true. Orkva arrested every members of the Order.
+Tolau_Courthouse_Chief_ArcQuest0_5 = Something about conspiring to take over the region.
+Tolau_Courthouse_Chief_ArcQuest0_6 = That's prepostrous.
+Tolau_Courthouse_Chief_ArcQuest0_7 = Well, they were never keen on a Marklicht-Kalian task force right on their doorstep.
+Tolau_Courthouse_Chief_ArcQuest0_8 = I guess they just found an excuse to prosecute us. Our future is bleak.
+Tolau_Courthouse_Chief_ArcQuest0_9 = Do you need help with anything ?
+Tolau_Courthouse_Chief_ArcQuest0_10 = Actually, we need a lawyer. They wouldn't let us see one.
+Tolau_Courthouse_Chief_ArcQuest0_11 = Luckily, I know one in Tolau. His name is Mr. Right.
+Tolau_Courthouse_Chief_ArcQuest0_12 = Ah, I heard of him. Doesn't he live in the northen residencies of the city ?
+Tolau_Courthouse_Chief_ArcQuest0_13 = Yes. Could you hire him for us ?
+Tolau_Courthouse_Chief_ArcQuest0_14 = Right. I'll do just that.
+Tolau_Courthouse_Chief_ArcQuest0_15 = Thank you.
+
+Tolau_Courthouse_Chief_ArcQuest1_1 = Mr. Right lives in the northen residencies of Tolau.
+Tolau_Courthouse_Chief_ArcQuest1_2 = Please, go ask him to defend us in court.

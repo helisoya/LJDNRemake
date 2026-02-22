@@ -299,7 +299,9 @@ arcQuest_Jackwell_3_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_3_done = J'ai nagé vers le phare de Kalia
 
 arcQuest_Order_1 = Un ordre emprisonné
-arcQuest_Order_1_0 = Parlez au chef de l'Ordre à la prison de Tolau
+arcQuest_Order_1_0 = Parlez au chef de l'Ordre au tribunal de Tolau
+arcQuest_Order_1_1 = Parlez à l'avocat à Tolau
+arcQuest_Order_1_2 = Parlez au chef de l'Ordre au tribunal de Tolau
 
 arcQuest_Sam_1 = Complot
 arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan

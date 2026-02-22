@@ -299,7 +299,9 @@ arcQuest_Jackwell_4_1 = Report back to Jackwell at his library in Kalia
 arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
 
 arcQuest_Order_1 = An order behind bars
-arcQuest_Order_1_0 = Talk to the order' chief at Tolau's prison
+arcQuest_Order_1_0 = Talk to the order' chief at Tolau's courthouse
+arcQuest_Order_1_1 = Talk to the attorney in Tolau
+arcQuest_Order_1_2 = Talk to the order' chief at Tolau's courthouse
 
 arcQuest_Sam_1 = Conspiracy
 arcQuest_Sam_1_0 = Investigate the city hall in Vorlan

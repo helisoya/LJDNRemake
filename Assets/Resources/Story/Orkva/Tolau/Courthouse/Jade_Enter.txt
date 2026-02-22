@@ -1,0 +1,8 @@
+setCharacterAlpha(Jade;0;true)
+setCharacterPosition(Jade;Front)
+setCharacterRotation(Jade;Front)
+setCharacterAlpha(Jade;1;false)
+
+dialog(Prosecutor;Jade;false;Tolau_Shop_Greetings_1)
+
+load(Orkva/Tolau/Courthouse/Jade)

@@ -404,3 +404,44 @@ Tolau_Shop_AboutFisherman_16 = Peut-être qu'il m'aurait alors prêté son batea
 Tolau_Shop_AboutFisherman_17 = ... C'est peut-être encore possible. 
 Tolau_Shop_AboutFisherman_18 = Eh bien, je vous laisse ce morceau. Enfin, si vous réussissez à entrer dans Vorlan et parler à mon ami, bien sur.
 Tolau_Shop_AboutFisherman_19 = J'ai jeté l'éponge. Allez-y si vous le voulez.
+
+Tolau_Courthouse_Jade_Greetings_1 = Que voulez-vous, Suori ?
+
+Tolau_Courthouse_Jade_AboutYou_1 = Je suis la procureure affectée à cette région.
+Tolau_Courthouse_Jade_AboutYou_2 = Tout les criminels et dissidents Suori seront condamnés. Je peux vous l'assurer.
+Tolau_Courthouse_Jade_AboutYou_3 = Assurez-vous de vous tenir à carreaux si vous ne voulez pas les rejoindre.
+
+Tolau_Courthouse_Jade_AboutOrkva_1 = Orkva a sauvé cette terre.
+Tolau_Courthouse_Jade_AboutOrkva_2 = Les locaux ne s'en sont pas encore rendu compte.
+Tolau_Courthouse_Jade_AboutOrkva_3 = Les chemins de fers, Okville, le commerce,... Nous avons tant apporté.
+Tolau_Courthouse_Jade_AboutOrkva_4 = Mais ces idiots ingrats ne veulent pas voir la vérité.
+
+Tolau_Courthouse_Jade_AboutOrder_Before_1 = L'Ordre est une menace pour notre société.
+Tolau_Courthouse_Jade_AboutOrder_Before_2 = Ils prétendent aider avec le problème de bandits.
+Tolau_Courthouse_Jade_AboutOrder_Before_3 = Mais nous connaissons la vérité. Nous savons qu'ils complottent contre nous.
+Tolau_Courthouse_Jade_AboutOrder_Before_4 = Réfléchissez-y. Ils sont armé par nos ennemis et vivent juste à coté de nous, caché dans la forêt.
+Tolau_Courthouse_Jade_AboutOrder_Before_5 = Je les ai personnellement arrêté. Et je le ferai condamner pour trahison.
+
+Tolau_Courthouse_Jade_AboutOrder_After_1 = Je sais ce que vous avez fait, Suori.
+Tolau_Courthouse_Jade_AboutOrder_After_2 = Vous avez permis aux traitres de fuir la justice. Je ne l'oublierai pas.
+Tolau_Courthouse_Jade_AboutOrder_After_3 = Vous avez même acheté l'aide de mon ennemi, M. Vrai.
+Tolau_Courthouse_Jade_AboutOrder_After_4 = Partez, avant que je ne vous arrête pour conspiration.
+
+Tolau_Courthouse_Chief_ArcQuest0_1 = Vous êtes le chef de l'Ordre ?
+Tolau_Courthouse_Chief_ArcQuest0_2 = Ah, oui. Qui êtes-vous ? Vous avez l'air Kalien.
+Tolau_Courthouse_Chief_ArcQuest0_3 = Oui, enfin... J'ai entendu dire que vous avez des problèmes.
+Tolau_Courthouse_Chief_ArcQuest0_4 = C'est vrai, Orkva a arreté tout les membres de l'Ordre.
+Tolau_Courthouse_Chief_ArcQuest0_5 = La procureure parlait de conspiration ou une chose du genre.
+Tolau_Courthouse_Chief_ArcQuest0_6 = C'est de la difamation.
+Tolau_Courthouse_Chief_ArcQuest0_7 = Oui, enfin... Ils n'ont jamais aimé la présence d'une force militaire Marklichto-Kalienne a coté de chez eux.
+Tolau_Courthouse_Chief_ArcQuest0_8 = Je suppose qu'ils ont trouvé une excuse pour nous arrêter. Notre futur est sombre.
+Tolau_Courthouse_Chief_ArcQuest0_9 = Je peux vous aider avec quelque chose ?
+Tolau_Courthouse_Chief_ArcQuest0_10 = Hmm... Nous avons besoin d'un avocat. Ils ne veulent pas nous laisser en voir un.
+Tolau_Courthouse_Chief_ArcQuest0_11 = Heureusement, j'en connais un à Tolau. Son nom est M. Vrai.
+Tolau_Courthouse_Chief_ArcQuest0_12 = Ah, j'ai entendu parler de lui. Il vit dans les résidences au Nord de Tolau, non ?
+Tolau_Courthouse_Chief_ArcQuest0_13 = Oui. Pourriez-vous l'engager pour nous ?
+Tolau_Courthouse_Chief_ArcQuest0_14 = Très bien. Je vais le faire.
+Tolau_Courthouse_Chief_ArcQuest0_15 = Merci.
+
+Tolau_Courthouse_Chief_ArcQuest1_1 = M. Vrai vit dans les résidences au Nord de Tolau.
+Tolau_Courthouse_Chief_ArcQuest1_2 = S'il vous plait, allez lui demandez de nous défendre au procès.

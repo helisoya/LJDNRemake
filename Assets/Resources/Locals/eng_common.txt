@@ -28,6 +28,8 @@ Char_Northman = Northman
 Char_Elder = Elder
 Char_Sam = Sam
 Char_Owner = Owner
+Char_Prosecutor = Prosecutor
+Char_Chief = Chief
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
@@ -70,6 +72,7 @@ Choice_AboutKalia = About Kalia
 Choice_AboutContinent = About the continent
 Choice_AboutVillage = About the village
 Choice_AboutFisherman = About the fisherman
+Choice_AboutOrder = About the order
 
 Choice_Left = Go left
 Choice_Right = Go right
