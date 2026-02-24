@@ -445,3 +445,30 @@ Tolau_Courthouse_Chief_ArcQuest0_15 = Thank you.
 
 Tolau_Courthouse_Chief_ArcQuest1_1 = Mr. Right lives in the northen residencies of Tolau.
 Tolau_Courthouse_Chief_ArcQuest1_2 = Please, go ask him to defend us in court.
+
+Tolau_Residences_Door1_Default_1 = "Mr. Right, attorney at law"
+
+Tolau_Residences_Door1_ArcQuest_1 = This is the man the Order's chief wants me to hire.
+Tolau_Residences_Door1_ArcQuest_2 = Here we go I guess.
+Tolau_Residences_Door1_ArcQuest_3 = I knock on the door, and wait a little bit.
+Tolau_Residences_Door1_ArcQuest_4 = Sure enough, Mr. Right opens the door to greet me.
+Tolau_Residences_Door1_ArcQuest_5 = Oh, hello. Are you a client ?
+Tolau_Residences_Door1_ArcQuest_6 = Oh, hi. Yes, I require your services.
+Tolau_Residences_Door1_ArcQuest_7 = Hmm... I'm sorry, I'm just too... tired today.
+Tolau_Residences_Door1_ArcQuest_8 = I was about to close up shop for the day...
+Tolau_Residences_Door1_ArcQuest_9 = Is he serious ? How can he stay in business ?
+Tolau_Residences_Door1_ArcQuest_10 = Wait, wait... I come from the Order's chief. He's in trouble.
+Tolau_Residences_Door1_ArcQuest_11 = The Marklichtian-Kalian Order ?
+Tolau_Residences_Door1_ArcQuest_12 = Yes, I heard you know him.
+Tolau_Residences_Door1_ArcQuest_13 = Ah, yes. He's a good friend.
+Tolau_Residences_Door1_ArcQuest_14 = We raised a turtle together when we were little kids.
+Tolau_Residences_Door1_ArcQuest_15 = Ah, Mr. Potato... Why did you have to headbutt the door and flee ?
+Tolau_Residences_Door1_ArcQuest_16 = Uh... Does that mean you'll help him ?
+Tolau_Residences_Door1_ArcQuest_17 = Yes, of course. When is his trial due ?
+Tolau_Residences_Door1_ArcQuest_18 = Uh... I think it's going to start soon.
+Tolau_Residences_Door1_ArcQuest_19 = The prosecutor looked liked she wanted to prosecute him posthaste.
+Tolau_Residences_Door1_ArcQuest_20 = Ah, her. Yeah, I should have guessed she would do it fast.
+Tolau_Residences_Door1_ArcQuest_21 = Thank you for the heads up, I'll go to the courthouse right away.
+Tolau_Residences_Door1_ArcQuest_22 = ... Well. I guess I should check up on the chief once more.
+
+Tolau_Residences_Door2_Default_1 = Why would I trespass into someone's home ?

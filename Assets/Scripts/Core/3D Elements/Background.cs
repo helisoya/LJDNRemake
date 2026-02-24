@@ -48,6 +48,16 @@ public class Background : MonoBehaviour
     }
 
     /// <summary>
+	/// Checks if the marker exists
+	/// </summary>
+	/// <param name="marker">The marker's name</param>
+	/// <returns>True if the marker exists</returns>
+    public bool MarkerExists(string marker)
+    {
+        return markers.ContainsKey(marker);
+    }
+
+    /// <summary>
     /// Registers the background's makers
     /// </summary>
     private void RegisterMarkers()

@@ -30,6 +30,8 @@ Char_Sam = Sam
 Char_Owner = Owner
 Char_Prosecutor = Prosecutor
 Char_Chief = Chief
+Char_Felix = Right
+Char_Judge = Judge
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

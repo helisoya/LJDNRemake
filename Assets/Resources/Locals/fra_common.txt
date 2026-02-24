@@ -30,6 +30,8 @@ Char_Sam = Sam
 Char_Owner = Propriétaire
 Char_Prosecutor = Procureur
 Char_Chief = Chef
+Char_Felix = Vrai
+Char_Judge = Juge
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

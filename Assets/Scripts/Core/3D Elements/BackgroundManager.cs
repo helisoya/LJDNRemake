@@ -64,4 +64,18 @@ public class BackgroundManager : MonoBehaviour
         }
         return 0;
     }
+
+    /// <summary>
+	/// Checks if the marker exists
+	/// </summary>
+	/// <param name="marker">The marker's name</param>
+	/// <returns>True if the marker exists</returns>
+    public bool MarkerExists(string marker)
+    {
+        if (currentBackground)
+        {
+            return currentBackground.MarkerExists(marker);
+        }
+        return false;
+    }
 }
