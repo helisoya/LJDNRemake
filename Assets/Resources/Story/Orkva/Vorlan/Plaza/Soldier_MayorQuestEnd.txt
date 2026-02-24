@@ -2,7 +2,7 @@ setFg(1)
 
 setLocals(orkvaRegion)
 
-playMusic(Exploration_Orkva)
+playMusic(Exploration_OrkvaLow)
 setBackground(Orkva/Vorlan/Plaza)
 
 load(Common/DisplayWeatherRain)

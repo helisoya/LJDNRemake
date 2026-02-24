@@ -302,6 +302,10 @@ arcQuest_Order_1 = An order behind bars
 arcQuest_Order_1_0 = Talk to the order' chief at Tolau's courthouse
 arcQuest_Order_1_1 = Talk to the attorney in Tolau
 arcQuest_Order_1_2 = Talk to the order' chief at Tolau's courthouse
+arcQuest_Order_1_done = I got the order out of prison
+
+arcQuest_Order_2 = A nice reward
+arcQuest_Order_2_0 = Meet the order's chief in their White Forest bunker
 
 arcQuest_Sam_1 = Conspiracy
 arcQuest_Sam_1_0 = Investigate the city hall in Vorlan

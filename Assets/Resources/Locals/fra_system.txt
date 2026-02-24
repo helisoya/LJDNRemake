@@ -302,6 +302,10 @@ arcQuest_Order_1 = Un ordre emprisonné
 arcQuest_Order_1_0 = Parlez au chef de l'Ordre au tribunal de Tolau
 arcQuest_Order_1_1 = Parlez à l'avocat à Tolau
 arcQuest_Order_1_2 = Parlez au chef de l'Ordre au tribunal de Tolau
+arcQuest_Order_1_done = J'ai fait sortir l'Ordre de prison
+
+arcQuest_Order_2 = Une belle récompense
+arcQuest_Order_2_0 = Parlez au chef de l'Ordre dans leur bunker de la forêt blanche
 
 arcQuest_Sam_1 = Complot
 arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan

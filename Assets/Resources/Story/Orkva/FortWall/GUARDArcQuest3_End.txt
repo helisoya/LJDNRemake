@@ -1,6 +1,6 @@
 setFg(1)
 
-playMusic(Exploration_Orkva)
+playMusic(Exploration_OrkvaLow)
 removeAllCharacters()
 setBackground(Orkva/Region/FortWall)
 

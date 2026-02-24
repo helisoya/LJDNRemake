@@ -72,6 +72,6 @@ variable(mainQuest_4;0)
 
 addExpToAll(10)
 
-playMusic(Exploration_Orkva)
+playMusic(Exploration_OrkvaLow)
 
 load(Orkva/Vorlan/Inn/Interaction)
