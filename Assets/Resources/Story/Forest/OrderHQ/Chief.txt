@@ -1,0 +1,5 @@
+choice Choice_Chat
+	Choice_AboutBandits Forest/OrderHQ/Chief_AboutBandits
+	Choice_AboutOrder Forest/OrderHQ/Chief_AboutOrder
+	Choice_AboutTask Forest/OrderHQ/Chief_ArcQuestCheck
+	Choice_Nothing Forest/OrderHQ/Chief_Exit

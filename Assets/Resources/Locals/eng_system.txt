@@ -306,6 +306,11 @@ arcQuest_Order_1_done = I got the order out of prison
 
 arcQuest_Order_2 = A nice reward
 arcQuest_Order_2_0 = Meet the order's chief in their White Forest bunker
+arcQuest_Order_2_1 = Talk to the order's chief in their White Forest bunker
+arcQuest_Order_2_done = I cleared the Order's bunker
+
+arcQuest_Order_3 = Supplies
+arcQuest_Order_3_0 = Talk to the order's chief in their White Forest bunker
 
 arcQuest_Sam_1 = Conspiracy
 arcQuest_Sam_1_0 = Investigate the city hall in Vorlan

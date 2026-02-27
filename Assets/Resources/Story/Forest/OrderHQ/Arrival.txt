@@ -15,11 +15,20 @@ setLocation(Location_WhiteForest)
 
 autosave()
 
-fadeFg(0;false)
+
 
 if(mainQuest_3 = 0){
 	load(Forest/OrderHQ/MainQuest3)
 	return()
-} 
+}
+
+if(arcQuest_Order_1 = 100){
+	addCharacter(OrderChief;false)
+	setCharacterPosition(OrderChief;Desk)
+	setCharacterRotation(OrderChief;Desk)
+	setInteractionChapter(OrderChief;Forest/OrderHQ/Chief_Enter)
+}
+
+fadeFg(0;false)
 
 load(Forest/OrderHQ/Interaction)

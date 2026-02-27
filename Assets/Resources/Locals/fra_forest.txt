@@ -206,6 +206,41 @@ OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les 
 OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
 OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.
 
+OrderHQ_Chief_Greetings_1 = Bonjour, soldat.
+
+OrderHQ_Chief_ArcQuest2Start_1 = Oh, vous êtes venu.
+OrderHQ_Chief_ArcQuest2Start_2 = Tout va bien par ici ?
+OrderHQ_Chief_ArcQuest2Start_3 = Euh... Pas vraiment.
+OrderHQ_Chief_ArcQuest2Start_4 = Quand on est revenu, on s'est rendu compte que des bandits occupent maintenant les basses sections du bunker.
+OrderHQ_Chief_ArcQuest2Start_5 = Le pire, c'est qu'ils ont volé nos cache d'armes.
+OrderHQ_Chief_ArcQuest2Start_6 = Vous avez besoin d'aide pour les déloger ?
+OrderHQ_Chief_ArcQuest2Start_7 = J'en serai reconnaissant.
+OrderHQ_Chief_ArcQuest2Start_8 = Très bien, je vais voir ce que je peux faire.
+OrderHQ_Chief_ArcQuest2Start_9 = Donnez moi le signal quand vous serez prêt.
+
+OrderHQ_Chief_ArcQuest2End_1 = Je suis pret.
+OrderHQ_Chief_ArcQuest2End_2 = Bien, allons-y.
+OrderHQ_Chief_ArcQuest2End_3 = Bon travail. Nous avons sécurisé le bunker.
+OrderHQ_Chief_ArcQuest2End_4 = Au moins vous pouvez maintenant dormir tranquille, sans avoir de bandits sous vos pieds.
+OrderHQ_Chief_ArcQuest2End_5 = Oui, c'est soulageant.
+OrderHQ_Chief_ArcQuest2End_6 = Hmm... En fait...
+OrderHQ_Chief_ArcQuest2End_7 = Vous avez besoin d'aide supplémentaire ?
+OrderHQ_Chief_ArcQuest2End_8 = Peut être. Revenez quand vous aurez un peu de temps libre.
+OrderHQ_Chief_ArcQuest2End_9 = Je pense savoir qui sont ces bandits.
+
+OrderHQ_Chief_AboutBandits_1 = La région a toujours eu des problèmes de bandits.
+OrderHQ_Chief_AboutBandits_2 = Mais les invasions et la guerre des Unions ont tout empiré.
+OrderHQ_Chief_AboutBandits_3 = Certains était désespéré, d'autre non.
+OrderHQ_Chief_AboutBandits_4 = Ils ont formés différents gangs, et se sont cachés dans la forêt.
+OrderHQ_Chief_AboutBandits_5 = Avec le temps, leur nombres ont augmentés. La plupart viennent des terres appauvris d'Orkva.
+
+OrderHQ_Chief_AboutOrder_1 = L'Ordre est sponsorisé par les pays du Marklicht et de Kalia.
+OrderHQ_Chief_AboutOrder_2 = En fait, je connais des gens haut gradés. C'était relativement simple.
+OrderHQ_Chief_AboutOrder_3 = Ils étaient satisfait d'avoir une arme contre les bandits.
+OrderHQ_Chief_AboutOrder_4 = Donc je me suis mis au travail et j'ai fondé cet ordre.
+OrderHQ_Chief_AboutOrder_5 = J'ai engagé quelques camarades de l'académie militaire du Marklicht, et nous avons crée ce bunker.
+OrderHQ_Chief_AboutOrder_6 = Ici, nous pouvons attaquer les bandits quand nous le voulons.
+
 # ---------------------------------------------------------
 # -------------- Forest - Lake Gang Camp ------------------
 # ---------------------------------------------------------
