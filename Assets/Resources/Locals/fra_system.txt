@@ -293,10 +293,10 @@ arcQuest_Jackwell_3_0 = Gravissez le Mont Vasalia
 arcQuest_Jackwell_3_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_3_done = J'ai gravi le Mont Vasalia
 
-arcQuest_Jackwell_3 = Jackwell et l'eau
-arcQuest_Jackwell_3_0 = Nagez près du phare de Kalia
-arcQuest_Jackwell_3_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
-arcQuest_Jackwell_3_done = J'ai nagé vers le phare de Kalia
+arcQuest_Jackwell_4 = Jackwell et l'eau
+arcQuest_Jackwell_4_0 = Nagez près du phare de Kalia
+arcQuest_Jackwell_4_1 = Retournez voir Jackwell, dans sa librairie, à Kalia
+arcQuest_Jackwell_4_done = J'ai nagé vers le phare de Kalia
 
 arcQuest_Order_1 = Un ordre emprisonné
 arcQuest_Order_1_0 = Parlez au chef de l'Ordre au tribunal de Tolau

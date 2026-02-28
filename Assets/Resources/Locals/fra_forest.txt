@@ -228,6 +228,18 @@ OrderHQ_Chief_ArcQuest2End_7 = Vous avez besoin d'aide supplémentaire ?
 OrderHQ_Chief_ArcQuest2End_8 = Peut être. Revenez quand vous aurez un peu de temps libre.
 OrderHQ_Chief_ArcQuest2End_9 = Je pense savoir qui sont ces bandits.
 
+OrderHQ_Chief_ArcQuest3Start_1 = Donc vous pensez savoir qui étaient ces bandits ?
+OrderHQ_Chief_ArcQuest3Start_2 = Oui. Ils viennent d'un gang qui a pris le contrôle d'une mine non loin d'ici.
+OrderHQ_Chief_ArcQuest3Start_3 = Je pense qu'il est temps de leur rendre visite.
+OrderHQ_Chief_ArcQuest3Start_4 = Mais avant ça, nous avont besoin de ravitaillements. Des ravitaillements Marklichtien pour être plus précis.
+OrderHQ_Chief_ArcQuest3Start_5 = Les bandits ont volé la plupart de nos armes. Nous devons en obtenir de nouvelles.
+OrderHQ_Chief_ArcQuest3Start_6 = Pourriez-vous aller à Fort Libert pour obtenir des ravitaillements ?
+OrderHQ_Chief_ArcQuest3Start_7 = Nous devons rester ici pour défendre le bunker.
+OrderHQ_Chief_ArcQuest3Start_8 = Très bien, je vais le faire.
+OrderHQ_Chief_ArcQuest3Start_9 = Merci. Je vous promet que la récompense en vaudra la peine.
+
+OrderHQ_Chief_ArcQuest3During_1 = Fort Libert a le ravitaillement dont nous avons besoin. Vous devez aller l'obtenir pour nous.
+
 OrderHQ_Chief_AboutBandits_1 = La région a toujours eu des problèmes de bandits.
 OrderHQ_Chief_AboutBandits_2 = Mais les invasions et la guerre des Unions ont tout empiré.
 OrderHQ_Chief_AboutBandits_3 = Certains était désespéré, d'autre non.

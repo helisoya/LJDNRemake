@@ -9,3 +9,9 @@ if(arcQuest_Order_3 = 0){
 	load(Forest/OrderHQ/Chief_StartArcQuest3)
 	return()
 }
+
+# During Quest 3
+if(arcQuest_Order_3 = 1){
+	load(Forest/OrderHQ/Chief_DuringArcQuest3)
+	return()
+}

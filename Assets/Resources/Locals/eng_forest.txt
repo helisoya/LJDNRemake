@@ -228,6 +228,18 @@ OrderHQ_Chief_ArcQuest2End_7 = Do you require more help ?
 OrderHQ_Chief_ArcQuest2End_8 = I might. Come back when you have time to kill.
 OrderHQ_Chief_ArcQuest2End_9 = I think I know who those bandits were.
 
+OrderHQ_Chief_ArcQuest3Start_1 = So you think you know who were those bandits ?
+OrderHQ_Chief_ArcQuest3Start_2 = Yeah. They're from a gang that took over a mine not far from here.
+OrderHQ_Chief_ArcQuest3Start_3 = I think we need to pay them a visit.
+OrderHQ_Chief_ArcQuest3Start_4 = But before that, we need supplies. Marklichtian supplies.
+OrderHQ_Chief_ArcQuest3Start_5 = The bandits stole most of our guns. We must get new ones.
+OrderHQ_Chief_ArcQuest3Start_6 = Could you got to Fort Libert and get us some supplies ?
+OrderHQ_Chief_ArcQuest3Start_7 = We need to stay here and defend the bunker from further attacks.
+OrderHQ_Chief_ArcQuest3Start_8 = Okay, I'll do it.
+OrderHQ_Chief_ArcQuest3Start_9 = Thank you. I promise the reward will be worth it.
+
+OrderHQ_Chief_ArcQuest3During_1 = Fort Libert has the supplies we need. You need to go and get it for us.
+
 OrderHQ_Chief_AboutBandits_1 = Banditry was always a problem in the region.
 OrderHQ_Chief_AboutBandits_2 = But it got worse in the years following the invasions and the Union war.
 OrderHQ_Chief_AboutBandits_3 = Some people were desperate, some people wanted to get richer.
