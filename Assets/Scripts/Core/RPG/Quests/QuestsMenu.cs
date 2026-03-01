@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 /// <summary>
@@ -94,7 +95,15 @@ public class QuestsMenu : MonoBehaviour
             foreach (string id in ids)
             {
                 tempValue = GameManager.GetSaveManager().GetItem(id);
-                parsedValue = int.Parse(tempValue);
+                if (!int.TryParse(tempValue,
+                    NumberStyles.Integer,
+                    CultureInfo.InvariantCulture,
+                    out parsedValue))
+                {
+                    parsedValue = -1;
+                    Debug.LogWarning($"Quest Variable Invalid : {id} - {tempValue} ");
+                }
+
                 if (parsedValue == 100)
                 {
                     Instantiate(doneQuestPrefab, doneRoot).Init(id, tempValue);

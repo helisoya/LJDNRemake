@@ -311,6 +311,7 @@ arcQuest_Order_2_done = I cleared the Order's bunker
 
 arcQuest_Order_3 = Supplies
 arcQuest_Order_3_0 = Talk to the order's chief in their White Forest bunker
+arcQuest_Order_3_1 = Get supplies from Fort Libert in Marklicht
 
 arcQuest_Sam_1 = Conspiracy
 arcQuest_Sam_1_0 = Investigate the city hall in Vorlan
