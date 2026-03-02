@@ -318,7 +318,12 @@ arcQuest_Sam_1_0 = Investigate the city hall in Vorlan
 arcQuest_Sam_1_done = I investigated the railways of Vorlan
 
 arcQuest_Sam_2 = Heisters
-arcQuest_Sam_2_0 = Find Simon at Tolau's inn.
+arcQuest_Sam_2_0 = Find Simon at Tolau's inn
+arcQuest_Sam_2_1 = Find Simon at Orkva's Military Base
+arcQuest_Sam_2_done = I stole soldier clothes for the bandits
+
+arcQuest_Sam_3 = The plan
+arcQuest_Sam_3_0 = Go to the meeting at Tolau's lighthouse at night
 
 arcQuest_Dragon_1 = Hunting wolves
 arcQuest_Dragon_1_0 = Kill wolves (0/5)
@@ -394,6 +399,16 @@ secondaryQuest_Tolau_Fisherman_2 = Get the clock back from the Lake gang's camp 
 secondaryQuest_Tolau_Fisherman_3 = Bring back the clock to Tolau's fisherman
 secondaryQuest_Tolau_Fisherman_done = I can now access Mirage Island
 
+secondaryQuest_Tolau_Inn = Blackmail
+secondaryQuest_Tolau_Inn_0 = Go to Tolau's docks at night
+secondaryQuest_Tolau_Inn_1 = Talk to Tolau's innkeeper
+secondaryQuest_Tolau_Inn_done = I stopped a blackmail scheme
+
+secondaryQuest_Tolau_Mayor = The prosecutor's secrets
+secondaryQuest_Tolau_Mayor_0 = Find secrets in the house of Tolau's prosecutor
+secondaryQuest_Tolau_Mayor_1 = Talk to Tolau's mayor
+secondaryQuest_Tolau_Mayor_done = I found some secrets for the mayor
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
@@ -437,6 +452,7 @@ ENNEMY_Animal_Dragon2_name = Dragon
 ENNEMY_Orkva_VorlanGovernor_name = Military Governor
 ENNEMY_OrkvaSoldier_Sword_name = Soldier
 ENNEMY_OrkvaSoldier_Revolver_name = Soldier
+ENNEMY_OrkvaSoldier_Rifle_name = Soldier
 
 ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel

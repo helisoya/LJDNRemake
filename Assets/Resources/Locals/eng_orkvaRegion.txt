@@ -324,6 +324,36 @@ OrkvaShrine_Priest_AboutRegion_9 = If you ever go there, you'll see it's... diff
 Prison_Door_Dont_1 = Why would I enter an Orkvian prison ?
 
 # ---------------------------------------------------------
+# --------------------- Prison ----------------------------
+# ---------------------------------------------------------
+
+OrkvaMilitaryBase_Entrance_Dont_1 = This is the Orkvian main military base in the region. 
+
+OrkvaMilitaryBase_Bandit_ArcQuest2_1 = Good, you made it.
+OrkvaMilitaryBase_Bandit_ArcQuest2_2 = Why are we here ?
+OrkvaMilitaryBase_Bandit_ArcQuest2_3 = Eh eh. All in due time.
+OrkvaMilitaryBase_Bandit_ArcQuest2_4 = For now, you just need to know we are going to steal Orkvian uniforms.
+OrkvaMilitaryBase_Bandit_ArcQuest2_5 = A convoy will be leaving soon with Okville as destination.
+OrkvaMilitaryBase_Bandit_ArcQuest2_6 = We'll follow them for a bit, then we'll ambush them.
+OrkvaMilitaryBase_Bandit_ArcQuest2_7 = Once that's done, we'll steal the uniforms and run away.
+OrkvaMilitaryBase_Bandit_ArcQuest2_8 = Of course, you'll be doing the heavy lifting, pal.
+OrkvaMilitaryBase_Bandit_ArcQuest2_9 = I... get it.
+OrkvaMilitaryBase_Bandit_ArcQuest2_10 = Good, because here they come.
+OrkvaMilitaryBase_Bandit_ArcQuest2_11 = A truck exits the base and we follow it.
+OrkvaMilitaryBase_Bandit_ArcQuest2_12 = Since the roads are bumpy, the truck can't go very fast.
+OrkvaMilitaryBase_Bandit_ArcQuest2_13 = After half an hour of stalking, we finally ambush the convoy.
+
+OrkvaMilitaryBase_Bandit_ArcQuest2_14 = Good job, newbie.
+OrkvaMilitaryBase_Bandit_ArcQuest2_15 = We might have some use for you after all.
+OrkvaMilitaryBase_Bandit_ArcQuest2_16 = I'll get these uniforms to our brothers.
+OrkvaMilitaryBase_Bandit_ArcQuest2_17 = Come tonight to Tolau's lighthouse. We'll be holding a meeting.
+OrkvaMilitaryBase_Bandit_ArcQuest2_18 = You'll finally get a grasp at the operation we are planning.
+OrkvaMilitaryBase_Bandit_ArcQuest2_19 = Yes, sir. I'll be there.
+OrkvaMilitaryBase_Bandit_ArcQuest2_20 = Uniforms ? I don't like this one bit.
+OrkvaMilitaryBase_Bandit_ArcQuest2_21 = I should head to this meeting whenever I can.
+
+
+# ---------------------------------------------------------
 # --------------------- Okville ---------------------------
 # ---------------------------------------------------------
 
@@ -503,4 +533,132 @@ Tolau_Residences_Door1_ArcQuest_20 = Ah, her. Yeah, I should have guessed she wo
 Tolau_Residences_Door1_ArcQuest_21 = Thank you for the heads up, I'll go to the courthouse right away.
 Tolau_Residences_Door1_ArcQuest_22 = ... Well. I guess I should check up on the chief once more.
 
-Tolau_Residences_Door2_Default_1 = Why would I trespass into someone's home ?
+Tolau_Residences_Door2_Default_1 = This is the house of Tolau's prosecutor.
+
+Tolau_Residences_Door2_Start_1 = I need to find secrets inside. Let's go.
+Tolau_Residences_Door2_Start_2 = I make sure the prosecutor isn't home and enter the house.
+Tolau_Residences_Door2_Start_3 = Where would a prosecutor hide her secrets ?
+
+Tolau_Residences_Door2_Wall_1 = A bunch of newspaper articles were pinned to the wall.
+Tolau_Residences_Door2_Wall_2 = ... Most of them involve Mr. Right, attorney at law.
+
+Tolau_Residences_Door2_Statue_1 = A statue of the prosecutor, holding a sword. She's steping on someone.
+Tolau_Residences_Door2_Statue_2 = What an ego.
+
+Tolau_Residences_Door2_Bookshelf_1 = Law books... History books... A book about sea animals ?
+
+Tolau_Residences_Door2_Painting_1 = This is a painting of the Orkvian king.
+
+Tolau_Residences_Door2_Book_1 = This is a strange book... Is it her diary ?
+Tolau_Residences_Door2_Book_2 = Let's see... Hold on...
+Tolau_Residences_Door2_Book_3 = She embezzelded funds meant for the military. All to buy a mansion in Southern Orkva.
+Tolau_Residences_Door2_Book_4 = She also talks about the fake evidence she created in court.
+Tolau_Residences_Door2_Book_5 = This is what the mayor wanted. I should leave now.
+Tolau_Residences_Door2_Book_6 = I exit the house, making sure not to be found.
+Tolau_Residences_Door2_Book_7 = Well, I should head back to the city hall.
+
+
+Tolau_Inn_Owner_Sleep_1 = Right, let me show you to your room.
+
+Tolau_Inn_Owner_AboutCity_1 = Tolau was the most prosperous city in the southern region back.
+Tolau_Inn_Owner_AboutCity_2 = But at some point, Orkva set up a military blockade off our coast.
+Tolau_Inn_Owner_AboutCity_3 = They pretend they want to pretend bandits from boarding ships.
+Tolau_Inn_Owner_AboutCity_4 = Only a fool would believe that though.
+Tolau_Inn_Owner_AboutCity_5 = They only seek to impoverish us and make us leave.
+
+Tolau_Inn_Owner_QuestStart_1 = To be frank, I do need some help.
+Tolau_Inn_Owner_QuestStart_2 = My brother is a night worker at the docks. I heard he got into troubles.
+Tolau_Inn_Owner_QuestStart_3 = I heard from a client that he is being blackmailed by soldiers.
+Tolau_Inn_Owner_QuestStart_4 = I don't know what is going on, but I need to help him.
+Tolau_Inn_Owner_QuestStart_5 = Could I hire your services ? You seem capable enough.
+Tolau_Inn_Owner_QuestStart_6 = Pretend to be a bandit or something. Make them stop bullying him.
+Tolau_Inn_Owner_QuestStart_7 = He's an idiot, but not a criminal. I don't know what they got on him, but this isn't right.
+Tolau_Inn_Owner_QuestStart_8 = Fine, I'll do it.
+Tolau_Inn_Owner_QuestStart_9 = Good. Come back when you solved this problem. I'll get the payment ready.
+Tolau_Inn_Owner_QuestStart_10 = I should go to the docks at night.
+
+Tolau_Inn_Owner_QuestDuring_1 = My brother is a night worker at the docks.
+
+Tolau_Inn_Owner_QuestEnd_1 = I did it.
+Tolau_Inn_Owner_QuestEnd_2 = Good. I don't even want to know what happened.
+Tolau_Inn_Owner_QuestEnd_3 = Here, this is your pay.
+Tolau_Inn_Owner_QuestEnd_4 = <color=blue>I got 20 gold from the woman.</color>
+Tolau_Inn_Owner_QuestEnd_5 = A pleasure doing business with you.
+
+Tolau_Inn_ArcQuestSam2_1 = Are you Simon ?
+Tolau_Inn_ArcQuestSam2_2 = Depends, who asks ?
+Tolau_Inn_ArcQuestSam2_3 = Jacky sent me. I'm his replacement.
+Tolau_Inn_ArcQuestSam2_4 = What's with these clothes ?
+Tolau_Inn_ArcQuestSam2_5 = Oh... I stole them off some idiot in the forest. I plan to sell them at some point.
+Tolau_Inn_ArcQuestSam2_6 = ... I see. Well, I'm not that surprised. The setup must be taking longer that expected.
+Tolau_Inn_ArcQuestSam2_7 = So, what's the plan ?
+Tolau_Inn_ArcQuestSam2_8 = The plan ? Eh eh. We don't tell newbies everything.
+Tolau_Inn_ArcQuestSam2_9 = Be assured that you'll get your cut in due time.
+Tolau_Inn_ArcQuestSam2_10 = Since you're here. We can begin.
+Tolau_Inn_ArcQuestSam2_11 = Meet me at the military base outside the city.
+Tolau_Inn_ArcQuestSam2_12 = You'll understand your role in all this in due time.
+Tolau_Inn_ArcQuestSam2_13 = I guess I managed to fool him...
+Tolau_Inn_ArcQuestSam2_14 = Let's see how long I can keep this up.
+
+Tolau_Port_SecondaryQuest_1 = When I arrive, I immediatly spot the innkeeper's brother.
+Tolau_Port_SecondaryQuest_2 = He being harassed by two soldiers. I wonder was is going on...
+Tolau_Port_SecondaryQuest_3 = Where is the money ?
+Tolau_Port_SecondaryQuest_4 = I... I don't have any !
+Tolau_Port_SecondaryQuest_5 = I told you last time, you took everything !
+Tolau_Port_SecondaryQuest_6 = Shut up. I know you have some more.
+Tolau_Port_SecondaryQuest_7 = Or do you want your boss to know what you stole ?
+Tolau_Port_SecondaryQuest_8 = Please ! I can't give you anything.
+Tolau_Port_SecondaryQuest_9 = Time for me to go in, I guess.
+Tolau_Port_SecondaryQuest_10 = Hey, hold on. Who are you ?
+Tolau_Port_SecondaryQuest_11 = His friend. It would be wise for you to go.
+Tolau_Port_SecondaryQuest_12 = Pff ! You heard him, Rick ?
+Tolau_Port_SecondaryQuest_13 = He thinks he can stop us. Does he know who we are ?
+Tolau_Port_SecondaryQuest_14 = I do. But you can't say the same, right ?
+Tolau_Port_SecondaryQuest_15 = It won't matter when you'll be bleeding on the ground.
+
+Tolau_Port_SecondaryQuest_16 = Thanks for helping me.
+Tolau_Port_SecondaryQuest_17 = Why were they blackmailing you ?
+Tolau_Port_SecondaryQuest_18 = Well... I'm not exactly rich.
+Tolau_Port_SecondaryQuest_19 = One day, I stole some food from work.
+Tolau_Port_SecondaryQuest_20 = They saw me, and had been blackmailing me ever since.
+Tolau_Port_SecondaryQuest_21 = Well, I don't think they'll be doing that anytime soon.
+Tolau_Port_SecondaryQuest_22 = You should head home, and stay out of troubles.
+Tolau_Port_SecondaryQuest_23 = Right ! Thank you.
+Tolau_Port_SecondaryQuest_24 = I should go back to the inn now.
+
+Tolau_CityHall_Mayor_Greetings_1 = Do you have business with me ?
+
+Tolau_CityHall_Mayor_AboutCity_1 = Tolau was once a prosperous trade city.
+Tolau_CityHall_Mayor_AboutCity_2 = But with the local unrest amongst the Suori population, a blockade came into effect.
+Tolau_CityHall_Mayor_AboutCity_3 = The government assured me it was a precaution against bandits and pirates.
+Tolau_CityHall_Mayor_AboutCity_4 = Sadly, we know they are just trying to get in our way. They want to make us leave the city.
+Tolau_CityHall_Mayor_AboutCity_5 = For now, they are failing.
+
+Tolau_CityHall_Mayor_AboutOrkva_1 = Orkva took over the region centuries ago, during the great invasions.
+Tolau_CityHall_Mayor_AboutOrkva_2 = The used the global political instability to take over the southern Kalian lands.
+Tolau_CityHall_Mayor_AboutOrkva_3 = But they soon understood they couldn't just declare themselves rulers.
+Tolau_CityHall_Mayor_AboutOrkva_4 = Unrest has been brewing for a long time. It's only a matter of time before a full uprising starts.
+Tolau_CityHall_Mayor_AboutOrkva_5 = Of course, I'll support the people. Orkva can end up next to Cerkus.
+
+Tolau_CityHall_Mayor_QuestStart_1 = Actually, I have use for a man like you.
+Tolau_CityHall_Mayor_QuestStart_2 = You may have heard of the prosecutor of Tolau.
+Tolau_CityHall_Mayor_QuestStart_3 = She's a noble from the capital, and was assigned by the military.
+Tolau_CityHall_Mayor_QuestStart_4 = Her goal is to curb the unrest in Tolau by any mean necessary.
+Tolau_CityHall_Mayor_QuestStart_5 = ... Even if it means forging evidence. She even has the judge in her pocket.
+Tolau_CityHall_Mayor_QuestStart_6 = You want me to kill her ?
+Tolau_CityHall_Mayor_QuestStart_7 = What ? No. I'm not like the folks in Vorlan.
+Tolau_CityHall_Mayor_QuestStart_8 = A woman like her must have secrets. I want to know her weakness.
+Tolau_CityHall_Mayor_QuestStart_9 = I want you to go to her house, in the northen residences.
+Tolau_CityHall_Mayor_QuestStart_10 = Search for anything compromising. I need a weapon to use against her.
+Tolau_CityHall_Mayor_QuestStart_11 = I'll pay you handsomely upon your return.
+Tolau_CityHall_Mayor_QuestStart_12 = Fine. I'll see what I can find.
+
+Tolau_CityHall_Mayor_QuestDuring_1 = The prosecutor's house is in the northen residences.
+Tolau_CityHall_Mayor_QuestDuring_2 = Go there and find something incriminating.
+
+Tolau_CityHall_Mayor_QuestEnd_1 = Here is the evidence you wanted.
+Tolau_CityHall_Mayor_QuestEnd_2 = Let me see... Ah, yes.
+Tolau_CityHall_Mayor_QuestEnd_3 = This will be useful when dealing with her, thank you.
+Tolau_CityHall_Mayor_QuestEnd_4 = Here is your reward for helping me.
+Tolau_CityHall_Mayor_QuestEnd_5 = <color=blue>I got 20 gold from the mayor.</color>
+Tolau_CityHall_Mayor_QuestEnd_6 = In the meantime...

@@ -84,7 +84,7 @@ Region_Orkva_Prison Orkva/Prison/Arrival canTravel_Region_Orkva_Prison 1
 Region_Orkva_Shrine Orkva/Shrine/Arrival canTravel_Region_Orkva_Shrine 1
 Region_Orkva_Tolau Orkva/Tolau/Common/OpenMapFromOrkva canTravel_Region_Orkva_Tolau 1
 Region_Orkva_Farm Orkva/TolauFarm/Arrival canTravel_Region_Orkva_Farm 1
-Region_Orkva_MilitaryBase TODO canTravel_Region_Orkva_MilitaryBase 1
+Region_Orkva_MilitaryBase Orkva/MilitaryBase/Arrival canTravel_Region_Orkva_MilitaryBase 1
 
 [City_Vorlan]
 City_Vorlan_ToOrkva1 Orkva/Common/OpenMapFromVorlan canTravel_City_Vorlan_ToOrkva 1
@@ -114,6 +114,6 @@ City_Tolau_Lighthouse Orkva/Tolau/Lighthouse/Arrival canTravel_City_Tolau_Lighth
 City_Tolau_Port Orkva/Tolau/Port/Arrival canTravel_City_Tolau_Port 1
 City_Tolau_Plaza Orkva/Tolau/Plaza/Arrival canTravel_City_Tolau_Plaza 1
 City_Tolau_Courthouse Orkva/Tolau/Courthouse/Arrival canTravel_City_Tolau_Courthouse 1
-City_Tolau_CityHall TODO canTravel_City_Tolau_CityHall 1
+City_Tolau_CityHall Orkva/Tolau/CityHall/Arrival canTravel_City_Tolau_CityHall 1
 City_Tolau_Residences Orkva/Tolau/Residences/Arrival canTravel_City_Tolau_Residences 1
-City_Tolau_Inn TODO canTravel_City_Tolau_Inn 1
+City_Tolau_Inn Orkva/Tolau/Inn/Arrival canTravel_City_Tolau_Inn 1

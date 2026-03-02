@@ -15,6 +15,10 @@ setLocation(Location_Tolau)
 
 autosave()
 
-fadeFg(0;false)
-
-load(Orkva/Tolau/Port/Interaction)
+if(night = 1 & secondaryQuest_Tolau_Inn = 0){
+	load(Orkva/Tolau/Port/SecondaryQuest)
+}
+else{
+	fadeFg(0;false)
+	load(Orkva/Tolau/Port/Interaction)
+}

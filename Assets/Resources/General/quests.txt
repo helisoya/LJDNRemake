@@ -21,6 +21,7 @@ arcQuest_Order_2
 arcQuest_Order_3
 arcQuest_Sam_1
 arcQuest_Sam_2
+arcQuest_Sam_3
 arcQuest_Dragon_1
 arcQuest_Dragon_2
 arcQuest_Dragon_3
@@ -40,3 +41,5 @@ secondaryQuest_Vorlan_Soldier
 secondaryQuest_Vorlan_Inn
 secondaryQuest_Vorlan_Mayor
 secondaryQuest_Tolau_Fisherman
+secondaryQuest_Tolau_Mayor
+secondaryQuest_Tolau_Inn

@@ -320,6 +320,11 @@ arcQuest_Sam_1_done = J'ai mené l'enquête dans les chemins de fer de Vorlan
 
 arcQuest_Sam_2 = Voleurs
 arcQuest_Sam_2_0 = Trouvez Simon à l'auberge de Tolau
+arcQuest_Sam_2_1 = Retrouvez Simon à la base militaire Orkvienne
+arcQuest_Sam_2_done = J'ai volé des habits militaires pour les bandits
+
+arcQuest_Sam_3 = Le plan
+arcQuest_Sam_3_0 = Allez au meeting au phare de Tolau, la nuit
 
 arcQuest_Dragon_1 = Chasse aux loups
 arcQuest_Dragon_1_0 = Tuez des loups (0/5)
@@ -395,6 +400,16 @@ secondaryQuest_Tolau_Fisherman_2 = Reprennez l'horloge des mains du Gang du Lac 
 secondaryQuest_Tolau_Fisherman_3 = Apportez l'horloge au pecheur de Tolau
 secondaryQuest_Tolau_Fisherman_done = Je peux maintenant accéder à l'île Mirage
 
+secondaryQuest_Tolau_Inn = Chantage
+secondaryQuest_Tolau_Inn_0 = Allez aux docks de Tolau durant la nuit
+secondaryQuest_Tolau_Inn_1 = Parlez à la gérante de l'auberge de Tolau
+secondaryQuest_Tolau_Inn_done = J'ai résolu une affaire de chantage
+
+secondaryQuest_Tolau_Mayor = Les secrets du procureur
+secondaryQuest_Tolau_Mayor_0 = Trouvez des secrets dans la maison du procureur de Tolau
+secondaryQuest_Tolau_Mayor_1 = Parlez au maire de Tolau
+secondaryQuest_Tolau_Mayor_done = J'ai trouvé des secrets pour le maire
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
@@ -438,6 +453,7 @@ ENNEMY_Animal_Dragon2_name = Dragon
 ENNEMY_Orkva_VorlanGovernor_name = Gouverneur militaire
 ENNEMY_OrkvaSoldier_Sword_name = Soldat
 ENNEMY_OrkvaSoldier_Revolver_name = Soldat
+ENNEMY_OrkvaSoldier_Rifle_name = Soldat
 
 ENNEMY_Rebel_Hand_name = Rebelle
 ENNEMY_Rebel_Knife_name = Rebelle

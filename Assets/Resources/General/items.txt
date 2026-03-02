@@ -45,6 +45,7 @@ arcQuest_Order_3 -1
 
 arcQuest_Sam_1 -1
 arcQuest_Sam_2 -1
+arcQuest_Sam_3 -1
 
 arcQuest_Dragon_1 -1
 arcQuest_Dragon_2 -1
@@ -68,6 +69,8 @@ secondaryQuest_Vorlan_Inn -1
 secondaryQuest_Vorlan_Mayor -1
 
 secondaryQuest_Tolau_Fisherman -1
+secondaryQuest_Tolau_Mayor -1
+secondaryQuest_Tolau_Inn -1
 
 # Flags
 cutscene_EntranceVorlan 0
