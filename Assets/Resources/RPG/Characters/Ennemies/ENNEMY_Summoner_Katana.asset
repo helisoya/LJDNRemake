@@ -30,7 +30,7 @@ MonoBehaviour:
       - Key: 5
         Value: 10
     weapon: TWOHANDED_KATANA
-    armor: 
+    armor: ARMOR_LEATHER
     level: 1
     currentHP: 0
     currentSP: 0

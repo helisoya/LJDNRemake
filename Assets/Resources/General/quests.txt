@@ -22,6 +22,7 @@ arcQuest_Order_3
 arcQuest_Sam_1
 arcQuest_Sam_2
 arcQuest_Sam_3
+arcQuest_Sam_4
 arcQuest_Dragon_1
 arcQuest_Dragon_2
 arcQuest_Dragon_3

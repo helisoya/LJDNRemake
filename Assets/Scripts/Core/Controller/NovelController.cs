@@ -400,9 +400,16 @@ public class NovelController : MonoBehaviour
         string[] split = line.Split(new char[] { '(', ')' });
 
         bool ok = true;
+        bool isAnd = true;
+        bool tmpResult;
 
         string[] splitAnds = split[1].Split(" & ");
-        if (splitAnds.Length == 1) split[1].Split(" | ");
+        if (splitAnds.Length == 1)
+        {
+            ok = false;
+            isAnd = false;
+            splitAnds = split[1].Split(" | ");
+        }
 
         foreach (string splitAnd in splitAnds)
         {
@@ -411,9 +418,18 @@ public class NovelController : MonoBehaviour
             string oper = parametersSplit[1];
             string value = parametersSplit[2];
 
-            if (!IsCheckOkay(key, value, oper))
+            tmpResult = IsCheckOkay(key, value, oper);
+
+            print(splitAnd + " -> " + tmpResult);
+
+            if (!tmpResult && isAnd)
             {
                 ok = false;
+                break;
+            }
+            else if (tmpResult && !isAnd)
+            {
+                ok = true;
                 break;
             }
         }

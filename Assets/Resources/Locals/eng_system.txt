@@ -324,6 +324,13 @@ arcQuest_Sam_2_done = I stole soldier clothes for the bandits
 
 arcQuest_Sam_3 = The plan
 arcQuest_Sam_3_0 = Go to the meeting at Tolau's lighthouse at night
+arcQuest_Sam_3_1 = Check Vorlan's railway network
+arcQuest_Sam_3_done = I countered the sabotage of Vorlan's railway
+
+arcQuest_Sam_4 = The heist
+arcQuest_Sam_4_0 = Meet the bandits at Okville's train station
+arcQuest_Sam_4_1 = Talk to Sam in Altyr
+arcQuest_Sam_4_done = I stopped the heist
 
 arcQuest_Dragon_1 = Hunting wolves
 arcQuest_Dragon_1_0 = Kill wolves (0/5)
@@ -521,3 +528,5 @@ FIREARM_SHOTGUN_name = Shotgun
 FIREARM_SHOTGUN_desc = A weapon perfect for close quarter combat.<br>+7 ATK
 SKILL_FRAGPELLET_name = Fragmentation Pellets
 SKILL_FRAGPELLET_desc = Light attack<br>Defense down<br>(one foe)
+ARMOR_BATTLEARMOR_name = Battle Armor
+ARMOR_BATTLEARMOR_desc = A custom made battle armor.<br>+8 ATK

@@ -312,7 +312,6 @@ arcQuest_Order_2_done = J'ai sécurisé le bunker de l'Ordre
 arcQuest_Order_3 = Ravitaillement
 arcQuest_Order_3_0 = Parlez au chef de l'Ordre dans leur bunker de la forêt blanche
 arcQuest_Order_3_1 = Obtenez des ravitaillements à Fort Libert, au Marklicht
-Get supplies from Fort Libert in Marklicht
 
 arcQuest_Sam_1 = Complot
 arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan
@@ -325,6 +324,13 @@ arcQuest_Sam_2_done = J'ai volé des habits militaires pour les bandits
 
 arcQuest_Sam_3 = Le plan
 arcQuest_Sam_3_0 = Allez au meeting au phare de Tolau, la nuit
+arcQuest_Sam_3_1 = Vérifiez les chemins de fer à Vorlan
+arcQuest_Sam_3_done = J'ai empeché le sabotage des chemins de fer de Vorlan
+
+arcQuest_Sam_4 = Le braquage
+arcQuest_Sam_4_0 = Retrouvez les bandits à la gare d'Okville
+arcQuest_Sam_4_1 = Parlez à Sam à Altyr
+arcQuest_Sam_4_done = J'ai déjoué le braquage
 
 arcQuest_Dragon_1 = Chasse aux loups
 arcQuest_Dragon_1_0 = Tuez des loups (0/5)
@@ -522,3 +528,5 @@ FIREARM_SHOTGUN_name = Fusil à pompe
 FIREARM_SHOTGUN_desc = Parfait pour du combat rapproché.<br>+7 ATK
 SKILL_FRAGPELLET_name = Balles à fragmentation
 SKILL_FRAGPELLET_desc = Attaque légère<br>Malus de Défense<br>(un ennemi)
+ARMOR_BATTLEARMOR_name = Armure de combat
+ARMOR_BATTLEARMOR_desc = Une armure de combat fait à la main.<br>+8 ATK
