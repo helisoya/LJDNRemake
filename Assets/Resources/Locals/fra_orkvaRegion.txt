@@ -69,6 +69,23 @@ Altyr_Sam_Start_12 = Très bien. Je vais mener l'enquête pour vous.
 Altyr_Sam_Start_13 = Merci. Vous trouverez l'entrée des chemins de fer à la mairie.
 Altyr_Sam_Start_14 = Et tenez. Voila une carte des tunnels. Vous en aurez besoin.
 
+Altyr_Sam_End_1 = J'ai réussi.
+Altyr_Sam_End_2 = Des bandits projetaient de braquer un train militaire rempli d'or.
+Altyr_Sam_End_3 = Je me suis infiltré dans leurs rangs et je les ai arrêtés.
+Altyr_Sam_End_4 = Je vois... Merci.
+Altyr_Sam_End_5 = Je n'aurais pas pu faire ça par moi même.
+Altyr_Sam_End_6 = Et dire que des gens voulaient saboter les chemins de fer...
+Altyr_Sam_End_7 = Enfin. Ne vous inquiétez pas d'une éventuelle enquête orkvienne.
+Altyr_Sam_End_8 = Je ferai en sorte d'"oublier" que je vous ai engagé.
+Altyr_Sam_End_9 = S'ils me demandent ce qui s'est passé, je dirai simplement que j'ai empêché le sabotage, et que les bandits se sont entretués. 
+Altyr_Sam_End_10 = Ce qui me fait penser... Voici votre "paiement".
+Altyr_Sam_End_11 = Sam me montre une sorte d'armure de combat.
+Altyr_Sam_End_12 = Orkva m'avait demandé de la créer il y un bout de temps.
+Altyr_Sam_End_13 = Ils voulaient mieux équiper leurs soldats, mais c'était trop cher.
+Altyr_Sam_End_14 = Vous pouvez la prendre. C'est le seul prototype fonctionnel.
+Altyr_Sam_End_15 = Merci.
+Altyr_Sam_End_16 = En attendant...
+
 # ---------------------------------------------------------
 # --------------------- Vorlan ----------------------------
 # ---------------------------------------------------------
@@ -283,6 +300,13 @@ Vorlan_CityHall_RailwayQuest_14 = Des bandits préparent un braquage à Vorlan ?
 Vorlan_CityHall_RailwayQuest_15 = C'est étrange. Ça doit être quelque chose de plus important.
 Vorlan_CityHall_RailwayQuest_16 = Je devrais probablement aller à l'auberge de Tolau. "Simon" me dira sûrement ce qu'il sait...
 
+Vorlan_CityHall_SamArcQuest3_1 = Je devrais revérifier la voie ferrée.
+Vorlan_CityHall_SamArcQuest3_2 = Après environ une heure, je suis sûr qu'elle n'a pas subit de sabotage.
+Vorlan_CityHall_SamArcQuest3_3 = J'ai eu de la chance, les bandits n'ont rien eu le temps de faire.
+Vorlan_CityHall_SamArcQuest3_4 = Maintenant, je devrais me rendre à la gare d'Okville.
+Vorlan_CityHall_SamArcQuest3_5 = Je vais "aider" les bandits. Ensuite, je mettrai fin à leurs plans.
+Vorlan_CityHall_SamArcQuest3_6 = J'aurais bien voulu en parler à l'armée Orkvienne. Mais il est probable qu'ils m'arrêtent sur le champ.
+
 # ---------------------------------------------------------
 # --------------------- Shrine ----------------------------
 # ---------------------------------------------------------
@@ -368,6 +392,39 @@ Okville_Shop_AboutYou_2 = Si tu n'as rien à acheter, part.
 
 Okville_CityHall_Door_1 = L'écriteau dit "Pas de Suori ici".
 Okville_CityHall_Door_2 = Cette ville est folle...
+
+Okville_TrainStation_ArcQuest_1 = Eh, magnes-toi !
+Okville_TrainStation_ArcQuest_2 = Changes tes vêtements. Le train arrive bientôt.
+Okville_TrainStation_ArcQuest_3 = Je fais ce qu'on m'a dit et nous attendons le train.
+Okville_TrainStation_ArcQuest_4 = A son arrivée, nous montons à l'intérieur, déguisés en soldats.
+Okville_TrainStation_ArcQuest_5 = Nous quittons la ville et nous dirigeons vers Vorlan.
+Okville_TrainStation_ArcQuest_6 = Le bleu ! Il est temps de prendre le contrôle du train.
+Okville_TrainStation_ArcQuest_7 = Pour l'instant, je devrais les aider.
+
+Okville_TrainStation_ArcQuest_8 = Bien, bien...
+Okville_TrainStation_ArcQuest_9 = Il semblerai que la plupart des bandits soient morts pendant le combat. 
+Okville_TrainStation_ArcQuest_10 = Il n'en reste que quelques-uns, dont mon "chef".
+Okville_TrainStation_ArcQuest_11 = Bon sang ! Nous ne sommes plus que cinq.
+Okville_TrainStation_ArcQuest_12 = Il va falloir faire vite à Vorlan.
+Okville_TrainStation_ArcQuest_13 = Nous entrons dans les tunnels de la ville et...
+Okville_TrainStation_ArcQuest_14 =  nous finissons par en sortir sans encombre.
+Okville_TrainStation_ArcQuest_15 = Que se passe-t-il ? Pourquoi on ne s'est pas arrêté ?
+Okville_TrainStation_ArcQuest_16 = Le bleu ! Tu- Qu'as-tu fait ?
+Okville_TrainStation_ArcQuest_17 = Attends...
+Okville_TrainStation_ArcQuest_18 = Tu n'es pas l'un des nôtres, pas vrai ? 
+Okville_TrainStation_ArcQuest_19 = TU as tué nos frères à Vorlan.
+Okville_TrainStation_ArcQuest_20 =  TU avez empêché le sabotage.
+Okville_TrainStation_ArcQuest_21 = Tu es Orkvien ?
+Okville_TrainStation_ArcQuest_22 = Non. Je rends juste service à quelqu'un.
+Okville_TrainStation_ArcQuest_23 = En garde.
+
+Okville_TrainStation_ArcQuest_24 = J'ai vaincu les bandits.
+Okville_TrainStation_ArcQuest_25 = Pour l'instant, je suppose que je devrais descendre du train.
+Okville_TrainStation_ArcQuest_26 = Les gens de la base militaire s'occuperont du reste.
+Okville_TrainStation_ArcQuest_27 = Je saute et regarde le train poursuivre sa route. 
+Okville_TrainStation_ArcQuest_28 = Je devrais retourner chez Sam.
+Okville_TrainStation_ArcQuest_29 = Il mérite au moins une explication.
+
 
 # ---------------------------------------------------------
 # ---------------------- Tolau ---------------------------
@@ -660,3 +717,29 @@ Tolau_CityHall_Mayor_QuestEnd_3 = Cela me sera utile pour m'occuper d'elle, merc
 Tolau_CityHall_Mayor_QuestEnd_4 = Voici votre récompense pour votre aide.
 Tolau_CityHall_Mayor_QuestEnd_5 = <color=blue>J'ai reçu 20 pièces d'or du maire.</color>
 Tolau_CityHall_Mayor_QuestEnd_6 = En attendant...
+
+Tolau_Lighthouse_SamArcQuest3_1 = Te voila. La réunion va commencer.
+Tolau_Lighthouse_SamArcQuest3_2 = Je suis le bandit à l'intérieur du phare.
+Tolau_Lighthouse_SamArcQuest3_3 = La pièce n'est pas bien éclairée. Je n'y vois presque rien.
+Tolau_Lighthouse_SamArcQuest3_4 = On est tous là ? Parfait.
+Tolau_Lighthouse_SamArcQuest3_5 = Je vais maintenant expliquer les détails du braquage.
+Tolau_Lighthouse_SamArcQuest3_6 = Notre objectif est de détourner un train militaire en route pour la base militaire.
+Tolau_Lighthouse_SamArcQuest3_7 = Il transporte une importante quantité d'or, envoyée pour être sécurisé dans la base.
+Tolau_Lighthouse_SamArcQuest3_8 = On va arrêter le train à Vorlan et on s'emparera de notre butin. 
+Tolau_Lighthouse_SamArcQuest3_9 = Pour ce qui est de monter dans le train, regardez ça.
+Tolau_Lighthouse_SamArcQuest3_10 = Le chef montre les caisses d'uniformes que j'ai volées plus tôt.
+Tolau_Lighthouse_SamArcQuest3_11 = On va monter dans le train à Okville, en nous faisant passer pour des soldats. Ensuite, on prendra le contrôle.
+Tolau_Lighthouse_SamArcQuest3_12 = Nos frères de Vorlan sabotent actuellement les voies ferrées.
+Tolau_Lighthouse_SamArcQuest3_13 = Une fois le train arrivé, il déraillera et on s'enfuira.
+Tolau_Lighthouse_SamArcQuest3_14 = Il y a des tunnels sous Vorlan qui mènent à la Forêt Blanche. On aura juste à les prendre.
+Tolau_Lighthouse_SamArcQuest3_15 = Des questions ? 
+Tolau_Lighthouse_SamArcQuest3_16 = ... Bien. Prenez vos uniformes et rendez-vous à la gare d'Okville.
+Tolau_Lighthouse_SamArcQuest3_17 = Le bleu !
+Tolau_Lighthouse_SamArcQuest3_18 = Oui ?
+Tolau_Lighthouse_SamArcQuest3_19 = Vas à Vorlan et prends des nouvelles de nos frères.
+Tolau_Lighthouse_SamArcQuest3_20 = Je n'ai eu aucune nouvelle depuis ton arrivée à Tolau.
+Tolau_Lighthouse_SamArcQuest3_21 = Une fois que tu aurez confirmé que tout est en ordre, viens à Okville.
+Tolau_Lighthouse_SamArcQuest3_22 = Bien sûr.
+Tolau_Lighthouse_SamArcQuest3_23 = Je quitte le phare après la fin de la réunion. 
+Tolau_Lighthouse_SamArcQuest3_24 = Je dois revérifier la voie ferrée de Vorlan.
+Tolau_Lighthouse_SamArcQuest3_25 = Les bandits sont morts, mais j'ignore s'ils ont réussi à saboter la voie ferrée.
