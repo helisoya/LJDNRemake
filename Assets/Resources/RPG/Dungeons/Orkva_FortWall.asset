@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_Orkva
   floorsAmount: 4
   endChapter: Orkva/FortWall/GUARDArcQuest3_End
-  musicName: Dungeon_Kalia
+  musicName: Dungeon_Orkva
   canExitEarly: 0
   earlyExitChapter: 
   encounters:
