@@ -237,6 +237,11 @@ Region_MirageIsland_Cottage = Maisonette
 Region_MirageIsland_Forest = Forêt Mirage
 Region_MirageIsland_HopeHarbor = Port Espoir
 
+City_HopeHarbor_ToIsland = Vers l'Ile Mirage
+City_HopeHarbor_Docks = Docks
+City_HopeHarbor_Lighthouse = Phare
+City_HopeHarbor_Inn = Auberge
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------

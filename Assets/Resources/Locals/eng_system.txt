@@ -237,6 +237,11 @@ Region_MirageIsland_Cottage = Cottage
 Region_MirageIsland_Forest = Mirage Forest
 Region_MirageIsland_HopeHarbor = Hope Harbor
 
+City_HopeHarbor_ToIsland = To the Mirage Island
+City_HopeHarbor_Docks = Docks
+City_HopeHarbor_Lighthouse = Lighthouse
+City_HopeHarbor_Inn = Inn
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------

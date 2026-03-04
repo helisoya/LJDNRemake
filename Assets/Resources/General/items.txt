@@ -157,3 +157,8 @@ canTravel_Region_MirageIsland_ToOrkva 1
 canTravel_Region_MirageIsland_Cottage 1
 canTravel_Region_MirageIsland_Forest 1
 canTravel_Region_MirageIsland_HopeHarbor 1
+
+canTravel_City_HopeHarbor_ToIsland 1
+canTravel_City_HopeHarbor_Docks 1
+canTravel_City_HopeHarbor_Lighthouse 1
+canTravel_City_HopeHarbor_Inn 1
