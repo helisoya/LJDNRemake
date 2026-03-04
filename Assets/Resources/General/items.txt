@@ -26,8 +26,6 @@ rebelQuest_0 -1
 
 marklichtQuest_0 -1
 
-orkvaQuest_0 -1
-
 # Arcs
 arcQuest_Guard_1 -1
 arcQuest_Guard_2 -1
@@ -72,6 +70,8 @@ secondaryQuest_Vorlan_Mayor -1
 secondaryQuest_Tolau_Fisherman -1
 secondaryQuest_Tolau_Mayor -1
 secondaryQuest_Tolau_Inn -1
+
+secondaryQuest_HopeHarbor_Cottage -1
 
 # Flags
 cutscene_EntranceVorlan 0
@@ -152,3 +152,8 @@ canTravel_City_Tolau_Courthouse 1
 canTravel_City_Tolau_CityHall 1
 canTravel_City_Tolau_Residences 1
 canTravel_City_Tolau_Inn 1
+
+canTravel_Region_MirageIsland_ToOrkva 1
+canTravel_Region_MirageIsland_Cottage 1
+canTravel_Region_MirageIsland_Forest 1
+canTravel_Region_MirageIsland_HopeHarbor 1

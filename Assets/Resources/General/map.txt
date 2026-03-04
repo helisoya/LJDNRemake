@@ -75,7 +75,7 @@ Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
 
 [Region_Orkva]
 Region_Orkva_ToForest Forest/Common/OpenMapFromOrkva canTravel_Region_Orkva_ToForest 1
-Region_Orkva_ToMirageIsland TODO canTravel_Region_Orkva_ToMirageIsland 1
+Region_Orkva_ToMirageIsland MirageIsland/Common/OpenMapFromOrkva canTravel_Region_Orkva_ToMirageIsland 1
 Region_Orkva_FortWall Orkva/FortWall/Arrival canTravel_Region_Orkva_FortWall 1
 Region_Orkva_Vorlan Orkva/Vorlan/Common/OpenMapFromOrkva canTravel_Region_Orkva_Vorlan 1
 Region_Orkva_Village Orkva/Altyr/Arrival canTravel_Region_Orkva_Village 1
@@ -117,3 +117,9 @@ City_Tolau_Courthouse Orkva/Tolau/Courthouse/Arrival canTravel_City_Tolau_Courth
 City_Tolau_CityHall Orkva/Tolau/CityHall/Arrival canTravel_City_Tolau_CityHall 1
 City_Tolau_Residences Orkva/Tolau/Residences/Arrival canTravel_City_Tolau_Residences 1
 City_Tolau_Inn Orkva/Tolau/Inn/Arrival canTravel_City_Tolau_Inn 1
+
+[Region_MirageIsland]
+Region_MirageIsland_ToOrkva Orkva/Common/OpenMapFromMirageIsland canTravel_Region_MirageIsland_ToOrkva 1
+Region_MirageIsland_Cottage MirageIsland/Cottage/Arrival canTravel_Region_MirageIsland_Cottage 1
+Region_MirageIsland_Forest MirageIsland/Forest/Arrival canTravel_Region_MirageIsland_Forest 1
+Region_MirageIsland_HopeHarbor TODO canTravel_Region_MirageIsland_HopeHarbor 1

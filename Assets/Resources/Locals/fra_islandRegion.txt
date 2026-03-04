@@ -1,0 +1,26 @@
+# ---------------------------------------------------------
+# ----------------------- Forest --------------------------
+# ---------------------------------------------------------
+
+MirageForest_No_1 = Je vais me perdre si j'entre dans ces bois.
+
+# ---------------------------------------------------------
+# ---------------------- Cottage --------------------------
+# ---------------------------------------------------------
+
+MirageCottage_SecondaryQuest_1 = Donc voila la fameuse maisonette.
+MirageCottage_SecondaryQuest_2 = Elle n'a pas menti. Il y a des soldats, ici.
+MirageCottage_SecondaryQuest_3 = Ils ont érigés des barricades de fortune.
+MirageCottage_SecondaryQuest_4 = Et bien, il est temps de nettoyer tout ça.
+
+MirageCottage_SecondaryQuest_5 = Bien, ça devrait le faire.
+MirageCottage_SecondaryQuest_6 = Je devrais retourner à Port Espoir et prévenir la dame.
+
+MirageCottage_Woman_Greetings_1 = Tant à nettoyer...
+
+MirageCottage_Woman_AboutYou_1 = oh, je ne fais que vivre isolée dans ma maisonette. Enfin, quand elle n'est pas controllée par des soldats.
+MirageCottage_Woman_AboutYou_2 = Le port est trop bruyant. Je préfère le calme des collines.
+
+MirageCottage_Woman_AboutOrkva_1 = Orkva essaie de prendre le contrôle de l'île depuis des décénies.
+MirageCottage_Woman_AboutOrkva_2 = Mais ironiquement, ils n'avaient jamais tenté d'attaquer avant aujourd'hui.
+MirageCottage_Woman_AboutOrkva_3 = J'ai entendu dire qu'il y a eu une mutinerie dans l'armée. Les gens n'étaient pas content d'être stationé dans la région.

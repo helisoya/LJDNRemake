@@ -1,0 +1,3 @@
+dialog(narrator;_;false;MirageForest_No_1)
+
+load(MirageIsland/Forest/Interaction)

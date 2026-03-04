@@ -5,7 +5,6 @@ mainQuest_3
 mainQuest_4
 rebelQuest_0
 marklichtQuest_0
-orkvaQuest_0
 
 [arcQuest]
 arcQuest_Guard_1
@@ -44,3 +43,4 @@ secondaryQuest_Vorlan_Mayor
 secondaryQuest_Tolau_Fisherman
 secondaryQuest_Tolau_Mayor
 secondaryQuest_Tolau_Inn
+secondaryQuest_HopeHarbor_Cottage

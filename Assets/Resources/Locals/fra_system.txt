@@ -232,6 +232,11 @@ City_Tolau_CityHall = Mairie
 City_Tolau_Residences = Residences
 City_Tolau_Inn = Auberge
 
+Region_MirageIsland_ToOrkva = Vers Orkva
+Region_MirageIsland_Cottage = Maisonette
+Region_MirageIsland_Forest = Forêt Mirage
+Region_MirageIsland_HopeHarbor = Port Espoir
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -432,6 +437,8 @@ Location_Vorlan = Vorlan
 Location_Tolau = Tolau
 Location_Okville = Okville
 Location_BraiseFortress = Forteresse Braise
+Location_MirageIsland = Ile Mirage
+Location_HopeHarbor = Port Espoir
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

@@ -1,0 +1,26 @@
+# ---------------------------------------------------------
+# ----------------------- Forest --------------------------
+# ---------------------------------------------------------
+
+MirageForest_No_1 = I'll get lost if I enter those woods.
+
+# ---------------------------------------------------------
+# ---------------------- Cottage --------------------------
+# ---------------------------------------------------------
+
+MirageCottage_SecondaryQuest_1 = So this is the famous cottage...
+MirageCottage_SecondaryQuest_2 = The woman didn't lie. There are soldiers here.
+MirageCottage_SecondaryQuest_3 = They erected a makeshift barricade too.
+MirageCottage_SecondaryQuest_4 = Well, time to clear this place out.
+
+MirageCottage_SecondaryQuest_5 = Okay, this should do it.
+MirageCottage_SecondaryQuest_6 = I should head back to Hope Harbor and notify the woman.
+
+MirageCottage_Woman_Greetings_1 = So much to clean...
+
+MirageCottage_Woman_AboutYou_1 = Oh, I'm just living in my cottage. Well, when it isn't controlled by soldiers.
+MirageCottage_Woman_AboutYou_2 = The harbor is too noisy. I prefer the calm of the cliffs.
+
+MirageCottage_Woman_AboutOrkva_1 = Orkva has been trying to take over the island for decades.
+MirageCottage_Woman_AboutOrkva_2 = Funnily engouh, they never tried to attack until now.
+MirageCottage_Woman_AboutOrkva_3 = I heard there was a mutiny amongst the military. People weren't happy about being stationed in the region.
