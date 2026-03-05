@@ -72,6 +72,8 @@ secondaryQuest_Tolau_Mayor -1
 secondaryQuest_Tolau_Inn -1
 
 secondaryQuest_HopeHarbor_Cottage -1
+secondaryQuest_HopeHarbor_Keeper -1
+secondaryQuest_HopeHarbor_Inn -1
 
 # Flags
 cutscene_EntranceVorlan 0

@@ -5,7 +5,7 @@ setLocals(islandRegion)
 
 playMusic(Exploration_Island)
 removeAllCharacters()
-setBackground(MirageIsland/Cottage)
+setBackground(MirageIsland/Region/Cottage)
 
 load(Common/ProcessDayNight)
 load(Common/ProcessWeather)

@@ -19,5 +19,5 @@ if(secondaryQuest_Tolau_Fisherman = 3){
 dialog(Fisherman;Fisherman2;false;Tolau_FishermanHouse_Fisherman_UseBoat_1)
 fadeFg(1;true)
 
-# TODO
-# Load Mirage Island
+setBg(0)
+load(MirageIsland/HopeHarbor/Docks/Arrival)

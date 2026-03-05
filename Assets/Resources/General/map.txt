@@ -69,7 +69,7 @@ Region_Forest_Crag Forest/CragPass/Arrival canTravel_Region_Forest_Crag 1
 Region_Forest_Cavern Forest/Cavern/Arrival canTravel_Region_Forest_Cavern 1
 Region_Forest_Vasalia Forest/MountVasalia/Arrival canTravel_Region_Forest_Vasalia 1
 Region_Forest_Camp1 Forest/LakeGangCamp/Arrival canTravel_Region_Forest_Camp1 1
-Region_Forest_Camp2 TODO canTravel_Region_Forest_Camp2 1
+Region_Forest_Camp2 Forest/BanditCamp/Arrival canTravel_Region_Forest_Camp2 1
 Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
 Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
 
@@ -126,6 +126,6 @@ Region_MirageIsland_HopeHarbor MirageIsland/HopeHarbor/Common/OpenMapFromIsland 
 
 [City_HopeHarbor]
 City_HopeHarbor_ToIsland MirageIsland/Common/OpenMapFromHopeHarbor canTravel_City_HopeHarbor_ToIsland 1
-City_HopeHarbor_Docks TODO canTravel_City_HopeHarbor_Docks 1
-City_HopeHarbor_Lighthouse TODO canTravel_City_HopeHarbor_Lighthouse 1
+City_HopeHarbor_Docks MirageIsland/HopeHarbor/Docks/Arrival canTravel_City_HopeHarbor_Docks 1
+City_HopeHarbor_Lighthouse MirageIsland/HopeHarbor/Lighthouse/Arrival canTravel_City_HopeHarbor_Lighthouse 1
 City_HopeHarbor_Inn TODO canTravel_City_HopeHarbor_Inn 1

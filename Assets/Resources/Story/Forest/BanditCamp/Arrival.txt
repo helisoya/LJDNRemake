@@ -1,0 +1,25 @@
+clearStack()
+setFg(1)
+
+setLocals(forest)
+
+playMusic(Exploration_Forest)
+removeAllCharacters()
+setBackground(Forest/BanditCamp)
+
+load(Common/ProcessDayNight)
+load(Common/ProcessWeather)
+load(Common/DisplayWeatherRain)
+
+setLocation(Location_WhiteForest)
+
+autosave()
+
+fadeFg(0;false)
+
+if(secondaryQuest_HopeHarbor_Keeper = 0){
+	load(Forest/BanditCamp/Quest)
+}
+else{
+	load(Forest/BanditCamp/Interaction)
+}

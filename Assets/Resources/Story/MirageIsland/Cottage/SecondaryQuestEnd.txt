@@ -1,7 +1,7 @@
 setFg(1)
 
 setLocals(islandRegion)
-setBackground(MirageIsland/Cottage)
+setBackground(MirageIsland/Region/Cottage)
 load(Common/DisplayWeatherRain)
 setLocation(Location_MirageIsland)
 

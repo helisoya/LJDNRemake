@@ -262,5 +262,17 @@ LakeGangCamp_Quest_2 = Les bandits m'encerclent. Ils n'aiment pas ma présence i
 LakeGangCamp_Quest_3 = Et bien. Il est temps de récupérer ce que je suis venu chercher.
 
 LakeGangCamp_Quest_4 = J'ai vaincu le gang.
-LakeGangCamp_Quest_5 = Après avoir chercher un petit peu, je trouve l'horloge du pêcheur.
+LakeGangCamp_Quest_5 = Après avoir cherché un petit peu, je trouve l'horloge du pêcheur.
 LakeGangCamp_Quest_6 = Avec ça, il devrait accepter mon offre.
+
+# ---------------------------------------------------------
+# ----------------- Forest - Bandit Camp ------------------
+# ---------------------------------------------------------
+
+BanditCamp_Quest_1 = C'est le camp dont le gardien de phare m'a parlé.
+BanditCamp_Quest_2 = Les bandits m'encerclent. Ils n'aiment pas ma présence ici.
+BanditCamp_Quest_3 = Bon. Il est temps de récupérer ce que je suis venu chercher.
+
+BanditCamp_Quest_4 = J'ai vaincu les bandits.
+BanditCamp_Quest_5 = Après avoir cherché un petit peu, je trouve le "trésor" du gardien.
+BanditCamp_Quest_6 = Je devrais retourner à Port Espoir.

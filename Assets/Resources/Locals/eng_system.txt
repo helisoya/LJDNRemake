@@ -426,6 +426,16 @@ secondaryQuest_Tolau_Mayor_0 = Find secrets in the house of Tolau's prosecutor
 secondaryQuest_Tolau_Mayor_1 = Talk to Tolau's mayor
 secondaryQuest_Tolau_Mayor_done = I found some secrets for the mayor
 
+secondaryQuest_HopeHarbor_Cottage = Cottage under occupation
+secondaryQuest_HopeHarbor_Cottage_0 = Clear the cottage in the hills near Hope Harbor
+secondaryQuest_HopeHarbor_Cottage_1 = Talk to the woman at Hope Harbor's docks
+secondaryQuest_HopeHarbor_Cottage_done = I cleared the cottage
+
+secondaryQuest_HopeHarbor_Keeper = The "Treasure"
+secondaryQuest_HopeHarbor_Keeper_0 = Get the treasure back from the bandit camp near the Crag Pass
+secondaryQuest_HopeHarbor_Keeper_1 = Talk to the keeper at Hope Harbor's lighthouse
+secondaryQuest_HopeHarbor_Keeper_done = I recovered the treasure for the keeper
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

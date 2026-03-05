@@ -426,6 +426,17 @@ secondaryQuest_Tolau_Mayor_0 = Trouvez des secrets dans la maison du procureur d
 secondaryQuest_Tolau_Mayor_1 = Parlez au maire de Tolau
 secondaryQuest_Tolau_Mayor_done = J'ai trouvé des secrets pour le maire
 
+secondaryQuest_HopeHarbor_Cottage = Maisonette sous occupation
+secondaryQuest_HopeHarbor_Cottage_0 = Nettoyez la maisonette dans les collines proches de Port Espoir.
+secondaryQuest_HopeHarbor_Cottage_1 = Parlez à la dame au docks de Port Espoir
+secondaryQuest_HopeHarbor_Cottage_done = J'ai nettoyé la maisonette
+
+secondaryQuest_HopeHarbor_Keeper = Le "trésor"
+secondaryQuest_HopeHarbor_Keeper_0 = Reprennez le trésor au camp de bandits proche de Passe-Falaise
+secondaryQuest_HopeHarbor_Keeper_1 = Parlez au gardien de phare de Port Espoir
+secondaryQuest_HopeHarbor_Keeper_done = J'ai retrouvé le trésor du gardien
+
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

@@ -19,8 +19,79 @@ MirageCottage_SecondaryQuest_6 = I should head back to Hope Harbor and notify th
 MirageCottage_Woman_Greetings_1 = So much to clean...
 
 MirageCottage_Woman_AboutYou_1 = Oh, I'm just living in my cottage. Well, when it isn't controlled by soldiers.
-MirageCottage_Woman_AboutYou_2 = The harbor is too noisy. I prefer the calm of the cliffs.
+MirageCottage_Woman_AboutYou_2 = The harbor is too noisy. I prefer the calm of the hills.
 
 MirageCottage_Woman_AboutOrkva_1 = Orkva has been trying to take over the island for decades.
 MirageCottage_Woman_AboutOrkva_2 = Funnily engouh, they never tried to attack until now.
 MirageCottage_Woman_AboutOrkva_3 = I heard there was a mutiny amongst the military. People weren't happy about being stationed in the region.
+
+
+# ---------------------------------------------------------
+# ---------------------- Hope Harbor ----------------------
+# ---------------------------------------------------------
+
+HopeHarbor_Docks_Fisherman_Ask_1 = Are you ready to go back ?
+HopeHarbor_Docks_Fisherman_Ask_2 = Okay, here we go.
+
+HopeHarbor_Docks_Woman_StartQuest_1 = Hey, hey !
+HopeHarbor_Docks_Woman_StartQuest_2 = A woman starts talking to me as soon as I arrive.
+HopeHarbor_Docks_Woman_StartQuest_3 = What do you want ?
+HopeHarbor_Docks_Woman_StartQuest_4 = You are a soldier, right ? My message went through !
+HopeHarbor_Docks_Woman_StartQuest_5 = What message ?
+HopeHarbor_Docks_Woman_StartQuest_6 = Orkvian soldiers took over my cottage, you have to kick them out.
+HopeHarbor_Docks_Woman_StartQuest_7 = Hold on, you-
+HopeHarbor_Docks_Woman_StartQuest_8 = You'll be able to find it in the hills outside the city.
+HopeHarbor_Docks_Woman_StartQuest_9 = I'll stay here and wait for your return.
+HopeHarbor_Docks_Woman_StartQuest_10 = I... What ?
+HopeHarbor_Docks_Woman_StartQuest_11 = I guess I could check it out at some point.
+HopeHarbor_Docks_Woman_StartQuest_12 = Orkvian being here could be a bad omen.
+
+HopeHarbor_Docks_Woman_DuringQuest_1 = My house is in the hills outside the city.
+
+HopeHarbor_Docks_Woman_EndQuest_1 = Your house is safe now.
+HopeHarbor_Docks_Woman_EndQuest_2 = And not a moment too soon.
+HopeHarbor_Docks_Woman_EndQuest_3 = Thank you, kind sir.
+HopeHarbor_Docks_Woman_EndQuest_4 = Wait, what ?
+HopeHarbor_Docks_Woman_EndQuest_5 = Well, I guess there is no pay for this job...
+
+HopeHarbor_Lighthouse_Keeper_Greetings_1 = Oh oh ! Hello, there.
+
+HopeHarbor_Lighthouse_Keeper_AboutYou_1 = I've been tending to this lighthouse since the dawn of time.
+HopeHarbor_Lighthouse_Keeper_AboutYou_2 = Well, maybe not. Oh oh !
+HopeHarbor_Lighthouse_Keeper_AboutYou_3 = For over 60 years, no ship entered the docks without me knowing it.
+HopeHarbor_Lighthouse_Keeper_AboutYou_4 = And I don't intend to stop now.
+
+HopeHarbor_Lighthouse_Keeper_AboutCity_1 = Hope Harbor is our little treasure. Our little town.
+HopeHarbor_Lighthouse_Keeper_AboutCity_2 = It was founded when Tolians decided to leave the city a long time ago.
+HopeHarbor_Lighthouse_Keeper_AboutCity_3 = They landed here, and decided to make the Island their new home.
+HopeHarbor_Lighthouse_Keeper_AboutCity_4 = Well, not that they could leave.
+HopeHarbor_Lighthouse_Keeper_AboutCity_5 = Legends says the boat they used broke when they landed.
+
+HopeHarbor_Lighthouse_Keeper_NoQuest_1 = Oh, no.
+
+HopeHarbor_Lighthouse_Keeper_StartQuest_1 = Actually... Yes...
+HopeHarbor_Lighthouse_Keeper_StartQuest_2 = A treasure was stolen from me a long time ago.
+HopeHarbor_Lighthouse_Keeper_StartQuest_3 = Before becoming a lighthouse keeper, I was an adventurer.
+HopeHarbor_Lighthouse_Keeper_StartQuest_4 = I traveled Kalia and its region, looking for a few gold coins.
+HopeHarbor_Lighthouse_Keeper_StartQuest_5 = One day, I was coming back from the Nordian village beyond the Crag Pass.
+HopeHarbor_Lighthouse_Keeper_StartQuest_6 = Out of nowhere, bandits attacked me and stole my precious treasure.
+HopeHarbor_Lighthouse_Keeper_StartQuest_7 = I tried to get it back, but to no avail.
+HopeHarbor_Lighthouse_Keeper_StartQuest_8 = The bandits kept it as some sort of trophy.
+HopeHarbor_Lighthouse_Keeper_StartQuest_9 = Anyway, my career was over. I retired from adventuring with that incident.
+HopeHarbor_Lighthouse_Keeper_StartQuest_10 = You want me go get the treasure back ?
+HopeHarbor_Lighthouse_Keeper_StartQuest_11 = Yes, yes ! You are a smart boy.
+HopeHarbor_Lighthouse_Keeper_StartQuest_12 = My precious seashell collection will soon come back home !
+HopeHarbor_Lighthouse_Keeper_StartQuest_13 = Seashells ?
+HopeHarbor_Lighthouse_Keeper_StartQuest_14 = Oh, right. I forgot to tell you what my treasure is.
+HopeHarbor_Lighthouse_Keeper_StartQuest_15 = Its a collection of magnificient seashells. I want them back.
+HopeHarbor_Lighthouse_Keeper_StartQuest_16 = I... I'll see what I can do.
+HopeHarbor_Lighthouse_Keeper_StartQuest_17 = Good !
+HopeHarbor_Lighthouse_Keeper_StartQuest_18 = I should check for a bandit camp near the Crag Pass in the White Forest.
+
+HopeHarbor_Lighthouse_Keeper_DuringQuest_1 = My treasure ! Where is it !
+
+HopeHarbor_Lighthouse_Keeper_EndQuest_1 = You have it ! You really did it !
+HopeHarbor_Lighthouse_Keeper_EndQuest_2 = Take my coins. Let me have them !
+HopeHarbor_Lighthouse_Keeper_EndQuest_3 = The old man quickly gives me gold, and takes the seashells.
+HopeHarbor_Lighthouse_Keeper_EndQuest_4 = <color=blue>You got 20 gold.</color>
+HopeHarbor_Lighthouse_Keeper_EndQuest_5 = My precious treasure...

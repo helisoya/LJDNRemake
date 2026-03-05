@@ -13803,7 +13803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e15ba3eb7684d4dbf062061b8a3abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  locationID: City_HopeHarbor_Inn
+  locationID: City_HopeHarbor_Lighthouse
 --- !u!114 &1109932330
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -264,3 +264,15 @@ LakeGangCamp_Quest_3 = Oh well. Time to get what I came here for.
 LakeGangCamp_Quest_4 = I managed to defeat the gang.
 LakeGangCamp_Quest_5 = After searching for a bit, I find the fisherman's clock.
 LakeGangCamp_Quest_6 = With this, maybe he'll reconsider my offer.
+
+# ---------------------------------------------------------
+# ----------------- Forest - Bandit Camp ------------------
+# ---------------------------------------------------------
+
+BanditCamp_Quest_1 = This is the camp the lighthouse keeper told me about.
+BanditCamp_Quest_2 = Bandits surround me. They don't like me being here.
+BanditCamp_Quest_3 = Oh well. Time to get what I came here for.
+
+BanditCamp_Quest_4 = I managed to defeat the bandits.
+BanditCamp_Quest_5 = After searching for a bit, I find the keeper's "treasure".
+BanditCamp_Quest_6 = I should head back to Hope Harbor.

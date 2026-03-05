@@ -24,3 +24,31 @@ MirageCottage_Woman_AboutYou_2 = Le port est trop bruyant. Je préfère le calme
 MirageCottage_Woman_AboutOrkva_1 = Orkva essaie de prendre le contrôle de l'île depuis des décénies.
 MirageCottage_Woman_AboutOrkva_2 = Mais ironiquement, ils n'avaient jamais tenté d'attaquer avant aujourd'hui.
 MirageCottage_Woman_AboutOrkva_3 = J'ai entendu dire qu'il y a eu une mutinerie dans l'armée. Les gens n'étaient pas content d'être stationé dans la région.
+
+# ---------------------------------------------------------
+# ---------------------- Hope Harbor ----------------------
+# ---------------------------------------------------------
+
+HopeHarbor_Docks_Fisherman_Ask_1 = Tu es prêt à repartir ?
+HopeHarbor_Docks_Fisherman_Ask_2 = Je vois. Allons-y.
+
+HopeHarbor_Docks_Woman_StartQuest_1 = Hé, Hé !
+HopeHarbor_Docks_Woman_StartQuest_2 = Une femme commence à me parler dès mon arrivée.
+HopeHarbor_Docks_Woman_StartQuest_3 = Que voulez-vous ?
+HopeHarbor_Docks_Woman_StartQuest_4 = Vous êtes un soldat, pas vrai ? Mon message est arrivé !
+HopeHarbor_Docks_Woman_StartQuest_5 = Quel message ?
+HopeHarbor_Docks_Woman_StartQuest_6 = Des soldats Orkviens ont pris le contrôle de ma maisonette, vous devez les faire partir.
+HopeHarbor_Docks_Woman_StartQuest_7 = Attendez, vous-
+HopeHarbor_Docks_Woman_StartQuest_8 = Vous pourrez la trouver dans les collines à l'extérieur de la ville.
+HopeHarbor_Docks_Woman_StartQuest_9 = Je vais attendre ici votre retour.
+HopeHarbor_Docks_Woman_StartQuest_10 = Je... Quoi ?
+HopeHarbor_Docks_Woman_StartQuest_11 = Je suppose que je peux toujours aller y faire un tour si j'ai le temps.
+HopeHarbor_Docks_Woman_StartQuest_12 = La présence d'Orkvien ne présage rien de bon.
+
+HopeHarbor_Docks_Woman_DuringQuest_1 = Ma maison est dans les collines juste en dehors de la ville.
+
+HopeHarbor_Docks_Woman_EndQuest_1 = Votre maison est maintenant libérée.
+HopeHarbor_Docks_Woman_EndQuest_2 = C'est pas trop tôt.
+HopeHarbor_Docks_Woman_EndQuest_3 = Merci, monsieur.
+HopeHarbor_Docks_Woman_EndQuest_4 = Attend, quoi ?
+HopeHarbor_Docks_Woman_EndQuest_5 = Bon, il n'y aura pas de paie pour ce boulot...

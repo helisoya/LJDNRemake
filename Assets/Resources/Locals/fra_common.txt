@@ -33,6 +33,7 @@ Char_Chief = Chef
 Char_Felix = Vrai
 Char_Judge = Juge
 Char_Simon = Simon
+Char_Keeper = Gardien
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

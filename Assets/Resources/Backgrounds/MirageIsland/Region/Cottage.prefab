@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a634977fa1b4eef4f8944cd1f2b2d812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundName: MirageIsland/Cottage
+  backgroundName: MirageIsland/Region/Cottage
   markersRoot: {fileID: 5830592683448410775}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
   directionalLightRotation: {x: 30, y: -50, z: 0}

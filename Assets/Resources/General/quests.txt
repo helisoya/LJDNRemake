@@ -44,3 +44,5 @@ secondaryQuest_Tolau_Fisherman
 secondaryQuest_Tolau_Mayor
 secondaryQuest_Tolau_Inn
 secondaryQuest_HopeHarbor_Cottage
+secondaryQuest_HopeHarbor_Keeper
+secondaryQuest_HopeHarbor_Inn

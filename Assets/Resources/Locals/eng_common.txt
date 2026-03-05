@@ -33,6 +33,7 @@ Char_Chief = Chief
 Char_Felix = Right
 Char_Judge = Judge
 Char_Simon = Simon
+Char_Keeper = Keeper
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------
