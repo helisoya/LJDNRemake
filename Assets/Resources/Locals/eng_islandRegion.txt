@@ -95,3 +95,21 @@ HopeHarbor_Lighthouse_Keeper_EndQuest_2 = Take my coins. Let me have them !
 HopeHarbor_Lighthouse_Keeper_EndQuest_3 = The old man quickly gives me gold, and takes the seashells.
 HopeHarbor_Lighthouse_Keeper_EndQuest_4 = <color=blue>You got 20 gold.</color>
 HopeHarbor_Lighthouse_Keeper_EndQuest_5 = My precious treasure...
+
+HopeHarbor_Inn_Owner_Greetings_1 = Welcome.
+
+HopeHarbor_Inn_Owner_AboutYou_1 = Business is doing good.
+HopeHarbor_Inn_Owner_AboutYou_2 = Since I'm the only place where you can get a drink around here, I'm always getting clients.
+HopeHarbor_Inn_Owner_AboutYou_3 = Of course, there aren't that many people that stay for the night.
+
+HopeHarbor_Inn_Owner_AboutCity_1 = Hope Harbor is an... interesting place.
+HopeHarbor_Inn_Owner_AboutCity_2 = Most of the people here live off fishing and trading.
+HopeHarbor_Inn_Owner_AboutCity_3 = Aside from the blockade, we live mostly undisturbed by the outisde world.
+HopeHarbor_Inn_Owner_AboutCity_4 = Which reminds me, don't think ill of some of our locals.
+HopeHarbor_Inn_Owner_AboutCity_5 = They may seem rude, or... mad. But we don't see that many people from the outside, or at all.
+
+HopeHarbor_Inn_Owner_Quest_1 = Actually, yes.
+HopeHarbor_Inn_Owner_Quest_2 = If you ever go to Bourg Libert, could you give this letter to the post master ?
+HopeHarbor_Inn_Owner_Quest_3 = With the blockade, I can't send it using the usual methods.
+HopeHarbor_Inn_Owner_Quest_4 = I'm sure he'll give you some change on delivery.
+HopeHarbor_Inn_Owner_Quest_5 = Alright, I'll see what I can do.

@@ -436,6 +436,9 @@ secondaryQuest_HopeHarbor_Keeper_0 = Reprennez le trésor au camp de bandits pro
 secondaryQuest_HopeHarbor_Keeper_1 = Parlez au gardien de phare de Port Espoir
 secondaryQuest_HopeHarbor_Keeper_done = J'ai retrouvé le trésor du gardien
 
+secondaryQuest_HopeHarbor_Inn = Lettre pour le maitre postier
+secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maitre postier de Bourg Libert 
+secondaryQuest_HopeHarbor_Inn_done = J'ai livré la lettre
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------

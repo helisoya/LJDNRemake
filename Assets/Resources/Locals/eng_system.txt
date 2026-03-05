@@ -436,6 +436,10 @@ secondaryQuest_HopeHarbor_Keeper_0 = Get the treasure back from the bandit camp 
 secondaryQuest_HopeHarbor_Keeper_1 = Talk to the keeper at Hope Harbor's lighthouse
 secondaryQuest_HopeHarbor_Keeper_done = I recovered the treasure for the keeper
 
+secondaryQuest_HopeHarbor_Inn = Letters for the post master
+secondaryQuest_HopeHarbor_Inn_0 = Deliver the letter to Bourg Libert's post master
+secondaryQuest_HopeHarbor_Inn_done = I delivered the letter
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

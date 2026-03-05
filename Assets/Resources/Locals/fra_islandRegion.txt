@@ -52,3 +52,63 @@ HopeHarbor_Docks_Woman_EndQuest_2 = C'est pas trop tôt.
 HopeHarbor_Docks_Woman_EndQuest_3 = Merci, monsieur.
 HopeHarbor_Docks_Woman_EndQuest_4 = Attend, quoi ?
 HopeHarbor_Docks_Woman_EndQuest_5 = Bon, il n'y aura pas de paie pour ce boulot...
+
+HopeHarbor_Lighthouse_Keeper_Greetings_1 = Oh oh ! Salut, petit gars.
+
+HopeHarbor_Lighthouse_Keeper_AboutYou_1 = Je m'occupe de ce phare depuis la nuit des temps.
+HopeHarbor_Lighthouse_Keeper_AboutYou_2 = Enfin, peut etre pas autant. Oh oh !
+HopeHarbor_Lighthouse_Keeper_AboutYou_3 = Pendant plus de 60 ans, aucun bateau n'a ammaré ici sans que je le sache.
+HopeHarbor_Lighthouse_Keeper_AboutYou_4 = Et bien sur, je ne compte pas m'arrêter de sitôt.
+
+HopeHarbor_Lighthouse_Keeper_AboutCity_1 = Port Espoir est notre petit trésor. Notre petite ville.
+HopeHarbor_Lighthouse_Keeper_AboutCity_2 = Elle a été fondée quand des Toliens sont partis de la ville il y a longtemps.
+HopeHarbor_Lighthouse_Keeper_AboutCity_3 = Ils ont débarqués ici, et ont fait de la ville leur nouvelle maison.
+HopeHarbor_Lighthouse_Keeper_AboutCity_4 = Enfin, c'est pas comme s'il pouvait partir.
+HopeHarbor_Lighthouse_Keeper_AboutCity_5 = Les légendes disent que leur bateau était cassé à leur arrivé.
+
+HopeHarbor_Lighthouse_Keeper_NoQuest_1 = Oh, non.
+
+HopeHarbor_Lighthouse_Keeper_StartQuest_1 = En fait... Oui...
+HopeHarbor_Lighthouse_Keeper_StartQuest_2 = Un trésor m'a été volé il y a longtemps.
+HopeHarbor_Lighthouse_Keeper_StartQuest_3 = Avant d'être gardien de phare, j'était aventurier.
+HopeHarbor_Lighthouse_Keeper_StartQuest_4 = J'ai traversé Kalia et sa région à la recheche d'un peu d'argent.
+HopeHarbor_Lighthouse_Keeper_StartQuest_5 = Un jour, je revenais du village Nordien au delà du Passe-Falaise.
+HopeHarbor_Lighthouse_Keeper_StartQuest_6 = De nul part, des bandits m'ont attaqué et m'ont volé mon trésor.
+HopeHarbor_Lighthouse_Keeper_StartQuest_7 = J'ai essayer de le retrouver, mais j'ai échoué.
+HopeHarbor_Lighthouse_Keeper_StartQuest_8 = Les bandits l'ont gardés comme une sorte de trophé.
+HopeHarbor_Lighthouse_Keeper_StartQuest_9 = Enfin... Ma carrière était finie. J'ai pris ma retraite après cet incident.
+HopeHarbor_Lighthouse_Keeper_StartQuest_10 = Vous voulez que je retrouve votre trésor ?
+HopeHarbor_Lighthouse_Keeper_StartQuest_11 = Oui, oui ! Tu es un garçon malin.
+HopeHarbor_Lighthouse_Keeper_StartQuest_12 = Ma précieuse collection de coquillages va bientôt revenir à la maison !
+HopeHarbor_Lighthouse_Keeper_StartQuest_13 = Des coquillages ?
+HopeHarbor_Lighthouse_Keeper_StartQuest_14 = Ah, oui. J'ai oublié de dire ce qu'est mon trésor.
+HopeHarbor_Lighthouse_Keeper_StartQuest_15 = C'est une collection de magnifique coquillages. Je les veux !
+HopeHarbor_Lighthouse_Keeper_StartQuest_16 = Je... Je vais voir ce que je peux faire.
+HopeHarbor_Lighthouse_Keeper_StartQuest_17 = Bien !
+HopeHarbor_Lighthouse_Keeper_StartQuest_18 = Je devrais chercher un camp de bandit vers le Passe Falaise, dans la Forêt Blanche.
+
+HopeHarbor_Lighthouse_Keeper_DuringQuest_1 = Mon trésor ! Ou-est-il ?
+
+HopeHarbor_Lighthouse_Keeper_EndQuest_1 = Tu l'as ! Tu as réussi !
+HopeHarbor_Lighthouse_Keeper_EndQuest_2 = Prends mes pièces. Rends les moi !
+HopeHarbor_Lighthouse_Keeper_EndQuest_3 = Le viellard me donne rapidement de l'argent, avant de reprendre les coquillages.
+HopeHarbor_Lighthouse_Keeper_EndQuest_4 = <color=blue>Vous avez obtenu 20 or.</color>
+HopeHarbor_Lighthouse_Keeper_EndQuest_5 = Mon précieux trésor...
+
+HopeHarbor_Inn_Owner_Greetings_1 = Bienvenue.
+
+HopeHarbor_Inn_Owner_AboutYou_1 = Les affaires vont bien.
+HopeHarbor_Inn_Owner_AboutYou_2 = Comme je gère le seul endroit dans le coin ou on peut boire, j'ai toujours des clients.
+HopeHarbor_Inn_Owner_AboutYou_3 = Bien sur, il n'y a pas énormement de personnes qui restent la nuit entière.
+
+HopeHarbor_Inn_Owner_AboutCity_1 = Port Espoir est... un endroit intéressant.
+HopeHarbor_Inn_Owner_AboutCity_2 = La plupart des gens ici vivent de la pêche et du commerce.
+HopeHarbor_Inn_Owner_AboutCity_3 = A part le blocus, on vit en général coupé du monde.
+HopeHarbor_Inn_Owner_AboutCity_4 = Ce qui me fait penser, n'ayez crainte de certains de nos locaux.
+HopeHarbor_Inn_Owner_AboutCity_5 = Ils peuvent avoir l'air méchant, ou... fou. Mais ils ne voient pas grand monde de l'extérieur, ou tout court.
+
+HopeHarbor_Inn_Owner_Quest_1 = ... Oui.
+HopeHarbor_Inn_Owner_Quest_2 = Si vous allez à Bourg Libert, pourriez-vous donner cette lettre au maitre postier ?
+HopeHarbor_Inn_Owner_Quest_3 = Avec le blocus, je ne peux pas l'envoyer par les méthodes usuelles.
+HopeHarbor_Inn_Owner_Quest_4 = Je suis sur qu'il vous donnera un peu d'argent pour vous payer.
+HopeHarbor_Inn_Owner_Quest_5 = Très sbien, je vais voir ce que je peux faire.
