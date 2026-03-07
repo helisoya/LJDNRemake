@@ -242,6 +242,14 @@ City_HopeHarbor_Docks = Docks
 City_HopeHarbor_Lighthouse = Lighthouse
 City_HopeHarbor_Inn = Inn
 
+Region_Marklicht_ToForest = To the White Forest
+Region_Marklicht_BorderFortress = Border Fortress
+Region_Marklicht_Forest = Forest
+Region_Marklicht_LibertFarm = Libertville's farm
+Region_Marklicht_Libertville = Libertville
+Region_Marklicht_LibertFort = Libert Fort
+Region_Marklicht_BorderWall = Border Wall
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -268,7 +276,11 @@ mainQuest_4_done = I found the package
 
 rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
-rebelQuest_0_done = I joined the rebels 
+rebelQuest_0_done = I joined the rebels
+
+marklichtQuest_0 = Switching side
+marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
+marklichtQuest_0_done = I joined Marklicht
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -322,6 +334,12 @@ arcQuest_Order_2_done = I cleared the Order's bunker
 arcQuest_Order_3 = Supplies
 arcQuest_Order_3_0 = Talk to the order's chief in their White Forest bunker
 arcQuest_Order_3_1 = Get supplies from Fort Libert in Marklicht
+arcQuest_Order_3_2 = Bring the supplies back to the Order's bunker in the White Forest
+arcQuest_Order_3_done = I got supplies for the Order
+
+arcQuest_Order_4 = Assault
+arcQuest_Order_4_0 = Meet the Order's soldiers at the bandit base near the White Forest's mines
+arcQuest_Order_4_done = I helped the Order take over a bandit base
 
 arcQuest_Sam_1 = Conspiracy
 arcQuest_Sam_1_0 = Investigate the city hall in Vorlan
@@ -437,7 +455,7 @@ secondaryQuest_HopeHarbor_Keeper_1 = Talk to the keeper at Hope Harbor's lightho
 secondaryQuest_HopeHarbor_Keeper_done = I recovered the treasure for the keeper
 
 secondaryQuest_HopeHarbor_Inn = Letters for the post master
-secondaryQuest_HopeHarbor_Inn_0 = Deliver the letter to Bourg Libert's post master
+secondaryQuest_HopeHarbor_Inn_0 = Deliver the letter to Libertville's post master
 secondaryQuest_HopeHarbor_Inn_done = I delivered the letter
 
 # ------------------------------------------------------------------------
@@ -458,6 +476,8 @@ Location_Okville = Okville
 Location_BraiseFortress = Ember Fortress
 Location_MirageIsland = Mirage Island
 Location_HopeHarbor = Hope Harbor
+Location_Marklicht = Marklicht
+Location_Libertville = Libertville
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

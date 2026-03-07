@@ -15,3 +15,15 @@ if(arcQuest_Order_3 = 1){
 	load(Forest/OrderHQ/Chief_DuringArcQuest3)
 	return()
 }
+
+# End Quest 3
+if(arcQuest_Order_3 = 2){
+	load(Forest/OrderHQ/Chief_EndArcQuest3)
+	return()
+}
+
+# During Quest 4
+if(arcQuest_Order_4 = 0){
+	load(Forest/OrderHQ/Chief_DuringArcQuest4)
+	return()
+}

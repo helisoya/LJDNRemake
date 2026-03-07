@@ -206,7 +206,7 @@ OrderHQ_MainQuest3_46 = Mais il a probablement passé trop de temps à tous les 
 OrderHQ_MainQuest3_47 = Si je le laisse chercher seul, il fouillera toutes les maisons de Vorlan pour un colis qui n'y est probablement pas.
 OrderHQ_MainQuest3_48 = Ceci étant dit, je devrais aller à Vorlan.
 
-OrderHQ_Chief_Greetings_1 = Bonjour, soldat.
+OrderHQ_Chief_Greetings_1 = Bonjour, [MC].
 
 OrderHQ_Chief_ArcQuest2Start_1 = Oh, vous êtes venu.
 OrderHQ_Chief_ArcQuest2Start_2 = Tout va bien par ici ?
@@ -240,6 +240,25 @@ OrderHQ_Chief_ArcQuest3Start_9 = Merci. Je vous promet que la récompense en vau
 
 OrderHQ_Chief_ArcQuest3During_1 = Fort Libert a le ravitaillement dont nous avons besoin. Vous devez aller l'obtenir pour nous.
 
+OrderHQ_Chief_ArcQuest3End_1 = Voila les ravitaillements.
+OrderHQ_Chief_ArcQuest3End_2 = Bien. Et juste à temps.
+OrderHQ_Chief_ArcQuest3End_3 = Je viens de finir de décider notre plan d'attaque contre les bandits qui nous ont attaqué.
+OrderHQ_Chief_ArcQuest3End_4 = Vous voulez vous joindre à nous ? Comme à l'époque...
+OrderHQ_Chief_ArcQuest3End_5 = ... Oui, oui. Comme à l'époque.
+OrderHQ_Chief_ArcQuest3End_6 = Merci. Venez, je vais vous montrer tout ça.
+OrderHQ_Chief_ArcQuest3End_7 = Vous voyez la mine au Nord de notre position ?
+OrderHQ_Chief_ArcQuest3End_8 = C'est la base ennemi. Nous allons l'attaquer.
+OrderHQ_Chief_ArcQuest3End_9 = Quand vous serez prêt, retrouvez nos forces à l'entrée de la mine.
+OrderHQ_Chief_ArcQuest3End_10 = Je vois. Je dois savoir quelque chose sur les bandits ?
+OrderHQ_Chief_ArcQuest3End_11 = Pas vraiment. Ce sont des bandits classiques.
+OrderHQ_Chief_ArcQuest3End_12 = Cependant, ils sont nombreux. Faites attention.
+OrderHQ_Chief_ArcQuest3End_13 = D'ailleurs. Ils avaient monté un petit camp pas loin du bunker.
+OrderHQ_Chief_ArcQuest3End_14 = J'ai envoyé une équipe s'occuper d'eux pendant que vous étiez parti chercher des ravitaillements.
+OrderHQ_Chief_ArcQuest3End_15 = Je comprend. Je vous retrouve à la mine.
+OrderHQ_Chief_ArcQuest3End_16 = Oui. Ca fera du bien de combattre de nouveau à vos cotés.
+
+OrderHQ_Chief_ArcQuest4During_1 = Quand vous serez prêt, retrouvez nos forces à l'entrée de la mine.
+
 OrderHQ_Chief_AboutBandits_1 = La région a toujours eu des problèmes de bandits.
 OrderHQ_Chief_AboutBandits_2 = Mais les invasions et la guerre des Unions ont tout empiré.
 OrderHQ_Chief_AboutBandits_3 = Certains était désespéré, d'autre non.
@@ -247,11 +266,11 @@ OrderHQ_Chief_AboutBandits_4 = Ils ont formés différents gangs, et se sont cac
 OrderHQ_Chief_AboutBandits_5 = Avec le temps, leur nombres ont augmentés. La plupart viennent des terres appauvris d'Orkva.
 
 OrderHQ_Chief_AboutOrder_1 = L'Ordre est sponsorisé par les pays du Marklicht et de Kalia.
-OrderHQ_Chief_AboutOrder_2 = En fait, je connais des gens haut gradés. C'était relativement simple.
-OrderHQ_Chief_AboutOrder_3 = Ils étaient satisfait d'avoir une arme contre les bandits.
-OrderHQ_Chief_AboutOrder_4 = Donc je me suis mis au travail et j'ai fondé cet ordre.
-OrderHQ_Chief_AboutOrder_5 = J'ai engagé quelques camarades de l'académie militaire du Marklicht, et nous avons crée ce bunker.
-OrderHQ_Chief_AboutOrder_6 = Ici, nous pouvons attaquer les bandits quand nous le voulons.
+OrderHQ_Chief_AboutOrder_2 = Le chef original de l'ordre était haut gradé. C'était plus simple pour faire venir des gens.
+OrderHQ_Chief_AboutOrder_3 = Il a engagé des recruts venant de l'Académie Militaire du Marklicht et a construit ce bunker.
+OrderHQ_Chief_AboutOrder_4 = Il est mort peu après ton départ pour Kalia.
+OrderHQ_Chief_AboutOrder_5 = Je suis désolé pour la mort de ta mère.
+OrderHQ_Chief_AboutOrder_6 = J'espère que tu te portes déjà un peu mieux.
 
 # ---------------------------------------------------------
 # -------------- Forest - Lake Gang Camp ------------------

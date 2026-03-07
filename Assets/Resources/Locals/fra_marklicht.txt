@@ -1,0 +1,121 @@
+# -----------------------------------------------------------
+# --------------- Border Fortress ---------------------------
+# -----------------------------------------------------------
+
+BorderFortress_StartJoinQuest_1 = J'arrive à la forteresse frontalière du Marklicht.
+BorderFortress_StartJoinQuest_2 = Dire que je suis revenu après tout ce temps...
+BorderFortress_StartJoinQuest_3 = Ça fait combien de temps ? Au moins deux ans...
+BorderFortress_StartJoinQuest_4 = La dernière fois que je suis venu, j'étais à-
+BorderFortress_StartJoinQuest_5 = Oh ! [MC], c'est toi ?
+BorderFortress_StartJoinQuest_6 = Lame ?
+BorderFortress_StartJoinQuest_7 = Lame était mon collègue à l'académie militaire. On a travaillé ensemble à de multiples reprises.
+BorderFortress_StartJoinQuest_8 = Que fais-tu ici ? Je croyais que tu étais resté dans l'Ordre.
+BorderFortress_StartJoinQuest_9 = Non, non. Les choses sont devenues trop chaotiques après ton départ.
+BorderFortress_StartJoinQuest_10 = Le chef est mort, on a été débordés.
+BorderFortress_StartJoinQuest_11 = J'ai décidé de partir quand les choses se sont un peu calmées.
+BorderFortress_StartJoinQuest_12 = Quand même, dire que le Marklicht accepterait un Kalien dans ses rangs.
+BorderFortress_StartJoinQuest_13 = Ne t'inquiète pas. Les Suoris sont des frères, peu importe le pays.
+BorderFortress_StartJoinQuest_14 = Tu te souviens de la générale Lara ? C'est elle qui m'a recruté.
+BorderFortress_StartJoinQuest_15 = Ah, je vois. J'imagine qu'elle a vu ton potentiel à l'académie.
+BorderFortress_StartJoinQuest_16 = Hé, [MC].
+BorderFortress_StartJoinQuest_17 = Quoi ? 
+BorderFortress_StartJoinQuest_18 = Comment ça va ? Sérieusement.
+BorderFortress_StartJoinQuest_19 = Tu sais... Avec la mort de ta mère et tout ça...
+BorderFortress_StartJoinQuest_20 = Je ne veux pas remuer le couteau dans la plaie... Mais tu réalises bien que tu travailles pour l'homme responsable de sa mort, n'est-ce pas ?
+BorderFortress_StartJoinQuest_21 = .....
+BorderFortress_StartJoinQuest_22 = Alors euh... J'ai une... proposition à te faire.
+BorderFortress_StartJoinQuest_23 = Pourquoi ne pas... nous rejoindre ?
+BorderFortress_StartJoinQuest_24 = Le Marklicht est un pays plus agréable que Kalia. Au moins, il n'est pas dirigé par un vieux fou.
+BorderFortress_StartJoinQuest_25 = Nous, on s'est débarrassés de nos oppresseurs il y a longtemps.
+BorderFortress_StartJoinQuest_26 = .....
+BorderFortress_StartJoinQuest_27 = J'y réfléchirai.
+BorderFortress_StartJoinQuest_28 = Mon ami, je serai toujours là pour toi.
+BorderFortress_StartJoinQuest_29 = Tu n'es pas obligé de travailler pour LUI indéfiniment. Avec ou sans promotion.
+BorderFortress_StartJoinQuest_30 = Si jamais tu changes d'avis, dis-le-moi. Je suis sûr que la générale Lara t'accueillera bien.
+
+BorderFortress_Join_1 = [MC] ! Tu as changé d'avis ?
+BorderFortress_Join_2 = Tu veux nous rejoindre ?
+
+BorderFortress_Join_No_1 = Dis moi si tu change d'avis, mon ami.
+
+BorderFortress_Join_3 = Oui. Je le veux.
+BorderFortress_Join_4 = D'accord ! Je vais te conduire à la générale.
+BorderFortress_Join_5 = Nous entrons dans la forteresse. Elle est bien équipée.
+BorderFortress_Join_6 = Lame me conduit à une pièce simple : la salle des opérations.
+BorderFortress_Join_7 = Générale ? Je suis revenu comme promis.
+BorderFortress_Join_8 = Hmm ? Ah.
+BorderFortress_Join_9 = Pour une fois, Lame, vous avez tenu parole.
+BorderFortress_Join_10 = Quand vous m'avez dit qu'un membre de la garde républicaine pouvait passer de notre côté, je n'y croyais pas.
+BorderFortress_Join_11 = ... Attendez, vous êtes... [MC] ?
+BorderFortress_Join_12 = Oui, Générale. 
+BorderFortress_Join_13 = Ah... Je comprends maintenant.
+BorderFortress_Join_14 = J'espère que Lame ne vous a pas harcelé pour vous convaincre de venir.
+BorderFortress_Join_15 = Oh non. C'était mon choix.
+BorderFortress_Join_16 = Vous voulez vraiment faire ça ? Vous êtes conscient des conséquences ?
+BorderFortress_Join_17 = Kalia pourrait devenir une zone interdite pour vous. C'est de la trahison, après tout.
+BorderFortress_Join_18 = Eh bien... J'étais déjà en train de regarder mes possibilités, alors...
+BorderFortress_Join_19 = Je pense que c'est la meilleure solution pour moi.
+BorderFortress_Join_20 = Alors notre pays deviendra votre nouvelle patrie.
+BorderFortress_Join_21 = Enfin... Bientôt. 
+BorderFortress_Join_22 = Je vais devoir remplir des papiers pour... justifier... votre présence parmi nous.
+BorderFortress_Join_23 = Ça, et une autre affaire sur laquelle je travaille actuellement.
+BorderFortress_Join_24 = Un vol au musée. C'est moi, de toutes les personnes du pays, qui ai été chargé de vérifier si des bandits auraient pu le voler.
+BorderFortress_Join_25 = Euh... Justement, à ce propos...
+BorderFortress_Join_26 = Vous savez quelque chose ?
+BorderFortress_Join_27 = Il est possible que le Marchand... l'ait volé.
+BorderFortress_Join_28 = Il m'avait chargé d'escorter un postier transportant l'artefact.
+BorderFortress_Join_29 = Quoi ? Alors ce... viellard... l'a pris ?
+BorderFortress_Join_30 = Euh, des bandits nous ont attaqués. Ils l'ont maintenant.
+BorderFortress_Join_31 = Waouh ! Je n'arrive pas à y croire. Tu as vraiment été vaincu ?
+BorderFortress_Join_32 = Attendez, attendez. Laissez-moi bien comprendre.
+BorderFortress_Join_33 = Le consul de la République de Kalia est responsable du vol d'un artefact Marklichtien très précieux ?
+BorderFortress_Join_34 = Oui, Générale.
+BorderFortress_Join_35 = J'ai besoin d'un verre.
+BorderFortress_Join_36 = [MC]. Voici votre premier objectif en tant que membre de l'Armée de Libération Marklichtienne.
+BorderFortress_Join_37 = Récupérez. Cet. Artefact.
+BorderFortress_Join_38 = Ça complique tout. Je dois parler à mes supérieurs.
+BorderFortress_Join_39 = Oui, Générale. Ca sera fait.
+BorderFortress_Join_40 = Je sors de la pièce avec Lame. 
+BorderFortress_Join_41 = Eh bien, c'était inattendu.
+BorderFortress_Join_42 = Dire que le vieux l'a vraiment volé...
+BorderFortress_Join_43 = Zut... J'avais parié avec un collègue que c'était un Koskyien...
+BorderFortress_Join_44 = Bon... dommage...
+BorderFortress_Join_45 = Je vais récupérer cet artefact. Ne t'inquiète pas.
+BorderFortress_Join_46 = Je te crois. Au moins, ça s'est bien passé avec le Général.
+BorderFortress_Join_47 = Oui. Je suis enfin libre des griffes du Marchand.
+BorderFortress_Join_48 = Enfin... Je dois encore faire semblant d'être de leur côté pour l'instant.
+BorderFortress_Join_49 = Mais une fois l'artefact en ma possession, je leur mettrai un couteau dans le dos s'il le faut. 
+BorderFortress_Join_50 = Je vois.
+BorderFortress_Join_51 = En attendant, je retourne à la cantine.
+BorderFortress_Join_52 = On se revoit quand ta mission sera terminée.
+
+# -----------------------------------------------------------
+# ------------------- Border Wall ---------------------------
+# -----------------------------------------------------------
+
+BorderWall_Sign_1 = "Le 8 mars, 135ème année de la quatrième Ere, arriva l'Incident Tolstyr."
+BorderWall_Sign_2 = "Le Général Tolstyr ouvra le feu sur des civils Nordiens et en tua 21."
+BorderWall_Sign_3 = Je m'en souviens. On en avais parlé à l'académie militaire.
+BorderWall_Sign_4 = C'était durant la guerre des Unions. Orkva envahissait le pays.
+BorderWall_Sign_5 = Tolstyr avait été assigné à la frontière Nord du pays.
+BorderWall_Sign_6 = Même si les Nordiens n'étaient pas en guerre, ils avaient des traités avec Orkva.
+BorderWall_Sign_7 = Il a confondu un convoi civil avec un armée, et a ouvert le feu.
+BorderWall_Sign_8 = Après ça, les Nordiens ont commençé à se préparer à la guerre.
+BorderWall_Sign_9 = Heureusement, le pays voisin de Kosky a réussi à convaincre les Nordiens d'arrêter.
+BorderWall_Sign_10 = Après tout cela, un mur a été construit et Tolstyr a été limogé.
+
+# -----------------------------------------------------------
+# ------------------- Fort Libert ---------------------------
+# -----------------------------------------------------------
+
+FortLibert_Sentry_Greetings_1 = Monsieur ? C'est une zone restrainte.
+
+FortLibert_Sentry_OrderArc_1 = Je suis avec l'Ordre. On a besoin de ravitaillements.
+FortLibert_Sentry_OrderArc_2 = ... Oh. Oui. J'ai entendu ce qu'il s'est passé.
+FortLibert_Sentry_OrderArc_3 = Vous avez réussi à sortir en vie d'Orkva ? Je suis impressioné.
+FortLibert_Sentry_OrderArc_4 = La Générale voulait intervenir, mais le Maréchal lui à ordonné de ne rien faire.
+FortLibert_Sentry_OrderArc_5 = Enfin. C'est bon de savoir que vous êtes toujours prêt au combat.
+FortLibert_Sentry_OrderArc_6 = Venez, je vais vous donner vos ravitaillements.
+FortLibert_Sentry_OrderArc_7 = Je suis le soldat. Il me donne tout ce dont nous avons besoin pour continuer le combat.
+FortLibert_Sentry_OrderArc_8 = Des armes, des explosifs, des rations... Ce fort contient beaucoup de choses.
+FortLibert_Sentry_OrderArc_9 = Je suppose que je devrais retourner au bunker.

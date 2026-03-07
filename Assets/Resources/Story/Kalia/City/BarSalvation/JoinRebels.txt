@@ -185,6 +185,7 @@ dialog(Anna;AnnaDisguise;false;Kalia_BarSalvation_JoinRebels_115)
 dialog(Anna;AnnaDisguise;false;Kalia_BarSalvation_JoinRebels_116)
 
 variable(rebelQuest_0;100)
+variable(marklichtQuest_0;-1)
 addExpToAll(10)
 
 playMusic(Exploration_Kalia)

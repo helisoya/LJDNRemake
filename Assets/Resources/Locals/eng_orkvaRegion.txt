@@ -514,7 +514,7 @@ Tolau_Courthouse_Jade_AboutOrder_After_3 = You even bought the help of my ennemy
 Tolau_Courthouse_Jade_AboutOrder_After_4 = Get out of my sight before I arrest you for conspiracy.
 
 Tolau_Courthouse_Chief_ArcQuest0_1 = Are you the Order's chief ?
-Tolau_Courthouse_Chief_ArcQuest0_2 = Why yes. Who are you ? You look Kalian.
+Tolau_Courthouse_Chief_ArcQuest0_2 = [MC] ? Is that you ?
 Tolau_Courthouse_Chief_ArcQuest0_3 = Yes, well... I heard you got into troubles.
 Tolau_Courthouse_Chief_ArcQuest0_4 = That's true. Orkva arrested every members of the Order.
 Tolau_Courthouse_Chief_ArcQuest0_5 = Something about conspiring to take over the region.
@@ -527,7 +527,7 @@ Tolau_Courthouse_Chief_ArcQuest0_11 = Luckily, I know one in Tolau. His name is 
 Tolau_Courthouse_Chief_ArcQuest0_12 = Ah, I heard of him. Doesn't he live in the northen residencies of the city ?
 Tolau_Courthouse_Chief_ArcQuest0_13 = Yes. Could you hire him for us ?
 Tolau_Courthouse_Chief_ArcQuest0_14 = Right. I'll do just that.
-Tolau_Courthouse_Chief_ArcQuest0_15 = Thank you.
+Tolau_Courthouse_Chief_ArcQuest0_15 = Thank you. It's good to see you, friend.
 
 Tolau_Courthouse_Chief_ArcQuest1_1 = Mr. Right lives in the northen residencies of Tolau.
 Tolau_Courthouse_Chief_ArcQuest1_2 = Please, go ask him to defend us in court.
@@ -536,7 +536,7 @@ Tolau_Courthouse_Chief_ArcQuest2_1 = Mr. Right just talked to me. You did it.
 Tolau_Courthouse_Chief_ArcQuest2_2 = Yeah, I hope this will help you in court.
 Tolau_Courthouse_Chief_ArcQuest2_3 = Don't worry. He's the best lawyer around.
 Tolau_Courthouse_Chief_ArcQuest2_4 = Hey. The trial is about to start. Get going, traitor.
-Tolau_Courthouse_Chief_ArcQuest2_5 = Thank you for everthing, stranger. Leave the rest to Mr. Right.
+Tolau_Courthouse_Chief_ArcQuest2_5 = Thank you for everthing, [MC]. Leave the rest to Mr. Right.
 Tolau_Courthouse_Chief_ArcQuest2_6 = ... I guess I could stay to watch the trial.
 Tolau_Courthouse_Chief_ArcQuest2_7 = Silence, silence.
 Tolau_Courthouse_Chief_ArcQuest2_8 = I declare open the trial of the Marklichtian-Kalian Order.

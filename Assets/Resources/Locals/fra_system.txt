@@ -242,6 +242,14 @@ City_HopeHarbor_Docks = Docks
 City_HopeHarbor_Lighthouse = Phare
 City_HopeHarbor_Inn = Auberge
 
+Region_Marklicht_ToForest = Vers la Forêt Blanche
+Region_Marklicht_BorderFortress = Forteresse frontalière
+Region_Marklicht_Forest = Forêt
+Region_Marklicht_LibertFarm = Ferme de Libertville
+Region_Marklicht_Libertville = Libertville
+Region_Marklicht_LibertFort = Fort Libert 
+Region_Marklicht_BorderWall = Mur de frontière
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -322,6 +330,12 @@ arcQuest_Order_2_done = J'ai sécurisé le bunker de l'Ordre
 arcQuest_Order_3 = Ravitaillement
 arcQuest_Order_3_0 = Parlez au chef de l'Ordre dans leur bunker de la forêt blanche
 arcQuest_Order_3_1 = Obtenez des ravitaillements à Fort Libert, au Marklicht
+arcQuest_Order_3_2 = Rapportez les ravitaillements au bunker de l'Ordre, dans la forêt blanche
+arcQuest_Order_3_done = J'ai obtenu des ravitaillements pour l'ordre
+
+arcQuest_Order_4 = Assaut
+arcQuest_Order_4_0 = Retrouvez les soldats de l'Ordre à la base de bandits proche des mines de la Forêt Blanche
+arcQuest_Order_4_done = J'ai aidé l'Ordre à prendre le contrôle d'une base de bandits
 
 arcQuest_Sam_1 = Complot
 arcQuest_Sam_1_0 = Menez l'enquête à la mairie de Vorlan
@@ -437,7 +451,7 @@ secondaryQuest_HopeHarbor_Keeper_1 = Parlez au gardien de phare de Port Espoir
 secondaryQuest_HopeHarbor_Keeper_done = J'ai retrouvé le trésor du gardien
 
 secondaryQuest_HopeHarbor_Inn = Lettre pour le maitre postier
-secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maitre postier de Bourg Libert 
+secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maitre postier de Libertville 
 secondaryQuest_HopeHarbor_Inn_done = J'ai livré la lettre
 
 # ------------------------------------------------------------------------
@@ -458,6 +472,8 @@ Location_Okville = Okville
 Location_BraiseFortress = Forteresse Braise
 Location_MirageIsland = Ile Mirage
 Location_HopeHarbor = Port Espoir
+Location_Marklicht = Marklicht
+Location_Libertville = Libertville
 
 # ------------------------------------------------------------------------
 # ------------------------ Ennemies --------------------------------------

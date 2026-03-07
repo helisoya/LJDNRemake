@@ -40,6 +40,7 @@ arcQuest_Jackwell_4 -1
 arcQuest_Order_1 -1
 arcQuest_Order_2 -1
 arcQuest_Order_3 -1
+arcQuest_Order_4 -1
 
 arcQuest_Sam_1 -1
 arcQuest_Sam_2 -1
@@ -164,3 +165,11 @@ canTravel_City_HopeHarbor_ToIsland 1
 canTravel_City_HopeHarbor_Docks 1
 canTravel_City_HopeHarbor_Lighthouse 1
 canTravel_City_HopeHarbor_Inn 1
+
+canTravel_Region_Marklicht_ToForest 1
+canTravel_Region_Marklicht_BorderFortress 1
+canTravel_Region_Marklicht_Forest 1
+canTravel_Region_Marklicht_LibertFarm 1
+canTravel_Region_Marklicht_Libertville 1
+canTravel_Region_Marklicht_LibertFort 1
+canTravel_Region_Marklicht_BorderWall 1

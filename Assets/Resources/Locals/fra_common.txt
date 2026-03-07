@@ -34,6 +34,8 @@ Char_Felix = Vrai
 Char_Judge = Juge
 Char_Simon = Simon
 Char_Keeper = Gardien
+Char_Lame = Lame
+Char_Lara = Lara
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

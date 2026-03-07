@@ -108,7 +108,7 @@ HopeHarbor_Inn_Owner_AboutCity_4 = Ce qui me fait penser, n'ayez crainte de cert
 HopeHarbor_Inn_Owner_AboutCity_5 = Ils peuvent avoir l'air méchant, ou... fou. Mais ils ne voient pas grand monde de l'extérieur, ou tout court.
 
 HopeHarbor_Inn_Owner_Quest_1 = ... Oui.
-HopeHarbor_Inn_Owner_Quest_2 = Si vous allez à Bourg Libert, pourriez-vous donner cette lettre au maitre postier ?
+HopeHarbor_Inn_Owner_Quest_2 = Si vous allez à Libertville, pourriez-vous donner cette lettre au maitre postier ?
 HopeHarbor_Inn_Owner_Quest_3 = Avec le blocus, je ne peux pas l'envoyer par les méthodes usuelles.
 HopeHarbor_Inn_Owner_Quest_4 = Je suis sur qu'il vous donnera un peu d'argent pour vous payer.
 HopeHarbor_Inn_Owner_Quest_5 = Très sbien, je vais voir ce que je peux faire.

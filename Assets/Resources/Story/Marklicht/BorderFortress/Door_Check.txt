@@ -1,0 +1,3 @@
+dialog(narrator;_;false;BorderFortress_Door_No_1)
+
+load(Marklicht/BorderFortress/Interaction)

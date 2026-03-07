@@ -109,7 +109,7 @@ HopeHarbor_Inn_Owner_AboutCity_4 = Which reminds me, don't think ill of some of 
 HopeHarbor_Inn_Owner_AboutCity_5 = They may seem rude, or... mad. But we don't see that many people from the outside, or at all.
 
 HopeHarbor_Inn_Owner_Quest_1 = Actually, yes.
-HopeHarbor_Inn_Owner_Quest_2 = If you ever go to Bourg Libert, could you give this letter to the post master ?
+HopeHarbor_Inn_Owner_Quest_2 = If you ever go to Libertville, could you give this letter to the post master ?
 HopeHarbor_Inn_Owner_Quest_3 = With the blockade, I can't send it using the usual methods.
 HopeHarbor_Inn_Owner_Quest_4 = I'm sure he'll give you some change on delivery.
 HopeHarbor_Inn_Owner_Quest_5 = Alright, I'll see what I can do.
