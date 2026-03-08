@@ -15,16 +15,26 @@ setLocation(Location_WhiteForest)
 
 autosave()
 
-fadeFg(0;false)
 
 if(arcQuest_Jackwell_3 = 0){
+	fadeFg(0;false)
 	load(Forest/MountVasalia/JackwellArcQuest3_0)
 	return()
 }
 
 if(arcQuest_Dragon_4 = 0){
+	fadeFg(0;false)
 	load(Forest/MountVasalia/DragonArcQuest4Boss)
 	return()
 }
+
+if(arcQuest_Order_4 = 100){
+	addCharacter(OrderSoldier;false)
+	setCharacterPosition(OrderSoldier;OrderSoldier)
+	setCharacterRotation(OrderSoldier;OrderSoldier)
+	setInteractionChapter(OrderSoldier;Forest/MountVasalia/OrderSoldier)
+}
+
+fadeFg(0;false)
 
 load(Forest/MountVasalia/Interaction)

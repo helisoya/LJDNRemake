@@ -15,11 +15,18 @@ setLocation(Location_WhiteForest)
 
 autosave()
 
-fadeFg(0;false)
 
 if(secondaryQuest_Tolau_Fisherman = 2){
+	fadeFg(0;false)
 	load(Forest/LakeGangCamp/Quest)
 }
 else{
+	if(arcQuest_Order_4 = 100){
+		addCharacter(OrderSoldier;false)
+		setCharacterPosition(OrderSoldier;OrderSoldier)
+		setCharacterRotation(OrderSoldier;OrderSoldier)
+		setInteractionChapter(OrderSoldier;Forest/LakeGangCamp/OrderSoldier)
+	}
+	fadeFg(0;false)
 	load(Forest/LakeGangCamp/Interaction)
 }

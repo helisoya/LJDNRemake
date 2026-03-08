@@ -295,3 +295,40 @@ BanditCamp_Quest_3 = Bon. Il est temps de récupérer ce que je suis venu cherch
 BanditCamp_Quest_4 = J'ai vaincu les bandits.
 BanditCamp_Quest_5 = Après avoir cherché un petit peu, je trouve le "trésor" du gardien.
 BanditCamp_Quest_6 = Je devrais retourner à Port Espoir.
+
+# ---------------------------------------------------------
+# -------------- Forest - Bandit Mine ---------------------
+# ---------------------------------------------------------
+
+BanditMine_OrderArcQuest4_1 = Monsieur ! Vous voila.
+BanditMine_OrderArcQuest4_2 = Etes-vous prêt à passer à l'attaque ?
+
+BanditMine_OrderArcQuest4_No_1 = Nous attendons votre signal.
+
+BanditMine_OrderArcQuest4_3 = Bien. Allons-y, monsieur.
+BanditMine_OrderArcQuest4_4 = Nous entrons dans la mine. On va y trouver beaucoup de bandits.
+
+BanditMine_OrderArcQuest4_5 = Après quelques combats, nous arrivons à prendre le contrôle de la mine.
+BanditMine_OrderArcQuest4_6 = On a gagné !
+BanditMine_OrderArcQuest4_7 = Merci pour votre travail, [MC].
+BanditMine_OrderArcQuest4_8 = Nous n'aurions pas pu gagner aujourd'hui sans votre aide.
+BanditMine_OrderArcQuest4_9 = Aider des amis est toujours une bonne chose.
+BanditMine_OrderArcQuest4_10 = C'est vrai.
+BanditMine_OrderArcQuest4_11 = Maintenant que ce gang a été vaincu, nous allons pouvoir nous occuper des autres.
+BanditMine_OrderArcQuest4_12 = Je ne vais pas vous retenir plus longtemps. Vous avez déjà beaucoup à faire.
+BanditMine_OrderArcQuest4_13 = Ce qui me rappelle. Voila votre récompense.
+BanditMine_OrderArcQuest4_14 = Le chef me montre un bouclier blindé. Je le reconnais.
+BanditMine_OrderArcQuest4_15 = C'était... celui de l'ancien chef, non ?
+BanditMine_OrderArcQuest4_16 = Oui... Personne ne l'a utilisé depuis, alors...
+BanditMine_OrderArcQuest4_17 = Vous pouvez le prendre.
+BanditMine_OrderArcQuest4_18 = Merci.
+BanditMine_OrderArcQuest4_19 = Si vous voulez parler, je serais dans le bunker.
+BanditMine_OrderArcQuest4_20 = Pour l'instant, adieux.
+BanditMine_OrderArcQuest4_21 = Et bien... C'est une chose de faite.
+BanditMine_OrderArcQuest4_22 = Je ne serais pas surpris de voir des soldats de l'Ordre patrouiller dans la forêt maintenant.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Common ---------------------
+# ---------------------------------------------------------
+
+Forest_Common_OrderSoldier_1 = Nothing to report yet, sir.

@@ -575,4 +575,6 @@ FIREARM_SHOTGUN_desc = A weapon perfect for close quarter combat.<br>+7 ATK
 SKILL_FRAGPELLET_name = Fragmentation Pellets
 SKILL_FRAGPELLET_desc = Light attack<br>Defense down<br>(one foe)
 ARMOR_BATTLEARMOR_name = Battle Armor
-ARMOR_BATTLEARMOR_desc = A custom made battle armor.<br>+8 ATK
+ARMOR_BATTLEARMOR_desc = A custom made battle armor.<br>+8 DEF
+ARMOR_RIOTSHIELD_name = Heavy Riot Shield
+ARMOR_RIOTSHIELD_desc = A riot shield that was used by the founder of the Order.<br>+8 DEF

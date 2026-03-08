@@ -70,7 +70,7 @@ Region_Forest_Cavern Forest/Cavern/Arrival canTravel_Region_Forest_Cavern 1
 Region_Forest_Vasalia Forest/MountVasalia/Arrival canTravel_Region_Forest_Vasalia 1
 Region_Forest_Camp1 Forest/LakeGangCamp/Arrival canTravel_Region_Forest_Camp1 1
 Region_Forest_Camp2 Forest/BanditCamp/Arrival canTravel_Region_Forest_Camp2 1
-Region_Forest_Camp3 TODO canTravel_Region_Forest_Camp3 1
+Region_Forest_Camp3 Forest/BanditMine/Arrival canTravel_Region_Forest_Camp3 1
 Region_Forest_Village Forest/Village/Arrival canTravel_Region_Forest_Village 1
 
 [Region_Orkva]

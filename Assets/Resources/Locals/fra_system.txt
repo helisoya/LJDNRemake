@@ -571,4 +571,6 @@ FIREARM_SHOTGUN_desc = Parfait pour du combat rapproché.<br>+7 ATK
 SKILL_FRAGPELLET_name = Balles à fragmentation
 SKILL_FRAGPELLET_desc = Attaque légère<br>Malus de Défense<br>(un ennemi)
 ARMOR_BATTLEARMOR_name = Armure de combat
-ARMOR_BATTLEARMOR_desc = Une armure de combat fait à la main.<br>+8 ATK
+ARMOR_BATTLEARMOR_desc = Une armure de combat fait à la main.<br>+8 DEF
+ARMOR_RIOTSHIELD_name = Bouclier Blindé
+ARMOR_RIOTSHIELD_desc = Un bouclier blindé qui a été utilisé par le fondateur de l'Ordre.<br>+8 DEF

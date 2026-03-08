@@ -295,3 +295,40 @@ BanditCamp_Quest_3 = Oh well. Time to get what I came here for.
 BanditCamp_Quest_4 = I managed to defeat the bandits.
 BanditCamp_Quest_5 = After searching for a bit, I find the keeper's "treasure".
 BanditCamp_Quest_6 = I should head back to Hope Harbor.
+
+# ---------------------------------------------------------
+# -------------- Forest - Bandit Mine ---------------------
+# ---------------------------------------------------------
+
+BanditMine_OrderArcQuest4_1 = Sir ! There you are.
+BanditMine_OrderArcQuest4_2 = Are you ready to attack ?
+
+BanditMine_OrderArcQuest4_No_1 = We are waiting for you signal.
+
+BanditMine_OrderArcQuest4_3 = Good. Let's go, sir.
+BanditMine_OrderArcQuest4_4 = We enter the mines. We are sure to encounter bandits in there.
+
+BanditMine_OrderArcQuest4_5 = After a few fights, we manage to gain control over the mines.
+BanditMine_OrderArcQuest4_6 = We won !
+BanditMine_OrderArcQuest4_7 = Thank you for your hard work, [MC].
+BanditMine_OrderArcQuest4_8 = We could have never won today without you.
+BanditMine_OrderArcQuest4_9 = Helping friends is always a good thing.
+BanditMine_OrderArcQuest4_10 = Yeah, true.
+BanditMine_OrderArcQuest4_11 = Now that this gang has been dealt with, we'll be able to deal with others.
+BanditMine_OrderArcQuest4_12 = I won't hold you any longer. You seem to have plenty on your plate already.
+BanditMine_OrderArcQuest4_13 = Which reminds me, here is your reward.
+BanditMine_OrderArcQuest4_14 = The chief shows me a heavy riot shield. I recognize it.
+BanditMine_OrderArcQuest4_15 = It was... the previous chief's shield, right ?
+BanditMine_OrderArcQuest4_16 = Yeah... Nobody has been using it ever since, so...
+BanditMine_OrderArcQuest4_17 = You can have it.
+BanditMine_OrderArcQuest4_18 = Thank you.
+BanditMine_OrderArcQuest4_19 = If you ever want to talk, I'll be in the bunker.
+BanditMine_OrderArcQuest4_20 = For now, goodbye, friend.
+BanditMine_OrderArcQuest4_21 = Well... That's one thing dealt with.
+BanditMine_OrderArcQuest4_22 = I wouldn't be surprised to see the Order's soldiers patrol the forest from now on.
+
+# ---------------------------------------------------------
+# ------------------- Forest - Common ---------------------
+# ---------------------------------------------------------
+
+Forest_Common_OrderSoldier_1 = Nothing to report yet, sir.

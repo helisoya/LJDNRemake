@@ -15,6 +15,13 @@ setLocation(Location_WhiteForest)
 
 autosave()
 
+if(arcQuest_Order_4 = 100){
+	addCharacter(OrderSoldier;false)
+	setCharacterPosition(OrderSoldier;OrderSoldier)
+	setCharacterRotation(OrderSoldier;OrderSoldier)
+	setInteractionChapter(OrderSoldier;Forest/CragPass/OrderSoldier)
+}
+
 fadeFg(0;false)
 
 load(Forest/CragPass/Interaction)
