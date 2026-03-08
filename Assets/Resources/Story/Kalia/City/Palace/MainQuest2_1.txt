@@ -8,6 +8,7 @@ setBackground(Kalia/City/MerchantOffice;false)
 addCharacter(Merchant;false)
 setCharacterPosition(Merchant;Window)
 setCharacterRotation(Merchant;Window)
+playMusic(Character_Merchant)
 fadeBg(0;false)
 
 dialog([MC];_;false;Kalia_Palace_MainQuest2_1_3)

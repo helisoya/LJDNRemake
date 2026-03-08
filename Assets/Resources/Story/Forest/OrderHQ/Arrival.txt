@@ -3,7 +3,7 @@ setFg(1)
 
 setLocals(forest)
 
-playMusic(Exploration_Forest)
+
 removeAllCharacters()
 setBackground(Forest/OrderHQ)
 
@@ -27,8 +27,11 @@ if(arcQuest_Order_1 = 100){
 	setCharacterPosition(OrderChief;Desk)
 	setCharacterRotation(OrderChief;Desk)
 	setInteractionChapter(OrderChief;Forest/OrderHQ/Chief_Enter)
+	playMusic(Character_Order)
 }
-
+else{
+	playMusic(Exploration_Forest)
+}
 fadeFg(0;false)
 
 load(Forest/OrderHQ/Interaction)

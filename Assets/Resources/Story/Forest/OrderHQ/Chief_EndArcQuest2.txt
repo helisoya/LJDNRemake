@@ -31,6 +31,6 @@ variable(arcQuest_Order_2;100)
 variable(arcQuest_Order_3;0)
 addExpToAll(25)
 
-playMusic(Exploration_Forest)
+playMusic(Character_Order)
 
 load(Forest/OrderHQ/Chief_Exit)
