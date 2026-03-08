@@ -121,3 +121,37 @@ FortLibert_Sentry_OrderArc_6 = Come, I'll give you those supplies.
 FortLibert_Sentry_OrderArc_7 = I follow the soldier. He gives me all we need to continue the fight.
 FortLibert_Sentry_OrderArc_8 = Guns, explosives, rations... The fort is filled with various supplies.
 FortLibert_Sentry_OrderArc_9 = I guess I should head back to the bunker.
+
+# -----------------------------------------------------------
+# -------------- Libertville Farm ---------------------------
+# -----------------------------------------------------------
+
+LibertvilleFarm_CourierQuest_1 = This is where I need to deliver that letter.
+LibertvilleFarm_CourierQuest_2 = ... Okay, all done.
+
+# -----------------------------------------------------------
+# ------------------- Libertville ---------------------------
+# -----------------------------------------------------------
+
+Libertville_TrainStation_Courier_Greetings_1 = Hello. I'm the postmaster. Do you have anything for me ?
+
+Libertville_TrainStation_Courier_HopeHarborQuest_1 = I have a letter for you. Its from Hope's harbor innkeeper.
+Libertville_TrainStation_Courier_HopeHarborQuest_2 = My cousin ? What does she want this time. Give it to me.
+Libertville_TrainStation_Courier_HopeHarborQuest_3 = ... I see.
+Libertville_TrainStation_Courier_HopeHarborQuest_4 = Here, take these coins as payment.
+Libertville_TrainStation_Courier_HopeHarborQuest_5 = <color=blue>I received 20 gold from the postmaster.</color>
+Libertville_TrainStation_Courier_HopeHarborQuest_6 = Anyway...
+
+Libertville_TrainStation_Courier_AboutYou_1 = I'm the postmaster of Libertville.
+Libertville_TrainStation_Courier_AboutYou_2 = Well... Soon, I'll also be overseeing the train station.
+Libertville_TrainStation_Courier_AboutYou_3 = The building is finished, but the railway isn't.
+
+Libertville_TrainStation_Courier_AboutCity_1 = Libertville is a rather small community.
+Libertville_TrainStation_Courier_AboutCity_2 = During the Unions war, the majority of the population fled the advancing Orkvian forces.
+Libertville_TrainStation_Courier_AboutCity_3 = After the war, they stayed in their new homes in the various montainous regions of western Marklicht.
+
+Libertville_TrainStation_Courier_StartQuest_1 = Actually, I need help with delivering a letter.
+Libertville_TrainStation_Courier_StartQuest_2 = I can help.
+Libertville_TrainStation_Courier_StartQuest_3 = Good, here is the letter and your pay.
+Libertville_TrainStation_Courier_StartQuest_4 = <color=blue>I received 20 gold from the postmaster.</color>
+Libertville_TrainStation_Courier_StartQuest_5 = This letter must be delivered to the farm outside the city.

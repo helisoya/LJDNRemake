@@ -17,4 +17,9 @@ autosave()
 
 fadeFg(0;false)
 
-load(Marklicht/Farm/Interaction)
+if(secondaryQuest_Libertville_Courier = 0){
+	load(Marklicht/Farm/CourierQuest)
+}
+else{
+	load(Marklicht/Farm/Interaction)
+}

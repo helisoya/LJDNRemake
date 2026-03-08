@@ -454,6 +454,10 @@ secondaryQuest_HopeHarbor_Inn = Lettre pour le maitre postier
 secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maitre postier de Libertville 
 secondaryQuest_HopeHarbor_Inn_done = J'ai livré la lettre
 
+secondaryQuest_Libertville_Courier = Postier à temps partiel
+secondaryQuest_Libertville_Courier_0 = Livrez la lettre à la ferme de Libertville
+secondaryQuest_Libertville_Courier_done = J'ai livré la lettre
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

@@ -18,6 +18,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3fa7c698804ef554b84bbc9d1e2d5edb, type: 2}
   - {fileID: 11400000, guid: ea565c0234ee4e5469034877e87c9ac3, type: 2}
   goldReward: 20
-  music: Battle_Animal
+  music: Battle_General1
   nightSky: {fileID: 11400000, guid: 7fa7e38c302b28d4e96ebac2c2d42b60, type: 2}
   daySky: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}

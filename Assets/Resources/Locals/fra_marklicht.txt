@@ -119,3 +119,37 @@ FortLibert_Sentry_OrderArc_6 = Venez, je vais vous donner vos ravitaillements.
 FortLibert_Sentry_OrderArc_7 = Je suis le soldat. Il me donne tout ce dont nous avons besoin pour continuer le combat.
 FortLibert_Sentry_OrderArc_8 = Des armes, des explosifs, des rations... Ce fort contient beaucoup de choses.
 FortLibert_Sentry_OrderArc_9 = Je suppose que je devrais retourner au bunker.
+
+# -----------------------------------------------------------
+# -------------- Libertville Farm ---------------------------
+# -----------------------------------------------------------
+
+LibertvilleFarm_CourierQuest_1 = C'est ici que je dois livrer cette lettre.
+LibertvilleFarm_CourierQuest_2 = ... Ok, c'est bon.
+
+# -----------------------------------------------------------
+# ------------------- Libertville ---------------------------
+# -----------------------------------------------------------
+
+Libertville_TrainStation_Courier_Greetings_1 = Bonjour. Je suis le maitre postier. Vous avez quelque chose pour moi ?
+
+Libertville_TrainStation_Courier_HopeHarborQuest_1 = J'ai une lettre pour vous. C'est de la part de l'aubergiste de Port Espoir.
+Libertville_TrainStation_Courier_HopeHarborQuest_2 = Ma cousine ? Qu'est ce qu'elle me veut, encore ?
+Libertville_TrainStation_Courier_HopeHarborQuest_3 = ... Je vois.
+Libertville_TrainStation_Courier_HopeHarborQuest_4 = Tenez, prenez ces pièces comme paiment.
+Libertville_TrainStation_Courier_HopeHarborQuest_5 = <color=blue>J'ai recu 20 pièces de la part du maitre postier.</color>
+Libertville_TrainStation_Courier_HopeHarborQuest_6 = Enfin bon...
+
+Libertville_TrainStation_Courier_AboutYou_1 = Je suis le maitre postier de Libertville.
+Libertville_TrainStation_Courier_AboutYou_2 = Et... Bientôt, je serais en charge de la gare.
+Libertville_TrainStation_Courier_AboutYou_3 = Le batiment est terminé, mais pas le chemin de fer.
+
+Libertville_TrainStation_Courier_AboutCity_1 = Liberville est une petite communauté.
+Libertville_TrainStation_Courier_AboutCity_2 = Pendant la guerre des Unions, la majorité de la population a fuit face à l'avancée Orkvienne.
+Libertville_TrainStation_Courier_AboutCity_3 = Après la guerre, ils sont restés dans leurs nouvelles maisons, dans les différentes régions montagneuses du Marklicht Occidental.
+
+Libertville_TrainStation_Courier_StartQuest_1 = En fait, j'ai besoin d'aide pour livrer une lettre.
+Libertville_TrainStation_Courier_StartQuest_2 = Je peux aider.
+Libertville_TrainStation_Courier_StartQuest_3 = Bien. La voila, et voici votre paie.
+Libertville_TrainStation_Courier_StartQuest_4 = <color=blue>J'ai recu 20 pièces de la part du maitre postier.</color>
+Libertville_TrainStation_Courier_StartQuest_5 = Cette lettre doit être livrée à la ferme à l'éxtérieur de la ville.

@@ -47,3 +47,6 @@ secondaryQuest_Tolau_Inn
 secondaryQuest_HopeHarbor_Cottage
 secondaryQuest_HopeHarbor_Keeper
 secondaryQuest_HopeHarbor_Inn
+secondaryQuest_Libertville_Shop
+secondaryQuest_Libertville_Courier
+secondaryQuest_Libertville_Academy

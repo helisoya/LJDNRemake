@@ -76,6 +76,10 @@ secondaryQuest_HopeHarbor_Cottage -1
 secondaryQuest_HopeHarbor_Keeper -1
 secondaryQuest_HopeHarbor_Inn -1
 
+secondaryQuest_Libertville_Shop -1
+secondaryQuest_Libertville_Courier -1
+secondaryQuest_Libertville_Academy -1
+
 # Flags
 cutscene_EntranceVorlan 0
 
@@ -173,3 +177,11 @@ canTravel_Region_Marklicht_LibertFarm 1
 canTravel_Region_Marklicht_Libertville 1
 canTravel_Region_Marklicht_LibertFort 1
 canTravel_Region_Marklicht_BorderWall 1
+canTravel_Region_Marklicht_Mountains 1
+
+canTravel_City_Libertville_ToMarklicht 1
+canTravel_City_Libertville_TrainStation 1
+canTravel_City_Libertville_Inn 1
+canTravel_City_Libertville_Shop 1
+canTravel_City_Libertville_Plaza 1
+canTravel_City_Libertville_MilitaryAcademy 1

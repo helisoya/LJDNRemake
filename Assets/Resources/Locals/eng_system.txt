@@ -250,6 +250,15 @@ Region_Marklicht_Libertville = Libertville
 Region_Marklicht_LibertFort = Libert Fort
 Region_Marklicht_BorderWall = Border Wall
 
+City_Libertville_ToMarklicht1 = To Marklicht
+City_Libertville_ToMarklicht2  = To Marklicht
+City_Libertville_ToMarklicht3 = To Marklicht
+City_Libertville_TrainStation = Train Station
+City_Libertville_Inn = Inn
+City_Libertville_Shop = Shop
+City_Libertville_Plaza = Central Plaza
+City_Libertville_MilitaryAcademy = Military Academy
+
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
 # ------------------------------------------------------------------------
@@ -457,6 +466,10 @@ secondaryQuest_HopeHarbor_Keeper_done = I recovered the treasure for the keeper
 secondaryQuest_HopeHarbor_Inn = Letters for the post master
 secondaryQuest_HopeHarbor_Inn_0 = Deliver the letter to Libertville's post master
 secondaryQuest_HopeHarbor_Inn_done = I delivered the letter
+
+secondaryQuest_Libertville_Courier = Part time mailman
+secondaryQuest_Libertville_Courier_0 = Deliver the letter to Libertville's farm
+secondaryQuest_Libertville_Courier_done = I delivered the letter
 
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
