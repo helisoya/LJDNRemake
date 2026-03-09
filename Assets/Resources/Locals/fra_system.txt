@@ -458,6 +458,11 @@ secondaryQuest_Libertville_Courier = Postier à temps partiel
 secondaryQuest_Libertville_Courier_0 = Livrez la lettre à la ferme de Libertville
 secondaryQuest_Libertville_Courier_done = J'ai livré la lettre
 
+secondaryQuest_Libertville_Academy = Espions
+secondaryQuest_Libertville_Academy_0 = Occupez vous des espions à la place centrale de Libertville
+secondaryQuest_Libertville_Academy_1 = Parlez au soldat de l'académie militaire de Libertville
+secondaryQuest_Libertville_Academy_done = J'ai vaincu des espions
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

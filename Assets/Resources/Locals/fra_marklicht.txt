@@ -153,3 +153,35 @@ Libertville_TrainStation_Courier_StartQuest_2 = Je peux aider.
 Libertville_TrainStation_Courier_StartQuest_3 = Bien. La voila, et voici votre paie.
 Libertville_TrainStation_Courier_StartQuest_4 = <color=blue>J'ai recu 20 pièces de la part du maitre postier.</color>
 Libertville_TrainStation_Courier_StartQuest_5 = Cette lettre doit être livrée à la ferme à l'éxtérieur de la ville.
+
+Libertville_MilitaryAcademy_Soldier_Greetings_1 = Monsieur ?
+
+Libertville_MilitaryAcademy_Soldier_AboutYou_1 = Ca faisait longtemps, [MC].
+Libertville_MilitaryAcademy_Soldier_AboutYou_2 = Vous vous souvenez de moi ? J'était à l'académie avec vous.
+Libertville_MilitaryAcademy_Soldier_AboutYou_3 = Après avoir eu leur diplome, la plupart des gens sont allé avec l'Ordre ou l'armée de Libération.
+Libertville_MilitaryAcademy_Soldier_AboutYou_4 = Moi, je suis resté travailler à l'académie.
+Libertville_MilitaryAcademy_Soldier_AboutYou_5 = Ce n'est pas aussi triste qu'il n'y parais. C'est... paisible, ironiquement.
+
+Libertville_MilitaryAcademy_Soldier_AboutCity_1 = Notre petite communauté est toujours menacée par Orkva.
+Libertville_MilitaryAcademy_Soldier_AboutCity_2 = L'année dernière, nous avons trouvé des espions Orkviens à la mairie.
+Libertville_MilitaryAcademy_Soldier_AboutCity_3 = Nous devons faire attention.
+
+Libertville_MilitaryAcademy_Soldier_QuestStart_1 = En fait, j'ai des informations sur des espions Orkviens.
+Libertville_MilitaryAcademy_Soldier_QuestStart_2 = Vous voulez que je m'en occupe ?
+Libertville_MilitaryAcademy_Soldier_QuestStart_3 = Oui. J'ai entendu dire qu'ils se regroupent souvent à la place centrale.
+Libertville_MilitaryAcademy_Soldier_QuestStart_4 = Je vais aller jeter un oeil.
+
+Libertville_MilitaryAcademy_Soldier_QuestDuring_1 = Mes renseignements me disent que les espions sont à la place centrale.
+
+Libertville_MilitaryAcademy_Soldier_QuestEnd_1 = Je me suis occupé des espions. Vous aviez raison.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_2 = Merci, [MC].
+Libertville_MilitaryAcademy_Soldier_QuestEnd_3 = Je ne pouvait pas quiter mon poste. L'académie serait sans défense.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_4 = Tenez, voici votre récompense.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_5 = <color=blue>J'ai recu 20 pièces de la part du soldat.</color>
+
+Libertville_Plaza_Quest_1 = Un fois arrivé, je remarque immédiatement les espions dont m'a parlé mon ami.
+Libertville_Plaza_Quest_2 = Ils n'éssaient même pas en réalité. Ils sont toujours en uniforme.
+Libertville_Plaza_Quest_3 = Bien... Il est temps de s'en occuper.
+
+Libertville_Plaza_Quest_4 = J'ai vaincu les soldats.
+Libertville_Plaza_Quest_5 = Je devrais retourner à l'académie.

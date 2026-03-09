@@ -155,3 +155,35 @@ Libertville_TrainStation_Courier_StartQuest_2 = I can help.
 Libertville_TrainStation_Courier_StartQuest_3 = Good, here is the letter and your pay.
 Libertville_TrainStation_Courier_StartQuest_4 = <color=blue>I received 20 gold from the postmaster.</color>
 Libertville_TrainStation_Courier_StartQuest_5 = This letter must be delivered to the farm outside the city.
+
+Libertville_MilitaryAcademy_Soldier_Greetings_1 = Sir ?
+
+Libertville_MilitaryAcademy_Soldier_AboutYou_1 = It has been a long time, [MC].
+Libertville_MilitaryAcademy_Soldier_AboutYou_2 = Do you remember me ? I was in the academy with you.
+Libertville_MilitaryAcademy_Soldier_AboutYou_3 = After graduating, most people got recruted into the Order, or the Liberation Army.
+Libertville_MilitaryAcademy_Soldier_AboutYou_4 = I, on the other hand, ended up working at the academy.
+Libertville_MilitaryAcademy_Soldier_AboutYou_5 = Its not as bad as it sounds like. Its... peaceful, ironically.
+
+Libertville_MilitaryAcademy_Soldier_AboutCity_1 = Our little community is always being threatened by Orkva.
+Libertville_MilitaryAcademy_Soldier_AboutCity_2 = Why, last year, we found out that Orkvian spies had infiltrated city hall.
+Libertville_MilitaryAcademy_Soldier_AboutCity_3 = We have to be careful.
+
+Libertville_MilitaryAcademy_Soldier_QuestStart_1 = Actually, I have intel on Orkvian spies.
+Libertville_MilitaryAcademy_Soldier_QuestStart_2 = You want me to deal with them ?
+Libertville_MilitaryAcademy_Soldier_QuestStart_3 = Yes. I heard they hang out a lot in the central plaza.
+Libertville_MilitaryAcademy_Soldier_QuestStart_4 = I'll check it out for you.
+
+Libertville_MilitaryAcademy_Soldier_QuestDuring_1 = My intel says that spies are hanging out in the central plaza.
+
+Libertville_MilitaryAcademy_Soldier_QuestEnd_1 = I dealt with your spies. Your intel was good.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_2 = Thank you, [MC].
+Libertville_MilitaryAcademy_Soldier_QuestEnd_3 = I can't leave my post, so I had to rely on you this time.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_4 = Here, take this as a reward.
+Libertville_MilitaryAcademy_Soldier_QuestEnd_5 = <color=blue>I received 20 gold from the soldier.</color>
+
+Libertville_Plaza_Quest_1 = Once I arrive, I immediatly spot the spies my old friend talked about.
+Libertville_Plaza_Quest_2 = They aren't even trying actually. They still are in military clothes.
+Libertville_Plaza_Quest_3 = Well... time to deal with them.
+
+Libertville_Plaza_Quest_4 = I dealt with the soldiers.
+Libertville_Plaza_Quest_5 = I should head back to the academy.

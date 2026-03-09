@@ -471,6 +471,11 @@ secondaryQuest_Libertville_Courier = Part time mailman
 secondaryQuest_Libertville_Courier_0 = Deliver the letter to Libertville's farm
 secondaryQuest_Libertville_Courier_done = I delivered the letter
 
+secondaryQuest_Libertville_Academy = Spies
+secondaryQuest_Libertville_Academy_0 = Deal with the spies at Libertville's central plaza
+secondaryQuest_Libertville_Academy_1 = Talk to the soldier at Libertville's military academy
+secondaryQuest_Libertville_Academy_done = I dealt with the spies
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
