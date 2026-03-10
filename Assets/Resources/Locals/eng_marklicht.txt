@@ -130,6 +130,16 @@ LibertvilleFarm_CourierQuest_1 = This is where I need to deliver that letter.
 LibertvilleFarm_CourierQuest_2 = ... Okay, all done.
 
 # -----------------------------------------------------------
+# ------------------- Libert Forest -------------------------
+# -----------------------------------------------------------
+
+LibertForest_Quest_1 = This is where I need to kill a bear.
+LibertForest_Quest_2 = Let's go, I suppose.
+
+LibertForest_Quest_3 = This should be enough.
+LibertForest_Quest_4 = I should head back to Libertville.
+
+# -----------------------------------------------------------
 # ------------------- Libertville ---------------------------
 # -----------------------------------------------------------
 
@@ -187,3 +197,40 @@ Libertville_Plaza_Quest_3 = Well... time to deal with them.
 
 Libertville_Plaza_Quest_4 = I dealt with the soldiers.
 Libertville_Plaza_Quest_5 = I should head back to the academy.
+
+Libertville_Shop_Shopkeeper_Greetings_1 = Welcome. What can I do for you ?
+
+Libertville_Shop_Shopkeeper_AboutYou_1 = I'd rather not talk too much about myself. Sorry.
+Libertville_Shop_Shopkeeper_AboutYou_2 = Go to the inn if you want to hear stories.
+
+Libertville_Shop_Shopkeeper_AboutCity_1 = Libertville is doing well these days.
+Libertville_Shop_Shopkeeper_AboutCity_2 = Well... if you forget the occasional Orkvian incursions.
+
+Libertville_Shop_Shopkeeper_QuestStart_1 = Do you ever go to dangerous places ?
+Libertville_Shop_Shopkeeper_QuestStart_2 = There is a forest near the city that is inhabited by bears.
+Libertville_Shop_Shopkeeper_QuestStart_3 = I want you to go there and kill some. Their skin and meat will sell well.
+Libertville_Shop_Shopkeeper_QuestStart_4 = I... Okay.
+Libertville_Shop_Shopkeeper_QuestStart_5 = Good. I'll give you a cut if you succeed.
+
+Libertville_Shop_Shopkeeper_QuestDuring_1 = I need you to kill a bear in the nearby forest.
+
+Libertville_Shop_Shopkeeper_QuestEnd_1 = You have the bear ? Good work.
+Libertville_Shop_Shopkeeper_QuestEnd_2 = With this, I'll be able to make even more money.
+Libertville_Shop_Shopkeeper_QuestEnd_3 = Ahem... Here is your pay, as promised.
+Libertville_Shop_Shopkeeper_QuestEnd_4 = <color=blue>I received 15 gold from the shopkeeper.</color>
+Libertville_Shop_Shopkeeper_QuestEnd_5 = Anyway. Why don't you use that to buy something from me ?
+
+Libertville_Inn_Innkeeper_Greetings_1 = Welcome. Do you need a room ?
+
+Libertville_Inn_Innkeeper_AboutYou_1 = I don't have much to say about myself.
+Libertville_Inn_Innkeeper_AboutYou_2 = Just that you should be careful around my brother.
+Libertville_Inn_Innkeeper_AboutYou_3 = He runs a shop not far from here. I heard some shady stuff about him.
+Libertville_Inn_Innkeeper_AboutYou_4 = That and I know how he is...
+
+Libertville_Inn_Innkeeper_AboutCity_1 = Libertville is actually smaller than it was originaly.
+Libertville_Inn_Innkeeper_AboutCity_2 = With the Unions war, most people fled the Orkvians.
+Libertville_Inn_Innkeeper_AboutCity_3 = They occupied parts of the city, and razed the rest.
+Libertville_Inn_Innkeeper_AboutCity_4 = Their headquarters were in the military academy.
+Libertville_Inn_Innkeeper_AboutCity_5 = After the war, only a fraction of civilians came back. Everything had to be rebuilt.
+
+Libertville_Inn_Innkeeper_Sleep_1 = Right this way...

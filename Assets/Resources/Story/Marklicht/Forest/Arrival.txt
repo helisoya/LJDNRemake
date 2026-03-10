@@ -17,4 +17,9 @@ autosave()
 
 fadeFg(0;false)
 
-load(Marklicht/Forest/Interaction)
+if(secondaryQuest_Libertville_Shop = 0){
+	load(Marklicht/Forest/Quest)
+}
+else{
+	load(Marklicht/Forest/Interaction)
+}

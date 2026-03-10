@@ -476,6 +476,11 @@ secondaryQuest_Libertville_Academy_0 = Deal with the spies at Libertville's cent
 secondaryQuest_Libertville_Academy_1 = Talk to the soldier at Libertville's military academy
 secondaryQuest_Libertville_Academy_done = I dealt with the spies
 
+secondaryQuest_Libertville_Shop = To kil a bear
+secondaryQuest_Libertville_Shop_0 = Kill a bear in the woods near Libertville
+secondaryQuest_Libertville_Shop_1 = Talk to Libertville's shopkeeper
+secondaryQuest_Libertville_Shop_done = I killed a bear
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------

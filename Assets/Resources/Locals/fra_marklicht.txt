@@ -128,6 +128,16 @@ LibertvilleFarm_CourierQuest_1 = C'est ici que je dois livrer cette lettre.
 LibertvilleFarm_CourierQuest_2 = ... Ok, c'est bon.
 
 # -----------------------------------------------------------
+# ------------------- Libert Forest -------------------------
+# -----------------------------------------------------------
+
+LibertForest_Quest_1 = C'est ici que je dois tuer un ours.
+LibertForest_Quest_2 = En avant, je suppose.
+
+LibertForest_Quest_3 = Ca devrait être suffisant.
+LibertForest_Quest_4 = Je devrai retourner à Libertville.
+
+# -----------------------------------------------------------
 # ------------------- Libertville ---------------------------
 # -----------------------------------------------------------
 
@@ -185,3 +195,40 @@ Libertville_Plaza_Quest_3 = Bien... Il est temps de s'en occuper.
 
 Libertville_Plaza_Quest_4 = J'ai vaincu les soldats.
 Libertville_Plaza_Quest_5 = Je devrais retourner à l'académie.
+
+Libertville_Shop_Shopkeeper_Greetings_1 = Bonjour. Que puis-je faire pour vous ?
+
+Libertville_Shop_Shopkeeper_AboutYou_1 = Je préfère ne pas trop parler de moi. Désolé.
+Libertville_Shop_Shopkeeper_AboutYou_2 = Allez à l'auberge si vous voulez écouter des histoires.
+
+Libertville_Shop_Shopkeeper_AboutCity_1 = Libertville se porte bien de nos jours.
+Libertville_Shop_Shopkeeper_AboutCity_2 = Enfin, si on oublie les incursions Orkiennes occasionelles.
+
+Libertville_Shop_Shopkeeper_QuestStart_1 = Est-ce que vous allez souvent dans des endroits dangereux ?
+Libertville_Shop_Shopkeeper_QuestStart_2 = Il y a une forêt proche de la ville qui est peuplée d'ours.
+Libertville_Shop_Shopkeeper_QuestStart_3 = Je veux que vous alliez en tuer quelque uns. Leurs peaus et leurs viandes se venderont bien.
+Libertville_Shop_Shopkeeper_QuestStart_4 = Je... D'accord.
+Libertville_Shop_Shopkeeper_QuestStart_5 = Bien. Je vous récompenserai en cas de réussite.
+
+Libertville_Shop_Shopkeeper_QuestDuring_1 = J'ai besoin que vous alliez tuer des ours dans les bois alentours.
+
+Libertville_Shop_Shopkeeper_QuestEnd_1 = Vous avez l'ours ? Bon travail.
+Libertville_Shop_Shopkeeper_QuestEnd_2 = Avec ça, je vais pouvoir me faire encore plus d'argent.
+Libertville_Shop_Shopkeeper_QuestEnd_3 = Ahem... Voici votre paie, comme promis.
+Libertville_Shop_Shopkeeper_QuestEnd_4 = <color=blue>J'ai reçu 15 d'ors de la part du marchand.</color>
+Libertville_Shop_Shopkeeper_QuestEnd_5 = Enfin bon. Et si vous utilisiez ça pour m'acheter quelque chose ?
+
+Libertville_Inn_Innkeeper_Greetings_1 = Bienvenue. Vous avez besoin d'une chambre ?
+
+Libertville_Inn_Innkeeper_AboutYou_1 = Je n'ai pas grand chose à dire sur moi.
+Libertville_Inn_Innkeeper_AboutYou_2 = Juste, faites attention à mon frère.
+Libertville_Inn_Innkeeper_AboutYou_3 = Il tient une boutique dans la ville. J'ai entendu des choses louche sur lui.
+Libertville_Inn_Innkeeper_AboutYou_4 = Ca, et je le connais...
+
+Libertville_Inn_Innkeeper_AboutCity_1 = Libertville était bien plus grand à l'origine.
+Libertville_Inn_Innkeeper_AboutCity_2 = Avec la guerre des Unions, la plupart des civils ont pris la fuite.
+Libertville_Inn_Innkeeper_AboutCity_3 = Les Orkviens ont occupé une parti de la ville, et détruit le reste.
+Libertville_Inn_Innkeeper_AboutCity_4 = Leur QG était dans ce qui est maintenant l'académie militaire.
+Libertville_Inn_Innkeeper_AboutCity_5 = Après la guerre, seul une fraction de civils est revenu. Tout était à reconstruire.
+
+Libertville_Inn_Innkeeper_Sleep_1 = Par ici...

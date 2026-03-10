@@ -463,6 +463,11 @@ secondaryQuest_Libertville_Academy_0 = Occupez vous des espions à la place cent
 secondaryQuest_Libertville_Academy_1 = Parlez au soldat de l'académie militaire de Libertville
 secondaryQuest_Libertville_Academy_done = J'ai vaincu des espions
 
+secondaryQuest_Libertville_Shop = Pour tuer un ours
+secondaryQuest_Libertville_Shop_0 = Tuez un ours dans les bois proche de Libertville
+secondaryQuest_Libertville_Shop_1 = Parlez au marchand de Libertville
+secondaryQuest_Libertville_Shop_done = J'ai tué un ours
+
 # ------------------------------------------------------------------------
 # -------------------------- Save Locations ------------------------------
 # ------------------------------------------------------------------------
