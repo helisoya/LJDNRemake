@@ -249,6 +249,16 @@ Region_Marklicht_LibertFarm = Ferme de Libertville
 Region_Marklicht_Libertville = Libertville
 Region_Marklicht_LibertFort = Fort Libert 
 Region_Marklicht_BorderWall = Mur de frontière
+Region_Marklicht_Mountains = Montagnes
+
+City_Libertville_ToMarklicht1 = Vers le Marklicht
+City_Libertville_ToMarklicht2  = Vers le Marklicht
+City_Libertville_ToMarklicht3 = Vers le Marklicht
+City_Libertville_TrainStation = Gare
+City_Libertville_Inn = Auberge
+City_Libertville_Shop = Boutique
+City_Libertville_Plaza = Place Centrale
+City_Libertville_MilitaryAcademy = Académie Militaire
 
 # ------------------------------------------------------------------------
 # -------------------------- Quests --------------------------------------
@@ -277,6 +287,19 @@ mainQuest_4_done = J'ai trouvé le colis
 rebelQuest_0 = Trouver le salut
 rebelQuest_0_0 = Si je veux rejoindre les rebelles, je dois chercher le salut. Il prendra la forme d'une tasse de thé vert.
 rebelQuest_0_done = J'ai rejoins les rebelles
+
+rebelQuest_1 = Coup de couteau
+rebelQuest_1_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
+
+marklichtQuest_0 = Changer de camp
+marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière
+marklichtQuest_0_done = J'ai rejoins le Marklicht
+
+marklichtQuest_1 = Propriété dé-volé
+marklichtQuest_1_0 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
+
+merchantQuest_1 = Celebration
+merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
@@ -498,6 +521,7 @@ ENNEMY_Bandit_Knife_name = Bandit
 ENNEMY_Bandit_Revolver_name = Bandit
 ENNEMY_Bandit_Rifle_name = Bandit
 ENNEMY_Bandit_VorlanMainQuest3_name = Bandit
+ENNEMY_Bandit_VorlanMainQuest4_name = Chef
 
 ENNEMY_Summoner_Hand_name = Invocateur
 ENNEMY_Summoner_Knife_name = Invocateur

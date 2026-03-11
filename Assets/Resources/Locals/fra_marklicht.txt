@@ -232,3 +232,79 @@ Libertville_Inn_Innkeeper_AboutCity_4 = Leur QG était dans ce qui est maintenan
 Libertville_Inn_Innkeeper_AboutCity_5 = Après la guerre, seul une fraction de civils est revenu. Tout était à reconstruire.
 
 Libertville_Inn_Innkeeper_Sleep_1 = Par ici...
+
+# -----------------------------------------------------------
+# ------------------- Bandit Mountain -----------------------
+# -----------------------------------------------------------
+
+BanditMountain_MainQuest4_1 = M'y voila.
+BanditMountain_MainQuest4_2 = Voila le camp de bandit dont l'homme de Vorlan m'a parlé.
+BanditMountain_MainQuest4_3 = Je devrais pouvoir trouver le colis à l'intérieur.
+BanditMountain_MainQuest4_4 = ... S'ils l'ont toujours.
+BanditMountain_MainQuest4_5 = Hé, hé ! Arrêtes-toi !
+BanditMountain_MainQuest4_6 = Je me retourne. Epée est en train de courir dans ma direction.
+BanditMountain_MainQuest4_7 = Oh, tu as eu la même piste que moi ?
+BanditMountain_MainQuest4_8 = Bien sur !
+BanditMountain_MainQuest4_9 = J'ai passé un savon à tout les bandits de Vorlan jusqu'à ce qu'un d'entre eux me dise ou aller.
+BanditMountain_MainQuest4_10 = C'est si... lui...
+BanditMountain_MainQuest4_11 = Reste en arrière, je vais retrouver le colis.
+BanditMountain_MainQuest4_12 = Tu es sérieux, Epée ?
+BanditMountain_MainQuest4_13 = Il va y avoir plusieurs bandits bien armé à l'intérieur.
+BanditMountain_MainQuest4_14 = Je ne pense pas que tu puisse faire ça tout seul.
+BanditMountain_MainQuest4_15 = Tu oses remettre en question mes capacités, Bouclier ?
+BanditMountain_MainQuest4_16 = Je vais te montrer de quel bois je me chauffe !
+BanditMountain_MainQuest4_17 = Epée fonce et entre dans la caverne.
+BanditMountain_MainQuest4_18 = Cet idiot, il va se blesser s'il ne fait pas attention.
+BanditMountain_MainQuest4_19 = Je devrais le suivre.
+
+BanditMountain_MainQuest4_20 = J'ai réussi à atteindre une sorte de salle de contrôle.
+BanditMountain_MainQuest4_21 = Ils se sont bien servi de cette caverne. Si ce n'était pas une plaque de bandits, je l'aurais même trouvé jolie.
+BanditMountain_MainQuest4_22 = Argh....
+BanditMountain_MainQuest4_23 = Je vois Epée au sol. Je le savais.
+BanditMountain_MainQuest4_24 = Tu es blessé, pas vrai ?
+BanditMountain_MainQuest4_25 = Laisses moi voir... Une blessure par balle au genou ?
+BanditMountain_MainQuest4_26 = Dépêches...
+BanditMountain_MainQuest4_27 = Oui, oui. Attends un instant...
+BanditMountain_MainQuest4_28 = Je le soigne avec une trousse de soin.
+BanditMountain_MainQuest4_29 = Comment tu as pu te blesser comme ça ?
+BanditMountain_MainQuest4_30 = Tu as tué ton assaillant ?
+BanditMountain_MainQuest4_31 = ... Derrière toi...
+BanditMountain_MainQuest4_32 = Je me retourne pour faire face à une tête familière.
+BanditMountain_MainQuest4_33 = Oh, toi.
+BanditMountain_MainQuest4_34 = Vous...  Vous êtes l'homme de Vorlan.
+BanditMountain_MainQuest4_35 = Oui. Enfin, en vérité, je suis le patron, ici.
+BanditMountain_MainQuest4_36 = Tu m'as peut être vaincu le dernière coup, mais pas cette fois.
+BanditMountain_MainQuest4_37 = Tu es sur mon territoire. Mes hommes sont plus nombreux.
+BanditMountain_MainQuest4_38 = Ton ami est même blessé. Comment comptes-tu gagner ?
+BanditMountain_MainQuest4_39 = ... Comme ça.
+
+BanditMountain_MainQuest4_40 = J'ai réussi à vaincre le bandit et ses larbins.
+BanditMountain_MainQuest4_41 = ... Argh... Cool...
+BanditMountain_MainQuest4_42 = Epée, fait attention avec ta blessure.
+BanditMountain_MainQuest4_43 = La ferme !
+BanditMountain_MainQuest4_44 = Eh eh eh ! Au final, j'ai gagné !
+BanditMountain_MainQuest4_45 = Gagné quoi ? Je ne savais pas qu'il y avait une compétition.
+BanditMountain_MainQuest4_46 = Je sais ou se trouve le colis, Bouclier. Pas toi.
+BanditMountain_MainQuest4_47 = Epée se rue vers une caisse en bois.
+BanditMountain_MainQuest4_48 = Elle est déjà ouverte. Je suppose qu'il s'est fait tiré dessus en essayant de prendre le colis.
+BanditMountain_MainQuest4_49 = Il le brandit triomphalement.
+BanditMountain_MainQuest4_50 = He he he ! Le Marchand va me récompenser cette fois !
+BanditMountain_MainQuest4_51 = Il reconnaitra enfin que je suis le meilleur.
+
+BanditMountain_MainQuest4_StayLoyal_1 = Oui, enfin... Oublies pas de ne pas lui dire comment tu t'es blessé.
+BanditMountain_MainQuest4_StayLoyal_2 = Il nous attend, allons-y.
+BanditMountain_MainQuest4_StayLoyal_3 = Hé, hé ! C'est moi la personne importante ici. C'est moi qui ai le colis.
+BanditMountain_MainQuest4_StayLoyal_4 = Donc que devrais-t-on faire ?
+BanditMountain_MainQuest4_StayLoyal_5 = Et bien, voyons-voir. On devrait aller voir le patron pour commencer.
+BanditMountain_MainQuest4_StayLoyal_6 = Oui, c'est une bonne idée. On se voit au palais, loser !
+BanditMountain_MainQuest4_StayLoyal_7 = Quel gamin. Je suppose que je devrai faire de même. Le patron nous attend.
+
+BanditMountain_MainQuest4_Disloyal_1 = C'est le moment. Il a le dos tourné.
+BanditMountain_MainQuest4_Disloyal_2 = Je frappe Epée par derrière. Il tombe dans les pommes immédiatement.
+BanditMountain_MainQuest4_Disloyal_3 = La douleur de sa blessure au genou devait être très forte.
+BanditMountain_MainQuest4_Disloyal_4 = Et bien, il vivra. Difficilement, mais il vivra.
+BanditMountain_MainQuest4_Disloyal_5 = J'attrape le colis. C'est ce que je cherchai depuis si longtemps.
+BanditMountain_MainQuest4_Disloyal_6 = Je devrais retourner auprès de mes nouveaux compatriotes.
+BanditMountain_MainQuest4_Disloyal_7 = Ils vont vouloir voir cet artefact.
+
+BanditMountain_MainQuest4_Out_1 = Après quelques minutes, je suis sorti des cavernes.

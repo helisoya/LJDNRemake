@@ -249,6 +249,7 @@ Region_Marklicht_LibertFarm = Libertville's farm
 Region_Marklicht_Libertville = Libertville
 Region_Marklicht_LibertFort = Libert Fort
 Region_Marklicht_BorderWall = Border Wall
+Region_Marklicht_Mountains = Mountains
 
 City_Libertville_ToMarklicht1 = To Marklicht
 City_Libertville_ToMarklicht2  = To Marklicht
@@ -287,9 +288,18 @@ rebelQuest_0 = Finding salvation
 rebelQuest_0_0 = If I wish to join the rebels, I must seek salvation. It will take the form of a cup of green tea
 rebelQuest_0_done = I joined the rebels
 
+rebelQuest_1 = Back stab
+rebelQuest_1_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
+
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
 marklichtQuest_0_done = I joined Marklicht
+
+marklichtQuest_1 = Un-stolen property
+marklichtQuest_1_0 = Report back to General Lara at Marklicht's Border Fortress
+
+merchantQuest_1 = Celebration
+merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -511,6 +521,7 @@ ENNEMY_Bandit_Knife_name = Bandit
 ENNEMY_Bandit_Revolver_name = Bandit
 ENNEMY_Bandit_Rifle_name = Bandit
 ENNEMY_Bandit_VorlanMainQuest3_name = Bandit
+ENNEMY_Bandit_VorlanMainQuest4_name = Leader
 
 ENNEMY_Summoner_Hand_name = Summoner
 ENNEMY_Summoner_Knife_name = Summoner

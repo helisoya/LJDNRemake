@@ -288,6 +288,7 @@ public class NovelController : MonoBehaviour
                 if (line.EndsWith("{"))
                 {
                     chapterProgress = CloseBrackets(chapterProgress, 1);
+                    stack[stack.Count - 1].currentChapterProgress = chapterProgress;
                 }
             }
             else
@@ -548,6 +549,7 @@ public class NovelController : MonoBehaviour
             i++;
         }
 
+        chapterProgress = i;
         stack[stack.Count - 1].currentChapterProgress = i;
 
         if (currentChoice.answers.Count > 0)

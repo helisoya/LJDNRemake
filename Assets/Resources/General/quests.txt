@@ -4,7 +4,10 @@ mainQuest_2
 mainQuest_3
 mainQuest_4
 rebelQuest_0
+rebelQuest_1
 marklichtQuest_0
+marklichtQuest_1
+merchantQuest_1
 
 [arcQuest]
 arcQuest_Guard_1

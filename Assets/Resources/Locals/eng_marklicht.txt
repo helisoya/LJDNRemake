@@ -234,3 +234,79 @@ Libertville_Inn_Innkeeper_AboutCity_4 = Their headquarters were in the military 
 Libertville_Inn_Innkeeper_AboutCity_5 = After the war, only a fraction of civilians came back. Everything had to be rebuilt.
 
 Libertville_Inn_Innkeeper_Sleep_1 = Right this way...
+
+# -----------------------------------------------------------
+# ------------------- Bandit Mountain -----------------------
+# -----------------------------------------------------------
+
+BanditMountain_MainQuest4_1 = This is it.
+BanditMountain_MainQuest4_2 = This is the bandit camp the man in Vorlan told me about.
+BanditMountain_MainQuest4_3 = I should be able to find the package in there.
+BanditMountain_MainQuest4_4 = ... If they still have it.
+BanditMountain_MainQuest4_5 = Hey, hey ! Stop right there !
+BanditMountain_MainQuest4_6 = I turn around. Sword is running towards me.
+BanditMountain_MainQuest4_7 = Oh, so you got the same lead as me ?
+BanditMountain_MainQuest4_8 = Of course I did !
+BanditMountain_MainQuest4_9 = I beat up every bandit in Vorlan until one told me where to go.
+BanditMountain_MainQuest4_10 = So... Sword-like...
+BanditMountain_MainQuest4_11 = Stay behind, I'll get that package.
+BanditMountain_MainQuest4_12 = Are you serious, Sword ?
+BanditMountain_MainQuest4_13 = There are bound to be at least several well armed bandits.
+BanditMountain_MainQuest4_14 = I don't think you can handle this on your own.
+BanditMountain_MainQuest4_15 = Don't you dare question my skills, Shield !
+BanditMountain_MainQuest4_16 = I'll show you what I'm capable of !
+BanditMountain_MainQuest4_17 = Sword storms off and enters the caverns.
+BanditMountain_MainQuest4_18 = This idiot, he'll get injured if he's not careful.
+BanditMountain_MainQuest4_19 = I should follow him.
+
+BanditMountain_MainQuest4_20 = I managed to get to some sort of central room.
+BanditMountain_MainQuest4_21 = They put this cavern to good use. If it wasn't a bandit hideout, I would have called it pretty, even.
+BanditMountain_MainQuest4_22 = Ugh....
+BanditMountain_MainQuest4_23 = I spot Sword on the ground. I knew it.
+BanditMountain_MainQuest4_24 = You got injured, didn't you ?
+BanditMountain_MainQuest4_25 = Let me see... A gunshot to the knee ?
+BanditMountain_MainQuest4_26 = Hurry...
+BanditMountain_MainQuest4_27 = Right, right. Hold on.
+BanditMountain_MainQuest4_28 = I patch him up using a first aid kit.
+BanditMountain_MainQuest4_29 = How did you even get injured like that ?
+BanditMountain_MainQuest4_30 = Did you kill your attacker ?
+BanditMountain_MainQuest4_31 = ... Behind you...
+BanditMountain_MainQuest4_32 = I turn around, to find a familiar face.
+BanditMountain_MainQuest4_33 = Oh, you.
+BanditMountain_MainQuest4_34 = You... You're the man from Vorlan.
+BanditMountain_MainQuest4_35 = Yes, yes. In truth, I'm also the boss around here.
+BanditMountain_MainQuest4_36 = You may have had the upper hand last time, but this ends here.
+BanditMountain_MainQuest4_37 = You're in my turf now. My men outnumber you.
+BanditMountain_MainQuest4_38 = Your pal is even injured. How do you plan do win, now ?
+BanditMountain_MainQuest4_39 = ... Like this.
+
+BanditMountain_MainQuest4_40 = I managed to defeat the bandit leader and his goons.
+BanditMountain_MainQuest4_41 = ... Ugh... Nice...
+BanditMountain_MainQuest4_42 = Sword, be careful with you injury.
+BanditMountain_MainQuest4_43 = Shut up !
+BanditMountain_MainQuest4_44 = Eh eh eh ! In the end, I won !
+BanditMountain_MainQuest4_45 = Won what ? I didn't know we had a contest.
+BanditMountain_MainQuest4_46 = I know where the package is, Shield. You don't.
+BanditMountain_MainQuest4_47 = Sword hurries towards a wooden crate.
+BanditMountain_MainQuest4_48 = Its already open. I guess he got shot when he tried to take the package.
+BanditMountain_MainQuest4_49 = He brandishes it triumphaly.
+BanditMountain_MainQuest4_50 = He he he ! The Merchant will reward me for sure this time !
+BanditMountain_MainQuest4_51 = He'll finally acknowledge that I'm the best.
+
+BanditMountain_MainQuest4_StayLoyal_1 = Yeah. Just make sure not to tell him how you got injured.
+BanditMountain_MainQuest4_StayLoyal_2 = He's waiting for us, let's go.
+BanditMountain_MainQuest4_StayLoyal_3 = Hey, hey ! I'm the important person here ! I have the package !
+BanditMountain_MainQuest4_StayLoyal_4 = So what do you say we do ?
+BanditMountain_MainQuest4_StayLoyal_5 = Well, let's see. We should report back to the boss for starters.
+BanditMountain_MainQuest4_StayLoyal_6 = Okay, that sounds good. See you at the palace, loser !
+BanditMountain_MainQuest4_StayLoyal_7 = What a child. I guess I should do the same. The boss is waiting for us.
+
+BanditMountain_MainQuest4_Disloyal_1 = This is my cue. He has his back turned.
+BanditMountain_MainQuest4_Disloyal_2 = I punch Sword from behind. He faints instantly.
+BanditMountain_MainQuest4_Disloyal_3 = The pain from his knee injury must have been very high.
+BanditMountain_MainQuest4_Disloyal_4 = Well, he'll live. Barely, but he'll live.
+BanditMountain_MainQuest4_Disloyal_5 = I grab the package. This is what I was searching for.
+BanditMountain_MainQuest4_Disloyal_6 = I should head back to my new compatriots.
+BanditMountain_MainQuest4_Disloyal_7 = They'll want to see this artefact.
+
+BanditMountain_MainQuest4_Out_1 = After a few minutes, I'm out of the caverns.
