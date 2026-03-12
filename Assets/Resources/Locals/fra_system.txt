@@ -290,6 +290,11 @@ rebelQuest_0_done = J'ai rejoins les rebelles
 
 rebelQuest_1 = Coup de couteau
 rebelQuest_1_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
+rebelQuest_1_1 = Parlez à la Générale Lara, à la Forteresse Frontalière du Marklicht
+rebelQuest_1_done = J'ai sécurisé des ravitaillements pour la rebellion
+
+rebelQuest_2 = Aventure
+rebelQuest_2_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
 
 marklichtQuest_0 = Changer de camp
 marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière
@@ -546,7 +551,7 @@ ENNEMY_Rebel_Knife_name = Rebelle
 
 DOGACE_name = Ace
 GUARD_name = GARDE
-
+ANNA_name = Anna
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

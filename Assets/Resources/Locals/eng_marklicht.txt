@@ -91,6 +91,58 @@ BorderFortress_Join_52 = I'll see you when your mission is over.
 
 BorderFortress_Door_No_1 = I have no reason to enter the fortress.
 
+BorderFortress_RebelQuest1_1 = Is this the famed Border Fortress ?
+BorderFortress_RebelQuest1_2 = Yes. It marks the border between Kalia and Marklicht.
+BorderFortress_RebelQuest1_3 = General Lara is inside. We'll talk to her now.
+BorderFortress_RebelQuest1_4 = Just stay behind me an-
+BorderFortress_RebelQuest1_5 = First one there wins !
+BorderFortress_RebelQuest1_6 = Wait ! This is a military base ! We haven't notified our presence yet !
+BorderFortress_RebelQuest1_7 = By Kalibu... I need to go after her.
+BorderFortress_RebelQuest1_8 = I follow her to the operations room. So far, not so good...
+BorderFortress_RebelQuest1_9 = Hi, General !
+BorderFortress_RebelQuest1_10 = ... Who are you ?
+BorderFortress_RebelQuest1_11 = Uh...
+BorderFortress_RebelQuest1_12 = [MC]... I suppose this child is with you ?
+BorderFortress_RebelQuest1_13 = Well... Yes. Sorry for that, General.
+BorderFortress_RebelQuest1_14 = You were always a little troublemaker. I shouldn't be surprised.
+BorderFortress_RebelQuest1_15 = I should get the guards to oust you. But I'm in a good mood today.
+BorderFortress_RebelQuest1_16 = So, what is it ? Why did you come here uninvited ?
+BorderFortress_RebelQuest1_17 = She's in a good mood ? I don't want to know what would have happened if she wasn't.
+BorderFortress_RebelQuest1_18 = We are members of the Kalian rebellion. We need supplies from you.
+BorderFortress_RebelQuest1_19 = You, a member of the rebellion ? What happenned there ?
+BorderFortress_RebelQuest1_20 = Anyway. Why would I risk arming rebels ?
+BorderFortress_RebelQuest1_21 = Last thing I want is problems with that old Kalian guy.
+BorderFortress_RebelQuest1_22 = Speaking of this, I have something that can interest you.
+BorderFortress_RebelQuest1_23 = I take out the artefact.
+BorderFortress_RebelQuest1_24 = This... Where did you get it ?
+BorderFortress_RebelQuest1_25 = The Merchant stole it from your museum. We stole it back.
+BorderFortress_RebelQuest1_26 = What about a transaction, General ? The artefact for military supplies.
+BorderFortress_RebelQuest1_27 = ...
+BorderFortress_RebelQuest1_28 = You... Alright, fine.
+BorderFortress_RebelQuest1_29 = I'll arrange a steady supplies of guns to your group.
+BorderFortress_RebelQuest1_30 = Tell your superiors to give me a safe hand out zone.
+BorderFortress_RebelQuest1_31 = We shall do that posthaste.
+BorderFortress_RebelQuest1_32 = I give the artefact to the General.
+BorderFortress_RebelQuest1_33 = To think this old man stole it...
+BorderFortress_RebelQuest1_34 = I searched the entire region for it, without success.
+BorderFortress_RebelQuest1_35 = Weeks after weeks...  I couldn't find it.
+BorderFortress_RebelQuest1_36 = And you just come here out of nowhere...
+BorderFortress_RebelQuest1_37 = I'm sorry for your loss, General.
+BorderFortress_RebelQuest1_38 = Get out before I decide to call the guards.
+BorderFortress_RebelQuest1_39 = And make sure the girl is kept in checks.
+BorderFortress_RebelQuest1_40 = Yes, General.
+BorderFortress_RebelQuest1_41 = Grr... I need a drink...
+BorderFortress_RebelQuest1_42 = We leave the fortress.
+BorderFortress_RebelQuest1_43 = Well, this went well.
+BorderFortress_RebelQuest1_44 = We got our supplies, and the General seemed happy.
+BorderFortress_RebelQuest1_45 = Happy ? Your bar is very low...
+BorderFortress_RebelQuest1_46 = She didn't call the guards.
+BorderFortress_RebelQuest1_47 = Hey. Next time, let me handle things.
+BorderFortress_RebelQuest1_48 = It could have gone very wrong.
+BorderFortress_RebelQuest1_49 = Right, right. Sorry...
+BorderFortress_RebelQuest1_50 = Come, we should head back to Kalia.
+BorderFortress_RebelQuest1_51 = Your sister should know what to do next.
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

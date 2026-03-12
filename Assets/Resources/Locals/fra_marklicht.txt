@@ -89,6 +89,59 @@ BorderFortress_Join_50 = Je vois.
 BorderFortress_Join_51 = En attendant, je retourne à la cantine.
 BorderFortress_Join_52 = On se revoit quand ta mission sera terminée.
 
+BorderFortress_RebelQuest1_1 = Est-ce la fameuse Forteresse Frontalière ?
+BorderFortress_RebelQuest1_2 = Oui. Elle marque la frontière entre Kalia et le Marklicht.
+BorderFortress_RebelQuest1_3 = La Générale Lara est à l'intérieur. Nous allons lui parler.
+BorderFortress_RebelQuest1_4 = Restes derrière moi...
+BorderFortress_RebelQuest1_5 = Le premier arrivé a gagné !
+BorderFortress_RebelQuest1_6 = Attends ! C'est une base militaire ! On n'a pas encore signalé notre présence !
+BorderFortress_RebelQuest1_7 = Par Kalibu... Je dois la suivre.
+BorderFortress_RebelQuest1_8 = Je la suis jusqu'à la salle des opérations. Pour le moment, ça ne sent pas bon...
+BorderFortress_RebelQuest1_9 = Bonjour, Générale !
+BorderFortress_RebelQuest1_10 = ... Qui êtes-vous ?
+BorderFortress_RebelQuest1_11 = Euh...
+BorderFortress_RebelQuest1_12 = [MC]... Je suppose que cet enfant est avec vous ? 
+BorderFortress_RebelQuest1_13 = Eh bien... oui. Toutes mes excuses, Générale.
+BorderFortress_RebelQuest1_14 = Vous avez toujours été un fauteur de troubles. Ça ne devrait pas m'étonner.
+BorderFortress_RebelQuest1_15 = Je devrais demander aux gardes de vous expulser. Mais je suis de bonne humeur aujourd'hui.
+BorderFortress_RebelQuest1_16 = Alors, quel est le problème ? Pourquoi êtes-vous venu ici sans y être invité ?
+BorderFortress_RebelQuest1_17 = Elle est de bonne humeur ? Je préfère ne pas savoir ce qui se serait passé si elle ne l'avait pas été.
+BorderFortress_RebelQuest1_18 = Nous sommes des membres de la rébellion Kalienne. Nous avons besoin de ravitaillements.
+BorderFortress_RebelQuest1_19 = Vous, membre de la rébellion ? Le monde marche sur la tête ?
+BorderFortress_RebelQuest1_20 = Enfin. Pourquoi risquerais-je d'armer des rebelles ?
+BorderFortress_RebelQuest1_21 = La dernière chose que je souhaite, ce sont des problèmes avec le vieux.
+BorderFortress_RebelQuest1_22 = À ce propos, j'ai quelque chose qui pourrait vous intéresser.
+BorderFortress_RebelQuest1_23 = Je sors l'artefact.
+BorderFortress_RebelQuest1_24 = C'est... Où l'avez-vous trouvé ?
+BorderFortress_RebelQuest1_25 = Le Marchand l'a volé à votre musée. Nous l'avons récupéré.
+BorderFortress_RebelQuest1_26 = Que diriez-vous d'une transaction, Générale ? L'artefact contre des armes.
+BorderFortress_RebelQuest1_27 = ...
+BorderFortress_RebelQuest1_28 = Vous... Bon, d'accord.
+BorderFortress_RebelQuest1_29 = Je vais assurer un approvisionnement régulier en armes pour votre groupe. 
+BorderFortress_RebelQuest1_30 = Dites à vos supérieurs de me fournir une zone de livraison sûre.
+BorderFortress_RebelQuest1_31 = Nous le ferons immédiatement.
+BorderFortress_RebelQuest1_32 = Je remets l'artefact à la Générale.
+BorderFortress_RebelQuest1_33 = Dire que ce viellard l'a volé...
+BorderFortress_RebelQuest1_34 = J'ai fouillé toute la région, en vain.
+BorderFortress_RebelQuest1_35 = Des semaines et des semaines... Je ne l'ai pas trouvé.
+BorderFortress_RebelQuest1_36 = Et vous, vous débarquez comme ça...
+BorderFortress_RebelQuest1_37 = Je suis désolé pour votre perte, Général.
+BorderFortress_RebelQuest1_38 = Partez avant que je n'appelle les gardes.
+BorderFortress_RebelQuest1_39 = Et assurez-vous que la fille soit surveillée.
+BorderFortress_RebelQuest1_40 = Oui, Général.
+BorderFortress_RebelQuest1_41 = Grr... J'ai besoin d'un verre...
+BorderFortress_RebelQuest1_42 = Nous quittons la forteresse.
+BorderFortress_RebelQuest1_43 = Eh bien, ça s'est bien passé.
+BorderFortress_RebelQuest1_44 = Nous avons nos armes, et le Général a l'air contente.
+BorderFortress_RebelQuest1_45 = Contente ? Tu n'est pas exigante...
+BorderFortress_RebelQuest1_46 = Elle n'a pas appelé les gardes.
+BorderFortress_RebelQuest1_47 = Hé. La prochaine fois, laisses-moi gérer ça.
+BorderFortress_RebelQuest1_48 = Ça aurait pu très mal tourner. 
+BorderFortress_RebelQuest1_49 = Oui, oui. Désolé...
+BorderFortress_RebelQuest1_50 = Allons. Nous devrions retourner à Kalia.
+BorderFortress_RebelQuest1_51 = Ta soeur doit savoir quoi faire pour la suite.
+
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

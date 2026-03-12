@@ -628,6 +628,49 @@ Kalia_BarSalvation_Amanda_AboutRebellion_6 = Cependant, l'armée a commencé à 
 Kalia_BarSalvation_Amanda_AboutRebellion_7 = Depuis, la rebéllion gagne de l'élan dans le coeur du peuple.
 Kalia_BarSalvation_Amanda_AboutRebellion_8 = Peu veulent prendre les armes, mais les Kaliens nous suivrons si nous gagnons.
 
+Kalia_BarSalvation_Quest1Start_1 = Vous êtes de retour. Je commençais à me demander si vous nous aviez trahis.
+Kalia_BarSalvation_Quest1Start_2 = J'ai obtenu le colis, chef.
+Kalia_BarSalvation_Quest1Start_3 = Bien. Montrez-moi.
+Kalia_BarSalvation_Quest1Start_4 = Je lui donne le colis. Elle inspecte l'artefact avec précision.
+Kalia_BarSalvation_Quest1Start_5 = Hmm... Ca à l'air d'être un original... Donc il l'a vraiment volé.
+Kalia_BarSalvation_Quest1Start_6 = J'ai demandé à Bos de vérifier votre histoire.
+Kalia_BarSalvation_Quest1Start_7 = Il a trouvé que l'artefact a été volé. Le Marchand ne l'a pas acheté.
+Kalia_BarSalvation_Quest1Start_8 = Je m'en doutais...
+Kalia_BarSalvation_Quest1Start_9 = Donc, quel est le plan ? Qu'est-ce qu'on en fait ?
+Kalia_BarSalvation_Quest1Start_10 = Hmm... Laissez-moi réflechir...
+Kalia_BarSalvation_Quest1Start_11 = Le Marchand sait-il que vous avez changé de camp ?
+Kalia_BarSalvation_Quest1Start_12 = Oui. J'ai dû attaquer un collègue de la garde républicaine.
+Kalia_BarSalvation_Quest1Start_13 = Retourner au palais maintenant est du suicide.
+Kalia_BarSalvation_Quest1Start_14 = Je vois. Et bien, vous faites maintenant complètement parti de la rébellion.
+Kalia_BarSalvation_Quest1Start_15 = Je ne m'arrêtera pas avant la chute du gouvernement.
+Kalia_BarSalvation_Quest1Start_16 = Bien. J'ai en réalité une tache pour vous.
+Kalia_BarSalvation_Quest1Start_17 = Oui ?
+Kalia_BarSalvation_Quest1Start_18 = Cet artefact. Ammenez-le à la Générale Lara, à la Forteresse Frontalière du Marklicht.
+Kalia_BarSalvation_Quest1Start_19 = Utilisez le comme outil de persuasion. L'artefact contre des cargaisons d'armes.
+Kalia_BarSalvation_Quest1Start_20 = Et si elle refuse ?
+Kalia_BarSalvation_Quest1Start_21 = Elle ne le fera pas. Bos m'a dit qu'elle a été assigné sur le vol de l'artefact.
+Kalia_BarSalvation_Quest1Start_22 = Si elle vois une opportunité pour l'obtenir, elle la prendra.
+Kalia_BarSalvation_Quest1Start_23 = Je vois. Je vais essayer alors.
+Kalia_BarSalvation_Quest1Start_24 = Oh, et une chose de plus. C'est à propos de ma petite sœur.
+Kalia_BarSalvation_Quest1Start_25 = La serveuse ?
+Kalia_BarSalvation_Quest1Start_26 = Oui. Amenez-la avec vous. Elle a besoin de sortir de cet endroit.
+Kalia_BarSalvation_Quest1Start_27 = Compris.
+Kalia_BarSalvation_Quest1Start_28 = Et s'il lui arrive quelque chose...
+Kalia_BarSalvation_Quest1Start_29 = Rien de mal n'arrivera !
+Kalia_BarSalvation_Quest1Start_30 = Ceci étant dit, je quitte la salle.
+Kalia_BarSalvation_Quest1Start_31 = Elle peut faire peur quand elle le veut.
+Kalia_BarSalvation_Quest1Start_32 = Voyons voir voir... Ou-
+Kalia_BarSalvation_Quest1Start_33 = Wahou ! Une aventure !
+Kalia_BarSalvation_Quest1Start_34 = Hé, hé. Qu'est ce qu'il se passe.
+Kalia_BarSalvation_Quest1Start_35 = J'ai écouté ta conversation avec ma sœur.
+Kalia_BarSalvation_Quest1Start_36 = On part à l'aventure !
+Kalia_BarSalvation_Quest1Start_37 = Calmes-toi. On va juste parler à la Générale Lara, rien de plus.
+Kalia_BarSalvation_Quest1Start_38 = Ah... Pas de chasse au dragon ?
+Kalia_BarSalvation_Quest1Start_39 = Bien sur que non ! Tu dois revenir en un seul morceau.
+Kalia_BarSalvation_Quest1Start_40 = Ok...
+Kalia_BarSalvation_Quest1Start_41 = <color=blue>Anna ajoutée au groupe.</color>
+Kalia_BarSalvation_Quest1Start_42 = Et bien. Il est temps de partir pour le Marklicht alors.
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------

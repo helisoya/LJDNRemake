@@ -47,7 +47,7 @@ public class PartyMenuStatusTab : PartyMenuTab
         List<int> inParty = GameManager.GetRPGManager().GetFollowers();
         foreach (int idx in inParty)
         {
-            Instantiate(buttonPrefab, buttonsRoot).Init(GameManager.GetRPGManager().GetCharacter(inParty[idx]), this);
+            Instantiate(buttonPrefab, buttonsRoot).Init(GameManager.GetRPGManager().GetCharacter(idx), this);
         }
         OpenGeneralSubTab();
         SelectCharacter(GameManager.GetRPGManager().GetCharacter(inParty[0]));

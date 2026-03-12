@@ -4,6 +4,11 @@ setCharacterPosition(Amanda;Front)
 setCharacterRotation(Amanda;Front)
 setCharacterAlpha(Amanda;1;false)
 
+if(rebelQuest_1 = 0){
+	load(Kalia/City/BarSalvation/RebelQuest1Start)
+	return()
+}
+
 dialog(Amanda;Amanda;false;Kalia_BarSalvation_Amanda_Greetings_1)
 
 load(Kalia/City/BarSalvation/Amanda)
