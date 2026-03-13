@@ -293,8 +293,13 @@ rebelQuest_1_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
 rebelQuest_1_1 = Talk to General Lara at Marklicht's Border Fortress
 rebelQuest_1_done = I secured supplies for the rebellion
 
-rebelQuest_2 = Adventure
+rebelQuest_2 = A safehouse problem
 rebelQuest_2_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
+rebelQuest_2_1 = Take back the safehouse at Kalia's docks
+rebelQuest_2_done = I took back the rebellion's safehouse
+
+rebelQuest_3 = An Adventure
+rebelQuest_3_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
 
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
