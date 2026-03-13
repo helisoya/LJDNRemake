@@ -19,6 +19,12 @@ if(mainQuest_2 = 0){
 	return()
 }
 
+if(rebelQuest_2 = 1){
+	fadeFg(0;false)
+	load(Kalia/City/Docks/RebelQuest2)
+	return()
+}
+
 autosave()
 
 fadeFg(0;false)

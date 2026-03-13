@@ -256,6 +256,17 @@ Kalia_Docks_GUARDArcQuest1_43 = Je quitte le hangar en utilisant la porte à l'a
 Kalia_Docks_GUARDArcQuest1_44 = Je pourrais aller directement à la grande place, ou faire d'autre choses.
 Kalia_Docks_GUARDArcQuest1_45 = Au final, c'est à moi de choisir.
 
+Kalia_Docks_RebelQuest2_1 = Ok, reprenons cet entrepot.
+
+Kalia_Docks_RebelQuest2_2 = Après quelques combats, nous arrivons à reprendre le contrôle de l'entrepot.
+Kalia_Docks_RebelQuest2_3 = Ca devrait rendre la chef contente.
+Kalia_Docks_RebelQuest2_4 = Oui, ma soeur adore quand on prend le contrôle de trucs !
+Kalia_Docks_RebelQuest2_5 = Vraiment ?
+Kalia_Docks_RebelQuest2_6 = Je te le jure ! On pourrait penser qu'elle est toujours mécontente, mais c'est faux.
+Kalia_Docks_RebelQuest2_7 = Rien que la vue de la rebellion gagnant du terrain est suffisante pour la faire sourrir.
+Kalia_Docks_RebelQuest2_8 = Si tu le dis.
+Kalia_Docks_RebelQuest2_9 = Enfin, rentrons.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Max's Bar --------------------------
 # ---------------------------------------------------------
@@ -670,6 +681,32 @@ Kalia_BarSalvation_Quest1Start_39 = Bien sur que non ! Tu dois revenir en un seu
 Kalia_BarSalvation_Quest1Start_40 = Ok...
 Kalia_BarSalvation_Quest1Start_41 = <color=blue>Anna ajoutée au groupe.</color>
 Kalia_BarSalvation_Quest1Start_42 = Et bien. Il est temps de partir pour le Marklicht alors.
+
+Kalia_BarSalvation_Quest1End_1 = Ma soeur, on est revenu !
+Kalia_BarSalvation_Quest1End_2 = Hmm ? Oh, bonjour, Anna. Je suppose que tout s'est bien passé ?
+Kalia_BarSalvation_Quest1End_3 = Bien sur ! Aucune problème !
+Kalia_BarSalvation_Quest1End_4 = Celle-la...
+Kalia_BarSalvation_Quest1End_5 = La Générale veut que vous lui disiez ou déposer les armes.
+Kalia_BarSalvation_Quest1End_6 = A oui. A ce propos.
+Kalia_BarSalvation_Quest1End_7 = Nous allons avoir un problème.
+Kalia_BarSalvation_Quest1End_8 = En temps normal, on aurait utilisé l'entrepot que vous avez attaqué l'autre jour.
+Kalia_BarSalvation_Quest1End_9 = Cependant, il semblerait qu'un gang en ai profité pour en prendre le contrôle.
+Kalia_BarSalvation_Quest1End_10 = Vous n'avez pas de gardes la bas ?
+Kalia_BarSalvation_Quest1End_11 = J'ai bien peur que vous les ayez tué lors de votre incursion.
+Kalia_BarSalvation_Quest1End_12 = Oh... Désolé...
+Kalia_BarSalvation_Quest1End_13 = Bref, allez le reprendre.
+Kalia_BarSalvation_Quest1End_14 = Oui, chef.
+Kalia_BarSalvation_Quest1End_15 = Anna, aide-le pour le moment.
+Kalia_BarSalvation_Quest1End_16 = Plus d'aventure ? Oh, oui !
+Kalia_BarSalvation_Quest1End_17 = Juste, soit prudente...
+Kalia_BarSalvation_Quest1End_18 = Par ailleurs, j'ai envoyé Bos sur une mission.
+Kalia_BarSalvation_Quest1End_19 = Votre ami le garde républicain est sorti de la ville.
+Kalia_BarSalvation_Quest1End_20 = Je lui ai demandé de le suivre.
+Kalia_BarSalvation_Quest1End_21 = Avec un peu de chance, il nous menera à quelque chose d'important aux yeux du Marchand.
+Kalia_BarSalvation_Quest1End_22 = Epée a quité la ville ? Je me demande ce qu'il manigance.
+Kalia_BarSalvation_Quest1End_23 = Je vois. Bien... Viens, Anna. Allons reprendre cet entrepot.
+Kalia_BarSalvation_Quest1End_24 = On s'inquiétera des trouvailles de Bos plus tard.
+Kalia_BarSalvation_Quest1End_25 = Je te suis.
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------

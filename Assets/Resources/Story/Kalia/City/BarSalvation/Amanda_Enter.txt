@@ -1,3 +1,8 @@
+if(rebelQuest_2 = 0){
+	load(Kalia/City/BarSalvation/RebelQuest1End)
+	return()
+}
+
 setCharacterAlpha(Amanda;0;true)
 setCharacterBody(Amanda;Normal;true)
 setCharacterPosition(Amanda;Front)

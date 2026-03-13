@@ -6,6 +6,7 @@ mainQuest_4
 rebelQuest_0
 rebelQuest_1
 rebelQuest_2
+rebelQuest_3
 marklichtQuest_0
 marklichtQuest_1
 merchantQuest_1

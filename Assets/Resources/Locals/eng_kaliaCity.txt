@@ -256,6 +256,17 @@ Kalia_Docks_GUARDArcQuest1_43 = I exit the hangar using the door at the back.
 Kalia_Docks_GUARDArcQuest1_44 = I could go directly to the grand plaza, or I could do other things.
 Kalia_Docks_GUARDArcQuest1_45 = In the end, the choice is up to me.
 
+Kalia_Docks_RebelQuest2_1 = Okay, let's take that safehouse back.
+
+Kalia_Docks_RebelQuest2_2 = After a few battles, we manage to take back the safehouse.
+Kalia_Docks_RebelQuest2_3 = This should make the boss happy.
+Kalia_Docks_RebelQuest2_4 = Yeah, sis loves it when we take over stuff !
+Kalia_Docks_RebelQuest2_5 = Really ?
+Kalia_Docks_RebelQuest2_6 = Trust me ! You'd think she's always grumpy, but that's not true.
+Kalia_Docks_RebelQuest2_7 = The sight of the rebellion gaining grounds is enough to make her smile.
+Kalia_Docks_RebelQuest2_8 = If you say so...
+Kalia_Docks_RebelQuest2_9 = Anyway, let's head back.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Max's Bar --------------------------
 # ---------------------------------------------------------
@@ -670,6 +681,32 @@ Kalia_BarSalvation_Quest1Start_39 = Of course not ! You have to come back unharm
 Kalia_BarSalvation_Quest1Start_40 = Okay...
 Kalia_BarSalvation_Quest1Start_41 = <color=blue>Anna added to the party.</color>
 Kalia_BarSalvation_Quest1Start_42 = Well. Time to head to Marklicht then.
+
+Kalia_BarSalvation_Quest1End_1 = Sis, we're back !
+Kalia_BarSalvation_Quest1End_2 = Hmm ? Oh. Hello, Anna. I trust everything went well ?
+Kalia_BarSalvation_Quest1End_3 = Of course ! No problems whatsoever !
+Kalia_BarSalvation_Quest1End_4 = This girl...
+Kalia_BarSalvation_Quest1End_5 = The General wants you to tell them a drop point for the weapons.
+Kalia_BarSalvation_Quest1End_6 = Ah, yes. About that.
+Kalia_BarSalvation_Quest1End_7 = We have a problem in this matter.
+Kalia_BarSalvation_Quest1End_8 = Normally, we would have used the safehouse you attacked the other day.
+Kalia_BarSalvation_Quest1End_9 = However, it seems that a gang took the opportunity to take control of it.
+Kalia_BarSalvation_Quest1End_10 = Don't you have mens guarding it ?
+Kalia_BarSalvation_Quest1End_11 = I'm afraid you killed them during you incursion.
+Kalia_BarSalvation_Quest1End_12 = Oh... Sorry...
+Kalia_BarSalvation_Quest1End_13 = Well, just go and retake it.
+Kalia_BarSalvation_Quest1End_14 = Yes, boss.
+Kalia_BarSalvation_Quest1End_15 = Anna, assist him for the time being.
+Kalia_BarSalvation_Quest1End_16 = More adventures ? Count me in !
+Kalia_BarSalvation_Quest1End_17 = Just be careful...
+Kalia_BarSalvation_Quest1End_18 = By the way, I sent Bos on an errand.
+Kalia_BarSalvation_Quest1End_19 = Your friend the republican guard went out of town.
+Kalia_BarSalvation_Quest1End_20 = I had him follow him.
+Kalia_BarSalvation_Quest1End_21 = With any luck, he'll lead us to something of importance for the Merchant.
+Kalia_BarSalvation_Quest1End_22 = Sword went out of town ? I wonder what he's up to.
+Kalia_BarSalvation_Quest1End_23 = I see. Well... Come, Anna. Let's get that safehouse back.
+Kalia_BarSalvation_Quest1End_24 = We'll worry about Bos's findings later.
+Kalia_BarSalvation_Quest1End_25 = Right behind you.
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
