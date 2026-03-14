@@ -341,6 +341,29 @@ OrkvaShrine_Priest_AboutRegion_7 = The only success they had so far was the crea
 OrkvaShrine_Priest_AboutRegion_8 = It's an all-Orkvian town just down the road.
 OrkvaShrine_Priest_AboutRegion_9 = If you ever go there, you'll see it's... different. Bourgeois, prehaps ?
 
+OrkvaShrine_RebelFactionQuest1_1 = This is where the priest should be.
+OrkvaShrine_RebelFactionQuest1_2 = Wait... Orkvian soldiers are already there !
+OrkvaShrine_RebelFactionQuest1_3 = It seems they already captured the priest and are getting ready to execute him.
+OrkvaShrine_RebelFactionQuest1_4 = Time to stop them.
+
+OrkvaShrine_RebelFactionQuest1_5 = Yay ! We saved the day !
+OrkvaShrine_RebelFactionQuest1_6 = Where is the priest ?
+OrkvaShrine_RebelFactionQuest1_7 = It seems he ran off during our fight.
+OrkvaShrine_RebelFactionQuest1_8 = Well... At least he's doing okay.
+OrkvaShrine_RebelFactionQuest1_9 = Hey, so uh...
+OrkvaShrine_RebelFactionQuest1_10 = Thanks for helping me and my sister.
+OrkvaShrine_RebelFactionQuest1_11 = No worries. You two seemed close. Do you see her much ? 
+OrkvaShrine_RebelFactionQuest1_12 = Yeah. But with the rebellion, I can't see her that much.
+OrkvaShrine_RebelFactionQuest1_13 = Do you regret joining the rebels ?
+OrkvaShrine_RebelFactionQuest1_14 = ... A little bit.
+OrkvaShrine_RebelFactionQuest1_15 = When big sis went to lead the rebels. I had to make a choice.
+OrkvaShrine_RebelFactionQuest1_16 = My big sis, or my not so big sis.
+OrkvaShrine_RebelFactionQuest1_17 = In the end, I decided to join big sis.
+OrkvaShrine_RebelFactionQuest1_18 = But... I left my other sis all alone...
+OrkvaShrine_RebelFactionQuest1_19 = Don't worry. When we'll have toppled the Merchant, you'll be able to see her more often.
+OrkvaShrine_RebelFactionQuest1_20 = Right, right.
+OrkvaShrine_RebelFactionQuest1_21 = Let's do our best for the rebellion ! 
+
 # ---------------------------------------------------------
 # --------------------- Prison ----------------------------
 # ---------------------------------------------------------

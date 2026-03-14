@@ -255,6 +255,30 @@ KalibuShrine_Priest_AboutYou_6 = Quand il est mort, j'ai décidé de continuer s
 KalibuShrine_Priest_AboutYou_7 = Et pour ma famille, elles vivent toujours en ville. Elles viennent de temps en temps.
 KalibuShrine_Priest_AboutYou_8 = J'aimerai tant que mes soeurs ne fassent pas de choses aussi dangereuse...
 
+KalibuShrine_Priest_RebelFactionQuest1_1 = Oh, bonjour, Anna.
+KalibuShrine_Priest_RebelFactionQuest1_2 = Salut, moyenne soeur !
+KalibuShrine_Priest_RebelFactionQuest1_3 = Grande soeur m'a dit de te dire bonjour de sa part.
+KalibuShrine_Priest_RebelFactionQuest1_4 = Je vois. Vous vous portez bien toutes les deux ?
+KalibuShrine_Priest_RebelFactionQuest1_5 = Oui ! Grande soeur prépare l'usuel. Tu sais...
+KalibuShrine_Priest_RebelFactionQuest1_6 = Je sais. C'est important pour elle.
+KalibuShrine_Priest_RebelFactionQuest1_7 = Mais j'aurais aimé si vous faisiez plus attention.
+KalibuShrine_Priest_RebelFactionQuest1_8 = Mais on doit le faire...
+KalibuShrine_Priest_RebelFactionQuest1_9 = Je sais, je sais...
+KalibuShrine_Priest_RebelFactionQuest1_10 = D'ailleurs... Qui est-ce ?
+KalibuShrine_Priest_RebelFactionQuest1_11 = Oh, c'est la nouvelle recrut dans la rebellion.
+KalibuShrine_Priest_RebelFactionQuest1_12 = Je suis juste ici pour la surveiller.
+KalibuShrine_Priest_RebelFactionQuest1_13 = Ah, oui. Amanda est très protectrice depuis la mort de notre père.
+KalibuShrine_Priest_RebelFactionQuest1_14 = ... Ce qui me fait penser...
+KalibuShrine_Priest_RebelFactionQuest1_15 = Vous avez besoin d'aide ?
+KalibuShrine_Priest_RebelFactionQuest1_16 = Oui. Je viens de recevoir une lettre d'un collègue à Orkva.
+KalibuShrine_Priest_RebelFactionQuest1_17 = Il opère illégalement et Orkva veut sa mort.
+KalibuShrine_Priest_RebelFactionQuest1_18 = Dans sa lettre, il m'a dit que l'armée a trouvé sa position.
+KalibuShrine_Priest_RebelFactionQuest1_19 = C'est mauvais, ça ! On doit l'aider !
+KalibuShrine_Priest_RebelFactionQuest1_20 = Vous le feriez ? Je ne veux pas vous mettre en danger.
+KalibuShrine_Priest_RebelFactionQuest1_21 = N'ayez crainte. Nous allons nous occuper des bandits.
+KalibuShrine_Priest_RebelFactionQuest1_22 = Merci. Il se cache dans le viel autel proche de Vorlan.
+KalibuShrine_Priest_RebelFactionQuest1_23 = Allons le sauver !
+
 # ---------------------------------------------------------
 # -------------- Kalia's Outpost --------------------------
 # ---------------------------------------------------------

@@ -341,6 +341,29 @@ OrkvaShrine_Priest_AboutRegion_7 = Leur seul succès jusqu'à présent a été l
 OrkvaShrine_Priest_AboutRegion_8 = C'est une ville entièrement orkvienne, juste au sud.
 OrkvaShrine_Priest_AboutRegion_9 = Si vous y allez un jour, vous verrez que c'est... différent. Bourgeois ?
 
+OrkvaShrine_RebelFactionQuest1_1 = C'est ici que le prêtre vit.
+OrkvaShrine_RebelFactionQuest1_2 = Attends... Les soldats Orkviens sont déjà là !
+OrkvaShrine_RebelFactionQuest1_3 = On dirait qu'ils ont déjà capturé le prêtre et s'appretent à l'executer.
+OrkvaShrine_RebelFactionQuest1_4 = Il est temps de les stopper.
+
+OrkvaShrine_RebelFactionQuest1_5 = Yipee ! On a réussi !
+OrkvaShrine_RebelFactionQuest1_6 = Ou est le prêtre ?
+OrkvaShrine_RebelFactionQuest1_7 = Il semblerait qu'il ai fuit pendant le combat.
+OrkvaShrine_RebelFactionQuest1_8 = Bon... Au moins il se porte bien.
+OrkvaShrine_RebelFactionQuest1_9 = Hé, euh...
+OrkvaShrine_RebelFactionQuest1_10 = Merci de m'avoir aidé, moi et ma soeur.
+OrkvaShrine_RebelFactionQuest1_11 = Pas de problèmes. Vous aviez l'air proche. Tu la vois beaucoup ?
+OrkvaShrine_RebelFactionQuest1_12 = Oui. Mais avec la rebellion, je ne la vois plus tant que ça.
+OrkvaShrine_RebelFactionQuest1_13 = Tu regrètes d'avoir rejoint les rebelles ?
+OrkvaShrine_RebelFactionQuest1_14 = ... Un petit peu.
+OrkvaShrine_RebelFactionQuest1_15 = Quand ma grande soeur a décidé de devenir la chef de la rebellion. J'ai du faire un choix.
+OrkvaShrine_RebelFactionQuest1_16 = Ma grande soeur, ou ma moyenne soeur.
+OrkvaShrine_RebelFactionQuest1_17 = Au final, j'ai suivi ma grande soeur.
+OrkvaShrine_RebelFactionQuest1_18 = Mais... J'ai laissé mon autre soeur toute seule.
+OrkvaShrine_RebelFactionQuest1_19 = N'ai crainte. Une fois le Marchand renversé, tu pourras la voir plus souvent.
+OrkvaShrine_RebelFactionQuest1_20 = Oui, c'est vrai.
+OrkvaShrine_RebelFactionQuest1_21 = Faisons de notre mieux pour la rebellion !
+
 # ---------------------------------------------------------
 # --------------------- Prison ----------------------------
 # ---------------------------------------------------------

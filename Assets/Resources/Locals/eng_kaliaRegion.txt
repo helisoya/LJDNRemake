@@ -255,6 +255,30 @@ KalibuShrine_Priest_AboutYou_6 = When he died, I decided to continue his life's 
 KalibuShrine_Priest_AboutYou_7 = As for my family, they still live in the city. They come by from time to time.
 KalibuShrine_Priest_AboutYou_8 = I just wish my sisters wouldn't do such dangerous things...
 
+KalibuShrine_Priest_RebelFactionQuest1_1 = Oh, hello, Anna.
+KalibuShrine_Priest_RebelFactionQuest1_2 = Hi, sis !
+KalibuShrine_Priest_RebelFactionQuest1_3 = Other sis told me to greet you too.
+KalibuShrine_Priest_RebelFactionQuest1_4 = I see. Are both of your doing well ?
+KalibuShrine_Priest_RebelFactionQuest1_5 = Yep ! Sis is preparing the usual. You know...
+KalibuShrine_Priest_RebelFactionQuest1_6 = I know. Its important to her.
+KalibuShrine_Priest_RebelFactionQuest1_7 = Still, I hope you would be more careful.
+KalibuShrine_Priest_RebelFactionQuest1_8 = But we have to do it...
+KalibuShrine_Priest_RebelFactionQuest1_9 = I know, I know...
+KalibuShrine_Priest_RebelFactionQuest1_10 = By the way... Who's he ?
+KalibuShrine_Priest_RebelFactionQuest1_11 = Oh, he's the new recruit in the rebellion.
+KalibuShrine_Priest_RebelFactionQuest1_12 = I'm just here to make sure she doesn't get hurt.
+KalibuShrine_Priest_RebelFactionQuest1_13 = Ah, yes. Amanda is very protective every since father's death.
+KalibuShrine_Priest_RebelFactionQuest1_14 = ... Actually...
+KalibuShrine_Priest_RebelFactionQuest1_15 = Do you need help with anything ?
+KalibuShrine_Priest_RebelFactionQuest1_16 = Yes. I just received a letter from a collegue in Orkva.
+KalibuShrine_Priest_RebelFactionQuest1_17 = He's operating illegaly and Orkva wants him dead.
+KalibuShrine_Priest_RebelFactionQuest1_18 = In his letter, he told me that the army found out his position.
+KalibuShrine_Priest_RebelFactionQuest1_19 = This is bad, we have to save him !
+KalibuShrine_Priest_RebelFactionQuest1_20 = Would you ? I don't want you to put yourself in too much danger.
+KalibuShrine_Priest_RebelFactionQuest1_21 = It's alright. We'll deal with those soldiers.
+KalibuShrine_Priest_RebelFactionQuest1_22 = Thank you. He hides at the old shrine near Vorlan.
+KalibuShrine_Priest_RebelFactionQuest1_23 = Let's go save him !
+
 # ---------------------------------------------------------
 # -------------- Kalia's Outpost --------------------------
 # ---------------------------------------------------------

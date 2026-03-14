@@ -15,6 +15,11 @@ setLocation(Location_Orkva)
 
 autosave()
 
+if(factionQuest_Rebel_1 = 1){
+	load(Orkva/Shrine/RebelFactionQuest1)
+	return()
+}
+
 if(night = 1){
 	addCharacter(KalibuPriest2;false)
 	setCharacterPosition(KalibuPriest2;PriestSpot)
