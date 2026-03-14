@@ -708,6 +708,57 @@ Kalia_BarSalvation_Quest1End_23 = I see. Well... Come, Anna. Let's get that safe
 Kalia_BarSalvation_Quest1End_24 = We'll worry about Bos's findings later.
 Kalia_BarSalvation_Quest1End_25 = Right behind you.
 
+Kalia_BarSalvation_Quest2End_1 = It is done.
+Kalia_BarSalvation_Quest2End_2 = Good, and just in time.
+Kalia_BarSalvation_Quest2End_3 = I'll handle the weapon transfer, you have another assignement.
+Kalia_BarSalvation_Quest2End_4 = Bos sent me a letter. He found out where your friend went.
+Kalia_BarSalvation_Quest2End_5 = Where did he go ?
+Kalia_BarSalvation_Quest2End_6 = Mirage Island. Bos also said he was waiting for you at Tolau's lighthouse.
+Kalia_BarSalvation_Quest2End_7 = Apparently, he has things to say that can't be put down on paper.
+Kalia_BarSalvation_Quest2End_8 = I understand. We'll go there right now.
+Kalia_BarSalvation_Quest2End_9 = What are you doing ?
+Kalia_BarSalvation_Quest2End_10 = Oh ? I'm just writing what we have to do. I case I forget.
+Kalia_BarSalvation_Quest2End_11 = Why would you forget ? Oh, wait. Let me do it !
+Kalia_BarSalvation_Quest2End_12 = Wait-
+Kalia_BarSalvation_Quest2End_13 = ... There ! I wrote what we have to do.
+Kalia_BarSalvation_Quest2End_14 = I don't even want to know what she wrote...
+Kalia_BarSalvation_Quest2End_15 = ....
+Kalia_BarSalvation_Quest2End_16 = We'll.... be on our way, sis.
+Kalia_BarSalvation_Quest2End_17 = Good.
+
+Kalia_BarSalvation_Quest3End_1 = You're back.
+Kalia_BarSalvation_Quest3End_2 = We found out that the Merchant wanted to steal this artefact.
+Kalia_BarSalvation_Quest3End_3 = By Kalibu ! Is that what I think it is ?
+Kalia_BarSalvation_Quest3End_4 = Amanda picks up the scepter and examines it.
+Kalia_BarSalvation_Quest3End_5 = This was thought to be lost for centuries.
+Kalia_BarSalvation_Quest3End_6 = What is it ?
+Kalia_BarSalvation_Quest3End_7 = You don't know ? Oh, right. You probably didn't study to be a priest.
+Kalia_BarSalvation_Quest3End_8 = Back in the old times, at the very beginning...
+Kalia_BarSalvation_Quest3End_9 = Legends say that this is the holy scepter, used by the old conclave.
+Kalia_BarSalvation_Quest3End_10 = Oh, right. I remember this story.
+Kalia_BarSalvation_Quest3End_11 = There was this conclave of old men and women who ruled the Suori.
+Kalia_BarSalvation_Quest3End_12 = But they disapeared without any trace at some point.
+Kalia_BarSalvation_Quest3End_13 = Yes. They used this scepter to signify their right to rule.
+Kalia_BarSalvation_Quest3End_14 = The story goes that they fled the mainland after the Mountaineer's split.
+Kalia_BarSalvation_Quest3End_15 = The blow they got from losing half of their subjects to another religion made them flee.
+Kalia_BarSalvation_Quest3End_16 = Scholars thought they went far into the ocean. But its possible they stopped at Mirage Island for a time.
+Kalia_BarSalvation_Quest3End_17 = I see. But how does this help us ?
+Kalia_BarSalvation_Quest3End_18 = This is huge, [MC].
+Kalia_BarSalvation_Quest3End_19 = This scepter could allow us to get recognition, both internally and internationally.
+Kalia_BarSalvation_Quest3End_20 = I'm sure the Merchant actually wanted to use it to reinforce his rule.
+Kalia_BarSalvation_Quest3End_21 = We'll use it to bring about its fall.
+Kalia_BarSalvation_Quest3End_22 = What are my orders ?
+Kalia_BarSalvation_Quest3End_23 = ... Go to the grand plaza. Distribute leaflets.
+Kalia_BarSalvation_Quest3End_24 = The time has come. The people must know we are ready to topple the tyrant.
+Kalia_BarSalvation_Quest3End_25 = It shall be done. 
+Kalia_BarSalvation_Quest3End_26 = By the way, [MC].
+Kalia_BarSalvation_Quest3End_27 = Yes ?
+Kalia_BarSalvation_Quest3End_28 = If we have the time, could we go to the temple near Iberty ?
+Kalia_BarSalvation_Quest3End_29 = There's someone I must see.
+Kalia_BarSalvation_Quest3End_30 = A wise decision, Anna. Please, say hi to her for me.
+Kalia_BarSalvation_Quest3End_31 = Alright, I'll make a mental note.
+
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------

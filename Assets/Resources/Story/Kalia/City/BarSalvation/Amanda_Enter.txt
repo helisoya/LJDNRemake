@@ -3,6 +3,16 @@ if(rebelQuest_2 = 0){
 	return()
 }
 
+if(rebelQuest_2 = 2){
+	load(Kalia/City/BarSalvation/RebelQuest2End)
+	return()
+}
+
+if(rebelQuest_3 = 2){
+	load(Kalia/City/BarSalvation/RebelQuest3End)
+	return()
+}
+
 setCharacterAlpha(Amanda;0;true)
 setCharacterBody(Amanda;Normal;true)
 setCharacterPosition(Amanda;Front)

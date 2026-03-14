@@ -19,6 +19,11 @@ if(arcQuest_Sam_3 = 0 & night = 1){
 	load(Orkva/Tolau/Lighthouse/SamArcQuest3)
 }
 else{
-	fadeFg(0;false)
-	load(Orkva/Tolau/Lighthouse/Interaction)
+	if(rebelQuest_3 = 0){
+		load(Orkva/Tolau/Lighthouse/RebelQuest3)
+	}
+	else{
+		fadeFg(0;false)
+		load(Orkva/Tolau/Lighthouse/Interaction)
+	}
 }

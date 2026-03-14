@@ -4,6 +4,57 @@
 
 MirageForest_No_1 = Je vais me perdre si j'entre dans ces bois.
 
+MirageForest_Temple_1 = La voila. Voici l'entrée de la Forêt Mirage
+MirageForest_Temple_2 = Les gens disent qu'on peut se perdre facilement dans ces bois.
+MirageForest_Temple_3 = Apparement, c'est due à une sorte de brouillard.
+MirageForest_Temple_4 = Enfin... On va quand même devoir naviguer à l'intérieur.
+MirageForest_Temple_5 = Le temple qu'on recherche devrait être au centre de la forêt.
+
+MirageForest_Temple_6 = Après avoir marché pour ce qu'il semble être des heures, nous arrivons enfin au temple.
+MirageForest_Temple_7 = Il a l'air vieux. Je me demande quand il a été construit.
+MirageForest_Temple_8 = Peu de personnes vivent à l'Ile Mirage.
+MirageForest_Temple_9 = En fait, si peut de personnes y vivent que les gens ont pensé au début qu'elle était inhabité.
+MirageForest_Temple_10 = Enfin. Il est temps d'explorer cet endroit.
+
+MirageForest_Temple_11 = Pendant que nous marchons, les couloirs du temple commençe à faire plus de sens.
+MirageForest_Temple_12 = C'est comme si les tronçons précédents étaient le résultats d'éboulements.
+MirageForest_Temple_13 = Je regarde les murs. Il y a différents écritures dessus.
+MirageForest_Temple_14 = C'était un temple Suori, et un vieux.
+MirageForest_Temple_15 = Avec les dessins de Kalibu le Grand, on peut trouver des représentations du Seigneur Cerf, Dieu du Chaos.
+MirageForest_Temple_16 = Je me demande quand ce temple a été crée.
+MirageForest_Temple_17 = A un moment, nous arrivons dans une grande salle.
+
+MirageForest_Temple_Rebel_1 = Et bien sur, Epée y est.
+MirageForest_Temple_Rebel_2 = Grr ! Ou est-il ?
+MirageForest_Temple_Rebel_3 = Le patron m'a dit que le sceptre est ici... Ou est-il ?
+MirageForest_Temple_Rebel_4 = Il cherche un artefact. Je le savais.
+MirageForest_Temple_Rebel_5 = Et bien. Il est temps de lui dire bonjour.
+MirageForest_Temple_Rebel_6 = Besoin d'aide ?
+MirageForest_Temple_Rebel_7 = Ouaih, ca serait pas de refus.
+MirageForest_Temple_Rebel_8 = ...
+MirageForest_Temple_Rebel_9 = Attends une seconde- Bouclier !
+MirageForest_Temple_Rebel_10 = Espèce de traitre ! Tu m'as laissé pour mort !
+MirageForest_Temple_Rebel_11 = Et qui est-ce à tes cotés ? Une rebelle ?
+MirageForest_Temple_Rebel_12 = Rien de personnel, Epée. J'ai simplement executé mes ordres.
+MirageForest_Temple_Rebel_13 = Tu... Tu aurais au moins pu rendre le chien !
+MirageForest_Temple_Rebel_14 = Traitre... Je suppose que tu es ici pour le sceptre ?
+MirageForest_Temple_Rebel_15 = Maintenant, oui.
+MirageForest_Temple_Rebel_16 = Hé, hé ! Tu ne me vaincra pas !
+
+MirageForest_Temple_Rebel_17 = C'était un peu anti-climatique.
+MirageForest_Temple_Rebel_18 = C'était un 3 contre 1.
+MirageForest_Temple_Rebel_19 = Vite, trouvons ce sceptre avant qu'il ne se reveille.
+MirageForest_Temple_Rebel_20 = Compris !
+MirageForest_Temple_Rebel_21 = Nous cherchons la salle pour ce sceptre. Peut importe ce que c'est, le Marchant le veut.
+MirageForest_Temple_Rebel_22 = Trouvé !
+MirageForest_Temple_Rebel_23 = Bien. Montres-moi ça.
+MirageForest_Temple_Rebel_24 = Ce sceptre... Je suis sur de l'avoir déjà vu.
+MirageForest_Temple_Rebel_25 = Il faut demander à ma soeur. Elle connait bien la religion.
+MirageForest_Temple_Rebel_26 = Oui. Je pense que c'est quelque chose d'important.
+MirageForest_Temple_Rebel_27 = Bien. Rentrons.
+MirageForest_Temple_Rebel_28 = Après quelques heures, nous arrivons de nouveau à l'entrée de la forêt.
+MirageForest_Temple_Rebel_29 = Pauvre Epée... Il va encore devoir rentrer les mains vides.
+
 # ---------------------------------------------------------
 # ---------------------- Cottage --------------------------
 # ---------------------------------------------------------

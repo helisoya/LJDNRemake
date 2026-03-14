@@ -26,6 +26,7 @@ rebelQuest_0 -1
 rebelQuest_1 -1
 rebelQuest_2 -1
 rebelQuest_3 -1
+rebelQuest_4 -1
 
 marklichtQuest_0 -1
 marklichtQuest_1 -1
@@ -59,7 +60,9 @@ arcQuest_Dragon_3 -1
 arcQuest_Dragon_4 -1
 
 # Faction Quests
-factionQuest_Kalia_1 -1
+factionQuest_Merchant_1 -1
+
+factionQuest_Rebel_1 -1
 
 # Secondary Quests
 secondaryQuest_Iberty_Catacombs -1

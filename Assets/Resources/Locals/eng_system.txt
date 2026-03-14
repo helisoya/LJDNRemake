@@ -296,10 +296,17 @@ rebelQuest_1_done = I secured supplies for the rebellion
 rebelQuest_2 = A safehouse problem
 rebelQuest_2_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
 rebelQuest_2_1 = Take back the safehouse at Kalia's docks
+rebelQuest_2_2 = Report back to the rebels at their HQ in Kalia's Salvation bar
 rebelQuest_2_done = I took back the rebellion's safehouse
 
-rebelQuest_3 = An Adventure
-rebelQuest_3_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
+rebelQuest_3 = An Adventure !
+rebelQuest_3_0 = Bos is at the lighthouse with the adventure's details !
+rebelQuest_3_1 = Find your way to Mirage Island's Forest.
+rebelQuest_3_2 = Report back to the rebels at their HQ in Kalia's Salvation bar
+rebelQuest_3_done = I prevented another artefact theft
+
+rebelQuest_4 = For the people
+rebelQuest_4_0 = Distribute leaflets at Kalia's central plaza
 
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
@@ -310,6 +317,9 @@ marklichtQuest_1_0 = Report back to General Lara at Marklicht's Border Fortress
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
+
+factionQuest_Rebel_1 = The visit
+factionQuest_Rebel_1_0 = Visit Kalia's Suori Temple
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -553,6 +563,8 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldier
 
 ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel
+
+ENNEMY_SwordVar1_name = Sword
 
 DOGACE_name = Ace
 GUARD_name = GUARD

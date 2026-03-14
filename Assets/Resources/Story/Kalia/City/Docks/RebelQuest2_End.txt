@@ -26,9 +26,7 @@ dialog([MC];_;false;Kalia_Docks_RebelQuest2_9)
 setCharacterAlpha(Anna;0;true)
 removeCharacter(Anna)
 
-variable(rebelQuest_3;0)
-variable(rebelQuest_2;100)
-addExpToAll(25)
+variable(rebelQuest_2;2)
 
 playMusic(Exploration_Kalia)
 

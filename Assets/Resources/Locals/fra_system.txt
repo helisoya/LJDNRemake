@@ -296,10 +296,17 @@ rebelQuest_1_done = J'ai sécurisé des ravitaillements pour la rebellion
 rebelQuest_2 = Aventure
 rebelQuest_2_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
 rebelQuest_2_1 = Reprenez l'entrepot aux docks de Kalia
+rebelQuest_2_2 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
 rebelQuest_2_done = J'ai repris le contrôle de l'entrepot de la rebellion
 
-rebelQuest_3 = Une aventure
-rebelQuest_3_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
+rebelQuest_3 = Une aventure !
+rebelQuest_3_0 = Bos a les détails de l'aventure au phare de Tolau !
+rebelQuest_3_1 = Trouvez un moyen d'atteindre la forêt de l'Ile Mirage
+rebelQuest_3_2 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
+rebelQuest_3_done = J'ai empeché un nouveau vol d'artefact
+
+rebelQuest_4 = Pour le peuple
+rebelQuest_4_0 = Distribuez des tracts à la grande place de Kalia
 
 marklichtQuest_0 = Changer de camp
 marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière
@@ -310,6 +317,9 @@ marklichtQuest_1_0 = Retournez voir la Générale Lara à la Forteresse Frontali
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
+
+factionQuest_Rebel_1 = La visite
+factionQuest_Rebel_1_0 = Visitez le temple Suori de Kalia
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
@@ -553,6 +563,8 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldat
 
 ENNEMY_Rebel_Hand_name = Rebelle
 ENNEMY_Rebel_Knife_name = Rebelle
+
+ENNEMY_SwordVar1_name = Epée
 
 DOGACE_name = Ace
 GUARD_name = GARDE

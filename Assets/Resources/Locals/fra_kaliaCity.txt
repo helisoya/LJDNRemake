@@ -708,6 +708,56 @@ Kalia_BarSalvation_Quest1End_23 = Je vois. Bien... Viens, Anna. Allons reprendre
 Kalia_BarSalvation_Quest1End_24 = On s'inquiétera des trouvailles de Bos plus tard.
 Kalia_BarSalvation_Quest1End_25 = Je te suis.
 
+Kalia_BarSalvation_Quest2End_1 = Ca a été fait.
+Kalia_BarSalvation_Quest2End_2 = Bien, et juste à temps.
+Kalia_BarSalvation_Quest2End_3 = Je vais m'occuper du transfer d'armes. Vous avez une nouvelle mission.
+Kalia_BarSalvation_Quest2End_4 = Bos viens de m'envoyer une lettre. Il a trouvé ou est parti votre ami.
+Kalia_BarSalvation_Quest2End_5 = Ou est-il allé ?
+Kalia_BarSalvation_Quest2End_6 = L'Ile Mirage. Bos m'a aussi dis qu'il vous attendait au Phare de Tolau.
+Kalia_BarSalvation_Quest2End_7 = Apparement, il a des choses à dire qui sont plus simple à dire à l'orale.
+Kalia_BarSalvation_Quest2End_8 = Je comprend. Nous allons y aller sur le champ.
+Kalia_BarSalvation_Quest2End_9 = Qu'est ce que tu fais ?
+Kalia_BarSalvation_Quest2End_10 = Oh ? J'écris juste ce qu'on doit faire, au cas ou j'oublie.
+Kalia_BarSalvation_Quest2End_11 = Pourquoi est-ce que tu oublierais ? Oh, attends. Laisses-moi le faire !
+Kalia_BarSalvation_Quest2End_12 = Attend-
+Kalia_BarSalvation_Quest2End_13 = ... Voila ! J'ai écrit ce qu'on doit faire !
+Kalia_BarSalvation_Quest2End_14 = Je n'ai pas envie de savoir ce qu'elle a écrit...
+Kalia_BarSalvation_Quest2End_15 = ....
+Kalia_BarSalvation_Quest2End_16 = On.... va y aller, ma soeur.
+Kalia_BarSalvation_Quest2End_17 = Bien.
+
+Kalia_BarSalvation_Quest3End_1 = Vous êtes de retour.
+Kalia_BarSalvation_Quest3End_2 = Nous avons découvert que le Marchand voulait voler cet artefact.
+Kalia_BarSalvation_Quest3End_3 = Par Kalibu ! Est-ce que je pense ?
+Kalia_BarSalvation_Quest3End_4 = Amanda récupère le sceptre et l'éxamine.
+Kalia_BarSalvation_Quest3End_5 = Il a été considéré comme perdu pendant des siècles.
+Kalia_BarSalvation_Quest3End_6 = Qu'est-ce donc ?
+Kalia_BarSalvation_Quest3End_7 = Vous ne le savez pas ? Oh, vous n'avez probablement pas fait d'études théologiques.
+Kalia_BarSalvation_Quest3End_8 = Il y a longtemps, au tout début...
+Kalia_BarSalvation_Quest3End_9 = Les légendes racontent que ceci est le sceptre sacré, utilisé par le vieux conclave.
+Kalia_BarSalvation_Quest3End_10 = Ah, oui. Je connais cet histoire.
+Kalia_BarSalvation_Quest3End_11 = C'était un conclave de viellards en tout genre, qui régnaient sur les Suoris.
+Kalia_BarSalvation_Quest3End_12 = Mais ils ont disparus un jour sans laisser de trace.
+Kalia_BarSalvation_Quest3End_13 = Oui. Ils utilisaient ce sceptre pour signifier leur droit au pouvoir.
+Kalia_BarSalvation_Quest3End_14 = L'histoire raconte qu'ils ont fuit le continent après la scission des Montagnards.
+Kalia_BarSalvation_Quest3End_15 = Le choc de voir la moitié de leurs sujets se tourner vers une autre religion les a fait fuir.
+Kalia_BarSalvation_Quest3End_16 = Les historiens pensent qu'ils sont parti loin à l'Est. Mais il est possible qu'ils se soient arrêtés à l'Ile Mirage pendant un moment.
+Kalia_BarSalvation_Quest3End_17 = Je vois. Mais en quoi cela nous aide ?
+Kalia_BarSalvation_Quest3End_18 = C'est énorme, [MC].
+Kalia_BarSalvation_Quest3End_19 = Ce sceptre peut nous permettre d'être reconnu dans et à l'extérieur de Kalia.
+Kalia_BarSalvation_Quest3End_20 = Je suis sur que le Marchand voulait l'utiliser pour renforcer son règne.
+Kalia_BarSalvation_Quest3End_21 = Nous allons l'utiliser pour le faire chuter.
+Kalia_BarSalvation_Quest3End_22 = Quels sont mes ordres ?
+Kalia_BarSalvation_Quest3End_23 = ... Allez à la grande place. Distribuez des tracts.
+Kalia_BarSalvation_Quest3End_24 = Le moment est venu. Le peuple doit savoir que nous sommes prêt à renverser le tyrant.
+Kalia_BarSalvation_Quest3End_25 = Ca sera fait. 
+Kalia_BarSalvation_Quest3End_26 = D'ailleurs, [MC].
+Kalia_BarSalvation_Quest3End_27 = Oui ?
+Kalia_BarSalvation_Quest3End_28 = Si on a du temps libre, est-ce qu'on peut aller au temple prêt d'Iberty ?
+Kalia_BarSalvation_Quest3End_29 = Il y a quelqu'un que je dois voir ?
+Kalia_BarSalvation_Quest3End_30 = Une sage décision, Anna. Dis-lui bonjour de ma part.
+Kalia_BarSalvation_Quest3End_31 = Très bien, je vais y penser.
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------
