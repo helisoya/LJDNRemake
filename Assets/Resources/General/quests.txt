@@ -8,6 +8,7 @@ rebelQuest_1
 rebelQuest_2
 rebelQuest_3
 rebelQuest_4
+rebelQuest_5
 marklichtQuest_0
 marklichtQuest_1
 merchantQuest_1

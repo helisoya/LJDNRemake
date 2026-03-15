@@ -307,6 +307,11 @@ rebelQuest_3_done = I prevented another artefact theft
 
 rebelQuest_4 = For the people
 rebelQuest_4_0 = Distribute leaflets at Kalia's central plaza
+rebelQuest_4_1 = Report back to the rebels at their HQ in Kalia's Salvation bar
+rebelQuest_4_done = I distributed leaflets
+
+rebelQuest_5 = Hostage
+rebelQuest_5_0 = Save Bos at Camp Hope
 
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
@@ -567,6 +572,9 @@ ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel
 
 ENNEMY_SwordVar1_name = Sword
+
+ENNEMY_KaliaSoldier_Rifle_name = Soldier
+ENNEMY_KaliaSoldier_Revolver_name = Soldier
 
 DOGACE_name = Ace
 GUARD_name = GUARD

@@ -469,6 +469,25 @@ Kalia_Plaza_GUARDArcQuest2_End_40 = Meet me at Max's bar when you're done with t
 Kalia_Plaza_GUARDArcQuest2_End_41 = As we agree on this last mission, we exit the house.
 Kalia_Plaza_GUARDArcQuest2_End_42 = My next step is up to me.
 
+Kalia_Plaza_RebelQuest4_1 = Okay. Let's distribute those leaflets.
+Kalia_Plaza_RebelQuest4_2 = Its risky to do it here, but the people must know.
+Kalia_Plaza_RebelQuest4_3 = Us being confident enough to do this will show our strength.
+Kalia_Plaza_RebelQuest4_4 = To be honest, we don't even need to distribute anything.
+Kalia_Plaza_RebelQuest4_5 = Just a commotion might be enough.
+Kalia_Plaza_RebelQuest4_6 = As we distribute leaflets, more and more people start coming.
+Kalia_Plaza_RebelQuest4_7 = I guess they want to know the Merchant's reaction. We are right under his window.
+Kalia_Plaza_RebelQuest4_8 = Hey ! What are you doing here ?
+Kalia_Plaza_RebelQuest4_9 = This area is restr- Wait...
+Kalia_Plaza_RebelQuest4_10 = Rebels ! And the turncoat is with them !
+Kalia_Plaza_RebelQuest4_11 = Shoot them !
+
+Kalia_Plaza_RebelQuest4_12 = The Merchant's soldiers lay dead on the ground.
+Kalia_Plaza_RebelQuest4_13 = Did you see that ?
+Kalia_Plaza_RebelQuest4_14 = The rebels might actually stand a chance.
+Kalia_Plaza_RebelQuest4_15 = Yeah. Maybe we could root for them. They'll protect us.
+Kalia_Plaza_RebelQuest4_16 = Good. The people are starting to trust us more and more.
+Kalia_Plaza_RebelQuest4_17 = Let's go back to Amanda. I wonder what the next step is. 
+
 # ---------------------------------------------------------
 # ------------ Kalia - Lighthouse -------------------------
 # ---------------------------------------------------------
@@ -757,6 +776,26 @@ Kalia_BarSalvation_Quest3End_28 = If we have the time, could we go to the shrine
 Kalia_BarSalvation_Quest3End_29 = There's someone I must see.
 Kalia_BarSalvation_Quest3End_30 = A wise decision, Anna. Please, say hi to her for me.
 Kalia_BarSalvation_Quest3End_31 = Alright, I'll make a mental note.
+
+Kalia_BarSalvation_Quest4End_1 = [MC] ? Thank Kalibu you're back !
+Kalia_BarSalvation_Quest4End_2 = Something's wrong ?
+Kalia_BarSalvation_Quest4End_3 = It's Bos... He got captured.
+Kalia_BarSalvation_Quest4End_4 = What ? How ?
+Kalia_BarSalvation_Quest4End_5 = Apparently your friend the republican guard took him by surprise.
+Kalia_BarSalvation_Quest4End_6 = This fool... He must have kept tabs on him even after the island.
+Kalia_BarSalvation_Quest4End_7 = Where he is now ? We need to save him.
+Kalia_BarSalvation_Quest4End_8 = That's the weird part. We know Bos was captured because Sword told us where he was.
+Kalia_BarSalvation_Quest4End_9 = What ?
+Kalia_BarSalvation_Quest4End_10 = I just received a letter. It says that Bos is at Camp Hope.
+Kalia_BarSalvation_Quest4End_11 = He also says that you have to go. Or else, he will shoot him.
+Kalia_BarSalvation_Quest4End_12 = I guess he wants payback for the two times I beat him up.
+Kalia_BarSalvation_Quest4End_13 = Okay. That one is on me. It's my fault Bos captured.
+Kalia_BarSalvation_Quest4End_14 = I'll bring him back.
+Kalia_BarSalvation_Quest4End_15 = Good luck...
+Kalia_BarSalvation_Quest4End_16 = Hey ! I'm still coming with you !
+Kalia_BarSalvation_Quest4End_17 = You can follow me to the camp's entrance. But I'll have to enter it alone.
+Kalia_BarSalvation_Quest4End_18 = You can keep an eye on Ace in the meantime.
+Kalia_BarSalvation_Quest4End_19 = ... Okay.
 
 
 # ---------------------------------------------------------

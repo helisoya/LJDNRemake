@@ -469,6 +469,25 @@ Kalia_Plaza_GUARDArcQuest2_End_40 = Retrouvez-moi au bar de Max une fois que vou
 Kalia_Plaza_GUARDArcQuest2_End_41 = Tandis que nous parlons de notre dernière mission, nous quittons la maison.
 Kalia_Plaza_GUARDArcQuest2_End_42 = C'est cependant à moi de choisir ma prochaine action.
 
+Kalia_Plaza_RebelQuest4_1 = Ok. Distribuons ces tracts.
+Kalia_Plaza_RebelQuest4_2 = C'est risqué de le faire ici, mais le peuple doit savoir.
+Kalia_Plaza_RebelQuest4_3 = Le faire montrera notre force. Nous n'avons pas peur du Marchand.
+Kalia_Plaza_RebelQuest4_4 = Pour être honnête, il n'y a même pas besoin de distribuer quoi que ce soit.
+Kalia_Plaza_RebelQuest4_5 = Une simple commotion ferait l'affaire.
+Kalia_Plaza_RebelQuest4_6 = Au fur et à mesure que l'on distribue les tracts, de plus en plus de gens arrivent.
+Kalia_Plaza_RebelQuest4_7 = Je suppose qu'ils veulent voir la réaction du Marchand. Nous sommes sous sa fenêtre après tout.
+Kalia_Plaza_RebelQuest4_8 = Hé ! Que faites-vous la ?
+Kalia_Plaza_RebelQuest4_9 = Cette zone est restrei- Attends...
+Kalia_Plaza_RebelQuest4_10 = Des rebelles ! Et le traitre est avec eux !
+Kalia_Plaza_RebelQuest4_11 = Ouvrez le feu !
+
+Kalia_Plaza_RebelQuest4_12 = Les soldats du Marchand sont au sol.
+Kalia_Plaza_RebelQuest4_13 = Tu as vu ça ?
+Kalia_Plaza_RebelQuest4_14 = Les rebelles ont peut être une chance de gagner.
+Kalia_Plaza_RebelQuest4_15 = Oui. Il serait peut être sage de les soutenir. Ils peuvent nous défendre.
+Kalia_Plaza_RebelQuest4_16 = Bien. Le peuple commence à nous faire confiance.
+Kalia_Plaza_RebelQuest4_17 = Retournons voir Amanda. Je me demande qul est la prochaine étape.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Lighthouse -------------------------
 # ---------------------------------------------------------
@@ -757,6 +776,26 @@ Kalia_BarSalvation_Quest3End_28 = Si on a du temps libre, est-ce qu'on peut alle
 Kalia_BarSalvation_Quest3End_29 = Il y a quelqu'un que je dois voir ?
 Kalia_BarSalvation_Quest3End_30 = Une sage décision, Anna. Dis-lui bonjour de ma part.
 Kalia_BarSalvation_Quest3End_31 = Très bien, je vais y penser.
+
+Kalia_BarSalvation_Quest4End_1 = [MC] ? Que Kalibu soit béni, vous êtes de retour !
+Kalia_BarSalvation_Quest4End_2 = Quelque chose ne va pas ?
+Kalia_BarSalvation_Quest4End_3 = C'est Bos... Il a été capturé.
+Kalia_BarSalvation_Quest4End_4 = Quoi ? Comment ?
+Kalia_BarSalvation_Quest4End_5 = Apparement votre ami de la garde républicaine l'a pris par surprise.
+Kalia_BarSalvation_Quest4End_6 = Ce fou... Il a du le garder à l'oeil depuis notre excursion à l'ile.
+Kalia_BarSalvation_Quest4End_7 = Ou est-til ? On doit le sauver.
+Kalia_BarSalvation_Quest4End_8 = C'est la partie étrange. On sait que Bos a été capturé car Epée nous à dit ou il était.
+Kalia_BarSalvation_Quest4End_9 = Quoi ?
+Kalia_BarSalvation_Quest4End_10 = Je viens de recevoir une lettre. Elle stipule que Bos est au camp Espoir.
+Kalia_BarSalvation_Quest4End_11 = Elle dit aussi que tu dois y aller. Sinon, il va l'executer.
+Kalia_BarSalvation_Quest4End_12 = Je suppose qu'il veut se venger des deux fois ou je l'ai vaincu.
+Kalia_BarSalvation_Quest4End_13 = Ok. C'est de ma faute. Bos a été capturé à cause de moi.
+Kalia_BarSalvation_Quest4End_14 = Je vais le rammener.
+Kalia_BarSalvation_Quest4End_15 = Bonne chance...
+Kalia_BarSalvation_Quest4End_16 = Hé ! Je viens quand même avec toi !
+Kalia_BarSalvation_Quest4End_17 = Tu peux me suivre jusqu'à l'entrée du camp. Mais je vais devoir y entrer seul.
+Kalia_BarSalvation_Quest4End_18 = Tu pourras garder un oeil sur Ace pendant ce temps.
+Kalia_BarSalvation_Quest4End_19 = ... Compris.
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------

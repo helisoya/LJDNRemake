@@ -27,6 +27,7 @@ rebelQuest_1 -1
 rebelQuest_2 -1
 rebelQuest_3 -1
 rebelQuest_4 -1
+rebelQuest_5 -1
 
 marklichtQuest_0 -1
 marklichtQuest_1 -1

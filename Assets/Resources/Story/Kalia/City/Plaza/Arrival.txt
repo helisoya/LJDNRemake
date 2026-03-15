@@ -13,6 +13,12 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_Kalia)
 
+
+if(rebelQuest_4 = 0){
+	load(Kalia/City/Plaza/RebelQuest4)
+	return()
+}
+
 if(arcQuest_Guard_2 = 0){
 	addCharacter(GUARD;false)
 	setCharacterPosition(GUARD;Civilian1)
