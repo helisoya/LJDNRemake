@@ -313,6 +313,9 @@ rebelQuest_4_done = I distributed leaflets
 rebelQuest_5 = Hostage
 rebelQuest_5_0 = Save Bos at Camp Hope
 
+rebelQuest_6 = Revolution
+rebelQuest_6_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
+
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress
 marklichtQuest_0_done = I joined Marklicht
@@ -327,6 +330,10 @@ factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
 factionQuest_Rebel_1_1 = Visit Orkva's Suori shrine
 factionQuest_Rebel_1_done = I saved a priest
+
+factionQuest_Rebel_2 = Fire & Unrest
+factionQuest_Rebel_2_0 = Set fire to Tolau's Farm
+factionQuest_Rebel_2_done = I distracted Orkvian soldiers using a fire
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -572,6 +579,7 @@ ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel
 
 ENNEMY_SwordVar1_name = Sword
+ENNEMY_SwordVar2_name = Sword
 
 ENNEMY_KaliaSoldier_Rifle_name = Soldier
 ENNEMY_KaliaSoldier_Revolver_name = Soldier

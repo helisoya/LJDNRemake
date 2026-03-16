@@ -13,6 +13,11 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_KaliaCamp)
 
+if(rebelQuest_5 = 0){
+	load(Kalia/Camp/RebelQuest5)
+	return()
+}
+
 if(arcQuest_Guard_4 = 0){
 	addCharacter(GUARD;false)
 	setCharacterPosition(GUARD;Spot1)

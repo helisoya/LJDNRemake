@@ -312,6 +312,10 @@ rebelQuest_4_done = J'ai distribué des tracts
 
 rebelQuest_5 = Hotage
 rebelQuest_5_0 = Sauvez Bos au camp Espoir
+rebelQuest_5_done = J'ai sauvé Bos
+
+rebelQuest_6 = Revolution
+rebelQuest_6_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
 
 marklichtQuest_0 = Changer de camp
 marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière
@@ -327,6 +331,10 @@ factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
 factionQuest_Rebel_1_1 = Visitez l'autel Suori d'Orkva
 factionQuest_Rebel_1_done = J'ai sauvé un prêtre
+
+factionQuest_Rebel_2 = Feu & Emeute
+factionQuest_Rebel_2_0 = Mettez le feu à la ferme de Tolau
+factionQuest_Rebel_2_done = J'ai distrait des soldats Orkviens en utilisant un incendit
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
@@ -572,6 +580,7 @@ ENNEMY_Rebel_Hand_name = Rebelle
 ENNEMY_Rebel_Knife_name = Rebelle
 
 ENNEMY_SwordVar1_name = Epée
+ENNEMY_SwordVar2_name = Epée
 
 ENNEMY_KaliaSoldier_Rifle_name = Soldat
 ENNEMY_KaliaSoldier_Revolver_name = Soldat
