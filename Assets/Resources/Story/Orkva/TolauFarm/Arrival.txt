@@ -5,7 +5,9 @@ setLocals(orkvaRegion)
 
 playMusic(Exploration_OrkvaLow)
 removeAllCharacters()
-setBackground(Orkva/Region/TolauFarm)
+
+if(factionQuest_Rebel_2 = 100) setBackground(Orkva/Region/TolauFarmFire)
+else setBackground(Orkva/Region/TolauFarm)
 
 load(Common/ProcessDayNight)
 load(Common/ProcessWeather)
@@ -16,5 +18,10 @@ setLocation(Location_Orkva)
 autosave()
 
 fadeFg(0;false)
+
+if(factionQuest_Rebel_2 = 0){
+	load(Orkva/TolauFarm/RebelFactionQuest2)
+	return()
+}
 
 load(Orkva/TolauFarm/Interaction)

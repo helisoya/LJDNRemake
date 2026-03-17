@@ -448,6 +448,18 @@ Okville_TrainStation_ArcQuest_27 = Je saute et regarde le train poursuivre sa ro
 Okville_TrainStation_ArcQuest_28 = Je devrais retourner chez Sam.
 Okville_TrainStation_ArcQuest_29 = Il mérite au moins une explication.
 
+# ---------------------------------------------------------
+# ---------------------- Tolau's Farm ---------------------
+# ---------------------------------------------------------
+
+TolauFarm_RebelFactionQuest2_1 = Et bien... Voila la ferme que Bos veut que je brule.
+TolauFarm_RebelFactionQuest2_2 = Je ne suis pas completement d'accord avec cette méthode, mais nous n'avons pas le choix.
+TolauFarm_RebelFactionQuest2_3 = Si cela peut faire une diversion, ça en vaux la peine.
+TolauFarm_RebelFactionQuest2_4 = Je met le feu à la ferme avec Anna.
+TolauFarm_RebelFactionQuest2_5 = Nous nous assurons que personne ne nous remarque.
+TolauFarm_RebelFactionQuest2_6 = Bien. Le feu est parti bien plus vite que prévu.
+TolauFarm_RebelFactionQuest2_7 = Ca devrait être suffisant. Il est temps de retourner à Kalia.
+
 
 # ---------------------------------------------------------
 # ---------------------- Tolau ---------------------------

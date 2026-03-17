@@ -45,5 +45,6 @@ setCharacterAlpha(Anna;0;true)
 removeCharacter(Anna)
 
 variable(factionQuest_Rebel_1;100)
+addExpToAll(25)
 
 load(Orkva/Shrine/Interaction)

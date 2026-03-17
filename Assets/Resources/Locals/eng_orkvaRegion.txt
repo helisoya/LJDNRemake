@@ -450,6 +450,18 @@ Okville_TrainStation_ArcQuest_28 = I should head back to Sam's house.
 Okville_TrainStation_ArcQuest_29 = He deserves at least an explaination.
 
 # ---------------------------------------------------------
+# ---------------------- Tolau's Farm ---------------------
+# ---------------------------------------------------------
+
+TolauFarm_RebelFactionQuest2_1 = Well. This is where I the farm Bos wanted me to set fire to.
+TolauFarm_RebelFactionQuest2_2 = I'm not exactly fine with this, but I have no choice.
+TolauFarm_RebelFactionQuest2_3 = If it can divert some Orkvian troops, it's worth it.
+TolauFarm_RebelFactionQuest2_4 = I set fire to the farm with Anna.
+TolauFarm_RebelFactionQuest2_5 = We make sure nobody can see what we're doing.
+TolauFarm_RebelFactionQuest2_6 = Okay. The fire went off faster than expected.
+TolauFarm_RebelFactionQuest2_7 = This should do the trick. Time to head back to Kalia.
+
+# ---------------------------------------------------------
 # ---------------------- Tolau ---------------------------
 # ---------------------------------------------------------
 
