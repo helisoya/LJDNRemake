@@ -312,9 +312,12 @@ rebelQuest_4_done = I distributed leaflets
 
 rebelQuest_5 = Hostage
 rebelQuest_5_0 = Save Bos at Camp Hope
+rebelQuest_5_done = I saved Bos
 
 rebelQuest_6 = Revolution
 rebelQuest_6_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
+rebelQuest_6_1 = Talk to Amanada at the rebels HQ in Kalia
+rebelQuest_6_done = We toppled the Merchant and defeated Orkva
 
 marklichtQuest_0 = Switching side
 marklichtQuest_0_0 = If I wish to join Marklicht, I must talk to Lame at the Border Fortress

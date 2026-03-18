@@ -797,6 +797,19 @@ Kalia_BarSalvation_Quest4End_17 = You can follow me to the camp's entrance. But 
 Kalia_BarSalvation_Quest4End_18 = You can keep an eye on Ace in the meantime.
 Kalia_BarSalvation_Quest4End_19 = ... Okay.
 
+Kalia_BarSalvation_Quest6Start_1 = [MC] ! I heard from Bos. Is it true that Orkva is planning an invasion ?
+Kalia_BarSalvation_Quest6Start_2 = Yes, boss. We might have to hurry with our toppling of the Merchant.
+Kalia_BarSalvation_Quest6Start_3 = Orkva's military is quite formidable. I'm sure they'll manage to defeat the Kalian army.
+Kalia_BarSalvation_Quest6Start_4 = Then it's settled. We'll depart as soon as possible to the palace.
+Kalia_BarSalvation_Quest6Start_5 = It's time to free this city and its citizen.
+Kalia_BarSalvation_Quest6Start_6 = Be sure to restock on supplies. This is your last chance before the final battle.
+Kalia_BarSalvation_Quest6Start_7 = Talk to me when you're ready.
+
+Kalia_BarSalvation_Quest6Ask_1 = Are you ready to topple the Merchant ?
+Kalia_BarSalvation_Quest6Ask_2 = <color=red>This will lead to the end of the game. This is the last warning.</color>
+
+Kalia_BarSalvation_Quest6Ask_3 = I'm ready.
+Kalia_BarSalvation_Quest6Ask_4 = Good. Let's go. To the palace !
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------

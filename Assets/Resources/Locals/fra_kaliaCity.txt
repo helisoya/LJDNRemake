@@ -797,6 +797,20 @@ Kalia_BarSalvation_Quest4End_17 = Tu peux me suivre jusqu'à l'entrée du camp. 
 Kalia_BarSalvation_Quest4End_18 = Tu pourras garder un oeil sur Ace pendant ce temps.
 Kalia_BarSalvation_Quest4End_19 = ... Compris.
 
+Kalia_BarSalvation_Quest6Start_1 = [MC] ! J'ai eu la nouvelle par Bos. Est-ce vrai qu'Orkva planifie une invasion ?
+Kalia_BarSalvation_Quest6Start_2 = Oui, patron. On va peut être devoir se dépecher avec nos plans contre le Marchand.
+Kalia_BarSalvation_Quest6Start_3 = L'armée Orkvienne est bien armée. Je n'ai aucun doute qu'elle arrivera à vaincre celle de Kalia.
+Kalia_BarSalvation_Quest6Start_4 = Alors c'est décidé. Nous allons prendre le palais dès que possible.
+Kalia_BarSalvation_Quest6Start_5 = Il est temps de libérer cette ville et ses citoyens.
+Kalia_BarSalvation_Quest6Start_6 = Assurez-vous d'avoir des stocks. C'est votre dernière chance avant la bataille finale.
+Kalia_BarSalvation_Quest6Start_7 = Parlez-moi quand vous êtes prêt.
+
+Kalia_BarSalvation_Quest6Ask_1 = Etes-vous prêt à renverser le Marchand ?
+Kalia_BarSalvation_Quest6Ask_2 = <color=red>Cela va ammener à la fin du jeu. Continuer ?</color>
+
+Kalia_BarSalvation_Quest6Ask_3 = Je suis prêt.
+Kalia_BarSalvation_Quest6Ask_4 = Bien. Allons-y. Au palais !
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------

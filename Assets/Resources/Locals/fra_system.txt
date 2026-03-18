@@ -316,6 +316,8 @@ rebelQuest_5_done = J'ai sauvé Bos
 
 rebelQuest_6 = Revolution
 rebelQuest_6_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
+rebelQuest_6_1 = Parlez à Amanada au QG des rebelles, à Kalia
+rebelQuest_6_done = Nous avons renversé le Marchand et repoussé Orkva
 
 marklichtQuest_0 = Changer de camp
 marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière

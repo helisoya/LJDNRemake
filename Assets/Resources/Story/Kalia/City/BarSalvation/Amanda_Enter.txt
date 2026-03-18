@@ -18,6 +18,10 @@ if(rebelQuest_4 = 1){
 	return()
 }
 
+if(rebelQuest_6 = 0){
+	load(Kalia/City/BarSalvation/RebelQuest6Start)
+	return()
+}
 
 setCharacterAlpha(Amanda;0;true)
 setCharacterBody(Amanda;Normal;true)
@@ -27,6 +31,11 @@ setCharacterAlpha(Amanda;1;false)
 
 if(rebelQuest_1 = 0){
 	load(Kalia/City/BarSalvation/RebelQuest1Start)
+	return()
+}
+
+if(rebelQuest_6 = 1){
+	load(Kalia/City/BarSalvation/RebelQuest6Ask)
 	return()
 }
 

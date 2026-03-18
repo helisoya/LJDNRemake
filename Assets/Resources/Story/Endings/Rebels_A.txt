@@ -1,0 +1,8 @@
+fadeBg(1;true)
+removeAllCharacters()
+
+setLocals(endings)
+playMusic(Exploration_Kalia)
+setBackground(Kalia/City/Plaza)
+load(Common/DisplayWeatherCloud)
+
