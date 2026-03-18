@@ -1,3 +1,71 @@
 # ------------------------------------------------------------------------
 # ---------------------------- Rebel -------------------------------------
 # ------------------------------------------------------------------------
+
+Ending_Rebels_1 = After a while, all rebel forces meet up in front of the Consul's Palace.
+Ending_Rebels_2 = Listen up, comrades !
+Ending_Rebels_3 = Today, we bring down the Merchant !
+Ending_Rebels_4 = They don't know we're coming, so be sure to strike firt.
+Ending_Rebels_5 = You all have your personnal objectives. Just make sure to let us handle the tyrant.
+Ending_Rebels_6 = We'll teach him a lesson he'll never forget, in hell.
+Ending_Rebels_7 = [MC], you're with me.
+Ending_Rebels_8 = Yes, boss. What are your orders ?
+Ending_Rebels_9 = Same as everyone. We enter the palace, locate the Merchant and kill him.
+Ending_Rebels_10 = With your knowledge of the building, we'll get there faster.
+Ending_Rebels_11 = Right. I just can't predict the resistance we'll be facing.
+Ending_Rebels_12 = The republican guard is now extinct. But knowing the old man, he probably asked soldiers to stay back and defend him.
+Ending_Rebels_13 = I asked several comrades to distract as many as they can. It'll be easier.
+Ending_Rebels_14 = Okay. Let's do this !
+Ending_Rebels_15 = We enter the palace. It's time to end this once and for all.
+
+Ending_Rebels_16 = After fighting our way through the palace, we manage to get to consul's office.
+Ending_Rebels_17 = He's behind this door, isn't he ?
+Ending_Rebels_18 = Yes. Better get ready.
+Ending_Rebels_19 = I can't say for certain if he is armed, or if he has guards.
+Ending_Rebels_20 = Okay. Ready ?
+Ending_Rebels_21 = Move in !
+Ending_Rebels_22 = We enter the room. Sure enough, the Merchant is there.
+Ending_Rebels_23 = Wh- What ?! How could it be ?
+Ending_Rebels_24 = Those damn incompetents ! Where is Sword when I need him ?!
+Ending_Rebels_25 = It's over, consul.
+Ending_Rebels_26 = You... [MC] ! How dare you betray me !
+Ending_Rebels_27 = Because of you, I lost two precious artefacts. Do you know how painful it was to locate and acquire them ?
+Ending_Rebels_28 = Cut it out ! You're under arrest for treason.
+Ending_Rebels_29 = What ? And on what grounds ? I'm the consul ! I make the rules.
+Ending_Rebels_30 = You conspired against the interests of the people and allied nations. All just to enrich yourself and get more artefacts.
+Ending_Rebels_31 = Now Orkva is at our door, and what are you doing ? Cowering in fear ?
+Ending_Rebels_32 = Bah ! I'll just give them a few gold coins. That'll make them leave.
+Ending_Rebels_33 = Besides. What makes you think you have a better shot at this ?
+Ending_Rebels_34 = Soon, Orkva will be at Kalia's gates. The army will be in shambles.
+Ending_Rebels_35 = Only a skillful negociator like me can salvage the situation.
+Ending_Rebels_36 = We'll figure something out. We always did.
+Ending_Rebels_37 = Kalia is a fortified city. I'm not sure Orkva will have the firepower to siege us for long.
+Ending_Rebels_38 = ...
+Ending_Rebels_39 = Give up, consul. You could maybe live to see another day if you comply.
+Ending_Rebels_40 = A cheap lie. If we don't kill him, the people surely will.
+Ending_Rebels_41 = ...
+Ending_Rebels_42 = Never !
+Ending_Rebels_43 = I'll never surrender my office ! This city is MINE !
+Ending_Rebels_44 = Then you'll die.
+Ending_Rebels_45 = I'll show you no mercy ! Now get ready !
+
+Ending_Rebels_46 = We did it...
+Ending_Rebels_47 = I never thought I would see the day of his demise.
+Ending_Rebels_48 = Well. This is it. We toppled him. We are in control.
+Ending_Rebels_49 = Kalia will soon be able to go back to being a free republic. Free of tyrants.
+Ending_Rebels_50 = How do we announce this to the people ?
+Ending_Rebels_51 = All in due time. Orkva could be at the city's gate at any moment.
+Ending_Rebels_52 = Boss !
+Ending_Rebels_53 = What is it ?
+Ending_Rebels_54 = It's Bos. He went to moniter the forest as instructed.
+Ending_Rebels_55 = He reported that Orkva is on the move.
+Ending_Rebels_56 = And the Kalian military ?
+Ending_Rebels_57 = The battle is already over. Orkva won.
+Ending_Rebels_58 = Although... It seems like the Orkvian army is in a bad shape.
+Ending_Rebels_59 = Our military gave them a good fight. This might be an opportunity.
+Ending_Rebels_60 = Where are they now ?
+Ending_Rebels_61 = Bos estimated they would arrive at the outpost ouside the White Forest in about an hour.
+Ending_Rebels_62 = Good. Let's intercept them.
+Ending_Rebels_63 = I have an idea to make them leave.
+Ending_Rebels_64 = Okay, if you say so.
+Ending_Rebels_65 = We leave the palace in the hands of comrades, and head for the outpost.
