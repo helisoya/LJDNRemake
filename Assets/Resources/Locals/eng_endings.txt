@@ -13,7 +13,7 @@ Ending_Rebels_8 = Yes, boss. What are your orders ?
 Ending_Rebels_9 = Same as everyone. We enter the palace, locate the Merchant and kill him.
 Ending_Rebels_10 = With your knowledge of the building, we'll get there faster.
 Ending_Rebels_11 = Right. I just can't predict the resistance we'll be facing.
-Ending_Rebels_12 = The republican guard is now extinct. But knowing the old man, he probably asked soldiers to stay back and defend him.
+Ending_Rebels_12 = The republican guard is now extinct. But knowing the old man, he probably asked some soldiers to stay back and defend him.
 Ending_Rebels_13 = I asked several comrades to distract as many as they can. It'll be easier.
 Ending_Rebels_14 = Okay. Let's do this !
 Ending_Rebels_15 = We enter the palace. It's time to end this once and for all.
@@ -47,7 +47,7 @@ Ending_Rebels_41 = ...
 Ending_Rebels_42 = Never !
 Ending_Rebels_43 = I'll never surrender my office ! This city is MINE !
 Ending_Rebels_44 = Then you'll die.
-Ending_Rebels_45 = I'll show you no mercy ! Now get ready !
+Ending_Rebels_45 = I'll show you no mercy. Now get ready !
 
 Ending_Rebels_46 = We did it...
 Ending_Rebels_47 = I never thought I would see the day of his demise.
@@ -69,3 +69,51 @@ Ending_Rebels_62 = Good. Let's intercept them.
 Ending_Rebels_63 = I have an idea to make them leave.
 Ending_Rebels_64 = Okay, if you say so.
 Ending_Rebels_65 = We leave the palace in the hands of comrades, and head for the outpost.
+Ending_Rebels_66 = It seems we arrived just in time. The Orkvians have arrived.
+Ending_Rebels_67 = Let me handle this.
+Ending_Rebels_68 = As the Orkvians start to surround us. I notice something.
+Ending_Rebels_69 = Ah, I get it. Amanda wants to talk with their General.
+Ending_Rebels_70 = And I think I can see him. He moving towards us.
+Ending_Rebels_71 = And what do we have here ? More of the Merchant's goons ?
+Ending_Rebels_72 = The Merchant is no more. We represent Kalia's interests.
+Ending_Rebels_73 = Eh Eh ! Ready to surrender ?
+Ending_Rebels_74 = Not quite. I wish to have a duel with you.
+Ending_Rebels_75 = Uh ? Oh... I think I get it.
+Ending_Rebels_76 = If we kill the General, the army might fall back.
+Ending_Rebels_77 = Actually, now that I look at them... They seem battered.
+Ending_Rebels_78 = I don't think they can take the city even if they want to.
+Ending_Rebels_79 = A duel ? A duel for your pitiful city ?
+Ending_Rebels_80 = Yes. If you win, we'll surrender.
+Ending_Rebels_81 = Eh Eh Eh ! Fine, but under one condition.
+Ending_Rebels_82 = I want my guards to fight with me.
+Ending_Rebels_83 = Fine. But then I want my comrades to fight too.
+Ending_Rebels_84 = Eh ! As you wish. It's not like a dog could defeat us.
+Ending_Rebels_85 = We get ready. The General and his guards do the same.
+Ending_Rebels_86 = This is it. The final battle !
+
+Ending_Rebels_87 = We did it. We defeated the General !
+Ending_Rebels_88 = Wha- What ? The General is dead ?!
+Ending_Rebels_89 = What do we do ? Do we continue the offensive ?
+Ending_Rebels_90 = Who's in command ?
+Ending_Rebels_91 = Well... I don't know...
+Ending_Rebels_92 = Screw that ! We're retreating ! This isn't worth it.
+Ending_Rebels_93 = Wai- Wait !
+Ending_Rebels_94 = The soldiers disperse. It seems their morale was pretty low.
+Ending_Rebels_95 = Orkva military has a crutial weak spot : their command chain.
+Ending_Rebels_96 = All these soldiers have the same rank. There is no commander left.
+Ending_Rebels_97 = We did it. We got our freedom.
+Ending_Rebels_98 = Yes. Thanks to you, too.
+Ending_Rebels_99 = Come. Let us announce our victory to the people.
+Ending_Rebels_100 = After that, we proclaimed a new Kalian government.
+Ending_Rebels_101 = Elections were reestablished, and the rebels all got positions in the new administration.
+Ending_Rebels_102 = Me ? I got promoted to chief of the army. 
+Ending_Rebels_103 = My mother would be proud. I finished what she had started all those years ago.
+Ending_Rebels_104 = I'll work hard to keep our revolution safe. No tyrant will ever come to power again. Not on my watch.
+Ending_Rebels_105 = In the meantime...
+
+# ------------------------------------------------------------------------
+# ---------------------------- General -----------------------------------
+# ------------------------------------------------------------------------
+
+Ending_General_1 = THE END
+Ending_General_2 = Thank you for playing GAME_NAME (pls change the name, don't forget to do it !!!) !

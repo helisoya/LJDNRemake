@@ -574,6 +574,9 @@ ENNEMY_Animal_Dragon1_name = Dragon
 ENNEMY_Animal_Dragon2_name = Dragon
 
 ENNEMY_Orkva_VorlanGovernor_name = Military Governor
+ENNEMY_Orkva_BodyGuard_name = Body guard
+ENNEMY_Orkva_Ogden_name = Body guard
+ENNEMY_Orkva_Pal_name = General Pal
 ENNEMY_OrkvaSoldier_Sword_name = Soldier
 ENNEMY_OrkvaSoldier_Revolver_name = Soldier
 ENNEMY_OrkvaSoldier_Rifle_name = Soldier
@@ -586,6 +589,7 @@ ENNEMY_SwordVar2_name = Sword
 
 ENNEMY_KaliaSoldier_Rifle_name = Soldier
 ENNEMY_KaliaSoldier_Revolver_name = Soldier
+ENNEMY_Kalia_Merchant_name = The Merchant
 
 DOGACE_name = Ace
 GUARD_name = GUARD

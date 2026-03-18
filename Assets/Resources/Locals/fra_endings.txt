@@ -1,3 +1,120 @@
 # ------------------------------------------------------------------------
 # ---------------------------- Rebel -------------------------------------
 # ------------------------------------------------------------------------
+
+
+Ending_Rebels_1 = Après un peu de temps, toutes les forces rebelles se rassemblent devant le palais du Consul.
+Ending_Rebels_2 = Camarades, écoutez !
+Ending_Rebels_3 = Aujourd'hui, nous renversons le Marchand !
+Ending_Rebels_4 = Ils ne savent pas que nous arrivons, alors frappons les premiers !
+Ending_Rebels_5 = Vous avez tous vos taches. Assurez-vous simplement de nous laisser gérer le tyran.
+Ending_Rebels_6 = Nous allons lui donner une leçon qu'il n'oubliera jamais, en enfer !
+Ending_Rebels_7 = [MC], avec moi.
+Ending_Rebels_8 = Compris, chef. Quels sont vos ordres ?
+Ending_Rebels_9 = Les mêmes que pour tout le monde. Nous entrons dans le palais, localisons et tuons le Marchand. 
+Ending_Rebels_10 = Grâce à votre connaissance du bâtiment, on y arrivera plus vite.
+Ending_Rebels_11 = C'est vrai. Je ne peux cependant pas prévoir la résistance que nous allons rencontrer.
+Ending_Rebels_12 = La garde républicaine est maintenant anéantie. Mais connaissant le viellard, il a probablement demandé à certains soldats de rester en arrière pour le défendre.
+Ending_Rebels_13 = J'ai demandé à plusieurs camarades de distraire le plus d'ennemis possible. Ce sera plus facile.
+Ending_Rebels_14 = D'accord. Allons-y !
+Ending_Rebels_15 = Nous entrons dans le palais. Il est temps d'en finir une fois pour toutes.
+
+Ending_Rebels_16 = Après nous être frayé un chemin à travers le palais, nous parvenons au bureau du consul.
+Ending_Rebels_17 = Il est derrière cette porte, n'est-ce pas ?
+Ending_Rebels_18 = Oui. Préparez-vous.
+Ending_Rebels_19 = Je ne peux pas dire avec certitude s'il est armé ou s'il a des gardes.
+Ending_Rebels_20 = Compris. Prêt ?
+Ending_Rebels_21 = En avant !
+Ending_Rebels_22 = Nous entrons dans la pièce. Et bien sûr, le Marchand est là.
+Ending_Rebels_23 = Qu- Quoi ?! Comment est-ce possible ?
+Ending_Rebels_24 = Ces maudits incompétents ! Où est Epée quand j'ai besoin de lui ?!
+Ending_Rebels_25 = C'est fini, consul. 
+Ending_Rebels_26 = Toi... [MC] ! Comment oses-tu me trahir !
+Ending_Rebels_27 = À cause de toi, j'ai perdu deux précieux artefacts. Sais-tu combien de temps j'ai perdu à les localiser et les acquérir ?
+Ending_Rebels_28 = Ça suffit ! Vous êtes en état d'arrestation pour trahison.
+Ending_Rebels_29 = Quoi ? Et qu'est ce qu'il vous donne le droit ? Je suis le consul ! C'est moi qui décide les lois.
+Ending_Rebels_30 = Vous avez conspiré contre les intérêts du peuple et des nations alliées. Tout ça pour vous enrichir et obtenir plus d'artefacts.
+Ending_Rebels_31 = Orkva est maintenant à nos portes, et que faites-vous ? Vous vous terrez dans votre bureau ?
+Ending_Rebels_32 = Bah ! Je vais juste leur donner quelques pièces d'or. Ça les fera partir.
+Ending_Rebels_33 = D'ailleurs... Qu'est-ce qui vous fait croire que vous avez plus de chances ?
+Ending_Rebels_34 = Bientôt, Orkva sera aux portes de Kalia. Notre armée sera en déroute.
+Ending_Rebels_35 = Seul un négociateur habile comme moi peut sauver la situation.
+Ending_Rebels_36 = On trouvera une solution. On l'a toujours fait.
+Ending_Rebels_37 = Kalia est une ville fortifiée. Je ne suis pas sûr qu'Orkva ait la puissance de feu nécessaire pour nous assiéger longtemps.
+Ending_Rebels_38 = ...
+Ending_Rebels_39 = Abandonnez, consul. Vous pourriez peut-être survivre un jour de plus si vous coopérez.
+Ending_Rebels_40 = C'est un mensonge. Si nous ne le tuons pas, le peuple s'en chargera.
+Ending_Rebels_41 = ...
+Ending_Rebels_42 = Jamais ! 
+Ending_Rebels_43 = Je ne quiterai jamais mon poste ! Cette ville est à MOI !
+Ending_Rebels_44 = Alors vous mourrez.
+Ending_Rebels_45 = Pas de quartier ! Préparez-vous !
+
+Ending_Rebels_46 = On a réussi...
+Ending_Rebels_47 = Je n'aurais jamais cru voir arriver le jour de sa chute.
+Ending_Rebels_48 = Eh bien. Ça y est. On l'a renversé. On a pris le contrôle.
+Ending_Rebels_49 = Kalia pourra bientôt redevenir une république libre. Libre de tyrans.
+Ending_Rebels_50 = Comment allons-nous annoncer la nouvelle ?
+Ending_Rebels_51 = Chaque chose en son temps. Orkva peut arriver aux portes de la ville à tout moment.
+Ending_Rebels_52 = Chef !
+Ending_Rebels_53 = Quel est le problème ?
+Ending_Rebels_54 = C'est Bos. Il est allé surveiller la forêt comme prévu.
+Ending_Rebels_55 = Il a signalé qu'Orkva se déplace. 
+Ending_Rebels_56 = Et l'armée Kalienne ?
+Ending_Rebels_57 = La bataille est terminée. Orkva a gagné.
+Ending_Rebels_58 = Cependant... Il semble que l'armée Orkvienne soit en mauvaise état.
+Ending_Rebels_59 = Nos militaires leur ont donné du fil à retordre. C'est peut-être une opportunité.
+Ending_Rebels_60 = Où sont-ils maintenant ?
+Ending_Rebels_61 = Bos a estimé qu'ils arriveraient à l'avant-poste à l'extérieur de la Forêt Blanche dans environ une heure.
+Ending_Rebels_62 = Bien. Interceptons-les.
+Ending_Rebels_63 = J'ai une idée pour les faire battre en retraite.
+Ending_Rebels_64 = Si vous le dites.
+Ending_Rebels_65 = Nous laissons le palais entre les mains de nos camarades et nous dirigeons vers l'avant-poste. 
+Ending_Rebels_66 = On dirait qu'on est arrivés juste à temps. Les Orkviens commencent à arriver.
+Ending_Rebels_67 = Laissez-moi m'en occuper.
+Ending_Rebels_68 = Alors que les Orkviens commencent à nous encercler, je remarque quelque chose.
+Ending_Rebels_69 = Ah, je comprends. Amanda veut parler à leur Général.
+Ending_Rebels_70 = Et je crois que je le vois. Il s'approche de nous.
+Ending_Rebels_71 = Tiens, tiens, qu'est-ce qu'on a là ? Encore des sbires du Marchand ?
+Ending_Rebels_72 = Le Marchand n'est plus. Nous représentons les intérêts de Kalia.
+Ending_Rebels_73 = Eh eh ! Prêts à vous rendre ?
+Ending_Rebels_74 = Pas tout à fait. Je souhaite vous défier en duel.
+Ending_Rebels_75 = Hein ? Oh... Je crois que je comprends. 
+Ending_Rebels_76 = Si on tue le Général, l'armée risque de battre en retraite.
+Ending_Rebels_77 = En fait, maintenant que je les vois... Ils ont l'air épuisés.
+Ending_Rebels_78 = Je ne pense pas qu'ils puissent prendre la ville, même s'ils le veulent.
+Ending_Rebels_79 = Un duel ? Un duel pour votre misérable ville ?
+Ending_Rebels_80 = Oui. Si vous gagnez, nous nous rendrons.
+Ending_Rebels_81 = Eh Eh Eh ! Très bien, mais à une condition.
+Ending_Rebels_82 = Je veux que mes gardes se battent à mes côtés.
+Ending_Rebels_83 = Très bien. Mais alors je veux que mes camarades se battent aussi.
+Ending_Rebels_84 = Eh ! Comme vous voulez. Ce n'est pas comme si un chien pourrait nous vaincre.
+Ending_Rebels_85 = Nous nous préparons au combat. Le Général et ses gardes font de même.
+Ending_Rebels_86 = Ça y est. C'est la bataille finale !
+
+Ending_Rebels_87 = On l'a fait ! On a vaincu le Général !
+Ending_Rebels_88 = Quoi ?! Le Général est mort ?!
+Ending_Rebels_89 = On fait quoi ? On continue l'offensive ?
+Ending_Rebels_90 = Qui commande ?
+Ending_Rebels_91 = Eh bien... je ne sais pas...
+Ending_Rebels_92 = Arrêtez tout ! On bat en retraite ! Ça n'en vaut pas la peine.
+Ending_Rebels_93 = Atte-... Attendez !
+Ending_Rebels_94 = Les soldats se dispersent. Leur moral était visiblement bien bas.
+Ending_Rebels_95 = L'armée d'Orkva a un point faible crucial : sa chaîne de commandement.
+Ending_Rebels_96 = Tous ces soldats ont le même grade. Il n'y a plus de commandant.
+Ending_Rebels_97 = On l'a fait ! On a retrouvé notre liberté !
+Ending_Rebels_98 = Oui. Et c'est grace à vous.
+Ending_Rebels_99 = Venez. Annonçons notre victoire au peuple.
+Ending_Rebels_100 = Après cela, nous avons proclamé un nouveau gouvernement Kalien.
+Ending_Rebels_101 = Les élections ont été rétablies et tous les rebelles ont obtenu des postes dans la nouvelle administration.
+Ending_Rebels_102 = Moi ? J'ai été promu chef de l'armée.
+Ending_Rebels_103 = Ma mère serait fière. J'ai terminé ce qu'elle avait commencé il y a tant d'années.
+Ending_Rebels_104 = Je travaillerai dur pour protéger notre révolution. Aucun tyran ne reviendra jamais au pouvoir. Pas tant que je serai là.
+Ending_Rebels_105 = En attendant...
+
+# ------------------------------------------------------------------------
+# ---------------------------- General -----------------------------------
+# ------------------------------------------------------------------------
+
+Ending_General_1 = LA FIN
+Ending_General_2 = Merci d'avoir joué à NOM_JEU (Pense a changer!!!) !
