@@ -811,6 +811,32 @@ Kalia_BarSalvation_Quest6Ask_2 = <color=red>Cela va ammener à la fin du jeu. Co
 Kalia_BarSalvation_Quest6Ask_3 = Je suis prêt.
 Kalia_BarSalvation_Quest6Ask_4 = Bien. Allons-y. Au palais !
 
+Kalia_BarSalvation_MarklichtQuest1_1 = C'est bien ici, mais ou sont les rebelles ?
+Kalia_BarSalvation_MarklichtQuest1_2 = Peut être... Attends...
+Kalia_BarSalvation_MarklichtQuest1_3 = Ce tonneau est en réalité une porte. J'aurais du m'en douter.
+Kalia_BarSalvation_MarklichtQuest1_4 = J'entre dans le tonneau. La piece est dans le noir.
+Kalia_BarSalvation_MarklichtQuest1_5 = C'est ici ?
+Kalia_BarSalvation_MarklichtQuest1_6 = Soudain, je sent une arme dans mon dos.
+Kalia_BarSalvation_MarklichtQuest1_7 = Ne bouge pas.
+Kalia_BarSalvation_MarklichtQuest1_8 = Je viens en paix. Je suis avec le Marklicht.
+Kalia_BarSalvation_MarklichtQuest1_9 = Le Marklicht ? Vous êtes de la garde républicaine, non ?
+Kalia_BarSalvation_MarklichtQuest1_10 = J'ai changé de camp. Ma supérieur m'envoie vous parler.
+Kalia_BarSalvation_MarklichtQuest1_11 = Qu'est ce qu'elle nous veut ?
+Kalia_BarSalvation_MarklichtQuest1_12 = Tout est dans cette lettre. Nous avons une offre pour vous.
+Kalia_BarSalvation_MarklichtQuest1_13 = Le Marklicht prépare une invasion de Kalia. Nous vous offrons des positions dans l'administration si vous nous aidez.
+Kalia_BarSalvation_MarklichtQuest1_14 = Quoi ? Laissez-moi voir.
+Kalia_BarSalvation_MarklichtQuest1_15 = ...
+Kalia_BarSalvation_MarklichtQuest1_16 = Hmm...
+Kalia_BarSalvation_MarklichtQuest1_17 = Je déteste l'idée de perdre notre indépendance, mais cette offre...
+Kalia_BarSalvation_MarklichtQuest1_18 = Hmm... Je vais y réflechir avec mes camarades.
+Kalia_BarSalvation_MarklichtQuest1_19 = Qui est votre responsable ?
+Kalia_BarSalvation_MarklichtQuest1_20 = C'est la Général Lara de la Forteresse Frontalière.
+Kalia_BarSalvation_MarklichtQuest1_21 = ... Très bien. Je lui enverai une réponse quand nous aurons fait notre choix.
+Kalia_BarSalvation_MarklichtQuest1_22 = Maintenant, part. Tu n'es pas la bienvenue, traitre.
+Kalia_BarSalvation_MarklichtQuest1_23 = Sans hésistation, je quitte la salle.
+Kalia_BarSalvation_MarklichtQuest1_24 = Et bien... Ca s'est plutôt bien déroulé.
+Kalia_BarSalvation_MarklichtQuest1_25 = Je devrais retourner à la forteresse.
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------

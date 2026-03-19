@@ -174,6 +174,39 @@ BorderFortress_Lara_AboutOrkva_7 = Ah oui. Le nom complet d'Orkva est "Le Royaum
 BorderFortress_Lara_AboutOrkva_8 = Ils ne controlent quasiement pas de terres Lichtiennes, mais ils utilisent quand même le titre.
 BorderFortress_Lara_AboutOrkva_9 = Ces foutu royalistes...
 
+BorderFortress_Lara_MarklichtQuest1Start_1 = J'ai retrouvé l'artefact, Général.
+BorderFortress_Lara_MarklichtQuest1Start_2 = Bien. Je vais le renvoyer à la capitale.
+BorderFortress_Lara_MarklichtQuest1Start_3 = En attendant... Les choses ont changés.
+BorderFortress_Lara_MarklichtQuest1Start_4 = J'ai longement parlé avec les supérieurs. Ils ont décidé de procéder à une action punitive contre Kalia.
+BorderFortress_Lara_MarklichtQuest1Start_5 = Une action punitive ?
+BorderFortress_Lara_MarklichtQuest1Start_6 = Pour être franc, nous allons envahir et annexer la ville.
+BorderFortress_Lara_MarklichtQuest1Start_7 = L'incident diplomatique a donné confiance aux militaires de la capitale.
+BorderFortress_Lara_MarklichtQuest1Start_8 = Attaquer Kalia, tuer le Marchand, je comprends. Mais l'annexer...
+BorderFortress_Lara_MarklichtQuest1Start_9 = C'est la politique. Le parti au pouvoir est favorable au Pan-Suorisme.
+BorderFortress_Lara_MarklichtQuest1Start_10 = Pour eux, c'est juste un excuse pour unir plus de Suori sous leur bannière.
+BorderFortress_Lara_MarklichtQuest1Start_11 = En tant que soldats de l'armée de libération, nous devons suivre les orders.
+BorderFortress_Lara_MarklichtQuest1Start_12 = De toute manière, nous serons de meilleurs dirigeants que le Marchand.
+BorderFortress_Lara_MarklichtQuest1Start_13 = Nous n'oppressons pas notre peuple, nous.
+BorderFortress_Lara_MarklichtQuest1Start_14 = Je... Oui, Général.
+BorderFortress_Lara_MarklichtQuest1Start_15 = Ce qui m'amène à votre prochaine tache.
+BorderFortress_Lara_MarklichtQuest1Start_16 = Allez à Kalia et parlez aux rebelles locaux.
+BorderFortress_Lara_MarklichtQuest1Start_17 = Quand le moment sera venu, je veux qu'ils nous aident à attaquer Kalia.
+BorderFortress_Lara_MarklichtQuest1Start_18 = Pourquoi est-ce qu'ils accepteraient ?
+BorderFortress_Lara_MarklichtQuest1Start_19 = Eh. Donnez leur cette lettre. Je leur ai fait une offre impossible à refuser.
+BorderFortress_Lara_MarklichtQuest1Start_20 = Kalia sera sous notre contrôle, oui. Mais la ville elle-même sera administrée par les rebelles.
+BorderFortress_Lara_MarklichtQuest1Start_21 = Ah, je comprend.
+BorderFortress_Lara_MarklichtQuest1Start_22 = Mes espions m'ont rapportés qu'ils se cachent dans le bar du salut. Etrange comme nom.
+BorderFortress_Lara_MarklichtQuest1Start_23 = Je vais m'assurer qu'ils acceptent votre offre.
+BorderFortress_Lara_MarklichtQuest1Start_24 = Bien. Et revenez une fois cela fait. J'ai une autre tache pour vous.
+
+BorderFortress_Lara_MarklichtQuest1End_1 = J'ai livré la lettre.
+BorderFortress_Lara_MarklichtQuest1End_2 = Bien. Maintenant nous n'avons plus qu'à attendre.
+BorderFortress_Lara_MarklichtQuest1End_3 = Vous aviez dis que vous avez une autre tache pour moi ?
+BorderFortress_Lara_MarklichtQuest1End_4 = Ah, oui. Je veux que vous alliez au village Nordien au Nord de Passe Falaise.
+BorderFortress_Lara_MarklichtQuest1End_5 = A cause de protocoles, nous devons les notifier que nous allons déplacer notre armée par la forêt.
+BorderFortress_Lara_MarklichtQuest1End_6 = Ah. L'incident Tolstyr... Je comprend.
+BorderFortress_Lara_MarklichtQuest1End_7 = Je vais le faire, Général. Leur doyen sera notifié.
+BorderFortress_Lara_MarklichtQuest1End_8 = Merci. Garder des relations à peut prêt cordiale est très important depuis l'incident.
 
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------

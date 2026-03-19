@@ -164,7 +164,7 @@ BorderFortress_Lara_AboutMarklicht_9 = At the time, the relations between the tw
 BorderFortress_Lara_AboutMarklicht_10 = So cordial, in fact, that they thought about uniting the two crowns.
 BorderFortress_Lara_AboutMarklicht_11 = The Lichian officiers didn't like that, so that's how the coup started.
 BorderFortress_Lara_AboutMarklicht_12 = Nowadays, the Suori are better represented in parliment.
-BorderFortress_Lara_AboutMarklicht_13 = In fact, we outnumber the Luori from the capital city.
+BorderFortress_Lara_AboutMarklicht_13 = In fact, we outnumber the Luori from the capitol city.
 
 BorderFortress_Lara_AboutOrkva_1 = Orkva and Marklicht went to war not too long ago.
 BorderFortress_Lara_AboutOrkva_2 = The Unions war, I learned that in the academy.
@@ -176,6 +176,40 @@ BorderFortress_Lara_AboutOrkva_7 = Ah, yes. The full name of Orkva is "The Unite
 BorderFortress_Lara_AboutOrkva_8 = They barely hold any Lichtian land, but they still use the title.
 BorderFortress_Lara_AboutOrkva_9 = That's royalty for you.
 
+BorderFortress_Lara_MarklichtQuest1Start_1 = I got the artefact back, General.
+BorderFortress_Lara_MarklichtQuest1Start_2 = Good. I'll send it back to the capitol.
+BorderFortress_Lara_MarklichtQuest1Start_3 = In the meantime... Things have changed.
+BorderFortress_Lara_MarklichtQuest1Start_4 = I had a long talk with the higher ups, and they decided on a punitive action against Kalia.
+BorderFortress_Lara_MarklichtQuest1Start_5 = Punitive action ?
+BorderFortress_Lara_MarklichtQuest1Start_6 = To put it bluntly, we're invading and annexing the city.
+BorderFortress_Lara_MarklichtQuest1Start_7 = This diplomatic incident gave confidence to the warhawks back at the capitol.
+BorderFortress_Lara_MarklichtQuest1Start_8 = Attacking Kalia, or killing the Merchant, I get it. But to annex it...
+BorderFortress_Lara_MarklichtQuest1Start_9 = That's politics for you. The party in power is in favor of Pan-Suorism.
+BorderFortress_Lara_MarklichtQuest1Start_10 = For them, this is just an excuse to unite more Suori under their banner.
+BorderFortress_Lara_MarklichtQuest1Start_11 = As soldiers of the Liberation Army, we have to follow orders.
+BorderFortress_Lara_MarklichtQuest1Start_12 = Besides, us being in charge would be better than the Merchant.
+BorderFortress_Lara_MarklichtQuest1Start_13 = We don't oppress our people.
+BorderFortress_Lara_MarklichtQuest1Start_14 = I... Yes, General.
+BorderFortress_Lara_MarklichtQuest1Start_15 = Which brings me to your next task.
+BorderFortress_Lara_MarklichtQuest1Start_16 = Go to Kalia and meet with the local rebels.
+BorderFortress_Lara_MarklichtQuest1Start_17 = When the time comes, I want them to support our attack on Kalia.
+BorderFortress_Lara_MarklichtQuest1Start_18 = Why would they accept ?
+BorderFortress_Lara_MarklichtQuest1Start_19 = Eh. Give them this letter. I made them an offer they can't refuse.
+BorderFortress_Lara_MarklichtQuest1Start_20 = Kalia will be under our control, yes. But the city itself will be administered by the rebels.
+BorderFortress_Lara_MarklichtQuest1Start_21 = Ah, I get it.
+BorderFortress_Lara_MarklichtQuest1Start_22 = My spies told me they are hiding in the Salvation Bar. Funny name.
+BorderFortress_Lara_MarklichtQuest1Start_23 = I'll make sure they accept your offer.
+BorderFortress_Lara_MarklichtQuest1Start_24 = Good. And come back when you're done. I have another thing to ask of you.
+
+BorderFortress_Lara_MarklichtQuest1End_1 = I delivered the letter.
+BorderFortress_Lara_MarklichtQuest1End_2 = Good. Now all we have to do is wait for their awnser.
+BorderFortress_Lara_MarklichtQuest1End_3 = You said you had another task for me ?
+BorderFortress_Lara_MarklichtQuest1End_4 = Right. I want you to go to the Northmen village north of the Crag Pass.
+BorderFortress_Lara_MarklichtQuest1End_5 = Due to protocol, we have to notify them that we are going to move our army through the forest.
+BorderFortress_Lara_MarklichtQuest1End_6 = Ah. The Tolstyr incident... I see.
+BorderFortress_Lara_MarklichtQuest1End_7 = I'll do it, General. Their elder will be notified.
+BorderFortress_Lara_MarklichtQuest1End_8 = Thank you. Keeping a somewhat cordial relation with them is very important ever since the incident.
+ 
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

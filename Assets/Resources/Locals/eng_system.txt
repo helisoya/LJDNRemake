@@ -329,6 +329,9 @@ marklichtQuest_1_1 = Talk to the rebels in Kalia's Salvation bar
 marklichtQuest_1_2 = Report back to General Lara at Marklicht's Border Fortress
 marklichtQuest_1_done = I convinced the rebels
 
+marklichtQuest_2 = Right of Passage
+marklichtQuest_2_0 = Talk to the elder of the Northmen village north of the Crag Pass
+
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
 

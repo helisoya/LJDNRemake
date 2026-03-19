@@ -3,6 +3,16 @@ setCharacterRotation(Lara;Front)
 setCharacterPosition(Lara;Front)
 setCharacterAlpha(Lara;1;false)
 
+if(marklichtQuest_1 = 0){
+	load(Marklicht/BorderFortress/MarklichtQuest1Start)
+	return()
+}
+
+if(marklichtQuest_1 = 2){
+	load(Marklicht/BorderFortress/MarklichtQuest1End)
+	return()
+}
+
 dialog(Lara;Lara;false;BorderFortress_Lara_Greetings_1)
 
 load(Marklicht/BorderFortress/Lara)

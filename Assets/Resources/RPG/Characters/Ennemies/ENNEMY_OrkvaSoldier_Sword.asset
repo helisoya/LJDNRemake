@@ -36,4 +36,4 @@ MonoBehaviour:
     currentSP: 0
     exp: 10
     canChangeEquipement: 1
-  constants: {fileID: 11400000, guid: 8f0a82b07992ef842bdd0575e36bfa45, type: 2}
+  constants: {fileID: 11400000, guid: f20e2ea7ca9b0dd469067969a2740eb4, type: 2}

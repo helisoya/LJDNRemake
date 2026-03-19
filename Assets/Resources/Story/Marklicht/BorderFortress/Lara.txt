@@ -1,8 +1,5 @@
-setCharacterAlpha(Lara;0;true)
-setCharacterRotation(Lara;Front)
-setCharacterPosition(Lara;Front)
-setCharacterAlpha(Lara;1;false)
-
-dialog(Lara;Lara;false;BorderFortress_Lara_Greetings_1)
-
-load(Marklicht/BorderFortress/Lara)
+choice Choice_Chat
+	Choice_AboutYou Marklicht/BorderFortress/Lara_AboutYou
+	Choice_AboutMarklicht Marklicht/BorderFortress/Lara_AboutMarklicht
+	Choice_AboutOrkva Marklicht/BorderFortress/Lara_AboutOrkva
+	Choice_Nothing Marklicht/BorderFortress/Lara_Exit

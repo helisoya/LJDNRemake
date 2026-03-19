@@ -329,6 +329,9 @@ marklichtQuest_1_1 = Parlez aux rebelles à leur QG, au bar du Salut à Kalia
 marklichtQuest_1_2 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
 marklichtQuest_1_done = J'ai convaincu les rebelles
 
+marklichtQuest_2 = Droit de passage
+marklichtQuest_2_0 = Parlez au doyen du village Nordien, au nord de Passe Falaise
+
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
 

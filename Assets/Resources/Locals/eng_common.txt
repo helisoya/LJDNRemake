@@ -73,6 +73,7 @@ Choice_GivePackage = <i>Give package</i>
 Choice_AboutCamp = About the camp
 Choice_AboutKalibu = About Kalibu
 Choice_AboutOrkva = About Orkva
+Choice_AboutMarklicht = About Marklicht
 Choice_AboutSect = About the sect
 Choice_AboutRebellion = About the rebellion
 Choice_AboutKalia = About Kalia

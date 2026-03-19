@@ -811,6 +811,32 @@ Kalia_BarSalvation_Quest6Ask_2 = <color=red>This will lead to the end of the gam
 Kalia_BarSalvation_Quest6Ask_3 = I'm ready.
 Kalia_BarSalvation_Quest6Ask_4 = Good. Let's go. To the palace !
 
+Kalia_BarSalvation_MarklichtQuest1_1 = This is the place, but where are the rebels ?
+Kalia_BarSalvation_MarklichtQuest1_2 = Maybe... Wait...
+Kalia_BarSalvation_MarklichtQuest1_3 = This barrel is actually a door. I should have seen this coming.
+Kalia_BarSalvation_MarklichtQuest1_4 = I enter through the barrel. The room is completely dark.
+Kalia_BarSalvation_MarklichtQuest1_5 = Is this the place ?
+Kalia_BarSalvation_MarklichtQuest1_6 = Suddenly, I feel the barrel of a gun behind my back.
+Kalia_BarSalvation_MarklichtQuest1_7 = Don't move.
+Kalia_BarSalvation_MarklichtQuest1_8 = I come in peace. I'm with Marklicht.
+Kalia_BarSalvation_MarklichtQuest1_9 = Marklicht ? You are a member of the republican guard, aren't you ?
+Kalia_BarSalvation_MarklichtQuest1_10 = I defected. My superior sent me to talk to you.
+Kalia_BarSalvation_MarklichtQuest1_11 = What do they want from us ?
+Kalia_BarSalvation_MarklichtQuest1_12 = Its all in this letter. We have an offer for you.
+Kalia_BarSalvation_MarklichtQuest1_13 = Marklicht is preparing an invasion of Kalia. We offer you positions as administrators if you help us.
+Kalia_BarSalvation_MarklichtQuest1_14 = What ? Let me see.
+Kalia_BarSalvation_MarklichtQuest1_15 = ...
+Kalia_BarSalvation_MarklichtQuest1_16 = Hmm...
+Kalia_BarSalvation_MarklichtQuest1_17 = As much as the thought of losing our independance disgusts me, this offer...
+Kalia_BarSalvation_MarklichtQuest1_18 = Hmm... I'll ponder on this with my comrades.
+Kalia_BarSalvation_MarklichtQuest1_19 = Who is your superior officer ?
+Kalia_BarSalvation_MarklichtQuest1_20 = General Lara of the Border Fortress.
+Kalia_BarSalvation_MarklichtQuest1_21 = ... Alright. I'll send her a reply when we will have made our choice.
+Kalia_BarSalvation_MarklichtQuest1_22 = Now get lost. You have overstayed your welcome, turncoat.
+Kalia_BarSalvation_MarklichtQuest1_23 = Without hesitation, I exit the room.
+Kalia_BarSalvation_MarklichtQuest1_24 = Well... This went as good as it could.
+Kalia_BarSalvation_MarklichtQuest1_25 = I should head back to the General's fortress.
+
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------
 # ---------------------------------------------------------

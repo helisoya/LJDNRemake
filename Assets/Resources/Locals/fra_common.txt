@@ -73,6 +73,7 @@ Choice_GivePackage = <i>Donner le colis</i>
 Choice_AboutCamp = A propos du camp
 Choice_AboutKalibu = A propos de Kalibu
 Choice_AboutOrkva = A propos d'Orkva
+Choice_AboutMarklicht = A propos du Marklicht
 Choice_AboutSect = A propos de la secte
 Choice_AboutRebellion = A propos de la rebéllion
 Choice_AboutKalia = A propos de Kalia
