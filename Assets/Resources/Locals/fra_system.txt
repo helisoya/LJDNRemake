@@ -325,6 +325,9 @@ marklichtQuest_0_done = J'ai rejoins le Marklicht
 
 marklichtQuest_1 = Propriété dé-volé
 marklichtQuest_1_0 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
+marklichtQuest_1_1 = Parlez aux rebelles à leur QG, au bar du Salut à Kalia
+marklichtQuest_1_2 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
+marklichtQuest_1_done = J'ai convaincu les rebelles
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia

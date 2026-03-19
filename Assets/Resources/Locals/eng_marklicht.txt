@@ -143,6 +143,39 @@ BorderFortress_RebelQuest1_49 = Right, right. Sorry...
 BorderFortress_RebelQuest1_50 = Come, we should head back to Kalia.
 BorderFortress_RebelQuest1_51 = Your sister should know what to do next.
 
+BorderFortress_Lara_Greetings_1 = [MC]. Anything to report ?
+
+BorderFortress_Lara_AboutYou_1 = [MC]. I've known you for years, you and Lame.
+BorderFortress_Lara_AboutYou_2 = When you first set foot in my academy, I just knew it.
+BorderFortress_Lara_AboutYou_3 = You'd just cause nothing but troubles.
+BorderFortress_Lara_AboutYou_4 = And I was right. You did cause a lot of troubles.
+BorderFortress_Lara_AboutYou_5 = Be it detonating explosives accidently, or sneaking out at night. You did everything.
+BorderFortress_Lara_AboutYou_6 = Its a miracle you even managed to stay alive for so long.
+
+BorderFortress_Lara_AboutMarklicht_1 = Marklicht as we know it is a fairly recent nation.
+BorderFortress_Lara_AboutMarklicht_2 = Before the revolution, we were led by a king : The king of Licht.
+BorderFortress_Lara_AboutMarklicht_3 = You know the story. I made sure you learned it during class.
+BorderFortress_Lara_AboutMarklicht_4 = Yes, yes. I know.
+BorderFortress_Lara_AboutMarklicht_5 = Licht was oppressing its Suori subjects.
+BorderFortress_Lara_AboutMarklicht_6 = One day, General Mark made a coup d'etat to put an end to this.
+BorderFortress_Lara_AboutMarklicht_7 = He reorganised the kingdom into a republic : Marklicht.
+BorderFortress_Lara_AboutMarklicht_8 = Yes, good. Well, there was also the matter of Orkva.
+BorderFortress_Lara_AboutMarklicht_9 = At the time, the relations between the two kingdoms were cordial to say the least.
+BorderFortress_Lara_AboutMarklicht_10 = So cordial, in fact, that they thought about uniting the two crowns.
+BorderFortress_Lara_AboutMarklicht_11 = The Lichian officiers didn't like that, so that's how the coup started.
+BorderFortress_Lara_AboutMarklicht_12 = Nowadays, the Suori are better represented in parliment.
+BorderFortress_Lara_AboutMarklicht_13 = In fact, we outnumber the Luori from the capital city.
+
+BorderFortress_Lara_AboutOrkva_1 = Orkva and Marklicht went to war not too long ago.
+BorderFortress_Lara_AboutOrkva_2 = The Unions war, I learned that in the academy.
+BorderFortress_Lara_AboutOrkva_3 = Yes. With the revolution in Marklicht threatning the union of the two crowns, Orkva invaded.
+BorderFortress_Lara_AboutOrkva_4 = On one side, Marklicht represented the new union between Suori and Luori.
+BorderFortress_Lara_AboutOrkva_5 = Orkva, on other hand, represented the union between the two crowns.
+BorderFortress_Lara_AboutOrkva_6 = Technically speaking, the king of Licht abdicated in favor of the Orkvian king.
+BorderFortress_Lara_AboutOrkva_7 = Ah, yes. The full name of Orkva is "The United Kingdom of Orkva-Licht".
+BorderFortress_Lara_AboutOrkva_8 = They barely hold any Lichtian land, but they still use the title.
+BorderFortress_Lara_AboutOrkva_9 = That's royalty for you.
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

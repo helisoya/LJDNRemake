@@ -109,8 +109,14 @@ Ending_Rebels_100 = Après cela, nous avons proclamé un nouveau gouvernement Ka
 Ending_Rebels_101 = Les élections ont été rétablies et tous les rebelles ont obtenu des postes dans la nouvelle administration.
 Ending_Rebels_102 = Moi ? J'ai été promu chef de l'armée.
 Ending_Rebels_103 = Ma mère serait fière. J'ai terminé ce qu'elle avait commencé il y a tant d'années.
-Ending_Rebels_104 = Je travaillerai dur pour protéger notre révolution. Aucun tyran ne reviendra jamais au pouvoir. Pas tant que je serai là.
-Ending_Rebels_105 = En attendant...
+Ending_Rebels_104 = Tandis que Kalia prosperait, les régions au Nord d'Orkva tombèrent en anarchie.
+Ending_Rebels_105 = Des insurections sont apparu dès que le peuple a réalisé l'état de l'armée Orkvienne.
+Ending_Rebels_106 = Aidé de ravitaillements Marklichtiens, les rebelles ont libérés les régions autour de Tolau et Vorlan.
+Ending_Rebels_107 = Seul Okville, la ville experimentale, resta sous contrôle militaire.
+Ending_Rebels_108 = Après quelques temps, les villes ont obtenu leur indépendance. Maintenant, elles veulent recréer la confédération d'antant.
+Ending_Rebels_109 = Notre futur est entre nos mains. Pas celles d'un tyran ou d'oppresseurs.
+Ending_Rebels_110 = En attendant...
+
 
 # ------------------------------------------------------------------------
 # ---------------------------- General -----------------------------------

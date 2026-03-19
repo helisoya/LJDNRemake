@@ -18,6 +18,7 @@ autosave()
 
 
 if(mainQuest_3 = 0){
+	fadeFg(0;false)
 	load(Forest/OrderHQ/MainQuest3)
 	return()
 }

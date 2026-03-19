@@ -108,8 +108,13 @@ Ending_Rebels_100 = After that, we proclaimed a new Kalian government.
 Ending_Rebels_101 = Elections were reestablished, and the rebels all got positions in the new administration.
 Ending_Rebels_102 = Me ? I got promoted to chief of the army. 
 Ending_Rebels_103 = My mother would be proud. I finished what she had started all those years ago.
-Ending_Rebels_104 = I'll work hard to keep our revolution safe. No tyrant will ever come to power again. Not on my watch.
-Ending_Rebels_105 = In the meantime...
+Ending_Rebels_104 = As Kalia prospered, Orkva's Northen region fell into anarchy.
+Ending_Rebels_105 = Insurections occured when the people realised the state of the Orkvian military.
+Ending_Rebels_106 = Helped by Marklichtian supplies, the insurgents liberated the regions around Tolau and Vorlan.
+Ending_Rebels_107 = Only Okville, the experimental city, remained under military control.
+Ending_Rebels_108 = After a while, the cities got their independance. Now, they want to reform the confederacy of old.
+Ending_Rebels_109 = Our future is ours to make. No tyrants, no oppressors.
+Ending_Rebels_110 = In the meantime...
 
 # ------------------------------------------------------------------------
 # ---------------------------- General -----------------------------------

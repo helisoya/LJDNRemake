@@ -1,0 +1,8 @@
+setCharacterAlpha(Lara;0;true)
+setCharacterRotation(Lara;Front)
+setCharacterPosition(Lara;Front)
+setCharacterAlpha(Lara;1;false)
+
+dialog(Lara;Lara;false;BorderFortress_Lara_Greetings_1)
+
+load(Marklicht/BorderFortress/Lara)

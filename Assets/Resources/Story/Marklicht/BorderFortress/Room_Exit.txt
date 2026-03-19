@@ -1,0 +1,9 @@
+fadeBg(1;true)
+
+removeCharacter(Lara)
+setBackground(Marklicht/Region/BorderFortressOutside)
+load(Common/DisplayWeatherRain)
+
+fadeBg(0;false)
+
+load(Marklicht/BorderFortress/Interaction)

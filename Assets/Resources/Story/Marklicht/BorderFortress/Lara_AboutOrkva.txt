@@ -1,0 +1,15 @@
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_1)
+
+dialog([MC];_;false;BorderFortress_Lara_AboutOrkva_2)
+
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_3)
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_4)
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_5)
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_6)
+
+dialog([MC];_;false;BorderFortress_Lara_AboutOrkva_7)
+
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_8)
+dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_9)
+
+load(Marklicht/BorderFortress/Lara)

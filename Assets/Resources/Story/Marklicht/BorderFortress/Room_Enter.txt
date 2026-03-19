@@ -1,0 +1,12 @@
+fadeBg(1;true)
+
+setBackground(Marklicht/Region/BorderFortressInside)
+load(Common/DisplayWeatherCloud)
+
+addCharacter(Lara;false)
+setCharacterRotation(Lara;Desk)
+setCharacterPosition(Lara;Desk)
+
+fadeBg(0;false)
+
+load(Marklicht/BorderFortress/Room)

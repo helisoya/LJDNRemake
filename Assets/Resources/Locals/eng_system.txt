@@ -325,6 +325,9 @@ marklichtQuest_0_done = I joined Marklicht
 
 marklichtQuest_1 = Un-stolen property
 marklichtQuest_1_0 = Report back to General Lara at Marklicht's Border Fortress
+marklichtQuest_1_1 = Talk to the rebels in Kalia's Salvation bar
+marklichtQuest_1_2 = Report back to General Lara at Marklicht's Border Fortress
+marklichtQuest_1_done = I convinced the rebels
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
