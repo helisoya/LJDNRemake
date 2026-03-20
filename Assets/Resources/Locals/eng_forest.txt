@@ -153,6 +153,16 @@ NorthVillage_Elder_ReminderQuest4_1 = The dragon was last seen near Mount Vasali
 
 NorthVillage_Elder_QuestDone_1 = No. You've helped us enough already, kind traveler.
 
+NorthVillage_Elder_MarklichtQuest2_1 = Elder. We are from Marklicht's military.
+NorthVillage_Elder_MarklichtQuest2_2 = Hmm... I recognized your friend's uniform.
+NorthVillage_Elder_MarklichtQuest2_3 = What is it ? What do you want with my people.
+NorthVillage_Elder_MarklichtQuest2_4 = Marklicht is currently preparing an attack on Kalia.
+NorthVillage_Elder_MarklichtQuest2_5 = Because of this, our soldiers will go through the White Forest.
+NorthVillage_Elder_MarklichtQuest2_6 = We just wanted to notify you.
+NorthVillage_Elder_MarklichtQuest2_7 = Hmm... I see.
+NorthVillage_Elder_MarklichtQuest2_8 = Thank you for telling me. This will reassure my people.
+NorthVillage_Elder_MarklichtQuest2_9 = Okay. That's done. Let's go back to the fortress.
+
 # ---------------------------------------------------------
 # --------------- Forest - Order's HQ ---------------------
 # ---------------------------------------------------------

@@ -1,3 +1,8 @@
+if(marklichtQuest_2 = 2){
+	load(Marklicht/BorderFortress/MarklichtQuest2End)
+	return()
+}
+
 setCharacterAlpha(Lara;0;true)
 setCharacterRotation(Lara;Front)
 setCharacterPosition(Lara;Front)

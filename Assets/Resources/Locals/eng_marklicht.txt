@@ -143,6 +143,26 @@ BorderFortress_RebelQuest1_49 = Right, right. Sorry...
 BorderFortress_RebelQuest1_50 = Come, we should head back to Kalia.
 BorderFortress_RebelQuest1_51 = Your sister should know what to do next.
 
+BorderFortress_Lara_MarklichtQuest2_0_1 = [MC] !
+BorderFortress_Lara_MarklichtQuest2_0_2 = Oh. Hi, Lame.
+BorderFortress_Lara_MarklichtQuest2_0_3 = Sorry I couldn't come before. I had to prepare ammunitions for some field tests.
+BorderFortress_Lara_MarklichtQuest2_0_4 = Well. You didn't miss much. I got the artefact back and I think we convinced the Kalian rebels to side with our invasion.
+BorderFortress_Lara_MarklichtQuest2_0_5 = We're invading ? Who ? Where ? When ? I need to pick up my gun !
+BorderFortress_Lara_MarklichtQuest2_0_6 = Oh, right. The General must have not told anyone yet.
+BorderFortress_Lara_MarklichtQuest2_0_7 = We're invading Kalia in retaliation for the theft.
+BorderFortress_Lara_MarklichtQuest2_0_8 = I... Okay...
+BorderFortress_Lara_MarklichtQuest2_0_9 = I guess there's a real reason, but I won't ask.
+BorderFortress_Lara_MarklichtQuest2_0_10 = Say, what are you doing right now ?
+BorderFortress_Lara_MarklichtQuest2_0_11 = I'm heading to the Northmen village north of the Crag Pass.
+BorderFortress_Lara_MarklichtQuest2_0_12 = Oh ! That sounds so cool. Can I join ?
+BorderFortress_Lara_MarklichtQuest2_0_13 = Don't you have work to do ?
+BorderFortress_Lara_MarklichtQuest2_0_14 = Nah. The General told me "Lame, you can have the day off. Actually, take the week off. Just don't go near explosives ever again."
+BorderFortress_Lara_MarklichtQuest2_0_15 = Oh. I see.
+BorderFortress_Lara_MarklichtQuest2_0_16 = Well. I guess you could tag along.
+BorderFortress_Lara_MarklichtQuest2_0_17 = Great ! Let's go, my friend !
+BorderFortress_Lara_MarklichtQuest2_0_18 = It has been so long since we worked together on anything.
+BorderFortress_Lara_MarklichtQuest2_0_19 = <color=blue>Lame added to the party.</color>
+
 BorderFortress_Lara_Greetings_1 = [MC]. Anything to report ?
 
 BorderFortress_Lara_AboutYou_1 = [MC]. I've known you for years, you and Lame.
@@ -209,6 +229,27 @@ BorderFortress_Lara_MarklichtQuest1End_5 = Due to protocol, we have to notify th
 BorderFortress_Lara_MarklichtQuest1End_6 = Ah. The Tolstyr incident... I see.
 BorderFortress_Lara_MarklichtQuest1End_7 = I'll do it, General. Their elder will be notified.
 BorderFortress_Lara_MarklichtQuest1End_8 = Thank you. Keeping a somewhat cordial relation with them is very important ever since the incident.
+
+BorderFortress_Lara_MarklichtQuest2End_1 = I warned the elder, General.
+BorderFortress_Lara_MarklichtQuest2End_2 = Ah, and you even took Lame with you.
+BorderFortress_Lara_MarklichtQuest2End_3 = General !
+BorderFortress_Lara_MarklichtQuest2End_4 = With this, the preperations for the war can continue.
+BorderFortress_Lara_MarklichtQuest2End_5 = Can we help with anything ?
+BorderFortress_Lara_MarklichtQuest2End_6 = Actually, yes. I was planning on sending you on a spying mission.
+BorderFortress_Lara_MarklichtQuest2End_7 = My spies reported that Sword, your republican guard collegue, was sighted in Tolau.
+BorderFortress_Lara_MarklichtQuest2End_8 = What's he doing there ?
+BorderFortress_Lara_MarklichtQuest2End_9 = I don't know. But I want you to find out.
+BorderFortress_Lara_MarklichtQuest2End_10 = Maybe he's plotting something.
+BorderFortress_Lara_MarklichtQuest2End_11 = If anything, he's probably trying to either find me or steal a new artefact.
+BorderFortress_Lara_MarklichtQuest2End_12 = Either way, go to Tolau and find out his deal.
+BorderFortress_Lara_MarklichtQuest2End_13 = Oh, and take Lame with you.
+BorderFortress_Lara_MarklichtQuest2End_14 = General !
+BorderFortress_Lara_MarklichtQuest2End_15 = Just make sure not to let him handle anything dangerous.
+BorderFortress_Lara_MarklichtQuest2End_16 = I still have to clean up the mess he made in the hangar.
+BorderFortress_Lara_MarklichtQuest2End_17 = General...
+BorderFortress_Lara_MarklichtQuest2End_18 = Understood. Come, Lame. Let's go.
+BorderFortress_Lara_MarklichtQuest2End_19 = Oh. That reminds me. Be wary of Orkva.
+BorderFortress_Lara_MarklichtQuest2End_20 = Something's wrong. But I don't know what.
  
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------

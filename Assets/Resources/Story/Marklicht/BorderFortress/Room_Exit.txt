@@ -4,6 +4,10 @@ removeCharacter(Lara)
 setBackground(Marklicht/Region/BorderFortressOutside)
 load(Common/DisplayWeatherRain)
 
-fadeBg(0;false)
-
-load(Marklicht/BorderFortress/Interaction)
+if(marklichtQuest_2 = 0){
+	load(Marklicht/BorderFortress/MarklichtQuest2_0)
+}
+else{
+	fadeBg(0;false)
+	load(Marklicht/BorderFortress/Interaction)
+}

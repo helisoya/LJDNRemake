@@ -331,6 +331,12 @@ marklichtQuest_1_done = J'ai convaincu les rebelles
 
 marklichtQuest_2 = Droit de passage
 marklichtQuest_2_0 = Parlez au doyen du village Nordien, au nord de Passe Falaise
+marklichtQuest_2_1 = Parlez au doyen du village Nordien, au nord de Passe Falaise
+marklichtQuest_2_2 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
+marklichtQuest_2_done = J'ai prévenu les Nordiens
+
+marklichtQuest_3 = Espionnage
+marklichtQuest_3_0 = Trouvez Epée à Tolau
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
@@ -600,6 +606,7 @@ ENNEMY_Kalia_Merchant_name = Le Marchand
 DOGACE_name = Ace
 GUARD_name = GARDE
 ANNA_name = Anna
+LAME_name = Lame
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------

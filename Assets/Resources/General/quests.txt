@@ -13,6 +13,7 @@ rebelQuest_6
 marklichtQuest_0
 marklichtQuest_1
 marklichtQuest_2
+marklichtQuest_3
 merchantQuest_1
 
 [arcQuest]

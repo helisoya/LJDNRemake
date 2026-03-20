@@ -219,4 +219,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 69e970335607f3d48a932f4ddcdc2d9a, type: 2}
   - {fileID: 11400000, guid: 4de0a32403932dc469220315847f34a4, type: 2}
   - {fileID: 11400000, guid: bfbea049035426b49b1489a8d4e5d0ba, type: 2}
+  - {fileID: 11400000, guid: 6595ea65f78018742b8afb842cf81f9e, type: 2}
   itemsPath: RPG/Items/

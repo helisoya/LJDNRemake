@@ -152,6 +152,15 @@ NorthVillage_Elder_ReminderQuest4_1 = Le dragon a été vu pour la dernière foi
 
 NorthVillage_Elder_QuestDone_1 = Non. Vous nous avez déjà beaucoup aidé, noble étranger.
 
+NorthVillage_Elder_MarklichtQuest2_1 = Doyenne. Nous faisons parti de l'armée Marklichtienne.
+NorthVillage_Elder_MarklichtQuest2_2 = Hmm... J'ai reconnu l'uniforme de votre ami.
+NorthVillage_Elder_MarklichtQuest2_3 = Que se passe-t-il ? Que nous voulez-vous ?
+NorthVillage_Elder_MarklichtQuest2_4 = Le Marklicht prépare une attaque contre Kalia.
+NorthVillage_Elder_MarklichtQuest2_5 = A cause de cela, nos soldats vont devoir passer par la Forêt Blanche.
+NorthVillage_Elder_MarklichtQuest2_6 = Nous voulions simplement vous avertir.
+NorthVillage_Elder_MarklichtQuest2_7 = Hmm... Je vois.
+NorthVillage_Elder_MarklichtQuest2_8 = Merci de nous avoir prévenu. Cela va rassurer mon peuple.
+NorthVillage_Elder_MarklichtQuest2_9 = Bien. C'est une chose faite. Il est temps de retourner à la forteresse.
 
 # ---------------------------------------------------------
 # --------------- Forest - Order's HQ ---------------------

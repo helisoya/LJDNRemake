@@ -33,6 +33,7 @@ rebelQuest_6 -1
 marklichtQuest_0 -1
 marklichtQuest_1 -1
 marklichtQuest_2 -1
+marklichtQuest_3 -1
 
 merchantQuest_1 -1
 

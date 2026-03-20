@@ -331,6 +331,12 @@ marklichtQuest_1_done = I convinced the rebels
 
 marklichtQuest_2 = Right of Passage
 marklichtQuest_2_0 = Talk to the elder of the Northmen village north of the Crag Pass
+marklichtQuest_2_1 = Talk to the elder of the Northmen village north of the Crag Pass
+marklichtQuest_2_2 = Report back to General Lara at Marklicht's Border Fortress
+marklichtQuest_2_done = I warned the Northmen of Marklicht's movements
+
+marklichtQuest_3 = Stalking
+marklichtQuest_3_0 = Find Sword in Tolau
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
@@ -600,6 +606,7 @@ ENNEMY_Kalia_Merchant_name = The Merchant
 DOGACE_name = Ace
 GUARD_name = GUARD
 ANNA_name = Anna
+LAME_name = Lame
 
 # ------------------------------------------------------------------------
 # ------------------------------- Items ----------------------------------
