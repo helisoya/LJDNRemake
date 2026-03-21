@@ -337,6 +337,12 @@ marklichtQuest_2_done = J'ai prévenu les Nordiens
 
 marklichtQuest_3 = Espionnage
 marklichtQuest_3_0 = Trouvez Epée à Tolau
+marklichtQuest_3_1 = Suivez Epée jusqu'à la forêt de l'Ile Mirage
+marklichtQuest_3_2 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
+marklichtQuest_3_done = J'ai suivi Epée et empeché sa tentative de vol
+
+marklichtQuest_4 = Investigation
+marklichtQuest_4_0 = Menez l'enquête dans les montagnes Marklichtiennes
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
@@ -349,6 +355,10 @@ factionQuest_Rebel_1_done = J'ai sauvé un prêtre
 factionQuest_Rebel_2 = Feu & Emeute
 factionQuest_Rebel_2_0 = Mettez le feu à la ferme de Tolau
 factionQuest_Rebel_2_done = J'ai distrait des soldats Orkviens en utilisant un incendit
+
+factionQuest_Marklicht_1 = Rendre hommage
+factionQuest_Marklicht_1_0 = Visitez le mur de frontière au Marklicht
+factionQuest_Marklicht_1_done = Nous avons rendu hommage
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
@@ -602,6 +612,9 @@ ENNEMY_SwordVar2_name = Epée
 ENNEMY_KaliaSoldier_Rifle_name = Soldat
 ENNEMY_KaliaSoldier_Revolver_name = Soldat
 ENNEMY_Kalia_Merchant_name = Le Marchand
+
+ENNEMY_MarklichtSoldier_Revolver_name = Soldat
+ENNEMY_MarklichtSoldier_Rifle_name = Soldat
 
 DOGACE_name = Ace
 GUARD_name = GARDE

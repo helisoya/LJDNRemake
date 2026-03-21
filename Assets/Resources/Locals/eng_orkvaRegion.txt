@@ -717,6 +717,28 @@ Tolau_Port_SecondaryQuest_22 = You should head home, and stay out of troubles.
 Tolau_Port_SecondaryQuest_23 = Right ! Thank you.
 Tolau_Port_SecondaryQuest_24 = I should go back to the inn now.
 
+Tolau_Port_MarklichtQuest3_1 = !
+Tolau_Port_MarklichtQuest3_2 = Sword is here. Better hide for now...
+Tolau_Port_MarklichtQuest3_3 = What do you mean I can't use your boat ?
+Tolau_Port_MarklichtQuest3_4 = Sir, you still haven't told me why you want it.
+Tolau_Port_MarklichtQuest3_5 = All you did was yell at me for several minutes.
+Tolau_Port_MarklichtQuest3_6 = I told you ! I want to go visit the Mirage Island's forest.
+Tolau_Port_MarklichtQuest3_7 = I heard there is a nice temple there. I want to pay my respects.
+Tolau_Port_MarklichtQuest3_8 = Uh, what ?
+Tolau_Port_MarklichtQuest3_9 = Okay, sir. I can't let you take my boat.
+Tolau_Port_MarklichtQuest3_10 = This is too dangerous. The army is watching the sea.
+Tolau_Port_MarklichtQuest3_11 = You'll die if you go. And I'll lose my boat.
+Tolau_Port_MarklichtQuest3_12 = I don't care !
+Tolau_Port_MarklichtQuest3_13 = Sword punches the man. He falls on the ground.
+Tolau_Port_MarklichtQuest3_14 = This boat is mine ! I'll get to this Island, you'll see.
+Tolau_Port_MarklichtQuest3_15 = ...
+Tolau_Port_MarklichtQuest3_16 = Well. I guess we know what he's up to now.
+Tolau_Port_MarklichtQuest3_17 = Still, why Mirage Island ?
+Tolau_Port_MarklichtQuest3_18 = The temple he mentioned... It must be another artefact.
+Tolau_Port_MarklichtQuest3_19 = Let's follow him. We can't let him steal another one.
+Tolau_Port_MarklichtQuest3_20 = And the blockade ?
+Tolau_Port_MarklichtQuest3_21 = We'll figure something out.
+
 Tolau_CityHall_Mayor_Greetings_1 = Do you have business with me ?
 
 Tolau_CityHall_Mayor_AboutCity_1 = Tolau was once a prosperous trade city.

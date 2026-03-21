@@ -6,8 +6,13 @@ load(Common/DisplayWeatherRain)
 
 if(marklichtQuest_2 = 0){
 	load(Marklicht/BorderFortress/MarklichtQuest2_0)
+	return()
 }
-else{
-	fadeBg(0;false)
-	load(Marklicht/BorderFortress/Interaction)
+
+if(marklichtQuest_2 = 100 & factionQuest_Marklicht_1 = -1){
+	load(Marklicht/BorderFortress/MarklichtFactionQuest1)
+	return()
 }
+
+fadeBg(0;false)
+load(Marklicht/BorderFortress/Interaction)

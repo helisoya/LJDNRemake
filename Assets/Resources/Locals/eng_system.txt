@@ -337,6 +337,12 @@ marklichtQuest_2_done = I warned the Northmen of Marklicht's movements
 
 marklichtQuest_3 = Stalking
 marklichtQuest_3_0 = Find Sword in Tolau
+marklichtQuest_3_1 = Follow Sword to the Mirage Island's Forest
+marklichtQuest_3_2 = Report back to General Lara at Marklicht's Border Fortress
+marklichtQuest_3_done = I followed Sword and foiled his theft attempt
+
+marklichtQuest_4 = Investigation
+marklichtQuest_4_0 = Investigate the Marklichtian mountains
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
@@ -349,6 +355,10 @@ factionQuest_Rebel_1_done = I saved a priest
 factionQuest_Rebel_2 = Fire & Unrest
 factionQuest_Rebel_2_0 = Set fire to Tolau's Farm
 factionQuest_Rebel_2_done = I distracted Orkvian soldiers using a fire
+
+factionQuest_Marklicht_1 = Paying respects
+factionQuest_Marklicht_1_0 = Visit the Border Wall in Marklicht
+factionQuest_Marklicht_1_done = We visited the wall
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -602,6 +612,9 @@ ENNEMY_SwordVar2_name = Sword
 ENNEMY_KaliaSoldier_Rifle_name = Soldier
 ENNEMY_KaliaSoldier_Revolver_name = Soldier
 ENNEMY_Kalia_Merchant_name = The Merchant
+
+ENNEMY_MarklichtSoldier_Revolver_name = Soldier
+ENNEMY_MarklichtSoldier_Rifle_name = Soldier
 
 DOGACE_name = Ace
 GUARD_name = GUARD

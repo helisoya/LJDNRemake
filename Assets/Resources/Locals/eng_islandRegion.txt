@@ -55,6 +55,37 @@ MirageForest_Temple_Rebel_27 = Well. Time to head back.
 MirageForest_Temple_Rebel_28 = After a few hours, we manage to get back to the forest's entrance.
 MirageForest_Temple_Rebel_29 = Poor Sword will have to come back empty handed.
 
+MirageForest_Temple_Marklicht_1 = And sure enough, we find Sword looking around.
+MirageForest_Temple_Marklicht_2 = Grr ! Where is it ?
+MirageForest_Temple_Marklicht_3 = The boss told me the staff was here... Where is it ?
+MirageForest_Temple_Marklicht_4 = He's looking for an artefact, I knew it.
+MirageForest_Temple_Marklicht_5 = Well. I guess it's time to confront him.
+MirageForest_Temple_Marklicht_6 = Need help ?
+MirageForest_Temple_Marklicht_7 = Yeah, I wouldn't mind that.
+MirageForest_Temple_Marklicht_8 = ...
+MirageForest_Temple_Marklicht_9 = Wait, hold on- Shield !
+MirageForest_Temple_Marklicht_10 = You... You traitor ! You left me for dead !
+MirageForest_Temple_Marklicht_11 = And who's that with you ? He not a rebel.
+MirageForest_Temple_Marklicht_12 = Nothing personal, Sword. I did what I had to do.
+MirageForest_Temple_Marklicht_13 = You... You could have at least given the dog back !
+MirageForest_Temple_Marklicht_14 = You damn traitor... I guess you are here for the staff ?
+MirageForest_Temple_Marklicht_15 = I guess we are now.
+MirageForest_Temple_Marklicht_16 = Eh, Eh ! You won't defeat me !
+
+MirageForest_Temple_Marklicht_17 = That was hard...
+MirageForest_Temple_Marklicht_18 = Well it was a 3v1.
+MirageForest_Temple_Marklicht_19 = Quick, let's find that staff before he wakes back.
+MirageForest_Temple_Marklicht_20 = On it !
+MirageForest_Temple_Marklicht_21 = We search the room for that staff. Whatever it is, the Merchant wants it badly.
+MirageForest_Temple_Marklicht_22 = Found it !
+MirageForest_Temple_Marklicht_23 = Good. Show me.
+MirageForest_Temple_Marklicht_24 = This staff... I believe I have seen it before.
+MirageForest_Temple_Marklicht_25 = Maybe the General knows about it.
+MirageForest_Temple_Marklicht_26 = Yeah. I have a feeling this is something important.
+MirageForest_Temple_Marklicht_27 = Well. Time to head back.
+MirageForest_Temple_Marklicht_28 = After a few hours, we manage to get back to the forest's entrance.
+MirageForest_Temple_Marklicht_29 = Poor Sword will have to come back empty handed.
+
 # ---------------------------------------------------------
 # ---------------------- Cottage --------------------------
 # ---------------------------------------------------------

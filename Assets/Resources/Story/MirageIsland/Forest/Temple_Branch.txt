@@ -25,3 +25,8 @@ if(rebelQuest_3 > -1){
 	load(MirageIsland/Forest/Temple_Rebel)
 	return()
 }
+
+if(marklichtQuest_3 > -1){
+	load(MirageIsland/Forest/Temple_Marklicht)
+	return()
+}

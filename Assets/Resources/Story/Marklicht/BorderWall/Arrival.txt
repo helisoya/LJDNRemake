@@ -15,6 +15,11 @@ setLocation(Location_Marklicht)
 
 autosave()
 
+if(factionQuest_Marklicht_1 = 0){
+	load(Marklicht/BorderWall/MarklichtFactionQuest1)
+	return()
+}
+
 fadeFg(0;false)
 
 load(Marklicht/BorderWall/Interaction)

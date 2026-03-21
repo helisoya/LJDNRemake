@@ -55,6 +55,37 @@ MirageForest_Temple_Rebel_27 = Bien. Rentrons.
 MirageForest_Temple_Rebel_28 = Après quelques heures, nous arrivons de nouveau à l'entrée de la forêt.
 MirageForest_Temple_Rebel_29 = Pauvre Epée... Il va encore devoir rentrer les mains vides.
 
+MirageForest_Temple_Marklicht_1 = Et bien sur, Epée y est.
+MirageForest_Temple_Marklicht_2 = Grr ! Ou est-il ?
+MirageForest_Temple_Marklicht_3 = Le patron m'a dit que le sceptre est ici... Ou est-il ?
+MirageForest_Temple_Marklicht_4 = Il cherche un artefact. Je le savais.
+MirageForest_Temple_Marklicht_5 = Et bien. Il est temps de lui dire bonjour.
+MirageForest_Temple_Marklicht_6 = Besoin d'aide ?
+MirageForest_Temple_Marklicht_7 = Ouaih, ca serait pas de refus.
+MirageForest_Temple_Marklicht_8 = ...
+MirageForest_Temple_Marklicht_9 = Attends une seconde- Bouclier !
+MirageForest_Temple_Marklicht_10 = Espèce de traitre ! Tu m'as laissé pour mort !
+MirageForest_Temple_Marklicht_11 = Et qui est-ce à tes cotés ? Il ne fait pas partie des rebelles.
+MirageForest_Temple_Marklicht_12 = Rien de personnel, Epée. J'ai simplement executé mes ordres.
+MirageForest_Temple_Marklicht_13 = Tu... Tu aurais au moins pu rendre le chien !
+MirageForest_Temple_Marklicht_14 = Traitre... Je suppose que tu es ici pour le sceptre ?
+MirageForest_Temple_Marklicht_15 = Maintenant, oui.
+MirageForest_Temple_Marklicht_16 = Hé, hé ! Tu ne me vaincra pas !
+
+MirageForest_Temple_Marklicht_17 = C'était difficile.
+MirageForest_Temple_Marklicht_18 = C'était un 3 contre 1.
+MirageForest_Temple_Marklicht_19 = Vite, trouvons ce sceptre avant qu'il ne se reveille.
+MirageForest_Temple_Marklicht_20 = Compris !
+MirageForest_Temple_Marklicht_21 = Nous cherchons la salle pour ce sceptre. Peut importe ce que c'est, le Marchant le veut.
+MirageForest_Temple_Marklicht_22 = Trouvé !
+MirageForest_Temple_Marklicht_23 = Bien. Montres-moi ça.
+MirageForest_Temple_Marklicht_24 = Ce sceptre... Je suis sur de l'avoir déjà vu.
+MirageForest_Temple_Marklicht_25 = Peut être que la Générale en sait plus que nous.
+MirageForest_Temple_Marklicht_26 = Oui. Je pense que c'est quelque chose d'important.
+MirageForest_Temple_Marklicht_27 = Bien. Rentrons.
+MirageForest_Temple_Marklicht_28 = Après quelques heures, nous arrivons de nouveau à l'entrée de la forêt.
+MirageForest_Temple_Marklicht_29 = Pauvre Epée... Il va encore devoir rentrer les mains vides.
+
 # ---------------------------------------------------------
 # ---------------------- Cottage --------------------------
 # ---------------------------------------------------------

@@ -14,6 +14,7 @@ marklichtQuest_0
 marklichtQuest_1
 marklichtQuest_2
 marklichtQuest_3
+marklichtQuest_4
 merchantQuest_1
 
 [arcQuest]
@@ -42,6 +43,7 @@ arcQuest_Dragon_4
 factionQuest_Merchant_1
 factionQuest_Rebel_1
 factionQuest_Rebel_2
+factionQuest_Marklicht_1
 
 [secondaryQuest]
 secondaryQuest_Iberty_Catacombs

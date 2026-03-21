@@ -250,7 +250,34 @@ BorderFortress_Lara_MarklichtQuest2End_17 = General...
 BorderFortress_Lara_MarklichtQuest2End_18 = Understood. Come, Lame. Let's go.
 BorderFortress_Lara_MarklichtQuest2End_19 = Oh. That reminds me. Be wary of Orkva.
 BorderFortress_Lara_MarklichtQuest2End_20 = Something's wrong. But I don't know what.
- 
+
+BorderFortress_MarklichtFactionQuest1Start_1 = By the way, [MC].
+BorderFortress_MarklichtFactionQuest1Start_2 = Yeah ? 
+BorderFortress_MarklichtFactionQuest1Start_3 = Its nice to work with you again.
+BorderFortress_MarklichtFactionQuest1Start_4 = Likewise.
+BorderFortress_MarklichtFactionQuest1Start_5 = Say... If we ever get the time, could we go the Border Wall ?
+BorderFortress_MarklichtFactionQuest1Start_6 = There's something I must do.
+BorderFortress_MarklichtFactionQuest1Start_7 = Ah, right...
+BorderFortress_MarklichtFactionQuest1Start_8 = Okay. We'll go there we we can.
+
+BorderFortress_Lara_MarklichtQuest3End_1 = General. We found out the ennemy's goal.
+BorderFortress_Lara_MarklichtQuest3End_2 = Does it has something to do with that oversized staff Lame is carrying ?
+BorderFortress_Lara_MarklichtQuest3End_3 = Well, yes.
+BorderFortress_Lara_MarklichtQuest3End_4 = Sword wanted to steal it for the Merchant.
+BorderFortress_Lara_MarklichtQuest3End_5 = We don't know what it is.
+BorderFortress_Lara_MarklichtQuest3End_6 = Me neither. Let's send it to the capitol.
+BorderFortress_Lara_MarklichtQuest3End_7 = I'm sure someone could tell us what's this thing is.
+BorderFortress_Lara_MarklichtQuest3End_8 = Hell, maybe we could find a use for it.
+BorderFortress_Lara_MarklichtQuest3End_9 = In the meantime, I need your help with something.
+BorderFortress_Lara_MarklichtQuest3End_10 = Yes ?
+BorderFortress_Lara_MarklichtQuest3End_11 = I've had reports of an Orkvian incursion in the mountains near the border.
+BorderFortress_Lara_MarklichtQuest3End_12 = I need to know what's going on.
+BorderFortress_Lara_MarklichtQuest3End_13 = Could Orkva want to start a new war with us ?
+BorderFortress_Lara_MarklichtQuest3End_14 = That seems unlikely. I feel like something else is going on.
+BorderFortress_Lara_MarklichtQuest3End_15 = We'll go investigate.
+BorderFortress_Lara_MarklichtQuest3End_16 = You have the authorization to pursue the ennemy if they retreat to Orkva.
+BorderFortress_Lara_MarklichtQuest3End_17 = Understood.
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------
@@ -265,6 +292,49 @@ BorderWall_Sign_7 = He mistook a civilian convoy and opened fire.
 BorderWall_Sign_8 = After that, Northmen started to get ready for war.
 BorderWall_Sign_9 = Luckily, the country of Kosky managed to convince the Northmens to stand down.
 BorderWall_Sign_10 = After that, a wall was built and Tolstyr was let go of the army.
+
+BorderWall_MarklichtFactionQuest1_1 = We arrived at the wall.
+BorderWall_MarklichtFactionQuest1_2 = What's important is not the wall, but what it represent.
+BorderWall_MarklichtFactionQuest1_3 = Hey, [MC].
+BorderWall_MarklichtFactionQuest1_4 = Are we on the right team ?
+BorderWall_MarklichtFactionQuest1_5 = What do you mean ?
+BorderWall_MarklichtFactionQuest1_6 = Our side is responsible for the killing of innocents.
+BorderWall_MarklichtFactionQuest1_7 = And right now, the General is preparing an invasion just because the people in the capitol said so.
+BorderWall_MarklichtFactionQuest1_8 = Maybe I shouldn't have convinced you do switch sides...
+BorderWall_MarklichtFactionQuest1_9 = Don't say that. If you didn't, I would have joined the rebels.
+BorderWall_MarklichtFactionQuest1_10 = And for the weight we carry. We're trying to make ammends.
+BorderWall_MarklichtFactionQuest1_11 = Maybe not for the Kalian invasion... But the Northmen on the other end.
+BorderWall_MarklichtFactionQuest1_12 = Ever since the incident, the General keeps them updated on our every move.
+BorderWall_MarklichtFactionQuest1_13 = They won't even see our army moving since they're behind the Crag Pass.
+BorderWall_MarklichtFactionQuest1_14 = But she still does it. To make ammends.
+BorderWall_MarklichtFactionQuest1_15 = And for the Merchant... He's on borrowed time anyway.
+BorderWall_MarklichtFactionQuest1_16 = The rebellion is growing. His grip on the military is shaky at best.
+BorderWall_MarklichtFactionQuest1_17 = I don't give him another year.
+BorderWall_MarklichtFactionQuest1_18 = I guess so.
+BorderWall_MarklichtFactionQuest1_19 = ?
+BorderWall_MarklichtFactionQuest1_20 = Lame looks to the side. It seems like a few soldiers have congregated near the memorial sign.
+BorderWall_MarklichtFactionQuest1_21 = Pff ! What a weak response.
+BorderWall_MarklichtFactionQuest1_22 = I don't get why we bend to the Northmen. They are weak.
+BorderWall_MarklichtFactionQuest1_23 = Our people are superior, we should bend them to our will.
+BorderWall_MarklichtFactionQuest1_24 = Maybe we could do a little incursion... The General doesn't have to know.
+BorderWall_MarklichtFactionQuest1_25 = Don't you dare !
+BorderWall_MarklichtFactionQuest1_26 = Oh, and what do we have here.
+BorderWall_MarklichtFactionQuest1_27 = Lame... I thought the General sent you away after blowing up the hangar.
+BorderWall_MarklichtFactionQuest1_28 = Well I...
+BorderWall_MarklichtFactionQuest1_29 = And you ? Who're you ?
+BorderWall_MarklichtFactionQuest1_30 = [MC]. What you talked about seemed like treason.
+BorderWall_MarklichtFactionQuest1_31 = Oh. So what ? You're going to report us ?
+BorderWall_MarklichtFactionQuest1_32 = No. We're going to beat you up !
+
+BorderWall_MarklichtFactionQuest1_33 = It seems we scared them off.
+BorderWall_MarklichtFactionQuest1_34 = That should prevent them from going forward with their plans.
+BorderWall_MarklichtFactionQuest1_35 = Hey, [MC].
+BorderWall_MarklichtFactionQuest1_36 = Thanks for supporting me.
+BorderWall_MarklichtFactionQuest1_37 = It seems that not all of our collegues share our and the General's views.
+BorderWall_MarklichtFactionQuest1_38 = But we'll fight until everybody undersands.
+BorderWall_MarklichtFactionQuest1_39 = We are the Liberation Army, not the Conquering Army.
+BorderWall_MarklichtFactionQuest1_40 = Right.
+BorderWall_MarklichtFactionQuest1_41 = Well. I guess we should head back.
 
 # -----------------------------------------------------------
 # ------------------- Fort Libert ---------------------------

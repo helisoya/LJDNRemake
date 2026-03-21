@@ -249,6 +249,33 @@ BorderFortress_Lara_MarklichtQuest2End_18 = Compris. Viens Lame, on y va.
 BorderFortress_Lara_MarklichtQuest2End_19 = Ah. Ca me rappele. Faites attention à Orkva.
 BorderFortress_Lara_MarklichtQuest2End_20 = Quelque chose ne va pas. Mais je ne sais pas encore quoi.
 
+BorderFortress_MarklichtFactionQuest1Start_1 = D'ailleurs, [MC].
+BorderFortress_MarklichtFactionQuest1Start_2 = Oui ? 
+BorderFortress_MarklichtFactionQuest1Start_3 = Ca fait du bien de travailler avec toi à nouveau.
+BorderFortress_MarklichtFactionQuest1Start_4 = De même.
+BorderFortress_MarklichtFactionQuest1Start_5 = Dis... Si on a le temps, est-ce qu'on peut aller au mur de frontière ?
+BorderFortress_MarklichtFactionQuest1Start_6 = Il y a quelque chose que je dois faire.
+BorderFortress_MarklichtFactionQuest1Start_7 = Ah, oui...
+BorderFortress_MarklichtFactionQuest1Start_8 = Ok. On va y aller quand on le pourra.
+
+BorderFortress_Lara_MarklichtQuest3End_1 = Générale. Nous avons trouvé l'objectif de l'ennemi.
+BorderFortress_Lara_MarklichtQuest3End_2 = Est-ce que ça a à voir avec ce sceptre géant que porte Lame ?
+BorderFortress_Lara_MarklichtQuest3End_3 = Euh, oui.
+BorderFortress_Lara_MarklichtQuest3End_4 = Epée voulait le voler pour le Marchand.
+BorderFortress_Lara_MarklichtQuest3End_5 = Nous ne savons pas son utilité.
+BorderFortress_Lara_MarklichtQuest3End_6 = Moi non plus. Envoyons-le à la capitale.
+BorderFortress_Lara_MarklichtQuest3End_7 = Je suis sure que quelqu'un va pouvoir nous dire ce que ce truc est.
+BorderFortress_Lara_MarklichtQuest3End_8 = Même mieux, peut être qu'on pourra l'utiliser pour quelque chose.
+BorderFortress_Lara_MarklichtQuest3End_9 = En attendant, j'ai besoin de votre aide sur un nouveau sujet.
+BorderFortress_Lara_MarklichtQuest3End_10 = Oui ?
+BorderFortress_Lara_MarklichtQuest3End_11 = J'ai eu vents d'une incursion Orkvienne dans les montagnes proches de la frontière.
+BorderFortress_Lara_MarklichtQuest3End_12 = Je veux savoir ce qu'il se passe.
+BorderFortress_Lara_MarklichtQuest3End_13 = Orkva veut commencer une nouvelle guerre ?
+BorderFortress_Lara_MarklichtQuest3End_14 = C'est peu probable; J'ai l'impression que quelque chose d'autre est en train de se dérouler.
+BorderFortress_Lara_MarklichtQuest3End_15 = On va mener l'enquête.
+BorderFortress_Lara_MarklichtQuest3End_16 = Vous avez l'autorisation de poursuivre l'ennemi s'il bat en retraite.
+BorderFortress_Lara_MarklichtQuest3End_17 = Compris.
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------
@@ -263,6 +290,49 @@ BorderWall_Sign_7 = Il a confondu un convoi civil avec un armée, et a ouvert le
 BorderWall_Sign_8 = Après ça, les Nordiens ont commençé à se préparer à la guerre.
 BorderWall_Sign_9 = Heureusement, le pays voisin de Kosky a réussi à convaincre les Nordiens d'arrêter.
 BorderWall_Sign_10 = Après tout cela, un mur a été construit et Tolstyr a été limogé.
+
+BorderWall_MarklichtFactionQuest1_1 = Nous arrivons au mur.
+BorderWall_MarklichtFactionQuest1_2 = Ce qui est important n'est pas le mur, mais ce qu'il représente.
+BorderWall_MarklichtFactionQuest1_3 = Hé, [MC].
+BorderWall_MarklichtFactionQuest1_4 = Est-ce qu'on est dans le bon camp.
+BorderWall_MarklichtFactionQuest1_5 = Qu'est ce que tu veux dire ?
+BorderWall_MarklichtFactionQuest1_6 = Notre camp est responsable de la mort d'innocents.
+BorderWall_MarklichtFactionQuest1_7 = Et en ce moment même, la Générale est en train de planifier une invasion juste parce que des politiques l'ont demandé.
+BorderWall_MarklichtFactionQuest1_8 = Peut être que j'aurais mieux fait de ne pas de demander de changer de camp...
+BorderWall_MarklichtFactionQuest1_9 = Ne dis pas ça. Si tu n'avais pas été là, j'aurais simplement rejoint les rebelles.
+BorderWall_MarklichtFactionQuest1_10 = Et les innocents. On essaie de réparer nos erreurs du mieux qu'on peut.
+BorderWall_MarklichtFactionQuest1_11 = Peut être pas pour l'invasion de Kalia... Mais pour les Nordiens.
+BorderWall_MarklichtFactionQuest1_12 = Depuis l'incident, la Générale les notifient sur tout nos mouvements.
+BorderWall_MarklichtFactionQuest1_13 = Ils ne veront même pas voir notre armée comme ils vivent derrière le Passe-Falaise.
+BorderWall_MarklichtFactionQuest1_14 = Mais elle les prévient quand même. Pour essayer de se racheter.
+BorderWall_MarklichtFactionQuest1_15 = Et pour le Marchand... Son heure est venu de toute façon.
+BorderWall_MarklichtFactionQuest1_16 = La rebellion gagne du terrain. Sa poigne sur l'armée diminue de jour en jour.
+BorderWall_MarklichtFactionQuest1_17 = Je ne lui donne pas un an.
+BorderWall_MarklichtFactionQuest1_18 = Je suppose.
+BorderWall_MarklichtFactionQuest1_19 = ?
+BorderWall_MarklichtFactionQuest1_20 = Lame regarde sur le coté. Il semblerait que des soldats se sont regroupé vers le panneau memoriel.
+BorderWall_MarklichtFactionQuest1_21 = Pff ! C'est une réponse de faible.
+BorderWall_MarklichtFactionQuest1_22 = Je ne comprend pas pourquoi on s'est prosterné devant les Nordiens. Ils sont faible.
+BorderWall_MarklichtFactionQuest1_23 = Notre peuple est supérieur, c'est eux qui devrait se prosterner.
+BorderWall_MarklichtFactionQuest1_24 = Peut être qu'on pourrait faire une petite incursion... La Générale n'a pas besoin de savoir.
+BorderWall_MarklichtFactionQuest1_25 = Ah ça non !
+BorderWall_MarklichtFactionQuest1_26 = Oh, et qui voila...
+BorderWall_MarklichtFactionQuest1_27 = Lame... Je pensais que la Générale t'avais viré après avoir fait exploser le hangar.
+BorderWall_MarklichtFactionQuest1_28 = Et bien, je...
+BorderWall_MarklichtFactionQuest1_29 = Et toi ? Qui est-tu ?
+BorderWall_MarklichtFactionQuest1_30 = [MC]. Vous aviez l'air de parler de trahison.
+BorderWall_MarklichtFactionQuest1_31 = Oh. Et bien quoi ? Tu vas nous dénoncer ?
+BorderWall_MarklichtFactionQuest1_32 = Non. On va faire ça !
+
+BorderWall_MarklichtFactionQuest1_33 = Il semblerait qu'on a réussi à les faire fuir.
+BorderWall_MarklichtFactionQuest1_34 = Ca devrait les décourager de continuer leur plan.
+BorderWall_MarklichtFactionQuest1_35 = Hé, [MC].
+BorderWall_MarklichtFactionQuest1_36 = Merci de m'avoir aidé.
+BorderWall_MarklichtFactionQuest1_37 = Il semblerait que tout nos collègues ne partagent pas notre point de vue.
+BorderWall_MarklichtFactionQuest1_38 = Mais nous devons nous battre jusqu'à ce que tout le monde l'accepte.
+BorderWall_MarklichtFactionQuest1_39 = Nous sommes l'armée de Libération, pas l'armée d'Invasion.
+BorderWall_MarklichtFactionQuest1_40 = Oui.
+BorderWall_MarklichtFactionQuest1_41 = Bien. Je suppose qu'il est temps de rentrer.
 
 # -----------------------------------------------------------
 # ------------------- Fort Libert ---------------------------

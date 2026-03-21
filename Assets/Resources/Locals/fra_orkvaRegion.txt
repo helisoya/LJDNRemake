@@ -716,6 +716,28 @@ Tolau_Port_SecondaryQuest_22 = Vous devriez rentrer chez vous et éviter les enn
 Tolau_Port_SecondaryQuest_23 = Oui, oui ! Merci.
 Tolau_Port_SecondaryQuest_24 = Je devrais retourner à l'auberge maintenant.
 
+Tolau_Port_MarklichtQuest3_1 = !
+Tolau_Port_MarklichtQuest3_2 = Epée est la. Je ferai mieux de me cacher...
+Tolau_Port_MarklichtQuest3_3 = Qu'est ce que tu veux dire par la ? Je ne peux pas utiliser ton bateau ?
+Tolau_Port_MarklichtQuest3_4 = Monsieur, vous ne m'avez pas dis pourquoi vous le voulez.
+Tolau_Port_MarklichtQuest3_5 = Vous ne faites que crier depuis plusieurs minutes.
+Tolau_Port_MarklichtQuest3_6 = Je te l'ai dis ! Je veux visiter la forêt de l'Ile Mirage.
+Tolau_Port_MarklichtQuest3_7 = J'ai entendu dire qu'il y avait un temple la bas. Je veux y aller pour prier.
+Tolau_Port_MarklichtQuest3_8 = Euh, quoi ?
+Tolau_Port_MarklichtQuest3_9 = Bon, monsieur. Je ne peux pas vous laisser prendre mon bateau.
+Tolau_Port_MarklichtQuest3_10 = C'est trop dangereux. L'armée surveille la mer.
+Tolau_Port_MarklichtQuest3_11 = Vous allez mourrir si vous y aller. Et je vais perdre mon bateau.
+Tolau_Port_MarklichtQuest3_12 = Je m'en fou !
+Tolau_Port_MarklichtQuest3_13 = Epée le frappe. Il tombe au sol.
+Tolau_Port_MarklichtQuest3_14 = Ce bateau est à moi ! Je vais atteindre cette ile, tu vas voir.
+Tolau_Port_MarklichtQuest3_15 = ...
+Tolau_Port_MarklichtQuest3_16 = Et bien. Je suppose qu'on sait ce qu'il fait maintenant.
+Tolau_Port_MarklichtQuest3_17 = Quand même, pourquoi l'Ile Mirage ?
+Tolau_Port_MarklichtQuest3_18 = Le temple qu'il a mentionné... Ca doit être un autre artefact.
+Tolau_Port_MarklichtQuest3_19 = Suivons le. On ne peux pas le laisser en voler un autre.
+Tolau_Port_MarklichtQuest3_20 = Et le blocus ?
+Tolau_Port_MarklichtQuest3_21 = On va trouver un moyen.
+
 Tolau_CityHall_Mayor_Greetings_1 = Avez-vous quelque chose à me demander ?
 
 Tolau_CityHall_Mayor_AboutCity_1 = Tolau était autrefois une ville commerçante prospère.
