@@ -30,7 +30,7 @@ MonoBehaviour:
       - Key: 5
         Value: 1
     weapon: ONEHANDED_SWORD
-    armor: ARMOR_TRENCHCOAT
+    armor: ARMOR_UNIFORM
     level: 1
     currentHP: 0
     currentSP: 0

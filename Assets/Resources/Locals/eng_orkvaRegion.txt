@@ -86,6 +86,19 @@ Altyr_Sam_End_14 = You can have it. This is the only working prototype.
 Altyr_Sam_End_15 = Thank you.
 Altyr_Sam_End_16 = In the meantime...
 
+Altyr_Sam_MarklichtQuest4_1 = Sam, we need your help.
+Altyr_Sam_MarklichtQuest4_2 = Orkvian soldiers came here, didn't they ? Do you know where they're from ?
+Altyr_Sam_MarklichtQuest4_3 = You... You are with Marklicht, uh ?
+Altyr_Sam_MarklichtQuest4_4 = The military would have my head if I talked.
+Altyr_Sam_MarklichtQuest4_5 = But... No one is listening so...
+Altyr_Sam_MarklichtQuest4_6 = Hmm...
+Altyr_Sam_MarklichtQuest4_7 = Okay, I'll tell you.
+Altyr_Sam_MarklichtQuest4_8 = They come from Okville. They're the local garison.
+Altyr_Sam_MarklichtQuest4_9 = More than that, I don't know.
+Altyr_Sam_MarklichtQuest4_10 = I see. That's pretty helpful.
+Altyr_Sam_MarklichtQuest4_11 = Something is up with the soldiers these days. I feel like they are plotting something.
+Altyr_Sam_MarklichtQuest4_12 = We'll get to the bottom of this, don't worry. 
+
 # ---------------------------------------------------------
 # --------------------- Vorlan ----------------------------
 # ---------------------------------------------------------
@@ -416,6 +429,31 @@ Okville_Shop_AboutYou_2 = If you don't have anything to buy, please leave.
 
 Okville_CityHall_Door_1 = The sign says "No Suori allowed".
 Okville_CityHall_Door_2 = What is this place...
+
+Okville_CityHall_MarklichtQuest4_1 = ?
+Okville_CityHall_MarklichtQuest4_2 = A lot of people are gathered here. I wonder what is going on.
+Okville_CityHall_MarklichtQuest4_3 = My fellow citizen, it is with sadness that I announce the death of 4 of our local troops.
+Okville_CityHall_MarklichtQuest4_4 = The leech that is Marklicht took their lifes unjustly.
+Okville_CityHall_MarklichtQuest4_5 = Who what reason, you may ask ? None !
+Okville_CityHall_MarklichtQuest4_6 = Marklicht crossed the river and attacked us without warning.
+Okville_CityHall_MarklichtQuest4_7 = This is an act of aggression. We must retaliate.
+Okville_CityHall_MarklichtQuest4_8 = But do not fear. I'm not speaking about armed conflict. Not yet anyway.
+Okville_CityHall_MarklichtQuest4_9 = We have several Marklichtian soldiers in our great prison.
+Okville_CityHall_MarklichtQuest4_10 = Soon, they will be executed.
+Okville_CityHall_MarklichtQuest4_11 = This will show Marklicht what happens we they deal with us !
+Okville_CityHall_MarklichtQuest4_12 = The crowd cheers. This is bad.
+Okville_CityHall_MarklichtQuest4_13 = That's a lie. Orkva attacked us.
+Okville_CityHall_MarklichtQuest4_14 = Something is not right. Why would they attack us, retreat, and pretend we were the one who attacked...
+Okville_CityHall_MarklichtQuest4_15 = My gut feeling is that they might be trying to invade again.
+Okville_CityHall_MarklichtQuest4_16 = Yeah, true. That's a classic black flag operation.
+Okville_CityHall_MarklichtQuest4_17 = But we need to investigate further. The General seemed sure that Orkva wouldn't invade.
+Okville_CityHall_MarklichtQuest4_18 = There's also the matter of the captives they want to execute.
+Okville_CityHall_MarklichtQuest4_19 = We can't let that happen.
+Okville_CityHall_MarklichtQuest4_20 = True. But how do we enter the prison ?
+Okville_CityHall_MarklichtQuest4_21 = Hmm... Actually. I might have an idea.
+Okville_CityHall_MarklichtQuest4_22 = Let's go to the shrine. I think I saw a military truck. 
+Okville_CityHall_MarklichtQuest4_23 = Ah. We could use it to sneak into the prison.
+Okville_CityHall_MarklichtQuest4_24 = Good thinking. Let's go.
 
 Okville_TrainStation_ArcQuest_1 = Hey, faster !
 Okville_TrainStation_ArcQuest_2 = Get changed. The train is going to be here soon.

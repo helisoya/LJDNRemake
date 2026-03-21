@@ -538,3 +538,21 @@ BanditMountain_MainQuest4_Disloyal_6 = Je devrais retourner auprès de mes nouve
 BanditMountain_MainQuest4_Disloyal_7 = Ils vont vouloir voir cet artefact.
 
 BanditMountain_MainQuest4_Out_1 = Après quelques minutes, je suis sorti des cavernes.
+
+BanditMountain_MarklichtQuest4_1 = C'est ici que la Générale a reporté une incursion.
+BanditMountain_MarklichtQuest4_2 = Ah, enfin ! La Générale a envoyé des renforts.
+BanditMountain_MarklichtQuest4_3 = Que s'est-il passé ? Nous sommes ici pour mener l'enquête.
+BanditMountain_MarklichtQuest4_4 = Des Orkviens ont traversé la rivière au sud de notre position il y a quelques heures.
+BanditMountain_MarklichtQuest4_5 = Nous avons riposté, et ils ont batu en retraite.
+BanditMountain_MarklichtQuest4_6 = Vous savez quel était leur objectif ?
+BanditMountain_MarklichtQuest4_7 = Non. Mais j'ai l'impression qu'ils voulaient atteindre le fort.
+BanditMountain_MarklichtQuest4_8 = Hmm... Je vois.
+BanditMountain_MarklichtQuest4_9 = Bon travail, camarade. Nous allons continuer notre invasion.
+BanditMountain_MarklichtQuest4_10 = Notifiez la Générale si quelque chose se produit à nouveau.
+BanditMountain_MarklichtQuest4_11 = Compris !
+BanditMountain_MarklichtQuest4_12 = Bien. Je pense qu'il est temps pour nous de faire notre propre incursion.
+BanditMountain_MarklichtQuest4_13 = Nous allons au sud, et traversons la rivière.
+BanditMountain_MarklichtQuest4_14 = Après quelques temps, nous arrivons à Altyr.
+BanditMountain_MarklichtQuest4_15 = Je ne comprends pas. D'ou est-ce qu'ils viennent ?
+BanditMountain_MarklichtQuest4_16 = C'est une maison, pas une base militaire.
+BanditMountain_MarklichtQuest4_17 = ... Peut être que le propriétaire peut nous aider.

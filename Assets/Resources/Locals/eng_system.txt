@@ -343,6 +343,12 @@ marklichtQuest_3_done = I followed Sword and foiled his theft attempt
 
 marklichtQuest_4 = Investigation
 marklichtQuest_4_0 = Investigate the Marklichtian mountains
+marklichtQuest_4_1 = Talk to Sam in Altyr
+marklichtQuest_4_2 = Investigate Okville
+marklichtQuest_4_done = We investigated the Orkvian incursion
+
+marklichtQuest_5 = Prison break
+marklichtQuest_5_0 = Steal a military truck in in Okville
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
@@ -686,3 +692,5 @@ ARMOR_BATTLEARMOR_name = Battle Armor
 ARMOR_BATTLEARMOR_desc = A custom made battle armor.<br>+8 DEF
 ARMOR_RIOTSHIELD_name = Heavy Riot Shield
 ARMOR_RIOTSHIELD_desc = A riot shield that was used by the founder of the Order.<br>+8 DEF
+ARMOR_UNIFORM_name = Uniform
+ARMOR_UNIFORM_desc = A standard military uniform.<br>+3 DEF

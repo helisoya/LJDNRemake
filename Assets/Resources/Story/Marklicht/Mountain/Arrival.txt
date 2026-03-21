@@ -19,7 +19,13 @@ fadeFg(0;false)
 
 if(mainQuest_4 = 0){
 	load(Marklicht/Mountain/MainQuest4)
+	return()
 }
-else{
-	load(Marklicht/Mountain/Interaction)
+
+if(marklichtQuest_4 = 0){
+	load(Marklicht/Mountain/MarklichtQuest4)
+	return()
 }
+
+
+load(Marklicht/Mountain/Interaction)

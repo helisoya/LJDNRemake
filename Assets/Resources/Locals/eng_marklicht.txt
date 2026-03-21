@@ -540,3 +540,21 @@ BanditMountain_MainQuest4_Disloyal_6 = I should head back to my new compatriots.
 BanditMountain_MainQuest4_Disloyal_7 = They'll want to see this artefact.
 
 BanditMountain_MainQuest4_Out_1 = After a few minutes, I'm out of the caverns.
+
+BanditMountain_MarklichtQuest4_1 = This is where the general reported an incursion.
+BanditMountain_MarklichtQuest4_2 = Ah, finally ! The General sent reinforcments.
+BanditMountain_MarklichtQuest4_3 = What happened ? We're here to investigate.
+BanditMountain_MarklichtQuest4_4 = Orkvian crossed the river just south of our position a few hours ago.
+BanditMountain_MarklichtQuest4_5 = We fought back, and they retreated.
+BanditMountain_MarklichtQuest4_6 = Do you know their objective ?
+BanditMountain_MarklichtQuest4_7 = No. But it felt like they were trying to reach the fort.
+BanditMountain_MarklichtQuest4_8 = Hmm... I see.
+BanditMountain_MarklichtQuest4_9 = Good job, comrade. We'll continue our investigation.
+BanditMountain_MarklichtQuest4_10 = Notify the General if a new incursion occurs.
+BanditMountain_MarklichtQuest4_11 = Understood !
+BanditMountain_MarklichtQuest4_12 = Well. I guess its time for us to make an incursion of our own.
+BanditMountain_MarklichtQuest4_13 = We go south, and cross the river.
+BanditMountain_MarklichtQuest4_14 = After a while, we manage to get to Altyr.
+BanditMountain_MarklichtQuest4_15 = I don't get it. Where did they come from ?
+BanditMountain_MarklichtQuest4_16 = This is a house, not a military base.
+BanditMountain_MarklichtQuest4_17 = ... Maybe the owner can help us.

@@ -343,6 +343,12 @@ marklichtQuest_3_done = J'ai suivi Epée et empeché sa tentative de vol
 
 marklichtQuest_4 = Investigation
 marklichtQuest_4_0 = Menez l'enquête dans les montagnes Marklichtiennes
+marklichtQuest_4_1 = Parlez à Sam à Altyr
+marklichtQuest_4_2 = Menez l'enquête à Altyr
+marklichtQuest_4_done = Nous avons mené l'enquête sur l'incursion Orkvienne
+
+marklichtQuest_5 = Evasion de prison
+marklichtQuest_5_0 = Volez un camion militaire à Okville
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
@@ -685,3 +691,5 @@ ARMOR_BATTLEARMOR_name = Armure de combat
 ARMOR_BATTLEARMOR_desc = Une armure de combat fait à la main.<br>+8 DEF
 ARMOR_RIOTSHIELD_name = Bouclier Blindé
 ARMOR_RIOTSHIELD_desc = Un bouclier blindé qui a été utilisé par le fondateur de l'Ordre.<br>+8 DEF
+ARMOR_UNIFORM_name = Uniforme
+ARMOR_UNIFORM_desc = Un uniforme militaire standard.<br>+3 DEF

@@ -17,4 +17,9 @@ autosave()
 
 fadeFg(0;false)
 
+if(marklichtQuest_4 = 2){
+	load(Orkva/Okville/CityHall/MarklichtQuest4)
+	return()
+}
+
 load(Orkva/Okville/CityHall/Interaction)

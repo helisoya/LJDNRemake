@@ -30,7 +30,7 @@ MonoBehaviour:
       - Key: 5
         Value: 20
     weapon: FIREARM_REVOLVER
-    armor: ARMOR_TRENCHCOAT
+    armor: ARMOR_UNIFORM
     level: 1
     currentHP: 0
     currentSP: 0

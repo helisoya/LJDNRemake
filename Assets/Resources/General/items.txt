@@ -35,6 +35,7 @@ marklichtQuest_1 -1
 marklichtQuest_2 -1
 marklichtQuest_3 -1
 marklichtQuest_4 -1
+marklichtQuest_5 -1
 
 merchantQuest_1 -1
 

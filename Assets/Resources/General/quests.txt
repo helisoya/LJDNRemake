@@ -15,6 +15,7 @@ marklichtQuest_1
 marklichtQuest_2
 marklichtQuest_3
 marklichtQuest_4
+marklichtQuest_5
 merchantQuest_1
 
 [arcQuest]

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: VorlanSalesman
   m_EditorClassIdentifier: 
   itemsToSell:
+  - ARMOR_UNIFORM
   - ARMOR_TRENCHCOAT
   - ONEHANDED_AXE
   - FIREARM_REVOLVER
