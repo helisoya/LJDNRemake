@@ -278,6 +278,23 @@ BorderFortress_Lara_MarklichtQuest3End_15 = We'll go investigate.
 BorderFortress_Lara_MarklichtQuest3End_16 = You have the authorization to pursue the ennemy if they retreat to Orkva.
 BorderFortress_Lara_MarklichtQuest3End_17 = Understood.
 
+BorderFortress_Lara_MarklichtQuest5End_1 = [MC], report. What is going on ?
+BorderFortress_Lara_MarklichtQuest5End_2 = I've had reports that Orkva is threatning to kill prisoners if we do anything funny.
+BorderFortress_Lara_MarklichtQuest5End_3 = It's all part of some sort of diplomatic play.
+BorderFortress_Lara_MarklichtQuest5End_4 = Orkva also wants to invade Kalia. This incident is their way to ensure we won't intervene.
+BorderFortress_Lara_MarklichtQuest5End_5 = The prisoners don't exist. Its just a lie to put pressure on us.
+BorderFortress_Lara_MarklichtQuest5End_6 = ... I shouldn't be surprised. I had a feeling they were planning something big.
+BorderFortress_Lara_MarklichtQuest5End_7 = But still... To think they would do such an operation just to stall us.
+BorderFortress_Lara_MarklichtQuest5End_8 = What do we do ?
+BorderFortress_Lara_MarklichtQuest5End_9 = We invade as planned. They won't dare attack us if we go first.
+BorderFortress_Lara_MarklichtQuest5End_10 = Orkva may not look like it, but they are facing major internal problems.
+BorderFortress_Lara_MarklichtQuest5End_11 = They're not ready for open conflict with us.
+BorderFortress_Lara_MarklichtQuest5End_12 = At most, they'll execute their ghost prisoners and call it a day.
+BorderFortress_Lara_MarklichtQuest5End_13 = So we depart as soon as possible ?
+BorderFortress_Lara_MarklichtQuest5End_14 = Yes. The time has come. We're launching the invasion.
+BorderFortress_Lara_MarklichtQuest5End_15 = Talk to me when you're ready to go.
+BorderFortress_Lara_MarklichtQuest5End_16 = Make sure to resupply first.
+ 
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

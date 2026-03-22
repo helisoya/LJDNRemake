@@ -349,6 +349,12 @@ marklichtQuest_4_done = We investigated the Orkvian incursion
 
 marklichtQuest_5 = Prison break
 marklichtQuest_5_0 = Steal a military truck in in Okville
+marklichtQuest_5_1 = Report back to General Lara at Marklicht's Border Fortress
+marklichtQuest_5_done = We uncovered the Orkvian plot
+
+marklichtQuest_6 = Invasion & Liberation
+marklichtQuest_6_0 = Talk to General Lara at Marklicht's Border Fortress
+marklichtquest_6_done = We invaded Kalia
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
@@ -365,6 +371,10 @@ factionQuest_Rebel_2_done = I distracted Orkvian soldiers using a fire
 factionQuest_Marklicht_1 = Paying respects
 factionQuest_Marklicht_1_0 = Visit the Border Wall in Marklicht
 factionQuest_Marklicht_1_done = We visited the wall
+
+factionQuest_Marklicht_2 = Rebellion
+factionQuest_Marklicht_2_0 = Go to Okville's shrine
+factionQuest_Marklicht_2_done = We created unrest in Okville
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -605,6 +615,7 @@ ENNEMY_Orkva_VorlanGovernor_name = Military Governor
 ENNEMY_Orkva_BodyGuard_name = Body guard
 ENNEMY_Orkva_Ogden_name = Body guard
 ENNEMY_Orkva_Pal_name = General Pal
+ENNEMY_Orkva_OgdenMarklicht_name = Commander
 ENNEMY_OrkvaSoldier_Sword_name = Soldier
 ENNEMY_OrkvaSoldier_Revolver_name = Soldier
 ENNEMY_OrkvaSoldier_Rifle_name = Soldier

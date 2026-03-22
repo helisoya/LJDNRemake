@@ -276,6 +276,23 @@ BorderFortress_Lara_MarklichtQuest3End_15 = On va mener l'enquête.
 BorderFortress_Lara_MarklichtQuest3End_16 = Vous avez l'autorisation de poursuivre l'ennemi s'il bat en retraite.
 BorderFortress_Lara_MarklichtQuest3End_17 = Compris.
 
+BorderFortress_Lara_MarklichtQuest5End_1 = [MC], au rapport. Qu'est ce qu'il se passe ?
+BorderFortress_Lara_MarklichtQuest5End_2 = J'ai eu vent que Orkva menace d'executé des prisonniers si nous faisons quelque chose.
+BorderFortress_Lara_MarklichtQuest5End_3 = Ca fait partie d'une sorte de stratagème diplomatique.
+BorderFortress_Lara_MarklichtQuest5End_4 = Orkva veut aussi envahir Kalia. L'incident est leur façon de s'assurer que l'on n'intervienne pas.
+BorderFortress_Lara_MarklichtQuest5End_5 = Les prisonniers n'existent pas. C'est juste un mensonge pour nous mettre la pression.
+BorderFortress_Lara_MarklichtQuest5End_6 = ... Je ne devrais pas être surprise. J'avais l'impression qu'ils planifiaient quelque chose de gros.
+BorderFortress_Lara_MarklichtQuest5End_7 = Mais quand même... Une telle opération juste pour nous retarder dans nos plans.
+BorderFortress_Lara_MarklichtQuest5End_8 = Que va-t-on faire ?
+BorderFortress_Lara_MarklichtQuest5End_9 = On envahi comme prévu. Ils n'oseront pas attaquer si on y va en premier.
+BorderFortress_Lara_MarklichtQuest5End_10 = Orkva n'en a pas l'air, mais ils ont beacoup de problèmes internes.
+BorderFortress_Lara_MarklichtQuest5End_11 = Ils ne sont pas prêt pour un conflit ouvert avec nous.
+BorderFortress_Lara_MarklichtQuest5End_12 = Au mieux, ils executeront leurs prisonniers fantômes et c'est tout.
+BorderFortress_Lara_MarklichtQuest5End_13 = Donc nous partons dès que possible ?
+BorderFortress_Lara_MarklichtQuest5End_14 = Oui. Le moment est venu. Nous allons lancer l'invasion.
+BorderFortress_Lara_MarklichtQuest5End_15 = Parlez moi quand vous serez prêt.
+BorderFortress_Lara_MarklichtQuest5End_16 = Assurez vous d'avoir des ravitaillements avant cela.
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------

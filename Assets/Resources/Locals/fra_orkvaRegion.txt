@@ -417,7 +417,87 @@ OrkvaMilitaryBase_Bandit_ArcQuest2_21 = Je devrais aller à cette réunion dès 
 # ---------------------------------------------------------
 
 Okville_Shrine_Portrait_1 = Un portrait du roi Orkvien.
-Okville_Shrine_Portrait_2 = Il est à la fois le chef de gouvernement et la figure religieuse de la religion Orkvienne.7
+Okville_Shrine_Portrait_2 = Il est à la fois le chef de gouvernement et la figure religieuse de la religion Orkvienne.
+
+Okville_Shrine_MarklichtQuest5_1 = La !
+Okville_Shrine_MarklichtQuest5_2 = Comme Lame l'avait prédis, il y a un camion militaire ici.
+Okville_Shrine_MarklichtQuest5_3 = Volons le et utilisons le pour entrer dans la prison.
+Okville_Shrine_MarklichtQuest5_4 = Bien. Commençons par nous occuper des soldats.
+Okville_Shrine_MarklichtQuest5_5 = Allons-y.
+
+Okville_Shrine_MarklichtQuest5_6 = Après s'être occupé des soldats, nous cachons les corps dans le camion.
+Okville_Shrine_MarklichtQuest5_7 = Bien. Entrons à présent dans la prison.
+Okville_Shrine_MarklichtQuest5_8 = Nous prenons le camion et conduisons jusqu'à la prison.
+Okville_Shrine_MarklichtQuest5_9 = Les gardes ne suspectes même pas notre présence. Nous arrivons à entrer sans problèmes.
+Okville_Shrine_MarklichtQuest5_10 = Bon, il est temps de trouver et sauver ces soldats.
+
+Okville_Shrine_MarklichtQuest5_11 = Je ne comprends pas, ou sont les prisoniers ?
+Okville_Shrine_MarklichtQuest5_12 = ... Je n'aime pas ça.
+Okville_Shrine_MarklichtQuest5_13 = ?
+Okville_Shrine_MarklichtQuest5_14 = Nous commençons à entendre des bruits de pas venir vers nous.
+Okville_Shrine_MarklichtQuest5_15 = C'est étrange, elle n'ont pas l'air de venir d'un soldat.
+Okville_Shrine_MarklichtQuest5_16 = Ah... Je me disais bien que vous seriez par ici.
+Okville_Shrine_MarklichtQuest5_17 = Qui êtes-vous ?
+Okville_Shrine_MarklichtQuest5_18 = C'est assez audacieux de votre part. Vous êtes ici illégalement après tout.
+Okville_Shrine_MarklichtQuest5_19 = Je suppose que vous êtes ici pour les prisoniers ?
+Okville_Shrine_MarklichtQuest5_20 = Vous, les Marklichtiens, sont si prévisibles.
+Okville_Shrine_MarklichtQuest5_21 = Il n'y a pas de prisoniers. Pas ici en tout cas.
+Okville_Shrine_MarklichtQuest5_22 = Quoi ?
+Okville_Shrine_MarklichtQuest5_23 = Mais alors... Ce que vous avez dis à la mairie.
+Okville_Shrine_MarklichtQuest5_24 = Un mensonge. Il fait partie d'un coup diplomatique.
+Okville_Shrine_MarklichtQuest5_25 = Nous savons ce que vous voulez faire, Marklichtiens.
+Okville_Shrine_MarklichtQuest5_26 = Et nous voulons faire la même chose.
+Okville_Shrine_MarklichtQuest5_27 = Pour vous empecher d'attaquer Kalia avant nous, nous avons organisé ce petit coup.
+Okville_Shrine_MarklichtQuest5_28 = Nous vous avons attaqué, puis prétendu que vous avez attaqué en premier.
+Okville_Shrine_MarklichtQuest5_29 = Grace à ça, votre gouvernement n'osera pas attaquer Kalia.
+Okville_Shrine_MarklichtQuest5_30 = Le monde penserait que nous allons attaquer Orkva en passant par Kalia.
+Okville_Shrine_MarklichtQuest5_31 = Eh Eh...
+Okville_Shrine_MarklichtQuest5_32 = Cependant, je ne pensais pas que vous alliez croire à mon histoire de prisoniers.
+Okville_Shrine_MarklichtQuest5_33 = Pourquoi nous en parler ? Nous connaissons votre plan maintenant.
+Okville_Shrine_MarklichtQuest5_34 = Je n'ai jamais voulu vous laisser partir en vie.
+
+Okville_Shrine_MarklichtQuest5_35 = On a réussi.
+Okville_Shrine_MarklichtQuest5_36 = Je n'arrive pas a y croire. C'était un mensonge !
+Okville_Shrine_MarklichtQuest5_37 = Ils n'ont pas de prisoniers. Ils ne veulent que nous retarder.
+Okville_Shrine_MarklichtQuest5_38 = Et bien, maintenant on le sais. Il faut prévenir la Générale.
+Okville_Shrine_MarklichtQuest5_39 = On peut continuer nos préparation pour l'invasion sans inquiétudes.
+Okville_Shrine_MarklichtQuest5_40 = Orkva ne veut pas en réalité nous attaquer.
+Okville_Shrine_MarklichtQuest5_41 = Viens. Nous devons fuir rapidement.
+Okville_Shrine_MarklichtQuest5_42 = Les gardes vont bientôt découvrir que leur commandant est mort.
+Okville_Shrine_MarklichtQuest5_43 = Nous quittons la prison sans problèmes.
+Okville_Shrine_MarklichtQuest5_44 = Enfin, nous laissons le camion sur le coté de la route.
+Okville_Shrine_MarklichtQuest5_45 = Nous devons retourner voir la Générale Lara.
+Okville_Shrine_MarklichtQuest5_46 = Hé, avant ça...
+Okville_Shrine_MarklichtQuest5_47 = Tu es toujours en colère a cause de tout ça ?
+Okville_Shrine_MarklichtQuest5_48 = Oui. On peut retrouver à l'autel ? J'ai une idée.
+Okville_Shrine_MarklichtQuest5_49 = Je vois. Si tu le dis.
+
+Okville_Shrine_MarklichtFactionQuest2_1 = Donc qu'est ce que tu avais en tête ?
+Okville_Shrine_MarklichtFactionQuest2_2 = C'est simple. Regardes ça.
+Okville_Shrine_MarklichtFactionQuest2_3 = Lame s'approche de l'autel et commence à trafiquer le portrait.
+Okville_Shrine_MarklichtFactionQuest2_4 = Il déssine des choses étranges sur le roi Orkvien.
+Okville_Shrine_MarklichtFactionQuest2_5 = Il a l'air ridicule, maintenant.
+Okville_Shrine_MarklichtFactionQuest2_6 = Eh eh eh. [MC], tu sais pourquoi Okville est si spécial ?
+Okville_Shrine_MarklichtFactionQuest2_7 = Non ?
+Okville_Shrine_MarklichtFactionQuest2_8 = C'est la seule ville de la région qui est quasiment 100% Orkvienne culturellement.
+Okville_Shrine_MarklichtFactionQuest2_9 = Mais ils n'ont pas bati la ville de toute pièce.
+Okville_Shrine_MarklichtFactionQuest2_10 = Tu connais Altyr, pas vrai ? On est passé devant sur le chemin.
+Okville_Shrine_MarklichtFactionQuest2_11 = Okville était en réalité Altyr auparavent.
+Okville_Shrine_MarklichtFactionQuest2_12 = Quand Okville a commençé sa construction, ils ont donné un choix aux habitants.
+Okville_Shrine_MarklichtFactionQuest2_13 = Soit ils partaient à la nouvelle "Altyr", au nord. Soit il restait à Okville.
+Okville_Shrine_MarklichtFactionQuest2_14 = Certains sont parti à la nouvelle Altyr, mais la plupart sont partis vers Vorlan et Tolau.
+Okville_Shrine_MarklichtFactionQuest2_15 = Et une toute petite fraction de Suori est resté à Okville.
+Okville_Shrine_MarklichtFactionQuest2_16 = Ok, mais ça ne répond pas à pourquoi tu as fait ça.
+Okville_Shrine_MarklichtFactionQuest2_17 = Eh eh ! Les Orkviens ici sont parano. Ils leur arrive de suspecter des des purs Orkviens sont en réalité des Suoris déguisés.
+Okville_Shrine_MarklichtFactionQuest2_18 = Ah, je pense comprendre.
+Okville_Shrine_MarklichtFactionQuest2_19 = En trafiquant l'autel, il y aura de l'agitation.
+Okville_Shrine_MarklichtFactionQuest2_20 = Les gens vont chercher des rebelles Suori inexistants.
+Okville_Shrine_MarklichtFactionQuest2_21 = C'est ça. Ils vont vérifier les Suoris locaux et ne vont rien trouver.
+Okville_Shrine_MarklichtFactionQuest2_22 = A partir de là, ils vont commençer à se suspecter les uns les autres.
+Okville_Shrine_MarklichtFactionQuest2_23 = Ingénieux. Et avec la garnison locale si affaiblie...
+Okville_Shrine_MarklichtFactionQuest2_24 = L'armée Royale Orkvienne va devoir venir ici pour les aider.
+Okville_Shrine_MarklichtFactionQuest2_25 = Je vois. Pour une fois, je suis impressioné par ton idée, Lame.
+Okville_Shrine_MarklichtFactionQuest2_26 = On devrait y aller maintenant. Les Orkviens pourraient arriver à n'importe quel moment.
 
 Okville_Shop_Greetings_1 = Que veux-tu ?
 
