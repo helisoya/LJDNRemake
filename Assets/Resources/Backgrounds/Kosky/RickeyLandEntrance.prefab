@@ -884,7 +884,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6633225b44bdab438ab9a87227affc3, type: 2}
+  - {fileID: 2100000, guid: 6d6efcb35a37f4a409ab093af628710c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -978,6 +978,8 @@ MonoBehaviour:
   backgroundName: Kosky/RickeyLandEntrance
   markersRoot: {fileID: 8069573049598320873}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &8069573050282054114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,7 +1521,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3aac4496592b204e97c3b3ad507b7df, type: 2}
+  - {fileID: 2100000, guid: e33c0b4e58b1bdd4789d2a799fcec825, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2225,8 +2227,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69eb3553a1ef66b4b90ea5b845c4729d, type: 2}
-  - {fileID: 2100000, guid: dbb2bc4333ec06544bb95be9ce35e410, type: 2}
+  - {fileID: 2100000, guid: ce83c70fc5ce90442932a7ae160087eb, type: 2}
+  - {fileID: 2100000, guid: 47c76bcce5440d94aa6d9e27b4a4a1a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8751,7 +8753,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0546415af0500eb42a07981bb44de97b, type: 2}
+  - {fileID: 2100000, guid: c1e14bdc6c66c284bb71b3d98541b6ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

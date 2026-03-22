@@ -2934,10 +2934,10 @@ MonoBehaviour:
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
-  - {x: 0.98768836, y: 0.15643446, z: 0.00001143528, w: -1}
-  - {x: 0.9876883, y: 0.15643464, z: 0.000011435293, w: -1}
-  - {x: 0.9876883, y: 0.15643464, z: 0.000011435293, w: -1}
-  - {x: 0.9876883, y: 0.15643483, z: 0.000011435307, w: -1}
+  - {x: 0, y: 1, z: 0.000073099494, w: -1}
+  - {x: 0, y: 1, z: 0.000073099494, w: -1}
+  - {x: 0, y: 1, z: 0.000073099494, w: -1}
+  - {x: 0, y: 1, z: 0.000073099494, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -3172,8 +3172,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c65f34360fce7c24d83e945bea0bd2ea, type: 2}
-  - {fileID: 2100000, guid: 9e80cac665275f34e81e036112f30730, type: 2}
+  - {fileID: 2100000, guid: a4397dfa8418f6647a1155f02e688d9d, type: 2}
+  - {fileID: 2100000, guid: 15b631fb180e0704fb95f1c2c9a57dd8, type: 2}
   - {fileID: 2100000, guid: f52ac58abc9619a459c869bca8570814, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

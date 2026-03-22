@@ -373,7 +373,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: acfe44e76aa82eb43a572657e910f5a1, type: 2}
+  - {fileID: 2100000, guid: 2bff4063252167a4bb753c2b0fb11c5d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4903,7 +4903,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
+  - {fileID: 2100000, guid: 89beca9c299378846b44a80b940591fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5534,6 +5534,8 @@ MonoBehaviour:
   backgroundName: Kosky/RickeyLandSouvenirOutside
   markersRoot: {fileID: 9067187459553328804}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &9067187459840178440
 GameObject:
   m_ObjectHideFlags: 0

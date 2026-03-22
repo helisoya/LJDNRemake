@@ -226,6 +226,8 @@ MonoBehaviour:
   backgroundName: Kosky/BlackStudy
   markersRoot: {fileID: 8155264613960060524}
   skyData: {fileID: 11400000, guid: 95fa6e2cab7750741bb0007091a6860c, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &8155264613960060525
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,7 +2475,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 384c9c242aec76c449042ad6728e8aa6, type: 2}
+  - {fileID: 2100000, guid: 7144f66264837af4d826dab01ea00d76, type: 2}
   - {fileID: 2100000, guid: 08c922f06c084ea488b22bcc6d9f80e2, type: 2}
   - {fileID: 2100000, guid: c65f34360fce7c24d83e945bea0bd2ea, type: 2}
   - {fileID: 2100000, guid: b6cf9ddfdaf899840866c01be2d6bbe9, type: 2}

@@ -420,7 +420,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91b2a4a9e5cc2c64abfbf155bc65e302, type: 2}
+  - {fileID: 2100000, guid: 63c92dd78a6d2db46b733ffc42fab599, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -870,7 +870,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91b2a4a9e5cc2c64abfbf155bc65e302, type: 2}
+  - {fileID: 2100000, guid: 63c92dd78a6d2db46b733ffc42fab599, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2819,7 +2819,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1855039998481be48a34c6fb71243690, type: 2}
+  - {fileID: 2100000, guid: 09ca3ccb9a2d0764ebbfb56c99ca1090, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16255,8 +16255,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
-  - {fileID: 2100000, guid: 9e80cac665275f34e81e036112f30730, type: 2}
+  - {fileID: 2100000, guid: 042468532cf9ccb44a87ea5508b2d853, type: 2}
+  - {fileID: 2100000, guid: 15b631fb180e0704fb95f1c2c9a57dd8, type: 2}
   - {fileID: 2100000, guid: 1c4c8243c6ce9f6439d75f3784bb0402, type: 2}
   - {fileID: 2100000, guid: b6cf9ddfdaf899840866c01be2d6bbe9, type: 2}
   m_StaticBatchInfo:
@@ -16351,3 +16351,5 @@ MonoBehaviour:
   backgroundName: Kosky/BraiseCouloirDestroyed
   markersRoot: {fileID: 8219015979156088800}
   skyData: {fileID: 11400000, guid: 69a1ccb1238e41a4e8f75ffa2663bd1a, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}

@@ -83,6 +83,8 @@ MonoBehaviour:
   backgroundName: Kosky/RunanCaveEntrance
   markersRoot: {fileID: 12770836686992254}
   skyData: {fileID: 11400000, guid: cd5cc1252631a7a4d9f91d8d1eb83de9, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &12770837837314013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,8 +3821,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5460ae1530351b54c8ff5f1ab2b041c8, type: 2}
-  - {fileID: 2100000, guid: 1855039998481be48a34c6fb71243690, type: 2}
+  - {fileID: 2100000, guid: fbe74a1043e1e344c8f9cc0422f7e823, type: 2}
+  - {fileID: 2100000, guid: 09ca3ccb9a2d0764ebbfb56c99ca1090, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

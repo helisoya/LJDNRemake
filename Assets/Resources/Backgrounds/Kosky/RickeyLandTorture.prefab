@@ -1172,9 +1172,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3aac4496592b204e97c3b3ad507b7df, type: 2}
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
-  - {fileID: 2100000, guid: 0546415af0500eb42a07981bb44de97b, type: 2}
+  - {fileID: 2100000, guid: b9e8fa87d7cc5b640986c19bef6703c0, type: 2}
+  - {fileID: 2100000, guid: 749794eb63b6a154191a589e8df28e2c, type: 2}
+  - {fileID: 2100000, guid: b9e8fa87d7cc5b640986c19bef6703c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1254,6 +1254,8 @@ MonoBehaviour:
   backgroundName: Kosky/RickeyLandTorture
   markersRoot: {fileID: 8911515602735319371}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &8911515601911467751
 GameObject:
   m_ObjectHideFlags: 0

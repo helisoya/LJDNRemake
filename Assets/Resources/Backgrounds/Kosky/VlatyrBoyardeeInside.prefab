@@ -2552,7 +2552,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  - {fileID: 2100000, guid: 9e80cac665275f34e81e036112f30730, type: 2}
+  - {fileID: 2100000, guid: 15b631fb180e0704fb95f1c2c9a57dd8, type: 2}
   - {fileID: 2100000, guid: 5d982cc0273b5334cb45619951ff9547, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -2762,6 +2762,8 @@ MonoBehaviour:
   backgroundName: Kosky/VlatyrBoyardeeInside
   markersRoot: {fileID: 6441398427965832653}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &6441398428865696858
 GameObject:
   m_ObjectHideFlags: 0

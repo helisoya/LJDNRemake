@@ -3010,9 +3010,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
+  - {fileID: 2100000, guid: a8b5cd3ac2e19064d9aeec3d4be5734d, type: 2}
   - {fileID: 2100000, guid: 969a9055bde72e24a82c0247be9c01ee, type: 2}
-  - {fileID: 2100000, guid: 93b2ae99fcb2e674a998ce6dd6b68cdb, type: 2}
+  - {fileID: 2100000, guid: f0641da861fd61b4a8cd411f9c9d8d8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6163,9 +6163,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
+  - {fileID: 2100000, guid: a8b5cd3ac2e19064d9aeec3d4be5734d, type: 2}
   - {fileID: 2100000, guid: 969a9055bde72e24a82c0247be9c01ee, type: 2}
-  - {fileID: 2100000, guid: 93b2ae99fcb2e674a998ce6dd6b68cdb, type: 2}
+  - {fileID: 2100000, guid: f0641da861fd61b4a8cd411f9c9d8d8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12844,9 +12844,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3b510ae66a4c5974aae01d8004d98622, type: 2}
+  - {fileID: 2100000, guid: a8b5cd3ac2e19064d9aeec3d4be5734d, type: 2}
   - {fileID: 2100000, guid: 969a9055bde72e24a82c0247be9c01ee, type: 2}
-  - {fileID: 2100000, guid: 93b2ae99fcb2e674a998ce6dd6b68cdb, type: 2}
+  - {fileID: 2100000, guid: f0641da861fd61b4a8cd411f9c9d8d8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13796,7 +13796,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: acfe44e76aa82eb43a572657e910f5a1, type: 2}
+  - {fileID: 2100000, guid: 595b7ce65972d9b4bb94f0df99f96f4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13921,6 +13921,8 @@ MonoBehaviour:
   backgroundName: Kosky/VlatyrBoyardeeExterior
   markersRoot: {fileID: 4486539334190697449}
   skyData: {fileID: 11400000, guid: 0101e26efd9a2e34583844a1c674b002, type: 2}
+  directionalLightRotation: {x: 50, y: -30, z: 0}
+  rotatablesRoot: {fileID: 0}
 --- !u!1 &4486539334190697448
 GameObject:
   m_ObjectHideFlags: 0
