@@ -294,6 +294,10 @@ BorderFortress_Lara_MarklichtQuest5End_13 = So we depart as soon as possible ?
 BorderFortress_Lara_MarklichtQuest5End_14 = Yes. The time has come. We're launching the invasion.
 BorderFortress_Lara_MarklichtQuest5End_15 = Talk to me when you're ready to go.
 BorderFortress_Lara_MarklichtQuest5End_16 = Make sure to resupply first.
+
+BorderFortress_Lara_MarklichtQuest6Start_1 = Are you ready to go ?
+BorderFortress_Lara_MarklichtQuest6Start_2 = <color=red>This will lead to the end of the game.</color>
+BorderFortress_Lara_MarklichtQuest6Start_3 = Am I ready to end this once and for all ?
  
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------

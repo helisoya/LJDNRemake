@@ -293,6 +293,10 @@ BorderFortress_Lara_MarklichtQuest5End_14 = Oui. Le moment est venu. Nous allons
 BorderFortress_Lara_MarklichtQuest5End_15 = Parlez moi quand vous serez prêt.
 BorderFortress_Lara_MarklichtQuest5End_16 = Assurez vous d'avoir des ravitaillements avant cela.
 
+BorderFortress_Lara_MarklichtQuest6Start_1 = Etes-vous prêt à partir ?
+BorderFortress_Lara_MarklichtQuest6Start_2 = <color=red>Cela va ammener à la fin du jeu.</color>
+BorderFortress_Lara_MarklichtQuest6Start_3 = Suis-je prêt à en finir une bonne fois pour toute ?
+
 # -----------------------------------------------------------
 # ------------------- Border Wall ---------------------------
 # -----------------------------------------------------------
