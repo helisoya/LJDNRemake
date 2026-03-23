@@ -625,6 +625,7 @@ ENNEMY_Rebel_Knife_name = Rebelle
 
 ENNEMY_SwordVar1_name = Epée
 ENNEMY_SwordVar2_name = Epée
+ENNEMY_SwordVar3_name = Epée
 
 ENNEMY_KaliaSoldier_Rifle_name = Soldat
 ENNEMY_KaliaSoldier_Revolver_name = Soldat
