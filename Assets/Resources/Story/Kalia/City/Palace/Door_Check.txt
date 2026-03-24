@@ -18,4 +18,10 @@ if(merchantQuest_1 = 0){
 	return()
 }
 
+# Trigger for the end of merchantQuest1
+if(merchantQuest_1 = 2){ 
+	load(Kalia/City/Palace/MerchantQuest2Start) 
+	return()
+}
+
 load(Kalia/City/Palace/Door_Cant)

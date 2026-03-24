@@ -37,6 +37,7 @@ Char_Keeper = Keeper
 Char_Lame = Lame
 Char_Lara = Lara
 Char_Pal = Pal
+Char_Robertus = Robertus
 
 # -----------------------------------------------------------
 # --------------- Choices -----------------------------------

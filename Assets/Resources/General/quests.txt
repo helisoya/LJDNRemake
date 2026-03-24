@@ -18,6 +18,7 @@ marklichtQuest_4
 marklichtQuest_5
 marklichtQuest_6
 merchantQuest_1
+merchantQuest_2
 
 [arcQuest]
 arcQuest_Guard_1

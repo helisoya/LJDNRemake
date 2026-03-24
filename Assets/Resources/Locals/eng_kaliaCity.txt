@@ -201,6 +201,35 @@ Kalia_Palace_MerchantQuest1Start_48 = A- Alright...
 Kalia_Palace_MerchantQuest1Start_49 = I'm not that happy with political assassination. But disobeying orders would mean my death.
 Kalia_Palace_MerchantQuest1Start_50 = Let's find this Robertus.
 
+Kalia_Palace_MerchantQuest1End_1 = I succeeded, sir.
+Kalia_Palace_MerchantQuest1End_2 = Ah, Sword. I knew I could count on you.
+Kalia_Palace_MerchantQuest1End_3 = Uh... Its Shield, sir.
+Kalia_Palace_MerchantQuest1End_4 = Uh ? Shield ? When did you get here ?
+Kalia_Palace_MerchantQuest1End_5 = I... I just got here.
+Kalia_Palace_MerchantQuest1End_6 = Then tell me ! Was Robertus dealt with ?
+Kalia_Palace_MerchantQuest1End_7 = Of course. He attacked me and died in the following fight.
+Kalia_Palace_MerchantQuest1End_8 = Grr... I knew Manf- Robertus was a leech. He always was a thorn to my side.
+Kalia_Palace_MerchantQuest1End_9 = You did well... guard.
+Kalia_Palace_MerchantQuest1End_10 = Do you need me for anything else ? Or should I go help Sword ?
+Kalia_Palace_MerchantQuest1End_11 = No, no. Sword is currently finishing to transport the artefacts.
+Kalia_Palace_MerchantQuest1End_12 = I have another mission for you. Its about the... the...
+Kalia_Palace_MerchantQuest1End_13 = The rebels ! Yes. I want them dead !
+Kalia_Palace_MerchantQuest1End_14 = I want you to find out where they live.
+Kalia_Palace_MerchantQuest1End_15 = I received intel at some point. Something about a bar and salvation.
+Kalia_Palace_MerchantQuest1End_16 = No, no. I'm sure they fled to the countryside by now.
+Kalia_Palace_MerchantQuest1End_17 = I can feel it in my bones... Crawling...
+Kalia_Palace_MerchantQuest1End_18 = Sir ?
+Kalia_Palace_MerchantQuest1End_19 = Go to the lighthouse. One of my associates lives there.
+Kalia_Palace_MerchantQuest1End_20 = He'll be able to tell you where they went. He knows everything.
+Kalia_Palace_MerchantQuest1End_21 = Swor- Shield. If he asks for a payment, comply.
+Kalia_Palace_MerchantQuest1End_22 = Its the way he works.
+Kalia_Palace_MerchantQuest1End_23 = Alright. I'll do that, sir.
+Kalia_Palace_MerchantQuest1End_24 = That Robertus... How could he... 
+Kalia_Palace_MerchantQuest1End_25 = I leave the room. The Merchant is rambling about nonsense.
+Kalia_Palace_MerchantQuest1End_26 = When did his mind start deteriorating so fast ?
+Kalia_Palace_MerchantQuest1End_27 = I just hope I got on the right wagon...
+Kalia_Palace_MerchantQuest1End_28 = Okay, time to find this mysterious associate.
+
 # ---------------------------------------------------------
 # --------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------

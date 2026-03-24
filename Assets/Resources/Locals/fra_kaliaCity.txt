@@ -201,6 +201,35 @@ Kalia_Palace_MerchantQuest1Start_48 = C-Compris.
 Kalia_Palace_MerchantQuest1Start_49 = Je ne suis pas à l'aise avec une assassination politique. Mais désobéir à des ordres serait la fin pour moi.
 Kalia_Palace_MerchantQuest1Start_50 = Il est temps de trouver Robertus.
 
+Kalia_Palace_MerchantQuest1End_1 = J'ai réussi, monsieur.
+Kalia_Palace_MerchantQuest1End_2 = Ah, Epée. Je savais que je pouvais vous faire confiance.
+Kalia_Palace_MerchantQuest1End_3 = Euh... C'est Bouclier, monsieur.
+Kalia_Palace_MerchantQuest1End_4 = Hein ? Bouclier ? Vous êtes là depuis quand ?
+Kalia_Palace_MerchantQuest1End_5 = Je... Je viens d'arriver.
+Kalia_Palace_MerchantQuest1End_6 = Et bien parlez ! Vous vous êtes occupé de Robertus ?
+Kalia_Palace_MerchantQuest1End_7 = Bien sur. Il m'a attaqué et est mort par la suite.
+Kalia_Palace_MerchantQuest1End_8 = Grr... Je savais que Manf- Robertus était un serpent. Il a toujours été un électron libre.
+Kalia_Palace_MerchantQuest1End_9 = Vous avez bien agit... garde.
+Kalia_Palace_MerchantQuest1End_10 = Vous avez besoin de quelque chose d'autre ? Ou devrais-je aller aider Epée ?
+Kalia_Palace_MerchantQuest1End_11 = Non, non. Epée est en train de finir de transporter les artefacts.
+Kalia_Palace_MerchantQuest1End_12 = J'ai une autre mission pour vous. C'est à propos des... des...
+Kalia_Palace_MerchantQuest1End_13 = Des rebelles ! Oui. Je veux leurs têtes sur mon bureau !
+Kalia_Palace_MerchantQuest1End_14 = Je veux que vous trouvez ou ils se cachent.
+Kalia_Palace_MerchantQuest1End_15 = J'ai reçu des informations à un moment. Quelque chose à propos d'un bar et du salut.
+Kalia_Palace_MerchantQuest1End_16 = Non, non. Je suis sur qu'ils ont fuit dans la campagne.
+Kalia_Palace_MerchantQuest1End_17 = Je peux le sentir dans mes os... S'agitant...
+Kalia_Palace_MerchantQuest1End_18 = Monsieur ?
+Kalia_Palace_MerchantQuest1End_19 = Allez au phare. Un de mes associés y vis.
+Kalia_Palace_MerchantQuest1End_20 = Il pourra vous dire ou ils sont parti. Il sait tout.
+Kalia_Palace_MerchantQuest1End_21 = Ep- Bouclier. S'il demande un paiement, acceptez.
+Kalia_Palace_MerchantQuest1End_22 = C'est comme ça que ça marche.
+Kalia_Palace_MerchantQuest1End_23 = Je comprend. Je vais le faire, monsieur.
+Kalia_Palace_MerchantQuest1End_24 = Ce Robertus... Comment à-t-il pu...
+Kalia_Palace_MerchantQuest1End_25 = Je quitte la salle. Le Marchand est en train de marmonner dans sa barbe.
+Kalia_Palace_MerchantQuest1End_26 = Depuis quand est-ce que son état mental se dégrade aussi vite ?
+Kalia_Palace_MerchantQuest1End_27 = J'espère ne pas m'être trompé d'allégence...
+Kalia_Palace_MerchantQuest1End_28 = Bon, il est temps de trouver ce mysterieux associé.
+
 # ---------------------------------------------------------
 # -------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------
@@ -887,6 +916,27 @@ Kalia_BarSalvation_MarklichtQuest1_22 = Maintenant, part. Tu n'es pas la bienven
 Kalia_BarSalvation_MarklichtQuest1_23 = Sans hésistation, je quitte la salle.
 Kalia_BarSalvation_MarklichtQuest1_24 = Et bien... Ca s'est plutôt bien déroulé.
 Kalia_BarSalvation_MarklichtQuest1_25 = Je devrais retourner à la forteresse.
+
+Kalia_BarSalvation_MerchantQuest1_1 = Robertus est bien ici. Il boit une biere.
+Kalia_BarSalvation_MerchantQuest1_2 = Oh. Vous êtes...
+Kalia_BarSalvation_MerchantQuest1_3 = Monsieur, je vais devoir vous demander de venir avec moi.
+Kalia_BarSalvation_MerchantQuest1_4 = Ah. Je savais que ce jour viendrait.
+Kalia_BarSalvation_MerchantQuest1_5 = On dirait qu'il a décidé de se débarasser de moi une bonne fois pour toute.
+Kalia_BarSalvation_MerchantQuest1_6 = Je...
+Kalia_BarSalvation_MerchantQuest1_7 = Qu'il en soit ainsi. Je ne vais pas me rendre.
+Kalia_BarSalvation_MerchantQuest1_8 = Toute ça pour quoi ? Pour qu'il devienne encore plus riche ?
+Kalia_BarSalvation_MerchantQuest1_9 = Pourquoi il vous a envoyé ? Est-ce que j'ai fait du mal à son égo ? Suis-je meilleur en affaire ?
+Kalia_BarSalvation_MerchantQuest1_10 = Monsieur...
+Kalia_BarSalvation_MerchantQuest1_11 = Il est trop tard maintenant.
+Kalia_BarSalvation_MerchantQuest1_12 = Je meurt en sachant que j'ai choisi le bon chemin.
+Kalia_BarSalvation_MerchantQuest1_13 = Pouvez-vous dire de même ?
+Kalia_BarSalvation_MerchantQuest1_14 = Pas vraiment...
+Kalia_BarSalvation_MerchantQuest1_15 = Alors laissez-moi vous aider à trouver le salut.
+Kalia_BarSalvation_MerchantQuest1_16 = Robertus sort une arme. Je dois contre-attaquer, et vite !
+
+Kalia_BarSalvation_MerchantQuest1_17 = ... Je me sent mal.
+Kalia_BarSalvation_MerchantQuest1_18 = Je devrais partir. J'en ai assez fait.
+Kalia_BarSalvation_MerchantQuest1_19 = Le Marchand saura quoi faire par la suite.
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------

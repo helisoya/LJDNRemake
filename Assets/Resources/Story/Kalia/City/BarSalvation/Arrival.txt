@@ -15,6 +15,11 @@ setLocation(Location_Kalia)
 
 autosave()
 
+if(merchantQuest_1 = 1){
+	load(Kalia/City/BarSalvation/MerchantQuest1)
+	return()	
+}
+
 load(Kalia/City/BarSalvation/PopulateBar)
 
 fadeFg(0;false)

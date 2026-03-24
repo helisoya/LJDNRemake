@@ -362,6 +362,9 @@ merchantQuest_1_1 = Find Robertus in one of Kalia's bar
 merchantQuest_1_2 = Report back to the Merchant at Kalia's palace
 merchantQuest_1_done = I killed a rival of the Merchant
 
+merchantQuest_2 = Shady Business
+merchantQuest_2_0 = Go to Kalia's lighthouse
+
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
 factionQuest_Rebel_1_1 = Visit Orkva's Suori shrine
@@ -625,6 +628,7 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldier
 
 ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel
+ENNEMY_Robertus_name = Robertus
 
 ENNEMY_SwordVar1_name = Sword
 ENNEMY_SwordVar2_name = Sword

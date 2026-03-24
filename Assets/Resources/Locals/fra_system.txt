@@ -362,6 +362,9 @@ merchantQuest_1_1 = Trouvez Robertus dans un des bars de Kalia
 merchantQuest_1_2 = Retournez voir le Marchand au palais de Kalia
 merchantQuest_1_done = J'ai tué un rival du Marchand
 
+merchantQuest_2 = Affaires douteuses
+merchantQuest_2_0 = Allez au phare de Kalia
+
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
 factionQuest_Rebel_1_1 = Visitez l'autel Suori d'Orkva
@@ -625,6 +628,7 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldat
 
 ENNEMY_Rebel_Hand_name = Rebelle
 ENNEMY_Rebel_Knife_name = Rebelle
+ENNEMY_Robertus_name = Robertus
 
 ENNEMY_SwordVar1_name = Epée
 ENNEMY_SwordVar2_name = Epée
