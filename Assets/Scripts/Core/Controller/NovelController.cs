@@ -462,6 +462,7 @@ public class NovelController : MonoBehaviour
         {
             // If multi commands, skip the unaccessible code
             chapterProgress = CloseBrackets(chapterProgress);
+            stack[stack.Count - 1].currentChapterProgress = chapterProgress;
             print("Skiping  (true) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
         }
 
@@ -478,6 +479,7 @@ public class NovelController : MonoBehaviour
                 {
                     // If multi commands, skip the unaccessible code
                     chapterProgress = CloseBrackets(chapterProgress);
+                    stack[stack.Count - 1].currentChapterProgress = chapterProgress;
                     print("Skiping  (false) commands up to : " + data[chapterProgress - 1] + data[chapterProgress]);
                 }
                 else
