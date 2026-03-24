@@ -150,6 +150,57 @@ Kalia_Palace_MainQuest2_1_34 = Wof !
 Kalia_Palace_MainQuest2_1_35 = Eh. Fine, let's go.
 Kalia_Palace_MainQuest2_1_36 = <color=blue>Ace added to the party.</color>
 
+Kalia_Palace_MerchantQuest1Start_1 = Shield, finally !
+Kalia_Palace_MerchantQuest1Start_2 = What were you doing ? Sword arrived here earlier, with the artefact no less.
+Kalia_Palace_MerchantQuest1Start_3 = He told me he defeated some brigants alone and got it back.
+Kalia_Palace_MerchantQuest1Start_4 = What am I paying you for... You incompentent fool.
+Kalia_Palace_MerchantQuest1Start_5 = I guess Sword didn't tell him about him getting injured.
+Kalia_Palace_MerchantQuest1Start_6 = I'm sorry for the delay. Sword returned ahead of me with the artefact. We fought the bandits together.
+Kalia_Palace_MerchantQuest1Start_7 = Hmm ? ....
+Kalia_Palace_MerchantQuest1Start_8 = ...
+Kalia_Palace_MerchantQuest1Start_9 = Sword... I hate liars more than losing money. Don't fail me again.
+Kalia_Palace_MerchantQuest1Start_10 = Yes, sir.
+Kalia_Palace_MerchantQuest1Start_11 = Such is our life. I do something. Sword takes the credit and sometimes, he gets reprimmanded.
+Kalia_Palace_MerchantQuest1Start_12 = The Merchant examines the artefact. He seems happy.
+Kalia_Palace_MerchantQuest1Start_13 = Oh, my sweet sweet artefact... I have just the place for you, right next to that bronze statue.
+Kalia_Palace_MerchantQuest1Start_14 = You have done... well, my loyal guards. You have retrieved a most magnificent artefact.
+Kalia_Palace_MerchantQuest1Start_15 = But there is still much work to do. I still have more artefacts to gather.
+Kalia_Palace_MerchantQuest1Start_16 = My artefacts... I want them all !
+Kalia_Palace_MerchantQuest1Start_17 = Sir ?
+Kalia_Palace_MerchantQuest1Start_18 = That fool... Robertus ! He dares to have more than me !
+Kalia_Palace_MerchantQuest1Start_19 = Robertus... Wasn't he the business partner of the Merchant back in the days ?
+Kalia_Palace_MerchantQuest1Start_20 = Before he into politics at least.
+Kalia_Palace_MerchantQuest1Start_21 = Even worse... He dares to question my rule !
+Kalia_Palace_MerchantQuest1Start_22 = What ?
+Kalia_Palace_MerchantQuest1Start_23 = I heard from good ears that he spoke in favor of the rebels.
+Kalia_Palace_MerchantQuest1Start_24 = He said that I was holding onto power, that I was a tyrant.
+Kalia_Palace_MerchantQuest1Start_25 = Prepostrous !
+Kalia_Palace_MerchantQuest1Start_26 = ...
+Kalia_Palace_MerchantQuest1Start_27 = Yes, yes. I'm not a tyrant. They are all radicals, lunatics !
+Kalia_Palace_MerchantQuest1Start_28 = I disbanded the parliement. So what ? They were obstructing my trades.
+Kalia_Palace_MerchantQuest1Start_29 = I made it easier for me and my loyal supporters to do business.
+Kalia_Palace_MerchantQuest1Start_30 = What isn't there to like ? Kalia's economy is doing good !
+Kalia_Palace_MerchantQuest1Start_31 = Who cares if some peasants in Iberty can't sell their things here. They don't have the money.
+Kalia_Palace_MerchantQuest1Start_32 = Grr... Back in my days, I would travel the entire continent to sell things.
+Kalia_Palace_MerchantQuest1Start_33 = "Sir, your goods are so good. Please let us buy some more.", they said.
+Kalia_Palace_MerchantQuest1Start_34 = Uh, sir. What is your point ? About Robertus.
+Kalia_Palace_MerchantQuest1Start_35 = Robertus ?! That radical lunatic... He must be dealt with.
+Kalia_Palace_MerchantQuest1Start_36 = Not only does he have more Lonasian artefacts than me, but he also dares to question my rule !
+Kalia_Palace_MerchantQuest1Start_37 = We've heard that line before.
+Kalia_Palace_MerchantQuest1Start_38 = Don't worry, we'll deal with this criminal.
+Kalia_Palace_MerchantQuest1Start_39 = Grr.... I want him dead ! Sword, Shield. Kill. Him.
+Kalia_Palace_MerchantQuest1Start_40 = Of course. And we'll also confiscate his artefact collection.
+Kalia_Palace_MerchantQuest1Start_41 = Yes, yes ! He probably stole them anyway !
+Kalia_Palace_MerchantQuest1Start_42 = We have to put a stop to his crimes !
+Kalia_Palace_MerchantQuest1Start_43 = Of course. Let's go, my lackey.
+Kalia_Palace_MerchantQuest1Start_44 = Uh, yes.
+Kalia_Palace_MerchantQuest1Start_45 = I'll be in charge of getting the collection back.
+Kalia_Palace_MerchantQuest1Start_46 = Go take care of Robertus.
+Kalia_Palace_MerchantQuest1Start_47 = I hear he likes to drink in bars quite often.
+Kalia_Palace_MerchantQuest1Start_48 = A- Alright...
+Kalia_Palace_MerchantQuest1Start_49 = I'm not that happy with political assassination. But disobeying orders would mean my death.
+Kalia_Palace_MerchantQuest1Start_50 = Let's find this Robertus.
+
 # ---------------------------------------------------------
 # --------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------
@@ -836,6 +887,27 @@ Kalia_BarSalvation_MarklichtQuest1_22 = Now get lost. You have overstayed your w
 Kalia_BarSalvation_MarklichtQuest1_23 = Without hesitation, I exit the room.
 Kalia_BarSalvation_MarklichtQuest1_24 = Well... This went as good as it could.
 Kalia_BarSalvation_MarklichtQuest1_25 = I should head back to the General's fortress.
+
+Kalia_BarSalvation_MerchantQuest1_1 = Sure enough, Robertus is here. He's drinking beer.
+Kalia_BarSalvation_MerchantQuest1_2 = Oh. You are...
+Kalia_BarSalvation_MerchantQuest1_3 = Sir, I must ask you to come with me.
+Kalia_BarSalvation_MerchantQuest1_4 = Ah. I knew you would come one day.
+Kalia_BarSalvation_MerchantQuest1_5 = It seems he decided to get rid of me for good.
+Kalia_BarSalvation_MerchantQuest1_6 = I...
+Kalia_BarSalvation_MerchantQuest1_7 = So be it. I'll never bow down to this traitor.
+Kalia_BarSalvation_MerchantQuest1_8 = All this charade for what ? Just for him to get richer ?
+Kalia_BarSalvation_MerchantQuest1_9 = Why did he send you ? Did I hurt his ego ? Am I just better at business than him ?
+Kalia_BarSalvation_MerchantQuest1_10 = Sir...
+Kalia_BarSalvation_MerchantQuest1_11 = Its too late to go back, now.
+Kalia_BarSalvation_MerchantQuest1_12 = I go knowing I made the right choice in life.
+Kalia_BarSalvation_MerchantQuest1_13 = Can you say the same ?
+Kalia_BarSalvation_MerchantQuest1_14 = Not really...
+Kalia_BarSalvation_MerchantQuest1_15 = Then let me help you find salvation.
+Kalia_BarSalvation_MerchantQuest1_16 = Robertus pulls out a gun. I need to counter it, and fast !
+
+Kalia_BarSalvation_MerchantQuest1_17 = ... I feel sick.
+Kalia_BarSalvation_MerchantQuest1_18 = I must go now. I've done enough.
+Kalia_BarSalvation_MerchantQuest1_19 = The Merchant will know what to do next.
 
 # ---------------------------------------------------------
 # ----------------- Kalia - Jackwell ----------------------

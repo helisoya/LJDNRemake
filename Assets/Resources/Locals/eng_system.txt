@@ -358,6 +358,9 @@ marklichtquest_6_done = We invaded Kalia
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace
+merchantQuest_1_1 = Find Robertus in one of Kalia's bar
+merchantQuest_1_2 = Report back to the Merchant at Kalia's palace
+merchantQuest_1_done = I killed a rival of the Merchant
 
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine

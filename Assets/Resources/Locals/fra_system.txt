@@ -356,8 +356,11 @@ marklichtQuest_6 = Invasion & Libération
 marklichtQuest_6_0 = Parlez à la Générale Lara à la Forteresse Frontalière du Marklicht
 marklichtQuest_6_done = Nous avons envahis Kalia
 
-merchantQuest_1 = Celebration
+merchantQuest_1 = Célebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
+merchantQuest_1_1 = Trouvez Robertus dans un des bars de Kalia
+merchantQuest_1_2 = Retournez voir le Marchand au palais de Kalia
+merchantQuest_1_done = J'ai tué un rival du Marchand
 
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia

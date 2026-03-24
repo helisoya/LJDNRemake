@@ -70,6 +70,8 @@ else{
 	setCharacterAlpha(Sword;0;false)
 	dialog(narrator;_;false;BanditMountain_MainQuest4_StayLoyal_7)
 
+	variable(marklichtQuest_0;-1)
+	variable(rebelQuest_0;-1)
 	variable(merchantQuest_1;0)
 }
 

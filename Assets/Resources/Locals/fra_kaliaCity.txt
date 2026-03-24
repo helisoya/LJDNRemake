@@ -150,6 +150,57 @@ Kalia_Palace_MainQuest2_1_34 = Wof !
 Kalia_Palace_MainQuest2_1_35 = Ah. Très bien, allons-y.
 Kalia_Palace_MainQuest2_1_36 = <color=blue>Ace ajouté au groupe.</color>
 
+Kalia_Palace_MerchantQuest1Start_1 = Bouclier, enfin !
+Kalia_Palace_MerchantQuest1Start_2 = Que faisiez-vous ? Epée est arrivé il y a longtemps avec l'artefact.
+Kalia_Palace_MerchantQuest1Start_3 = Il m'a dit qu'il a combatu des brigants seul et l'a récupéré.
+Kalia_Palace_MerchantQuest1Start_4 = Pourquoi je vous paie... Espèce d'incompétent.
+Kalia_Palace_MerchantQuest1Start_5 = Je suppose qu'Epée ne lui a pas parlé de sa blessure.
+Kalia_Palace_MerchantQuest1Start_6 = Je m'excuse pour ce retard. Epée est revenu avant moi avec l'artefact. Nous avons combattu les bandits ensemble.
+Kalia_Palace_MerchantQuest1Start_7 = Hmm ? ....
+Kalia_Palace_MerchantQuest1Start_8 = ...
+Kalia_Palace_MerchantQuest1Start_9 = Epée... Je déteste les menteurs plus que de perdre de l'argent. Ne me déçevez pas à nouveau.
+Kalia_Palace_MerchantQuest1Start_10 = Oui, monsieur.
+Kalia_Palace_MerchantQuest1Start_11 = Telle est ma vie. Je vais quelque chose. Epée s'approprie les mérites, et quelques fois, il est réprimandé.
+Kalia_Palace_MerchantQuest1Start_12 = Le Marchand examine l'artefact. Il a l'air content.
+Kalia_Palace_MerchantQuest1Start_13 = Oh, mon cher artefact... J'ai l'endroit parfait pour toi, juste à coté de cette statue en bronze.
+Kalia_Palace_MerchantQuest1Start_14 = Vous avez... réussi, mes gardes loyaux. Vous avez retrouvé un artefact magnifique.
+Kalia_Palace_MerchantQuest1Start_15 = Mais il reste tant à faire. Je dois encore trouver plus d'artefacts.
+Kalia_Palace_MerchantQuest1Start_16 = Mes artefacts... Je les veux tous !
+Kalia_Palace_MerchantQuest1Start_17 = Monsieur ?
+Kalia_Palace_MerchantQuest1Start_18 = Ce fou... Robertus ! Il ose en avoir plus que moi !
+Kalia_Palace_MerchantQuest1Start_19 = Robertus... C'est le partenaire de travail du Marchand à l'époque, non ?
+Kalia_Palace_MerchantQuest1Start_20 = Enfin, avant qu'il ne devienne consul.
+Kalia_Palace_MerchantQuest1Start_21 = Pire encore... Il ose questioner mon règne !
+Kalia_Palace_MerchantQuest1Start_22 = Quoi ?
+Kalia_Palace_MerchantQuest1Start_23 = J'ai entendu dire qu'il parle positivement des rebelles.
+Kalia_Palace_MerchantQuest1Start_24 = Il a même osé dire que j'était un tyran, et que je m'accrochait au pouvoir.
+Kalia_Palace_MerchantQuest1Start_25 = Des idioties !
+Kalia_Palace_MerchantQuest1Start_26 = ...
+Kalia_Palace_MerchantQuest1Start_27 = Oui, oui. Je ne suis pas un tyran. Ils sont tous des radicaux, des fous !
+Kalia_Palace_MerchantQuest1Start_28 = J'ai dissous le parlement. Et alors ? Ils m'empechaient de faire du commerce.
+Kalia_Palace_MerchantQuest1Start_29 = J'ai rendu le commerce plus simple à faire, pour moi et mes loyaux compagnons.
+Kalia_Palace_MerchantQuest1Start_30 = Et qui peut s'en plaindre ? L'économie de Kalia se porte à merveille !
+Kalia_Palace_MerchantQuest1Start_31 = Peut importe si quelques paysans Ibertiens n'arrivent pas à vendre ici. Ils n'ont pas assez d'argent.
+Kalia_Palace_MerchantQuest1Start_32 = Grr... De mon temps, je voyageais à travers le continent tout entier pour vendre.
+Kalia_Palace_MerchantQuest1Start_33 = "Monsieur, vos articles sont si incroyables. Laissez nous en acheter plus.", qu'ils disaient.
+Kalia_Palace_MerchantQuest1Start_34 = Euh, monsieur. Ou voulez-vous en venir ? A propos de Robertus.
+Kalia_Palace_MerchantQuest1Start_35 = Robertus ?! Ce fou radicalisé... Quelqu'un doit s'occuper de son cas.
+Kalia_Palace_MerchantQuest1Start_36 = Non seulement il a plus d'artefacts Lonasien que moi, mais il ose aussi remetre en question mon règne.
+Kalia_Palace_MerchantQuest1Start_37 = On a déjà entendu cette ligne de dialogue.
+Kalia_Palace_MerchantQuest1Start_38 = N'ayez crainte, nous allons nous occuper de ce vil forban.
+Kalia_Palace_MerchantQuest1Start_39 = Grr.... Je le veux mort ! Epée, Bouclier. Tuez. Le.
+Kalia_Palace_MerchantQuest1Start_40 = Bien sur. Et nous allons aussi confisquer sa collection d'artefacts.
+Kalia_Palace_MerchantQuest1Start_41 = Oui, oui ! Il les a probablement volé de toute façon !
+Kalia_Palace_MerchantQuest1Start_42 = Vous devez mettre un terme à ses crimes !
+Kalia_Palace_MerchantQuest1Start_43 = Bien sur. Allons-y, mon larbin.
+Kalia_Palace_MerchantQuest1Start_44 = Euh, oui.
+Kalia_Palace_MerchantQuest1Start_45 = Je vais me charger de récupérer la collection.
+Kalia_Palace_MerchantQuest1Start_46 = Occupes-toi de Robertus.
+Kalia_Palace_MerchantQuest1Start_47 = J'ai entendu dire qu'il aime aller boire dans des bars assez souvent.
+Kalia_Palace_MerchantQuest1Start_48 = C-Compris.
+Kalia_Palace_MerchantQuest1Start_49 = Je ne suis pas à l'aise avec une assassination politique. Mais désobéir à des ordres serait la fin pour moi.
+Kalia_Palace_MerchantQuest1Start_50 = Il est temps de trouver Robertus.
+
 # ---------------------------------------------------------
 # -------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------
