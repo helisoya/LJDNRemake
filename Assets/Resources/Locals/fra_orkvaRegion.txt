@@ -856,6 +856,27 @@ Tolau_Port_MarklichtQuest3_19 = Suivons le. On ne peux pas le laisser en voler u
 Tolau_Port_MarklichtQuest3_20 = Et le blocus ?
 Tolau_Port_MarklichtQuest3_21 = On va trouver un moyen.
 
+Tolau_Port_MerchantQuest3_1 = Ah, voila Epée.
+Tolau_Port_MerchantQuest3_2 = Pourquoi je n'arrive pas à trouver de bateau ?
+Tolau_Port_MerchantQuest3_3 = Il y a un blocus. Personne ne va vouloir quiter le port.
+Tolau_Port_MerchantQuest3_4 = Bouclier. Te voila.
+Tolau_Port_MerchantQuest3_5 = De quoi tu as parlé avec le patron ?
+Tolau_Port_MerchantQuest3_6 = ... Rien d'important.
+Tolau_Port_MerchantQuest3_7 = Dans tout les cas. Je suppose que nous allons devoir trouver un moyen et contourner le blocus et d'atteindre l'Ile ?
+Tolau_Port_MerchantQuest3_8 = Oui. Je te suis, Bouclier.
+Tolau_Port_MerchantQuest3_9 = Je ne suis plus ton larbin ?
+Tolau_Port_MerchantQuest3_10 = T'inquiète. C'était une blague amicale.
+Tolau_Port_MerchantQuest3_11 = "Amicale".
+Tolau_Port_MerchantQuest3_12 = Bon, d'accord. Désolé. C'est bon ?
+Tolau_Port_MerchantQuest3_13 = Oui.
+Tolau_Port_MerchantQuest3_14 = Allons à la forêt de l'Ile Mirage.
+Tolau_Port_MerchantQuest3_15 = ... Attends... Pourquoi la forêt d'ailleurs ?
+Tolau_Port_MerchantQuest3_16 = Il y a quelque chose d'important la bas ?
+Tolau_Port_MerchantQuest3_17 = Ah, oui. Il y a un vieux temple Suori au centre de celle-ci.
+Tolau_Port_MerchantQuest3_18 = L'artefact est à l'intérieur.
+Tolau_Port_MerchantQuest3_19 = Très bien. Allons-y, alors.
+Tolau_Port_MerchantQuest3_20 = <color=blue>Epée ajouté à l'équipe.</color>
+
 Tolau_CityHall_Mayor_Greetings_1 = Avez-vous quelque chose à me demander ?
 
 Tolau_CityHall_Mayor_AboutCity_1 = Tolau était autrefois une ville commerçante prospère.

@@ -68,6 +68,7 @@ g(narrator;_;false;Kalia_Palace_MerchantQuest1End_28)
 
 variable(merchantQuest_1;100)
 variable(merchantQuest_2;0)
+addExpToAll(25)
 
 playMusic(Exploration_Kalia)
 autosave()

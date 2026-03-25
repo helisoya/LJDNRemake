@@ -6,7 +6,7 @@ setLocals(islandRegion)
 playMusic(null)
 setBackground(MirageIsland/Region/TempleInside)
 
-load(Common/DisplayWeatherRain)
+load(Common/DisplayWeatherCloud)
 
 setLocation(Location_MirageIsland)
 
@@ -28,5 +28,10 @@ if(rebelQuest_3 > -1){
 
 if(marklichtQuest_3 > -1){
 	load(MirageIsland/Forest/Temple_Marklicht)
+	return()
+}
+
+if(merchantQuest_3 > -1){
+	load(MirageIsland/Forest/Temple_Merchant)
 	return()
 }

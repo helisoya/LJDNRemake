@@ -857,6 +857,27 @@ Tolau_Port_MarklichtQuest3_19 = Let's follow him. We can't let him steal another
 Tolau_Port_MarklichtQuest3_20 = And the blockade ?
 Tolau_Port_MarklichtQuest3_21 = We'll figure something out.
 
+Tolau_Port_MerchantQuest3_1 = Ah, here is Sword.
+Tolau_Port_MerchantQuest3_2 = Why can't I find a boat ?
+Tolau_Port_MerchantQuest3_3 = There's a blockade. No way anyone would want to go.
+Tolau_Port_MerchantQuest3_4 = Shield. You're finally here.
+Tolau_Port_MerchantQuest3_5 = What were you talking about with the boss ?
+Tolau_Port_MerchantQuest3_6 = ... Nothing too important.
+Tolau_Port_MerchantQuest3_7 = Anyway. I suppose we should find a way to get to the Island and past the blockade ?
+Tolau_Port_MerchantQuest3_8 = Yep. Lead the way, Shield.
+Tolau_Port_MerchantQuest3_9 = I'm not your lackey anymore ?
+Tolau_Port_MerchantQuest3_10 = Relax. That was just a friendly joke.
+Tolau_Port_MerchantQuest3_11 = "Friendly".
+Tolau_Port_MerchantQuest3_12 = Okay, okay. Sorry. Alright ?
+Tolau_Port_MerchantQuest3_13 = Alright.
+Tolau_Port_MerchantQuest3_14 = Let's find our way to Mirage Island's Forest.
+Tolau_Port_MerchantQuest3_15 = ... Wait... Why the forest ?
+Tolau_Port_MerchantQuest3_16 = Is there anything in there ?
+Tolau_Port_MerchantQuest3_17 = Oh, right. There's an old Suori temple right at the center of it.
+Tolau_Port_MerchantQuest3_18 = The artefact is in there.
+Tolau_Port_MerchantQuest3_19 = Alright. Let's go, then.
+Tolau_Port_MerchantQuest3_20 = <color=blue>Sword added to the party.</color>
+
 Tolau_CityHall_Mayor_Greetings_1 = Do you have business with me ?
 
 Tolau_CityHall_Mayor_AboutCity_1 = Tolau was once a prosperous trade city.

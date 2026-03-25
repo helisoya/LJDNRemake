@@ -369,6 +369,15 @@ merchantQuest_2_2 = Go to Kalia's lighthouse
 merchantQuest_2_3 = Report back to the Merchant at Kalia's palace
 merchantQuest_2_done = I discovered where the rebels are hiding
 
+merchantQuest_3 = Island Expedition
+merchantQuest_3_0 = Meet Sword at Tolau's docks
+merchantQuest_3_1 = Find the artefact in the Mirage Island's Forest
+merchantQuest_3_2 = Report back to the Merchant at Kalia's palace
+merchantQuest_3_done = We found the artefact
+
+merchantQuest_4 = Finishing the rebels
+merchantQuest_4_0 = Go to Iberty's Catacombs
+
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
 factionQuest_Rebel_1_1 = Visit Orkva's Suori shrine

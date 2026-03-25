@@ -369,6 +369,15 @@ merchantQuest_2_2 = Allez au phare de Kalia
 merchantQuest_2_3 = Retournez voir le Marchand au palais de Kalia
 merchantQuest_2_done = J'ai découvert la position des rebelles
 
+merchantQuest_3 = Expédition
+merchantQuest_3_0 = Retrouvez Epée au port de Tolau
+merchantQuest_3_1 = Trouvez l'artefact dans la forêt de l'Ile Mirage
+merchantQuest_3_2 = Retournez voir le Marchand au palais de Kalia
+merchantQuest_3_done = Nous avons trouvé l'artefact
+
+merchantQuest_4 = Finir les rebelles
+merchantQuest_4_0 = Allez aux catacombes d'Iberty
+
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
 factionQuest_Rebel_1_1 = Visitez l'autel Suori d'Orkva

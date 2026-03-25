@@ -86,6 +86,37 @@ MirageForest_Temple_Marklicht_27 = Well. Time to head back.
 MirageForest_Temple_Marklicht_28 = After a few hours, we manage to get back to the forest's entrance.
 MirageForest_Temple_Marklicht_29 = Poor Sword will have to come back empty handed.
 
+MirageForest_Temple_Merchant_1 = This is it. The scepter must be somewhere here.
+MirageForest_Temple_Merchant_2 = Sword goes to search the room. I stay back.
+MirageForest_Temple_Merchant_3 = This place is old. I wonder when it was built.
+MirageForest_Temple_Merchant_4 = Found it !
+MirageForest_Temple_Merchant_5 = Sword comes back with a large staff. This must be the artefact.
+MirageForest_Temple_Merchant_6 = What a beautiful thing. The boss will be happy.
+MirageForest_Temple_Merchant_7 = ...
+MirageForest_Temple_Merchant_8 = Hey, so... Uh...
+MirageForest_Temple_Merchant_9 = You noticed too ?
+MirageForest_Temple_Merchant_10 = Yeah. When you were out, he thought I was you for about 10 minutes.
+MirageForest_Temple_Merchant_11 = I talked to him before coming here. About the future.
+MirageForest_Temple_Merchant_12 = He seems unfazed by his health. 'Said he doesn't care about what will happen after his death.
+MirageForest_Temple_Merchant_13 = Don't you dare talk badly of him ! He has a plan, I'm sure of it.
+MirageForest_Temple_Merchant_14 = I sure hope so.
+MirageForest_Temple_Merchant_15 = By the way, why did you insist on coming here ?
+MirageForest_Temple_Merchant_16 = ... Shield. Don't forget we are rivals.
+MirageForest_Temple_Merchant_17 = I'm planning on winning the war to be the boss's favorite.
+MirageForest_Temple_Merchant_18 = I never knew there was such a thing.
+MirageForest_Temple_Merchant_19 = With this artefact, he'll recognize me as his favorite. I'm sure of it.
+MirageForest_Temple_Merchant_20 = If you say so.
+MirageForest_Temple_Merchant_21 = I wonder. If Sword were inherit the title of consul... 
+MirageForest_Temple_Merchant_22 = No... He would bring chaos to Kalia.
+MirageForest_Temple_Merchant_23 = Still. Its a possibility. Maybe the Merchant's favorite will become his heir.
+MirageForest_Temple_Merchant_24 = Hey ! Earth to Shield.
+MirageForest_Temple_Merchant_25 = Oh, sorry.
+MirageForest_Temple_Merchant_26 = Don't start becoming senile like the boss.
+MirageForest_Temple_Merchant_27 = Don't be ridiculous.
+MirageForest_Temple_Merchant_28 = Come, let's head back.
+MirageForest_Temple_Merchant_29 = We exit the temple and make it back to the forest's entrance.
+MirageForest_Temple_Merchant_30 = Time to head back to Kalia. 
+
 # ---------------------------------------------------------
 # ---------------------- Cottage --------------------------
 # ---------------------------------------------------------

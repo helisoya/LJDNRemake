@@ -86,6 +86,37 @@ MirageForest_Temple_Marklicht_27 = Bien. Rentrons.
 MirageForest_Temple_Marklicht_28 = Après quelques heures, nous arrivons de nouveau à l'entrée de la forêt.
 MirageForest_Temple_Marklicht_29 = Pauvre Epée... Il va encore devoir rentrer les mains vides.
 
+MirageForest_Temple_Merchant_1 = Voila. Le sceptre devrait être ici.
+MirageForest_Temple_Merchant_2 = Epée commence à chercher la salle. Je reste en arrière.
+MirageForest_Temple_Merchant_3 = Cet endroit est ancien. Je me demande quand il a été construit.
+MirageForest_Temple_Merchant_4 = Trouvé !
+MirageForest_Temple_Merchant_5 = Epée reviens avec un grand baton. Ca doit être l'artefact.
+MirageForest_Temple_Merchant_6 = Quel magnifique artefact. Le patron sera content.
+MirageForest_Temple_Merchant_7 = ...
+MirageForest_Temple_Merchant_8 = Hé, euh...
+MirageForest_Temple_Merchant_9 = Tu l'as aussi remarqué ?
+MirageForest_Temple_Merchant_10 = Oui. Quand tu n'étais pas là, il m'a confondu avec toi pendant 10 minutes.
+MirageForest_Temple_Merchant_11 = Je lui ai parlé avant de venir. A propos du futur.
+MirageForest_Temple_Merchant_12 = Il n'avait pas l'air inquiet de sa santé. Il m'a dis qu'il n'en avais rien à faire de ce qu'il se passerai après sa mort.
+MirageForest_Temple_Merchant_13 = Comment oses-tu mal parler de lui ? Il a un plan, j'en suis sur.
+MirageForest_Temple_Merchant_14 = J'espère.
+MirageForest_Temple_Merchant_15 = D'ailleurs, pourquoi avoir insisté pour venir ici ?
+MirageForest_Temple_Merchant_16 = ... Bouclier. N'oublie pas que nous sommes rivaux.
+MirageForest_Temple_Merchant_17 = Je veux gagner la guerre pour devenir le favori du patron.
+MirageForest_Temple_Merchant_18 = Je ne savais pas qu'il y avais une telle chose.
+MirageForest_Temple_Merchant_19 = Avec cet artefact, il va me reconnaitre comme son favori. J'en suis sur.
+MirageForest_Temple_Merchant_20 = Si tu le dis.
+MirageForest_Temple_Merchant_21 = Je me demande. Si Epée devenait le prochain consul...
+MirageForest_Temple_Merchant_22 = Non... Il ne ferait qu'apporter le chaos à Kalia.
+MirageForest_Temple_Merchant_23 = Enfin. C'est une possibilité. Peut être que le favori du Marchand deviendra son héritier.
+MirageForest_Temple_Merchant_24 = Hé ! Bouclier.
+MirageForest_Temple_Merchant_25 = Oh, désolé.
+MirageForest_Temple_Merchant_26 = Ne commençe pas à devenir sénile comme le patron.
+MirageForest_Temple_Merchant_27 = Ne soit pas ridicule.
+MirageForest_Temple_Merchant_28 = Viens, rentrons.
+MirageForest_Temple_Merchant_29 = Nous quittons le temple et retournons à l'entrée de la forêt.
+MirageForest_Temple_Merchant_30 = Il est temps de retourner à Kalia.
+
 # ---------------------------------------------------------
 # ---------------------- Cottage --------------------------
 # ---------------------------------------------------------

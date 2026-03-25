@@ -24,4 +24,16 @@ if(merchantQuest_1 = 2){
 	return()
 }
 
+# Trigger for the end of merchantQuest2
+if(merchantQuest_2 = 3){ 
+	load(Kalia/City/Palace/MerchantQuest2End) 
+	return()
+}
+
+# Trigger for the end of merchantQuest3
+if(merchantQuest_3 = 2){ 
+	load(Kalia/City/Palace/MerchantQuest3End) 
+	return()
+}
+
 load(Kalia/City/Palace/Door_Cant)

@@ -1,4 +1,4 @@
-if(rebelQuest_3 = 1 | marklichtQuest_3 = 1){
+if(rebelQuest_3 = 1 | marklichtQuest_3 = 1 | merchantQuest_3 = 1){
 	load(MirageIsland/Forest/Temple_Forest)
 	return()
 }

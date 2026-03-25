@@ -40,6 +40,8 @@ marklichtQuest_6 -1
 
 merchantQuest_1 -1
 merchantQuest_2 -1
+merchantQuest_3 -1
+merchantQuest_4 -1
 
 # Arcs
 arcQuest_Guard_1 -1

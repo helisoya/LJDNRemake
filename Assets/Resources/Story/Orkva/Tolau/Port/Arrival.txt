@@ -20,6 +20,11 @@ if(marklichtQuest_3 = 0){
 	return()
 }
 
+if(merchantQuest_3 = 0){
+	load(Orkva/Tolau/Port/MerchantQuest3)
+	return()
+}
+
 if(night = 1 & secondaryQuest_Tolau_Inn = 0){
 	load(Orkva/Tolau/Port/SecondaryQuest)
 }
