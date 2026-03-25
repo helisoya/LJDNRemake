@@ -387,3 +387,11 @@ CampHope_RebelQuest5_61 = I just saw Bos leave. Are you okay ?
 CampHope_RebelQuest5_62 = Yeah. Sword is no more.
 CampHope_RebelQuest5_63 = Also, Orkva might be invading soon. We have to hurry.
 CampHope_RebelQuest5_64 = Uh ? Uh, right behnd you then !
+
+CampHope_MerchantQuest2_1 = Alright. Time to get that prototype.
+CampHope_MerchantQuest2_2 = I enter the camp, and go to the testing grounds.
+CampHope_MerchantQuest2_3 = I used to guard the area near the prototype at some point. So I know where to go.
+CampHope_MerchantQuest2_4 = I meet with the officer in charge, and explain that I need to take the prototype.
+CampHope_MerchantQuest2_5 = I lie to him, and explain that the Merchant want to see it in his office.
+CampHope_MerchantQuest2_6 = The officier seems perplex. But accepts in the end.
+CampHope_MerchantQuest2_7 = With the prototype in hand, it's time I go back to the lighthouse.

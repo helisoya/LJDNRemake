@@ -364,6 +364,10 @@ merchantQuest_1_done = I killed a rival of the Merchant
 
 merchantQuest_2 = Shady Business
 merchantQuest_2_0 = Go to Kalia's lighthouse
+merchantQuest_2_1 = Get the prototype from Camp Hope
+merchantQuest_2_2 = Go to Kalia's lighthouse
+merchantQuest_2_3 = Report back to the Merchant at Kalia's palace
+merchantQuest_2_done = I discovered where the rebels are hiding
 
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine

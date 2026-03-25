@@ -579,6 +579,63 @@ Kalia_Lighthouse_JackwellArcQuest4_2 = Allons-y...
 Kalia_Lighthouse_JackwellArcQuest4_3 = Après quelques minutes, j'ai fini de nager autour du phare.
 Kalia_Lighthouse_JackwellArcQuest4_4 = Jackwell devrait être content maintenant. Je devrais rentrer.
 
+Kalia_Lighthouse_MerchantQuest2Start_1 = C'est ici que le l'associé du Marchand vie.
+Kalia_Lighthouse_MerchantQuest2Start_2 = Je ne sais pas qui il est est, mais j'ai entendu des rumeurs sur le phare.
+Kalia_Lighthouse_MerchantQuest2Start_3 = Des gens très louche entrent et sortent du phare la nuit.
+Kalia_Lighthouse_MerchantQuest2Start_4 = A tel point qu'il n'est plus utilisé pour guider les bateaux.
+Kalia_Lighthouse_MerchantQuest2Start_5 = Je ne peux qu'imaginer l'identité de ce mysterieux associé.
+Kalia_Lighthouse_MerchantQuest2Start_6 = J'entre dans le phare. Il est mal eclairé et je n'y vois pas grand chose.
+Kalia_Lighthouse_MerchantQuest2Start_7 = Je monte au sommet du phare. Il a été fermé de l'extérieur.
+Kalia_Lighthouse_MerchantQuest2Start_8 = Une seule lumière éclaire l'entrée. C'est comme si elle était la pour cacher la personne vivant ici et m'exposer.
+Kalia_Lighthouse_MerchantQuest2Start_9 = Un visiteur ? Vous n'avez pas l'air d'être un habitué.
+Kalia_Lighthouse_MerchantQuest2Start_10 = Le consul m'envoie. Nous avons besoin de vos services.
+Kalia_Lighthouse_MerchantQuest2Start_11 = Oh. Je savais que ce moment allait arriver tôt ou tard.
+Kalia_Lighthouse_MerchantQuest2Start_12 = Il cherche les rebelles, par hasard ?
+Kalia_Lighthouse_MerchantQuest2Start_13 = O- Oui.
+Kalia_Lighthouse_MerchantQuest2Start_14 = Fuh fuh. Je le savais. Après tout, ils ont fuis la ville.
+Kalia_Lighthouse_MerchantQuest2Start_15 = Vous savez ou ils sont maintenant ?
+Kalia_Lighthouse_MerchantQuest2Start_16 = Peut être...
+Kalia_Lighthouse_MerchantQuest2Start_17 = Mais cette connaissance aura un prix.
+Kalia_Lighthouse_MerchantQuest2Start_18 = Nous pouvons payer. L'argent n'est pas un problème.
+Kalia_Lighthouse_MerchantQuest2Start_19 = Pas avec le Marchand, non. Mais je ne suis pas intéressé.
+Kalia_Lighthouse_MerchantQuest2Start_20 = Ce que je recherche en guise de paiement est... votre aide.
+Kalia_Lighthouse_MerchantQuest2Start_21 = Mon aide ?
+Kalia_Lighthouse_MerchantQuest2Start_22 = J'ai été l'associé du Marchand pendant longtemps.
+Kalia_Lighthouse_MerchantQuest2Start_23 = C'est moi qui lui ai proposé de devenir consul. C'est moi qui lui ai dis de dissoudre le parlement.
+Kalia_Lighthouse_MerchantQuest2Start_24 = Tout ça, bien sur, pour nous enrichir.
+Kalia_Lighthouse_MerchantQuest2Start_25 = Je lui donnai les informations dont il avait besoin, et il me payait d'une manière ou d'une autre.
+Kalia_Lighthouse_MerchantQuest2Start_26 = Rien à Kalia était hors de ma portée. Sauf une chose, une toute petite chose...
+Kalia_Lighthouse_MerchantQuest2Start_27 = Camp Espoir est en train de créer un prototype pour une nouvelle arme depuis quelque temps.
+Kalia_Lighthouse_MerchantQuest2Start_28 = J'ai demandé encore et encore, mais le Marchant n'arrivait pas à me l'obtenir.
+Kalia_Lighthouse_MerchantQuest2Start_29 = Je veux que vous obteniez ce prototype pour moi. Vous avez surement les autorisations.
+Kalia_Lighthouse_MerchantQuest2Start_30 = Mais ça nous poserai problème. Et que voulez vous faire avec ?
+Kalia_Lighthouse_MerchantQuest2Start_31 = Des affaires, bien sur ! Et pour vos problèmes, valent-ils la connaissance de la position des rebelles ?
+Kalia_Lighthouse_MerchantQuest2Start_32 = ....
+Kalia_Lighthouse_MerchantQuest2Start_33 = Bon, bon. Je vais aller récupérer le prototype pour vous.
+Kalia_Lighthouse_MerchantQuest2Start_34 = Alors j'attend avec impatience votre retour.
+Kalia_Lighthouse_MerchantQuest2Start_35 = Je quite le phare. Ca a l'air d'une arnaque.
+Kalia_Lighthouse_MerchantQuest2Start_36 = Il abuse du fait que nous ayons besoin de l'information pour mettre la main sur le prototype.
+Kalia_Lighthouse_MerchantQuest2Start_37 = Je ne sais pas beaucoup de chose à son propos. Mais je suis certain que cet homme va le vendre au meilleur acheteur.
+Kalia_Lighthouse_MerchantQuest2Start_38 = Grr... Je n'ai pas le choix. Je dois aller à Camp Espoir. 
+
+Kalia_Lighthouse_MerchantQuest2End_1 = J'entre dans le phare et me dirige vers le sommet immédiatement.
+Kalia_Lighthouse_MerchantQuest2End_2 = Vous êtes de retour. Bien.
+Kalia_Lighthouse_MerchantQuest2End_3 = Et vous avez même obtenu le prototype. Parfait.
+Kalia_Lighthouse_MerchantQuest2End_4 = Posez le sur le sol. J'irai le récupérer plus tard.
+Kalia_Lighthouse_MerchantQuest2End_5 = Vous restez dans l'ombre, hein ?
+Kalia_Lighthouse_MerchantQuest2End_6 = Fuh fuh. Je dois rester cacher. C'est... mieux dans mon domaine.
+Kalia_Lighthouse_MerchantQuest2End_7 = Vous avez ce que vous vouliez. Que savez-vous sur les rebelles ?
+Kalia_Lighthouse_MerchantQuest2End_8 = Bien, bien. Je suppose que je dois vous en parler.
+Kalia_Lighthouse_MerchantQuest2End_9 = Les rebelles ont fuis la ville après qu'un dénommé Robertus est mort.
+Kalia_Lighthouse_MerchantQuest2End_10 = Vous devriez le connaitre. Après tout, vous l'avez tué.
+Kalia_Lighthouse_MerchantQuest2End_11 = ...
+Kalia_Lighthouse_MerchantQuest2End_12 = Ils ont fuis la ville, et aux dernières nouvelles, ils ont pris contrôle des catacombes d'Iberty.
+Kalia_Lighthouse_MerchantQuest2End_13 = J'espère que cette information vous sera utile.
+Kalia_Lighthouse_MerchantQuest2End_14 = Elle l'est. Merci.
+Kalia_Lighthouse_MerchantQuest2End_15 = Je quite le phare. Maintenant, nous savez ou sont les rebelles.
+Kalia_Lighthouse_MerchantQuest2End_16 = Et dire qu'ils se cachent dans les halles des morts...
+Kalia_Lighthouse_MerchantQuest2End_17 = Bon. Je devrais retourner au palais.
+
 # ---------------------------------------------------------
 # ------------ Kalia - Salvation Bar ----------------------
 # ---------------------------------------------------------

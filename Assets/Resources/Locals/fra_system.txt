@@ -364,6 +364,10 @@ merchantQuest_1_done = J'ai tué un rival du Marchand
 
 merchantQuest_2 = Affaires douteuses
 merchantQuest_2_0 = Allez au phare de Kalia
+merchantQuest_2_1 = Obtenez le prototype au Camp Espoir
+merchantQuest_2_2 = Allez au phare de Kalia
+merchantQuest_2_3 = Retournez voir le Marchand au palais de Kalia
+merchantQuest_2_done = J'ai découvert la position des rebelles
 
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia

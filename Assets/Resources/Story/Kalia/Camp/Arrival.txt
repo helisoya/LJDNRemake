@@ -18,6 +18,11 @@ if(rebelQuest_5 = 0){
 	return()
 }
 
+if(merchantQuest_2 = 1){
+	load(Kalia/Camp/MerchantQuest2)
+	return()
+}
+
 if(arcQuest_Guard_4 = 0){
 	addCharacter(GUARD;false)
 	setCharacterPosition(GUARD;Spot1)

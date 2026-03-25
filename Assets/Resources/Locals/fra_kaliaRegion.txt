@@ -387,3 +387,11 @@ CampHope_RebelQuest5_61 = Je viens de voir Bos partir. Tout va bien ?
 CampHope_RebelQuest5_62 = Oui, Epée est mort.
 CampHope_RebelQuest5_63 = Ah, et Orkva va bientôt envahir. On doit se dépecher.
 CampHope_RebelQuest5_64 = Hein ? Euh, je te suis, alors !
+
+CampHope_MerchantQuest2_1 = Bon. Il est temps d'obtenir ce prototype.
+CampHope_MerchantQuest2_2 = J'entre dans le camp et me dirige vers les zones de test.
+CampHope_MerchantQuest2_3 = Je m'occupait de la sécurité de la zone fut un temps. Je sais donc ou aller.
+CampHope_MerchantQuest2_4 = Je rencontre l'officier en charge, et explique que je dois prendre le prototype.
+CampHope_MerchantQuest2_5 = Je lui ment, et lui affirme que le Marchand veut voir le prototype dans son bureau.
+CampHope_MerchantQuest2_6 = L'officier est perplexe, mais fini par accepter.
+CampHope_MerchantQuest2_7 = Avec le protype sur moi, il est grand temps de retourner au phare.
