@@ -209,6 +209,52 @@ Iberty_Catacombs_Quest_10 = It seems they were trying to steal some valuables fr
 Iberty_Catacombs_Quest_11 = ... Let's go back to the city hall.
 Iberty_Catacombs_Quest_12 = That guard will want to know I dealt with the problem. 
 
+Iberty_Catacombs_MerchantQuest4_1 = Okay, this is where the rebels are hiding.
+Iberty_Catacombs_MerchantQuest4_2 = Time to take them out for good.
+Iberty_Catacombs_MerchantQuest4_3 = ... I guess.
+Iberty_Catacombs_MerchantQuest4_4 = Hey, what's that supposed to mean ?
+Iberty_Catacombs_MerchantQuest4_5 = We are protecting the boss, remember ?
+Iberty_Catacombs_MerchantQuest4_6 = ...
+Iberty_Catacombs_MerchantQuest4_7 = When he dies. Who will be in charge ?
+Iberty_Catacombs_MerchantQuest4_8 = If the rebels are dead, who will be left ?
+Iberty_Catacombs_MerchantQuest4_9 = Me ? Sword ?
+Iberty_Catacombs_MerchantQuest4_10 = Alright. I'm going in !
+Iberty_Catacombs_MerchantQuest4_11 = Wait ! You can't just-
+Iberty_Catacombs_MerchantQuest4_12 = You are compromised, Shield. I can feel it.
+Iberty_Catacombs_MerchantQuest4_13 = I'll kill those rebels no matter what.
+Iberty_Catacombs_MerchantQuest4_14 = The safety of the boss is in jeopardy.
+Iberty_Catacombs_MerchantQuest4_15 = Sword storms the catacombs. I should follow him.
+Iberty_Catacombs_MerchantQuest4_16 = <color=blue>Sword removed from the party.</color>
+
+Iberty_Catacombs_MerchantQuest4_17 = I get to a large room.
+Iberty_Catacombs_MerchantQuest4_18 = Bodies of rebels are lying on the ground.
+Iberty_Catacombs_MerchantQuest4_19 = I guess Sword came through here.
+Iberty_Catacombs_MerchantQuest4_20 = Still, to think he would be able to kill them all.
+Iberty_Catacombs_MerchantQuest4_21 = It seems he also managed to kill the rebel leaders on his own.
+Iberty_Catacombs_MerchantQuest4_22 = I look at one of the leader's body, I can see something in her pocket.
+Iberty_Catacombs_MerchantQuest4_23 = I take it out. Its a letter.
+Iberty_Catacombs_MerchantQuest4_24 = ...
+Iberty_Catacombs_MerchantQuest4_25 = It is destined to the local shrine's priest.
+Iberty_Catacombs_MerchantQuest4_26 = I'm not going to read it. It seems like a farewell letter.
+Iberty_Catacombs_MerchantQuest4_27 = Maybe I could deliver it if I get the time.
+Iberty_Catacombs_MerchantQuest4_28 = What are you doing ?
+Iberty_Catacombs_MerchantQuest4_29 = You did a nasty job here.
+Iberty_Catacombs_MerchantQuest4_30 = So what ? I did what I had to do !
+Iberty_Catacombs_MerchantQuest4_31 = Are you saying I should have let them live ?
+Iberty_Catacombs_MerchantQuest4_32 = We could have arrested and interrogated them.
+Iberty_Catacombs_MerchantQuest4_33 = Murder is never the only awnser.
+Iberty_Catacombs_MerchantQuest4_34 = Murder ? Listen to yourself. You are sounding like the rebels.
+Iberty_Catacombs_MerchantQuest4_35 = I'm thinking about the future, you should do the same.
+Iberty_Catacombs_MerchantQuest4_36 = What will we do when the boss dies ? Nobody has the strength to take his place.
+Iberty_Catacombs_MerchantQuest4_37 = He'll never die ! He has a plan. Trust him.
+Iberty_Catacombs_MerchantQuest4_38 = I fear your optimism.
+Iberty_Catacombs_MerchantQuest4_39 = Grr... What's wrong with you ? You're all sentimental all of a sudden.
+Iberty_Catacombs_MerchantQuest4_40 = He may be going senile, but this doesn't have to mean anything.
+Iberty_Catacombs_MerchantQuest4_41 = I'll go back to Kalia. You should do the same and appologise.
+Iberty_Catacombs_MerchantQuest4_42 = ... I wonder.
+Iberty_Catacombs_MerchantQuest4_43 = Maybe I could deliver that letter beforehand.
+Iberty_Catacombs_MerchantQuest4_44 = I exit the catacombs.
+
 # ---------------------------------------------------------
 # ------------------------ Farm ---------------------------
 # ---------------------------------------------------------

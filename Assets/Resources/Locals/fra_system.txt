@@ -377,6 +377,8 @@ merchantQuest_3_done = Nous avons trouvé l'artefact
 
 merchantQuest_4 = Finir les rebelles
 merchantQuest_4_0 = Allez aux catacombes d'Iberty
+merchantQuest_4_1 = Retournez voir le Marchand au palais de Kalia
+merchantQuest_4_done = Epée a tué les rebelles
 
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
@@ -394,6 +396,10 @@ factionQuest_Marklicht_1_done = Nous avons rendu hommage
 factionQuest_Marklicht_2 = Rebellion
 factionQuest_Marklicht_2_0 = Allez à l'autel d'Okville
 factionQuest_Marklicht_2_done = Nous avons crée du mécontentement à Okville
+
+factionQuest_Merchant_1 = Adieux
+factionQuest_Merchant_1_0 = Livrez la lettre à l'autel de Kalibu, à Kalia
+factionQuest_Merchant_1_done = J'ai livré la lettre d'adieux
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
@@ -641,6 +647,8 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldat
 
 ENNEMY_Rebel_Hand_name = Rebelle
 ENNEMY_Rebel_Knife_name = Rebelle
+ENNEMY_Rebel_Rifle_name = Rebelle
+ENNEMY_Rebel_Revolver_name = Rebelle
 ENNEMY_Robertus_name = Robertus
 
 ENNEMY_SwordVar1_name = Epée

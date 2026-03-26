@@ -377,6 +377,8 @@ merchantQuest_3_done = We found the artefact
 
 merchantQuest_4 = Finishing the rebels
 merchantQuest_4_0 = Go to Iberty's Catacombs
+merchantQuest_4_1 = Report back to the Merchant at Kalia's palace
+merchantQuest_4_done = Sword killed the rebels
 
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
@@ -394,6 +396,10 @@ factionQuest_Marklicht_1_done = We visited the wall
 factionQuest_Marklicht_2 = Rebellion
 factionQuest_Marklicht_2_0 = Go to Okville's shrine
 factionQuest_Marklicht_2_done = We created unrest in Okville
+
+factionQuest_Merchant_1 = Farewell
+factionQuest_Merchant_1_0 = Deliver the letter at Kalia's shrine
+factionQuest_Merchant_1_done = I delivered the farewell letter
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD
@@ -641,6 +647,8 @@ ENNEMY_OrkvaSoldier_Rifle_name = Soldier
 
 ENNEMY_Rebel_Hand_name = Rebel
 ENNEMY_Rebel_Knife_name = Rebel
+ENNEMY_Rebel_Rifle_name = Rebel
+ENNEMY_Rebel_Revolver_name = Rebel
 ENNEMY_Robertus_name = Robertus
 
 ENNEMY_SwordVar1_name = Sword

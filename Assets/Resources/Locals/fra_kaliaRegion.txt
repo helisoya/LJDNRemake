@@ -209,6 +209,52 @@ Iberty_Catacombs_Quest_10 = On dirait qu'ils étaient en train de voler les corp
 Iberty_Catacombs_Quest_11 = ... Retournons à la mairie.
 Iberty_Catacombs_Quest_12 = Le garde devrait savoir que j'ai régler le problème.
 
+Iberty_Catacombs_MerchantQuest4_1 = Voila, c'est ici que les rebelles se cachent.
+Iberty_Catacombs_MerchantQuest4_2 = Il est temps de s'en débarasser une bonne fois pour toute.
+Iberty_Catacombs_MerchantQuest4_3 = ... Je suppose.
+Iberty_Catacombs_MerchantQuest4_4 = Hé, de quoi tu parles ?
+Iberty_Catacombs_MerchantQuest4_5 = Tu te souviens qu'on est en train de protéger le patron ?
+Iberty_Catacombs_MerchantQuest4_6 = ...
+Iberty_Catacombs_MerchantQuest4_7 = Quand il sera mort. Qui sera aux commandes ?
+Iberty_Catacombs_MerchantQuest4_8 = Si les rebelles meurt, il restera qui ?
+Iberty_Catacombs_MerchantQuest4_9 = Moi ? Epée ?
+Iberty_Catacombs_MerchantQuest4_10 = Bon. J'y vais !
+Iberty_Catacombs_MerchantQuest4_11 = Attends ! Tu ne peux pa-
+Iberty_Catacombs_MerchantQuest4_12 = Tu es un problème, Bouclier. Je peux le sentir.
+Iberty_Catacombs_MerchantQuest4_13 = Je vais tuer ces rebelles peu importe les conséquences.
+Iberty_Catacombs_MerchantQuest4_14 = La sécurité du patron est primordiale.
+Iberty_Catacombs_MerchantQuest4_15 = Epée entre dans les catacombes. Je devrais le suivre.
+Iberty_Catacombs_MerchantQuest4_16 = <color=blue>Epée retiré de l'équipe.</color>
+
+Iberty_Catacombs_MerchantQuest4_17 = J'arrive dans une grande salle.
+Iberty_Catacombs_MerchantQuest4_18 = Les corps des rebelles jonchent le sol.
+Iberty_Catacombs_MerchantQuest4_19 = Je suppose qu'Epée est passé par ici.
+Iberty_Catacombs_MerchantQuest4_20 = Je n'arrive pas à croire qu'il ai réussi à faire ça tout seul.
+Iberty_Catacombs_MerchantQuest4_21 = On dirait qu'il a aussi réussi à tuer les chefs de la rebellion.
+Iberty_Catacombs_MerchantQuest4_22 = Je regarde l'un de leur corps, et remarque quelque chose dans sa poche.
+Iberty_Catacombs_MerchantQuest4_23 = Je la prend dans mes mains. C'est une lettre.
+Iberty_Catacombs_MerchantQuest4_24 = ...
+Iberty_Catacombs_MerchantQuest4_25 = Elle est destinée à la prêtresse de l'autel local.
+Iberty_Catacombs_MerchantQuest4_26 = Je ne vais pas la lire. On dirais une lettre d'adieux.
+Iberty_Catacombs_MerchantQuest4_27 = Peut être que je peux la livrer si j'ai le temps.
+Iberty_Catacombs_MerchantQuest4_28 = Qu'est ce que tu fais ?
+Iberty_Catacombs_MerchantQuest4_29 = Tu es couvert de sang.
+Iberty_Catacombs_MerchantQuest4_30 = Et alors ? J'ai fait ce que je devais faire !
+Iberty_Catacombs_MerchantQuest4_31 = Tu voulais que je les laisse en vie ?
+Iberty_Catacombs_MerchantQuest4_32 = On aurais pu les arrêter et les intéroger.
+Iberty_Catacombs_MerchantQuest4_33 = Le meurtre n'est pas la seule solution.
+Iberty_Catacombs_MerchantQuest4_34 = Le meurtre. Ecoutes-toi, on dirais un rebelle.
+Iberty_Catacombs_MerchantQuest4_35 = Je pense au futur. Tu devrais faire de même.
+Iberty_Catacombs_MerchantQuest4_36 = Que se passera-t-il quand le patron mourra ? Personne n'a la perstance pour prendre sa place.
+Iberty_Catacombs_MerchantQuest4_37 = Il ne mourra pas ! Il a un plan. Ais confiance en lui.
+Iberty_Catacombs_MerchantQuest4_38 = J'ai peur de ton optimisme.
+Iberty_Catacombs_MerchantQuest4_39 = Grr... C'est quoi ton problème ? Tu es devenu tout mou d'un coup.
+Iberty_Catacombs_MerchantQuest4_40 = Il se fait peut être vieux, mais ça ne veut rien dire de plus.
+Iberty_Catacombs_MerchantQuest4_41 = Je retourne à Kalia. Tu devrais faire de même et t'excuser.
+Iberty_Catacombs_MerchantQuest4_42 = ... Je me demande.
+Iberty_Catacombs_MerchantQuest4_43 = Peut être que je peux livrer cette lettre avant.
+Iberty_Catacombs_MerchantQuest4_44 = Je quitte les catacombes.
+
 # ---------------------------------------------------------
 # ------------------------ Farm ---------------------------
 # ---------------------------------------------------------
