@@ -325,6 +325,15 @@ KalibuShrine_Priest_RebelFactionQuest1_21 = N'ayez crainte. Nous allons nous occ
 KalibuShrine_Priest_RebelFactionQuest1_22 = Merci. Il se cache dans le viel autel proche de Vorlan.
 KalibuShrine_Priest_RebelFactionQuest1_23 = Allons le sauver !
 
+KalibuShrine_Priest_MerchantQuest1_1 = Je ne peux pas le faire...
+KalibuShrine_Priest_MerchantQuest1_2 = Mais je le dois.
+KalibuShrine_Priest_MerchantQuest1_3 = Je donne la lettre à la pretresse. Elle a l'air plutôt dépité.
+KalibuShrine_Priest_MerchantQuest1_4 = Je part dès que j'ai donné la lettre. Je ne veux pas savoir son contenu.
+KalibuShrine_Priest_MerchantQuest1_5 = Elle a l'air très triste...
+KalibuShrine_Priest_MerchantQuest1_6 = Suis-je destiné à faire cela jusqu'à ma mort ?
+KalibuShrine_Priest_MerchantQuest1_7 = Des innocents meurt tout les jours. Et je suis en train d'aider les responsables.
+KalibuShrine_Priest_MerchantQuest1_8 = Que devrais-je faire ? Que puis-je faire ?
+
 # ---------------------------------------------------------
 # -------------- Kalia's Outpost --------------------------
 # ---------------------------------------------------------

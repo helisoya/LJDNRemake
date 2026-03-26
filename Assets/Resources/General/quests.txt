@@ -21,6 +21,7 @@ merchantQuest_1
 merchantQuest_2
 merchantQuest_3
 merchantQuest_4
+merchantQuest_5
 
 [arcQuest]
 arcQuest_Guard_1

@@ -380,6 +380,9 @@ merchantQuest_4_0 = Go to Iberty's Catacombs
 merchantQuest_4_1 = Report back to the Merchant at Kalia's palace
 merchantQuest_4_done = Sword killed the rebels
 
+merchantQuest_5 = Downfall
+merchantQuest_5_0 = Go to Kalia's grand plaza
+
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
 factionQuest_Rebel_1_1 = Visit Orkva's Suori shrine

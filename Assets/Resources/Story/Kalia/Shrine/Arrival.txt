@@ -13,7 +13,7 @@ load(Common/DisplayWeatherRain)
 
 setLocation(Location_KalibuShrine)
 
-if(night = 0){
+if(night = 0 & factionQuest_Merchant_1 < 100){
 	addCharacter(KalibuPriest;false)
 	setCharacterPosition(KalibuPriest;PriestSpot)
 	setCharacterRotation(KalibuPriest;PriestSpot)
@@ -23,5 +23,10 @@ if(night = 0){
 autosave()
 
 fadeFg(0;false)
+
+if(factionQuest_Merchant_1 = 0){
+	load(Kalia/Shrine/MerchantFactionQuest1)
+	return()
+}
 
 load(Kalia/Shrine/Interaction)
