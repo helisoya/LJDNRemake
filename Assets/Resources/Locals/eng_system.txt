@@ -382,6 +382,8 @@ merchantQuest_4_done = Sword killed the rebels
 
 merchantQuest_5 = Downfall
 merchantQuest_5_0 = Go to Kalia's grand plaza
+merchantQuest_5_1 = Confront Sword at Camp Hope
+merchantQuest_5_done = I prevented the coup
 
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine

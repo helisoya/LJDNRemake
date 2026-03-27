@@ -19,6 +19,11 @@ if(rebelQuest_4 = 0){
 	return()
 }
 
+if(merchantQuest_5 = 0){
+	load(Kalia/City/Plaza/MerchantQuest5)
+	return()
+}
+
 if(arcQuest_Guard_2 = 0){
 	addCharacter(GUARD;false)
 	setCharacterPosition(GUARD;Civilian1)
