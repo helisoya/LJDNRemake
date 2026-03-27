@@ -309,6 +309,50 @@ Kalia_Palace_MerchantQuest3End_8 = Sir, I won't disappoint you ! I'll personnaly
 Kalia_Palace_MerchantQuest3End_9 = Yes, yes. Now, go.
 Kalia_Palace_MerchantQuest3End_10 = Well, time to head to Iberty's catacombs.
 
+Kalia_Palace_MerchantQuest4End_1 = Shield ! Come here, my boy.
+Kalia_Palace_MerchantQuest4End_2 = Where's Sword ?
+Kalia_Palace_MerchantQuest4End_3 = Hmm... I wonder.
+Kalia_Palace_MerchantQuest4End_4 = Sir, the rebels were...
+Kalia_Palace_MerchantQuest4End_5 = Decimated, I know. Sword told me he killed them.
+Kalia_Palace_MerchantQuest4End_6 = He also told me you didn't take part in the operation ?
+Kalia_Palace_MerchantQuest4End_7 = Barely. I wanted to capture them, but...
+Kalia_Palace_MerchantQuest4End_8 = My boy, I made a decision.
+Kalia_Palace_MerchantQuest4End_9 = What's going on ? He never called me like that before.
+Kalia_Palace_MerchantQuest4End_10 = I already told Sword, he left in anger. It doesn't matter in the end.
+Kalia_Palace_MerchantQuest4End_11 = What did you tell him, sir ?
+Kalia_Palace_MerchantQuest4End_12 = I thought about what you told me. About my heir.
+Kalia_Palace_MerchantQuest4End_13 = I have come to a conclusion. I know who will lead after my death.
+Kalia_Palace_MerchantQuest4End_14 = You don't need to rush things. You're not dead yet.
+Kalia_Palace_MerchantQuest4End_15 = I can feel it... My time is up.
+Kalia_Palace_MerchantQuest4End_16 = Shield, no... [MC].
+Kalia_Palace_MerchantQuest4End_17 = Sir ?
+Kalia_Palace_MerchantQuest4End_18 = I want you to lead after my death.
+Kalia_Palace_MerchantQuest4End_19 = No... I want you to lead from now on. Immediate.
+Kalia_Palace_MerchantQuest4End_20 = What ? But I haven't followed orders as I should.
+Kalia_Palace_MerchantQuest4End_21 = Sword was the one who-
+Kalia_Palace_MerchantQuest4End_22 = [MC], my boy. You yourself told me "He's scheming", no ?
+Kalia_Palace_MerchantQuest4End_23 = Well...
+Kalia_Palace_MerchantQuest4End_24 = Sword is a simpleton. He just want to feel respected by others.
+Kalia_Palace_MerchantQuest4End_25 = You, on the other hand, have judgment.
+Kalia_Palace_MerchantQuest4End_26 = The next leader of Kalia should have impecable judgement to know what to do next.
+Kalia_Palace_MerchantQuest4End_27 = Is the old age finally getting to him ? Why is he doing this ?
+Kalia_Palace_MerchantQuest4End_28 = Sir, I understand. Do you have orders for me when I will rule ?
+Kalia_Palace_MerchantQuest4End_29 = You are already ruling, my boy. Do what you think is right.
+Kalia_Palace_MerchantQuest4End_30 = As for me, let me die in here.
+Kalia_Palace_MerchantQuest4End_31 = I won't see tomorrow's morning, I'm afraid.
+Kalia_Palace_MerchantQuest4End_32 = So let me die next to my collection.
+Kalia_Palace_MerchantQuest4End_33 = I understand. I am honored by you trust in me.
+Kalia_Palace_MerchantQuest4End_34 = Go, the city needs you. Maybe you'll do better than me.
+Kalia_Palace_MerchantQuest4End_35 = What was that ? Am I really the consul now ?
+Kalia_Palace_MerchantQuest4End_36 = No wonder Sword was angry. He was denied what he always sought.
+Kalia_Palace_MerchantQuest4End_37 = I thought he wanted to be recognized. But he actually wanted to be the heir.
+Kalia_Palace_MerchantQuest4End_38 = Which means he's a rival for now.
+Kalia_Palace_MerchantQuest4End_39 = ... To think the instigator of all this chaos would just give up power like that.
+Kalia_Palace_MerchantQuest4End_40 = I'll worry about what I'll do later. I must deal with Sword.
+Kalia_Palace_MerchantQuest4End_41 = I wonder where I can find him ?
+Kalia_Palace_MerchantQuest4End_42 = I could always ask around.
+Kalia_Palace_MerchantQuest4End_43 = The grand plaza could have clues for me.
+
 # ---------------------------------------------------------
 # --------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------

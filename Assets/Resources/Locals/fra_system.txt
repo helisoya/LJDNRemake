@@ -380,6 +380,9 @@ merchantQuest_4_0 = Allez aux catacombes d'Iberty
 merchantQuest_4_1 = Retournez voir le Marchand au palais de Kalia
 merchantQuest_4_done = Epée a tué les rebelles
 
+merchantQuest_5 = La chute
+merchantQuest_5_0 = Allez à la grande place de Kalia
+
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
 factionQuest_Rebel_1_1 = Visitez l'autel Suori d'Orkva

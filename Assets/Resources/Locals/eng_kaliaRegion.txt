@@ -325,6 +325,15 @@ KalibuShrine_Priest_RebelFactionQuest1_21 = It's alright. We'll deal with those 
 KalibuShrine_Priest_RebelFactionQuest1_22 = Thank you. He hides at the old shrine near Vorlan.
 KalibuShrine_Priest_RebelFactionQuest1_23 = Let's go save him !
 
+KalibuShrine_Priest_MerchantQuest1_1 = I can't bring myself to do it...
+KalibuShrine_Priest_MerchantQuest1_2 = Still, I must.
+KalibuShrine_Priest_MerchantQuest1_3 = I give the letter to the priest. She seems rather disturbed.
+KalibuShrine_Priest_MerchantQuest1_4 = I go away as soon as I'm done. I don't want to know what was in it.
+KalibuShrine_Priest_MerchantQuest1_5 = The priest seems rather sad...
+KalibuShrine_Priest_MerchantQuest1_6 = Am I destined to do this forever ?
+KalibuShrine_Priest_MerchantQuest1_7 = Innocents are dying. And I'm just helping the man responsible.
+KalibuShrine_Priest_MerchantQuest1_8 = What should I do ? What can I do ?
+
 # ---------------------------------------------------------
 # -------------- Kalia's Outpost --------------------------
 # ---------------------------------------------------------

@@ -309,6 +309,50 @@ Kalia_Palace_MerchantQuest3End_8 = Chef, je ne vais pas vous décevoir ! Je vais
 Kalia_Palace_MerchantQuest3End_9 = Bien. Allez-y.
 Kalia_Palace_MerchantQuest3End_10 = Bon, il est temps d'aller aux catacombes d'Iberty.
 
+Kalia_Palace_MerchantQuest4End_1 = Bouclier ! Venez ici, mon garçon.
+Kalia_Palace_MerchantQuest4End_2 = Ou est Epée ?
+Kalia_Palace_MerchantQuest4End_3 = Hmm... Je me le demande.
+Kalia_Palace_MerchantQuest4End_4 = Monsieur, les rebelles ont été...
+Kalia_Palace_MerchantQuest4End_5 = Décimés, je sais. Epée m'a dit qu'il les avait tué.
+Kalia_Palace_MerchantQuest4End_6 = Il m'a aussi dit que vous n'avez pas prit part aux opérations ?
+Kalia_Palace_MerchantQuest4End_7 = Très peux. Je voulais les capturer, mais...
+Kalia_Palace_MerchantQuest4End_8 = Mon garçon, j'ai pris une décision.
+Kalia_Palace_MerchantQuest4End_9 = Que se passe-t-il ? Il ne m'a jamais appelé comme ça auparavent.
+Kalia_Palace_MerchantQuest4End_10 = Je l'ai déjà annoncé à Epée et il est parti en colère. Ca n'a pas d'importance au final.
+Kalia_Palace_MerchantQuest4End_11 = Qu'est ce que vous lui avez dis.
+Kalia_Palace_MerchantQuest4End_12 = J'ai réflechi à ce que vous m'avez dis. A propos de mon héritier.
+Kalia_Palace_MerchantQuest4End_13 = J'ai atteint une conclusion. Je sais qui va diriger après ma mort.
+Kalia_Palace_MerchantQuest4End_14 = Vous n'avez pas besoin de vous précipiter. Vous n'êtes pas mourant.
+Kalia_Palace_MerchantQuest4End_15 = Je peux le sentir... Mon heure est venu.
+Kalia_Palace_MerchantQuest4End_16 = Bouclier, non... [MC].
+Kalia_Palace_MerchantQuest4End_17 = Monsieur ?
+Kalia_Palace_MerchantQuest4End_18 = Je veux que tu diriges après ma mort.
+Kalia_Palace_MerchantQuest4End_19 = Non... Je veux que tu diriges dès maintenant.
+Kalia_Palace_MerchantQuest4End_20 = Quoi ? Mais je n'ai pas bien suivi les ordres jusqu'à maintenant.
+Kalia_Palace_MerchantQuest4End_21 = Epée est celui qu-
+Kalia_Palace_MerchantQuest4End_22 = [MC], mon garçon. Tu me l'as dis toi même, non ? "Il planifie quelque chose".
+Kalia_Palace_MerchantQuest4End_23 = Et bien...
+Kalia_Palace_MerchantQuest4End_24 = Epée est un bon a rien. Il ne veut qu'être vénéré par les autres.
+Kalia_Palace_MerchantQuest4End_25 = Toi, au contraire, tu as du jugement.
+Kalia_Palace_MerchantQuest4End_26 = Le prochain dirigeant de Kalia devra en avoir pour savoir quoi faire.
+Kalia_Palace_MerchantQuest4End_27 = Est-ce que la viellesse l'a enfin touché ? Pourquoi il fait ça ?
+Kalia_Palace_MerchantQuest4End_28 = Monsieur, je comprend. Avez-vous des ordres pour moi, pour quand je serais consul ?
+Kalia_Palace_MerchantQuest4End_29 = Tu l'es déjà, mon garçon. Fait ce que tu penses être le meilleur.
+Kalia_Palace_MerchantQuest4End_30 = Et pour ma part, laisse moi mourir ici.
+Kalia_Palace_MerchantQuest4End_31 = J'ai bien peur de ne pas tenir jusqu'à la prochaine aube.
+Kalia_Palace_MerchantQuest4End_32 = Donc laisse moi mourir a coté de ma collection.
+Kalia_Palace_MerchantQuest4End_33 = Je comprend. Je suis honoré de votre confiance.
+Kalia_Palace_MerchantQuest4End_34 = Va, la ville a besoin de toi. Puis-tu diriger mieux que moi.
+Kalia_Palace_MerchantQuest4End_35 = C'était quoi ça ? Je suis vraiment le consul maintenant ?
+Kalia_Palace_MerchantQuest4End_36 = Pas étonnant qu'Epée n'était pas content. Il n'a pas eu ce qu'il cherchait depuis le début.
+Kalia_Palace_MerchantQuest4End_37 = Je pensais qu'il voulait lui lecher les bottes. Mais il voulait devenir l'héritier.
+Kalia_Palace_MerchantQuest4End_38 = Ce qui veut dire qu'il est un rival maintenant.
+Kalia_Palace_MerchantQuest4End_39 = ... Et dire que le responsable de tout ce chaos m'a juste donné le pouvoir comme ça.
+Kalia_Palace_MerchantQuest4End_40 = Je m'inquièterais de Kalia plus tard. Je dois m'occuper d'Epée.
+Kalia_Palace_MerchantQuest4End_41 = Je me demande ou il est ?
+Kalia_Palace_MerchantQuest4End_42 = Je peux toujours demander aux passants.
+Kalia_Palace_MerchantQuest4End_43 = La grande place devrait avoir quelques indices.
+
 # ---------------------------------------------------------
 # -------------- Kalia - Docks ---------------------------
 # ---------------------------------------------------------
