@@ -22,6 +22,7 @@ merchantQuest_2
 merchantQuest_3
 merchantQuest_4
 merchantQuest_5
+merchantQuest_6
 
 [arcQuest]
 arcQuest_Guard_1
@@ -47,6 +48,7 @@ arcQuest_Dragon_4
 
 [factionQuest]
 factionQuest_Merchant_1
+factionQuest_Merchant_2
 factionQuest_Rebel_1
 factionQuest_Rebel_2
 factionQuest_Marklicht_1

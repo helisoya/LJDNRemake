@@ -385,6 +385,9 @@ merchantQuest_5_0 = Go to Kalia's grand plaza
 merchantQuest_5_1 = Confront Sword at Camp Hope
 merchantQuest_5_done = I prevented the coup
 
+merchantQuest_6 = To prevent an invasion
+merchantQuest_6_0 = Go to Fort Wall, in Orkva
+
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
 factionQuest_Rebel_1_1 = Visit Orkva's Suori shrine
@@ -405,6 +408,10 @@ factionQuest_Marklicht_2_done = We created unrest in Okville
 factionQuest_Merchant_1 = Farewell
 factionQuest_Merchant_1_0 = Deliver the letter at Kalia's shrine
 factionQuest_Merchant_1_done = I delivered the farewell letter
+
+factionQuest_Merchant_2 = Rogues
+factionQuest_Merchant_2_0 = Go to mount Vasalia
+factionQuest_Merchant_2_done = I defeated the rogue soldiers
 
 arcQuest_Guard_1 = A sect in Kalia
 arcQuest_Guard_1_0 = Investigate the docks in Kalia with GUARD

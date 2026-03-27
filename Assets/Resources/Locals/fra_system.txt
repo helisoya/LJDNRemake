@@ -385,6 +385,9 @@ merchantQuest_5_0 = Allez à la grande place de Kalia
 merchantQuest_5_1 = Confrontez Epée au Camp Espoir
 merchantQuest_5_done = J'ai empeché le coup d'état
 
+merchantQuest_6 = To prevent an invasion
+merchantQuest_6_0 = Allez a Fort Muraille, à Orkva
+
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
 factionQuest_Rebel_1_1 = Visitez l'autel Suori d'Orkva
@@ -405,6 +408,10 @@ factionQuest_Marklicht_2_done = Nous avons crée du mécontentement à Okville
 factionQuest_Merchant_1 = Adieux
 factionQuest_Merchant_1_0 = Livrez la lettre à l'autel de Kalibu, à Kalia
 factionQuest_Merchant_1_done = J'ai livré la lettre d'adieux
+
+factionQuest_Merchant_2 = Scélerats
+factionQuest_Merchant_2_0 = Allez au Mont Vasalia
+factionQuest_Merchant_2_done = Je me suis occupé des soldats non loyaux
 
 arcQuest_Guard_1 = Une secte à Kalia
 arcQuest_Guard_1_0 = Menez l'enquête aux docks de Kalia avec GARDE
