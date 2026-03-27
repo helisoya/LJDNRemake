@@ -645,7 +645,31 @@ Kalia_Plaza_RebelQuest4_13 = Did you see that ?
 Kalia_Plaza_RebelQuest4_14 = The rebels might actually stand a chance.
 Kalia_Plaza_RebelQuest4_15 = Yeah. Maybe we could root for them. They'll protect us.
 Kalia_Plaza_RebelQuest4_16 = Good. The people are starting to trust us more and more.
-Kalia_Plaza_RebelQuest4_17 = Let's go back to Amanda. I wonder what the next step is. 
+Kalia_Plaza_RebelQuest4_17 = Let's go back to Amanda. I wonder what the next step is.
+
+Kalia_Plaza_MerchantQuest5_1 = That's weird. There are a lot of people around today.
+Kalia_Plaza_MerchantQuest5_2 = Did you hear the news ?
+Kalia_Plaza_MerchantQuest5_3 = No, what is it ?
+Kalia_Plaza_MerchantQuest5_4 = The rebels were crushed. On top of that, the Merchant is dead !
+Kalia_Plaza_MerchantQuest5_5 = What ? How ?
+Kalia_Plaza_MerchantQuest5_6 = That's great news ! Do we start a new election ?
+Kalia_Plaza_MerchantQuest5_7 = Elections... We didn't have those in a few dozen years.
+Kalia_Plaza_MerchantQuest5_8 = Who'd want to compete ? I heard the military is maybe going to coup the government.
+Kalia_Plaza_MerchantQuest5_9 = Not that much of it is left anyway...
+Kalia_Plaza_MerchantQuest5_10 = This is bad. How did news spread so fast ?
+Kalia_Plaza_MerchantQuest5_11 = I'm sorry, sir. Can I ask you a few questions ?
+Kalia_Plaza_MerchantQuest5_12 = You... That other guy told us about you.
+Kalia_Plaza_MerchantQuest5_13 = Me ? You mean the other republican guard ?
+Kalia_Plaza_MerchantQuest5_14 = I guess. He told us you killed the Merchant. He's going to Camp Hope to get the military onboard for a coup.
+Kalia_Plaza_MerchantQuest5_15 = What ? I did no such thing. While it's true I am the interim leader of Kalia, I did not kill to get the position.
+Kalia_Plaza_MerchantQuest5_16 = Relay to your friends that elections will soon be held.
+Kalia_Plaza_MerchantQuest5_17 = Let it be known that the military will not coup the government. They will have to face me first.
+Kalia_Plaza_MerchantQuest5_18 = As for the other republican guard. Consider him as a traitor. Arrest him if he ever shows his face around here again.
+Kalia_Plaza_MerchantQuest5_19 = Y- Yes, sir !
+Kalia_Plaza_MerchantQuest5_20 = The few people that were listening to me start moving towards other groups of people.
+Kalia_Plaza_MerchantQuest5_21 = The news are going to spread fast.
+Kalia_Plaza_MerchantQuest5_22 = In the meantime, I should head to Camp Hope and confront Sword.
+Kalia_Plaza_MerchantQuest5_23 = He won't coup the government. This is our only chance for salvation after all this mess.
 
 # ---------------------------------------------------------
 # ------------ Kalia - Lighthouse -------------------------

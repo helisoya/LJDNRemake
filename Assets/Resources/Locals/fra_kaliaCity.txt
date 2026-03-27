@@ -645,7 +645,31 @@ Kalia_Plaza_RebelQuest4_13 = Tu as vu ça ?
 Kalia_Plaza_RebelQuest4_14 = Les rebelles ont peut être une chance de gagner.
 Kalia_Plaza_RebelQuest4_15 = Oui. Il serait peut être sage de les soutenir. Ils peuvent nous défendre.
 Kalia_Plaza_RebelQuest4_16 = Bien. Le peuple commence à nous faire confiance.
-Kalia_Plaza_RebelQuest4_17 = Retournons voir Amanda. Je me demande qul est la prochaine étape.
+Kalia_Plaza_RebelQuest4_17 = Retournons voir Amanda. Je me demande quelle est la prochaine étape.
+
+Kalia_Plaza_MerchantQuest5_1 = C'est étrange. Il y a beaucoup de gens aujourd'hui.
+Kalia_Plaza_MerchantQuest5_2 = Tu as entendu la nouvelle ?
+Kalia_Plaza_MerchantQuest5_3 = Non, de quoi tu parles ?
+Kalia_Plaza_MerchantQuest5_4 = Les rebelles ont été écrasés. En plus de ça, le Marchand est mort !
+Kalia_Plaza_MerchantQuest5_5 = Quoi ? Comment ?
+Kalia_Plaza_MerchantQuest5_6 = C'est une grande nouvelle ! On va pouvoir faire une élection ?
+Kalia_Plaza_MerchantQuest5_7 = Des élections... On en a pas eu depuis des décenies.
+Kalia_Plaza_MerchantQuest5_8 = Qui va vouloir se présenter ? J'ai entendu dire que l'armée va peut être faire un coup d'état.
+Kalia_Plaza_MerchantQuest5_9 = Enfin, c'est pas comme s'il restait beaucoup en terme de gouvernement.
+Kalia_Plaza_MerchantQuest5_10 = Ce n'est pas bon signe. Comment les nouvelles se sont répandu aussi vite ?
+Kalia_Plaza_MerchantQuest5_11 = Je m'excuse, monsieur. Pourrais-je vous poser quelques questions ?
+Kalia_Plaza_MerchantQuest5_12 = Vous... L'autre type nous a parlé de vous.
+Kalia_Plaza_MerchantQuest5_13 = Moi ? Vous voulez parler de l'autre garde républicain.
+Kalia_Plaza_MerchantQuest5_14 = Je suppose que c'était lui. Il nous as dis que vous aviez tué le Marchand. Il va au Camp Espoir pour préparer un coup d'état.
+Kalia_Plaza_MerchantQuest5_15 = Quoi ? Je n'ai rien fait de la sorte. C'est vrai que je suis le consul par intérim de Kalia, mais je n'ai pas tué pour avoir la position.
+Kalia_Plaza_MerchantQuest5_16 = Dites à tout vous amis que des élections libres auront bientôt lieu.
+Kalia_Plaza_MerchantQuest5_17 = Faites savoir que l'armée ne fera pas de coup d'état. Ils devront passer par moi avant.
+Kalia_Plaza_MerchantQuest5_18 = Et en ce qui concerne l'autre garde républicain. Considérez-le comme un traitre. Arrêtez le s'il revient par ici.
+Kalia_Plaza_MerchantQuest5_19 = O-Oui, monsieur !
+Kalia_Plaza_MerchantQuest5_20 = Les quelques personnes qui m'écoutaient partent vers d'autres groupes.
+Kalia_Plaza_MerchantQuest5_21 = Les nouvelles vont se répandre vite.
+Kalia_Plaza_MerchantQuest5_22 = En attendant, je devrais aller au Camp Espoir et confronter mon viel ami.
+Kalia_Plaza_MerchantQuest5_23 = Il ne fera pas de coup d'état. C'est notre seule chance pour trouver le salut après tout ces péripéties.
 
 # ---------------------------------------------------------
 # ------------ Kalia - Lighthouse -------------------------
