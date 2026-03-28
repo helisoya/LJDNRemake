@@ -33,6 +33,7 @@ public class DungeonManager : MonoBehaviour
     private Coroutine routineNextFloor;
     private Vector3 moveVector;
     private Vector2Int playerPosition;
+    private float metersToNextRegen;
     public bool changingFloor { get { return routineNextFloor != null; } }
 
 
@@ -275,7 +276,22 @@ public class DungeonManager : MonoBehaviour
         if (moving)
         {
             playerModel.forward = moveVector;
-            currentMetersRemainingToEncounter -= (Mathf.Abs(moveVector.x) + Mathf.Abs(moveVector.z)) * Time.deltaTime;
+            float value = (Mathf.Abs(moveVector.x) + Mathf.Abs(moveVector.z)) * Time.deltaTime;
+            currentMetersRemainingToEncounter -= value;
+            metersToNextRegen -= value;
+
+            if (metersToNextRegen <= 0)
+            {
+                metersToNextRegen = 1.0f;
+
+                foreach (int follower in GameManager.GetRPGManager().GetFollowers())
+                {
+                    GameManager.GetRPGManager().GetCharacter(follower).AddSP(1);
+                    GameManager.GetRPGManager().GetCharacter(follower).AddHealth(1);
+                }
+
+                gui.RefreshPlayerIcons();
+            }
 
             if (currentMetersRemainingToEncounter <= 0) StartRandomEncounter();
         }

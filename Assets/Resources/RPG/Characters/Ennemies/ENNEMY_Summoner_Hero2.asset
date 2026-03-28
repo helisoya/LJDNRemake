@@ -18,7 +18,7 @@ MonoBehaviour:
     stats:
       _serializedList:
       - Key: 0
-        Value: 25
+        Value: 20
       - Key: 1
         Value: 12
       - Key: 2
@@ -28,7 +28,7 @@ MonoBehaviour:
       - Key: 4
         Value: 15
       - Key: 5
-        Value: 20
+        Value: 25
     weapon: TWOHANDED_KATANA
     armor: ARMOR_HERO2
     level: 1

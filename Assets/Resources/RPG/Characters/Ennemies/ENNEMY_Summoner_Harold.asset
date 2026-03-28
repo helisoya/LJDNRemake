@@ -20,15 +20,15 @@ MonoBehaviour:
       - Key: 0
         Value: 15
       - Key: 1
-        Value: 23
+        Value: 20
       - Key: 2
-        Value: 24
+        Value: 18
       - Key: 3
         Value: 0
       - Key: 4
         Value: 99
       - Key: 5
-        Value: 30
+        Value: 35
     weapon: WEAPON_HAROLDBOOK
     armor: ARMOR_HAROLD
     level: 1
