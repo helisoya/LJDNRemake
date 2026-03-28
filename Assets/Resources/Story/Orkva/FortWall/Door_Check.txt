@@ -12,6 +12,12 @@ if(arcQuest_Guard_3 = 0){
 }
 else{
 # No reason to enter 
+
+	if(merchantQuest_6 = 0){
+		load(Orkva/FortWall/MerchantQuest6_Ask)
+		return()
+	}
+
 	dialog(narrator;_;false;FortWall_Door_Dont_1)
 
 	load(Orkva/FortWall/Interaction)

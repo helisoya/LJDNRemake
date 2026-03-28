@@ -18,9 +18,9 @@ MonoBehaviour:
     stats:
       _serializedList:
       - Key: 0
-        Value: 25
-      - Key: 1
         Value: 20
+      - Key: 1
+        Value: 15
       - Key: 2
         Value: 1
       - Key: 3
@@ -28,7 +28,7 @@ MonoBehaviour:
       - Key: 4
         Value: 4
       - Key: 5
-        Value: 60
+        Value: 40
     weapon: FIREARM_REVOLVER
     armor: ARMOR_TRENCHCOAT
     level: 1

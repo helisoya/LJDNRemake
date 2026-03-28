@@ -113,6 +113,7 @@ public class SaveManager
                 return i;
             }
         }
+        Debug.LogWarning($"Variable {key} not found");
         return 0;
     }
 

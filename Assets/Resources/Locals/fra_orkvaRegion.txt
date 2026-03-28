@@ -12,6 +12,14 @@ FortWall_GUARDArcQuest3_4 = Et à l'intérieur, je vais trouver cette bombe.
 FortWall_GUARDArcQuest3_5 = Après avoir exploré le fort, j'arrive enfin à trouver la bombe.
 FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.
 
+FortWall_Door_MerchantQuest6_1 = M'y voici.
+FortWall_Door_MerchantQuest6_2 = Je vais aller demander à parler avec le commandant de ce fort.
+FortWall_Door_MerchantQuest6_3 = Peut être qu'ils peuvent clarifier leur position sur cette fameuse invasion.
+FortWall_Door_MerchantQuest6_4 = Peut être que je peux même les dissuader d'attaquer.
+FortWall_Door_MerchantQuest6_5 = Enfin, ca pourrait être ma dernière mission.
+FortWall_Door_MerchantQuest6_6 = Suis-je prêt à continuer ?
+FortWall_Door_MerchantQuest6_7 = <color=red>Cela va ammener à la fin du jeu.</color>
+
 # ---------------------------------------------------------
 # ---------------------- Altyr ----------------------------
 # ---------------------------------------------------------

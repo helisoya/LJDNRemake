@@ -53,6 +53,15 @@ MountVasalia_DragonArcQuest4_9 = Enfin, le dragon est mort.
 MountVasalia_DragonArcQuest4_10 = Maintenant, Kalia et le village devrait être en sécurité.
 MountVasalia_DragonArcQuest4_11 = Je devrais rentrer. La doyenne m'a dit qu'elle voulait me récompenser.
 
+MountVasalia_MerchantFaction2_1 = C'est ici que la plaque de l'esquade non loyale devrait être.
+MountVasalia_MerchantFaction2_2 = J'espère qu'ils sont ici et qu'ils n'ont pas fuis vers Orkva.
+MountVasalia_MerchantFaction2_3 = Je cherche les alentours et bien sur, je les trouve.
+MountVasalia_MerchantFaction2_4 = Ils me remarquent immédiatement et un combat commence.
+
+MountVasalia_MerchantFaction2_5 = J'ai vaincu les soldats.
+MountVasalia_MerchantFaction2_6 = On dirait qu'Epée leur a demandé de rester prendre en embuscade nos troupes dans la Forêt Blanche.
+MountVasalia_MerchantFaction2_7 = Bon débarat. Cela fait un probème de moins à résoudre si Orkva attaque.
+
 # ---------------------------------------------------------
 # ------------------- Forest - Crag Pass ------------------
 # ---------------------------------------------------------

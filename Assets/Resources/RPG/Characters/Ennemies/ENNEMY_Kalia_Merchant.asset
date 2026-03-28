@@ -20,7 +20,7 @@ MonoBehaviour:
       - Key: 0
         Value: 20
       - Key: 1
-        Value: 25
+        Value: 16
       - Key: 2
         Value: 3
       - Key: 3
@@ -28,7 +28,7 @@ MonoBehaviour:
       - Key: 4
         Value: 30
       - Key: 5
-        Value: 60
+        Value: 50
     weapon: ONEHANDED_SWORD
     armor: ARMOR_UNIFORM
     level: 1

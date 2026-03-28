@@ -73,7 +73,7 @@ arcQuest_Dragon_4 -1
 
 # Faction Quests
 factionQuest_Merchant_1 -1
-factionQuest_Merchant_1 -1
+factionQuest_Merchant_2 -1
 
 factionQuest_Rebel_1 -1
 factionQuest_Rebel_2 -1

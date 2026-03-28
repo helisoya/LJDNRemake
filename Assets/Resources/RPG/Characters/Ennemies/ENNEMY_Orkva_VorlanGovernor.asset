@@ -28,7 +28,7 @@ MonoBehaviour:
       - Key: 4
         Value: 15
       - Key: 5
-        Value: 50
+        Value: 25
     weapon: FIREARM_REVOLVER
     armor: ARMOR_HERO2
     level: 1

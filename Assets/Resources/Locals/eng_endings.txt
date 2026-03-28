@@ -236,6 +236,114 @@ Ending_Marklicht_112 = When the dust settled, the two cities formally asked to b
 Ending_Marklicht_113 = With this, the Eastern Suoris are united under the same banner. 
 Ending_Marklicht_114 = Who knows what the futur holds, but we are ready for it.
 
+# ------------------------------------------------------------------------
+# ------------------------- Merchant -------------------------------------
+# ------------------------------------------------------------------------
+
+Ending_Merchant_1 = Okay. Let's do this.
+Ending_Merchant_2 = I make my way to the fort and ask for a meeting with its commander.
+Ending_Merchant_3 = The soldier in charge of security lets me in and...
+Ending_Merchant_4 = ...Knocks me out as soon as I enter the fort.
+Ending_Merchant_5 = ...
+Ending_Merchant_6 = ...
+Ending_Merchant_7 = Ugh... That'll teach me for being too naive sometimes...
+Ending_Merchant_8 = Where am I ? I was unconscious for a while, it seems.
+Ending_Merchant_9 = This seems to be a prison. I wonder if I'm still in the fort.
+Ending_Merchant_10 = Suddenly, I hear footsteps coming my way.
+Ending_Merchant_11 = Actually, I believe at least 2 people are coming my way.
+Ending_Merchant_12 = Sword...
+Ending_Merchant_13 = Hello, traitor.
+Ending_Merchant_14 = That rich coming from you.
+Ending_Merchant_15 = Hmm... When you told me your political opponent was naive, I didn't think it was that bad.
+Ending_Merchant_16 = Did you really think you could talk us out of invading you ?
+Ending_Merchant_17 = And right after you told me to use my head too...
+Ending_Merchant_18 = Why are you doing this ?
+Ending_Merchant_19 = Kalia will never bow down to you !
+Ending_Merchant_20 = Well. We are in need of a victory.
+Ending_Merchant_21 = True, controlling Kalia directly would have been difficult. Impossible, even.
+Ending_Merchant_22 = But circomstances have changed. We have gained an unexpected ally.
+Ending_Merchant_23 = That's me.
+Ending_Merchant_24 = Yes. Command had this brillant idea.
+Ending_Merchant_25 = Instead of invading an outright conquering Kalia, we'll put your collegue in charge.
+Ending_Merchant_26 = He'll maintain good relations with us, and we'll both win.
+Ending_Merchant_27 = I'll get the power I deserve !
+Ending_Merchant_28 = And we'll get a new ally.
+Ending_Merchant_29 = ....
+Ending_Merchant_30 = Now, we just need to finish tying up loose ends.
+Ending_Merchant_31 = Sword, you may proceed.
+Ending_Merchant_32 = I'll be receiving the General soon in the courtyard.
+Ending_Merchant_33 = Make sure to be quick. We have to go soon.
+Ending_Merchant_34 = Understood. It'll be over in a moment.
+Ending_Merchant_35 = Eh Eh Eh !
+Ending_Merchant_36 = I've been waiting for this moment for a long time.
+Ending_Merchant_37 = I'll finally get all the power I deserve.
+Ending_Merchant_38 = And you, you'll be dead.
+Ending_Merchant_39 = ... Hey, Sword.
+Ending_Merchant_40 = Don't you think it's too easy ?
+Ending_Merchant_41 = ?
+Ending_Merchant_42 = Think about it. You are really just going to kill me when I'm unarmed ?
+Ending_Merchant_43 = A real warrior, no, a real leader, would have fought me with honor.
+Ending_Merchant_44 = Are you saying I'm not a real leader ?
+Ending_Merchant_45 = You little, I'll show you !
+Ending_Merchant_46 = Sword frees me and gives me back my weapons.
+Ending_Merchant_47 = He evens lets Ace back with me.
+Ending_Merchant_48 = Now ! Let's finish this. You can't say I'm not a real man, now !
+Ending_Merchant_49 = ... It seems my tactic worked. He is so predictable.
+Ending_Merchant_50 = Pff ! Let's do this. One last time.
+
+Ending_Merchant_51 = Sword is dead. He won't be threatening Kalia anymore.
+Ending_Merchant_52 = I should focus on the Orkvians now.
+Ending_Merchant_53 = That other guy spoke of meeting the General in the courtyard.
+Ending_Merchant_54 = I should head there.
+Ending_Merchant_55 = Luckily, the cell was left open.
+Ending_Merchant_56 = I have to hurry.
+
+Ending_Merchant_57 = After a while, I finally manage to get to the courtyard.
+Ending_Merchant_58 = Sure enough, my two ennemies are here.
+Ending_Merchant_59 = You ! How ?!
+Ending_Merchant_60 = Sorry, it seems your new ally just died.
+Ending_Merchant_61 = Maybe you should reconsider your attack ?
+Ending_Merchant_62 = Grr... You....
+Ending_Merchant_63 = Ogden, that's enough.
+Ending_Merchant_64 = This doesn't change a thing.
+Ending_Merchant_65 = Sir ?
+Ending_Merchant_66 = We just need to find another puppet to put in charge.
+Ending_Merchant_67 = Its not like we hadn't intended to plant one of our agent in his cabinet.
+Ending_Merchant_68 = Hell, maybe this one can do the trick.
+Ending_Merchant_69 = I'll never cooperate.
+Ending_Merchant_70 = Nothing a good torture can't fix.
+Ending_Merchant_71 = I'd rather die in battle than help you invade Kalia.
+Ending_Merchant_72 = A shame.
+Ending_Merchant_73 = It seems we'll have to find another candidate then.
+Ending_Merchant_74 = Oh, I know.
+Ending_Merchant_75 = What about reinstating elections and controlling the winner ?
+Ending_Merchant_76 = So many possibilities...
+Ending_Merchant_77 = Shut up. Let's end this once and for all.
+Ending_Merchant_78 = Sir ! Careful !
+Ending_Merchant_79 = Pff ! If that's what he wants. Let's not disappoint.
+
+Ending_Merchant_80 = I did it. I killed the General.
+Ending_Merchant_81 = The nearby soldiers are running in fear.
+Ending_Merchant_82 = I guess their morale was pretty low.
+Ending_Merchant_83 = And now that he's dead. There's no way the Orkvians will launch the invasion.
+Ending_Merchant_84 = They don't have orders, and no one to lead them.
+Ending_Merchant_85 = This should put a stop to their threat to Kalia's safety.
+Ending_Merchant_86 = After this, I returned to Kalia.
+Ending_Merchant_87 = As I predicted, no Orkvian troops dared to invade.
+Ending_Merchant_88 = In fact, the news about the death of the General caused several uprisings.
+Ending_Merchant_89 = The people of Tolau and Vorlan took advantage of the military's weakness to take their independance.
+Ending_Merchant_90 = As for Kalia, the elections I promised were held.
+Ending_Merchant_91 = A new consul was selected and I stepped down from my interim position.
+Ending_Merchant_92 = They tried to reward me, to hail me as a national hero. I refused.
+Ending_Merchant_93 = I just wanted this to end. I needed a vacation.
+Ending_Merchant_94 = So I travelled west to the land of Kosky.
+Ending_Merchant_95 = I had heard of a beautiful place called Runan.
+Ending_Merchant_96 = This will be a nice place to rest.
+Ending_Merchant_97 = Kalia will be able to prosper under a better and free new leadership.
+Ending_Merchant_98 = Free from tyranny and ready for the future.
+Ending_Merchant_99 = I even heard that Vorlan and Tolau might rejoin the old confederation with Kalia.
+Ending_Merchant_100 = But this, I don't need to know. I don't need to see.
+Ending_Merchant_101 = I just need... a vacation in Runan.
 
 # ------------------------------------------------------------------------
 # ---------------------------- General -----------------------------------

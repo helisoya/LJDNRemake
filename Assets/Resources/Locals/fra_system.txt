@@ -409,7 +409,7 @@ factionQuest_Merchant_1 = Adieux
 factionQuest_Merchant_1_0 = Livrez la lettre à l'autel de Kalibu, à Kalia
 factionQuest_Merchant_1_done = J'ai livré la lettre d'adieux
 
-factionQuest_Merchant_2 = Scélerats
+factionQuest_Merchant_2 = Rogue
 factionQuest_Merchant_2_0 = Allez au Mont Vasalia
 factionQuest_Merchant_2_done = Je me suis occupé des soldats non loyaux
 

@@ -54,6 +54,15 @@ MountVasalia_DragonArcQuest4_9 = Finally, the dragon is dead.
 MountVasalia_DragonArcQuest4_10 = Now Kalia and the village should be safe.
 MountVasalia_DragonArcQuest4_11 = I should head back. The elder said she wanted to reward me.
 
+MountVasalia_MerchantFaction2_1 = This is where the rogue squad's hideout should be.
+MountVasalia_MerchantFaction2_2 = I just hope they are here and that they didn't go to Orkva.
+MountVasalia_MerchantFaction2_3 = I look around and sure enough, I find them.
+MountVasalia_MerchantFaction2_4 = They notice me immediatly and a fight ensue.
+
+MountVasalia_MerchantFaction2_5 = I defeated the rogue soldiers.
+MountVasalia_MerchantFaction2_6 = I seems Sword asked them to ambush our forces if they ever came through the White Forest.
+MountVasalia_MerchantFaction2_7 = Good ridance. This will be one less problem to worry about if Orkva attacks us.
+
 # ---------------------------------------------------------
 # ------------------- Forest - Crag Pass ------------------
 # ---------------------------------------------------------
