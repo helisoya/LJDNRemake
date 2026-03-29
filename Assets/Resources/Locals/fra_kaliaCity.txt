@@ -594,26 +594,26 @@ Kalia_KalibuPark_DeliveryQuest_17 = ... Je suppose que je vais devoir livrer cet
 # --------------- Kalia - Plaza ---------------------------
 # ---------------------------------------------------------
 
-Kalia_Docks_GUARDArcQuest2_1 = Ah, vous voila.
-Kalia_Docks_GUARDArcQuest2_2 = Je me suis permis de vérifier l'adresse de notre cible.
-Kalia_Docks_GUARDArcQuest2_3 = En fait, je peux même vous dire qu'il n'est pas en ville.
-Kalia_Docks_GUARDArcQuest2_4 = Peut être qu'il est parti pour le travail ?
-Kalia_Docks_GUARDArcQuest2_5 = Peut être. Mais au moins sa maison est vide.
-Kalia_Docks_GUARDArcQuest2_6 = Vous voulez vous infiltrez à l'intérieur ?
-Kalia_Docks_GUARDArcQuest2_7 = Oui. Sa maison devrait abriter quelques indices.
-Kalia_Docks_GUARDArcQuest2_8 = Je veux savoir sa connection à la secte.
-Kalia_Docks_GUARDArcQuest2_9 = Il pourrait être une cible, ou bien un membre. Ne l'oubliez pas.
-Kalia_Docks_GUARDArcQuest2_10 = Très bien, essayons de nous introduire à l'intérieur alors.
-Kalia_Docks_GUARDArcQuest2_11 = Je suis GARDE jusqu'à la maison du marchant.
-Kalia_Docks_GUARDArcQuest2_12 = C'est une maison bien entretenu, au moins à l'exterieur.
-Kalia_Docks_GUARDArcQuest2_13 = On peut sentir la richesse de cet homme juste en la regardant.
-Kalia_Docks_GUARDArcQuest2_14 = GARDE sort un crochet, et commence à ouvrir la porte.
-Kalia_Docks_GUARDArcQuest2_15 = Pendant ce temps, je surveille la rue. Nous ne pouvons pas être vu ici.
-Kalia_Docks_GUARDArcQuest2_16 = Après quelques minutes, la porte est ouverte.
-Kalia_Docks_GUARDArcQuest2_17 = Nous entrons alors dans la maison, et commençons notre recherche.
-Kalia_Docks_GUARDArcQuest2_18 = Hmm... Voila son bureau.
-Kalia_Docks_GUARDArcQuest2_19 = Mais ou trouver des indices ?
-Kalia_Docks_GUARDArcQuest2_20 = Séparons-nous. On devrait en trouver plus rapidement.
+Kalia_Plaza_GUARDArcQuest2_Start_1 = Ah, vous voila.
+Kalia_Plaza_GUARDArcQuest2_Start_2 = Je me suis permis de vérifier l'adresse de notre cible.
+Kalia_Plaza_GUARDArcQuest2_Start_3 = En fait, je peux même vous dire qu'il n'est pas en ville.
+Kalia_Plaza_GUARDArcQuest2_Start_4 = Peut être qu'il est parti pour le travail ?
+Kalia_Plaza_GUARDArcQuest2_Start_5 = Peut être. Mais au moins sa maison est vide.
+Kalia_Plaza_GUARDArcQuest2_Start_6 = Vous voulez vous infiltrez à l'intérieur ?
+Kalia_Plaza_GUARDArcQuest2_Start_7 = Oui. Sa maison devrait abriter quelques indices.
+Kalia_Plaza_GUARDArcQuest2_Start_8 = Je veux savoir sa connection à la secte.
+Kalia_Plaza_GUARDArcQuest2_Start_9 = Il pourrait être une cible, ou bien un membre. Ne l'oubliez pas.
+Kalia_Plaza_GUARDArcQuest2_Start_10 = Très bien, essayons de nous introduire à l'intérieur alors.
+Kalia_Plaza_GUARDArcQuest2_Start_11 = Je suis GARDE jusqu'à la maison du marchant.
+Kalia_Plaza_GUARDArcQuest2_Start_12 = C'est une maison bien entretenu, au moins à l'exterieur.
+Kalia_Plaza_GUARDArcQuest2_Start_13 = On peut sentir la richesse de cet homme juste en la regardant.
+Kalia_Plaza_GUARDArcQuest2_Start_14 = GARDE sort un crochet, et commence à ouvrir la porte.
+Kalia_Plaza_GUARDArcQuest2_Start_15 = Pendant ce temps, je surveille la rue. Nous ne pouvons pas être vu ici.
+Kalia_Plaza_GUARDArcQuest2_Start_16 = Après quelques minutes, la porte est ouverte.
+Kalia_Plaza_GUARDArcQuest2_Start_17 = Nous entrons alors dans la maison, et commençons notre recherche.
+Kalia_Plaza_GUARDArcQuest2_Start_18 = Hmm... Voila son bureau.
+Kalia_Plaza_GUARDArcQuest2_Start_19 = Mais ou trouver des indices ?
+Kalia_Plaza_GUARDArcQuest2_Start_20 = Séparons-nous. On devrait en trouver plus rapidement.
 
 Kalia_Plaza_GUARDArcQuest2_Painting_1 = Un tableau. Il ne va pas nous aider.
 

@@ -354,7 +354,7 @@ marklichtQuest_5_done = We uncovered the Orkvian plot
 
 marklichtQuest_6 = Invasion & Liberation
 marklichtQuest_6_0 = Talk to General Lara at Marklicht's Border Fortress
-marklichtquest_6_done = We invaded Kalia
+marklichtQuest_6_done = We invaded Kalia
 
 merchantQuest_1 = Celebration
 merchantQuest_1_0 = Report back to the Merchant at Kalia's palace

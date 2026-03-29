@@ -89,6 +89,8 @@ BorderFortress_Join_50 = Je vois.
 BorderFortress_Join_51 = En attendant, je retourne à la cantine.
 BorderFortress_Join_52 = On se revoit quand ta mission sera terminée.
 
+BorderFortress_Door_No_1 = Je n'ai aucune raison d'entrer dans la forteresse.
+
 BorderFortress_RebelQuest1_1 = Est-ce la fameuse Forteresse Frontalière ?
 BorderFortress_RebelQuest1_2 = Oui. Elle marque la frontière entre Kalia et le Marklicht.
 BorderFortress_RebelQuest1_3 = La Générale Lara est à l'intérieur. Nous allons lui parler.
