@@ -350,4 +350,4 @@ Ending_Merchant_101 = I just need... a vacation in Runan.
 # ------------------------------------------------------------------------
 
 Ending_General_1 = THE END
-Ending_General_2 = Thank you for playing GAME_NAME (pls change the name, don't forget to do it !!!) !
+Ending_General_2 = Thank you for playing "The Jewel of the North" !

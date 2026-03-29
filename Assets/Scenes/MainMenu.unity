@@ -12104,7 +12104,7 @@ MonoBehaviour:
   menuMusic: Menu
   pauseMenu: {fileID: 2034229874}
   fade: {fileID: 1244236509}
-  defaultBackground: Kosky/Lake
+  defaultBackground: Common/DefaultMainMenu
   mainScreenRoot: {fileID: 1713994231}
   saveMenu: {fileID: 679016832}
   nameInputRoot: {fileID: 796062075}
@@ -12144,8 +12144,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -49.880005}
-  m_SizeDelta: {x: 350, y: 90}
+  m_AnchoredPosition: {x: 0, y: -89.66}
+  m_SizeDelta: {x: 405.553, y: 179.3206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1913805999
 MonoBehaviour:
@@ -12169,7 +12169,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: f9e0846b1eb32ef4fbf3f1adb16a1616, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

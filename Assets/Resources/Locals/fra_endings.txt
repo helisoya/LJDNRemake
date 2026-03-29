@@ -351,4 +351,4 @@ Ending_Merchant_101 = J'ai juste besoin... de vacances à Runan.
 # ------------------------------------------------------------------------
 
 Ending_General_1 = LA FIN
-Ending_General_2 = Merci d'avoir joué à NOM_JEU (Pense a changer!!!) !
+Ending_General_2 = Merci d'avoir joué à "Le Joyau du Nord" !
