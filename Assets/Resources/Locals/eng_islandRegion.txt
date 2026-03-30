@@ -4,21 +4,21 @@
 
 MirageForest_No_1 = I'll get lost if I enter those woods.
 
-MirageForest_Temple_1 = This is it. This is the entrance of Mirage's Forest.
+MirageForest_Temple_1 = This is it. This is the entrance of Mirage Island's Forest.
 MirageForest_Temple_2 = People say you can get lost easily in these woods.
 MirageForest_Temple_3 = Apparently, it is due to some sort of fog.
 MirageForest_Temple_4 = Well, we'll still have to navigate through.
 MirageForest_Temple_5 = The temple we're looking for should be at the center of the forest.
 
-MirageForest_Temple_6 = After walking for what seemed like hours, we finally get to the temple.
-MirageForest_Temple_7 = Its very old. I wonder when it was built.
+MirageForest_Temple_6 = After walking for what seemed like hours, we finally got to the temple.
+MirageForest_Temple_7 = It's very old. I wonder when it was built.
 MirageForest_Temple_8 = Not a lot of people live on Mirage Island.
-MirageForest_Temple_9 = In fact, so few people live here that it was believed to have been unhabited for a long time.
+MirageForest_Temple_9 = In fact, so few people live here that it was believed to have been uninhabited for a long time.
 MirageForest_Temple_10 = Well. Time to explore this place.
 
 MirageForest_Temple_11 = As we walk, the temple's corridor starts to make more and more sense.
-MirageForest_Temple_12 = Its as if the previous chunks we travelled were results of cave ins.
-MirageForest_Temple_13 = A I look to the wall, I see different types of scriptures.
+MirageForest_Temple_12 = It's as if the previous chunks we travelled were results of cave ins.
+MirageForest_Temple_13 = As I look to the wall, I see different types of scriptures.
 MirageForest_Temple_14 = This was a Suori temple, an old one at that.
 MirageForest_Temple_15 = Amongst the drawings of Kalibu, the Great God, you can find depictions of Lord Elk. He's the god of Chaos.
 MirageForest_Temple_16 = I wonder when this temple was built...
@@ -41,9 +41,9 @@ MirageForest_Temple_Rebel_14 = You damn traitor... I guess you are here for the 
 MirageForest_Temple_Rebel_15 = I guess we are now.
 MirageForest_Temple_Rebel_16 = Eh, Eh ! You won't defeat me !
 
-MirageForest_Temple_Rebel_17 = That was anti-climatic...
-MirageForest_Temple_Rebel_18 = Well it was a 3v1.
-MirageForest_Temple_Rebel_19 = Quick, let's find that staff before he wakes back.
+MirageForest_Temple_Rebel_17 = That was anticlimatic...
+MirageForest_Temple_Rebel_18 = Well, it was a 3v1.
+MirageForest_Temple_Rebel_19 = Quick, let's find that staff before he wakes up.
 MirageForest_Temple_Rebel_20 = On it !
 MirageForest_Temple_Rebel_21 = We search the room for that staff. Whatever it is, the Merchant wants it badly.
 MirageForest_Temple_Rebel_22 = Found it !
@@ -65,7 +65,7 @@ MirageForest_Temple_Marklicht_7 = Yeah, I wouldn't mind that.
 MirageForest_Temple_Marklicht_8 = ...
 MirageForest_Temple_Marklicht_9 = Wait, hold on- Shield !
 MirageForest_Temple_Marklicht_10 = You... You traitor ! You left me for dead !
-MirageForest_Temple_Marklicht_11 = And who's that with you ? He not a rebel.
+MirageForest_Temple_Marklicht_11 = And who's that with you ? He's not a rebel.
 MirageForest_Temple_Marklicht_12 = Nothing personal, Sword. I did what I had to do.
 MirageForest_Temple_Marklicht_13 = You... You could have at least given the dog back !
 MirageForest_Temple_Marklicht_14 = You damn traitor... I guess you are here for the staff ?
@@ -73,8 +73,8 @@ MirageForest_Temple_Marklicht_15 = I guess we are now.
 MirageForest_Temple_Marklicht_16 = Eh, Eh ! You won't defeat me !
 
 MirageForest_Temple_Marklicht_17 = That was hard...
-MirageForest_Temple_Marklicht_18 = Well it was a 3v1.
-MirageForest_Temple_Marklicht_19 = Quick, let's find that staff before he wakes back.
+MirageForest_Temple_Marklicht_18 = Well, it was a 3v1.
+MirageForest_Temple_Marklicht_19 = Quick, let's find that staff before he wakes up.
 MirageForest_Temple_Marklicht_20 = On it !
 MirageForest_Temple_Marklicht_21 = We search the room for that staff. Whatever it is, the Merchant wants it badly.
 MirageForest_Temple_Marklicht_22 = Found it !
@@ -106,9 +106,9 @@ MirageForest_Temple_Merchant_17 = I'm planning on winning the war to be the boss
 MirageForest_Temple_Merchant_18 = I never knew there was such a thing.
 MirageForest_Temple_Merchant_19 = With this artefact, he'll recognize me as his favorite. I'm sure of it.
 MirageForest_Temple_Merchant_20 = If you say so.
-MirageForest_Temple_Merchant_21 = I wonder. If Sword were inherit the title of consul... 
+MirageForest_Temple_Merchant_21 = I wonder. If Sword were to inherit the title of consul... 
 MirageForest_Temple_Merchant_22 = No... He would bring chaos to Kalia.
-MirageForest_Temple_Merchant_23 = Still. Its a possibility. Maybe the Merchant's favorite will become his heir.
+MirageForest_Temple_Merchant_23 = Still. It's a possibility. Maybe the Merchant's favorite will become his heir.
 MirageForest_Temple_Merchant_24 = Hey ! Earth to Shield.
 MirageForest_Temple_Merchant_25 = Oh, sorry.
 MirageForest_Temple_Merchant_26 = Don't start becoming senile like the boss.
@@ -135,7 +135,7 @@ MirageCottage_Woman_AboutYou_1 = Oh, I'm just living in my cottage. Well, when i
 MirageCottage_Woman_AboutYou_2 = The harbor is too noisy. I prefer the calm of the hills.
 
 MirageCottage_Woman_AboutOrkva_1 = Orkva has been trying to take over the island for decades.
-MirageCottage_Woman_AboutOrkva_2 = Funnily engouh, they never tried to attack until now.
+MirageCottage_Woman_AboutOrkva_2 = Funnily enough, they never tried to attack until now.
 MirageCottage_Woman_AboutOrkva_3 = I heard there was a mutiny amongst the military. People weren't happy about being stationed in the region.
 
 
@@ -151,7 +151,7 @@ HopeHarbor_Docks_Woman_StartQuest_2 = A woman starts talking to me as soon as I 
 HopeHarbor_Docks_Woman_StartQuest_3 = What do you want ?
 HopeHarbor_Docks_Woman_StartQuest_4 = You are a soldier, right ? My message went through !
 HopeHarbor_Docks_Woman_StartQuest_5 = What message ?
-HopeHarbor_Docks_Woman_StartQuest_6 = Orkvian soldiers took over my cottage, you have to kick them out.
+HopeHarbor_Docks_Woman_StartQuest_6 = Orkvian soldiers took over my cottage. You have to kick them out.
 HopeHarbor_Docks_Woman_StartQuest_7 = Hold on, you-
 HopeHarbor_Docks_Woman_StartQuest_8 = You'll be able to find it in the hills outside the city.
 HopeHarbor_Docks_Woman_StartQuest_9 = I'll stay here and wait for your return.
@@ -167,7 +167,7 @@ HopeHarbor_Docks_Woman_EndQuest_3 = Thank you, kind sir.
 HopeHarbor_Docks_Woman_EndQuest_4 = Wait, what ?
 HopeHarbor_Docks_Woman_EndQuest_5 = Well, I guess there is no pay for this job...
 
-HopeHarbor_Lighthouse_Keeper_Greetings_1 = Oh oh ! Hello, there.
+HopeHarbor_Lighthouse_Keeper_Greetings_1 = Oh, oh ! Hello there.
 
 HopeHarbor_Lighthouse_Keeper_AboutYou_1 = I've been tending to this lighthouse since the dawn of time.
 HopeHarbor_Lighthouse_Keeper_AboutYou_2 = Well, maybe not. Oh oh !
@@ -176,27 +176,27 @@ HopeHarbor_Lighthouse_Keeper_AboutYou_4 = And I don't intend to stop now.
 
 HopeHarbor_Lighthouse_Keeper_AboutCity_1 = Hope Harbor is our little treasure. Our little town.
 HopeHarbor_Lighthouse_Keeper_AboutCity_2 = It was founded when Tolians decided to leave the city a long time ago.
-HopeHarbor_Lighthouse_Keeper_AboutCity_3 = They landed here, and decided to make the Island their new home.
+HopeHarbor_Lighthouse_Keeper_AboutCity_3 = They landed here and decided to make the Island their new home.
 HopeHarbor_Lighthouse_Keeper_AboutCity_4 = Well, not that they could leave.
-HopeHarbor_Lighthouse_Keeper_AboutCity_5 = Legends says the boat they used broke when they landed.
+HopeHarbor_Lighthouse_Keeper_AboutCity_5 = Legends say the boat they used broke when they landed.
 
 HopeHarbor_Lighthouse_Keeper_NoQuest_1 = Oh, no.
 
 HopeHarbor_Lighthouse_Keeper_StartQuest_1 = Actually... Yes...
 HopeHarbor_Lighthouse_Keeper_StartQuest_2 = A treasure was stolen from me a long time ago.
 HopeHarbor_Lighthouse_Keeper_StartQuest_3 = Before becoming a lighthouse keeper, I was an adventurer.
-HopeHarbor_Lighthouse_Keeper_StartQuest_4 = I traveled Kalia and its region, looking for a few gold coins.
+HopeHarbor_Lighthouse_Keeper_StartQuest_4 = I traveled through Kalia and its region, looking for a few gold coins.
 HopeHarbor_Lighthouse_Keeper_StartQuest_5 = One day, I was coming back from the Nordian village beyond the Crag Pass.
 HopeHarbor_Lighthouse_Keeper_StartQuest_6 = Out of nowhere, bandits attacked me and stole my precious treasure.
 HopeHarbor_Lighthouse_Keeper_StartQuest_7 = I tried to get it back, but to no avail.
 HopeHarbor_Lighthouse_Keeper_StartQuest_8 = The bandits kept it as some sort of trophy.
 HopeHarbor_Lighthouse_Keeper_StartQuest_9 = Anyway, my career was over. I retired from adventuring with that incident.
-HopeHarbor_Lighthouse_Keeper_StartQuest_10 = You want me go get the treasure back ?
+HopeHarbor_Lighthouse_Keeper_StartQuest_10 = You want me to go get the treasure back ?
 HopeHarbor_Lighthouse_Keeper_StartQuest_11 = Yes, yes ! You are a smart boy.
 HopeHarbor_Lighthouse_Keeper_StartQuest_12 = My precious seashell collection will soon come back home !
 HopeHarbor_Lighthouse_Keeper_StartQuest_13 = Seashells ?
 HopeHarbor_Lighthouse_Keeper_StartQuest_14 = Oh, right. I forgot to tell you what my treasure is.
-HopeHarbor_Lighthouse_Keeper_StartQuest_15 = Its a collection of magnificient seashells. I want them back.
+HopeHarbor_Lighthouse_Keeper_StartQuest_15 = It's a collection of magnificent seashells. I want them back.
 HopeHarbor_Lighthouse_Keeper_StartQuest_16 = I... I'll see what I can do.
 HopeHarbor_Lighthouse_Keeper_StartQuest_17 = Good !
 HopeHarbor_Lighthouse_Keeper_StartQuest_18 = I should check for a bandit camp near the Crag Pass in the White Forest.
@@ -217,7 +217,7 @@ HopeHarbor_Inn_Owner_AboutYou_3 = Of course, there aren't that many people that 
 
 HopeHarbor_Inn_Owner_AboutCity_1 = Hope Harbor is an... interesting place.
 HopeHarbor_Inn_Owner_AboutCity_2 = Most of the people here live off fishing and trading.
-HopeHarbor_Inn_Owner_AboutCity_3 = Aside from the blockade, we live mostly undisturbed by the outisde world.
+HopeHarbor_Inn_Owner_AboutCity_3 = Aside from the blockade, we live mostly undisturbed by the outside world.
 HopeHarbor_Inn_Owner_AboutCity_4 = Which reminds me, don't think ill of some of our locals.
 HopeHarbor_Inn_Owner_AboutCity_5 = They may seem rude, or... mad. But we don't see that many people from the outside, or at all.
 

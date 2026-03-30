@@ -90,31 +90,31 @@ Intro_84 = I sure hope so. I must find the package.
 Intro_85 = So what about you ? Who are you ?
 Intro_86 = ... I'm a member of the republican guard.
 Intro_87 = Oh, right. I had a feeling I had already seen this uniform before.
-Intro_88 = Soldiers barely exit the camp and city nowadays. Must have been years since one of them came here.
+Intro_88 = Soldiers barely exit the camp and city nowadays. 'Must have been years since one of them came here.
 Intro_89 = Not since the Merchant came to power at least...
 Intro_90 = ...
-Intro_91 = So what brings an elite solider to these parts ?
-Intro_92 = If you don't mind me asking, of course. I don't wan't any troubles.
+Intro_91 = So what brings an elite soldier to these parts ?
+Intro_92 = If you don't mind me asking, of course. I don't want any troubles.
 Intro_93 = It's best I don't reveal much. But all you need to know is that a courier disappeared.
 Intro_94 = And he was carrying something of utmost importance.
 Intro_95 = Oh, I see. I guess your chief won't be happy when he learns that, right ?
 Intro_96 = Yeah...
 Intro_97 = In my case, my chief is the Merchant.
 Intro_98 = He's this country's ruler : The consul of the Republic of Kalia.
-Intro_99 = The republican guard is more or less his private military force.
+Intro_99 = The Republican Guard is more or less his private military force.
 Intro_100 = At least, it was. We're only two now.
 Intro_101 = Reminds me, didn't you disband after the incident 2 years ago ?
-Intro_102 = ...No. We merely reorganized. To protect ourselves of course.
+Intro_102 = ...No. We merely reorganized. To protect ourselves, of course.
 Intro_103 = And to hide the fact that there is no republican guard anymore.
 Intro_104 = If the public knew. If the rebels knew. We would be in deep troubles.
 Intro_105 = I get up from the bed. I must get going.
 Intro_106 = Are you going to be alright ?
-Intro_107 = Yes. I must go now, I'm sorry.
-Intro_108 = I have to talk to the shopkeeper, and make a report to my superior as soon as possible.
+Intro_107 = Yes. I must go now. I'm sorry.
+Intro_108 = I have to talk to the shopkeeper and make a report to my superior as soon as possible.
 Intro_109 = Of course. You'll find him down the street.
 Intro_110 = And if you ever get injured again, come and see me.
 Intro_111 = I'll do my best to treat you again.
 Intro_112 = Thank you.
 Intro_113 = Now, to find this shopkeeper.
-Intro_114 = <color=blue>I can access the map by interacting with the bottom of the screen</color>
-Intro_115 = <color=blue>I can also click on someone to talk to them</color>
+Intro_114 = <color=blue>I can access the map by interacting with the bottom of the screen.</color>
+Intro_115 = <color=blue>I can also click on someone to talk to them.</color>
