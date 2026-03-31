@@ -278,10 +278,10 @@ mainQuest_3 = La Forêt Blanche
 mainQuest_3_0 = Allez au QG de l'ordre dans la Forêt Blanche
 mainQuest_3_1 = Trouvez la trace des bandits à Vorlan
 mainQuest_3_2 = Parlez à l'homme dans l'auberge de Vorlan
-mainQuest_3_done = J'ai trouvé ou se trouve le colis
+mainQuest_3_done = J'ai trouvé où se trouve le colis
 
 mainQuest_4 = Bandits aux Marklicht
-mainQuest_4_0 = Trouvez l'entrée du camp de bandit au Marklicht
+mainQuest_4_0 = Trouvez l'entrée du camp de bandits au Marklicht
 mainQuest_4_done = J'ai trouvé le colis
 
 rebelQuest_0 = Trouver le salut
@@ -293,17 +293,17 @@ rebelQuest_1_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kali
 rebelQuest_1_1 = Parlez à la Générale Lara, à la Forteresse Frontalière du Marklicht
 rebelQuest_1_done = J'ai sécurisé des ravitaillements pour la rebellion
 
-rebelQuest_2 = Aventure
+rebelQuest_2 = Mauvais Jugement
 rebelQuest_2_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
-rebelQuest_2_1 = Reprenez l'entrepot aux docks de Kalia
+rebelQuest_2_1 = Reprenez l'entrepôt aux docks de Kalia
 rebelQuest_2_2 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
-rebelQuest_2_done = J'ai repris le contrôle de l'entrepot de la rebellion
+rebelQuest_2_done = J'ai repris le contrôle de l'entrepôt de la rebellion
 
 rebelQuest_3 = Une aventure !
 rebelQuest_3_0 = Bos a les détails de l'aventure au phare de Tolau !
 rebelQuest_3_1 = Trouvez un moyen d'atteindre la forêt de l'Ile Mirage
 rebelQuest_3_2 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
-rebelQuest_3_done = J'ai empeché un nouveau vol d'artefact
+rebelQuest_3_done = J'ai empêché un nouveau vol d'artefact
 
 rebelQuest_4 = Pour le peuple
 rebelQuest_4_0 = Distribuez des tracts à la grande place de Kalia
@@ -316,12 +316,12 @@ rebelQuest_5_done = J'ai sauvé Bos
 
 rebelQuest_6 = Revolution
 rebelQuest_6_0 = Retournez voir les rebelles dans le QG au bar du Salut, à Kalia
-rebelQuest_6_1 = Parlez à Amanada au QG des rebelles, à Kalia
+rebelQuest_6_1 = Parlez à Amanda au QG des rebelles, à Kalia
 rebelQuest_6_done = Nous avons renversé le Marchand et repoussé Orkva
 
 marklichtQuest_0 = Changer de camp
 marklichtQuest_0_0 = Si je veux rejoindre le Marklicht, je dois parler à Lame à la Forteresse Frontalière
-marklichtQuest_0_done = J'ai rejoins le Marklicht
+marklichtQuest_0_done = J'ai rejoint le Marklicht
 
 marklichtQuest_1 = Propriété dé-volé
 marklichtQuest_1_0 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
@@ -339,7 +339,7 @@ marklichtQuest_3 = Espionnage
 marklichtQuest_3_0 = Trouvez Epée à Tolau
 marklichtQuest_3_1 = Suivez Epée jusqu'à la forêt de l'Ile Mirage
 marklichtQuest_3_2 = Retournez voir la Générale Lara à la Forteresse Frontalière du Marklicht
-marklichtQuest_3_done = J'ai suivi Epée et empeché sa tentative de vol
+marklichtQuest_3_done = J'ai suivi Epée et empêché sa tentative de vol
 
 marklichtQuest_4 = Investigation
 marklichtQuest_4_0 = Menez l'enquête dans les montagnes Marklichtiennes
@@ -354,7 +354,7 @@ marklichtQuest_5_done = Nous avons découvert le plan Orkvien
 
 marklichtQuest_6 = Invasion & Libération
 marklichtQuest_6_0 = Parlez à la Générale Lara à la Forteresse Frontalière du Marklicht
-marklichtQuest_6_done = Nous avons envahis Kalia
+marklichtQuest_6_done = Nous avons envahi Kalia
 
 merchantQuest_1 = Célebration
 merchantQuest_1_0 = Retournez voir le Marchand au palais de Kalia
@@ -386,7 +386,8 @@ merchantQuest_5_1 = Confrontez Epée au Camp Espoir
 merchantQuest_5_done = J'ai empeché le coup d'état
 
 merchantQuest_6 = To prevent an invasion
-merchantQuest_6_0 = Allez a Fort Muraille, à Orkva
+merchantQuest_6_0 = Allez à Fort Muraille, à Orkva
+merchantQuest_6_done = J'ai protégé Kalia
 
 factionQuest_Rebel_1 = La visite
 factionQuest_Rebel_1_0 = Visitez l'autel Suori de Kalia
@@ -403,7 +404,7 @@ factionQuest_Marklicht_1_done = Nous avons rendu hommage
 
 factionQuest_Marklicht_2 = Rebellion
 factionQuest_Marklicht_2_0 = Allez à l'autel d'Okville
-factionQuest_Marklicht_2_done = Nous avons crée du mécontentement à Okville
+factionQuest_Marklicht_2_done = Nous avons créé du mécontentement à Okville
 
 factionQuest_Merchant_1 = Adieux
 factionQuest_Merchant_1_0 = Livrez la lettre à l'autel de Kalibu, à Kalia
@@ -432,7 +433,7 @@ arcQuest_Guard_4_1 = Battez les Invocateurs
 arcQuest_Guard_4_done = J'ai vaincu les Invocateurs avec GARDE
 
 arcQuest_Jackwell_1 = Des herbes pour Jackwell
-arcQuest_Jackwell_1_0 = Ceuillez des herbes médicinales dans le coté Kalien de la Forêt Blanche
+arcQuest_Jackwell_1_0 = Cueillez des herbes médicinales dans le côté Kalien de la Forêt Blanche
 arcQuest_Jackwell_1_1 = Donnez les herbes à Jackwell, dans sa librairie, à Kalia
 arcQuest_Jackwell_1_done = J'ai trouvé des herbes médicinales pour Jackwell
 
@@ -484,7 +485,7 @@ arcQuest_Sam_2_done = J'ai volé des habits militaires pour les bandits
 arcQuest_Sam_3 = Le plan
 arcQuest_Sam_3_0 = Allez au meeting au phare de Tolau, la nuit
 arcQuest_Sam_3_1 = Vérifiez les chemins de fer à Vorlan
-arcQuest_Sam_3_done = J'ai empeché le sabotage des chemins de fer de Vorlan
+arcQuest_Sam_3_done = J'ai empêché le sabotage des chemins de fer de Vorlan
 
 arcQuest_Sam_4 = Le braquage
 arcQuest_Sam_4_0 = Retrouvez les bandits à la gare d'Okville
@@ -523,7 +524,7 @@ secondaryQuest_Iberty_Doctor_1 = Parlez au médecin d'Iberty
 secondaryQuest_Iberty_Doctor_done = J'ai livré les médicaments
 
 secondaryQuest_Iberty_Port = Un problème de bandit
-secondaryQuest_Iberty_Port_0 = Parlez au pecheur à Iberty
+secondaryQuest_Iberty_Port_0 = Parlez au pêcheur à Iberty
 secondaryQuest_Iberty_Port_done = J'ai vaincu le bandit
 
 secondaryQuest_Iberty_Catacombs = Bandits dans les catacombes
@@ -532,37 +533,37 @@ secondaryQuest_Iberty_Catacombs_1 = Parlez au soldat d'Iberty
 secondaryQuest_Iberty_Catacombs_done = J'ai nettoyé les catacombes
 
 secondaryQuest_Kalia_Max = Un petit prêt
-secondaryQuest_Kalia_Max_0 = Parler au petit fils de la serveuse au parc de Kalibu
+secondaryQuest_Kalia_Max_0 = Parler au petit-fils de la serveuse au parc de Kalibu
 secondaryQuest_Kalia_Max_1 = Parler à la serveuse du bar de Max à Kalia
-secondaryQuest_Kalia_Max_done = J'ai parlé au petit fils de la serveuse
+secondaryQuest_Kalia_Max_done = J'ai parlé au petit-fils de la serveuse
 
 secondaryQuest_Kalia_Shop = Problèmes nocturnes
 secondaryQuest_Kalia_Shop_0 = Vérifier la boutique de Kalia la nuit
 secondaryQuest_Kalia_Shop_done = J'ai vaincu le voleur
 
 secondaryQuest_Kalia_Delivery = Une étrange requete
-secondaryQuest_Kalia_Delivery_0 = Librez la lettre à la ferme de Kalia
+secondaryQuest_Kalia_Delivery_0 = Livrez la lettre à la ferme de Kalia
 secondaryQuest_Kalia_Delivery_done = J'ai livré la lettre
 
 secondaryQuest_Vorlan_Soldier = Correspondance privée
 secondaryQuest_Vorlan_Soldier_0 = Livrez la lettre à Altyr
 secondaryQuest_Vorlan_Soldier_1 = Parlez au soldat au checkpoint de Vorlan
-secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peut maintenant entrer dans Vorlan
+secondaryQuest_Vorlan_Soldier_done = J'ai livré la lettre et peux maintenant entrer dans Vorlan
 
 secondaryQuest_Vorlan_Inn = Livraison de nourriture
-secondaryQuest_Vorlan_Inn_0 = Livrez la nourriture à l'auteul de Kalibu d'Orkva durant la nuit
-secondaryQuest_Vorlan_Inn_done = J'ai livré la nourriture au prètre de l'autel de Kalibu d'Orkva
+secondaryQuest_Vorlan_Inn_0 = Livrez la nourriture à l'autel de Kalibu d'Orkva durant la nuit
+secondaryQuest_Vorlan_Inn_done = J'ai livré la nourriture au prêtre de l'autel de Kalibu d'Orkva
 
 secondaryQuest_Vorlan_Mayor = Le gouverneur militaire
-secondaryQuest_Vorlan_Mayor_0 = Ambusquez le gouvenreur militaire, de nuit, à la place de Vorlan
+secondaryQuest_Vorlan_Mayor_0 = Ambusquez le gouverneur militaire, de nuit, à la place de Vorlan
 secondaryQuest_Vorlan_Mayor_1 = Parlez au maire de Vorlan
 secondaryQuest_Vorlan_Mayor_done = J'ai tué le gouverneur militaire de Vorlan
 
 secondaryQuest_Tolau_Fisherman = Bon voyage
 secondaryQuest_Tolau_Fisherman_0 = Parlez au marchand de Tolau
 secondaryQuest_Tolau_Fisherman_1 = Parlez au marchand de Vorlan
-secondaryQuest_Tolau_Fisherman_2 = Reprennez l'horloge des mains du Gang du Lac dans la Forêt Blanche
-secondaryQuest_Tolau_Fisherman_3 = Apportez l'horloge au pecheur de Tolau
+secondaryQuest_Tolau_Fisherman_2 = Reprenez l'horloge des mains du Gang du Lac dans la Forêt Blanche
+secondaryQuest_Tolau_Fisherman_3 = Apportez l'horloge au pêcheur de Tolau
 secondaryQuest_Tolau_Fisherman_done = Je peux maintenant accéder à l'île Mirage
 
 secondaryQuest_Tolau_Inn = Chantage
@@ -576,17 +577,17 @@ secondaryQuest_Tolau_Mayor_1 = Parlez au maire de Tolau
 secondaryQuest_Tolau_Mayor_done = J'ai trouvé des secrets pour le maire
 
 secondaryQuest_HopeHarbor_Cottage = Maisonette sous occupation
-secondaryQuest_HopeHarbor_Cottage_0 = Nettoyez la maisonette dans les collines proches de Port Espoir.
+secondaryQuest_HopeHarbor_Cottage_0 = Nettoyez la maisonnette dans les collines proches de Port Espoir.
 secondaryQuest_HopeHarbor_Cottage_1 = Parlez à la dame au docks de Port Espoir
 secondaryQuest_HopeHarbor_Cottage_done = J'ai nettoyé la maisonette
 
 secondaryQuest_HopeHarbor_Keeper = Le "trésor"
-secondaryQuest_HopeHarbor_Keeper_0 = Reprennez le trésor au camp de bandits proche de Passe-Falaise
+secondaryQuest_HopeHarbor_Keeper_0 = Reprenez le trésor au camp de bandits proche de Passe-Falaise
 secondaryQuest_HopeHarbor_Keeper_1 = Parlez au gardien de phare de Port Espoir
 secondaryQuest_HopeHarbor_Keeper_done = J'ai retrouvé le trésor du gardien
 
-secondaryQuest_HopeHarbor_Inn = Lettre pour le maitre postier
-secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maitre postier de Libertville 
+secondaryQuest_HopeHarbor_Inn = Lettre pour le maître postier
+secondaryQuest_HopeHarbor_Inn_0 = Livrez la lettre au maître postier de Libertville 
 secondaryQuest_HopeHarbor_Inn_done = J'ai livré la lettre
 
 secondaryQuest_Libertville_Courier = Postier à temps partiel
@@ -599,7 +600,7 @@ secondaryQuest_Libertville_Academy_1 = Parlez au soldat de l'académie militaire
 secondaryQuest_Libertville_Academy_done = J'ai vaincu des espions
 
 secondaryQuest_Libertville_Shop = Pour tuer un ours
-secondaryQuest_Libertville_Shop_0 = Tuez un ours dans les bois proche de Libertville
+secondaryQuest_Libertville_Shop_0 = Tuez un ours dans les bois proches de Libertville
 secondaryQuest_Libertville_Shop_1 = Parlez au marchand de Libertville
 secondaryQuest_Libertville_Shop_done = J'ai tué un ours
 
@@ -684,7 +685,7 @@ LAME_name = Lame
 # ------------------------------------------------------------------------
 
 ARMOR_LEATHER_name = Armure en cuir
-ARMOR_LEATHER_desc = Une armure basique, qui peut tenir quelque coups.<br>+2 DEF
+ARMOR_LEATHER_desc = Une armure basique, qui peut tenir quelques coups.<br>+2 DEF
 ITEM_ATTACK_UP_name = Stimulant
 ITEM_ATTACK_UP_desc = Boost l'attaque d'un allié
 ITEM_CONFUSE_name = Sifflet
@@ -726,7 +727,7 @@ ARMOR_TRENCHCOAT_desc = Un trenchcoat rembourré avec un gilet pare-balles.<br>+
 TWOHANDED_KATANA_name = Epée de Runan
 TWOHANDED_KATANA_desc = Une épée venant de la province Koskyienne de Runan.<br>+6 ATK
 TWOHANDED_BATTLEAXE_name = Hache de guerre
-TWOHANDED_BATTLEAXE_desc = Cette hache a été utilisé par des Nordiens dans le passé.<br>+8 ATK
+TWOHANDED_BATTLEAXE_desc = Cette hache a été utilisée par des Nordiens dans le passé.<br>+8 ATK
 SKILL_DEFENSEUP_name = Protectus
 SKILL_DEFENSEUP_desc = Augmente la défense<br>(un allié)
 SKILL_HEAL_name = Bénediction
@@ -740,7 +741,7 @@ FIREARM_SHOTGUN_desc = Parfait pour du combat rapproché.<br>+7 ATK
 SKILL_FRAGPELLET_name = Balles à fragmentation
 SKILL_FRAGPELLET_desc = Attaque légère<br>Malus de Défense<br>(un ennemi)
 ARMOR_BATTLEARMOR_name = Armure de combat
-ARMOR_BATTLEARMOR_desc = Une armure de combat fait à la main.<br>+8 DEF
+ARMOR_BATTLEARMOR_desc = Une armure de combat faite main.<br>+8 DEF
 ARMOR_RIOTSHIELD_name = Bouclier Blindé
 ARMOR_RIOTSHIELD_desc = Un bouclier blindé qui a été utilisé par le fondateur de l'Ordre.<br>+8 DEF
 ARMOR_UNIFORM_name = Uniforme

@@ -316,7 +316,7 @@ rebelQuest_5_done = I saved Bos
 
 rebelQuest_6 = Revolution
 rebelQuest_6_0 = Report back to the rebels at their HQ in Kalia's Salvation bar
-rebelQuest_6_1 = Talk to Amanada at the rebels HQ in Kalia
+rebelQuest_6_1 = Talk to Amanda at the rebels' HQ in Kalia
 rebelQuest_6_done = We toppled the Merchant and defeated Orkva
 
 marklichtQuest_0 = Switching side
@@ -387,6 +387,7 @@ merchantQuest_5_done = I prevented the coup
 
 merchantQuest_6 = To prevent an invasion
 merchantQuest_6_0 = Go to Fort Wall, in Orkva
+merchantQuest_6_done = I prevented the Orkvian attack
 
 factionQuest_Rebel_1 = The visit
 factionQuest_Rebel_1_0 = Visit Kalia's Suori shrine
@@ -449,7 +450,7 @@ arcQuest_Jackwell_3_done = I climbed Mount Vasalia
 arcQuest_Jackwell_4 = Jackwell and water
 arcQuest_Jackwell_4_0 = Swim near Kalia's lighthouse
 arcQuest_Jackwell_4_1 = Report back to Jackwell at his library in Kalia
-arcQuest_Jackwell_4_done = I swimmed near Kalia's lighthouse
+arcQuest_Jackwell_4_done = I swam near Kalia's lighthouse
 
 arcQuest_Order_1 = An order behind bars
 arcQuest_Order_1_0 = Talk to the order' chief at Tolau's courthouse
@@ -533,7 +534,7 @@ secondaryQuest_Iberty_Catacombs_done = I cleared the catacombs
 
 secondaryQuest_Kalia_Max = A small loan
 secondaryQuest_Kalia_Max_0 = Talk to the waiter's grandson in Kalibu's Park
-secondaryQuest_Kalia_Max_1 = Talk to the the waiter of Max's bar in Kalia
+secondaryQuest_Kalia_Max_1 = Talk to the waiter of Max's bar in Kalia
 secondaryQuest_Kalia_Max_done = I talked to the waiter's grandson
 
 secondaryQuest_Kalia_Shop = Nighttime troubles
@@ -598,7 +599,7 @@ secondaryQuest_Libertville_Academy_0 = Deal with the spies at Libertville's cent
 secondaryQuest_Libertville_Academy_1 = Talk to the soldier at Libertville's military academy
 secondaryQuest_Libertville_Academy_done = I dealt with the spies
 
-secondaryQuest_Libertville_Shop = To kil a bear
+secondaryQuest_Libertville_Shop = To kill a bear
 secondaryQuest_Libertville_Shop_0 = Kill a bear in the woods near Libertville
 secondaryQuest_Libertville_Shop_1 = Talk to Libertville's shopkeeper
 secondaryQuest_Libertville_Shop_done = I killed a bear
