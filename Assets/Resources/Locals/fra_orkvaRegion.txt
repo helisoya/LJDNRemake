@@ -14,8 +14,8 @@ FortWall_GUARDArcQuest3_6 = GARDE sera content, je devrais la lui ammener.
 
 FortWall_Door_MerchantQuest6_1 = M'y voici.
 FortWall_Door_MerchantQuest6_2 = Je vais aller demander à parler avec le commandant de ce fort.
-FortWall_Door_MerchantQuest6_3 = Peut être qu'ils peuvent clarifier leur position sur cette fameuse invasion.
-FortWall_Door_MerchantQuest6_4 = Peut être que je peux même les dissuader d'attaquer.
+FortWall_Door_MerchantQuest6_3 = Peut-être qu'ils peuvent clarifier leur position sur cette fameuse invasion.
+FortWall_Door_MerchantQuest6_4 = Peut-être que je peux même les dissuader d'attaquer.
 FortWall_Door_MerchantQuest6_5 = Enfin, ca pourrait être ma dernière mission.
 FortWall_Door_MerchantQuest6_6 = Suis-je prêt à continuer ?
 FortWall_Door_MerchantQuest6_7 = <color=red>Cela va ammener à la fin du jeu.</color>
@@ -150,9 +150,9 @@ Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_4 = Assures-toi simplement de ne pas
 Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_5 = Je ne veux pas qu'ils sachent que je t'ai laisser entrer sans autorisation.
 
 Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_1 = Bien, je peux continuer à chercher les bandits.
-Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Peut être que l'auberge locale pourrait me donner des indices.
+Vorlan_Checkpoint_Soldier_SecondaryQuestEnd_MainQuest_2 = Peut-être que l'auberge locale pourrait me donner des indices.
 
-Vorlan_Inn_Owner_Sleep_1 = Bien sur. Laissez-moi vous montrer votre chambre.
+Vorlan_Inn_Owner_Sleep_1 = Bien sûr. Laissez-moi vous montrer votre chambre.
 
 Vorlan_Inn_Owner_AboutCity_1 = Vorlan est dans un sale état.
 Vorlan_Inn_Owner_AboutCity_2 = Le gouvernement Orkvien a décidé de déclarer un couvre feu il y a quelques années.
@@ -250,7 +250,7 @@ Vorlan_Plaza_Soldier_MayorQuest_5 = Je prend le temps de faire passer sa mort po
 Vorlan_Plaza_Soldier_MayorQuest_6 = ... Voila. Ca devrait être suffisant.
 Vorlan_Plaza_Soldier_MayorQuest_7 = Je devrais retourner voir le maire, maintenant.
 
-Vorlan_CityHall_Soldier_No_1 = Qu'est ce que tu veux ? Je suis occupé.
+Vorlan_CityHall_Soldier_No_1 = Qu'est-ce que tu veux ? Je suis occupé.
 
 Vorlan_CityHall_Mayor_Greetings_1 = Bienvenue à la mairie de Vorlan. Comment puis-je vous aider ?
 
@@ -281,7 +281,7 @@ Vorlan_CityHall_Mayor_SecondaryQuest_Start_6 = Avec le couvre feu, un gouverneur
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_7 = En théorie, elle ne devait que m'aider avec le couvre feu.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_8 = Mais en réalité, elle est la voix du gouvernement Orvkien.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_9 = Je ne peux faire que ce qu'elle veut. Ce qui veut dire que je ne peux pas aider la ville.
-Vorlan_CityHall_Mayor_SecondaryQuest_Start_10 = Je vois. Et qu'est ce que je viens faire la dedans ?
+Vorlan_CityHall_Mayor_SecondaryQuest_Start_10 = Je vois. Et qu'est-ce que je viens faire la dedans ?
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_11 = S'il vous plait, pour Vorlan. Débarassez-nous du gouverneur.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_12 = Comment ? Je ne peux pas la tuer comme ça.
 Vorlan_CityHall_Mayor_SecondaryQuest_Start_13 = Elle aime patrouiller la place centrale, seule, la nuit.
@@ -404,7 +404,7 @@ OrkvaMilitaryBase_Bandit_ArcQuest2_4 = Pour le moment, tu dois juste savoir que 
 OrkvaMilitaryBase_Bandit_ArcQuest2_5 = Un convoi va bientôt partir en direction d'Okville.
 OrkvaMilitaryBase_Bandit_ArcQuest2_6 = On va le suivre, avant de le prendre en embuscade.
 OrkvaMilitaryBase_Bandit_ArcQuest2_7 = Une fois cela fait, on aura plus qu'à fuir avec les uniformes.
-OrkvaMilitaryBase_Bandit_ArcQuest2_8 = Bien sur, c'est toi qui va te battre, mon petit.
+OrkvaMilitaryBase_Bandit_ArcQuest2_8 = Bien sûr, c'est toi qui va te battre, mon petit.
 OrkvaMilitaryBase_Bandit_ArcQuest2_9 = Je... comprend.
 OrkvaMilitaryBase_Bandit_ArcQuest2_10 = Bien, car les voila.
 OrkvaMilitaryBase_Bandit_ArcQuest2_11 = Un camion sort de la base, et nous commençons à le suivre.
@@ -412,7 +412,7 @@ OrkvaMilitaryBase_Bandit_ArcQuest2_12 = Comme les routes sont sinueuses, il ne p
 OrkvaMilitaryBase_Bandit_ArcQuest2_13 = Après une demi heure de poursuite, nous le prenons enfin en embuscade.
 
 OrkvaMilitaryBase_Bandit_ArcQuest2_14 = Bon boulot, le bleu.
-OrkvaMilitaryBase_Bandit_ArcQuest2_15 = Tu nous seras peut être utile au final.
+OrkvaMilitaryBase_Bandit_ArcQuest2_15 = Tu nous seras peut-être utile au final.
 OrkvaMilitaryBase_Bandit_ArcQuest2_16 = Je vais aller donner ces uniformes à nos frères.
 OrkvaMilitaryBase_Bandit_ArcQuest2_17 = Viens ce soir au phare de Tolau. On va faire une réunion.
 OrkvaMilitaryBase_Bandit_ArcQuest2_18 = Tu sauras enfin ce qu'on manigance.
@@ -480,7 +480,7 @@ Okville_Shrine_MarklichtQuest5_47 = Tu es toujours en colère a cause de tout ç
 Okville_Shrine_MarklichtQuest5_48 = Oui. On peut retrouver à l'autel ? J'ai une idée.
 Okville_Shrine_MarklichtQuest5_49 = Je vois. Si tu le dis.
 
-Okville_Shrine_MarklichtFactionQuest2_1 = Donc qu'est ce que tu avais en tête ?
+Okville_Shrine_MarklichtFactionQuest2_1 = Donc qu'est-ce que tu avais en tête ?
 Okville_Shrine_MarklichtFactionQuest2_2 = C'est simple. Regardes ça.
 Okville_Shrine_MarklichtFactionQuest2_3 = Lame s'approche de l'autel et commence à trafiquer le portrait.
 Okville_Shrine_MarklichtFactionQuest2_4 = Il déssine des choses étranges sur le roi Orkvien.
@@ -595,8 +595,8 @@ Tolau_FishermanHouse_Fisherman_Greetings_1 = ... Oh, bonjour.
 
 Tolau_FishermanHouse_Fisherman_AboutYou_1 = C'est quoi ton problème ? Je ne veux pas parler.
 Tolau_FishermanHouse_Fisherman_AboutYou_2 = Ton uniforme, tu fais partie de l'armée ?
-Tolau_FishermanHouse_Fisherman_AboutYou_3 = Mais... Non, peut être pas. Trop... bleu.
-Tolau_FishermanHouse_Fisherman_AboutYou_4 = Enfin, je n'aime pas parler de moi à des inconnus. Rien de personnel, bien sur.
+Tolau_FishermanHouse_Fisherman_AboutYou_3 = Mais... Non, peut-être pas. Trop... bleu.
+Tolau_FishermanHouse_Fisherman_AboutYou_4 = Enfin, je n'aime pas parler de moi à des inconnus. Rien de personnel, bien sûr.
 
 Tolau_FishermanHouse_Fisherman_UseBoat_1 = Ok, ok. Suis-moi.
 
@@ -606,11 +606,11 @@ Tolau_FishermanHouse_Fisherman_StartQuest_3 = On me la fera pas deux fois. Tu ve
 Tolau_FishermanHouse_Fisherman_StartQuest_4 = Et bien... oui.
 Tolau_FishermanHouse_Fisherman_StartQuest_5 = Non. Je refuse.
 Tolau_FishermanHouse_Fisherman_StartQuest_6 = Je lui avais déjà dit, au marchand. Je ne ferai pas passer des personnes là bas.
-Tolau_FishermanHouse_Fisherman_StartQuest_7 = Certe, je peux peut être ne pas me faire repérer par l'armée Orkvienne. Mais je ne vais pas prendre de risques.
-Tolau_FishermanHouse_Fisherman_StartQuest_8 = Hmm... J'aurai peut être besoin d'accéder à l'île cependant...
+Tolau_FishermanHouse_Fisherman_StartQuest_7 = Certe, je peux peut-être ne pas me faire repérer par l'armée Orkvienne. Mais je ne vais pas prendre de risques.
+Tolau_FishermanHouse_Fisherman_StartQuest_8 = Hmm... J'aurai peut-être besoin d'accéder à l'île cependant...
 Tolau_FishermanHouse_Fisherman_StartQuest_9 = Ne pourriez-vous pas changer d'avis ? Je peux vous payer grassement.
 Tolau_FishermanHouse_Fisherman_StartQuest_10 = Comme si ! Hors de ma vue.
-Tolau_FishermanHouse_Fisherman_StartQuest_11 = ... Peut être que le marchand local peut m'aider.
+Tolau_FishermanHouse_Fisherman_StartQuest_11 = ... Peut-être que le marchand local peut m'aider.
 
 Tolau_FishermanHouse_Fisherman_DuringQuest_1 = ... Ne parlons plus de ça.
 
@@ -649,7 +649,7 @@ Tolau_Shop_AboutFisherman_14 = Vous pensiez pouvoir trouver un moyen de pression
 Tolau_Shop_AboutFisherman_15 = Oui. Enfin, je me suis dit que je pouvais peut-être l'aider si besoin.
 Tolau_Shop_AboutFisherman_16 = Peut-être qu'il m'aurait alors prêté son bateau.
 Tolau_Shop_AboutFisherman_17 = ... C'est peut-être encore possible. 
-Tolau_Shop_AboutFisherman_18 = Et bien, je vous laisse ce morceau. Enfin, si vous réussissez à entrer dans Vorlan et parler à mon ami, bien sur.
+Tolau_Shop_AboutFisherman_18 = Et bien, je vous laisse ce morceau. Enfin, si vous réussissez à entrer dans Vorlan et parler à mon ami, bien sûr.
 Tolau_Shop_AboutFisherman_19 = J'ai jeté l'éponge. Allez-y si vous le voulez.
 
 Tolau_Courthouse_Jade_Greetings_1 = Que voulez-vous, Suori ?
@@ -774,7 +774,7 @@ Tolau_Residences_Door2_Book_5 = Ca suffira pour le maire. Je devrais partir.
 Tolau_Residences_Door2_Book_6 = Je sors de la maison, en prenant soin de ne pas être repéré. 
 Tolau_Residences_Door2_Book_7 = Bien, je devrais retourner à la mairie.
 
-Tolau_Inn_Owner_Sleep_1 = Bien sur. Laissez-moi vous accompagner à votre chambre.
+Tolau_Inn_Owner_Sleep_1 = Bien sûr. Laissez-moi vous accompagner à votre chambre.
 
 Tolau_Inn_Owner_AboutCity_1 = Autrefois, Tolau était la ville la plus prospère de la région du sud.
 Tolau_Inn_Owner_AboutCity_2 = Mais un jour, Orkva a établi un blocus militaire au large de nos côtes.
@@ -844,7 +844,7 @@ Tolau_Port_SecondaryQuest_24 = Je devrais retourner à l'auberge maintenant.
 
 Tolau_Port_MarklichtQuest3_1 = !
 Tolau_Port_MarklichtQuest3_2 = Epée est la. Je ferai mieux de me cacher...
-Tolau_Port_MarklichtQuest3_3 = Qu'est ce que tu veux dire par la ? Je ne peux pas utiliser ton bateau ?
+Tolau_Port_MarklichtQuest3_3 = Qu'est-ce que tu veux dire par la ? Je ne peux pas utiliser ton bateau ?
 Tolau_Port_MarklichtQuest3_4 = Monsieur, vous ne m'avez pas dis pourquoi vous le voulez.
 Tolau_Port_MarklichtQuest3_5 = Vous ne faites que crier depuis plusieurs minutes.
 Tolau_Port_MarklichtQuest3_6 = Je te l'ai dis ! Je veux visiter la forêt de l'Ile Mirage.
@@ -953,7 +953,7 @@ Tolau_Lighthouse_RebelQuest3_2 = ...
 Tolau_Lighthouse_RebelQuest3_3 = ...
 Tolau_Lighthouse_RebelQuest3_4 = Hé, euh...
 Tolau_Lighthouse_RebelQuest3_5 = Pas de combat ? On est sur une mission.
-Tolau_Lighthouse_RebelQuest3_6 = C'est vrai. Donc, qu'est ce que tu voulais nous dire ?
+Tolau_Lighthouse_RebelQuest3_6 = C'est vrai. Donc, qu'est-ce que tu voulais nous dire ?
 Tolau_Lighthouse_RebelQuest3_7 = ... J'ai suivi ton ami jusqu'ici.
 Tolau_Lighthouse_RebelQuest3_8 = Il n'a pas arreté d'harceler des gens pour avoir un bateau. Il prétendait vouloir aller à l'Ile Mirage.
 Tolau_Lighthouse_RebelQuest3_9 = Au final, il a réussit à en voler un et a quité le port.
@@ -965,7 +965,7 @@ Tolau_Lighthouse_RebelQuest3_14 = Il était en train de crier sur un contremaitr
 Tolau_Lighthouse_RebelQuest3_15 = La Forêt Mirage ? C'est un endroit dangereux.
 Tolau_Lighthouse_RebelQuest3_16 = Oui... Pourquoi y aller. Puis je me suis souvenu d'un truc.
 Tolau_Lighthouse_RebelQuest3_17 = Au dela de la forêt se trouve des ruines. Je suis sur que c'est son objectif.
-Tolau_Lighthouse_RebelQuest3_18 = Des ruines... Le Marchand veut peut être qu'il vole un autre artefact.
+Tolau_Lighthouse_RebelQuest3_18 = Des ruines... Le Marchand veut peut-être qu'il vole un autre artefact.
 Tolau_Lighthouse_RebelQuest3_19 = C'est possible. Mais ça pourrait être autre chose.
 Tolau_Lighthouse_RebelQuest3_20 = Je veux que tu mène l'enquête sur ce qu'il veut voler.
 Tolau_Lighthouse_RebelQuest3_21 = Très bien. On va faire ça.

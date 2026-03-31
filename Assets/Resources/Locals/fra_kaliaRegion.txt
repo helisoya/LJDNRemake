@@ -4,7 +4,7 @@
 
 Iberty_Doctor_Greetings_1 = Bonjour. Comment puis-je vous aider ?
 
-Iberty_Doctor_Heal_1 = Bien sur, laissez-voir regarder...
+Iberty_Doctor_Heal_1 = Bien sûr, laissez-voir regarder...
 Iberty_Doctor_Heal_2 = Voila, vous irez bien mieux maintenant.
 
 Iberty_Doctor_AboutYou_1 = Je suis l'unique docteur d'Iberty.
@@ -45,7 +45,7 @@ Iberty_Shop_MainQuest1_0_10 = S'il y avait un coursier, il a été déplacé ava
 Iberty_Shop_MainQuest1_0_11 = Ca ne m'aide pas du tout.
 Iberty_Shop_MainQuest1_0_12 = Mais attendez... J'ai bien trouvé quelque chose d'étrange.
 Iberty_Shop_MainQuest1_0_13 = Il sort un bout de vêtement de sa poche.
-Iberty_Shop_MainQuest1_0_14 = J'ai trouvé ça près de vous. Peut être que ça appartient à votre ami ?
+Iberty_Shop_MainQuest1_0_14 = J'ai trouvé ça près de vous. Peut-être que ça appartient à votre ami ?
 Iberty_Shop_MainQuest1_0_15 = Je prend le vetement...
 Iberty_Shop_MainQuest1_0_16 = Je ne sais pas. Mais je suis sur que ça ne vient pas de moi.
 Iberty_Shop_MainQuest1_0_17 = Donc il appartient soit au coursier, soit à nos assaillants.
@@ -67,7 +67,7 @@ Iberty_Shop_MainQuest1_0_31 = Les bandits ont volé mon argent, mais je peut tou
 Iberty_Shop_AboutYou_1 = Je suis juste un commerçant itinérant.
 Iberty_Shop_AboutYou_2 = En général, je voyage entre Iberty et Vlatyr, à l'Ouest.
 Iberty_Shop_AboutYou_3 = C'est un joli voyage. Je reviens même avec des produits Koskien exclusifs de Vlatyr.
-Iberty_Shop_AboutYou_4 = Bien sur, j'ammene aussi des produits de Kalia à Vlatyr.
+Iberty_Shop_AboutYou_4 = Bien sûr, j'ammene aussi des produits de Kalia à Vlatyr.
 Iberty_Shop_AboutYou_5 = Le seul point négatif de ce voyage est la forêt Blanche, comme vous pouvez vous en douter.
 Iberty_Shop_AboutYou_6 = Trop de bandits... On ne peut pas passer sans au moins un garde du corps.
 
@@ -80,7 +80,7 @@ Iberty_Port_Fisherman_AboutYou_4 = Avant... Je pouvais même vendre le rab' en v
 Iberty_Port_Fisherman_AboutYou_5 = Mais c'était avant... avant le Marchand...
 
 Iberty_Port_Fisherman_Quest_Cant_1 = ........
-Iberty_Port_Fisherman_Quest_Cant_2 = Peut être.... Mais pas maintenant....
+Iberty_Port_Fisherman_Quest_Cant_2 = Peut-être.... Mais pas maintenant....
 Iberty_Port_Fisherman_Quest_Cant_3 = ... J'ai besoin de quelqu'un pouvant se battre.
 
 Iberty_Port_Fisherman_Quest_Start_1 = ..... En fait...
@@ -102,7 +102,7 @@ Iberty_Port_Fisherman_Quest_Do_1 = ....Prêt à vous occuper de ce bandit ?
 Iberty_Port_Fisherman_Quest_Do_2 = ... Bien. Suivez-moi...
 Iberty_Port_Fisherman_Quest_Do_3 = Je suis le pecheur le long de la côte.
 Iberty_Port_Fisherman_Quest_Do_4 = ... Après une demi-heure, on arrive enfin à son coin de pêche.
-Iberty_Port_Fisherman_Quest_Do_5 = Et bien sur, le bandit est toujours là.
+Iberty_Port_Fisherman_Quest_Do_5 = Et bien sûr, le bandit est toujours là.
 Iberty_Port_Fisherman_Quest_Do_6 = Hé ! Vous êtes qui ?
 Iberty_Port_Fisherman_Quest_Do_7 = C'est chez moi ici ! Vous devez payer pour passer.
 Iberty_Port_Fisherman_Quest_Do_8 = 500 pièces, c'est un bon prix, non ?
@@ -149,7 +149,7 @@ Iberty_CityHall_Mayor_DoctorQuest0_6 = Autre chose ?
 Iberty_CityHall_Soldier_Greetings_1 = Rien à signaler, chef.
 
 Iberty_CityHall_Soldier_AboutYou_1 = Je suis en réalité du coin.
-Iberty_CityHall_Soldier_AboutYou_2 = Mon père est pêcheur, peut être que vous l'avez déjà vu.
+Iberty_CityHall_Soldier_AboutYou_2 = Mon père est pêcheur, peut-être que vous l'avez déjà vu.
 Iberty_CityHall_Soldier_AboutYou_3 = J'ai rejoint l'armée il y a à peu prêt 20 ans.
 Iberty_CityHall_Soldier_AboutYou_4 = C'est pile au moment ou les sanctions sur Iberty sont arrivées.
 Iberty_CityHall_Soldier_AboutYou_5 = Les gens sont partis, et les bandits ont commençé à s'aventurer dans le coin.
@@ -159,7 +159,7 @@ Iberty_CityHall_Soldier_AboutYou_8 = Ce n'est pas passionant, mais c'est un trav
 
 Iberty_CityHall_Soldier_AboutCamp_1 = Le camp, ou camp "Espoir", est le QG de l'armée Kalienne.
 Iberty_CityHall_Soldier_AboutCamp_2 = Tout les nouvelles recrus passent par là.
-Iberty_CityHall_Soldier_AboutCamp_3 = Après un long entrainement, on peut être sélectionner pour aller en ville.
+Iberty_CityHall_Soldier_AboutCamp_3 = Après un long entrainement, on peut-être sélectionner pour aller en ville.
 Iberty_CityHall_Soldier_AboutCamp_4 = Si on est très bon, on peut même rejoindre la garde républicaine.
 Iberty_CityHall_Soldier_AboutCamp_5 = Mais... Vous le saviez déjà, pas vrai ?
 Iberty_CityHall_Soldier_AboutCamp_6 = Votre uniforme, votre rang. Vous êtes un garde republicain, pas vrai ?
@@ -236,8 +236,8 @@ Iberty_Catacombs_MerchantQuest4_23 = Je la prend dans mes mains. C'est une lettr
 Iberty_Catacombs_MerchantQuest4_24 = ...
 Iberty_Catacombs_MerchantQuest4_25 = Elle est destinée à la prêtresse de l'autel local.
 Iberty_Catacombs_MerchantQuest4_26 = Je ne vais pas la lire. On dirais une lettre d'adieux.
-Iberty_Catacombs_MerchantQuest4_27 = Peut être que je peux la livrer si j'ai le temps.
-Iberty_Catacombs_MerchantQuest4_28 = Qu'est ce que tu fais ?
+Iberty_Catacombs_MerchantQuest4_27 = Peut-être que je peux la livrer si j'ai le temps.
+Iberty_Catacombs_MerchantQuest4_28 = Qu'est-ce que tu fais ?
 Iberty_Catacombs_MerchantQuest4_29 = Tu es couvert de sang.
 Iberty_Catacombs_MerchantQuest4_30 = Et alors ? J'ai fait ce que je devais faire !
 Iberty_Catacombs_MerchantQuest4_31 = Tu voulais que je les laisse en vie ?
@@ -249,10 +249,10 @@ Iberty_Catacombs_MerchantQuest4_36 = Que se passera-t-il quand le patron mourra 
 Iberty_Catacombs_MerchantQuest4_37 = Il ne mourra pas ! Il a un plan. Ais confiance en lui.
 Iberty_Catacombs_MerchantQuest4_38 = J'ai peur de ton optimisme.
 Iberty_Catacombs_MerchantQuest4_39 = Grr... C'est quoi ton problème ? Tu es devenu tout mou d'un coup.
-Iberty_Catacombs_MerchantQuest4_40 = Il se fait peut être vieux, mais ça ne veut rien dire de plus.
+Iberty_Catacombs_MerchantQuest4_40 = Il se fait peut-être vieux, mais ça ne veut rien dire de plus.
 Iberty_Catacombs_MerchantQuest4_41 = Je retourne à Kalia. Tu devrais faire de même et t'excuser.
 Iberty_Catacombs_MerchantQuest4_42 = ... Je me demande.
-Iberty_Catacombs_MerchantQuest4_43 = Peut être que je peux livrer cette lettre avant.
+Iberty_Catacombs_MerchantQuest4_43 = Peut-être que je peux livrer cette lettre avant.
 Iberty_Catacombs_MerchantQuest4_44 = Je quitte les catacombes.
 
 # ---------------------------------------------------------
@@ -281,10 +281,10 @@ KalibuShrine_Priest_AboutKalibu_8 = Souvenez-vous de ceci dans votre vie de tout
 
 KalibuShrine_Priest_AboutOrkva_1 = Les Suoris prient Kalibu, mais pas tout le monde aime cela.
 KalibuShrine_Priest_AboutOrkva_2 = Les perfides Orkvien ont envahis les terres au Sud il y a des siècles.
-KalibuShrine_Priest_AboutOrkva_3 = Leur but était l'avarice, bien sur. Les villes de Tolau et Vorlan étaient riche à l'époque.
+KalibuShrine_Priest_AboutOrkva_3 = Leur but était l'avarice, bien sûr. Les villes de Tolau et Vorlan étaient riche à l'époque.
 KalibuShrine_Priest_AboutOrkva_4 = Mais ils ont rapidement réalisé que les Suoris locaux n'accepteraient pas leur règne.
 KalibuShrine_Priest_AboutOrkva_5 = Donc il on décidé de les affamé, et de coloniser la terre avec de "bons Orkviens".
-KalibuShrine_Priest_AboutOrkva_6 = Bien sur, nos frêres et soeurs opprimés ont tenu, énervant encore plus les Orkviens.
+KalibuShrine_Priest_AboutOrkva_6 = Bien sûr, nos frêres et soeurs opprimés ont tenu, énervant encore plus les Orkviens.
 KalibuShrine_Priest_AboutOrkva_7 = Maintenant, les villes sont sous blocus. Aucune marchandise ne peut passer, et encore moins les gens.
 KalibuShrine_Priest_AboutOrkva_8 = On pourrait se dire qu'ils pourraient simplement tuer tout le monde directement.
 KalibuShrine_Priest_AboutOrkva_9 = Mais Apparemment, ils veulent les villes intact. Ironique...
@@ -390,7 +390,7 @@ CampHope_RebelQuest5_10 = Te voila ! Je commençais à penser que tu avais fuis.
 CampHope_RebelQuest5_11 = Pourquoi aurais-je fuis un combat ?
 CampHope_RebelQuest5_12 = D'ailleurs. Ou sont les soldats ?
 CampHope_RebelQuest5_13 = C'est pas ton problème !
-CampHope_RebelQuest5_14 = Kalia est peut être sur le bord du précipice, mais je vais t'emmener avec moi !
+CampHope_RebelQuest5_14 = Kalia est peut-être sur le bord du précipice, mais je vais t'emmener avec moi !
 CampHope_RebelQuest5_15 = ?
 CampHope_RebelQuest5_16 = LE burd du précipice ? De quoi il parle ?
 CampHope_RebelQuest5_17 = Ou est Bos ?
@@ -404,7 +404,7 @@ CampHope_RebelQuest5_23 = Oui, oui. En garde !
 CampHope_RebelQuest5_24 = Cette fois, c'est la fin. Epée est mort.
 CampHope_RebelQuest5_25 = Son arrogance a été sa chute...
 CampHope_RebelQuest5_26 = Vite. Je dois libréer Bos avant le retour des soldats du camp.
-CampHope_RebelQuest5_27 = J'entre dans la tente, et bien sur, Bos s'y trouve.
+CampHope_RebelQuest5_27 = J'entre dans la tente, et bien sûr, Bos s'y trouve.
 CampHope_RebelQuest5_28 = [MC]. Tu as réussi.
 CampHope_RebelQuest5_29 = Gardes ça pour plus tard, on doit partir avant le retour des soldats.
 CampHope_RebelQuest5_30 = Ils ne reviendront pas.
