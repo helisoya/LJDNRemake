@@ -27,7 +27,7 @@ fadeBg(1;true)
 dialog(narrator;_;false;Iberty_Port_Fisherman_Quest_Do_19)
 
 clearStack()
-playMusic(Exploration_Kalia)
+playMusic()
 removeAllCharacters()
 setBackground(Kalia/Iberty/Port;false)
 

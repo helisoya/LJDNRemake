@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_WhiteForest
   floorsAmount: 8
   endChapter: Forest/BanditMine/Quest_End
-  musicName: Dungeon_Kalia
+  musicName: Dungeon_Generic
   canExitEarly: 0
   earlyExitChapter: 
   encounters:

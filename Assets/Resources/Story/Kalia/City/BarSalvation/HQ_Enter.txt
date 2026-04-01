@@ -1,6 +1,8 @@
 fadeBg(1;true)
 removeAllCharacters()
 
+playMusic(Character_Rebels)
+
 setBackground(Kalia/City/RebelHQ)
 addCharacter(Amanda;false)
 setCharacterBody(Amanda;Desk;true)

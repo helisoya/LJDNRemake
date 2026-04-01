@@ -1,5 +1,7 @@
 fadeBg(1;true)
 
+playMusic(Exploration_Kalia)
+
 removeAllCharacters()
 setBackground(Kalia/City/BarSalvation)
 load(Kalia/City/BarSalvation/PopulateBar)

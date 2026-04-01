@@ -18,6 +18,8 @@ dialog(narrator;_;false;BorderFortress_RebelQuest1_8)
 
 fadeBg(1;true)
 
+playMusic(Character_Lara)
+
 setBackground(Marklicht/Region/BorderFortressInside)
 
 setCharacterAlpha(Anna;1;true)
@@ -83,6 +85,8 @@ dialog([MC];_;false;BorderFortress_RebelQuest1_40)
 dialog(Lara;Lara;false;BorderFortress_RebelQuest1_41)
 
 fadeBg(1;true)
+
+playMusic(Exploration_Marklicht)
 
 removeCharacter(Lara)
 setBackground(Marklicht/Region/BorderFortressOutside)
