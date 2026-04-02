@@ -12101,7 +12101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94424efaee899ff4389f40c380d127de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuMusic: Menu
+  menuMusic: Menus_MainMenu
   pauseMenu: {fileID: 2034229874}
   fade: {fileID: 1244236509}
   defaultBackground: Common/DefaultMainMenu

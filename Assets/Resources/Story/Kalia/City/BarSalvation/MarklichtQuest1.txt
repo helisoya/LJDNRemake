@@ -3,6 +3,9 @@ dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_2)
 dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_3)
 
 fadeBg(1;true)
+
+playMusic(null)
+
 dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_4)
 dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_5)
 dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_6)
@@ -40,5 +43,7 @@ dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_24)
 dialog(narrator;_;false;Kalia_BarSalvation_MarklichtQuest1_25)
 
 variable(marklichtQuest_1;2)
+
+playMusic(Exploration_Kalia)
 
 load(Kalia/City/BarSalvation/Interaction)

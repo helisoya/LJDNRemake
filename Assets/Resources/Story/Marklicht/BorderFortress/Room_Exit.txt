@@ -1,5 +1,6 @@
 fadeBg(1;true)
 
+playMusic(Exploration_Marklicht)
 removeCharacter(Lara)
 setBackground(Marklicht/Region/BorderFortressOutside)
 load(Common/DisplayWeatherRain)

@@ -129,7 +129,7 @@ variable(canTravel_Region_Orkva_ToMirageIsland;0)
 
 variable(Region_MirageIsland_Cottage;0)
 
-playMusic(Exploration_Kalia)
+playMusic(Exploration_KaliaRegion)
 
 setLocals(kaliaRegion)
 

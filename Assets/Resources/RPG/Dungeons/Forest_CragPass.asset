@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_WhiteForest
   floorsAmount: 5
   endChapter: Forest/CragPass/DungeonEnd
-  musicName: Dungeon_Kalia
+  musicName: Dungeon_Generic
   canExitEarly: 0
   earlyExitChapter: 
   encounters:

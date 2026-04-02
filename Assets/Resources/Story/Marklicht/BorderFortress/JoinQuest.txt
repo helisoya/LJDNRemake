@@ -4,6 +4,8 @@ dialog(Lame;Lame;false;BorderFortress_Join_4)
 
 fadeBg(1;true)
 
+playMusic(Character_Lara)
+
 setBackground(Marklicht/Region/BorderFortressInside)
 
 setCharacterPosition(Lame;Left)
@@ -72,6 +74,8 @@ dialog(Lara;Lara;false;BorderFortress_Join_38)
 dialog([MC];_;false;BorderFortress_Join_39)
 
 fadeBg(1;true)
+
+playMusic(Exploration_Marklicht)
 
 removeCharacter(Lara)
 setBackground(Marklicht/Region/BorderFortressOutside)

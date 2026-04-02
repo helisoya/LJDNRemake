@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_Mirageisland
   floorsAmount: 3
   endChapter: MirageIsland/Forest/Temple_Branch
-  musicName: Dungeon_Kalia
+  musicName: Dungeon_Generic
   canExitEarly: 0
   earlyExitChapter: 
   encounters:

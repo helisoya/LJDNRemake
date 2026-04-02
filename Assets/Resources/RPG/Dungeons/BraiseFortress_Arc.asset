@@ -16,7 +16,7 @@ MonoBehaviour:
   locationID: Location_BraiseFortress
   floorsAmount: 7
   endChapter: BraiseFortress/DungeonEnd
-  musicName: Dungeon_Kalia
+  musicName: Dungeon_Fortress
   canExitEarly: 0
   earlyExitChapter: 
   encounters:
