@@ -20,6 +20,8 @@ if(night = 0 & factionQuest_Merchant_1 < 100){
 	setInteractionChapter(KalibuPriest;Kalia/Shrine/Priest_Enter)
 }
 
+unlockLog(Log_Suori;true)
+
 autosave()
 
 fadeFg(0;false)

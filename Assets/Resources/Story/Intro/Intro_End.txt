@@ -127,11 +127,13 @@ variable(canTravel_City_Vorlan_Plaza;0)
 
 variable(canTravel_Region_Orkva_ToMirageIsland;0)
 
-variable(Region_MirageIsland_Cottage;0)
+variable(canTravel_Region_MirageIsland_Cottage;0)
 
 playMusic(Exploration_KaliaRegion)
 
 setLocals(kaliaRegion)
+unlockLog(Log_Bandits;false)
+unlockLog(Log_Iberty;true)
 
 autosave()
 

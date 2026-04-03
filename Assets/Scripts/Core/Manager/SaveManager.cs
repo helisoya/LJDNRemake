@@ -149,6 +149,26 @@ public class SaveManager
         return items[GetIndexOfItem(key)].value;
     }
 
+    /// <summary>
+    /// Checks if the specified log has been unlocked
+    /// </summary>
+    /// <param name="logId">The log's ID</param>
+    /// <returns>True if the log is unlocked</returns>
+    public bool HasUnlockedLog(string logId)
+    {
+        return saveFile.unlockedLogs.Contains(logId);
+    }
+
+    /// <summary>
+    /// Unlocks a new log
+    /// </summary>
+    /// <param name="logId">The log's ID</param>
+    public void UnlockLog(string logId)
+    {
+        if (!HasUnlockedLog(logId))
+            saveFile.unlockedLogs.Add(logId);
+    }
+
     public SaveInfo[] GetAvailableSaves()
     {
         GAMEFILE temp;

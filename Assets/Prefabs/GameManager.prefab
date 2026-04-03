@@ -200,6 +200,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 3551b16b330043746990206565e1fa27, type: 2}
   rpgManager: {fileID: 5455355520057103133}
+  logs:
+  - id: Log_Kalia
+    sprite: {fileID: 21300000, guid: 4710d3f20a7b7344a99f433e92280a63, type: 3}
+  - id: Log_Iberty
+    sprite: {fileID: 21300000, guid: 5939031320c9b874081b0ec6fa42f060, type: 3}
+  - id: Log_Bandits
+    sprite: {fileID: 21300000, guid: 2f40344e6645d4645b63d6d9c0b16e2f, type: 3}
+  - id: Log_Merchant
+    sprite: {fileID: 21300000, guid: 1e47e3a05917c7b4b8873c5df4426a69, type: 3}
+  - id: Log_Rebels
+    sprite: {fileID: 21300000, guid: f849f07d52c02d642b59cd80f28a551a, type: 3}
+  - id: Log_Suori
+    sprite: {fileID: 21300000, guid: b206f4bf0fd9f1c4c99323eeb1ed0d97, type: 3}
+  - id: Log_Marklicht
+    sprite: {fileID: 0}
+  - id: Log_Libertville
+    sprite: {fileID: 0}
+  - id: Log_WhiteForest
+    sprite: {fileID: 0}
+  - id: Log_Orkva
+    sprite: {fileID: 0}
+  - id: Log_MirageIsland
+    sprite: {fileID: 0}
+  - id: Log_Okville
+    sprite: {fileID: 0}
+  - id: Log_Vorlan
+    sprite: {fileID: 0}
+  - id: Log_Tolau
+    sprite: {fileID: 0}
+  - id: Log_OrkvaLicht
+    sprite: {fileID: 0}
+  - id: Log_Licht
+    sprite: {fileID: 0}
+  - id: Log_UnionsWar
+    sprite: {fileID: 0}
+  - id: Log_ImperialCivilWar
+    sprite: {fileID: 0}
+  - id: Log_Kosky
+    sprite: {fileID: 0}
+  - id: Log_Vlatyr
+    sprite: {fileID: 0}
+  - id: Log_Runan
+    sprite: {fileID: 0}
+  - id: Log_Lara
+    sprite: {fileID: 0}
+  - id: Log_Pal
+    sprite: {fileID: 0}
+  - id: Log_Amanda
+    sprite: {fileID: 0}
+  - id: Log_RepublicanGuardIncident
+    sprite: {fileID: 0}
+  - id: Log_Summoners
+    sprite: {fileID: 0}
+  - id: Log_Order
+    sprite: {fileID: 0}
   debug: 0
   debug_nextChapter: 
 --- !u!114 &5455355520057103133

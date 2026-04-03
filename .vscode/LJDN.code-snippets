@@ -493,5 +493,13 @@
 			"setLocals(FILE1;FILE2)"
 		],
 		"description": "Sets the locals files"
+	},
+	"Unlock a log": {
+		"scope": "ansl",
+		"prefix": "unlockLog",
+		"body": [
+			"unlockLog(ID;SHOWANIMATION)"
+		],
+		"description": "Unlocks a log"
 	}
 }

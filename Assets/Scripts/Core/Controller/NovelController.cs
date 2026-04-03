@@ -1095,6 +1095,18 @@ public class NovelController : MonoBehaviour
                 Locals.SetFiles(parameters);
                 break;
 
+            case "unlockLog":
+                if (!GameManager.GetSaveManager().HasUnlockedLog(parameters[0]))
+                {
+                    GameManager.GetSaveManager().UnlockLog(parameters[0]);
+
+                    if (bool.Parse(parameters[1]))
+                    {
+                        VNGUI.instance.PlayNewLogAnimation();
+                    }
+                }
+                break;
+
 #if UNITY_EDITOR
             case "log":
                 Debug.Log(parameters[0]);

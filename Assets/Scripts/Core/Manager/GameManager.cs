@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [Header("General Informations")]
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private RPGManager rpgManager;
+    [SerializeField] private Log[] logs;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
@@ -85,6 +86,15 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Gets the known logs
+    /// </summary>
+    /// <returns>The known logs</returns>
+    public Log[] GetLogs()
+    {
+        return logs;
+    }
+
+    /// <summary>
     /// Sets the savefile to load
     /// </summary>
     /// <param name="value">The savefile's name</param>
@@ -137,4 +147,11 @@ public class GameManager : MonoBehaviour
     {
         return mixer;
     }
+}
+
+[System.Serializable]
+public struct Log
+{
+    public string id;
+    public Sprite sprite;
 }

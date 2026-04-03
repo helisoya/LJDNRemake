@@ -44,6 +44,7 @@ public class GAMEFILE
     public int dungeonFloor;
 
     public string[] localFiles;
+    public List<string> unlockedLogs;
 
     public GAMEFILE()
     {
@@ -69,6 +70,7 @@ public class GAMEFILE
         this.dungeonFloor = 0;
         this.money = 0;
         this.localFiles = new string[0];
+        this.unlockedLogs = new List<string>();
     }
 
     [System.Serializable]

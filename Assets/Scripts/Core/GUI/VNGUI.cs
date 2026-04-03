@@ -39,6 +39,10 @@ public class VNGUI : MonoBehaviour
     [Header("Shop")]
     [SerializeField] private ShopGUI shop;
 
+    [Header("Logs")]
+    [SerializeField] private LogsMenu logsMenu;
+    [SerializeField] private Animator logAnimation;
+
     private Coroutine routineExit;
 
     public bool fadingBg { get { return fadeBg.fading; } }
@@ -51,6 +55,7 @@ public class VNGUI : MonoBehaviour
 
     public bool levelingUp { get { return levelUpMenu.open; } }
     public bool shopOpen { get { return shop.open; } }
+    public bool logsMenuOpen { get { return logsMenu.isOpen; } }
 
     void Awake()
     {
@@ -62,6 +67,22 @@ public class VNGUI : MonoBehaviour
         fadeBg.FadeTo(0);
 
         flash.ForceAlphaTo(0);
+    }
+
+    /// <summary>
+    /// Opens the logs menu
+    /// </summary>
+    public void OpenLogsMenu()
+    {
+        logsMenu.Open();
+    }
+
+    /// <summary>
+    /// Plays the new log animation
+    /// </summary>
+    public void PlayNewLogAnimation()
+    {
+        logAnimation.SetTrigger("NewLog");
     }
 
     /// <summary>

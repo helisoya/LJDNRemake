@@ -136,6 +136,9 @@ variable(mainQuest_2;0)
 variable(canTravel_City_Kalia_Docks;1)
 addExpToAll(10)
 
+unlockLog(Log_Merchant;false)
+unlockLog(Log_Rebels;true)
+
 fadeFg(1;true)
 setBg(0)
 load(Kalia/City/Palace/Arrival)

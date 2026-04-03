@@ -747,3 +747,29 @@ ARMOR_RIOTSHIELD_name = Heavy Riot Shield
 ARMOR_RIOTSHIELD_desc = A riot shield that was used by the founder of the Order.<br>+8 DEF
 ARMOR_UNIFORM_name = Uniform
 ARMOR_UNIFORM_desc = A standard military uniform.<br>+3 DEF
+
+
+# ------------------------------------------------------------------------
+# -------------------------------- Logs ----------------------------------
+# ------------------------------------------------------------------------
+
+Log_Unknown = ???
+Log_Anim = New Log
+
+Log_Iberty_name = Iberty
+Log_Iberty_desc = Iberty is a small village located next to Kalia.<br>It used to be rather prosperous, but bandits and the Merchant's rule brought the village to its knees.<br>Nowadays, it is a rather insignificant fishing village.
+
+Log_Kalia_name = Kalia
+Log_Kalia_desc = Kalia is the biggest trading city in the entire east coat of the continent. This earned it the nickname of "The Jewel of the North".<br>Kalia is a republic lead by a consul. It administers the region east of the White Forest, including Iberty.
+
+Log_Bandits_name = Bandits
+Log_Bandits_desc = Organised crime is quite common in the region.<br>Driven by poverty and sometimes purely by greed, gangs were formed to attack anyone who would dare enter the White Forest.<br>Gangs aren't unified, and don't work together usually.
+
+Log_Merchant_name = The Merchant
+Log_Merchant_desc = The Merchant is the current consul and dictator of Kalia.<br>After winning an election decried as rigged, he dissolved the parliement.<br>He is known for loving rare artefacts, and will do anything to get his hands on new ones.
+
+Log_Rebels_name = The Rebellion
+Log_Rebels_desc = The rebels are opposed to the rule of the Merchant.<br>There were many resistance groups at the start of the Merchant's rule, but now, there is only one left.<br>They are determined to topple the consul.
+
+Log_Suori_name = The Suoris
+Log_Suori_desc = The Suori culture is the main culture in Kalia and the surrounding region.<br>Suoris pray the Great Kalibu, a god that takes the form of a caribou.<br>Suori countries include Kalia, Mirage Island, Marklicht and Kosky.
