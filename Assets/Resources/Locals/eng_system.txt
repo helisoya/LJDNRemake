@@ -773,3 +773,15 @@ Log_Rebels_desc = The rebels are opposed to the rule of the Merchant.<br>There w
 
 Log_Suori_name = The Suoris
 Log_Suori_desc = The Suori culture is the main culture in Kalia and the surrounding region.<br>Suoris pray the Great Kalibu, a god that takes the form of a caribou.<br>Suori countries include Kalia, Mirage Island, Marklicht and Kosky.
+
+Log_Marklicht_name = Marklicht
+Log_Marklicht_desc = The Union of Marklicht is a country neighboring Kalia.<br>It is divided into the Suoris in the north, and the Luori in the south.<br>It was founded when General Mark made a coup d'etat and abolished the Lichtian Monarchy.
+
+Log_Orkva_name = Orkva
+Log_Orkva_desc = The Kingdom of Orkva is an absolute monarchy south of Kalia.<br>Orkvians worship the king of Orkva.<br> A century ago, the kingdoms of Orkva and Licht conquered the regions around Tolau, Vorlan and Libertville.
+
+Log_Libertville_name = Libertville
+Log_Libertville_desc = Libertville is a small town in northern Marklicht.<br>During the Unions war, it was almost completely destroyed.
+
+Log_WhiteForest_name = The White Forest
+Log_WhiteForest_desc = The White Forest is the large forest that lies west of Kalia.<br>It is a formidable natural protection, and acts as Kalia de jure border.

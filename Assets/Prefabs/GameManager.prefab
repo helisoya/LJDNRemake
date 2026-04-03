@@ -214,13 +214,13 @@ MonoBehaviour:
   - id: Log_Suori
     sprite: {fileID: 21300000, guid: b206f4bf0fd9f1c4c99323eeb1ed0d97, type: 3}
   - id: Log_Marklicht
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: eda0ebc177fe04240ac4be00a5890d2d, type: 3}
   - id: Log_Libertville
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 09d1d68cbb8f0a442b9e2ecd7c1fbad0, type: 3}
   - id: Log_WhiteForest
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 844360ffbd5f1324cbd623e56f561db7, type: 3}
   - id: Log_Orkva
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 4e5b45e02dcb2994487375f02a48aa7c, type: 3}
   - id: Log_MirageIsland
     sprite: {fileID: 0}
   - id: Log_Okville
@@ -254,6 +254,8 @@ MonoBehaviour:
   - id: Log_Summoners
     sprite: {fileID: 0}
   - id: Log_Order
+    sprite: {fileID: 0}
+  - id: Log_Northmen
     sprite: {fileID: 0}
   debug: 0
   debug_nextChapter: 
