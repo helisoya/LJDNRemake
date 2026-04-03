@@ -3,6 +3,8 @@
 
 setFg(1)
 
+unlockLog(Log_Northmen;true)
+
 if(canTravel_Region_Forest_Village = 1){
 	load(Forest/Village/Arrival)
 }

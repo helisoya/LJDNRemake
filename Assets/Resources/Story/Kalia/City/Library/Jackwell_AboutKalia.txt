@@ -10,4 +10,6 @@ dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_AboutKalia_8)
 dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_AboutKalia_9)
 dialog(Jackwell;Jackwell;false;Kalia_Library_Jackwell_AboutKalia_10)
 
+unlockLog(Log_ImperialCivilWar;true)
+
 load(Kalia/City/Library/Jackwell)

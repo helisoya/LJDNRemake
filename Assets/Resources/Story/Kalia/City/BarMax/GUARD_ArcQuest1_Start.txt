@@ -43,4 +43,7 @@ dialog(GUARD;GUARD;false;Kalia_BarMax_GUARD_ArcQuest1_Start_30)
 
 variable(arcQuest_Guard_1;0)
 
+unlockLog(Log_Kosky;false)
+unlockLog(Log_Vlatyr;true)
+
 load(Kalia/City/BarMax/GUARD)

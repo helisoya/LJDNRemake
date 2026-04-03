@@ -221,28 +221,30 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 844360ffbd5f1324cbd623e56f561db7, type: 3}
   - id: Log_Orkva
     sprite: {fileID: 21300000, guid: 4e5b45e02dcb2994487375f02a48aa7c, type: 3}
+  - id: Log_Northmen
+    sprite: {fileID: 21300000, guid: ce2b26bf365c1b94f9aa1491d0655e88, type: 3}
   - id: Log_MirageIsland
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 70c0423deb543284bbb6673d8e5e9e23, type: 3}
   - id: Log_Okville
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e3534cfa220ffda4a96829dd8fb6080e, type: 3}
   - id: Log_Vorlan
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7084f563acbcf1a46ade61dfcf9af9fe, type: 3}
   - id: Log_Tolau
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7d08b1f8bd62d28459d64be7efac042d, type: 3}
   - id: Log_OrkvaLicht
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b769d3e2a81c8fd47b582b795e616ed5, type: 3}
   - id: Log_Licht
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 804d296517d00ee40b234a95ac5eb1b8, type: 3}
   - id: Log_UnionsWar
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b83cb26164ff1fa428f55ec4e8b857e9, type: 3}
   - id: Log_ImperialCivilWar
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 481b0cd770e8af6408efd66db4100953, type: 3}
   - id: Log_Kosky
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e2698d0a7848043449c210fc89c35ce3, type: 3}
   - id: Log_Vlatyr
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: cbc9f22d944e2b143a1b4467fbb200a6, type: 3}
   - id: Log_Runan
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 1018eede69e23c24d9aeec1c9413427f, type: 3}
   - id: Log_Lara
     sprite: {fileID: 0}
   - id: Log_Pal
@@ -254,8 +256,6 @@ MonoBehaviour:
   - id: Log_Summoners
     sprite: {fileID: 0}
   - id: Log_Order
-    sprite: {fileID: 0}
-  - id: Log_Northmen
     sprite: {fileID: 0}
   debug: 0
   debug_nextChapter: 

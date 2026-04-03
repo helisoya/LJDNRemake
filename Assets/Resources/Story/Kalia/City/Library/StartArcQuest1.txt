@@ -87,4 +87,7 @@ dialog(narrator;_;false;Kalia_Library_StartArcQuest_48)
 
 variable(arcQuest_Jackwell_1;0)
 
+unlockLog(Log_Kosky;false)
+unlockLog(Log_Runan;true)
+
 load(Kalia/City/Library/Jackwell_Exit)

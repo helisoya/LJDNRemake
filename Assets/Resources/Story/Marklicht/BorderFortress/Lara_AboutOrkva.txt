@@ -12,4 +12,7 @@ dialog([MC];_;false;BorderFortress_Lara_AboutOrkva_7)
 dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_8)
 dialog(Lara;Lara;false;BorderFortress_Lara_AboutOrkva_9)
 
+unlockLog(Log_UnionsWar;false)
+unlockLog(Log_OrkvaLicht;true)
+
 load(Marklicht/BorderFortress/Lara)

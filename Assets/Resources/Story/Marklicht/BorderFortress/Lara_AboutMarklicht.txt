@@ -14,4 +14,6 @@ dialog(Lara;Lara;false;BorderFortress_Lara_AboutMarklicht_11)
 dialog(Lara;Lara;false;BorderFortress_Lara_AboutMarklicht_12)
 dialog(Lara;Lara;false;BorderFortress_Lara_AboutMarklicht_13)
 
+unlockLog(Log_Licht;true)
+
 load(Marklicht/BorderFortress/Lara)
