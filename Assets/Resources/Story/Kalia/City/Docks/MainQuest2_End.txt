@@ -73,6 +73,8 @@ variable(canTravel_City_Kalia_RebelHQ;1)
 
 playMusic(Exploration_Kalia)
 
+unlockLog(Log_RepublicanGuardIncident;true)
+
 autosave()
 
 load(Kalia/City/Docks/Interaction)

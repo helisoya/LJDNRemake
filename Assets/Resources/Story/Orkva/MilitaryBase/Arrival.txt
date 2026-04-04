@@ -20,6 +20,7 @@ if(arcQuest_Sam_2 = 1){
 	setInteractionChapter(Bandit3;Orkva/MilitaryBase/ArcQuestSam2)
 }
 
+unlockLog(Log_Pal;true)
 
 autosave()
 

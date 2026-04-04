@@ -14,6 +14,8 @@ addCharacter(Pal;false)
 setCharacterPosition(Pal;Right)
 setCharacterRotation(Pal;Right)
 
+unlockLog(Log_Pal;true)
+
 fadeFg(0;false)
 
 dialog(narrator;_;false;Ending_Merchant_57)

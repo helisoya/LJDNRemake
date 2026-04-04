@@ -245,18 +245,18 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: cbc9f22d944e2b143a1b4467fbb200a6, type: 3}
   - id: Log_Runan
     sprite: {fileID: 21300000, guid: 1018eede69e23c24d9aeec1c9413427f, type: 3}
-  - id: Log_Lara
-    sprite: {fileID: 0}
-  - id: Log_Pal
-    sprite: {fileID: 0}
-  - id: Log_Amanda
-    sprite: {fileID: 0}
-  - id: Log_RepublicanGuardIncident
-    sprite: {fileID: 0}
   - id: Log_Summoners
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: fd391e70da486784e99b31b706b08616, type: 3}
+  - id: Log_Lara
+    sprite: {fileID: 21300000, guid: e6a508fe8d0644749bd636653322e203, type: 3}
+  - id: Log_Pal
+    sprite: {fileID: 21300000, guid: e53d8575eec955b40941d9f3ac41bc97, type: 3}
+  - id: Log_Amanda
+    sprite: {fileID: 21300000, guid: 4f1ffa7e0dcf56241b1a74dcf18165c8, type: 3}
+  - id: Log_RepublicanGuardIncident
+    sprite: {fileID: 21300000, guid: 0c53487cd133fb34d980cf71cbe6f1af, type: 3}
   - id: Log_Order
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7224689f01e25fb49a4ffcf5707081e4, type: 3}
   debug: 0
   debug_nextChapter: 
 --- !u!114 &5455355520057103133

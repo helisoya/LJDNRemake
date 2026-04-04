@@ -91,6 +91,8 @@ variable(canTravel_City_Kalia_Jackwell;1)
 variable(canTravel_City_Kalia_BarGUARD;1)
 addExpToAll(10)
 
+unlockLog(Log_Order;true)
+
 playMusic(Exploration_Kalia)
 autosave()
 

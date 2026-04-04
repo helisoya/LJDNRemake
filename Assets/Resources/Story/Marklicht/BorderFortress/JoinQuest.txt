@@ -112,4 +112,6 @@ variable(marklichtQuest_0;100)
 variable(rebelQuest_0;-1)
 addExpToAll(10)
 
+unlockLog(Log_Lara;true)
+
 load(Marklicht/BorderFortress/Interaction)

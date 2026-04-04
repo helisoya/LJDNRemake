@@ -746,3 +746,171 @@ ARMOR_RIOTSHIELD_name = Bouclier Blindé
 ARMOR_RIOTSHIELD_desc = Un bouclier blindé qui a été utilisé par le fondateur de l'Ordre.<br>+8 DEF
 ARMOR_UNIFORM_name = Uniforme
 ARMOR_UNIFORM_desc = Un uniforme militaire standard.<br>+3 DEF
+
+# ------------------------------------------------------------------------
+# -------------------------------- Logs ----------------------------------
+# ------------------------------------------------------------------------
+
+Log_Unknown = ???
+Log_Anim = Nouvelle entrée
+
+Log_Iberty_name = Iberty
+Log_Iberty_desc = Iberty est un petit village localisé près de Kalia.<br>Au départ, il était plutôt prospère, mais le règne du Marchand et les bandits alentours l'ont ruiné.<br>De nos jours, c'est un village de pêcheurs plutôt insignifiant.
+
+Log_Kalia_name = Kalia
+Log_Kalia_desc = Kalia est la plus grande ville commerçante de l'entièreté de la côte est du continent, ce qui lui a valu le surnom du "Joyau du Nord".<br>Kalia est une république gouvernée par un consul. Elle administre la région à l'est de la Forêt Blanche, incluant Iberty.
+
+Log_Bandits_name = Bandits
+Log_Bandits_desc = Le crime organisé est commun dans la région.<br>Poussé par la pauvreté ou la cupidité, des gangs ont été formés pour attaquer quiconque entre dans la Forêt Blanche.<br>Ces gangs ne sont pas unifiés et ne travaillent pas ensemble en géneral.
+
+Log_Merchant_name = Le Marchand
+Log_Merchant_desc = Le Marchand est le consul et dictateur de Kalia.<br>Après avoir gagné une élection controversée, il a dissous le parlement.<br>Il aime les artefacts rares et fera tout pour en obtenir de nouveaux.
+
+Log_Rebels_name = La Rébellion
+Log_Rebels_desc = Les rebelles sont opposés au règne du Marchand.<br>Il y avait au départ beaucoup de groupes de résistance. Mais maintenant, il n'y en a plus qu'un seul.<br>Ils sont prêts à tout pour renverser le consul.
+
+Log_Suori_name = Les Suoris
+Log_Suori_desc = La culture Suori est la culture principale de Kalia et de la région alentour.<br>Les Suoris vénèrent le Grand Kalibu, un dieu qui prend la forme d'un caribou. Les pays Suori comprennent Kalia, l'Ile Mirage, Marklicht et Kosky.
+
+Log_Marklicht_name = L'Union du Marklicht
+Log_Marklicht_desc = L'Union du Marklicht est un pays voisin de Kalia.<br>Elle est divisée entre les Suoris au nord et les Luoris au sud.<br>Elle a été fondée lorsque le général Mark a mené un coup d'État et a aboli la monarchie Lichtienne.
+
+Log_Orkva_name = Royaume d'Orkva
+Log_Orkva_desc = Le royaume d'Orkva est une monarchie absolue située au sud de Kalia.<br>Les Orkviens vénèrent le roi d'Orkva.<br>Il y a un siècle, les royaumes d'Orkva et de Licht ont conquis les régions autour de Tolau, Vorlan et Libertville.
+
+Log_Libertville_name = Libertville
+Log_Libertville_desc = Libertville est une petite ville du nord du Marklicht.<br>Pendant la guerre des Unions, elle a été presque entièrement détruite.
+
+Log_WhiteForest_name = La Forêt Blanche
+Log_WhiteForest_desc = La Forêt Blanche est la vaste forêt située à l'ouest de Kalia.<br>Elle constitue une formidable protection naturelle et sert de frontière de jure pour Kalia.
+
+Log_MirageIsland_name = Ile Mirage
+Log_MirageIsland_desc = L'Ile Mirage abrite Port Espoir et un ancien temple Suori.<br>Port Espoir a été fondé lorsque des Toliens, mécontents de leur vie à Tolau, ont décidé de trouver un nouveau foyer.
+
+Log_Northmen_name = Les Nordiens
+Log_Northmen_desc = Les Nordiens vivent dans les régions gelées au nord du Continent.<br>Ils vivent dans un isolement quasi total.
+
+Log_Vorlan_name = Vorlan
+Log_Vorlan_desc = Vorlan est une ville Suori du nord d'Orkva. Autrefois, c'était un important point de passage commercial.<br>Après la conquête de la ville par Orkva il y a un siècle, des séparatistes sont apparus. Le gouvernement royal a décidé de confiner la ville pour tenter de régler la situation.
+
+Log_Tolau_name = Tolau
+Log_Tolau_desc = Tolau est une ville Suori du nord d'Orkva. Autrefois, c'était un important centre de commerce naval.<br>Après la conquête de la ville par Orkva il y a un siècle, des séparatistes sont apparus. Le gouvernement royal a décidé d'imposer un blocus naval à la ville pour tenter de stopper les séparatistes.
+
+Log_Okville_name = Okville
+Log_Okville_desc = Okville est une ville Orkvienne située au nord d'Orkva.<br>Elle s'appelait à l'origine Altyr, mais le gouvernement royal a décidé de la raser et de la reconstruire. La majeure partie de la population Suori est partie vers d'autres villes.
+
+Log_OrkvaLicht_name = Royaume-Uni d'Orkva-Licht
+Log_OrkvaLicht_desc = Cette union entre les royaumes d'Orkva et de Licht a été l'élément déclencheur de la Guerre des Unions.<br>Orkva se considère toujours comme l'héritier de cette union et arbore parfois son drapeau.
+
+Log_Licht_name = Royaume de Licht
+Log_Licht_desc = Le royaume de Licht était l'ancêtre du Marklicht.<br>Il fut renversé lorsque son roi tenta d'unifier son royaume avec celui d'Orkva, ce qui déclencha la guerre des Unions.
+
+Log_ImperialCivilWar_name = Guerre civile impériale
+Log_ImperialCivilWar_desc = La guerre civile impériale débuta lorsque le général Oremil tenta de renverser l'Empire central.<br>Ce conflit eut diverses répercussions géopolitiques et aboutit à la création de la Confédération Orémilienne et de la Fédération Bellienne.
+
+Log_Kosky_name = Provinces Unies de Kosky
+Log_Kosky_desc = Les Provinces Unies de Kosky sont un pays situé à l'ouest de Marklicht.<br>Sa culture est Suori. Ses différentes provinces sont assez célèbres dans le monde Suori.
+
+Log_Vlatyr_name = Province de Vlatyr
+Log_Vlatyr_desc = Vlatyr est une province des Provinces Unies de Kosky.<br>Elle est célèbre pour la Forteresse Braise et le parc d'attractions RickeyLand. Elle fut jadis le domaine d'un dragon : le seigneur Braise.
+
+Log_Runan_name = Province de Runan
+Log_Runan_desc = Runan est une province des Provinces Unies de Kosky.<br>Elle est connue pour sa neige, le Chevalier de Runan et les Chocostalines.
+
+Log_Summoners_name = La secte des Invocateurs
+Log_Summoners_desc = Peu de choses sont connues sur cette secte, si ce n'est qu'elle opère depuis la province koskyienne de Vlatyr.<br>Ses membres utilisent la magie invocatrice pour commettre des actes maléfiques.
+
+Log_Order_name = L'Ordre
+Log_Order_desc = L'Ordre Marklichto-Kalien est une organisation militaire sponsorisée par les pays de Kalia et du Marklicht.<br>Son objectif est de résoudre militairement le problème des bandits dans la Forêt Blanche.
+
+Log_RepublicanGuardIncident_name = L'incident de la garde républicaine
+Log_RepublicanGuardIncident_desc = La garde républicaine est la garde d'élite du Marchand.<br>Elle a été presque entièrement décimée lorsqu'un rebelle a placé une bombe dans son quartier général. Des civils ont également péri lors de l'incident.<br>Seuls deux gardes ont survécu à l'attaque.
+
+Log_Pal_name = Général Pal
+Log_Pal_desc = Le général Pal est le commandant de la région nord d'Orkva, ainsi que de ses forces armées.<br> Son objectif est d'anéantir les séparatistes Suori à Vorlan et Tolau.
+
+Log_Lara_name = Générale Lara
+Log_Lara_desc = La générale Lara est responsable des forces marklichtiennes dans la région de Libertville.<br>Elle est également chargée de fournir des approvisionnements à divers groupes extérieurs, tels que l'Ordre.
+
+Log_Amanda_name = Amanda
+Log_Amanda_desc = Amanda est la chef de la dernière cellule rebelle de Kalia.<br>Elle est déterminée à renverser le Marchand une fois pour toutes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log_Suori_name = The Suoris
+Log_Suori_desc = The Suori culture is the main culture in Kalia and the surrounding region.<br>Suoris pray the Great Kalibu, a god that takes the form of a caribou.<br>Suori countries include Kalia, Mirage Island, Marklicht and Kosky.
+
+Log_Marklicht_name = Union of Marklicht
+Log_Marklicht_desc = The Union of Marklicht is a country neighboring Kalia.<br>It is divided into the Suoris in the north, and the Luori in the south.<br>It was founded when General Mark made a coup d'etat and abolished the Lichtian Monarchy.
+
+Log_Orkva_name = Kingdom of Orkva
+Log_Orkva_desc = The Kingdom of Orkva is an absolute monarchy south of Kalia.<br>Orkvians worship the king of Orkva.<br> A century ago, the kingdoms of Orkva and Licht conquered the regions around Tolau, Vorlan and Libertville.
+
+Log_Libertville_name = Libertville
+Log_Libertville_desc = Libertville is a small town in northern Marklicht.<br>During the Unions war, it was almost completely destroyed.
+
+Log_WhiteForest_name = The White Forest
+Log_WhiteForest_desc = The White Forest is the large forest that lies west of Kalia.<br>It is a formidable natural protection, and acts as Kalia de jure border.
+
+Log_MirageIsland_name = Mirage Island
+Log_MirageIsland_desc = Mirage Island is home to Hope Harbor and an ancient Suori temple.<br>Hope Harbor was founded when disgruntled Tolians decided to find a new place to call their home.
+
+Log_Northmen_name = The Northmen
+Log_Northmen_desc = The Northmen are living in the frozen regions north of the Continent.<br>They live a mostly undisturbed isolation.
+
+Log_Vorlan_name = Vorlan
+Log_Vorlan_desc = Vorlan is a Suori city in northern Orkva. It was once a major trade hub.<br>After Orkva conquered the city a century ago, there was high unrest. The royal government decided to put the city into a state of lockdown to try and mitigate the situation.
+
+Log_Tolau_name = Tolau
+Log_Tolau_desc = Tolau is a Suori city in northern Orkva. It was once a major naval trade hub.<br>After Orkva conquered the city a century ago, there was high unrest. The royal government decided to put the city under a naval blockade to try and stop the separatists.
+
+Log_Okville_name = Okville
+Log_Okville_desc = Okville is an Orkvian city in northern Orkva.<br>It was originally called Altyr, but the royal government decided to raze and rebuild the city. Most of the Suori population moved to other cities.
+
+Log_OrkvaLicht_name = United Kingdom of Orkva-Licht
+Log_OrkvaLicht_desc = This union between the kingdoms of Orkva and Licht was the catalyst of the Unions war.<br>Orkva still pretends to be the heir of this union and sometimes fly its flag.
+
+Log_Licht_name = Kingdom of Licht
+Log_Licht_desc = The kingdom of Licht was the predecessor of Marklicht.<br>It was overthrown when the king tried to unite the country with Orkva's. This sparked the Unions war.
+
+Log_ImperialCivilWar_name = The Imperial Civil War
+Log_ImperialCivilWar_desc = The Imperial Civil War started when General Oremil tried to overthrown the Central Empire.<br>The conflict had various geopolitical repercussions and resulted in the creation of the Oremilian Confederation and the Bellian Federation.
+
+Log_Kosky_name = United Provinces of Kosky
+Log_Kosky_desc = The United Provinces of Kosky is a country west of Marklicht. Its culture is Suori.<br>Its various constituent provinces are rather famous in the Suori world.
+
+Log_Vlatyr_name = Vlatyr Province
+Log_Vlatyr_desc = Vlatyr is a province of the United Provinces of Kosky.<br>It is famous for the Ember Fortress and the amusement park RickeyLand. At some point, it was also the home of the dragon Lord Ember.
+
+Log_Runan_name = Runan Province
+Log_Runan_desc = Runan is a province of the United Provinces of Kosky.<br>It is known for its snow, the Knight of Runan and the Chocostalines delicacy.
+
+Log_Summoners_name = The Summoners sect
+Log_Summoners_desc = Little is known about this sect aside that they operate from the Koskyian province of Vlatyr.<br>They use summoning magic to do nefarious deeds.
+
+Log_Order_name = The Order
+Log_Order_desc = The Marklichtian-Kalian Order is a military organization sponsored by the countries of Kalia and Marklicht.<br>Its goal is to solve the bandit problem in the White Forest by military means.
+
+Log_RepublicanGuardIncident_name = The republican guard incident
+Log_RepublicanGuardIncident_desc = The republican is the elite guard of the Merchant.<br>It was nearly entierely destroyed when a rebel placed a bomb in their headquarters. Civilians also died during the incident.<br>Only two guards survived the attack.
+
+Log_Pal_name = General Pal
+Log_Pal_desc = General Pal is the man in charge of the Orkvian northern region and its military.<br>His goal is to destroy the Suori separatists in Vorlan and Tolau.
+
+Log_Lara_name = General Lara
+Log_Lara_desc = General Lara is in charge of the Marklichtian forces in the Libertville region.<br>She is also responsible for giving supplies to various external groups such as the Order.
+
+Log_Amanda_name = Amanda
+Log_Amanda_desc = Amanda is the leader of the last remaining rebel cell in Kalia.<br>She is determined to topple the Merchant once and for all.

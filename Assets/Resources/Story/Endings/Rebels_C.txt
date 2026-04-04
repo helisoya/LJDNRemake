@@ -66,6 +66,8 @@ setCharacterPosition(Pal;FrontL)
 setCharacterRotation(Pal;FrontL)
 setCharacterAlpha(Pal;1;false)
 
+unlockLog(Log_Pal;true)
+
 dialog(Pal;Pal;false;Ending_Rebels_71)
 
 dialog(Amanda;Amanda;false;Ending_Rebels_72)

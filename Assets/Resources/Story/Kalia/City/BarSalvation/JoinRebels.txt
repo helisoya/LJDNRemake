@@ -188,6 +188,8 @@ variable(rebelQuest_0;100)
 variable(marklichtQuest_0;-1)
 addExpToAll(10)
 
+unlockLog(Log_Amanda;true)
+
 playMusic(Exploration_Kalia)
 
 load(Kalia/City/BarSalvation/Waiter_Exit)
