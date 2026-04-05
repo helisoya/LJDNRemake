@@ -860,7 +860,7 @@ Tolau_Port_MarklichtQuest3_14 = This boat is mine ! I'll get to this Island, you
 Tolau_Port_MarklichtQuest3_15 = ...
 Tolau_Port_MarklichtQuest3_16 = Well. I guess we know what he's up to now.
 Tolau_Port_MarklichtQuest3_17 = Still, why Mirage Island ?
-Tolau_Port_MarklichtQuest3_18 = The temple he mentioned... It must be another artefact.
+Tolau_Port_MarklichtQuest3_18 = The temple he mentioned... It must be another artifact.
 Tolau_Port_MarklichtQuest3_19 = Let's follow him. We can't let him steal another one.
 Tolau_Port_MarklichtQuest3_20 = And the blockade ?
 Tolau_Port_MarklichtQuest3_21 = We'll figure something out.
@@ -882,7 +882,7 @@ Tolau_Port_MerchantQuest3_14 = Let's find our way to Mirage Island's Forest.
 Tolau_Port_MerchantQuest3_15 = ... Wait... Why the forest ?
 Tolau_Port_MerchantQuest3_16 = Is there anything in there ?
 Tolau_Port_MerchantQuest3_17 = Oh, right. There's an old Suori temple right at the center of it.
-Tolau_Port_MerchantQuest3_18 = The artefact is in there.
+Tolau_Port_MerchantQuest3_18 = The artifact is in there.
 Tolau_Port_MerchantQuest3_19 = Alright. Let's go, then.
 Tolau_Port_MerchantQuest3_20 = <color=blue>Sword added to the party.</color>
 
@@ -966,7 +966,7 @@ Tolau_Lighthouse_RebelQuest3_14 = He was yelling at a dockmaster. Told him he wa
 Tolau_Lighthouse_RebelQuest3_15 = Mirage Forest ? That's a dangerous place.
 Tolau_Lighthouse_RebelQuest3_16 = Yeah... Why would he go there ? Then I remembered something.
 Tolau_Lighthouse_RebelQuest3_17 = Beyond the forest are some ruins. I'm sure that's his ultimate goal.
-Tolau_Lighthouse_RebelQuest3_18 = Ruins... Maybe the Merchant wants him to steal another artefact.
+Tolau_Lighthouse_RebelQuest3_18 = Ruins... Maybe the Merchant wants him to steal another artifact.
 Tolau_Lighthouse_RebelQuest3_19 = That's what I think. But it could be something else.
 Tolau_Lighthouse_RebelQuest3_20 = I want you to investigate whatever he wants to steal.
 Tolau_Lighthouse_RebelQuest3_21 = Alright. We'll do that.

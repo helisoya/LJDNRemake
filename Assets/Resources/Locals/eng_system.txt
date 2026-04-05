@@ -303,7 +303,7 @@ rebelQuest_3 = An Adventure !
 rebelQuest_3_0 = Bos is at the lighthouse with the adventure's details !
 rebelQuest_3_1 = Find your way to Mirage Island's Forest.
 rebelQuest_3_2 = Report back to the rebels at their HQ in Kalia's Salvation bar
-rebelQuest_3_done = I prevented another artefact theft
+rebelQuest_3_done = I prevented another artifact theft
 
 rebelQuest_4 = For the people
 rebelQuest_4_0 = Distribute leaflets at Kalia's central plaza
@@ -371,9 +371,9 @@ merchantQuest_2_done = I discovered where the rebels are hiding
 
 merchantQuest_3 = Island Expedition
 merchantQuest_3_0 = Meet Sword at Tolau's docks
-merchantQuest_3_1 = Find the artefact in the Mirage Island's Forest
+merchantQuest_3_1 = Find the artifact in the Mirage Island's Forest
 merchantQuest_3_2 = Report back to the Merchant at Kalia's palace
-merchantQuest_3_done = We found the artefact
+merchantQuest_3_done = We found the artifact
 
 merchantQuest_4 = Finishing the rebels
 merchantQuest_4_0 = Go to Iberty's Catacombs
@@ -769,7 +769,7 @@ Log_Bandits_name = Bandits
 Log_Bandits_desc = Organized crime is quite common in the region.<br>Driven by poverty and sometimes purely by greed, gangs were formed to attack anyone who would dare enter the White Forest.<br>Gangs aren't unified and don't work together usually.
 
 Log_Merchant_name = The Merchant
-Log_Merchant_desc = The Merchant is the current consul and dictator of Kalia.<br>After winning an election decried as rigged, he dissolved the parliement.<br>He is known for loving rare artefacts, and will do anything to get his hands on new ones.
+Log_Merchant_desc = The Merchant is the current consul and dictator of Kalia.<br>After winning an election decried as rigged, he dissolved the parliement.<br>He is known for loving rare artifacts, and will do anything to get his hands on new ones.
 
 Log_Rebels_name = The Rebellion
 Log_Rebels_desc = The rebels are opposed to the rule of the Merchant.<br>There were many resistance groups at the start of the Merchant's rule, but now, there is only one left.<br>They are determined to topple the consul.
