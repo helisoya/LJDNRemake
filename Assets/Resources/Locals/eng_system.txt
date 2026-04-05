@@ -703,6 +703,8 @@ ITEM_HIGHPOTION_name = Medic Bag
 ITEM_HIGHPOTION_desc = Restore 50 HP to one ally
 ITEM_REVIVE_name = Holy Water
 ITEM_REVIVE_desc = Revive an ally (10 HP)
+ITEM_HIGH_REVIVE_name = Defibrilator
+ITEM_HIGH_REVIVE_desc = Revive an ally (50 HP)
 ITEM_SLEEP_name = Sleeping gas
 ITEM_SLEEP_desc = Put a foe to sleep
 ONEHANDED_AXE_name = Axe
@@ -747,7 +749,8 @@ ARMOR_RIOTSHIELD_name = Heavy Riot Shield
 ARMOR_RIOTSHIELD_desc = A riot shield that was used by the founder of the Order.<br>+8 DEF
 ARMOR_UNIFORM_name = Uniform
 ARMOR_UNIFORM_desc = A standard military uniform.<br>+3 DEF
-
+FIREARM_HANDGUN_name = Handgun
+FIREARM_HANDGUN_desc = A reliable gun used by many bandits.<br>+3 ATK
 
 # ------------------------------------------------------------------------
 # -------------------------------- Logs ----------------------------------

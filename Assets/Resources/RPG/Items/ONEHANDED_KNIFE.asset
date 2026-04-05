@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ONEHANDED_KNIFE
   m_EditorClassIdentifier: 
   ID: ONEHANDED_KNIFE
-  sellValue: 8
+  sellValue: 10
   type: 3
   targetType: 0
   damageType: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: 
+  audioName: Hand
   linkedStatus: 0
   statusEffect: 0
   statusLength: 0

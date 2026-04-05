@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ITEM_CURE
   m_EditorClassIdentifier: 
   ID: ITEM_CURE
-  sellValue: 15
+  sellValue: 10
   type: 2
   targetType: 2
   damageType: 1
@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: Attack1
+  audioName: 
   linkedStatus: 0
   statusEffect: 2
   statusLength: 3

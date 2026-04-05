@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: 
+  audioName: Gun
   linkedStatus: 0
   statusEffect: 0
   statusLength: 0

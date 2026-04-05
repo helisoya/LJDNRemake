@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ARMOR_RIOTSHIELD
   m_EditorClassIdentifier: 
   ID: ARMOR_RIOTSHIELD
-  sellValue: 40
+  sellValue: 500
   type: 4
   targetType: 0
   damageType: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: 
+  audioName: 
   linkedStatus: 0
   statusEffect: 0
   statusLength: 0

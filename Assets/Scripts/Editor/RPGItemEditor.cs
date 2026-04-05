@@ -30,6 +30,7 @@ public class RPGItemEditor : Editor
     SerializedProperty m_statusEffect;
     SerializedProperty m_statusLength;
     SerializedProperty m_statusChance;
+    SerializedProperty m_audioName;
 
 
     void OnEnable()
@@ -53,6 +54,7 @@ public class RPGItemEditor : Editor
         m_statusEffect = serializedObject.FindProperty("statusEffect");
         m_statusLength = serializedObject.FindProperty("statusLength");
         m_statusChance = serializedObject.FindProperty("statusChance");
+        m_audioName = serializedObject.FindProperty("audioName");
     }
 
 
@@ -73,6 +75,7 @@ public class RPGItemEditor : Editor
                 EditorGUILayout.PropertyField(m_weaponType, new GUIContent("Weapon type"));
                 EditorGUILayout.PropertyField(m_weaponSkills, new GUIContent("Weapon skills"));
                 EditorGUILayout.PropertyField(m_linkedAnimatior, new GUIContent("Linked animator"));
+                EditorGUILayout.PropertyField(m_audioName, new GUIContent("Audio Name"));
             }
 
             EditorGUILayout.PropertyField(m_stats, new GUIContent("Weapon/Armor value"));

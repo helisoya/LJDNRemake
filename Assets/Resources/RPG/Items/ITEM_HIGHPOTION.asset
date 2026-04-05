@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ITEM_HIGHPOTION
   m_EditorClassIdentifier: 
   ID: ITEM_HIGHPOTION
-  sellValue: 35
+  sellValue: 40
   type: 1
   targetType: 2
   damageType: 1
@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: Drink1
+  audioName: 
   linkedStatus: 0
   statusEffect: 0
   statusLength: 0

@@ -34,6 +34,6 @@ MonoBehaviour:
     level: 1
     currentHP: 0
     currentSP: 0
-    exp: 8
+    exp: 20
     canChangeEquipement: 1
   constants: {fileID: 11400000, guid: f20e2ea7ca9b0dd469067969a2740eb4, type: 2}

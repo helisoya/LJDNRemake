@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ITEM_ATTACK_UP
   m_EditorClassIdentifier: 
   ID: ITEM_ATTACK_UP
-  sellValue: 15
+  sellValue: 20
   type: 2
   targetType: 2
   damageType: 1
@@ -23,9 +23,10 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: Attack1
+  audioName: 
   linkedStatus: 4
   statusEffect: 1
-  statusLength: 3
+  statusLength: 5
   statusChance: 1
   weaponType: 0
   statsValue: 5

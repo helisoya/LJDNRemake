@@ -19,6 +19,7 @@ public class RPGItem : ScriptableObject
     public float defenseValue;
     public float costSP;
     public string animationName;
+    public string audioName;
     public RPGCharacterData.StatusType linkedStatus;
     public StatusEffect statusEffect;
     public int statusLength;

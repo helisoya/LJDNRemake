@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ARMOR_HERO2
   m_EditorClassIdentifier: 
   ID: ARMOR_HERO2
-  sellValue: 20
+  sellValue: 999
   type: 4
   targetType: 0
   damageType: 0
@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 0
   costSP: 0
   animationName: 
+  audioName: 
   linkedStatus: 0
   statusEffect: 0
   statusLength: 0

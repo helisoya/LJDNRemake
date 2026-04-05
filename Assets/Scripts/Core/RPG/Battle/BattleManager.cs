@@ -35,6 +35,10 @@ public class BattleManager : MonoBehaviour
     [Header("Quests")]
     [SerializeField] private BattleQuestData[] quests;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioData audioData;
+
     [Header("DEBUG")]
     [SerializeField] private bool useDebug = true;
     [SerializeField] private BattleData data;
@@ -421,6 +425,9 @@ public class BattleManager : MonoBehaviour
             GameManager.GetRPGManager().AddItemToInventory(item.ID, -1);
         }
 
+        RPGItem currentWeapon = !string.IsNullOrEmpty(order[currentOrderIdx].characterData.GetData().weapon) ?
+            GameManager.GetRPGManager().GetItem(order[currentOrderIdx].characterData.GetData().weapon) : null;
+
 
         bool isHealing = item.damageType == RPGItem.DamageType.HEAL || item.damageType == RPGItem.DamageType.HEAL_DEAD;
         bool canResurect = item.damageType == RPGItem.DamageType.HEAL_DEAD;
@@ -435,6 +442,8 @@ public class BattleManager : MonoBehaviour
 
         SetCameraTargetToCurrentPlayer();
         if (order[currentOrderIdx].isPlayer) gui.GetPlayerIcon(order[currentOrderIdx].characterData.GetData().ID).UpdateIcon();
+        if (!isFromInventory && currentWeapon && !string.IsNullOrEmpty(currentWeapon.audioName) && audioData.attackSounds.ContainsKey(currentWeapon.audioName)) source.PlayOneShot(audioData.attackSounds[currentWeapon.audioName]);
+        else if (!isFromInventory && !currentWeapon) source.PlayOneShot(audioData.attackSounds["Hand"]);
         order[currentOrderIdx].characterVisual.PlayAnimation(item.animationName);
         yield return new WaitForSeconds(1f);
 
@@ -485,7 +494,11 @@ public class BattleManager : MonoBehaviour
             // Actual Attack
             data.characterData.AddHealth(-actualDamage);
             if (data.isPlayer) gui.GetPlayerIcon(data.characterData.GetData().ID).UpdateIcon();
-            if (!isHealing && data.status.Find(entry => entry.status == RPGCharacterData.StatusType.SLEEP) == null) data.characterVisual.TriggerDamage();
+            if (!isHealing && data.status.Find(entry => entry.status == RPGCharacterData.StatusType.SLEEP) == null)
+            {
+                source.PlayOneShot(audioData.hitSound);
+                data.characterVisual.TriggerDamage();
+            }
 
             data.characterVisual.SetHealthBarVisible(true);
             data.characterVisual.setHealthBarFillAmount(data.characterData.currentHealth / (float)data.characterData.maxHealth, false);
@@ -1015,5 +1028,12 @@ public class BattleManager : MonoBehaviour
     {
         public RPGItem item;
         public int amountInInventory;
+    }
+
+    [System.Serializable]
+    public struct AudioData
+    {
+        public AudioClip hitSound;
+        public SerializedDictionary<string, AudioClip> attackSounds;
     }
 }
