@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -213,6 +212,7 @@ public class DungeonGUI : MonoBehaviour
     private IEnumerator Routine_ChangeScene(string scene)
     {
         Time.timeScale = 1f;
+        AudioManager.instance.PlaySong(null);
         FadeTo(1);
         yield return new WaitForEndOfFrame();
         while (fading) yield return new WaitForEndOfFrame();

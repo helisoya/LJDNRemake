@@ -179,6 +179,7 @@ public class DungeonManager : MonoBehaviour
         gui.SetFloor(currentFloor + 1);
         if (currentFloor == data.floorsAmount)
         {
+            AudioManager.instance.PlaySong(null);
             GameManager.instance.SetNextChapter(data.endChapter);
             SceneManager.LoadScene("VN");
         }

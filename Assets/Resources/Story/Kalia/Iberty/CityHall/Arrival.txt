@@ -3,7 +3,7 @@ setFg(1)
 
 setLocals(kaliaRegion)
 
-playMusic()
+playMusic(Exploration_KaliaRegion)
 removeAllCharacters()
 setBackground(Kalia/Iberty/CityHall)
 
