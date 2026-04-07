@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TWOHANDED_KATANA
   m_EditorClassIdentifier: 
   ID: TWOHANDED_KATANA
-  sellValue: 60
+  sellValue: 100
   type: 3
   targetType: 0
   damageType: 0

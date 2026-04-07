@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ARMOR_UNIFORM
   m_EditorClassIdentifier: 
   ID: ARMOR_UNIFORM
-  sellValue: 25
+  sellValue: 30
   type: 4
   targetType: 0
   damageType: 0

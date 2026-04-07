@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ONEHANDED_AXE
   m_EditorClassIdentifier: 
   ID: ONEHANDED_AXE
-  sellValue: 25
+  sellValue: 30
   type: 3
   targetType: 0
   damageType: 0

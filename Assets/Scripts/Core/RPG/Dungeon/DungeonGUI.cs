@@ -75,7 +75,8 @@ public class DungeonGUI : MonoBehaviour
     /// <param name="playerPos">The player position</param>
     public void UpdateMiniMap(Grid2D<Generator2D.CellType> grid, Vector2Int playerPos)
     {
-        int gridSize = 5;
+        int gridSize = 7;
+        int middlePos = Mathf.FloorToInt(gridSize / 2.0f);
         int x;
         int y;
         Color color;
@@ -83,9 +84,9 @@ public class DungeonGUI : MonoBehaviour
         {
             y = i / gridSize;
             x = i % gridSize;
-            if (x == 2 && y == 2) continue;
-            x = playerPos.x + (x - 2);
-            y = playerPos.y - (y - 2);
+            if (x == middlePos && y == middlePos) continue;
+            x = playerPos.x + (x - middlePos);
+            y = playerPos.y - (y - middlePos);
 
 
             if (x < 0 || y < 0 || y > grid.Size.y - 1 || x > grid.Size.x - 1) color = Color.black;

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ARMOR_TRENCHCOAT
   m_EditorClassIdentifier: 
   ID: ARMOR_TRENCHCOAT
-  sellValue: 40
+  sellValue: 60
   type: 4
   targetType: 0
   damageType: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FIREARM_RIFLE
   m_EditorClassIdentifier: 
   ID: FIREARM_RIFLE
-  sellValue: 60
+  sellValue: 80
   type: 3
   targetType: 0
   damageType: 0

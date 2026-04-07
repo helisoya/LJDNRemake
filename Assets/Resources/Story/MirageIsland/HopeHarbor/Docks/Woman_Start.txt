@@ -24,5 +24,6 @@ dialog(narrator;_;false;HopeHarbor_Docks_Woman_StartQuest_11)
 dialog(narrator;_;false;HopeHarbor_Docks_Woman_StartQuest_12)
 
 variable(secondaryQuest_HopeHarbor_Cottage;0)
+variable(canTravel_Region_MirageIsland_Cottage;1)
 
 load(MirageIsland/HopeHarbor/Docks/Interaction)

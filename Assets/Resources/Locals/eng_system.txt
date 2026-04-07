@@ -828,7 +828,7 @@ Log_Summoners_desc = Little is known about this sect aside from the fact that th
 Log_Order_name = The Order
 Log_Order_desc = The Marklichtian-Kalian Order is a military organization sponsored by the countries of Kalia and Marklicht.<br>Its goal is to solve the bandit problem in the White Forest by military means.
 
-Log_RepublicanGuardIncident_name = The republican guard incident
+Log_RepublicanGuardIncident_name = The Republican Guard Incident
 Log_RepublicanGuardIncident_desc = The republican is the elite guard of the Merchant.<br>It was nearly entirely destroyed when a rebel placed a bomb in their headquarters. Civilians also died during the incident.<br>Only two guards survived the attack.
 
 Log_Pal_name = General Pal
@@ -839,3 +839,6 @@ Log_Lara_desc = General Lara is in charge of the Marklichtian forces in the Libe
 
 Log_Amanda_name = Amanda
 Log_Amanda_desc = Amanda is the leader of the last remaining rebel cell in Kalia.<br>She is determined to topple the Merchant once and for all.
+
+Log_UnionsWar_name = The Unions War
+Log_UnionsWar_desc = After the deposition of the Lichtian monarch, Orkva decided to proclaim itself the "United Kingdom of Orkva-Licht" and invaded Marklicht.<br>The war ended in a stalemate, and Orkva had to give up on their dreams of uniting the two countries. 

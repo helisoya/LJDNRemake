@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FIREARM_REVOLVER
   m_EditorClassIdentifier: 
   ID: FIREARM_REVOLVER
-  sellValue: 35
+  sellValue: 40
   type: 3
   targetType: 0
   damageType: 0

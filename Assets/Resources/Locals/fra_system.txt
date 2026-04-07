@@ -809,7 +809,7 @@ Log_OrkvaLicht_desc = Cette union entre les royaumes d'Orkva et de Licht a été
 Log_Licht_name = Royaume de Licht
 Log_Licht_desc = Le royaume de Licht était l'ancêtre du Marklicht.<br>Il fut renversé lorsque son roi tenta d'unifier son royaume avec celui d'Orkva, ce qui déclencha la guerre des Unions.
 
-Log_ImperialCivilWar_name = Guerre civile impériale
+Log_ImperialCivilWar_name = Guerre Civile Impériale
 Log_ImperialCivilWar_desc = La guerre civile impériale débuta lorsque le général Oremil tenta de renverser l'Empire central.<br>Ce conflit eut diverses répercussions géopolitiques et aboutit à la création de la Confédération Orémilienne et de la Fédération Bellienne.
 
 Log_Kosky_name = Provinces Unies de Kosky
@@ -827,7 +827,7 @@ Log_Summoners_desc = Peu de choses sont connues sur cette secte, si ce n'est qu'
 Log_Order_name = L'Ordre
 Log_Order_desc = L'Ordre Marklichto-Kalien est une organisation militaire sponsorisée par les pays de Kalia et du Marklicht.<br>Son objectif est de résoudre militairement le problème des bandits dans la Forêt Blanche.
 
-Log_RepublicanGuardIncident_name = L'incident de la garde républicaine
+Log_RepublicanGuardIncident_name = L'incident de la Garde Républicaine
 Log_RepublicanGuardIncident_desc = La garde républicaine est la garde d'élite du Marchand.<br>Elle a été presque entièrement décimée lorsqu'un rebelle a placé une bombe dans son quartier général. Des civils ont également péri lors de l'incident.<br>Seuls deux gardes ont survécu à l'attaque.
 
 Log_Pal_name = Général Pal
@@ -838,3 +838,6 @@ Log_Lara_desc = La générale Lara est responsable des forces marklichtiennes da
 
 Log_Amanda_name = Amanda
 Log_Amanda_desc = Amanda est la chef de la dernière cellule rebelle de Kalia.<br>Elle est déterminée à renverser le Marchand une fois pour toutes.
+
+Log_UnionsWar_name = La Guerre des Unions
+Log_UnionsWar_desc = Après l'abolition de la monarchie Lichtienne, Orkva a décidé de s'autoproclamer comme le "Royaume Unis d'Orkva-Licht" et d'envahir le Marklicht.<br>La guerre finissa sans vainqueur évident, et Orkva dû abandonner ses ambitions unificatrices.

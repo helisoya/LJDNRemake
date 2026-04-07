@@ -14,7 +14,8 @@ fadeBg(1;true)
 
 dialog(narrator;_;false;Okville_TrainStation_ArcQuest_27)
 
-setBackground(Orkva/TolauFarm)
+setBackground(Orkva/Region/TolauFarm)
+load(Common/DisplayWeatherRain)
 
 fadeBg(0;false)
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FIREARM_SHOTGUN
   m_EditorClassIdentifier: 
   ID: FIREARM_SHOTGUN
-  sellValue: 100
+  sellValue: 150
   type: 3
   targetType: 0
   damageType: 0

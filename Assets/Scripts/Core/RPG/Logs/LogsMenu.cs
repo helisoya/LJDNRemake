@@ -59,7 +59,7 @@ public class LogsMenu : MonoBehaviour
     private void AddLogButtons()
     {
         Log[] logs = GameManager.instance.GetLogs();
-        Array.Sort(logs, (Log a, Log b) => { return Locals.GetLocal(a.id + "_name").CompareTo(b.id + "_name"); });
+        Array.Sort(logs, (Log a, Log b) => { return Locals.GetLocal(a.id + "_name").CompareTo(Locals.GetLocal(b.id + "_name")); });
         bool unlocked;
 
         foreach(Log log in logs)

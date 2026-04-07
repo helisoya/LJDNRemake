@@ -1,6 +1,6 @@
 clearStack()
 
 setInteractionChapter(Exit;MAP-City_HopeHarbor-City_HopeHarbor_Inn)
-setInteractionChapter(Citizen3;MirageIsland/HopeHarbor/Inn/Owner_Enter)
+setInteractionChapter(Citizen4;MirageIsland/HopeHarbor/Inn/Owner_Enter)
 
 interact

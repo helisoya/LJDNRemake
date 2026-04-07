@@ -28,7 +28,7 @@ MonoBehaviour:
       - Key: 4
         Value: 15
       - Key: 5
-        Value: 25
+        Value: 30
     weapon: TWOHANDED_KATANA
     armor: ARMOR_HERO2
     level: 1

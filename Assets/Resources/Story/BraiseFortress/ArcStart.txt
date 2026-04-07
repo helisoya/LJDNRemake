@@ -46,5 +46,6 @@ setCharacterAlpha(GUARD;0;true)
 removeAllCharacters()
 
 setInteractionChapter(Bridge;BraiseFortress/DungeonStart)
+setInteractionHidden(Exit;true)
 
 interact

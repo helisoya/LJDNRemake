@@ -19,10 +19,11 @@ MonoBehaviour:
   damageType: 1
   attackEquation: 0
   defenseEquation: 0
-  attackValue: 0.75
+  attackValue: 1.5
   defenseValue: 0
   costSP: 4
   animationName: Drink1
+  audioName: 
   linkedStatus: 3
   statusEffect: 0
   statusLength: 3

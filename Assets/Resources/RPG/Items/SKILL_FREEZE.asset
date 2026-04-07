@@ -23,6 +23,7 @@ MonoBehaviour:
   defenseValue: 1
   costSP: 3
   animationName: Attack1
+  audioName: 
   linkedStatus: 5
   statusEffect: 1
   statusLength: 5

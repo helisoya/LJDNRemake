@@ -15,9 +15,9 @@ setLocation(Location_HopeHarbor)
 
 autosave()
 
-addCharacter(Citizen3;false)
-setCharacterPosition(Citizen3;Waiter)
-setCharacterRotation(Citizen3;Waiter)
+addCharacter(Citizen4;false)
+setCharacterPosition(Citizen4;Waiter)
+setCharacterRotation(Citizen4;Waiter)
 
 fadeFg(0;false)
 
