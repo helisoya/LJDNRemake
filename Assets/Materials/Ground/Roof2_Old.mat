@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WoodPlanks
+  m_Name: Roof2_Old
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,8 +35,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: f5f9faf297c76924e87ff295a13d357a, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: 13f123306479ebe43aa54f4d71643251, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -59,8 +59,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f5f9faf297c76924e87ff295a13d357a, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: 13f123306479ebe43aa54f4d71643251, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -119,8 +119,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.4528302, g: 0.31715462, b: 0.23666784, a: 1}
-    - _Color: {r: 0.45283014, g: 0.3171546, b: 0.23666781, a: 1}
+    - _BaseColor: {r: 0.754717, g: 0.6211728, b: 0.36596653, a: 1}
+    - _Color: {r: 0.75471693, g: 0.6211727, b: 0.3659665, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
